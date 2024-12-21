@@ -25,7 +25,16 @@ module.exports = defineConfig({
         transpileDependencies: [
         'vuetify'
     ],
-    outputDir: '../dist',
+    outputDir: 'dist',
+    //Recommended by ChatGPT, no clue if this is correct
+    configureWebpack: {
+        output: {
+            libraryExport: 'default'
+        },
+    },
+    css: {
+      extract: false
+    },
 
     // relative to outputDir
     assetsDir: 'static',

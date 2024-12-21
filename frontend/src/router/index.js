@@ -15,5 +15,9 @@ export default new Router({
             name: 'PTMNavigator',
             component: PTMNavigator
         }
-    ]
+    ],
+    //TODO: Recommended by ChatGPT, no clue if this is correct
+    install(app){
+        app.component("PTMNavigator", PTMNavigator)
+    }
 });

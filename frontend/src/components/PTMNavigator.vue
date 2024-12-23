@@ -452,8 +452,7 @@
           <v-card class="my-2">
             <v-card-title>
               <h2 class="text-h6">
-<!--                TODO: Get Name from Backend API-->
-                Save to ProteomicsDB:
+                Save to {{backendApi.getBackendName()}}:
               </h2>
             </v-card-title>
             <v-form
@@ -1184,10 +1183,10 @@ import responseCurve from "@/components/ResponseCurve";
 import TheKinaseActivityThresholder from "@/components/TheKinaseActivityThresholder";
 import downloader from '@/components/DownloadSpeedDial'
 import utils from '@/utils/downloadUtils'
-//TODO: Comment in once renew session is reimplemented
-// import uploadUtils from '@/plugins/CustomUploadUtils'
 import ThePathwayEnrichmentTables from "@/components/ThePathwayEnrichmentTables";
 import TheSelectedNodesTable from "@/components/TheSelectedNodesTable";
+/** @typedef {import('@/types/backendApiInterface').BackendApiInterface} BackendApiInterface */
+import {apiValidator} from "@/types/backendApiInterface";
 
 if (window.customElements.get('biowc-pathwaygraph') === undefined) {
   window.customElements.define('biowc-pathwaygraph', BiowcPathwaygraph)
@@ -1203,9 +1202,12 @@ export default {
     downloader
   },
   props: {
+    /** @type {BackendApiInterface} */
     backendApi: {
+      //TODO: Provide interface, maybe in another file?
       type: Object,
-      required: true
+      required: true,
+      validator: apiValidator
     }
   },
   metaInfo () {
@@ -1470,7 +1472,7 @@ export default {
     },
 
     async loadOrganisms () {
-      const organismResponse = await this.backendApi.getOrganisms()
+      const organismResponse = this.backendApi.getOrganisms()
       this.organismList = organismResponse.map(datum => {
         return { text: datum.name, value: datum.taxcode }
       })
@@ -1491,7 +1493,9 @@ export default {
 
     async loadExperimentDesigns () {
       if (this.selectedProject) {
-        this.experimentDesigns = await this.backendApi.getExperimentDesigns(this.selectedProject.value)
+        //TODO: ESLint told me to remove the await here bc it is redundant.
+        // Need to check if this was a good suggestion.
+        this.experimentDesigns = this.backendApi.getExperimentDesigns(this.selectedProject.value)
       }
     },
 
@@ -1763,7 +1767,7 @@ export default {
       this.dataLoadingSnackbar = false
       this.userDataLoading = false
       this.clearPathwayGraph()
-      this.renewSession()
+      this.backendApi.renewSession(this.uuid)
       this.selectAllExperiments()
 
       // Collapse the dataset and experiment menus (indices 0 and 1)
@@ -1894,7 +1898,7 @@ export default {
         // If the user does not have a session ID yet, create it
         if (!this.$cookie.get('analyticsUploadSessionID')) {
           // TODO: Check if this causes an error since I am not supplying a UUID
-          const sessionIdResponse = await this.backendApi.checkSessionId()
+          const sessionIdResponse = await this.backendApi.checkSessionId(undefined)
           this.uuid = sessionIdResponse.uuid
         }
 
@@ -2066,10 +2070,6 @@ export default {
       this.downloadSelectedProteinsCsvLoading = false
     },
 
-    renewSession () {
-      console.log('TODO: Reimplement')
-      // uploadUtils.renewSession(this.$store.state.host, this.uuid)
-    },
     selectAllExperiments () {
       if (this.isUserDataMode) {
         this.userExperimentFilter = this.allExperimentNames
@@ -2105,9 +2105,9 @@ export default {
     },
     async filterPathways (searchStringArray) {
       if (searchStringArray.length > 0) {
-        const filteredPathwayIds = await this.backendApi.getFilteredPathwayIds(
-          searchStringArray.join(';'),
-          this.selectedOrganism.value
+        const filteredPathwayIds = this.backendApi.getFilteredPathwayIds(
+            searchStringArray.join(';'),
+            this.selectedOrganism.value
         )
         this.pathwayListFiltered = this.pathwayList.filter(pathway => filteredPathwayIds.includes(pathway.value))
       } else {
@@ -2214,10 +2214,10 @@ export default {
         if (this.isUserDataMode) {
           for (const item of this.enrichmentStatuses) {
             if (item.status === 'in progress') {
-              const userEnrichmentResponseRaw = await this.backendApi.getUserEnrichmentResults(
-                this.uuid,
-                this.selectedDatasetForEnrichment.datasetId,
-                item.enrichmentTypeId
+              const userEnrichmentResponseRaw = this.backendApi.getUserEnrichmentResults(
+                  this.uuid,
+                  this.selectedDatasetForEnrichment.datasetId,
+                  item.enrichmentTypeId
               )
 
               const userEnrichmentResponseOfDataset = userEnrichmentResponseRaw[this.selectedDatasetForEnrichment.datasetId]
@@ -2249,8 +2249,8 @@ export default {
           }
         } else {
           // Load enrichment results from the server
-          const experimentEnrichmentResponseRaw = await this.backendApi.getPrdbEnrichmentResults(
-            this.selectedDatasetForEnrichment.datasetId)
+          const experimentEnrichmentResponseRaw = this.backendApi.getPrdbEnrichmentResults(
+              this.selectedDatasetForEnrichment.datasetId)
 
           this.enrichmentResponse = this.formatEnrichmentResponsePrDB(
             experimentEnrichmentResponseRaw[this.selectedDatasetForEnrichment.datasetId])

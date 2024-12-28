@@ -1,6 +1,7 @@
 //Readme: If you add a new method to this interface, also add it to 'requiredMethods' in the validator below!
 /**
  * @typedef {Object} BackendApiInterface
+ * @property {() => String} getDefaultSessionId
  * @property {() => String} getBackendName
  * @property {(uuid: string||undefined) => CheckSessionIdResult} checkSessionId
  * @property {(uuid: string) => void} renewSession
@@ -98,6 +99,7 @@ export function apiValidator(api) {
     //For now, only check that every method is implemented
     //This does not test if the signature of the method is correct, but enough is enough...
     const requiredMethods = [
+        'getDefaultSessionId',
         'getBackendName',
         'checkSessionId',
         'renewSession',

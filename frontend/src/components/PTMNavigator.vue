@@ -1301,7 +1301,6 @@ export default {
       enrichmentStatuses: [],
 
       perturbedNodes: { up: [], down: [], undirected: [] },
-      defaultSessionId: '0123456789ABCDEF0123456789ABCDEF',
       selectedDatasetForEnrichment: undefined,
       customPathwayNameRules: {
         required: value => !!value || 'Required',
@@ -1314,13 +1313,16 @@ export default {
     }
   },
   computed: {
-    responseCurveContainerWidth: function () {
+    defaultSessionId () {
+      return this.backendApi.getDefaultSessionId()
+    },
+    responseCurveContainerWidth () {
       // Sorry eslint, I need this because the clientWidth is not reactive by itself
       // eslint-disable-next-line no-unused-expressions
       this.refreshColumnWidthKey
       return Number(this.$refs.leftColumn.clientWidth)
     },
-    isUserDataMode: function () {
+    isUserDataMode () {
       // this.tabs is 0 if we are in 'internal data' mode, and 1 if we are in 'user data mode'
       return this.dataTabs === 1
     },
@@ -1371,7 +1373,6 @@ export default {
             d.setTime(d.getTime() + 14 * 24 * 60 * 60 * 1000)
             // Only set the cookie if it is not the one for the default dataset
             if (this.uuid !== this.defaultSessionId) {
-              // TODO: Refactor cookie
               this.$cookie.set('analyticsUploadSessionID', this.uuid, { expires: d })
             }
             this.userDatasets = response.datasets.filter(d => d.omicsType.startsWith('decryptM') || d.omicsType.startsWith('FoldChange'))
@@ -1472,7 +1473,7 @@ export default {
     },
 
     async loadOrganisms () {
-      const organismResponse = this.backendApi.getOrganisms()
+      const organismResponse = await this.backendApi.getOrganisms()
       this.organismList = organismResponse.map(datum => {
         return { text: datum.name, value: datum.taxcode }
       })
@@ -1493,9 +1494,7 @@ export default {
 
     async loadExperimentDesigns () {
       if (this.selectedProject) {
-        //TODO: ESLint told me to remove the await here bc it is redundant.
-        // Need to check if this was a good suggestion.
-        this.experimentDesigns = this.backendApi.getExperimentDesigns(this.selectedProject.value)
+        this.experimentDesigns = await this.backendApi.getExperimentDesigns(this.selectedProject.value)
       }
     },
 
@@ -1902,7 +1901,7 @@ export default {
           this.uuid = sessionIdResponse.uuid
         }
 
-        this.currentlyEditedPathwayId = this.backendApi.storeCustomPathway(
+        this.currentlyEditedPathwayId = await this.backendApi.storeCustomPathway(
           exportedSkeleton, this.uuid, this.customPathwayName, this.currentlyEditedPathwayId)
 
         this.editorContainsUnsavedChanges = false
@@ -2105,7 +2104,7 @@ export default {
     },
     async filterPathways (searchStringArray) {
       if (searchStringArray.length > 0) {
-        const filteredPathwayIds = this.backendApi.getFilteredPathwayIds(
+        const filteredPathwayIds = await this.backendApi.getFilteredPathwayIds(
             searchStringArray.join(';'),
             this.selectedOrganism.value
         )
@@ -2214,9 +2213,10 @@ export default {
         if (this.isUserDataMode) {
           for (const item of this.enrichmentStatuses) {
             if (item.status === 'in progress') {
-              const userEnrichmentResponseRaw = this.backendApi.getUserEnrichmentResults(
+              const userEnrichmentResponseRaw = await this.backendApi.getUserEnrichmentResults(
                   this.uuid,
-                  this.selectedDatasetForEnrichment.datasetId,
+                  //TODO: This list-ification might bite me later
+                  [this.selectedDatasetForEnrichment.datasetId],
                   item.enrichmentTypeId
               )
 
@@ -2249,7 +2249,7 @@ export default {
           }
         } else {
           // Load enrichment results from the server
-          const experimentEnrichmentResponseRaw = this.backendApi.getPrdbEnrichmentResults(
+          const experimentEnrichmentResponseRaw = await this.backendApi.getPrdbEnrichmentResults(
               this.selectedDatasetForEnrichment.datasetId)
 
           this.enrichmentResponse = this.formatEnrichmentResponsePrDB(

@@ -1,16 +1,22 @@
 <template>
   <div id="app">
-    <PTMNavigator backend-api="TODO"/>
+    <PTMNavigator :backend-api="ptmnavigatorplugin"/>
   </div>
 </template>
 
 <script>
 import PTMNavigator from "@/components/PTMNavigator";
+import ptmnavigatorplugin from '../../backend/mock_backend/mockApi'
 
 export default {
   name: 'App',
   components: {
-    PTMNavigator
+    PTMNavigator,
+  },
+  data(){
+    return{
+      ptmnavigatorplugin
+    }
   }
 }
 </script>

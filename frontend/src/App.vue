@@ -1,7 +1,10 @@
 <template>
-  <div id="app">
+  <v-app
+      id="inspire"
+      style="overflow:hidden"
+  >
     <PTMNavigator :backend-api="ptmnavigatorplugin"/>
-  </div>
+  </v-app>
 </template>
 
 <script>

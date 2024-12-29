@@ -2114,7 +2114,9 @@ export default {
       }
     },
     redirectToCustomDataUpload () {
-      this.$router.push({ name: this.backendApi.getCustomDataUploadComponent() })
+      const customDataUploadComponent = this.backendApi.getCustomDataUploadComponent();
+      if(customDataUploadComponent)
+        this.$router.push({ name:  customDataUploadComponent})
     },
     onUploadClick () {
       document.getElementById('skeleton-file-input').click()

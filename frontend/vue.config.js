@@ -1,4 +1,4 @@
-const { defineConfig } = require('@vue/cli-service')
+const {defineConfig} = require('@vue/cli-service')
 module.exports = defineConfig({
 
     chainWebpack: config => {
@@ -22,24 +22,18 @@ module.exports = defineConfig({
     },
 
 
-        transpileDependencies: [
+    transpileDependencies: [
         'vuetify'
     ],
     outputDir: 'dist',
-    //Recommended by ChatGPT, no clue if this is correct
-    configureWebpack: {
-        output: {
-            libraryExport: 'default'
-        },
-    },
-    css: {
-      extract: false
-    },
-
+    // Recommended by ChatGPT, no clue if this is correct
+    // configureWebpack: {
+    //     output: {
+    //         libraryExport: 'default'
+    //     },
+    // },
     // relative to outputDir
     assetsDir: 'static',
 
-    //TODO: Check if this needs to be defined, else remove
-    publicPath: process.env.VUE_APP_ROUTER_BASE,
 })
 

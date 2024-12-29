@@ -1,6 +1,8 @@
 import Vue from 'vue';
 import Vuetify from 'vuetify/lib';
 
+import ProteinIcon from '@/components/icons/ProteinIcon.vue'
+
 Vue.use(Vuetify);
 
 export default new Vuetify({
@@ -12,4 +14,11 @@ export default new Vuetify({
             }
         }
     },
+    icons: {
+        values: {
+            protein: {
+                component: ProteinIcon
+            }
+        }
+    }
 })

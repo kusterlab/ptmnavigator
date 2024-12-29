@@ -1,9 +1,10 @@
 import customPathwayList from './mock_data/customPathwayList.json'
 import WP422 from './mock_data/WP422.json'
-import ptmInputList from  './mock_data/mockUserDatasetPTMInput.json'
-import fpInputList from  './mock_data/mockUserDatasetFPInput.json'
+import userPtmInputList from  './mock_data/mockUserDatasetPTMInput.json'
+import userFpInputList from  './mock_data/mockUserDatasetFPInput.json'
 import PrdbPTMInputList from './mock_data/mockPrdbDatasetPTMInput.json'
 import PrdbFPInputList from './mock_data/mockPrdbDatasetFPInput.json'
+//TODO: Motif and KEA3 not available, haven't checked PrDB datasets yet
 import mockUserEnrichmentResults from './mock_data/mockUserEnrichmentResults.json'
 import mockPrDBEnrichmentResults from './mock_data/mockPrDBEnrichmentResults.json'
 
@@ -27,9 +28,10 @@ const mockApi = {
             return {
                 cookieStatus: 0,
                 uuid,
-                datasets: [{
-                    datasetName: "MockDataset", datasetId: "mock", omicsType: "FoldChange"
-                }]
+                datasets: [
+                    {datasetName: "MockPTMDataset", datasetId: "mockPtm", omicsType: "FoldChange"},
+                    {datasetName: "MockFPDataset", datasetId: "mockFp", omicsType: "FoldChange"}
+                ]
             }
         }
     },
@@ -46,45 +48,40 @@ const mockApi = {
 
     async getExperimentDesigns(projectId) {
         if (projectId !== 1234) {
-            console.log('Mock Backend only has Project 1234')
-        } else {
-            return [{
-                datasetName: "Mock Experiment Design",
-                datasetId: 42,
-            }]
+            console.log("Mock Backend only has Project 'MockPrdbProject'")
         }
+        return [{
+            datasetName: "Mock Prdb Experiment Design",
+            datasetId: 42,
+        }]
 
     },
 
     async getCustomPathwayList(uuid) {
         if (uuid !== '0'.repeat(32)) {
             console.log(`Mock Backend only has UUID ${'0'.repeat(32)}!`)
-        } else {
-            return customPathwayList;
         }
+        return customPathwayList;
     },
 
     async getCanonicalPathwayList(taxcode) {
         if (taxcode !== 9606) {
             console.log('Mock Backend only has Taxcode 9606 (Homo sapiens)')
-        } else {
-            return [{
-                name: "WP422",
-                title: "MAPK cascade",
-                link: "WP422.json"
-            }]
         }
+        return [{
+            name: "WP422",
+            title: "MAPK cascade",
+            link: "WP422.json"
+        }]
 
     },
 
     async getPathwaySkeleton(taxcode, canonicalPathwayLink) {
         if (taxcode !== 9606) {
             console.log('Mock Backend only has Taxcode 9606 (Homo sapiens)')
-            return null;
         }
         if (canonicalPathwayLink !== "WP422.json") {
             console.log('Mock Backend only has WP422 (MAPK cascade)')
-            return null;
         }
         return WP422;
 
@@ -93,33 +90,36 @@ const mockApi = {
     async getUserProteomicsData(sessionId, userDatasets) {
         if (sessionId !== '0'.repeat(32)) {
             console.log(`Mock Backend only has UUID ${'0'.repeat(32)}!`)
-            return null
         }
-        if (userDatasets[0].datasetId !== 'mock') {
-            console.log(`Mock Backend only has the dataset with the ID 'mock'`)
-            return null
+        const userDatasetTypes = {}
+        let ptmInputList = [];
+        let fpInputList = []
+
+        if(userDatasets.map(d => d.datasetId).includes('mockPtm')){
+            userDatasetTypes["mockPtm"] = "phospho"
+            ptmInputList = userPtmInputList
         }
-        const userDatasetTypes = {
-            "Mock_User_PTM_Dataset": "phospho",
-            "Mock_User_FP_Dataset": "fullprot", //TODO: Not sure if this name is preserved, if not, check what name PTMNav expects
+
+        if(userDatasets.map(d => d.datasetId).includes('mockFp')){
+            userDatasetTypes["mockFp"] = "fullprot"
+            fpInputList = userFpInputList
         }
-        const organismOfFirstDataset = 9606;
 
         return {
             ptmInputList,
             fpInputList,
             userDatasetTypes,
-            organismOfFirstDataset
+            organismOfFirstDataset : 9606
         }
     },
 
     async getPrdbData(selectedExperimentDesigns) {
         if (selectedExperimentDesigns !== 42) {
             console.log('Mock backend only has experiment 42!')
-        } else {
-
-            return { ptmInputList:PrdbPTMInputList, fpInputList:PrdbFPInputList }
         }
+
+        return { ptmInputList:PrdbPTMInputList, fpInputList:PrdbFPInputList }
+
     },
 
     async storeCustomPathway(skeleton, uuid, customPathwayName, currentlyEditedPathwayId) {
@@ -134,21 +134,19 @@ const mockApi = {
     async getFilteredPathwayIds(searchStrings, taxcode) {
         if (taxcode !== 9606) {
             console.log('Mock Backend only has Taxcode 9606 (Homo sapiens)')
-        } else {
-            console.log(`Ignoring search string because I am a mock backend... (${searchStrings})`)
-            return ['WP422']
         }
+        console.log(`Ignoring search string because I am a mock backend... (${searchStrings})`)
+        return ['WP422']
+
 
     },
 
     async getUserEnrichmentResults(sessionId, userDatasetIds, enrichmentTypeId) {
         if (sessionId !== '0'.repeat(32)) {
             console.log(`Mock Backend only has UUID ${'0'.repeat(32)}!`)
-            return null
         }
-        if (userDatasetIds[0] !== 'mock') {
-            console.log(`Mock Backend only has the dataset with the ID 'mock'`)
-            console.log(`You attempted: ${userDatasetIds[0]}`)
+        if (userDatasetIds[0] !== 'mockPtm') {
+            console.log(`Mock Backend only has enrichment for the Mock PTM Dataset with ID 'mockPtm'`)
             return null
         }
         return mockUserEnrichmentResults[enrichmentTypeId]
@@ -157,9 +155,9 @@ const mockApi = {
     async getPrdbEnrichmentResults(experimentDesignIds) {
         if (experimentDesignIds !== '42') {
             console.log('Mock backend only has experiment 42!')
-        } else {
-            return mockPrDBEnrichmentResults
         }
+        return mockPrDBEnrichmentResults
+
     },
     async renewSession(uuid) {
         console.log(`Pretending to extend the following UUID: ${uuid}`)

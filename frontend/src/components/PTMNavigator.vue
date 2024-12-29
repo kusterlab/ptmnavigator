@@ -2222,29 +2222,31 @@ export default {
                   item.enrichmentTypeId
               )
 
-              const userEnrichmentResponseOfDataset = userEnrichmentResponseRaw[this.selectedDatasetForEnrichment.datasetId]
-              if (userEnrichmentResponseOfDataset.length === 0) {
-                item.status = 'in progress'
-              } else {
-                try {
-                  // Due to some dumb coding mistake, we sometimes quoted the JSON twice
-                  // so we need to parse it once, check if it is still parseable, and then maybe parse a second time
-                  let enrichmentJSON = JSON.parse(userEnrichmentResponseOfDataset[0].enrichmentJSON)
-                  if (typeof enrichmentJSON === 'string') {
-                    enrichmentJSON = JSON.parse(enrichmentJSON)
-                  }
-                  // Since version 0.1.1, the enrichment server returns the output wrapped in 'Result' in order to also send metadata
-                  // For legacy reasons we still support the old format
-                  enrichmentJSON = enrichmentJSON.Result || enrichmentJSON
+              if(userEnrichmentResponseRaw) {
+                const userEnrichmentResponseOfDataset = userEnrichmentResponseRaw[this.selectedDatasetForEnrichment.datasetId]
+                if (userEnrichmentResponseOfDataset.length === 0) {
+                  item.status = 'in progress'
+                } else {
+                  try {
+                    // Due to some dumb coding mistake, we sometimes quoted the JSON twice
+                    // so we need to parse it once, check if it is still parseable, and then maybe parse a second time
+                    let enrichmentJSON = JSON.parse(userEnrichmentResponseOfDataset[0].enrichmentJSON)
+                    if (typeof enrichmentJSON === 'string') {
+                      enrichmentJSON = JSON.parse(enrichmentJSON)
+                    }
+                    // Since version 0.1.1, the enrichment server returns the output wrapped in 'Result' in order to also send metadata
+                    // For legacy reasons we still support the old format
+                    enrichmentJSON = enrichmentJSON.Result || enrichmentJSON
 
-                  this.formatEnrichmentResponseUserData(enrichmentJSON, item.name)
-                  // If the enrichment is GCR, we need to sort the pathway list
-                  if (item.name === 'GCR-PEA') {
-                    this.getGCRSortedPathwayList()
+                    this.formatEnrichmentResponseUserData(enrichmentJSON, item.name)
+                    // If the enrichment is GCR, we need to sort the pathway list
+                    if (item.name === 'GCR-PEA') {
+                      this.getGCRSortedPathwayList()
+                    }
+                    item.status = 'completed'
+                  } catch (e) {
+                    item.status = 'failed'
                   }
-                  item.status = 'completed'
-                } catch (e) {
-                  item.status = 'failed'
                 }
               }
             }

@@ -1204,7 +1204,6 @@ export default {
   props: {
     /** @type {BackendApiInterface} */
     backendApi: {
-      //TODO: Provide interface, maybe in another file?
       type: Object,
       required: true,
       validator: apiValidator

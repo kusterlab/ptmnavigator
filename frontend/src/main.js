@@ -6,6 +6,9 @@ import router from './router';
 import 'vuetify/dist/vuetify.min.css';
 import 'material-design-icons-iconfont/dist/material-design-icons.css'
 import PTMNavigator from "@/components/PTMNavigator";
+import 'devextreme/dist/css/dx.common.css'
+import 'devextreme/dist/css/dx.material.blue.light.compact.css'
+
 
 Vue.use(vueCookie)
 

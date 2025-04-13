@@ -18,7 +18,7 @@
       <h3 class="text-h7 mb-6">
         Set thresholds:
       </h3>
-      <v-container v-if="['ksea', 'ksea_rokai', 'motif', 'kea3_mean', 'kea3_top'].includes(selectedKaiMethod)">
+      <v-container v-if="['ksea', 'rokai', 'ksea_rokai', 'motif', 'kea3_mean', 'kea3_top'].includes(selectedKaiMethod)">
         <v-slider
           v-model="scoreThreshold"
           :max="maxScore"
@@ -32,7 +32,7 @@
         />
       </v-container>
 
-      <v-container v-if="['ksea', 'ksea_rokai', 'motif', 'kstar'].includes(selectedKaiMethod)">
+      <v-container v-if="['ksea', 'rokai', 'ksea_rokai', 'motif', 'kstar'].includes(selectedKaiMethod)">
         <v-slider
           v-model="significanceThreshold"
           :max="maxSignificance"
@@ -86,6 +86,7 @@ export default {
     kinaseActivityMethods () {
       const methodList = [
         { text: 'KSEA', value: 'ksea' },
+        { text: 'RoKAI', value: 'rokai' },
         { text: 'RoKAI+KSEA', value: 'ksea_rokai' },
         { text: 'Motif Enrichment', value: 'motif' },
         { text: 'KEA3 - Mean Rank', value: 'kea3_mean' },
@@ -129,6 +130,11 @@ export default {
             scoreColname = colnames.filter(name => name.startsWith('Score'))[0]
             pvalColname = colnames.filter(name => name.startsWith('adj p-val'))[0]
             break
+          case 'rokai':
+            kinaseColname = 'Gene'
+            scoreColname = colnames.filter(name => name.startsWith('ZScore'))[0]
+            pvalColname = colnames.filter(name => name.startsWith('FDR'))[0]
+            break
           case 'motif':
             kinaseColname = 'Kinase'
             scoreColname = colnames.filter(name => name.startsWith('Log2 Enrichment'))[0]
@@ -152,7 +158,7 @@ export default {
           }
           if (pvalColname) {
             // Log transform those who aren't
-            if (['ksea', 'ksea_rokai'].includes(this.selectedKaiMethod)) {
+            if (['ksea', 'ksea_rokai', 'rokai'].includes(this.selectedKaiMethod)) {
               res.Significance = datum[pvalColname] !== 0 ? -Math.log10(datum[pvalColname]) : -Math.log10(Number.MIN_VALUE)
             } else {
               res.Significance = datum[pvalColname]

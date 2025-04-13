@@ -737,7 +737,16 @@
                     use this Session ID: <b>{{ defaultSessionId }}</b>
                   </div>
                   <div style="padding-left: 8px; margin-bottom: 1em">
-                    <b>If you want to use PTMNavigator in your work:</b> We are still preparing our manuscript and will put a reference here in a few weeks.
+
+                    If you want to use PTMNavigator in your work, please cite:<br>
+                    <b>Müller, J. et al.<br>
+                      PTMNavigator: interactive visualization of differentially regulated<br>post-translational
+                      modifications in cellular signaling pathways.<br>
+                      <i>Nature Communications 16, 510 (2025)</i></b><br>
+                    <a
+                        href="https://doi.org/10.1038/s41467-024-55533-y"
+                        target="_blank"
+                    >https://doi.org/10.1038/s41467-024-55533-y</a><br>
                   </div>
                 </v-alert>
               </v-card-text>
@@ -763,17 +772,18 @@
             </v-btn>
           </v-col>
         </v-row>
-        <template v-if="pathwaygraphApplicationMode==='viewing' && selectedOrganism && selectedOrganism.value === 9606">
+        <template
+            v-if="pathwaygraphApplicationMode==='viewing' && selectedOrganism && [9606, 10090].includes(selectedOrganism.value)">
           <v-row
-            dense
+              dense
           >
             <v-col
-              cols="2"
-              align-self="end"
+                cols="2"
+                align-self="end"
             >
               <v-btn-toggle
-                v-model="enrichmentOrSelectionTable"
-                mandatory
+                  v-model="enrichmentOrSelectionTable"
+                  mandatory
               >
                 <v-tooltip
                   bottom
@@ -1002,25 +1012,38 @@
                 The following enrichment analysis algorithms are used:
                 <ul>
                   <li>
-                    PTM-SEA & PEA Gene-Centric (Redundant):  <a
+                    PTM-SEA & PEA Gene-Centric (Redundant): <a
                       style="color:#666666"
                       target="_blank"
                       href="https://www.mcponline.org/article/S1535-9476(20)31860-0/fulltext"
-                    >Krug et al. <i>MCP (2019)</i></a>;
+                  >Krug et al. <i>MCP (2019)</i></a>;
                     <a
-                      target="_blank"
-                      href="https://github.com/broadinstitute/ssGSEA2.0"
+                        target="_blank"
+                        href="https://github.com/broadinstitute/ssGSEA2.0"
                     >https://github.com/broadinstitute/ssGSEA2.0</a>
                   </li>
+
                   <li>
-                    KSEA:  <a
+                    GO Enrichment: <a
+                      style="color:#666666"
+                      target="_blank"
+                      href="https://www.nature.com/articles/ng0500_25"
+                  >Ashburner et al. <i>Nature Genetics (2000)</i></a>;
+                    <a
+                        style="color:#666666"
+                        target="_blank"
+                        href="https://academic.oup.com/genetics/article/224/1/iyad031/7068118"
+                    >The GO Consortium et al. <i>Genetics (2023)</i></a>;
+                  </li>
+                  <li>
+                    KSEA: <a
                       style="color:#666666"
                       target="_blank"
                       href="https://www.science.org/doi/10.1126/scisignal.2003573"
-                    >Casado et al. <i>Science Signaling (2013)</i></a>;
+                  >Casado et al. <i>Science Signaling (2013)</i></a>;
                     <a
-                      target="_blank"
-                      href="https://github.com/saezlab/kinact"
+                        target="_blank"
+                        href="https://github.com/saezlab/kinact"
                     >https://github.com/saezlab/kinact</a>
                   </li>
                   <li>
@@ -1278,10 +1301,12 @@ export default {
         'GC-PEA': 'gc',
         'GCR-PEA': 'gcr',
         KSEA: 'ksea',
+        RoKAI: 'rokai',
         'RoKAI+KSEA': 'ksea_rokai',
         MOTIF: 'motif',
         KEA3: 'kea3',
-        KSTAR: 'kstar'
+        KSTAR: 'kstar',
+        GO: 'go'
       },
       pathwaygraphApplicationMode: 'viewing',
       enrichmentOrSelectionTable: 'enrichment',
@@ -1386,6 +1411,9 @@ export default {
           }
         }
       }
+    },
+    selectedOrganism () {
+      this.onOrganismSelectionChange(this.selectedOrganism)
     },
     selectedCanonicalPathway: {
       handler (newVal) {
@@ -2177,22 +2205,26 @@ export default {
             { name: 'PTM-SEA', short: 'ptmsea', status: 'in progress', enrichmentTypeId: 1 },
             { name: 'GC-PEA', short: 'gc', status: 'in progress', enrichmentTypeId: 2 },
             { name: 'GCR-PEA', short: 'gcr', status: 'in progress', enrichmentTypeId: 3 },
+            { name: 'GO', short: 'go', status: 'in progress', enrichmentTypeId: 10 },
             { name: 'KSEA', short: 'ksea', status: 'in progress', enrichmentTypeId: 4 },
             { name: 'RoKAI+KSEA', short: 'ksea_rokai', status: 'in progress', enrichmentTypeId: 5 },
             { name: 'MOTIF', short: 'motif', status: 'in progress', enrichmentTypeId: 6 },
             { name: 'KEA3', short: 'kea3', status: 'in progress', enrichmentTypeId: 7 },
-            { name: 'KSTAR', short: 'kstar', status: 'in progress', enrichmentTypeId: 8 }
+            { name: 'KSTAR', short: 'kstar', status: 'in progress', enrichmentTypeId: 8 },
+            { name: 'RoKAI', short: 'rokai', status: 'in progress', enrichmentTypeId: 9 }
           ]
         } else {
           this.enrichmentStatuses = [
             { name: 'PTM-SEA', short: 'ptmsea', status: 'not applicable', enrichmentTypeId: 1 },
             { name: 'GC-PEA', short: 'gc', status: 'in progress', enrichmentTypeId: 2 },
             { name: 'GCR-PEA', short: 'gcr', status: 'in progress', enrichmentTypeId: 3 },
+            { name: 'GO', short: 'go', status: 'not applicable', enrichmentTypeId: 10 },
             { name: 'KSEA', short: 'ksea', status: 'not applicable', enrichmentTypeId: 4 },
             { name: 'RoKAI+KSEA', short: 'ksea_rokai', status: 'not applicable', enrichmentTypeId: 5 },
             { name: 'MOTIF', short: 'motif', status: 'not applicable', enrichmentTypeId: 6 },
             { name: 'KEA3', short: 'kea3', status: 'not applicable', enrichmentTypeId: 7 },
-            { name: 'KSTAR', short: 'kstar', status: 'not applicable', enrichmentTypeId: 8 }
+            { name: 'KSTAR', short: 'kstar', status: 'not applicable', enrichmentTypeId: 8 },
+            { name: 'RoKAI', short: 'rokai', status: 'not applicable', enrichmentTypeId: 9 }
           ]
         }
       } else {
@@ -2202,11 +2234,6 @@ export default {
       this.enrichmentResponse = {}
       // Do it once outside the regular interval; after this, we're back to the 5-second schedule set up in mounted()
       await this.retrieveMissingEnrichments()
-      // Hotfix 2024-11-08: Disable K-STAR for new datasets
-      // We know it's a new dataset if K-STAR is still labeled 'in progress'
-      if (this.isUserDataMode && this.enrichmentStatuses[7].status === 'in progress') {
-        this.enrichmentStatuses[7].status = 'disabled_kstar'
-      }
     },
 
     async retrieveMissingEnrichments () {

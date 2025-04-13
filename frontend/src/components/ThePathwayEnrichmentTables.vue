@@ -144,6 +144,24 @@
                 PTM data is collapsed to gene level.<br>
                 We use the KEGG and WikiPathways signature sets.</span>
             </v-tooltip>
+            <v-tooltip
+                top
+                color="#4d4b4d"
+            >
+              <template #activator="{ on, attrs }">
+                <v-tab
+                    v-bind="attrs"
+                    key="go"
+                    class="enrichment-tab"
+                    href="#go"
+                    v-on="on"
+                >
+                  Gene Ontology Enrichment
+                </v-tab>
+              </template>
+              <span>TODO<br>
+                More TODO</span>
+            </v-tooltip>
           </v-tabs>
           <v-tabs-items
             v-model="pathwayEnrichmentTab"
@@ -188,7 +206,7 @@
               </v-dialog>
               <DxDataGrid
                 v-if="!!selectedDataset && !!enrichmentResponse && !!enrichmentResponse.ptmsea && enrichmentResponse.ptmsea.length > 0"
-                :ref="dataGridRefName + '-' + pathwayEnrichmentTab"
+                :ref="dataGridRefName + '-ptmsea'"
                 :data-source="enrichmentResponse.ptmsea"
                 :show-borders="true"
                 :repaint-changes-only="false"
@@ -212,7 +230,7 @@
                   :data-type="(key === 'Signature ID' || key === 'Gene') ? 'string' : 'number'"
                   :sort-order="key.startsWith('Score') ? 'desc' : null"
                   :allow-sorting="true"
-                  :allow-filtering="(key === 'Signature ID' || key === 'Gene')"
+                  :allow-filtering="true"
                   :format="{formatter: val => key.startsWith('Percent Overlap') ? val + '%' : val.toFixed(2)}"
                 />
                 <DxPaging :page-size="10" />
@@ -262,7 +280,7 @@
               </v-dialog>
               <DxDataGrid
                 v-if="!!selectedDataset && !!enrichmentResponse && !! enrichmentResponse.gc&& enrichmentResponse.gc.length > 0"
-                :ref="dataGridRefName + '-' + pathwayEnrichmentTab"
+                :ref="dataGridRefName + '-gc'"
                 :data-source="enrichmentResponse.gc"
                 :show-borders="true"
                 :repaint-changes-only="false"
@@ -286,7 +304,7 @@
                   :data-type="(key === 'Signature ID' || key === 'Gene') ? 'string' : 'number'"
                   :sort-order="key.startsWith('Score') ? 'desc' : null"
                   :allow-sorting="true"
-                  :allow-filtering="(key === 'Signature ID' || key === 'Gene')"
+                  :allow-filtering="true"
                   :format="{formatter: val => key.startsWith('Percent Overlap') ? val + '%' : val.toFixed(2)}"
                 />
                 <DxPaging :page-size="10" />
@@ -336,7 +354,7 @@
               </v-dialog>
               <DxDataGrid
                 v-if="!!selectedDataset && !!enrichmentResponse && !! enrichmentResponse.gcr&& enrichmentResponse.gcr.length > 0"
-                :ref="dataGridRefName + '-' + pathwayEnrichmentTab"
+                :ref="dataGridRefName + '-gcr'"
                 :data-source="enrichmentResponse.gcr"
                 :show-borders="true"
                 :repaint-changes-only="false"
@@ -360,13 +378,74 @@
                   :data-type="(key === 'Signature ID' || key === 'Gene') ? 'string' : 'number'"
                   :sort-order="key.startsWith('Score') ? 'desc' : null"
                   :allow-sorting="true"
-                  :allow-filtering="(key === 'Signature ID' || key === 'Gene')"
+                  :allow-filtering="true"
                   :format="{formatter: val => key.startsWith('Percent Overlap') ? val + '%' : val.toFixed(2)}"
                 />
                 <DxPaging :page-size="10" />
                 <DxPager
                   :show-page-size-selector="true"
                   :allowed-page-sizes="[5, 10, 25]"
+                />
+              </DxDataGrid>
+              <TheEnrichmentTablePlaceholder v-else />
+            </v-tab-item>
+            <v-tab-item
+                value="go"
+            >
+              <v-dialog
+                  width="600"
+              >
+                <template #activator="{ on, attrs }">
+                  <v-btn
+                      class="ml-2 mb-3"
+                      v-bind="attrs"
+                      v-on="on"
+                  >
+                    Show Parameters File
+                  </v-btn>
+                </template>
+                <v-card style="overflow-x: scroll;">
+                  <v-card-title class="text-h5 grey lighten-2">
+                    Gene Ontology Enrichment Parameters
+                  </v-card-title>
+
+                  <v-card-text class="mt-5">
+                    <pre>TODO</pre>
+                  </v-card-text>
+                </v-card>
+              </v-dialog>
+              <DxDataGrid
+                  v-if="!!selectedDataset && !!enrichmentResponse && !! enrichmentResponse.go&& enrichmentResponse.go.length > 0"
+                  :ref="dataGridRefName + '-go'"
+                  :data-source="enrichmentResponse.go"
+                  :show-borders="true"
+                  :repaint-changes-only="false"
+                  :column-auto-width="true"
+                  :allow-column-resizing="true"
+                  column-resizing-mode="widget"
+                  :allow-column-reordering="true"
+                  :scrolling="{ useNative: true }"
+                  @initialized="saveGridInstance"
+                  @exporting="onExporting"
+              >
+                <DxFilterRow :visible="true" />
+                <DxColumn
+                    v-for="key in Object.keys(enrichmentResponse.go[0])"
+                    :key="key + '_column'"
+                    :width="['GO_ID', 'Term_Size'].includes(key)? 100 : (key === 'Name' ? 400: 200)"
+                    :caption="key"
+                    :calculate-cell-value="getValue(key)"
+                    :calculate-sort-value="getValueAbsolute(key)"
+                    alignment="left"
+                    :data-type="(['GO_ID', 'Name'].includes(key) || key.startsWith('Intersection (')) ? 'string' : 'number'"
+                    :sort-order="key.startsWith('neg_log10_adjusted_p_value') ? 'desc' : null"
+                    :allow-sorting="true"
+                    :allow-filtering="true"
+                />
+                <DxPaging :page-size="10" />
+                <DxPager
+                    :show-page-size-selector="true"
+                    :allowed-page-sizes="[5, 10, 25]"
                 />
               </DxDataGrid>
               <TheEnrichmentTablePlaceholder v-else />
@@ -397,6 +476,24 @@
                 In KSEA, the mean fold change among the set of substrates of each kinase is compared to an expected value.<br></span>
             </v-tooltip>
             <v-tooltip
+                top
+                color="#4d4b4d"
+            >
+              <template #activator="{ on, attrs }">
+                <v-tab
+                    v-bind="attrs"
+                    key="rokai"
+                    class="enrichment-tab"
+                    href="#rokai"
+                    v-on="on"
+                >
+                  RoKAI
+                </v-tab>
+              </template>
+              <span>RoKAI refines phosphorylation profiles using prior knowledge functional networks and runs its own kinase activity inference algorithm afterwards.<br>
+              </span>
+            </v-tooltip>
+            <v-tooltip
               top
               color="#4d4b4d"
             >
@@ -412,10 +509,10 @@
                 </v-tab>
               </template>
               <span>RoKAI refines phosphorylation profiles using prior knowledge functional networks.<br>
-                KSEA is run on the refined profiles afterwards.<br>
+                Here, RoKAI and KSEA are combined, so RoKAI is only used for refining the phospho-data, <br>
+                and KSEA is run on the refined profiles afterwards.<br>
                 In general, this produces more robust results compared to only running KSEA.</span>
             </v-tooltip>
-
             <v-tooltip
               top
               color="#4d4b4d"
@@ -530,7 +627,7 @@
               </v-dialog>
               <DxDataGrid
                 v-if="!!selectedDataset && !!enrichmentResponse && !! enrichmentResponse.ksea&& enrichmentResponse.ksea.length > 0"
-                :ref="dataGridRefName + '-' + kinaseActivityTab"
+                :ref="dataGridRefName + '-ksea'"
                 :data-source="enrichmentResponse.ksea"
                 :show-borders="true"
                 :repaint-changes-only="false"
@@ -554,8 +651,8 @@
                   :data-type="(key === 'Signature ID' || key === 'Gene') ? 'string' : 'number'"
                   :sort-order="key.startsWith('Score') ? 'desc' : null"
                   :allow-sorting="true"
-                  :allow-filtering="(key === 'Signature ID' || key === 'Gene')"
-                  :format="{formatter: val => key.startsWith('Overlap') ? val + '%' : val.toFixed(2)}"
+                  :allow-filtering="true"
+                  :format="{formatter: val => key.startsWith('Percent Overlap') ? val.toFixed(2) + '%' : val.toFixed(2)}"
                 />
                 <DxPaging :page-size="10" />
                 <DxPager
@@ -565,6 +662,75 @@
               </DxDataGrid>
               <TheEnrichmentTablePlaceholder v-else />
             </v-tab-item>
+
+            <v-tab-item
+                value="rokai"
+            >
+              <v-dialog
+                  width="600"
+              >
+                <template #activator="{ on, attrs }">
+                  <v-btn
+                      class="ml-2 mb-3"
+                      v-bind="attrs"
+                      v-on="on"
+                  >
+                    Show Parameters File
+                  </v-btn>
+                </template>
+                <v-card style="overflow-x: scroll;">
+                  <v-card-title class="text-h5 grey lighten-2">
+                    RoKAI Parameters
+                  </v-card-title>
+
+                  <v-card-text class="mt-5">
+                    <pre>
+    network_file:   rokai_network_data_uniprotkb_human.rds (v2.2.0)
+    datanorm:       Normalized
+    ksNetwork:      PhosphoSitePlus (includeSignor = F)
+    rokaiNetwork:   KS+PPI+SD+CoEv
+                            </pre>
+                  </v-card-text>
+                </v-card>
+              </v-dialog>
+              <DxDataGrid
+                  v-if="!!selectedDataset && !!enrichmentResponse && !! enrichmentResponse.rokai&& enrichmentResponse.rokai.length > 0"
+                  :ref="dataGridRefName + '-rokai'"
+                  :data-source="enrichmentResponse.rokai"
+                  :show-borders="true"
+                  :repaint-changes-only="false"
+                  :column-auto-width="true"
+                  :allow-column-resizing="true"
+                  column-resizing-mode="widget"
+                  :allow-column-reordering="true"
+                  :scrolling="{ useNative: true }"
+                  @initialized="saveGridInstance"
+                  @exporting="onExporting"
+              >
+                <DxFilterRow :visible="true" />
+                <DxColumn
+                    v-for="key in Object.keys(enrichmentResponse.rokai[0])"
+                    :key="key + '_column'"
+                    :width="250"
+                    :caption="key"
+                    :calculate-cell-value="getValue(key)"
+                    :calculate-sort-value="getValueAbsolute(key)"
+                    alignment="left"
+                    :data-type="(key === 'Gene') ? 'string' : 'number'"
+                    :sort-order="key.startsWith('ZScore') ? 'desc' : null"
+                    :allow-sorting="true"
+                    :allow-filtering="true"
+                    :format="{formatter: val => val.toFixed(2)}"
+                />
+                <DxPaging :page-size="10" />
+                <DxPager
+                    :show-page-size-selector="true"
+                    :allowed-page-sizes="[5, 10, 25]"
+                />
+              </DxDataGrid>
+              <TheEnrichmentTablePlaceholder v-else />
+            </v-tab-item>
+
             <v-tab-item
               value="ksea_rokai"
             >
@@ -591,13 +757,14 @@
     datanorm:       Normalized
     ksNetwork:      PhosphoSitePlus (includeSignor = F)
     rokaiNetwork:   KS+PPI+SD+CoEv
+                  TODO: Add KSEA parameters!
                             </pre>
                   </v-card-text>
                 </v-card>
               </v-dialog>
               <DxDataGrid
                 v-if="!!selectedDataset && !!enrichmentResponse && !! enrichmentResponse.ksea_rokai&& enrichmentResponse.ksea_rokai.length > 0"
-                :ref="dataGridRefName + '-' + kinaseActivityTab"
+                :ref="dataGridRefName + '-ksea_rokai'"
                 :data-source="enrichmentResponse.ksea_rokai"
                 :show-borders="true"
                 :repaint-changes-only="false"
@@ -621,8 +788,8 @@
                   :data-type="(key === 'Signature ID' || key === 'Gene') ? 'string' : 'number'"
                   :sort-order="key.startsWith('Score') ? 'desc' : null"
                   :allow-sorting="true"
-                  :allow-filtering="(key === 'Signature ID' || key === 'Gene')"
-                  :format="{formatter: val => key.startsWith('Overlap') ? val + '%' : val.toFixed(2)}"
+                  :allow-filtering="true"
+                  :format="{formatter: val => key.startsWith('Percent Overlap') ? val.toFixed(2) + '%' : val.toFixed(2)}"
                 />
                 <DxPaging :page-size="10" />
                 <DxPager
@@ -667,7 +834,7 @@
 
               <DxDataGrid
                 v-if="!!selectedDataset && !!enrichmentResponse && !! enrichmentResponse.motif&& enrichmentResponse.motif.length > 0"
-                :ref="dataGridRefName + '-' + kinaseActivityTab"
+                :ref="dataGridRefName + '-motif'"
                 :data-source="enrichmentResponse.motif"
                 :show-borders="true"
                 :repaint-changes-only="false"
@@ -691,7 +858,7 @@
                   :data-type="(key === 'Kinase') ? 'string' : 'number'"
                   :sort-order="key.startsWith('-Log10 p_value adjusted') ? 'desc' : null"
                   :allow-sorting="true"
-                  :allow-filtering="(key === 'Kinase')"
+                  :allow-filtering="true"
                   :format="{formatter: val => val.toFixed(2)}"
                 />
                 <DxPaging :page-size="10" />
@@ -733,7 +900,7 @@
               </v-dialog>
               <DxDataGrid
                 v-if="!!selectedDataset && !!enrichmentResponse && !! enrichmentResponse.kea3_mean&& enrichmentResponse.kea3_mean.length > 0"
-                :ref="dataGridRefName + '-' + kinaseActivityTab"
+                :ref="dataGridRefName + '-kea3_mean'"
                 :data-source="enrichmentResponse.kea3_mean"
                 :show-borders="true"
                 :repaint-changes-only="false"
@@ -757,7 +924,7 @@
                   :data-type="[ 'TF', 'Library', 'Overlapping_Genes'].includes(key) ? 'string' : 'number'"
                   :sort-order="key === 'Rank' ? 'asc' : null"
                   :allow-sorting="true"
-                  :allow-filtering="['TF', 'Library', 'Overlapping_Genes', 'Experiment'].includes(key)"
+                  :allow-filtering="true"
                   :format="{formatter: val => key=== 'Rank' ? val : val.toFixed(2)}"
                 />
                 <DxPaging :page-size="10" />
@@ -799,7 +966,7 @@
               </v-dialog>
               <DxDataGrid
                 v-if="!!selectedDataset && !!enrichmentResponse && !! enrichmentResponse.kea3_top&& enrichmentResponse.kea3_top.length > 0"
-                :ref="dataGridRefName + '-' + kinaseActivityTab"
+                :ref="dataGridRefName + '-kea3_top'"
                 :data-source="enrichmentResponse.kea3_top"
                 :show-borders="true"
                 :repaint-changes-only="false"
@@ -823,7 +990,7 @@
                   :data-type="[ 'TF', 'Library', 'Overlapping_Genes'].includes(key) ? 'string' : 'number'"
                   :sort-order="key === 'Rank' ? 'asc' : null"
                   :allow-sorting="true"
-                  :allow-filtering="['TF', 'Library', 'Overlapping_Genes', 'Experiment'].includes(key)"
+                  :allow-filtering="true"
                   :format="{formatter: val => key=== 'Rank' ? val : val.toFixed(2)}"
                 />
                 <DxPaging :page-size="10" />
@@ -869,7 +1036,7 @@
 
               <DxDataGrid
                 v-if="!!selectedDataset && !!enrichmentResponse && !! enrichmentResponse.kstar&& enrichmentResponse.kstar && enrichmentResponse.kstar.length > 0"
-                :ref="dataGridRefName + '-' + kinaseActivityTab"
+                :ref="dataGridRefName + '-kstar'"
                 :data-source="enrichmentResponse.kstar"
                 :show-borders="true"
                 :repaint-changes-only="false"
@@ -893,7 +1060,7 @@
                   :data-type="(key === 'Kinase') ? 'string' : 'number'"
                   :sort-order="key === 'Kinase' ? null : 'asc'"
                   :allow-sorting="true"
-                  :allow-filtering="(key === 'Kinase')"
+                  :allow-filtering="true"
                   :format="{formatter: val => val.toFixed(2)}"
                 />
                 <DxPaging :page-size="10" />
@@ -981,10 +1148,6 @@ export default {
         failed: { color: 'red', tooltip: 'Failed' },
         'not applicable': { color: 'grey', tooltip: 'Not Applicable' }
       }
-      // Hotfix 2024-11-08: Disable K-STAR for new datasets
-      if (status === 'disabled_kstar') {
-        return { color: 'grey', tooltip: 'Unfortunately, KSTAR is currently disabled for new datasets.' }
-      }
 
       return statusMapping[status] || { color: 'grey', tooltip: 'Unknown Status' }
     },
@@ -992,7 +1155,7 @@ export default {
       return rowData => rowData[key]
     },
     getValueAbsolute: function (key) {
-      return rowData => Math.abs(rowData[key])
+      return rowData => Math.abs(rowData[key]) || rowData[key]
     },
     saveGridInstance: function (e) {
       this.dataGridInstance = e.component

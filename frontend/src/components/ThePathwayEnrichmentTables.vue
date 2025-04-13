@@ -159,8 +159,8 @@
                   Gene Ontology Enrichment
                 </v-tab>
               </template>
-              <span>TODO<br>
-                More TODO</span>
+              <span>Overrepresentation analysis against the Gene Ontology Database.<br>
+                We use the GO annotations provided by g:Profiler and perform Fisher's exact test using SciPy.</span>
             </v-tooltip>
           </v-tabs>
           <v-tabs-items
@@ -410,7 +410,7 @@
                   </v-card-title>
 
                   <v-card-text class="mt-5">
-                    <pre>TODO</pre>
+                    <pre></pre>
                   </v-card-text>
                 </v-card>
               </v-dialog>
@@ -735,7 +735,7 @@
               value="ksea_rokai"
             >
               <v-dialog
-                width="600"
+                  width="1000"
               >
                 <template #activator="{ on, attrs }">
                   <v-btn
@@ -748,16 +748,24 @@
                 </template>
                 <v-card style="overflow-x: scroll;">
                   <v-card-title class="text-h5 grey lighten-2">
-                    RoKAI Parameters
+                    RoKAI + KSEA Parameters
                   </v-card-title>
 
                   <v-card-text class="mt-5">
                     <pre>
+RoKAI:
     network_file:   rokai_network_data_uniprotkb_human.rds (v2.2.0)
     datanorm:       Normalized
     ksNetwork:      PhosphoSitePlus (includeSignor = F)
     rokaiNetwork:   KS+PPI+SD+CoEv
-                  TODO: Add KSEA parameters!
+
+KSEA:
+    interactions:   "Kinase-Substrate Interactions from PhosphoSitePlus"
+                    See also here:
+                     github.com/kusterlab/enrichment-server/blob/publication/db/scripts/update_ksea_es_db.py
+    mP:             "Experiment-Wise Fold Change Mean"
+    delta:          "Experiment-Wise Fold Change Standard Deviation"
+
                             </pre>
                   </v-card-text>
                 </v-card>

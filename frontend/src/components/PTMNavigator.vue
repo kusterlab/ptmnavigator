@@ -2201,6 +2201,7 @@ export default {
       if (this.isUserDataMode) {
         // Initialize based on the type of the dataset
         if (this.currentlyLoadedDatasetTypes[this.selectedDatasetForEnrichment.datasetId] === 'phospho') {
+          //TODO: The enrichment Type IDs should not be hardcoded, they depend on the backend.
           this.enrichmentStatuses = [
             { name: 'PTM-SEA', short: 'ptmsea', status: 'in progress', enrichmentTypeId: 1 },
             { name: 'GC-PEA', short: 'gc', status: 'in progress', enrichmentTypeId: 2 },

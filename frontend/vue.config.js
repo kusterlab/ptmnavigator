@@ -1,14 +1,18 @@
-const {defineConfig} = require('@vue/cli-service')
-module.exports = defineConfig({
+module.exports = {
+    pages:{
+        index: {
+            entry:'src/main.js',
+            title:'PTMNavigator'
+        }
+    },
+    // Disable features we don't need for a library
+    filenameHashing: false,
+    productionSourceMap: false,
+    css: {
+        extract: false
+    },
 
     chainWebpack: config => {
-        config
-            .plugin('html')
-            .tap(args => {
-                args[0].title = 'PTMNavigator'
-                return args
-            })
-
         config.module
             .rule('css-for-svgs')
             .test(/\.css.prdb$/)
@@ -20,20 +24,11 @@ module.exports = defineConfig({
             })
             .end()
     },
+    // Configure the build properly for a library
+    configureWebpack: {
+        output: {
+            libraryExport: 'default'
+        }
+    },
 
-
-    transpileDependencies: [
-        'vuetify'
-    ],
-    outputDir: 'dist',
-    // Recommended by ChatGPT, no clue if this is correct
-    // configureWebpack: {
-    //     output: {
-    //         libraryExport: 'default'
-    //     },
-    // },
-    // relative to outputDir
-    assetsDir: 'static',
-
-})
-
+}

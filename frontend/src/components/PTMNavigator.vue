@@ -1230,6 +1230,11 @@ export default {
       type: Object,
       required: true,
       validator: apiValidator
+    },
+    router: {
+      type: Object,
+      required: true,
+      default: () => {}
     }
   },
   metaInfo () {
@@ -2142,8 +2147,14 @@ export default {
     },
     redirectToCustomDataUpload () {
       const customDataUploadComponent = this.backendApi.getCustomDataUploadComponent();
-      if(customDataUploadComponent)
-        this.$router.push({ name:  customDataUploadComponent})
+      if(customDataUploadComponent) {
+        if (this.router)
+            //I am not mutating here, push is not doing what eslint thinks it is doing to this object
+            // eslint-disable-next-line vue/no-mutating-props
+          this.router.push({name: customDataUploadComponent})
+      }else{
+        console.log('No router defined, cannot redirect to custom data upload component')
+      }
     },
     onUploadClick () {
       document.getElementById('skeleton-file-input').click()

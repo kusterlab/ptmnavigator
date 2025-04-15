@@ -1231,7 +1231,7 @@ export default {
       required: true,
       validator: apiValidator
     },
-    router: {
+    ptmNavigatorRouter: {
       type: Object,
       required: true,
       default: () => {}
@@ -2148,10 +2148,10 @@ export default {
     redirectToCustomDataUpload () {
       const customDataUploadComponent = this.backendApi.getCustomDataUploadComponent();
       if(customDataUploadComponent) {
-        if (this.router)
+        if (this.ptmNavigatorRouter)
             //I am not mutating here, push is not doing what eslint thinks it is doing to this object
             // eslint-disable-next-line vue/no-mutating-props
-          this.router.push({name: customDataUploadComponent})
+          this.ptmNavigatorRouter.push({name: customDataUploadComponent})
       }else{
         console.log('No router defined, cannot redirect to custom data upload component')
       }

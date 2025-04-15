@@ -3,7 +3,7 @@
       id="inspire"
       style="overflow:hidden"
   >
-    <PTMNavigator :backend-api="ptmnavigatorplugin" router="router"/>
+    <PTMNavigator :backend-api="ptmnavigatorplugin" :ptm-navigator-router="ptmnavrouter"/>
   </v-app>
 </template>
 
@@ -19,7 +19,7 @@ export default {
   data(){
     return{
       ptmnavigatorplugin,
-      router:{} //TODO: Implement external router
+      ptmnavrouter:{} //TODO: Implement external router
     }
   }
 }

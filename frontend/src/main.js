@@ -3,8 +3,7 @@ import App from './App.vue'
 import vuetify from './plugins/vuetify';
 import vueCookie from 'vue-cookie'
 import 'vuetify/dist/vuetify.min.css';
-import 'material-design-icons-iconfont/dist/material-design-icons.css'
-// import PTMNavigator from "@/components/PTMNavigator";
+import '@mdi/font/css/materialdesignicons.min.css';
 import PTMNavigator from './components/PTMNavigator.vue';
 import 'devextreme/dist/css/dx.common.css'
 import 'devextreme/dist/css/dx.material.blue.light.compact.css'

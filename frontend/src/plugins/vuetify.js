@@ -15,6 +15,7 @@ export default new Vuetify({
         }
     },
     icons: {
+        iconfont: 'mdi',
         values: {
             protein: {
                 component: ProteinIcon

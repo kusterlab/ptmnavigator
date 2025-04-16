@@ -2053,7 +2053,17 @@ export default {
         this.leftExpansionPanel = this.leftExpansionPanel.filter(val => val !== 3)
       }
     },
+    onMouseOverCurve: function (curveId) {
+      //TODO: Implement something, if you want
+      // console.log(`Mouse over curve: ${curveId}`)
+      return curveId
+    },
 
+    onClickCurve: function (curveId) {
+      //TODO: Implement something, if you want
+      // console.log(`Curve clicked: ${curveId}`)
+      return curveId
+    },
     downloadCurvesPlot: function (filetype) {
       this.downloadCurveLoading = true
       const aPlots = []

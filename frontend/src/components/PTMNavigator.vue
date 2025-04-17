@@ -16,6 +16,7 @@
               :src="ptmNavigatorLogo"
               max-width="600"
               class="mx-2 my-4"
+              alt="You should see a logo here"
             />
           </v-col>
         </v-row>
@@ -1211,6 +1212,8 @@ import TheSelectedNodesTable from "@/components/TheSelectedNodesTable";
 /** @typedef {import('@/types/backendApiInterface').BackendApiInterface} BackendApiInterface */
 import {apiValidator} from "@/types/backendApiInterface";
 
+import logo from '@/assets/ptmnavigatorlogo.js';
+
 if (window.customElements.get('biowc-pathwaygraph') === undefined) {
   window.customElements.define('biowc-pathwaygraph', BiowcPathwaygraph)
 }
@@ -1298,7 +1301,7 @@ export default {
       fpInputList: [],
       fpInputListFiltered: [],
       graphWidth: null,
-      ptmNavigatorLogo: require('@/assets/ptmnavigatorlogo.png'),
+      ptmNavigatorLogo: logo,
       leftExpansionPanel: [],
       enrichmentResponse: {},
       enrichmentTypeMap: {

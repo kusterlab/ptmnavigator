@@ -1,0 +1,60 @@
+{
+  "id": "curve7",
+  "dataPoints":[
+      [
+        1e-9,
+        1.2221942646970032
+      ],
+      [
+        3e-9,
+        1.1678844024437376
+      ],
+      [
+        3e-8,
+        1.3272813549856095
+      ],
+      [
+        0.000001,
+        1.8142397169698388
+      ],
+      [
+        3e-7,
+        1.653616657711092
+      ],
+      [
+        1e-7,
+        1.68483039319196
+      ],
+      [
+        3e-10,
+        1.230169945771483
+      ],
+      [
+        3e-11,
+        1.1073510660576606
+      ],
+      [
+        1e-8,
+        1.3177832946092098
+      ],
+      [
+        0.00001,
+        2.2135083722473827
+      ]
+  ],
+
+  "formula": "return $C$ + ($D$ -$C$) / (1 + Math.exp($B$* (Math.log(x) - Math.log($E$))));",
+  "escapeCharacter": "$",
+  "curveParameters": {
+    "E": 0.00000932596187412494,
+    "B": 0.287441987269836,
+    "D": 1.05201650035626,
+    "C": 3.33739420441303
+  },
+  "legendText": "Dasatinib: KS(ph)PHS(ph)KSPAEQR @ A431",
+  "tooltipTextHTML": "<pre style='text-align: left'><b>Dasatinib: KS(ph)PHS(ph)KSPAEQR @ A431</b><br><br>EC50:           9.33e-6<br>Fold Change:    2.214<br>R2:             0.96<br></pre>",
+  "xAxisLabel": "Dose [M]",
+  "yAxisLabel": "Relative Response",
+  "curveHighlights": [9.33e-6],
+  "curveHighlightErrorBarEndpoints": [[1.00e-6, 4.00e-5]]
+}

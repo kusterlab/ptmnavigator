@@ -505,30 +505,20 @@
               cols="12"
             >
               <v-card
-                flat
+                  flat
               >
                 <v-card-title>Dose-Response Curves:</v-card-title>
-                <v-card-text>
-                  <responseCurve
-                    ref="responseCurve"
-                    :min-height="500"
-                    :min-width="400"
-                    :project-id="selectedProject ? selectedProject.value : -1"
-                    :model-ids="selectedCurveIDs"
-                    :drug-names="selectedDrugNames"
-                    :legend-at-bottom="true"
-                    :is-user-curve="isUserDataMode"
-                    :is-full-proteome="selectedCurvesFullProteome"
-                    :container-width="responseCurveContainerWidth"
-                    data-type="ptmCurves"
-                    :is-time-dependent="areAllSelectedDatasetsTimeDependent"
-                    :exponential-x="!areAllSelectedDatasetsTimeDependent"
-                    parent-perspective="pathway"
-                    style="overflow: visible"
-                    @mouseover-event="onMouseOverCurve"
-                    @click-event="onClickCurve"
+                <v-card-actions>
+                  <loading-overlay
+                      :loading="doseResponseCurveLoading"
                   />
-                </v-card-text>
+                  <biowc-lineplot
+                      id="lineplot-doseresponsecurve"
+                      ref="responseCurve"
+                      :input-data.prop="curvePlotInputData"
+                      :meta-data-attr.prop="curvePlotMetaData"
+                  />
+                </v-card-actions>
               </v-card>
             </v-col>
           </v-row>
@@ -1202,8 +1192,8 @@
 </template>
 
 <script>
-import { BiowcPathwaygraph } from '@biowc/pathwaygraph'
-import responseCurve from "@/components/ResponseCurve";
+import {BiowcPathwaygraph} from '@biowc/pathwaygraph'
+import {BiowcLineplot} from '@biowc/lineplot'
 import TheKinaseActivityThresholder from "@/components/TheKinaseActivityThresholder";
 import downloader from '@/components/DownloadSpeedDial'
 import utils from '@/utils/downloadUtils'
@@ -1213,18 +1203,23 @@ import TheSelectedNodesTable from "@/components/TheSelectedNodesTable";
 import {apiValidator} from "@/types/backendApiInterface";
 
 import logo from '@/assets/ptmnavigatorlogo.js';
+import LoadingOverlay from "@/components/LoadingOverlay";
 
 if (window.customElements.get('biowc-pathwaygraph') === undefined) {
   window.customElements.define('biowc-pathwaygraph', BiowcPathwaygraph)
 }
 
+if (window.customElements.get('biowc-lineplot') === undefined) {
+  window.customElements.define('biowc-lineplot', BiowcLineplot)
+}
+
 export default {
   name: 'PTMNavigator',
   components: {
+    LoadingOverlay,
     ThePathwayEnrichmentTables,
     TheSelectedNodesTable,
     TheKinaseActivityThresholder,
-    responseCurve,
     downloader
   },
   props: {
@@ -1293,7 +1288,6 @@ export default {
           !!sessionID.match(/^[A-F0-9]{32}$/i) ||
                     'Session ID must have a length of 32 characters and only contain "0-9, A-F".'
       ],
-      lineplotCss: [require('@/components/GenericLinePlot.css.prdb')],
       refreshColumnWidthKey: 0,
       pathwayMetaData: {},
       ptmInputList: [],
@@ -1332,7 +1326,7 @@ export default {
       editCopyQuestionDialogReturnVal: undefined,
       enrichmentStatuses: [],
 
-      perturbedNodes: { up: [], down: [], undirected: [] },
+      perturbedNodes: {up: [], down: [], undirected: []},
       selectedDatasetForEnrichment: undefined,
       customPathwayNameRules: {
         required: value => !!value || 'Required',
@@ -1340,7 +1334,12 @@ export default {
       },
       saveCustomPathwayFormValid: true,
       toggleKey: 0, // A hack to force the viewing/editing toggle to be updated
-      enrichmentQueryIntervalId: undefined
+      enrichmentQueryIntervalId: undefined,
+      doseResponseCurveLoading: false,
+      curvePlotInputData: [],
+      curvePlotMetaData: {},
+      curvePlotLegendFontSize: 12,
+      curvePlotSize: 500,
 
     }
   },
@@ -1362,6 +1361,8 @@ export default {
       return this.isUserDataMode && this.selectedUserDatasets.every(dataset => dataset.omicsType.startsWith('decryptM_td'))
     },
     areSomeSelectedDatasetsDecryptM () {
+      //This implementation currently assumes that all non-user data is decryptM.
+      // This is true for the ProteomicsDB version of PTMNavigator, but not necessarily for standalone.
       return !this.isUserDataMode || (this.selectedUserDatasets.length > 0 && this.selectedUserDatasets.some(ds => ds.omicsType && ds.omicsType.startsWith('decryptM')))
     },
     canonicalPathwayLink () {
@@ -1450,7 +1451,7 @@ export default {
       }
     },
     selectedUserDatasets: {
-      handler () {
+      handler() {
         this.clearPathwayGraph()
         this.clearPrdbData()
         this.clearUserData()
@@ -1458,6 +1459,11 @@ export default {
           this.clearCanonicalPathwaySorting()
         }
         this.enrichmentOrSelectionTable = 'enrichment'
+      }
+    },
+    selectedCurveIDs: {
+      handler(newVal) {
+        this.getCurveData(newVal);
       }
     }
   },
@@ -1486,6 +1492,10 @@ export default {
     this.enrichmentQueryIntervalId = setInterval(() => {
       if (this.isUserDataMode) return this.retrieveMissingEnrichments()
     }, 5000)
+
+    // Set initial values for the curvePlot
+    this.initializeCurvePlotMetaData()
+
   },
   beforeDestroy () {
     // Clear the interval when the component is destroyed to avoid memory leaks
@@ -1499,6 +1509,7 @@ export default {
       this.graphWidth = document.querySelector('#spacereservedforgraph').clientWidth - 35
 
       if (this.$refs.responseCurve) {
+        //TODO: Check if this is still necessary with the new implementation of responseCurve
         // Sorry, this is a bit ugly. What actually happens here is that the responseCurve must be redrawn with the new width.
         // But the computed responseCurveContainerWidth does not update on its own because it depends on a non-reactive DOM component.
         // The following dummy variable appears in the computed, forcing it to update.
@@ -2024,9 +2035,9 @@ export default {
       // We cannot show PTM and Protein Curves together, so:
       // Give PTM precedence, but if it is not present check for Protein
       this.selectedCurveIDs = this.selectedPeptidesTableData
-        .flatMap(sel => sel['Curve ID']
-          ? String(sel['Curve ID']).split(',')
-          : undefined)
+          .flatMap(sel => ['string', 'number'].includes(typeof sel['Curve ID'])
+              ? String(sel['Curve ID']).split(',')
+              : undefined)
         .filter(curveid => !!curveid)
       if (this.selectedCurveIDs.length > 0) {
         this.selectedCurvesFullProteome = false
@@ -2046,6 +2057,18 @@ export default {
           ...newSelection.detail.selection_protein.flatMap(sel => sel['Drug Name'] ? String(sel['Drug Name']).split(',') : undefined).filter(drugname => !!drugname)]
       }
     },
+
+
+    async getCurveData(selectedCurveIds) {
+      this.curvePlotInputData = await this.backendApi.getCurveData(selectedCurveIds)
+      if (this.curvePlotInputData && this.curvePlotInputData.length > 0) {
+        // Set the axis labels based on the first curve (users need to ensure they don't load curves with different axis units at the same time)
+        this.curvePlotMetaData.xAxisLabel = this.curvePlotInputData[0].xAxisLabel
+        this.curvePlotMetaData.yAxisLabel = this.curvePlotInputData[0].yAxisLabel
+      }
+
+    },
+
     onInfoboxUpdated: function (newInfoboxContent) {
       this.infoboxContent = newInfoboxContent.detail
       // Expand the box if there is content, collapse it if there isn't
@@ -2073,12 +2096,13 @@ export default {
       aPlots.push(this.$refs.responseCurve.getSVG())
 
       if (aPlots) {
+        //TODO: Reimplement and probably remove a lot of crap from downloadUtils
         utils.downloadSVGs(
           aPlots,
           'curves',
           filetype === 'svg',
           'canvasId',
-          this.lineplotCss
+            []
         )
       }
       this.downloadCurveLoading = false
@@ -2335,7 +2359,7 @@ export default {
           // Iterate through the array of objects and add 'category' key to each object
           innerObj[innerKey].forEach(item => {
             // Create a new object with 'category' and spread the original item
-            const newObj = { ...item }
+            const newObj = {...item}
             newObj[category] = categoryKey
             outputObj[innerKey].push(newObj)
           })
@@ -2343,8 +2367,27 @@ export default {
       }
 
       return outputObj
+    },
+    initializeCurvePlotMetaData() {
+      this.curvePlotMetaData = {
+        width: this.curvePlotSize,
+        height: this.curvePlotSize,
+        xScale: 'logarithmic',
+        connectDots: false,
+        showLegend: true,
+        legendPosition: 'bottom',
+        dotOpacity: 0.75,
+        curveOpacity: 1.0,
+        legendFontSize: this.curvePlotLegendFontSize,
+        xAxisLabel: 'Dose',
+        yAxisLabel: 'Response',
+        curveMinY: 0,
+        curveMaxY: 2
+      }
     }
-  }
+
+  },
+
 }
 </script>
 

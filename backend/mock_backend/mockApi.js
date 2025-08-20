@@ -2,6 +2,10 @@ import customPathwayList from './mock_data/customPathwayList.json'
 import WP422 from './mock_data/WP422.json'
 import userPtmInputList from  './mock_data/mockUserDatasetPTMInput.json'
 import userFpInputList from  './mock_data/mockUserDatasetFPInput.json'
+
+import userdecryptMInputList from  './mock_data/mockUserDatasetDecryptMInput.json'
+// import userFpInputList from  './mock_data/mockUserDatasetFPInput.json'
+
 import PrdbPTMInputList from './mock_data/mockPrdbDatasetPTMInput.json'
 import PrdbFPInputList from './mock_data/mockPrdbDatasetFPInput.json'
 //TODO: Motif and KEA3 not available, haven't checked PrDB datasets yet
@@ -18,6 +22,7 @@ const mockApi = {
         return 'Mock API'
     },
 
+    //TODO: Rename this endpoint, or split into two - it is not obvious that this retrieves the list of user datasets.
     async checkSessionId(uuid) {
         if(!uuid){
             uuid = '0'.repeat(32)
@@ -30,7 +35,9 @@ const mockApi = {
                 uuid,
                 datasets: [
                     {datasetName: "MockPTMDataset", datasetId: "mockPtm", omicsType: "FoldChange"},
-                    {datasetName: "MockFPDataset", datasetId: "mockFp", omicsType: "FoldChange"}
+                    {datasetName: "MockFPDataset", datasetId: "mockFp", omicsType: "FoldChange"},
+                    {datasetName: "MockDecryptMDataset", datasetId: "mockDecryptM", omicsType: "decryptM"},
+                    // {datasetName: "MockDecryptEDataset", datasetId: "mockDecryptE", omicsType: "decryptE"} //TODO: decryptE probably not recognized by PTMNav
                 ]
             }
         }
@@ -105,6 +112,17 @@ const mockApi = {
             fpInputList = userFpInputList
         }
 
+        if(userDatasets.map(d => d.datasetId).includes('mockDecryptM')){
+            userDatasetTypes["mockDecryptM"] = "decryptM" //TODO Not sure if this is the same as omics type... maybe need to put phospho instead
+            ptmInputList = userdecryptMInputList
+        }
+
+        // if(userDatasets.map(d => d.datasetId).includes('mockDecryptE')){
+        //     userDatasetTypes["mockDecryptM"] = "decryptE" //TODO This type is not recognized by PTMNav yet
+        //     fpInputList = userdecryptEInputList
+        // }
+
+
         return {
             ptmInputList,
             fpInputList,
@@ -163,6 +181,17 @@ const mockApi = {
         console.log(`Pretending to extend the following UUID: ${uuid}`)
 
     },
+
+    async getCurveData(curveIDs){
+        if(!curveIDs || curveIDs.length === 0){
+            return [];
+        }
+        return await Promise.all(curveIDs.map(async curveId => {
+            const jsonfile = await import(`./mock_data/curve_data/${curveId}.json`);
+            return jsonfile.default;
+        }))
+    },
+
     getCustomDataUploadComponent() {
         console.log('No Custom Data Upload Component Implemented (yet)!')
         return null;

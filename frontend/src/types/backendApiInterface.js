@@ -18,6 +18,7 @@
  * @property {() => String} getCustomDataUploadComponent
  * @property {(sessionId: String, userDatasetIds: String, enrichmentTypeId: String) => Object} getUserEnrichmentResults
  * @property {(experimentDesignIds: String) => Object} getPrdbEnrichmentResults
+ * @property {(curveIds: Array) => Array} getCurveData
  */
 
 
@@ -116,6 +117,7 @@ export function apiValidator(api) {
         'getCustomDataUploadComponent',
         'getUserEnrichmentResults',
         'getPrdbEnrichmentResults',
+        'getCurveData',
     ];
     return requiredMethods.every((method) => {
         const functionExists = typeof api[method] === 'function'

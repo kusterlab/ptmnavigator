@@ -1113,11 +1113,6 @@
         </v-row>
       </v-col>
     </v-row>
-
-    <canvas
-      id="canvasId"
-      style="display: none"
-    />
     <v-dialog
       v-model="showEditResetConfirmationDialog"
       persistent
@@ -2092,18 +2087,13 @@ export default {
     },
     downloadCurvesPlot: function (filetype) {
       this.downloadCurveLoading = true
-      const aPlots = []
-      aPlots.push(this.$refs.responseCurve.getSVG())
-
-      if (aPlots) {
-        //TODO: Reimplement and probably remove a lot of crap from downloadUtils
-        utils.downloadSVGs(
-          aPlots,
-          'curves',
-          filetype === 'svg',
-          'canvasId',
-            []
-        )
+      const curveSvg = this.$refs.responseCurve.getSVG();
+      if(filetype === 'svg') {
+        utils.downloadSVG(curveSvg)
+      }else if(filetype === 'png') {
+        utils.downloadPNG(curveSvg)
+      }else{
+        console.error(`Download of filetype ${filetype} not implemented!`)
       }
       this.downloadCurveLoading = false
     },

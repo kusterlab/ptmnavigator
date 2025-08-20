@@ -12,12 +12,12 @@
  * @property {(taxcode: string) => CanonicalPathwayList[]} getCanonicalPathwayList
  * @property {(taxcode: string, canonicalPathwayLink: string) => RawPathwaySkeleton} getPathwaySkeleton
  * @property {(uuid: string, userDatasets: Array) => UserProteomicsData} getUserProteomicsData
- * @property {(selectedExperimentDesigns: ExperimentDesign[]) => PrdbData} getPrdbData
+ * @property {(selectedExperimentDesigns: ExperimentDesign[]) => InternalDatabaseData} getInternalDatabaseData
  * @property {(skeleton: String, uuid: String, customPathwayName: string, currentlyEditedPathwayId: string|undefined) => number} storeCustomPathway
  * @property {(searchStrings: String[], taxcode: String) => Array} getFilteredPathwayIds
  * @property {() => String} getCustomDataUploadComponent
  * @property {(sessionId: String, userDatasetIds: String, enrichmentTypeId: String) => Object} getUserEnrichmentResults
- * @property {(experimentDesignIds: String) => Object} getPrdbEnrichmentResults
+ * @property {(experimentDesignIds: String) => Object} getInternalDatabaseEnrichmentResults
  * @property {(curveIds: Array) => Array} getCurveData
  */
 
@@ -89,7 +89,7 @@
  */
 
 /**
- * @typedef PrdbData
+ * @typedef InternalDatabaseData
  * @property {Array} ptmInputList
  * @property {Array} fpInputList
  */
@@ -111,12 +111,12 @@ export function apiValidator(api) {
         'getCanonicalPathwayList',
         'getPathwaySkeleton',
         'getUserProteomicsData',
-        'getPrdbData',
+        'getInternalDatabaseData',
         'storeCustomPathway',
         'getFilteredPathwayIds',
         'getCustomDataUploadComponent',
         'getUserEnrichmentResults',
-        'getPrdbEnrichmentResults',
+        'getInternalDatabaseEnrichmentResults',
         'getCurveData',
     ];
     return requiredMethods.every((method) => {

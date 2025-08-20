@@ -6,11 +6,11 @@ import userFpInputList from  './mock_data/mockUserDatasetFPInput.json'
 import userdecryptMInputList from  './mock_data/mockUserDatasetDecryptMInput.json'
 // import userFpInputList from  './mock_data/mockUserDatasetFPInput.json'
 
-import PrdbPTMInputList from './mock_data/mockPrdbDatasetPTMInput.json'
-import PrdbFPInputList from './mock_data/mockPrdbDatasetFPInput.json'
-//TODO: Motif and KEA3 not available, haven't checked PrDB datasets yet
+import InternalDatabasePTMInputList from './mock_data/mockInternalDatabaseDatasetPTMInput.json'
+import InternalDatabaseFPInputList from './mock_data/mockInternalDatabaseDatasetFPInput.json'
+//TODO: Motif and KEA3 not available, haven't checked InternalDatabase datasets yet
 import mockUserEnrichmentResults from './mock_data/mockUserEnrichmentResults.json'
-import mockPrDBEnrichmentResults from './mock_data/mockPrDBEnrichmentResults.json'
+import mockInternalDatabaseEnrichmentResults from './mock_data/mockInternalDatabaseEnrichmentResults.json'
 
 
 const mockApi = {
@@ -19,7 +19,7 @@ const mockApi = {
     },
 
     getBackendName() {
-        return 'Mock API'
+        return 'Internal Database'
     },
 
     //TODO: Rename this endpoint, or split into two - it is not obvious that this retrieves the list of user datasets.
@@ -49,16 +49,16 @@ const mockApi = {
     },
 
     async getProjects() {
-        return [{projectId: 1234, projectName: "MockPrdbProject"}]
+        return [{projectId: 1234, projectName: "MockInternalDatabaseProject"}]
 
     },
 
     async getExperimentDesigns(projectId) {
         if (projectId !== 1234) {
-            console.log("Mock Backend only has Project 'MockPrdbProject'")
+            console.log("Mock Backend only has Project 'MockInternalDatabaseProject'")
         }
         return [{
-            datasetName: "Mock Prdb Experiment Design",
+            datasetName: "Mock InternalDatabase Experiment Design",
             datasetId: 42,
         }]
 
@@ -131,12 +131,12 @@ const mockApi = {
         }
     },
 
-    async getPrdbData(selectedExperimentDesigns) {
+    async getInternalDatabaseData(selectedExperimentDesigns) {
         if (selectedExperimentDesigns !== 42) {
             console.log('Mock backend only has experiment 42!')
         }
 
-        return { ptmInputList:PrdbPTMInputList, fpInputList:PrdbFPInputList }
+        return { ptmInputList:InternalDatabasePTMInputList, fpInputList:InternalDatabaseFPInputList }
 
     },
 
@@ -170,11 +170,11 @@ const mockApi = {
         return mockUserEnrichmentResults[enrichmentTypeId]
 
     },
-    async getPrdbEnrichmentResults(experimentDesignIds) {
+    async getInternalDatabaseEnrichmentResults(experimentDesignIds) {
         if (experimentDesignIds !== '42') {
             console.log('Mock backend only has experiment 42!')
         }
-        return mockPrDBEnrichmentResults
+        return mockInternalDatabaseEnrichmentResults
 
     },
     async renewSession(uuid) {

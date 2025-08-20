@@ -46,7 +46,7 @@
                       background-color="primary"
                     >
                       <v-tab>
-                        ProteomicsDB Data
+                        {{backendApi.getBackendName()}} Data
                       </v-tab>
                       <v-tab>
                         User Data
@@ -83,8 +83,8 @@
                           color="success"
                           class="mr-4"
                           style="text-transform: none"
-                          :loading="prdbDataLoading"
-                          @click="loadPrdbData"
+                          :loading="internalDatabaseDataLoading"
+                          @click="loadInternalDatabaseData"
                         >
                           Load Dataset(s)
                         </v-btn>
@@ -93,7 +93,7 @@
                           color="info"
                           class="mr-4"
                           style="text-transform: none"
-                          @click="clearPrdbData"
+                          @click="clearInternalDatabaseData"
                         >
                           Clear Data
                         </v-btn>
@@ -191,7 +191,7 @@
                       />
                       <v-autocomplete
                         v-else
-                        v-model="prdbExperimentDesignFilter"
+                        v-model="internalDatabaseExperimentDesignFilter"
                         return-object
                         chips
                         deletable-chips
@@ -273,7 +273,7 @@
                         <v-combobox
                           v-show="proteinFilterEnabled"
                           ref="protein-list-filter-combobox"
-                          :disabled="!pathwayListFiltered || !existsReferenceProteomeInPrDB"
+                          :disabled="!pathwayListFiltered || !existsReferenceProteomeInInternalDatabase"
                           hint="Enter gene names or Uniprot accession numbers to show only the pathways that contain them."
                           prepend-inner-icon="mdi-filter-outline"
                           persistent-hint
@@ -425,7 +425,7 @@
                   <v-combobox
                     v-show="proteinFilterEnabled"
                     ref="protein-list-filter-combobox"
-                    :disabled="!pathwayListFiltered || !existsReferenceProteomeInPrDB"
+                    :disabled="!pathwayListFiltered || !existsReferenceProteomeInInternalDatabase"
                     hint="Enter gene names or Uniprot accession numbers to show only the pathways that contain them."
                     prepend-inner-icon="mdi-filter-outline"
                     persistent-hint
@@ -721,7 +721,7 @@
                       here</a>!<br>
                   </div>
                   <div style="padding-left: 8px; margin-bottom: 1em">
-                    It's also possible to browse through PTM datasets from ProteomicsDB<br>by clicking on "PROTEOMICSDB DATA" at the top left.<br>
+                    It's also possible to browse through PTM datasets from {{backendApi.getBackendName()}}<br>by clicking on "{{backendApi.getBackendName().toUpperCase()}} DATA" at the top left.<br>
                   </div>
                   <div style="padding-left: 8px; margin-bottom: 1em">
                     To check out the data used in the PTMNavigator manuscript,<br>
@@ -894,7 +894,7 @@
                       prominent
                     >
                       <div style="padding-left: 8px">
-                        After you've uploaded a dataset, ProteomicsDB runs multiple enrichment
+                        After you've uploaded a dataset, PTMNavigator runs multiple enrichment
                         analysis algorithms on it (e.g. KSEA, PTM-SEA).<br>
                         When you load the dataset into PTMNavigator,
                         the enrichment results will be displayed here.<br>
@@ -1272,9 +1272,9 @@ export default {
       currentlyLoadedDatasetTypes: {},
       userDatasets: [],
       userExperimentFilter: [],
-      prdbExperimentDesignFilter: [],
+      internalDatabaseExperimentDesignFilter: [],
       userDataLoading: false,
-      prdbDataLoading: false,
+      internalDatabaseDataLoading: false,
       dataLoadingSnackbar: false,
       doneSnackbar: false,
       proteinFilterEnabled: false,
@@ -1356,6 +1356,7 @@ export default {
       return this.isUserDataMode && this.selectedUserDatasets.every(dataset => dataset.omicsType.startsWith('decryptM_td'))
     },
     areSomeSelectedDatasetsDecryptM () {
+      //TODO:
       //This implementation currently assumes that all non-user data is decryptM.
       // This is true for the ProteomicsDB version of PTMNavigator, but not necessarily for standalone.
       return !this.isUserDataMode || (this.selectedUserDatasets.length > 0 && this.selectedUserDatasets.some(ds => ds.omicsType && ds.omicsType.startsWith('decryptM')))
@@ -1384,7 +1385,8 @@ export default {
       return `Custom Pathways (n=${this.customPathwayList.length}):`
     },
 
-    existsReferenceProteomeInPrDB () {
+    //TODO: This should not be hard-coded
+    existsReferenceProteomeInInternalDatabase () {
       return !this.selectedOrganism || [3702, 9606, 10090].includes(this.selectedOrganism.value)
     }
 
@@ -1439,7 +1441,7 @@ export default {
     },
     dataTabs: {
       handler () {
-        // If switching between user and proteomicsdb mode, everything needs to be cleared
+        // If switching between user and internal database mode, everything needs to be cleared
         // We handle this by resetting the selected Datasets
         this.selectedUserDatasets = []
         this.selectedExperimentDesigns = []
@@ -1448,7 +1450,7 @@ export default {
     selectedUserDatasets: {
       handler() {
         this.clearPathwayGraph()
-        this.clearPrdbData()
+        this.clearInternalDatabaseData()
         this.clearUserData()
         if (this.pathwayList) {
           this.clearCanonicalPathwaySorting()
@@ -1483,7 +1485,7 @@ export default {
     this.leftExpansionPanel.push(0, 1, 2)
 
     // Set up the periodic retrieval of missing enrichment analysis results
-    // Only in user-data mode - in prdb-data mode, the data is retrieved once and that's it
+    // Only in user-data mode - in internal database-data mode, the data is retrieved once and that's it
     this.enrichmentQueryIntervalId = setInterval(() => {
       if (this.isUserDataMode) return this.retrieveMissingEnrichments()
     }, 5000)
@@ -1837,7 +1839,7 @@ export default {
       this.fpInputListFiltered = []
       this.getCanonicalPathwayList()
     },
-    clearPrdbData () {
+    clearInternalDatabaseData () {
       this.selectedCurveIDs = []
       this.ptmInputList = []
       this.ptmInputListFiltered = []
@@ -1846,22 +1848,22 @@ export default {
       this.selectedDrugNames = []
       this.getCanonicalPathwayList()
     },
-    async loadPrdbData () {
+    async loadInternalDatabaseData () {
       this.clearCanonicalPathwaySorting()
       this.ptmInputList = []
-      this.prdbDataLoading = true
+      this.internalDatabaseDataLoading = true
       this.dataLoadingSnackbar = true
 
-      const prdbDataResult = await this.backendApi.getPrdbData(this.selectedExperimentDesigns)
-      this.ptmInputList = prdbDataResult.ptmInputList
-      this.fpInputList = prdbDataResult.fpInputList
+      const internalDatabaseResult = await this.backendApi.getInternalDatabaseData(this.selectedExperimentDesigns)
+      this.ptmInputList = internalDatabaseResult.ptmInputList
+      this.fpInputList = internalDatabaseResult.fpInputList
 
       // Set organism to Homo sapiens - all the data that you can load as of now is Homo sapiens
       this.selectedOrganism = this.organismList.filter(org => org.value === 9606)[0]
 
       this.doneSnackbar = true
       this.dataLoadingSnackbar = false
-      this.prdbDataLoading = false
+      this.internalDatabaseDataLoading = false
       this.clearPathwayGraph()
       this.selectAllExperiments()
 
@@ -1892,7 +1894,7 @@ export default {
       }
     },
 
-    formatEnrichmentResponsePrDB (enrichmentResponseUnformatted) {
+    formatInternalDatabaseEnrichmentResponse (enrichmentResponseUnformatted) {
       const responseFormatted = {}
 
       enrichmentResponseUnformatted.forEach(enrichment => {
@@ -2045,7 +2047,8 @@ export default {
         this.selectedCurvesFullProteome = this.selectedCurveIDs.length > 0
       }
 
-      // For PrDB data, we also need a drug name to show the curves (because of a possible combination treatment)
+      // For Internal Database data, we also need a drug name to show the curves (because of a possible combination treatment)
+      //TODO: This reaaallly should not be a thing in the standalone version. Try to get rid of it somehow, move it to the api idk
       if (!this.isUserDataMode) {
         this.selectedDrugNames = [
           ...newSelection.detail.selection_peptide.flatMap(sel => sel['Drug Name'] ? String(sel['Drug Name']).split(',') : undefined).filter(drugname => !!drugname),
@@ -2132,7 +2135,7 @@ export default {
       if (this.isUserDataMode) {
         this.userExperimentFilter = this.allExperimentNames
       } else {
-        this.prdbExperimentDesignFilter = this.selectedExperimentDesigns
+        this.internalDatabaseExperimentDesignFilter = this.selectedExperimentDesigns
       }
       this.filterInputData()
     },
@@ -2146,8 +2149,8 @@ export default {
         this.fpInputListFiltered = this.fpInputList.filter(datum => this.userExperimentFilter.includes(datum.details['Experiment Name']))
       } else {
         this.selectedDrugNames = []
-        this.ptmInputListFiltered = this.ptmInputList.filter(datum => this.prdbExperimentDesignFilter.map(d => d.datasetName).includes(datum.details['Experiment Design']))
-        this.fpInputListFiltered = this.fpInputList.filter(datum => this.prdbExperimentDesignFilter.map(d => d.datasetName).includes(datum.details['Experiment Design']))
+        this.ptmInputListFiltered = this.ptmInputList.filter(datum => this.internalDatabaseExperimentDesignFilter.map(d => d.datasetName).includes(datum.details['Experiment Design']))
+        this.fpInputListFiltered = this.fpInputList.filter(datum => this.internalDatabaseExperimentDesignFilter.map(d => d.datasetName).includes(datum.details['Experiment Design']))
       }
       // Check if the fold changes are log-transformed and if not, do it
       if (Math.min(...this.ptmInputList.map(datum => Number(datum.details['Fold Change']))) >= 0) {
@@ -2267,7 +2270,7 @@ export default {
           ]
         }
       } else {
-        // No enrichment statuses in PrDB Data Mode
+        // No enrichment statuses in Internal Database Mode (they were calculated prior to startup, so they don't change anymore)
         this.enrichmentStatuses = []
       }
       this.enrichmentResponse = {}
@@ -2318,10 +2321,10 @@ export default {
           }
         } else {
           // Load enrichment results from the server
-          const experimentEnrichmentResponseRaw = await this.backendApi.getPrdbEnrichmentResults(
+          const experimentEnrichmentResponseRaw = await this.backendApi.getInternalDatabaseEnrichmentResults(
               this.selectedDatasetForEnrichment.datasetId)
 
-          this.enrichmentResponse = this.formatEnrichmentResponsePrDB(
+          this.enrichmentResponse = this.formatInternalDatabaseEnrichmentResponse(
             experimentEnrichmentResponseRaw[this.selectedDatasetForEnrichment.datasetId])
           // Try to sort pathways, if gcr is among the retrieved enrichments
           this.getGCRSortedPathwayList()

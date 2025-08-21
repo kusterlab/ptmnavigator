@@ -3,7 +3,8 @@
  * @typedef {Object} BackendApiInterface
  * @property {() => String} getDefaultSessionId
  * @property {() => String} getBackendName
- * @property {(uuid: string||undefined) => CheckSessionIdResult} checkSessionId
+ * @property {(uuid: string||undefined) => RefreshSessionIdResult} refreshSessionId
+ * @property {(uuid: string||undefined) => UserDataset[]} getUserDatasetList
  * @property {(uuid: string) => void} renewSession
  * @property {() => Organism[]} getOrganisms
  * @property {() => Project} getProjects
@@ -23,14 +24,15 @@
 
 
 /**
- * @typedef CheckSessionIdResult
+ * @typedef RefreshSessionIdResult
  * @property {number} cookieStatus
- * @property {CheckSessionIdDataset[]} datasets
+ * @property {string} uuid
  */
 
-
 /**
- * @typedef CheckSessionIdDataset
+ * @typedef UserDataset
+ * @property {string} datasetName
+ * @property {string} datasetId
  * @property {string} omicsType
  */
 
@@ -102,7 +104,8 @@ export function apiValidator(api) {
     const requiredMethods = [
         'getDefaultSessionId',
         'getBackendName',
-        'checkSessionId',
+        'refreshSessionId',
+        'getUserDatasetList',
         'renewSession',
         'getOrganisms',
         'getProjects',

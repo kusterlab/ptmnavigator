@@ -1394,18 +1394,26 @@ export default {
   watch: {
     uuid: {
       immediate: true,
-      async handler (newVal, oldVal) {
+      async handler (newUUID, oldUUID) {
         // Validate the UUID
-        if (newVal && newVal !== oldVal && newVal.length === 32) {
-          const response = await this.backendApi.checkSessionId(newVal)
-          if (response.cookieStatus === 0) {
+        if (newUUID && newUUID !== oldUUID && newUUID.length === 32) {
+          const sessionIdResponse = await this.backendApi.refreshSessionId(newUUID)
+          if (sessionIdResponse.cookieStatus === 0) {
+            if(sessionIdResponse.uuid !== newUUID){
+              this.uuid = sessionIdResponse.uuid
+              return
+            }
+            const userDatasetListResponse = await this.backendApi.getUserDatasetList(newUUID)
+
             const d = new Date()
             d.setTime(d.getTime() + 14 * 24 * 60 * 60 * 1000)
             // Only set the cookie if it is not the one for the default dataset
-            if (this.uuid !== this.defaultSessionId) {
-              this.$cookie.set('analyticsUploadSessionID', this.uuid, { expires: d })
+            if (newUUID !== this.defaultSessionId) {
+              this.$cookie.set('analyticsUploadSessionID', newUUID, { expires: d })
             }
-            this.userDatasets = response.datasets.filter(d => d.omicsType.startsWith('decryptM') || d.omicsType.startsWith('FoldChange'))
+            this.userDatasets = userDatasetListResponse.filter(
+                d => d.omicsType.startsWith('decryptM') || d.omicsType.startsWith('FoldChange'))
+
             // Only do the following in view mode. In edit mode, we don't want to lose the graph and the values that
             // are changed here do not matter anyways.
             if (this.pathwaygraphApplicationMode === 'viewing') {
@@ -1940,7 +1948,7 @@ export default {
         // If the user does not have a session ID yet, create it
         if (!this.$cookie.get('analyticsUploadSessionID')) {
           // TODO: Check if this causes an error since I am not supplying a UUID
-          const sessionIdResponse = await this.backendApi.checkSessionId(undefined)
+          const sessionIdResponse = await this.backendApi.refreshSessionId(undefined)
           this.uuid = sessionIdResponse.uuid
         }
 

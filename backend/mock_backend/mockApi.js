@@ -14,7 +14,7 @@ import mockInternalDatabaseEnrichmentResults from './mock_data/mockInternalDatab
 
 
 const mockApi = {
-    getDefaultSessionId(){
+    getDefaultSessionId() {
         return '0'.repeat(32)
     },
 
@@ -22,24 +22,32 @@ const mockApi = {
         return 'Internal Database'
     },
 
-    //TODO: Rename this endpoint, or split into two - it is not obvious that this retrieves the list of user datasets.
-    async checkSessionId(uuid) {
-        if(!uuid){
+    refreshSessionId(uuid) {
+        if (!uuid) {
             uuid = '0'.repeat(32)
         }
         if (uuid !== '0'.repeat(32)) {
             console.log(`Mock Backend only has UUID ${'0'.repeat(32)}!`)
-        } else {
+        }else {
+            //A proper backend could also refresh the expiry date of the uuid
             return {
                 cookieStatus: 0,
                 uuid,
-                datasets: [
-                    {datasetName: "MockPTMDataset", datasetId: "mockPtm", omicsType: "FoldChange"},
-                    {datasetName: "MockFPDataset", datasetId: "mockFp", omicsType: "FoldChange"},
-                    {datasetName: "MockDecryptMDataset", datasetId: "mockDecryptM", omicsType: "decryptM"},
-                    // {datasetName: "MockDecryptEDataset", datasetId: "mockDecryptE", omicsType: "decryptE"} //TODO: decryptE probably not recognized by PTMNav
-                ]
             }
+        }
+    },
+
+    getUserDatasetList(uuid) {
+        if (uuid !== '0'.repeat(32)) {
+            console.log(`Mock Backend only has UUID ${'0'.repeat(32)}!`)
+            return []
+        } else {
+            return [
+                {datasetName: "MockPTMDataset", datasetId: "mockPtm", omicsType: "FoldChange"},
+                {datasetName: "MockFPDataset", datasetId: "mockFp", omicsType: "FoldChange"},
+                {datasetName: "MockDecryptMDataset", datasetId: "mockDecryptM", omicsType: "decryptM"},
+                // {datasetName: "MockDecryptEDataset", datasetId: "mockDecryptE", omicsType: "decryptE"} //TODO: decryptE probably not recognized by PTMNav
+            ]
         }
     },
 

@@ -4,7 +4,7 @@ import userPtmInputList from  './mock_data/mockUserDatasetPTMInput.json'
 import userFpInputList from  './mock_data/mockUserDatasetFPInput.json'
 
 import userdecryptMInputList from  './mock_data/mockUserDatasetDecryptMInput.json'
-// import userFpInputList from  './mock_data/mockUserDatasetFPInput.json'
+import userdecryptEInputList from './mock_data/mockUserDatasetDecryptEInput.json'
 
 import InternalDatabasePTMInputList from './mock_data/mockInternalDatabaseDatasetPTMInput.json'
 import InternalDatabaseFPInputList from './mock_data/mockInternalDatabaseDatasetFPInput.json'
@@ -46,21 +46,22 @@ const mockApi = {
                 {datasetName: "MockPTMDataset", datasetId: "mockPtm", omicsType: "FoldChange"},
                 {datasetName: "MockFPDataset", datasetId: "mockFp", omicsType: "FoldChange"},
                 {datasetName: "MockDecryptMDataset", datasetId: "mockDecryptM", omicsType: "decryptM"},
-                // {datasetName: "MockDecryptEDataset", datasetId: "mockDecryptE", omicsType: "decryptE"} //TODO: decryptE probably not recognized by PTMNav
+                {datasetName: "MockDecryptEDataset", datasetId: "mockDecryptE", omicsType: "decryptE"} //TODO: decryptE probably not recognized by PTMNav
             ]
         }
     },
 
     async getOrganisms() {
         return [{taxcode: 9606, name: "Homo sapiens"}]
-
     },
 
+
+    //TODO: Rename to Internal Datasets
     async getProjects() {
         return [{projectId: 1234, projectName: "MockInternalDatabaseProject"}]
-
     },
 
+    //TODO: Rename to Internal Experiment
     async getExperimentDesigns(projectId) {
         if (projectId !== 1234) {
             console.log("Mock Backend only has Project 'MockInternalDatabaseProject'")
@@ -68,6 +69,7 @@ const mockApi = {
         return [{
             datasetName: "Mock InternalDatabase Experiment Design",
             datasetId: 42,
+            omicsType: 'decryptM'
         }]
 
     },
@@ -125,10 +127,10 @@ const mockApi = {
             ptmInputList = userdecryptMInputList
         }
 
-        // if(userDatasets.map(d => d.datasetId).includes('mockDecryptE')){
-        //     userDatasetTypes["mockDecryptM"] = "decryptE" //TODO This type is not recognized by PTMNav yet
-        //     fpInputList = userdecryptEInputList
-        // }
+        if(userDatasets.map(d => d.datasetId).includes('mockDecryptE')){
+            userDatasetTypes["mockDecryptE"] = "decryptE" //TODO This type is not recognized by PTMNav yet
+            fpInputList = userdecryptEInputList
+        }
 
 
         return {

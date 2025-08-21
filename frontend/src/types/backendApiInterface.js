@@ -52,6 +52,7 @@
  * @typedef ExperimentDesign
  * @property {string} datasetName
  * @property {string} datasetId
+ * @property {string} omicsType
  */
 
 /**

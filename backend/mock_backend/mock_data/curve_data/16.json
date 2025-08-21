@@ -1,0 +1,60 @@
+{
+  "id": "curve16",
+  "dataPoints":[
+      [
+        1e-9,
+        1.104572628989537
+      ],
+      [
+        3e-9,
+        1.2219349926920218
+      ],
+      [
+        3e-8,
+        1.2285292688683844
+      ],
+      [
+        0.000001,
+        1.6032992168529032
+      ],
+      [
+        3e-7,
+        1.682204327830427
+      ],
+      [
+        1e-7,
+        1.4632462545539942
+      ],
+      [
+        3e-10,
+        1.0635505413918886
+      ],
+      [
+        3e-11,
+        1.2812687880537232
+      ],
+      [
+        1e-8,
+        1.2993058566822644
+      ],
+      [
+        0.00001,
+        2.2869214917907716
+      ]
+  ],
+
+  "formula": "return $C$ + ($D$ -$C$) / (1 + Math.exp($B$* (Math.log(x) - Math.log($E$))));",
+  "escapeCharacter": "$",
+  "curveParameters": {
+    "E": 0.00999999990576101,
+    "B": 0.290493960529402,
+    "D": 1.08451428286235,
+    "C": 11.0253512608376
+  },
+  "legendText": "Dasatinib: PLCB3 @ A431",
+  "tooltipTextHTML": "<pre style='text-align: left'><b>Dasatinib: PLCB3 @ A431</b><br><br>EC50:           9.99e-3<br>Fold Change:    2.287<br>R2:             0.93<br></pre>",
+  "xAxisLabel": "Dose [M]",
+  "yAxisLabel": "Relative Response",
+  "curveHighlights": [9.99e-3],
+  "curveHighlightErrorBarEndpoints": [[1.00e-3, 3.00e-2]]
+}

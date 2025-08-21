@@ -487,7 +487,7 @@
             </v-form>
           </v-card>
         </template>
-        <div v-if="areSomeSelectedDatasetsDecryptM">
+        <div v-if="doSomeSelectedDatasetsHaveCurves">
           <v-row>
             <v-spacer />
             <downloader
@@ -505,10 +505,13 @@
               cols="12"
             >
               <v-card
+                  ref="lineplot-doseresponsecurve-card"
                   flat
               >
                 <v-card-title>Dose-Response Curves:</v-card-title>
-                <v-card-actions>
+                <v-card-text
+                    :style="{transform: `scale(${curvePlotScale})`}"
+                >
                   <loading-overlay
                       :loading="doseResponseCurveLoading"
                   />
@@ -518,7 +521,7 @@
                       :input-data.prop="curvePlotInputData"
                       :meta-data-attr.prop="curvePlotMetaData"
                   />
-                </v-card-actions>
+                </v-card-text>
               </v-card>
             </v-col>
           </v-row>
@@ -1334,7 +1337,9 @@ export default {
       curvePlotInputData: [],
       curvePlotMetaData: {},
       curvePlotLegendFontSize: 12,
-      curvePlotSize: 500,
+      curvePlotSize: 450,
+      curvePlotScale: 1.0,
+
 
     }
   },
@@ -1352,14 +1357,12 @@ export default {
       // this.tabs is 0 if we are in 'internal data' mode, and 1 if we are in 'user data mode'
       return this.dataTabs === 1
     },
-    areAllSelectedDatasetsTimeDependent () {
-      return this.isUserDataMode && this.selectedUserDatasets.every(dataset => dataset.omicsType.startsWith('decryptM_td'))
-    },
-    areSomeSelectedDatasetsDecryptM () {
-      //TODO:
-      //This implementation currently assumes that all non-user data is decryptM.
-      // This is true for the ProteomicsDB version of PTMNavigator, but not necessarily for standalone.
-      return !this.isUserDataMode || (this.selectedUserDatasets.length > 0 && this.selectedUserDatasets.some(ds => ds.omicsType && ds.omicsType.startsWith('decryptM')))
+    doSomeSelectedDatasetsHaveCurves () {
+      if(this.isUserDataMode){
+        return this.selectedUserDatasets.length > 0 && this.selectedUserDatasets.some(ds => ds.omicsType && ds.omicsType.startsWith('decrypt'))
+      }else{
+        return this.selectedExperimentDesigns.length > 0 && this.selectedExperimentDesigns.some(ds => ds.omicsType && ds.omicsType.startsWith('decrypt'))
+      }
     },
     canonicalPathwayLink () {
       return this.selectedCanonicalPathway.link.startsWith('wikipathways')
@@ -1412,7 +1415,7 @@ export default {
               this.$cookie.set('analyticsUploadSessionID', newUUID, { expires: d })
             }
             this.userDatasets = userDatasetListResponse.filter(
-                d => d.omicsType.startsWith('decryptM') || d.omicsType.startsWith('FoldChange'))
+                d => d.omicsType.startsWith('decrypt') || d.omicsType.startsWith('FoldChange'))
 
             // Only do the following in view mode. In edit mode, we don't want to lose the graph and the values that
             // are changed here do not matter anyways.
@@ -1496,6 +1499,7 @@ export default {
     // Only in user-data mode - in internal database-data mode, the data is retrieved once and that's it
     this.enrichmentQueryIntervalId = setInterval(() => {
       if (this.isUserDataMode) return this.retrieveMissingEnrichments()
+      if (this.isUserDataMode) return this.retrieveMissingEnrichments()
     }, 5000)
 
     // Set initial values for the curvePlot
@@ -1510,9 +1514,20 @@ export default {
     window.removeEventListener('resize', this.onResize)
   },
   methods: {
+
+
     onResize () {
       this.graphWidth = document.querySelector('#spacereservedforgraph').clientWidth - 35
 
+      const card = this.$refs['lineplot-doseresponsecurve-card']
+      if(card) {
+        const card_el = card.$el
+        console.log('should do shit!')
+        console.log(`boundingclientwidth:${card_el.getBoundingClientRect().width}`)
+        console.log(`Before: ${this.curvePlotScale}`)
+        this.curvePlotScale = Math.min(1, card_el.getBoundingClientRect().width * 0.99 / this.curvePlotSize)
+        console.log(`After: ${this.curvePlotScale}`)
+      }
       if (this.$refs.responseCurve) {
         //TODO: Check if this is still necessary with the new implementation of responseCurve
         // Sorry, this is a bit ugly. What actually happens here is that the responseCurve must be redrawn with the new width.

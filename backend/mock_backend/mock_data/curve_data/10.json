@@ -1,0 +1,59 @@
+{
+  "id": "curve10",
+  "dataPoints": [
+    [
+      1e-9,
+      0.8025154260889198
+    ],
+    [
+      1e-8,
+      0.2649777179248879
+    ],
+    [
+      3e-11,
+      0.8273369306241407
+    ],
+    [
+      3e-9,
+      0.7260723522670053
+    ],
+    [
+      1e-7,
+      0.484462172319287
+    ],
+    [
+      0.000001,
+      0.3914774835044276
+    ],
+    [
+      3e-8,
+      0.5927425657251
+    ],
+    [
+      3e-10,
+      0.9635125948061473
+    ],
+    [
+      3e-7,
+      0.3319039762197448
+    ],
+    [
+      0.00001,
+      0.29324028366075455
+    ]
+  ],
+  "formula": "return $C$ + ($D$ -$C$) / (1 + Math.exp($B$* (Math.log(x) - Math.log($E$))));",
+  "escapeCharacter": "$",
+  "curveParameters": {
+    "E": 3.11854188001613e-9,
+    "B": 2.41121348545841,
+    "D": 0.900585505649442,
+    "C": 0.393136764127448
+  },
+  "legendText": "Dasatinib: ARAF @ A431",
+  "tooltipTextHTML": "<pre style='text-align: left'><b>Dasatinib: ARAF @ A431</b><br><br>EC50:           3.12e-9<br>Fold Change:    0.293<br>R2:             0.84<br></pre>",
+  "xAxisLabel": "Dose [M]",
+  "yAxisLabel": "Relative Response",
+  "curveHighlights": [3.12e-9],
+  "curveHighlightErrorBarEndpoints": [[1.00e-9, 3.2e-8]]
+}

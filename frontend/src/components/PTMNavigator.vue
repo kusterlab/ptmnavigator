@@ -2157,8 +2157,8 @@ export default {
         this.fpInputListFiltered = this.fpInputList.filter(datum => this.userExperimentFilter.includes(datum.details['Experiment Name']))
       } else {
         this.selectedDrugNames = []
-        this.ptmInputListFiltered = this.ptmInputList.filter(datum => this.internalDatabaseExperimentDesignFilter.map(d => d.datasetName).includes(datum.details['Experiment Design']))
-        this.fpInputListFiltered = this.fpInputList.filter(datum => this.internalDatabaseExperimentDesignFilter.map(d => d.datasetName).includes(datum.details['Experiment Design']))
+        this.ptmInputListFiltered = this.ptmInputList.filter(datum => this.internalDatabaseExperimentDesignFilter.map(d => d.datasetId).includes(datum.details["Dataset ID"]))
+        this.fpInputListFiltered = this.fpInputList.filter(datum => this.internalDatabaseExperimentDesignFilter.map(d => d.datasetId).includes(datum.details["Dataset ID"]))
       }
       // Check if the fold changes are log-transformed and if not, do it
       if (Math.min(...this.ptmInputList.map(datum => Number(datum.details['Fold Change']))) >= 0) {

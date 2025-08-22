@@ -59,6 +59,9 @@
                             v-if="internalProjects"
                             v-model="selectedInternalProject"
                             :items="internalProjects"
+                            return-object
+                            item-text="projectName"
+                            item-value="projectId"
                             label="Project:"
                             @change="
                             getInternalDatasetsForSelectedProject();
@@ -219,7 +222,7 @@
                   Pathway Selection
                 </h2>
                 <v-fade-transition>
-                  <span v-if="!open && !!selectedCanonicalPathway">{{ selectedCanonicalPathway.text }}</span>
+                  <span v-if="!open && !!selectedCanonicalPathway">{{ selectedCanonicalPathway.pathwayName }}</span>
                 </v-fade-transition>
               </div>
             </v-expansion-panel-header>
@@ -261,9 +264,12 @@
                       <v-card-text>
                         <v-combobox
                             v-model="selectedCanonicalPathway"
+                            return-object
                             :disabled="!canonicalPathwayListFiltered"
                             clearable
                             :items="canonicalPathwayListFiltered"
+                            item-text="pathwayName"
+                            item-value="pathwayId"
                             :label="pathwaySelectionLabel"
                             @change="onCanonicalPathwaySelectionChange"
                         />
@@ -331,9 +337,12 @@
                   <v-tab-item class="ma-4">
                     <v-combobox
                       v-model="selectedCustomPathway"
+                      return-object
                       :disabled="!customPathwayList"
                       clearable
                       :items="customPathwayList"
+                      item-text="pathwayName"
+                      item-value="pathwayId"
                       :label="customPathwaySelectionLabel"
                       @change="onCustomPathwaySelectionChange"
                     />
@@ -418,8 +427,11 @@
                   <v-combobox
                       v-model="selectedCanonicalPathway"
                       :disabled="!canonicalPathwayListFiltered"
+                      return-object
                       clearable
                       :items="canonicalPathwayListFiltered"
+                      item-text="pathwayName"
+                      item-value="pathwayId"
                       :label="pathwaySelectionLabel"
                       @change="onCanonicalPathwaySelectionChange"
                   />
@@ -448,9 +460,12 @@
                 <v-tab-item class="ma-4">
                   <v-combobox
                     v-model="selectedCustomPathway"
+                    return-object
                     :disabled="!customPathwayList"
                     clearable
                     :items="customPathwayList"
+                    item-text="pathwayName"
+                    item-value="pathwayId"
                     :label="customPathwaySelectionLabel"
                     @change="onCustomPathwaySelectionChange"
                   />
@@ -1400,8 +1415,8 @@ export default {
     },
     canonicalPathwayLink() {
       return this.selectedCanonicalPathway.link.startsWith('wikipathways')
-          ? `https://www.wikipathways.org/index.php/Pathway:${this.selectedCanonicalPathway.value}`
-          : `https://www.kegg.jp/pathway/${this.selectedCanonicalPathway.value}`
+          ? `https://www.wikipathways.org/index.php/Pathway:${this.selectedCanonicalPathway.pathwayId}`
+          : `https://www.kegg.jp/pathway/${this.selectedCanonicalPathway.pathwayId}`
     },
     allCurrentExperiments() {
       const uniqueExperimentsMap = new Map();
@@ -1592,8 +1607,8 @@ export default {
       const projectsResponse = await this.backendApi.getInternalProjects()
       this.internalProjects = projectsResponse.map((obj) => {
         return {
-          text: obj.projectName,
-          value: obj.projectId
+          projectName: obj.projectName,
+          projectId: obj.projectId
         }
       })
       this.selectedInternalProject = this.internalProjects[0]
@@ -1601,7 +1616,7 @@ export default {
 
     async getInternalDatasetsForSelectedProject() {
       if (this.selectedInternalProject) {
-        this.internalDatasets = await this.backendApi.getInternalDatasetsForProject(this.selectedInternalProject.value)
+        this.internalDatasets = await this.backendApi.getInternalDatasetsForProject(this.selectedInternalProject.projectId)
       }
     },
 
@@ -1609,8 +1624,8 @@ export default {
       const customPathwayListResponse = await this.backendApi.getCustomPathwayList(this.uuid)
       this.customPathwayList = customPathwayListResponse.map(pw => {
         return {
-          text: pw.pathwayName,
-          value: pw.pathwayId,
+          pathwayName: pw.pathwayName,
+          pathwayId: pw.pathwayId,
           json: pw.pathwayJSON
         }
       })
@@ -1621,9 +1636,9 @@ export default {
 
       this.canonicalPathwayList = pathwayListResponse.map(pw => {
         return {
-          text: `${pw.title} (${pw.name})`,
-          title: pw.title,
-          value: pw.name,
+          pathwayName: `${pw.title} (${pw.name})`,
+          pathwayTitle: pw.title,
+          pathwayId: pw.name,
           link: pw.link
         }
       })
@@ -1633,14 +1648,14 @@ export default {
     clearCanonicalPathwaySorting () {
       // Clean up the pathway names by deleting the previous score, if present
       this.canonicalPathwayList.forEach(pw => {
-        pw.text = pw.text.split('[Score=')[0].trim()
+        pw.pathwayName = pw.pathwayName.split('[Score=')[0].trim()
         pw.score = undefined
       })
 
       this.canonicalPathwayList.sort((a, b) => {
-        if (!a.text) return 1
-        if (!b.text) return -1
-        return (a.text < b.text) ? -1 : (a.text > b.text) ? 1 : 0
+        if (!a.pathwayName) return 1
+        if (!b.pathwayName) return -1
+        return (a.pathwayName < b.pathwayName) ? -1 : (a.pathwayName > b.pathwayName) ? 1 : 0
       })
 
       this.canonicalPathwayListFiltered = this.canonicalPathwayList
@@ -1657,8 +1672,8 @@ export default {
         })
 
         this.canonicalPathwayList.forEach(pathway => {
-          const pathwayPrefix = pathway.value.startsWith('WP') ? 'WP' : 'KEGG'
-          const pathwayTitleReformatted = pathway.title
+          const pathwayPrefix = pathway.pathwayId.startsWith('WP') ? 'WP' : 'KEGG'
+          const pathwayTitleReformatted = pathway.pathwayTitle
               .toUpperCase()
               .replaceAll(' ', '_')
               .replaceAll('-', '_')
@@ -1683,7 +1698,7 @@ export default {
         })
 
         this.canonicalPathwayList.forEach(pw => {
-          pw.text += ` ${pw.score > 0 ? `[Score=${pw.score.toFixed(2)}]` : ''}`
+          pw.pathwayName += ` ${pw.score > 0 ? `[Score=${pw.score.toFixed(2)}]` : ''}`
         })
       }
 
@@ -1777,7 +1792,7 @@ export default {
           this.selectedDrugNames = []
         }
         if (this.selectedCustomPathway && this.selectedCustomPathway.json) {
-          this.customPathwayName = this.selectedCustomPathway.text
+          this.customPathwayName = this.selectedCustomPathway.pathwayName
           this.constructPathwaySkeleton(JSON.parse(this.selectedCustomPathway.json))
         }
       } else if (this.pathwaygraphApplicationMode === 'editing') {
@@ -1792,7 +1807,7 @@ export default {
         this.currentGraphdataSkeleton = undefined
 
         this.selectedCustomPathway = customPathwayTemp
-        if (!!this.selectedCustomPathway && !!this.selectedCustomPathway.value) {
+        if (!!this.selectedCustomPathway && !!this.selectedCustomPathway.pathwayId) {
           await this.useCopyOrModify()
         }
       }
@@ -1816,7 +1831,7 @@ export default {
         this.selectedCanonicalPathway = canonicalPathwayTemp
       }
       this.currentGraphdataSkeleton = undefined
-      if (!this.selectedCanonicalPathway || !this.selectedCanonicalPathway.value) {
+      if (!this.selectedCanonicalPathway || !this.selectedCanonicalPathway.pathwayId) {
         return
       }
       this.selectedCurveIDs = []
@@ -2066,12 +2081,12 @@ export default {
           this.showCustomPathwayEditCopyQuestionDialog = false
           switch (val) {
             case 'useCopy':
-              this.customPathwayName = `${this.selectedCustomPathway.text} (COPY)`
+              this.customPathwayName = `${this.selectedCustomPathway.pathwayName} (COPY)`
               this.currentlyEditedPathwayId = undefined
               break
             case 'modify':
-              this.customPathwayName = this.selectedCustomPathway.text
-              this.currentlyEditedPathwayId = this.selectedCustomPathway.value
+              this.customPathwayName = this.selectedCustomPathway.pathwayName
+              this.currentlyEditedPathwayId = this.selectedCustomPathway.pathwayId
               break
             default:
               break
@@ -2217,7 +2232,7 @@ export default {
             searchStringArray.join(';'),
             this.selectedOrganism.taxcode
         )
-        this.canonicalPathwayListFiltered = this.canonicalPathwayList.filter(pathway => filteredPathwayIds.includes(pathway.value))
+        this.canonicalPathwayListFiltered = this.canonicalPathwayList.filter(pathway => filteredPathwayIds.includes(pathway.pathwayId))
       } else {
         this.canonicalPathwayListFiltered = this.canonicalPathwayList
       }

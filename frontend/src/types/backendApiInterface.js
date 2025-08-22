@@ -79,7 +79,7 @@
 
 /**
  * @typedef LoadedData
- * @property {Array} ptmInputList //TODO: Need to make clear this has to include Experiment Name and ID
+ * @property {Array} ptmInputList //TODO: Need to make clear what are the mandatory fields for these (probably the same for both so you could create a type)
  * @property {Array} proteinInputList
  */
 

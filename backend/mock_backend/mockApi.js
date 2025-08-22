@@ -1,16 +1,16 @@
 import customPathwayList from './mock_data/customPathwayList.json'
 import WP422 from './mock_data/WP422.json'
 import userPtmInputList from  './mock_data/mockUserDatasetPTMInput.json'
-import userFpInputList from  './mock_data/mockUserDatasetFPInput.json'
+import userProteinInputList from './mock_data/mockUserDatasetProteinInput.json'
 
 import userdecryptMInputList from  './mock_data/mockUserDatasetDecryptMInput.json'
 import userdecryptEInputList from './mock_data/mockUserDatasetDecryptEInput.json'
 
-import InternalDatabasePTMInputList from './mock_data/mockInternalDatabaseDatasetPTMInput.json'
-import InternalDatabaseFPInputList from './mock_data/mockInternalDatabaseDatasetFPInput.json'
+import InternalDatasetPTMInputList from './mock_data/mockInternalDatasetPTMInput.json'
+import InternalDatasetProteinInputList from './mock_data/mockInternalDatasetProteinInput.json'
 //TODO: Motif and KEA3 not available, haven't checked InternalDatabase datasets yet
 import mockUserEnrichmentResults from './mock_data/mockUserEnrichmentResults.json'
-import mockInternalDatabaseEnrichmentResults from './mock_data/mockInternalDatabaseEnrichmentResults.json'
+import mockInternalDatasetEnrichmentResults from './mock_data/mockInternalDatasetEnrichmentResults.json'
 
 
 const mockApi = {
@@ -54,7 +54,7 @@ const mockApi = {
         } else {
             return [
                 {datasetName: "MockPTMDataset", datasetId: 1, omicsType: "FoldChange"},
-                {datasetName: "MockFPDataset", datasetId: 2, omicsType: "FoldChange"},
+                {datasetName: "MockProteinDataset", datasetId: 2, omicsType: "FoldChange"},
                 {datasetName: "MockDecryptMDataset", datasetId: 3, omicsType: "decryptM"},
                 {datasetName: "MockDecryptEDataset", datasetId: 4, omicsType: "decryptE"}
             ]
@@ -66,7 +66,7 @@ const mockApi = {
      * The 32-Digit Session ID is much harder to guess
      * @param sessionId
      * @param userDatasets
-     * @returns {Promise<{fpInputList: *[], organismOfFirstDataset: number, ptmInputList: *[], userDatasetTypes: {}}>}
+     * @returns {Promise<{proteinInputList: *[], organismOfFirstDataset: number, ptmInputList: *[], userDatasetTypes: {}}>}
      */
     async loadUserDatasets(sessionId, userDatasets) {
         if (sessionId !== '0'.repeat(32)) {
@@ -74,7 +74,7 @@ const mockApi = {
         }
         const userDatasetTypes = {}
         let ptmInputList = [];
-        let fpInputList = []
+        let proteinInputList = []
 
 
         if (userDatasets.map(d => d.datasetId).includes(1)) {
@@ -83,8 +83,8 @@ const mockApi = {
         }
 
         if (userDatasets.map(d => d.datasetId).includes(2)) {
-            userDatasetTypes[2] = "fullprot"
-            fpInputList = fpInputList.concat(userFpInputList)
+            userDatasetTypes[2] = "protein"
+            proteinInputList = proteinInputList.concat(userProteinInputList)
         }
 
         if (userDatasets.map(d => d.datasetId).includes(3)) {
@@ -93,13 +93,13 @@ const mockApi = {
         }
 
         if (userDatasets.map(d => d.datasetId).includes(4)) {
-            userDatasetTypes[4] = "fullprot" //TODO: Replace fullprot by protein - or maybe just distinguish phospho and nonphospho, that is all this field is used for at the moment
-            fpInputList = fpInputList.concat(userdecryptEInputList)
+            userDatasetTypes[4] = "protein" //TODO: maybe just distinguish phospho and nonphospho, that is all this field is used for at the moment
+            proteinInputList = proteinInputList.concat(userdecryptEInputList)
         }
 
         return {
             ptmInputList,
-            fpInputList,
+            proteinInputList,
             userDatasetTypes,
             //TODO: Awkwaaaard
             organismOfFirstDataset: 9606
@@ -120,7 +120,7 @@ const mockApi = {
             omicsType: 'FoldChange'
         },
             {
-                datasetName: "MockInternalFPDataset",
+                datasetName: "MockInternalProteinDataset",
                 datasetId: 43,
                 omicsType: 'FoldChange'
             }
@@ -129,19 +129,19 @@ const mockApi = {
 
     async loadInternalDatasets(selectedDatasets) {
         let ptmInputList = [];
-        let fpInputList = []
+        let proteinInputList = []
 
         if (selectedDatasets.map(d => d.datasetId).includes(42)) {
-            ptmInputList = ptmInputList = ptmInputList.concat(InternalDatabasePTMInputList)
+            ptmInputList = ptmInputList = ptmInputList.concat(InternalDatasetPTMInputList)
         }
 
         if (selectedDatasets.map(d => d.datasetId).includes(43)) {
-            fpInputList = fpInputList.concat(InternalDatabaseFPInputList)
+            proteinInputList = proteinInputList.concat(InternalDatasetProteinInputList)
         }
 
         return {
             ptmInputList,
-            fpInputList,
+            proteinInputList,
             organismOfFirstDataset: 9606
         }
 
@@ -212,7 +212,7 @@ const mockApi = {
         if (experimentDesignIds !== '42') {
             console.log('Mock backend only has experiment 42!')
         }
-        return mockInternalDatabaseEnrichmentResults
+        return mockInternalDatasetEnrichmentResults
 
     },
 

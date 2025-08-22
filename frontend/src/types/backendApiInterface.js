@@ -79,7 +79,7 @@
 /**
  * @typedef LoadedData
  * @property {Array} ptmInputList //TODO: Need to make clear this has to include Experiment Name and ID
- * @property {Array} fpInputList
+ * @property {Array} proteinInputList
  */
 
 

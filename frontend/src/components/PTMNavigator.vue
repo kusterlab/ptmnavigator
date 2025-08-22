@@ -175,7 +175,7 @@
               </h2>
             </v-expansion-panel-header>
             <v-expansion-panel-content>
-              <v-row v-if="ptmInputList || fpInputList">
+              <v-row v-if="ptmInputList || proteinInputList">
                 <v-col cols="12">
                   <v-card flat>
                     <v-card-text>
@@ -249,7 +249,7 @@
                         <v-combobox
                           v-model="selectedOrganism"
                           return-object
-                          :disabled="!organismList || ptmInputList.length > 0 || fpInputList.length > 0"
+                          :disabled="!organismList || ptmInputList.length > 0 || proteinInputList.length > 0"
                           :items="organismList"
                           label="Organism:"
                           @change="onOrganismSelectionChange"
@@ -405,7 +405,7 @@
                   <v-combobox
                     v-model="selectedOrganism"
                     return-object
-                    :disabled="!organismList || ptmInputList.length > 0 || fpInputList.length > 0"
+                    :disabled="!organismList || ptmInputList.length > 0 || proteinInputList.length > 0"
                     :items="organismList"
                     label="Organism:"
                     @change="onOrganismSelectionChange"
@@ -544,7 +544,7 @@
               <v-card-title>Highlight Kinase Activities:</v-card-title>
               <v-card-text>
                 <the-kinase-activity-thresholder
-                  v-if="ptmInputList.length > 0 || fpInputList.length > 0"
+                  v-if="ptmInputList.length > 0 || proteinInputList.length > 0"
                   ref="kinaseActivityThresholder"
                   :data-in="enrichmentResponse"
                   :selected-dataset="selectedDatasetForEnrichment"
@@ -683,7 +683,7 @@
                 :pathway-meta-data.prop="currentPathwayMetaData"
                 :graphdata-skeleton.prop="currentGraphdataSkeleton"
                 :ptm-input-list.prop="ptmInputListFiltered"
-                :full-proteome-input-list.prop="fpInputListFiltered"
+                :full-proteome-input-list.prop="proteinInputListFiltered"
                 :application-mode.prop="pathwaygraphApplicationMode"
                 :perturbed-nodes.prop="perturbedNodes"
                 @selectionDetails="onSelectionChanged"
@@ -847,7 +847,7 @@
             >
               <downloader
                 v-if="enrichmentOrSelectionTable === 'enrichment'"
-                :disabled="ptmInputList.length === 0 && fpInputList.length === 0"
+                :disabled="ptmInputList.length === 0 && proteinInputList.length === 0"
                 class="mr-2 mt-4"
                 direction="left"
                 csv
@@ -878,7 +878,7 @@
             <template v-if="enrichmentOrSelectionTable === 'enrichment'">
               <v-col cols="12">
                 <the-pathway-enrichment-tables
-                    v-if="ptmInputList.length > 0 || fpInputList.length > 0"
+                    v-if="ptmInputList.length > 0 || proteinInputList.length > 0"
                     ref="pathwayEnrichmentTable"
                     data-grid-ref-name="pathwayenrichmenttables"
                     :datasets="isUserDataMode ? selectedUserDatasets : selectedInternalDatasets"
@@ -1258,8 +1258,8 @@ export default {
       //Data
       ptmInputList: [],
       ptmInputListFiltered: [],
-      fpInputList: [],
-      fpInputListFiltered: [],
+      proteinInputList: [],
+      proteinInputListFiltered: [],
       experimentFilter: [],
       //--Internal Data
       internalProjects: undefined,
@@ -1278,7 +1278,7 @@ export default {
       currentlyLoadedUserDatasetTypes: {},
 
       //Pathway Diagrams
-      // graphdataSkeleton holds just the information from KEGG/Wikipathway, plus potential FullProteome Information
+      // graphdataSkeleton holds just the information from KEGG/Wikipathway, plus potential Protein-Level Datasets
       currentGraphdataSkeleton: undefined,
       currentPathwayMetaData: {},
       //  Canonical Pathways
@@ -1332,8 +1332,6 @@ export default {
       selectedCurveIDs: [],
       //TODO: This, too, needs to go
       selectedDrugNames: [],
-      //TODO: Is this important?
-      selectedCurvesFullProteome: false,
       curvePlotLoading: false,
       curvePlotInputData: [],
       curvePlotMetaData: {},
@@ -1401,7 +1399,7 @@ export default {
     },
     allCurrentExperiments() {
       const uniqueExperimentsMap = new Map();
-      this.ptmInputList.concat(this.fpInputList).forEach(
+      this.ptmInputList.concat(this.proteinInputList).forEach(
           datum => uniqueExperimentsMap.set(datum.details['Experiment ID'], datum.details['Experiment Name'])
           )
 
@@ -1825,7 +1823,7 @@ export default {
       this.constructPathwaySkeleton(pathwaySkeletonResponse)
 
       // If we have data loaded already, collapse the pathway menu now (index 2 in the panel)
-      if (this.ptmInputList.length + this.fpInputList.length > 0) {
+      if (this.ptmInputList.length + this.proteinInputList.length > 0) {
         this.leftExpansionPanel = this.leftExpansionPanel.filter(val => val !== 2)
       }
     },
@@ -1860,7 +1858,7 @@ export default {
       const userProteomicsDataResult = await this.backendApi.loadUserDatasets(this.uuid, this.selectedUserDatasets)
 
       this.ptmInputList = userProteomicsDataResult.ptmInputList
-      this.fpInputList = userProteomicsDataResult.fpInputList
+      this.proteinInputList = userProteomicsDataResult.proteinInputList
       this.currentlyLoadedUserDatasetTypes = userProteomicsDataResult.userDatasetTypes
       this.selectedOrganism = this.organismList.filter(org => org.value === userProteomicsDataResult.organismOfFirstDataset)[0]
 
@@ -1895,16 +1893,16 @@ export default {
       this.selectedCurveIDs = []
       this.ptmInputList = []
       this.ptmInputListFiltered = []
-      this.fpInputList = []
-      this.fpInputListFiltered = []
+      this.proteinInputList = []
+      this.proteinInputListFiltered = []
       this.getCanonicalPathwayList()
     },
     clearInternalDatabaseData () {
       this.selectedCurveIDs = []
       this.ptmInputList = []
       this.ptmInputListFiltered = []
-      this.fpInputList = []
-      this.fpInputListFiltered = []
+      this.proteinInputList = []
+      this.proteinInputListFiltered = []
       this.selectedDrugNames = []
       this.getCanonicalPathwayList()
     },
@@ -1916,7 +1914,7 @@ export default {
 
       const internalDatabaseResult = await this.backendApi.loadInternalDatasets(this.selectedInternalDatasets)
       this.ptmInputList = internalDatabaseResult.ptmInputList
-      this.fpInputList = internalDatabaseResult.fpInputList
+      this.proteinInputList = internalDatabaseResult.proteinInputList
 
       this.selectedOrganism = this.organismList.filter(org => org.value === internalDatabaseResult.organismOfFirstDataset)[0]
 
@@ -2094,16 +2092,13 @@ export default {
           .flatMap(sel => ['string', 'number'].includes(typeof sel['Curve ID'])
               ? String(sel['Curve ID']).split(',')
               : undefined)
-        .filter(curveid => !!curveid)
-      if (this.selectedCurveIDs.length > 0) {
-        this.selectedCurvesFullProteome = false
-      } else {
-        this.selectedCurveIDs = this.selectedProteinsTableData
-          .flatMap(sel => sel['Curve ID']
-            ? String(sel['Curve ID']).split(',')
-            : undefined)
           .filter(curveid => !!curveid)
-        this.selectedCurvesFullProteome = this.selectedCurveIDs.length > 0
+      if (this.selectedCurveIDs.length === 0) {
+        this.selectedCurveIDs = this.selectedProteinsTableData
+            .flatMap(sel => sel['Curve ID']
+                ? String(sel['Curve ID']).split(',')
+                : undefined)
+            .filter(curveid => !!curveid)
       }
 
       // For Internal Database data, we also need a drug name to show the curves (because of a possible combination treatment)
@@ -2202,7 +2197,7 @@ export default {
       // Filter for selected experiments
       const experimentFilterIDs = this.experimentFilter.map(entry => entry.experimentID)
       this.ptmInputListFiltered = this.ptmInputList.filter(datum => experimentFilterIDs.includes(datum.details['Experiment ID']))
-      this.fpInputListFiltered = this.fpInputList.filter(datum => experimentFilterIDs.includes(datum.details['Experiment ID']))
+      this.proteinInputListFiltered = this.proteinInputList.filter(datum => experimentFilterIDs.includes(datum.details['Experiment ID']))
 
 
     },

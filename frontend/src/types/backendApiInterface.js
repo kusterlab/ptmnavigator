@@ -34,12 +34,13 @@
  * @property {string} datasetName
  * @property {string} datasetId
  * @property {string} omicsType
+ * @property {number} taxcode
  */
 
 /**
  * @typedef Organism
  * @property {string} name
- * @property {string} taxcode
+ * @property {number} taxcode
  */
 
 /**

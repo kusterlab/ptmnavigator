@@ -251,6 +251,9 @@
                           return-object
                           :disabled="!organismList || ptmInputList.length > 0 || proteinInputList.length > 0"
                           :items="organismList"
+                          item-text="organismName"
+                          item-value="taxcode"
+
                           label="Organism:"
                           @change="onOrganismSelectionChange"
                         />
@@ -407,6 +410,8 @@
                     return-object
                     :disabled="!organismList || ptmInputList.length > 0 || proteinInputList.length > 0"
                     :items="organismList"
+                    item-text="organismName"
+                    item-value="taxcode"
                     label="Organism:"
                     @change="onOrganismSelectionChange"
                   />
@@ -769,6 +774,7 @@
             </v-btn>
           </v-col>
         </v-row>
+<!--        TODO: Eliminate hardcoded taxcodes-->
         <template
             v-if="pathwaygraphApplicationMode==='viewing' && selectedOrganism && [9606, 10090].includes(selectedOrganism.value)">
           <v-row
@@ -1576,9 +1582,9 @@ export default {
     async getOrganisms() {
       const organismResponse = await this.backendApi.getOrganisms()
       this.organismList = organismResponse.map(datum => {
-        return {text: datum.name, value: datum.taxcode}
+        return {organismName: datum.name, taxcode: datum.taxcode}
       })
-      this.selectedOrganism = this.organismList.filter(org => org.value === 9606)[0]
+      this.selectedOrganism = this.organismList.find(org => org.taxcode === 9606)
       this.previouslySelectedOrganism = this.selectedOrganism
     },
 
@@ -1860,7 +1866,9 @@ export default {
       this.ptmInputList = userProteomicsDataResult.ptmInputList
       this.proteinInputList = userProteomicsDataResult.proteinInputList
       this.currentlyLoadedUserDatasetTypes = userProteomicsDataResult.userDatasetTypes
-      this.selectedOrganism = this.organismList.filter(org => org.value === userProteomicsDataResult.organismOfFirstDataset)[0]
+      //Select the organism of the first selected dataset
+      this.selectedOrganism = this.organismList.find(org => this.selectedUserDatasets[0].taxcode === org.taxcode)
+
 
       this.doneSnackbar = true
 
@@ -1916,7 +1924,9 @@ export default {
       this.ptmInputList = internalDatabaseResult.ptmInputList
       this.proteinInputList = internalDatabaseResult.proteinInputList
 
-      this.selectedOrganism = this.organismList.filter(org => org.value === internalDatabaseResult.organismOfFirstDataset)[0]
+
+      //Select the organism of the first selected dataset
+      this.selectedOrganism = this.organismList.find(org => this.selectedInternalDatasets[0].taxcode === org.taxcode)
 
       this.doneSnackbar = true
       this.dataLoadingSnackbar = false

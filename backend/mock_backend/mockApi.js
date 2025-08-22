@@ -53,10 +53,10 @@ const mockApi = {
             return []
         } else {
             return [
-                {datasetName: "MockPTMDataset", datasetId: 1, omicsType: "FoldChange"},
-                {datasetName: "MockProteinDataset", datasetId: 2, omicsType: "FoldChange"},
-                {datasetName: "MockDecryptMDataset", datasetId: 3, omicsType: "decryptM"},
-                {datasetName: "MockDecryptEDataset", datasetId: 4, omicsType: "decryptE"}
+                {datasetName: "MockPTMDataset", datasetId: 1, omicsType: "FoldChange", taxcode: 9606},
+                {datasetName: "MockProteinDataset", datasetId: 2, omicsType: "FoldChange", taxcode: 9606},
+                {datasetName: "MockDecryptMDataset", datasetId: 3, omicsType: "decryptM", taxcode: 9606},
+                {datasetName: "MockDecryptEDataset", datasetId: 4, omicsType: "decryptE", taxcode: 9606}
             ]
         }
     },
@@ -66,7 +66,7 @@ const mockApi = {
      * The 32-Digit Session ID is much harder to guess
      * @param sessionId
      * @param userDatasets
-     * @returns {Promise<{proteinInputList: *[], organismOfFirstDataset: number, ptmInputList: *[], userDatasetTypes: {}}>}
+     * @returns {Promise<{proteinInputList: *[], ptmInputList: *[], userDatasetTypes: {}}>}
      */
     async loadUserDatasets(sessionId, userDatasets) {
         if (sessionId !== '0'.repeat(32)) {
@@ -100,9 +100,7 @@ const mockApi = {
         return {
             ptmInputList,
             proteinInputList,
-            userDatasetTypes,
-            //TODO: Awkwaaaard
-            organismOfFirstDataset: 9606
+            userDatasetTypes
         }
     },
 
@@ -117,12 +115,14 @@ const mockApi = {
         return [{
             datasetName: "MockInternalPTMDataset",
             datasetId: 42,
-            omicsType: 'FoldChange'
+            omicsType: 'FoldChange',
+            taxcode: 9606
         },
             {
                 datasetName: "MockInternalProteinDataset",
                 datasetId: 43,
-                omicsType: 'FoldChange'
+                omicsType: 'FoldChange',
+                taxcode: 9606
             }
         ]
     },
@@ -141,8 +141,7 @@ const mockApi = {
 
         return {
             ptmInputList,
-            proteinInputList,
-            organismOfFirstDataset: 9606
+            proteinInputList
         }
 
     },

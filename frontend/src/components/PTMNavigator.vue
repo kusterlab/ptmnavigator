@@ -56,54 +56,54 @@
                       <v-tab-item class="ma-4">
                         <h3>Project Selection</h3>
                         <v-combobox
-                          v-if="projects"
-                          v-model="selectedProject"
-                          :items="projects"
-                          label="Project:"
-                          @change="
-                            loadExperimentDesigns();
-                            selectedExperimentDesigns=[];"
+                            v-if="internalProjects"
+                            v-model="selectedInternalProject"
+                            :items="internalProjects"
+                            label="Project:"
+                            @change="
+                            getInternalDatasetsForSelectedProject();
+                            selectedInternalDatasets=[];"
                         />
-                        <h3>Experiment Selection</h3>
-                        <h5 v-if="experimentDesigns" />
+                        <h3>Dataset Selection</h3>
+                        <h5 v-if="internalDatasets"/>
                         <v-autocomplete
-                          v-model="selectedExperimentDesigns"
-                          return-object
-                          :items="experimentDesigns"
-                          item-text="datasetName"
-                          item-value="datasetId"
-                          label="Experiments"
-                          clearable
-                          multiple
-                          chips
-                          deletable-chips
+                            v-model="selectedInternalDatasets"
+                            return-object
+                            :items="internalDatasets"
+                            item-text="datasetName"
+                            item-value="datasetId"
+                            label="Experiments"
+                            clearable
+                            multiple
+                            chips
+                            deletable-chips
                         />
                         <v-btn
-                          :disabled="selectedExperimentDesigns.length === 0"
-                          color="success"
-                          class="mr-4"
-                          style="text-transform: none"
-                          :loading="internalDatabaseDataLoading"
-                          @click="loadInternalDatabaseData"
+                            :disabled="selectedInternalDatasets.length === 0"
+                            color="success"
+                            class="mr-4"
+                            style="text-transform: none"
+                            :loading="internalDatabaseDataLoading"
+                            @click="loadInternalDatabaseData"
                         >
                           Load Dataset(s)
                         </v-btn>
                         <v-btn
-                          :disabled="selectedExperimentDesigns.length === 0"
-                          color="info"
-                          class="mr-4"
-                          style="text-transform: none"
-                          @click="clearInternalDatabaseData"
+                            :disabled="selectedInternalDatasets.length === 0"
+                            color="info"
+                            class="mr-4"
+                            style="text-transform: none"
+                            @click="clearInternalDatabaseData"
                         >
                           Clear Data
                         </v-btn>
                       </v-tab-item>
                       <v-tab-item class="ma-4">
                         <v-text-field
-                          v-model="uuid"
-                          label="Session ID"
-                          :counter="32"
-                          :rules="sessionIDRules"
+                            v-model="uuid"
+                            label="Session ID"
+                            :counter="32"
+                            :rules="uuidRules"
                         />
                         <v-autocomplete
                           v-model="selectedUserDatasets"
@@ -180,27 +180,30 @@
                   <v-card flat>
                     <v-card-text>
                       <v-autocomplete
-                        v-if="isUserDataMode"
-                        v-model="userExperimentFilter"
-                        chips
-                        deletable-chips
-                        :items="allExperimentNames"
-                        clearable
-                        multiple
-                        @change="filterInputData"
+                          v-if="isUserDataMode"
+                          v-model="experimentFilter"
+                          return-object
+                          chips
+                          deletable-chips
+                          :items="allCurrentExperiments"
+                          item-text="experimentName"
+                          item-value="experimentID"
+                          clearable
+                          multiple
+                          @change="filterInputData"
                       />
                       <v-autocomplete
-                        v-else
-                        v-model="internalDatabaseExperimentDesignFilter"
-                        return-object
-                        chips
-                        deletable-chips
-                        :items="selectedExperimentDesigns"
-                        item-text="datasetName"
-                        item-value="datasetId"
-                        clearable
-                        multiple
-                        @change="filterInputData"
+                          v-else
+                          v-model="experimentFilter"
+                          return-object
+                          chips
+                          deletable-chips
+                          :items="allCurrentExperiments"
+                          item-text="experimentName"
+                          item-value="experimentID"
+                          clearable
+                          multiple
+                          @change="filterInputData"
                       />
                     </v-card-text>
                   </v-card>
@@ -254,35 +257,35 @@
                       </v-card-text>
                       <v-card-text>
                         <v-combobox
-                          v-model="selectedCanonicalPathway"
-                          :disabled="!pathwayListFiltered"
-                          clearable
-                          :items="pathwayListFiltered"
-                          :label="pathwaySelectionLabel"
-                          @change="onCanonicalPathwaySelectionChange"
+                            v-model="selectedCanonicalPathway"
+                            :disabled="!canonicalPathwayListFiltered"
+                            clearable
+                            :items="canonicalPathwayListFiltered"
+                            :label="pathwaySelectionLabel"
+                            @change="onCanonicalPathwaySelectionChange"
                         />
                       </v-card-text>
                       <v-card-text style="margin-top: -50px; margin-left: 10px">
                         <v-switch
-                          v-model="proteinFilterEnabled"
+                            v-model="pathwayByProteinFilterEnabled"
                         >
                           <template #label>
                             <span style="font-size: 10pt">Filter Pathways by Protein List</span>
                           </template>
                         </v-switch>
                         <v-combobox
-                          v-show="proteinFilterEnabled"
-                          ref="protein-list-filter-combobox"
-                          :disabled="!pathwayListFiltered || !existsReferenceProteomeInInternalDatabase"
-                          hint="Enter gene names or Uniprot accession numbers to show only the pathways that contain them."
-                          prepend-inner-icon="mdi-filter-outline"
-                          persistent-hint
-                          deletable-chips
-                          chips
-                          clearable
-                          multiple
-                          style=" margin-top: -20px; margin-left: 10px; margin-right: 15px"
-                          @change="filterPathways"
+                            v-show="pathwayByProteinFilterEnabled"
+                            ref="protein-list-filter-combobox"
+                            :disabled="!canonicalPathwayListFiltered || !existsReferenceProteomeInInternalDatabase"
+                            hint="Enter gene names or Uniprot accession numbers to show only the pathways that contain them."
+                            prepend-inner-icon="mdi-filter-outline"
+                            persistent-hint
+                            deletable-chips
+                            chips
+                            clearable
+                            multiple
+                            style=" margin-top: -20px; margin-left: 10px; margin-right: 15px"
+                            @change="filterPathways"
                         />
                         <v-alert
                           v-if="!!selectedDatasetForEnrichment && enrichmentResponse && enrichmentResponse.gcr"
@@ -408,33 +411,33 @@
                     @change="onOrganismSelectionChange"
                   />
                   <v-combobox
-                    v-model="selectedCanonicalPathway"
-                    :disabled="!pathwayListFiltered"
-                    clearable
-                    :items="pathwayListFiltered"
-                    :label="pathwaySelectionLabel"
-                    @change="onCanonicalPathwaySelectionChange"
+                      v-model="selectedCanonicalPathway"
+                      :disabled="!canonicalPathwayListFiltered"
+                      clearable
+                      :items="canonicalPathwayListFiltered"
+                      :label="pathwaySelectionLabel"
+                      @change="onCanonicalPathwaySelectionChange"
                   />
                   <v-switch
-                    v-model="proteinFilterEnabled"
+                      v-model="pathwayByProteinFilterEnabled"
                   >
                     <template #label>
                       <span style="font-size: 10pt">Filter Pathways by Protein List</span>
                     </template>
                   </v-switch>
                   <v-combobox
-                    v-show="proteinFilterEnabled"
-                    ref="protein-list-filter-combobox"
-                    :disabled="!pathwayListFiltered || !existsReferenceProteomeInInternalDatabase"
-                    hint="Enter gene names or Uniprot accession numbers to show only the pathways that contain them."
-                    prepend-inner-icon="mdi-filter-outline"
-                    persistent-hint
-                    deletable-chips
-                    chips
-                    clearable
-                    multiple
-                    style=" margin-top: -20px; margin-left: 10px; margin-right: 15px"
-                    @change="filterPathways"
+                      v-show="pathwayByProteinFilterEnabled"
+                      ref="protein-list-filter-combobox"
+                      :disabled="!canonicalPathwayListFiltered || !existsReferenceProteomeInInternalDatabase"
+                      hint="Enter gene names or Uniprot accession numbers to show only the pathways that contain them."
+                      prepend-inner-icon="mdi-filter-outline"
+                      persistent-hint
+                      deletable-chips
+                      chips
+                      clearable
+                      multiple
+                      style=" margin-top: -20px; margin-left: 10px; margin-right: 15px"
+                      @change="filterPathways"
                   />
                 </v-tab-item>
                 <v-tab-item class="ma-4">
@@ -513,7 +516,7 @@
                     :style="{transform: `scale(${curvePlotScale})`}"
                 >
                   <loading-overlay
-                      :loading="doseResponseCurveLoading"
+                      :loading="curvePlotLoading"
                   />
                   <biowc-lineplot
                       id="lineplot-doseresponsecurve"
@@ -566,20 +569,20 @@
             align-self="end"
           >
             <v-btn-toggle
-              :key="toggleKey"
-              :value="pathwaygraphApplicationMode"
-              mandatory
-              @change="onApplicationModeToggle"
+                :key="viewingEditingToggleKey"
+                :value="pathwaygraphApplicationMode"
+                mandatory
+                @change="onApplicationModeToggle"
             >
               <v-tooltip
-                bottom
-                color="#4d4b4d"
+                  bottom
+                  color="#4d4b4d"
               >
                 <template #activator="{ on, attrs }">
                   <v-btn
-                    value="viewing"
-                    v-bind="attrs"
-                    v-on="on"
+                      value="viewing"
+                      v-bind="attrs"
+                      v-on="on"
                   >
                     <span class="hidden-sm-and-down">Viewing Mode</span>
 
@@ -618,11 +621,11 @@
             class="text-right"
           >
             <downloader
-              :disabled="!graphdataSkeleton"
-              direction="left"
-              svg
-              :loading="downloadPathwayLoading"
-              @svg="downloadPathwaySvg()"
+                :disabled="!currentGraphdataSkeleton"
+                direction="left"
+                svg
+                :loading="downloadPathwayLoading"
+                @svg="downloadPathwaySvg()"
             />
           </v-col>
           <template
@@ -660,32 +663,32 @@
               class="text-right"
             >
               <downloader
-                :disabled="!graphdataSkeleton"
-                direction="bottom"
-                json
-                :loading="downloadPathwayLoading"
-                @json="downloadPathwaySkeletonJSON()"
+                  :disabled="!currentGraphdataSkeleton"
+                  direction="bottom"
+                  json
+                  :loading="downloadPathwayLoading"
+                  @json="downloadPathwaySkeletonJSON()"
               />
             </v-col>
           </template>
         </v-row>
-        <v-row v-if="graphdataSkeleton">
+        <v-row v-if="currentGraphdataSkeleton">
           <v-col
-            cols="12"
+              cols="12"
           >
             <biowc-pathwaygraph
-              id="biowc-pathwaygraph"
-              class="biowc-pathwaygraph"
-              :graph-width.prop="graphWidth"
-              :pathway-meta-data.prop="pathwayMetaData"
-              :graphdata-skeleton.prop="graphdataSkeleton"
-              :ptm-input-list.prop="ptmInputListFiltered"
-              :full-proteome-input-list.prop="fpInputListFiltered"
-              :application-mode.prop="pathwaygraphApplicationMode"
-              :perturbed-nodes.prop="perturbedNodes"
-              @selectionDetails="onSelectionChanged"
-              @selectedNodeTooltip="onInfoboxUpdated"
-              @pathwayGraphChanged="pathwayGraphChanged"
+                id="biowc-pathwaygraph"
+                class="biowc-pathwaygraph"
+                :graph-width.prop="graphWidth"
+                :pathway-meta-data.prop="currentPathwayMetaData"
+                :graphdata-skeleton.prop="currentGraphdataSkeleton"
+                :ptm-input-list.prop="ptmInputListFiltered"
+                :full-proteome-input-list.prop="fpInputListFiltered"
+                :application-mode.prop="pathwaygraphApplicationMode"
+                :perturbed-nodes.prop="perturbedNodes"
+                @selectionDetails="onSelectionChanged"
+                @selectedNodeTooltip="onInfoboxUpdated"
+                @pathwayGraphChanged="pathwayGraphChanged"
             />
           </v-col>
         </v-row>
@@ -728,7 +731,7 @@
                   </div>
                   <div style="padding-left: 8px; margin-bottom: 1em">
                     To check out the data used in the PTMNavigator manuscript,<br>
-                    use this Session ID: <b>{{ defaultSessionId }}</b>
+                    use this Session ID: <b>{{ defaultUUID }}</b>
                   </div>
                   <div style="padding-left: 8px; margin-bottom: 1em">
 
@@ -875,13 +878,13 @@
             <template v-if="enrichmentOrSelectionTable === 'enrichment'">
               <v-col cols="12">
                 <the-pathway-enrichment-tables
-                  v-if="ptmInputList.length > 0 || fpInputList.length > 0"
-                  ref="pathwayEnrichmentTable"
-                  data-grid-ref-name="pathwayenrichmenttables"
-                  :datasets="isUserDataMode ? selectedUserDatasets : selectedExperimentDesigns"
-                  :enrichment-response="enrichmentResponse"
-                  :enrichment-statuses="enrichmentStatuses"
-                  @enrichment-selected-dataset-changed="updateSelectedDatasetForSorting"
+                    v-if="ptmInputList.length > 0 || fpInputList.length > 0"
+                    ref="pathwayEnrichmentTable"
+                    data-grid-ref-name="pathwayenrichmenttables"
+                    :datasets="isUserDataMode ? selectedUserDatasets : selectedInternalDatasets"
+                    :enrichment-response="enrichmentResponse"
+                    :enrichment-statuses="enrichmentStatuses"
+                    @enrichment-selected-dataset-changed="updateSelectedDatasetForSorting"
                 />
                 <v-card
                   v-else
@@ -1175,11 +1178,11 @@
             Use Copy
           </v-btn>
           <v-btn
-            color="warning"
-            class="ma-4"
-            style="text-transform: none"
-            :disabled="uuid === defaultSessionId"
-            @click="editCopyQuestionDialogReturnVal = 'modify'"
+              color="warning"
+              class="ma-4"
+              style="text-transform: none"
+              :disabled="uuid === defaultUUID"
+              @click="editCopyQuestionDialogReturnVal = 'modify'"
           >
             Modify Directly
           </v-btn>
@@ -1245,112 +1248,139 @@ export default {
   },
   data () {
     return {
-      projects: undefined,
+      ptmNavigatorLogo: logo,
+
+      //Organism
       organismList: undefined,
-      pathwayList: undefined,
-      pathwayListFiltered: undefined,
-      experimentDesigns: undefined,
-      selectedProject: undefined,
-      selectedExperimentDesigns: [],
-      experimentDesignFilter: [],
       selectedOrganism: undefined,
       previouslySelectedOrganism: undefined,
-      selectedCanonicalPathway: undefined,
-      selectedCurveIDs: [],
-      selectedDrugNames: [],
-      selectedCurvesFullProteome: false,
-      selectedPeptidesTableData: [],
-      selectedProteinsTableData: [],
-      // graphdataSkeleton holds just the information from KEGG/Wikipathway, plus potential FullProteome Information
-      graphdataSkeleton: undefined,
-      infoboxContent: undefined,
-      downloadCurveLoading: false,
-      downloadPathwayLoading: false,
-      downloadEnrichmentCsvLoading: false,
-      downloadSelectedPeptidesCsvLoading: false,
-      downloadSelectedProteinsCsvLoading: false,
-      dataTabs: 1, // Initially show userDataMode
-      uuid: '',
-      selectedUserDatasets: [],
-      currentlyLoadedDatasetTypes: {},
-      userDatasets: [],
-      userExperimentFilter: [],
-      internalDatabaseExperimentDesignFilter: [],
-      userDataLoading: false,
-      internalDatabaseDataLoading: false,
-      dataLoadingSnackbar: false,
-      doneSnackbar: false,
-      proteinFilterEnabled: false,
-      sessionIDRules: [
-        (sessionID) =>
-          !!sessionID.match(/^[A-F0-9]{32}$/i) ||
-                    'Session ID must have a length of 32 characters and only contain "0-9, A-F".'
-      ],
-      refreshColumnWidthKey: 0,
-      pathwayMetaData: {},
+
+      //Data
       ptmInputList: [],
       ptmInputListFiltered: [],
       fpInputList: [],
       fpInputListFiltered: [],
-      graphWidth: null,
-      ptmNavigatorLogo: logo,
-      leftExpansionPanel: [],
+      experimentFilter: [],
+      //--Internal Data
+      internalProjects: undefined,
+      internalDatasets: undefined,
+      selectedInternalProject: undefined,
+      selectedInternalDatasets: [],
+      //--User Data
+      uuid: '',
+      uuidRules: [
+        (uuid) =>
+            !!uuid.match(/^[A-F0-9]{32}$/i) ||
+            'Session ID must have a length of 32 characters and only contain "0-9, A-F".'
+      ],
+      userDatasets: [],
+      selectedUserDatasets: [],
+      currentlyLoadedUserDatasetTypes: {},
+
+      //Pathway Diagrams
+      // graphdataSkeleton holds just the information from KEGG/Wikipathway, plus potential FullProteome Information
+      currentGraphdataSkeleton: undefined,
+      currentPathwayMetaData: {},
+      //  Canonical Pathways
+      canonicalPathwayList: undefined,
+      canonicalPathwayListFiltered: undefined,
+      pathwayByProteinFilterEnabled: false,
+
+      selectedCanonicalPathway: undefined,
+      selectedCustomPathway: undefined,
+      selectedPathway: undefined,
+      customPathwayList: [],
+      customPathwayName: undefined,
+      customPathwayNameRules: {
+        required: value => !!value || 'Required',
+        minLength: value => (!!value && value.length >= 4) || 'Please enter at least 4 characters.'
+      },
+      //--Pathway Editing Mode
+      viewingEditingToggleKey: 0, // A hack to force the viewing/editing toggle to be updated
+      currentlyEditedPathwayId: undefined,
+      showEditResetConfirmationDialog: false,
+      editorContainsUnsavedChanges: false,
+      showCustomPathwayEditCopyQuestionDialog: false,
+      editResetDialogReturnVal: undefined,
+      editCopyQuestionDialogReturnVal: undefined,
+      saveCustomPathwayFormValid: true,
+
+      //Enrichment Pane
+      selectedDatasetForEnrichment: undefined,
+      enrichmentQueryIntervalId: undefined,
+      enrichmentOrSelectionTable: 'enrichment',
       enrichmentResponse: {},
       enrichmentTypeMap: {
         'PTM-SEA': 'ptmsea',
         'GC-PEA': 'gc',
         'GCR-PEA': 'gcr',
-        KSEA: 'ksea',
-        RoKAI: 'rokai',
+        'KSEA': 'ksea',
+        'RoKAI': 'rokai',
         'RoKAI+KSEA': 'ksea_rokai',
-        MOTIF: 'motif',
-        KEA3: 'kea3',
-        KSTAR: 'kstar',
-        GO: 'go'
+        'MOTIF': 'motif',
+        'KEA3': 'kea3',
+        'KSTAR': 'kstar',
+        'GO': 'go'
       },
-      pathwaygraphApplicationMode: 'viewing',
-      enrichmentOrSelectionTable: 'enrichment',
-      pathwayEditTemplateCanonicalOrCustom: 0,
-      pathwayViewCanonicalOrCustom: 0,
-      customPathwayList: [],
-      selectedCustomPathway: undefined,
-      selectedPathway: undefined,
-      currentlyEditedPathwayId: undefined,
-      showEditResetConfirmationDialog: false,
-      editorContainsUnsavedChanges: false,
-      customPathwayName: undefined,
-      showCustomPathwayEditCopyQuestionDialog: false,
-      editResetDialogReturnVal: undefined,
-      editCopyQuestionDialogReturnVal: undefined,
       enrichmentStatuses: [],
 
-      perturbedNodes: {up: [], down: [], undirected: []},
-      selectedDatasetForEnrichment: undefined,
-      customPathwayNameRules: {
-        required: value => !!value || 'Required',
-        minLength: value => (!!value && value.length >= 4) || 'Please enter at least 4 characters.'
-      },
-      saveCustomPathwayFormValid: true,
-      toggleKey: 0, // A hack to force the viewing/editing toggle to be updated
-      enrichmentQueryIntervalId: undefined,
-      doseResponseCurveLoading: false,
+      //Selected Peptides/Proteins
+      selectedPeptidesTableData: [],
+      selectedProteinsTableData: [],
+
+      //Dose-Response Curve Plot
+      selectedCurveIDs: [],
+      //TODO: This, too, needs to go
+      selectedDrugNames: [],
+      //TODO: Is this important?
+      selectedCurvesFullProteome: false,
+      curvePlotLoading: false,
       curvePlotInputData: [],
       curvePlotMetaData: {},
       curvePlotLegendFontSize: 12,
       curvePlotSize: 450,
       curvePlotScale: 1.0,
 
+      // Kinase Activity Thresholder
+      perturbedNodes: {up: [], down: [], undirected: []},
 
+      //Frontend Variables
+      //TODO: Refactor this so that the values 0,1,2 are more self-explanatory. They are supposed to mean 'Data Selection', 'Experiment Filter', 'Pathway Selection'
+      //And whatever is in this array is expanded, the others are not.
+      leftExpansionPanel: [],
+      pathwaygraphApplicationMode: 'viewing',
+      pathwayViewCanonicalOrCustom: 0,
+      pathwayEditTemplateCanonicalOrCustom: 0,
+
+      //Loading Flags
+      userDataLoading: false,
+      internalDatabaseDataLoading: false,
+      downloadPathwayLoading: false,
+      downloadCurveLoading: false,
+      downloadEnrichmentCsvLoading: false,
+      downloadSelectedPeptidesCsvLoading: false,
+      downloadSelectedProteinsCsvLoading: false,
+
+      //Snackbars
+      dataLoadingSnackbar: false,
+      doneSnackbar: false,
+
+      //Misc
+      refreshColumnWidthKey: 0,
+      graphWidth: null,
+      infoboxContent: undefined,
+      dataTabs: 1, // Initially show userDataMode
     }
   },
   computed: {
-    defaultSessionId () {
+    defaultUUID() {
       return this.backendApi.getDefaultSessionId()
     },
     responseCurveContainerWidth () {
       // Sorry eslint, I need this because the clientWidth is not reactive by itself
       // eslint-disable-next-line no-unused-expressions
       this.refreshColumnWidthKey
+      //TODO: Rewrite, hopefully remove
       return Number(this.$refs.leftColumn.clientWidth)
     },
     isUserDataMode () {
@@ -1358,28 +1388,35 @@ export default {
       return this.dataTabs === 1
     },
     doSomeSelectedDatasetsHaveCurves () {
-      if(this.isUserDataMode){
+      if (this.isUserDataMode) {
         return this.selectedUserDatasets.length > 0 && this.selectedUserDatasets.some(ds => ds.omicsType && ds.omicsType.startsWith('decrypt'))
-      }else{
-        return this.selectedExperimentDesigns.length > 0 && this.selectedExperimentDesigns.some(ds => ds.omicsType && ds.omicsType.startsWith('decrypt'))
+      } else {
+        return this.selectedInternalDatasets.length > 0 && this.selectedInternalDatasets.some(ds => ds.omicsType && ds.omicsType.startsWith('decrypt'))
       }
     },
-    canonicalPathwayLink () {
+    canonicalPathwayLink() {
       return this.selectedCanonicalPathway.link.startsWith('wikipathways')
-        ? `https://www.wikipathways.org/index.php/Pathway:${this.selectedCanonicalPathway.value}`
-        : `https://www.kegg.jp/pathway/${this.selectedCanonicalPathway.value}`
+          ? `https://www.wikipathways.org/index.php/Pathway:${this.selectedCanonicalPathway.value}`
+          : `https://www.kegg.jp/pathway/${this.selectedCanonicalPathway.value}`
     },
-    allExperimentNames () {
-      return [...new Set(this.ptmInputList.map(datum => datum.details['Experiment Name']).concat(this.fpInputList.map(datum => datum.details['Experiment Name'])))]
+    allCurrentExperiments() {
+      const uniqueExperimentsMap = new Map();
+      this.ptmInputList.concat(this.fpInputList).forEach(
+          datum => uniqueExperimentsMap.set(datum.details['Experiment ID'], datum.details['Experiment Name'])
+          )
+
+      return Array.from(uniqueExperimentsMap).map( ([experimentID, experimentName]) => {
+        return {experimentID, experimentName}
+      })
     },
-    pathwaySelectionLabel () {
+    pathwaySelectionLabel() {
       let res = 'Pathways'
-      if (this.pathwayList) {
+      if (this.canonicalPathwayList) {
         res += ' (n='
-        if (this.pathwayListFiltered.length < this.pathwayList.length) {
-          res += `${this.pathwayListFiltered.length} of `
+        if (this.canonicalPathwayListFiltered.length < this.canonicalPathwayList.length) {
+          res += `${this.canonicalPathwayListFiltered.length} of `
         }
-        res += `${this.pathwayList.length})`
+        res += `${this.canonicalPathwayList.length})`
       }
       res += ':'
       return res
@@ -1402,7 +1439,7 @@ export default {
         if (newUUID && newUUID !== oldUUID && newUUID.length === 32) {
           const sessionIdResponse = await this.backendApi.refreshSessionId(newUUID)
           if (sessionIdResponse.cookieStatus === 0) {
-            if(sessionIdResponse.uuid !== newUUID){
+            if (sessionIdResponse.uuid !== newUUID) {
               this.uuid = sessionIdResponse.uuid
               return
             }
@@ -1411,8 +1448,8 @@ export default {
             const d = new Date()
             d.setTime(d.getTime() + 14 * 24 * 60 * 60 * 1000)
             // Only set the cookie if it is not the one for the default dataset
-            if (newUUID !== this.defaultSessionId) {
-              this.$cookie.set('analyticsUploadSessionID', newUUID, { expires: d })
+            if (newUUID !== this.defaultUUID) {
+              this.$cookie.set('analyticsUploadSessionID', newUUID, {expires: d})
             }
             this.userDatasets = userDatasetListResponse.filter(
                 d => d.omicsType.startsWith('decrypt') || d.omicsType.startsWith('FoldChange'))
@@ -1455,7 +1492,7 @@ export default {
         // If switching between user and internal database mode, everything needs to be cleared
         // We handle this by resetting the selected Datasets
         this.selectedUserDatasets = []
-        this.selectedExperimentDesigns = []
+        this.selectedInternalDatasets = []
       }
     },
     selectedUserDatasets: {
@@ -1463,7 +1500,7 @@ export default {
         this.clearPathwayGraph()
         this.clearInternalDatabaseData()
         this.clearUserData()
-        if (this.pathwayList) {
+        if (this.canonicalPathwayList) {
           this.clearCanonicalPathwaySorting()
         }
         this.enrichmentOrSelectionTable = 'enrichment'
@@ -1479,15 +1516,15 @@ export default {
     window.scrollTo(0, 0)
 
     // TODO: Check if this is still invoked twice
-    await this.loadProjects()
-    await this.loadExperimentDesigns()
+    await this.getInternalProjects()
+    await this.getInternalDatasetsForSelectedProject()
 
-    this.uuid = this.$cookie.get('analyticsUploadSessionID') || this.defaultSessionId
+    this.uuid = this.$cookie.get('analyticsUploadSessionID') || this.defaultUUID
   },
   async mounted () {
     this.graphWidth = document.querySelector('#spacereservedforgraph').clientWidth - 35
     window.addEventListener('resize', this.onResize)
-    await this.loadOrganisms()
+    await this.getOrganisms()
     await this.getCanonicalPathwayList()
     await this.getCustomPathwayList()
     // Expand the accordion on the left side (all tabs except the 'currently selected', bc there is nothing selected initially)
@@ -1538,33 +1575,33 @@ export default {
       }
     },
 
-    async loadOrganisms () {
+    async getOrganisms() {
       const organismResponse = await this.backendApi.getOrganisms()
       this.organismList = organismResponse.map(datum => {
-        return { text: datum.name, value: datum.taxcode }
+        return {text: datum.name, value: datum.taxcode}
       })
       this.selectedOrganism = this.organismList.filter(org => org.value === 9606)[0]
       this.previouslySelectedOrganism = this.selectedOrganism
     },
 
-    async loadProjects () {
-      const projectsResponse = await this.backendApi.getProjects()
-      this.projects = projectsResponse.map((obj) => {
+    async getInternalProjects() {
+      const projectsResponse = await this.backendApi.getInternalProjects()
+      this.internalProjects = projectsResponse.map((obj) => {
         return {
           text: obj.projectName,
           value: obj.projectId
         }
       })
-      this.selectedProject = this.projects[0]
+      this.selectedInternalProject = this.internalProjects[0]
     },
 
-    async loadExperimentDesigns () {
-      if (this.selectedProject) {
-        this.experimentDesigns = await this.backendApi.getExperimentDesigns(this.selectedProject.value)
+    async getInternalDatasetsForSelectedProject() {
+      if (this.selectedInternalProject) {
+        this.internalDatasets = await this.backendApi.getInternalDatasetsForProject(this.selectedInternalProject.value)
       }
     },
 
-    async getCustomPathwayList () {
+    async getCustomPathwayList() {
       const customPathwayListResponse = await this.backendApi.getCustomPathwayList(this.uuid)
       this.customPathwayList = customPathwayListResponse.map(pw => {
         return {
@@ -1578,7 +1615,7 @@ export default {
     async getCanonicalPathwayList () {
       const pathwayListResponse = await this.backendApi.getCanonicalPathwayList(this.selectedOrganism.value)
 
-      this.pathwayList = pathwayListResponse.map(pw => {
+      this.canonicalPathwayList = pathwayListResponse.map(pw => {
         return {
           text: `${pw.title} (${pw.name})`,
           title: pw.title,
@@ -1586,23 +1623,23 @@ export default {
           link: pw.link
         }
       })
-      this.pathwayListFiltered = this.pathwayList
+      this.canonicalPathwayListFiltered = this.canonicalPathwayList
     },
 
     clearCanonicalPathwaySorting () {
       // Clean up the pathway names by deleting the previous score, if present
-      this.pathwayList.forEach(pw => {
+      this.canonicalPathwayList.forEach(pw => {
         pw.text = pw.text.split('[Score=')[0].trim()
         pw.score = undefined
       })
 
-      this.pathwayList.sort((a, b) => {
+      this.canonicalPathwayList.sort((a, b) => {
         if (!a.text) return 1
         if (!b.text) return -1
         return (a.text < b.text) ? -1 : (a.text > b.text) ? 1 : 0
       })
 
-      this.pathwayListFiltered = this.pathwayList
+      this.canonicalPathwayListFiltered = this.canonicalPathwayList
     },
 
     getGCRSortedPathwayList () {
@@ -1615,17 +1652,17 @@ export default {
                     Object.keys(entry).map(k => k.startsWith('Score') ? Math.abs(entry[k]) : 0).reduce((a, b) => a + b, 0)
         })
 
-        this.pathwayList.forEach(pathway => {
+        this.canonicalPathwayList.forEach(pathway => {
           const pathwayPrefix = pathway.value.startsWith('WP') ? 'WP' : 'KEGG'
           const pathwayTitleReformatted = pathway.title
-            .toUpperCase()
-            .replaceAll(' ', '_')
-            .replaceAll('-', '_')
-            .replaceAll(':', '_')
-            .replaceAll('/', '_')
-            .replaceAll('\\', '_')
-            .replaceAll('+', '_')
-            .replaceAll('&', '_')
+              .toUpperCase()
+              .replaceAll(' ', '_')
+              .replaceAll('-', '_')
+              .replaceAll(':', '_')
+              .replaceAll('/', '_')
+              .replaceAll('\\', '_')
+              .replaceAll('+', '_')
+              .replaceAll('&', '_')
             .replaceAll(',', '_')
             .replaceAll('`', '_')
             .replaceAll('´', '_')
@@ -1635,18 +1672,18 @@ export default {
                     `${pathwayPrefix}_${pathwayTitleReformatted}`]
         })
 
-        this.pathwayList.sort((a, b) => {
+        this.canonicalPathwayList.sort((a, b) => {
           if (!a.score) return 1
           if (!b.score) return -1
           return (a.score < b.score) ? 1 : (a.score > b.score) ? -1 : 0
         })
 
-        this.pathwayList.forEach(pw => {
+        this.canonicalPathwayList.forEach(pw => {
           pw.text += ` ${pw.score > 0 ? `[Score=${pw.score.toFixed(2)}]` : ''}`
         })
       }
 
-      this.pathwayListFiltered = this.pathwayList
+      this.canonicalPathwayListFiltered = this.canonicalPathwayList
     },
 
     onOrganismSelectionChange (selectedOrganism) {
@@ -1660,8 +1697,8 @@ export default {
     },
 
     constructPathwaySkeleton: function (pathwaydata) {
-      this.graphdataSkeleton = { nodes: null, links: null }
-      this.pathwayMetaData = {
+      this.currentGraphdataSkeleton = {nodes: null, links: null}
+      this.currentPathwayMetaData = {
         identifier: pathwaydata.pathway.name,
         org: pathwaydata.pathway.org,
         pathwaytitle: pathwaydata.pathway.title
@@ -1670,10 +1707,10 @@ export default {
       // Filter out groupnodes that have no members, or only 'null' members
       // Hotfix 2024-04-24: Some groups do not have the component property, we can't filter them here so we will just assume they are not empty.
       pathwaydata.nodes = pathwaydata.nodes
-        .filter(node => node.type !== 'group' || !node.components || node.components.some(elem => !!elem))
+          .filter(node => node.type !== 'group' || !node.components || node.components.some(elem => !!elem))
 
       // Bring the nodes into the format that the PathwayGraph expects
-      this.graphdataSkeleton.nodes = pathwaydata.nodes.map(datum => {
+      this.currentGraphdataSkeleton.nodes = pathwaydata.nodes.map(datum => {
         return {
           nodeId: String(datum.id),
           type: datum.type,
@@ -1712,7 +1749,7 @@ export default {
           })
       }
       // Bring the links into the format that the PathwayGraph expects
-      this.graphdataSkeleton.links = pathwaydata.links.map(datum => {
+      this.currentGraphdataSkeleton.links = pathwaydata.links.map(datum => {
         return {
           linkId: datum.id,
           sourceId: String(datum.sourceId),
@@ -1730,7 +1767,7 @@ export default {
 
     onCustomPathwaySelectionChange: async function () {
       if (this.pathwaygraphApplicationMode === 'viewing') {
-        this.graphdataSkeleton = undefined
+        this.currentGraphdataSkeleton = undefined
         this.selectedCurveIDs = []
         if (!this.isUserDataMode) {
           this.selectedDrugNames = []
@@ -1748,7 +1785,7 @@ export default {
           return
         }
         this.editResetDialogReturnVal = null
-        this.graphdataSkeleton = undefined
+        this.currentGraphdataSkeleton = undefined
 
         this.selectedCustomPathway = customPathwayTemp
         if (!!this.selectedCustomPathway && !!this.selectedCustomPathway.value) {
@@ -1774,7 +1811,7 @@ export default {
         this.editResetDialogReturnVal = null
         this.selectedCanonicalPathway = canonicalPathwayTemp
       }
-      this.graphdataSkeleton = undefined
+      this.currentGraphdataSkeleton = undefined
       if (!this.selectedCanonicalPathway || !this.selectedCanonicalPathway.value) {
         return
       }
@@ -1820,11 +1857,11 @@ export default {
       this.userDataLoading = true
       this.dataLoadingSnackbar = true
 
-      const userProteomicsDataResult = await this.backendApi.getUserProteomicsData(this.uuid, this.selectedUserDatasets)
+      const userProteomicsDataResult = await this.backendApi.loadUserDatasets(this.uuid, this.selectedUserDatasets)
 
       this.ptmInputList = userProteomicsDataResult.ptmInputList
       this.fpInputList = userProteomicsDataResult.fpInputList
-      this.currentlyLoadedDatasetTypes = userProteomicsDataResult.userDatasetTypes
+      this.currentlyLoadedUserDatasetTypes = userProteomicsDataResult.userDatasetTypes
       this.selectedOrganism = this.organismList.filter(org => org.value === userProteomicsDataResult.organismOfFirstDataset)[0]
 
       this.doneSnackbar = true
@@ -1841,7 +1878,7 @@ export default {
       this.leftExpansionPanel.push(2)
     },
     clearPathwayGraph: function () {
-      this.graphdataSkeleton = undefined
+      this.currentGraphdataSkeleton = undefined
       this.selectedCanonicalPathway = null
       this.selectedCustomPathway = null
       this.selectedCurveIDs = []
@@ -1877,12 +1914,11 @@ export default {
       this.internalDatabaseDataLoading = true
       this.dataLoadingSnackbar = true
 
-      const internalDatabaseResult = await this.backendApi.getInternalDatabaseData(this.selectedExperimentDesigns)
+      const internalDatabaseResult = await this.backendApi.loadInternalDatasets(this.selectedInternalDatasets)
       this.ptmInputList = internalDatabaseResult.ptmInputList
       this.fpInputList = internalDatabaseResult.fpInputList
 
-      // Set organism to Homo sapiens - all the data that you can load as of now is Homo sapiens
-      this.selectedOrganism = this.organismList.filter(org => org.value === 9606)[0]
+      this.selectedOrganism = this.organismList.filter(org => org.value === internalDatabaseResult.organismOfFirstDataset)[0]
 
       this.doneSnackbar = true
       this.dataLoadingSnackbar = false
@@ -1980,7 +2016,7 @@ export default {
         await this.editSaveOrDiscard()
       }
       if (this.editResetDialogReturnVal === 'discard' || !this.editorContainsUnsavedChanges) {
-        this.graphdataSkeleton = { nodes: [], links: [] }
+        this.currentGraphdataSkeleton = {nodes: [], links: []}
         this.customPathwayName = undefined
         this.selectedCustomPathway = null
         this.selectedCanonicalPathway = null
@@ -2155,47 +2191,30 @@ export default {
     },
 
     selectAllExperiments () {
-      if (this.isUserDataMode) {
-        this.userExperimentFilter = this.allExperimentNames
-      } else {
-        this.internalDatabaseExperimentDesignFilter = this.selectedExperimentDesigns
-      }
+      this.experimentFilter = this.allCurrentExperiments
       this.filterInputData()
     },
-    filterInputData () {
+    filterInputData() {
       this.selectedCurveIDs = []
+      //TODO: Eliminate
+      this.selectedDrugNames = []
 
       // Filter for selected experiments
-      // TODO: Filter for experimental design id instead of text, but this requires backend work.
-      if (this.isUserDataMode) {
-        this.ptmInputListFiltered = this.ptmInputList.filter(datum => this.userExperimentFilter.includes(datum.details['Experiment Name']))
-        this.fpInputListFiltered = this.fpInputList.filter(datum => this.userExperimentFilter.includes(datum.details['Experiment Name']))
-      } else {
-        this.selectedDrugNames = []
-        this.ptmInputListFiltered = this.ptmInputList.filter(datum => this.internalDatabaseExperimentDesignFilter.map(d => d.datasetId).includes(datum.details["Dataset ID"]))
-        this.fpInputListFiltered = this.fpInputList.filter(datum => this.internalDatabaseExperimentDesignFilter.map(d => d.datasetId).includes(datum.details["Dataset ID"]))
-      }
-      // Check if the fold changes are log-transformed and if not, do it
-      if (Math.min(...this.ptmInputList.map(datum => Number(datum.details['Fold Change']))) >= 0) {
-        this.ptmInputListFiltered.forEach(datum => {
-          if (datum.details['Fold Change']) { datum.details['Fold Change'] = Math.log2(Number(datum.details['Fold Change']) + Number.EPSILON) } else { datum.details['Fold Change'] = 0 }
-        })
-      }
-      if (Math.min(...this.fpInputList.map(datum => Number(datum.details['Fold Change']))) >= 0) {
-        this.fpInputListFiltered.forEach(datum => {
-          if (datum.details['Fold Change']) { datum.details['Fold Change'] = Math.log2(Number(datum.details['Fold Change']) + Number.EPSILON) } else { datum.details['Fold Change'] = 0 }
-        })
-      }
+      const experimentFilterIDs = this.experimentFilter.map(entry => entry.experimentID)
+      this.ptmInputListFiltered = this.ptmInputList.filter(datum => experimentFilterIDs.includes(datum.details['Experiment ID']))
+      this.fpInputListFiltered = this.fpInputList.filter(datum => experimentFilterIDs.includes(datum.details['Experiment ID']))
+
+
     },
-    async filterPathways (searchStringArray) {
+    async filterPathways(searchStringArray) {
       if (searchStringArray.length > 0) {
         const filteredPathwayIds = await this.backendApi.getFilteredPathwayIds(
             searchStringArray.join(';'),
             this.selectedOrganism.value
         )
-        this.pathwayListFiltered = this.pathwayList.filter(pathway => filteredPathwayIds.includes(pathway.value))
+        this.canonicalPathwayListFiltered = this.canonicalPathwayList.filter(pathway => filteredPathwayIds.includes(pathway.value))
       } else {
-        this.pathwayListFiltered = this.pathwayList
+        this.canonicalPathwayListFiltered = this.canonicalPathwayList
       }
     },
     redirectToCustomDataUpload () {
@@ -2227,9 +2246,9 @@ export default {
 
     async onApplicationModeToggle (newVal) {
       if (newVal === 'editing') {
-        if (!this.graphdataSkeleton) {
+        if (!this.currentGraphdataSkeleton) {
           // Initialize editor with empty pathway
-          this.graphdataSkeleton = { nodes: [], links: [] }
+          this.currentGraphdataSkeleton = {nodes: [], links: []}
         } else if (this.selectedCustomPathway) {
           await this.useCopyOrModify()
         }
@@ -2242,10 +2261,12 @@ export default {
           await this.editSaveOrDiscard()
         } else {
           // If there is no pathway visible, just clear out the canvas so that the placeholder is shown
-          if (this.graphdataSkeleton.nodes.length === 0) { this.clearPathwayGraph() }
+          if (this.currentGraphdataSkeleton.nodes.length === 0) {
+            this.clearPathwayGraph()
+          }
         }
         if (this.editResetDialogReturnVal === 'cancel') {
-          this.toggleKey++// A hack to force the viewing/editing toggle to be updated
+          this.viewingEditingToggleKey++// A hack to force the viewing/editing toggle to be updated
         } else {
           // Just in case this hasn't happened yet (I've seen it...)
           this.editorContainsUnsavedChanges = false
@@ -2264,19 +2285,19 @@ export default {
     async fetchEnrichmentResults () {
       if (this.isUserDataMode) {
         // Initialize based on the type of the dataset
-        if (this.currentlyLoadedDatasetTypes[this.selectedDatasetForEnrichment.datasetId] === 'phospho') {
+        if (this.currentlyLoadedUserDatasetTypes[this.selectedDatasetForEnrichment.datasetId] === 'phospho') {
           //TODO: The enrichment Type IDs should not be hardcoded, they depend on the backend.
           this.enrichmentStatuses = [
-            { name: 'PTM-SEA', short: 'ptmsea', status: 'in progress', enrichmentTypeId: 1 },
-            { name: 'GC-PEA', short: 'gc', status: 'in progress', enrichmentTypeId: 2 },
-            { name: 'GCR-PEA', short: 'gcr', status: 'in progress', enrichmentTypeId: 3 },
-            { name: 'GO', short: 'go', status: 'in progress', enrichmentTypeId: 10 },
-            { name: 'KSEA', short: 'ksea', status: 'in progress', enrichmentTypeId: 4 },
-            { name: 'RoKAI+KSEA', short: 'ksea_rokai', status: 'in progress', enrichmentTypeId: 5 },
-            { name: 'MOTIF', short: 'motif', status: 'in progress', enrichmentTypeId: 6 },
-            { name: 'KEA3', short: 'kea3', status: 'in progress', enrichmentTypeId: 7 },
-            { name: 'KSTAR', short: 'kstar', status: 'in progress', enrichmentTypeId: 8 },
-            { name: 'RoKAI', short: 'rokai', status: 'in progress', enrichmentTypeId: 9 }
+            {name: 'PTM-SEA', short: 'ptmsea', status: 'in progress', enrichmentTypeId: 1},
+            {name: 'GC-PEA', short: 'gc', status: 'in progress', enrichmentTypeId: 2},
+            {name: 'GCR-PEA', short: 'gcr', status: 'in progress', enrichmentTypeId: 3},
+            {name: 'GO', short: 'go', status: 'in progress', enrichmentTypeId: 10},
+            {name: 'KSEA', short: 'ksea', status: 'in progress', enrichmentTypeId: 4},
+            {name: 'RoKAI+KSEA', short: 'ksea_rokai', status: 'in progress', enrichmentTypeId: 5},
+            {name: 'MOTIF', short: 'motif', status: 'in progress', enrichmentTypeId: 6},
+            {name: 'KEA3', short: 'kea3', status: 'in progress', enrichmentTypeId: 7},
+            {name: 'KSTAR', short: 'kstar', status: 'in progress', enrichmentTypeId: 8},
+            {name: 'RoKAI', short: 'rokai', status: 'in progress', enrichmentTypeId: 9}
           ]
         } else {
           this.enrichmentStatuses = [

@@ -4,16 +4,16 @@
  * @property {() => String} getDefaultSessionId
  * @property {() => String} getBackendName
  * @property {(uuid: string||undefined) => RefreshSessionIdResult} refreshSessionId
- * @property {(uuid: string||undefined) => UserDataset[]} getUserDatasetList
+ * @property {(uuid: string||undefined) => Dataset[]} getUserDatasetList
  * @property {(uuid: string) => void} renewSession
  * @property {() => Organism[]} getOrganisms
- * @property {() => Project} getProjects
- * @property {(projectId: string) => ExperimentDesign[]} getExperimentDesigns
+ * @property {() => Project} getInternalProjects
+ * @property {(projectId: string) => Dataset[]} getInternalDatasetsForProject
  * @property {(uuid: string) => CustomPathwayList[]} getCustomPathwayList
  * @property {(taxcode: string) => CanonicalPathwayList[]} getCanonicalPathwayList
  * @property {(taxcode: string, canonicalPathwayLink: string) => RawPathwaySkeleton} getPathwaySkeleton
- * @property {(uuid: string, userDatasets: Array) => UserProteomicsData} getUserProteomicsData
- * @property {(selectedExperimentDesigns: ExperimentDesign[]) => InternalDatabaseData} getInternalDatabaseData
+ * @property {(uuid: string, userDatasets: Dataset[]) => LoadedData} loadUserDatasets
+ * @property {(selectedDatasets: Dataset[]) => LoadedData} loadInternalDatasets
  * @property {(skeleton: String, uuid: String, customPathwayName: string, currentlyEditedPathwayId: string|undefined) => number} storeCustomPathway
  * @property {(searchStrings: String[], taxcode: String) => Array} getFilteredPathwayIds
  * @property {() => String} getCustomDataUploadComponent
@@ -30,7 +30,7 @@
  */
 
 /**
- * @typedef UserDataset
+ * @typedef Dataset
  * @property {string} datasetName
  * @property {string} datasetId
  * @property {string} omicsType
@@ -46,13 +46,6 @@
  * @typedef Project
  * @property {string} projectName
  * @property {string} projectId
- */
-
-/**
- * @typedef ExperimentDesign
- * @property {string} datasetName
- * @property {string} datasetId
- * @property {string} omicsType
  */
 
 /**
@@ -84,16 +77,8 @@
  */
 
 /**
- * @typedef UserProteomicsData
- * @property {Array} ptmInputList
- * @property {Array} fpInputList
- * @property {Object} userDatasetTypes
- * @property {String} organismOfFirstDataset
- */
-
-/**
- * @typedef InternalDatabaseData
- * @property {Array} ptmInputList
+ * @typedef LoadedData
+ * @property {Array} ptmInputList //TODO: Need to make clear this has to include Experiment Name and ID
  * @property {Array} fpInputList
  */
 
@@ -109,13 +94,13 @@ export function apiValidator(api) {
         'getUserDatasetList',
         'renewSession',
         'getOrganisms',
-        'getProjects',
-        'getExperimentDesigns',
+        'getInternalProjects',
+        'getInternalDatasetsForProject',
         'getCustomPathwayList',
         'getCanonicalPathwayList',
         'getPathwaySkeleton',
-        'getUserProteomicsData',
-        'getInternalDatabaseData',
+        'loadUserDatasets',
+        'loadInternalDatasets',
         'storeCustomPathway',
         'getFilteredPathwayIds',
         'getCustomDataUploadComponent',

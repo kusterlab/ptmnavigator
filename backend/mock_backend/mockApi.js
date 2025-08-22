@@ -14,12 +14,22 @@ import mockInternalDatabaseEnrichmentResults from './mock_data/mockInternalDatab
 
 
 const mockApi = {
+
+    getBackendName() {
+        return 'Internal Database'
+    },
+
+    async getOrganisms() {
+        return [{taxcode: 9606, name: "Homo sapiens"}]
+    },
+
     getDefaultSessionId() {
         return '0'.repeat(32)
     },
 
-    getBackendName() {
-        return 'Internal Database'
+    async renewSession(uuid) {
+        console.log(`Pretending to extend the following UUID: ${uuid}`)
+
     },
 
     refreshSessionId(uuid) {
@@ -28,7 +38,7 @@ const mockApi = {
         }
         if (uuid !== '0'.repeat(32)) {
             console.log(`Mock Backend only has UUID ${'0'.repeat(32)}!`)
-        }else {
+        } else {
             //A proper backend could also refresh the expiry date of the uuid
             return {
                 cookieStatus: 0,
@@ -43,43 +53,100 @@ const mockApi = {
             return []
         } else {
             return [
-                {datasetName: "MockPTMDataset", datasetId: "mockPtm", omicsType: "FoldChange"},
-                {datasetName: "MockFPDataset", datasetId: "mockFp", omicsType: "FoldChange"},
-                {datasetName: "MockDecryptMDataset", datasetId: "mockDecryptM", omicsType: "decryptM"},
-                {datasetName: "MockDecryptEDataset", datasetId: "mockDecryptE", omicsType: "decryptE"} //TODO: decryptE probably not recognized by PTMNav
+                {datasetName: "MockPTMDataset", datasetId: 1, omicsType: "FoldChange"},
+                {datasetName: "MockFPDataset", datasetId: 2, omicsType: "FoldChange"},
+                {datasetName: "MockDecryptMDataset", datasetId: 3, omicsType: "decryptM"},
+                {datasetName: "MockDecryptEDataset", datasetId: 4, omicsType: "decryptE"}
             ]
         }
     },
 
-    async getOrganisms() {
-        return [{taxcode: 9606, name: "Homo sapiens"}]
+    /**
+     * Session ID is added as additional parameter for security reasons - otherwise, a third party could access a user dataset by guessing the ID
+     * The 32-Digit Session ID is much harder to guess
+     * @param sessionId
+     * @param userDatasets
+     * @returns {Promise<{fpInputList: *[], organismOfFirstDataset: number, ptmInputList: *[], userDatasetTypes: {}}>}
+     */
+    async loadUserDatasets(sessionId, userDatasets) {
+        if (sessionId !== '0'.repeat(32)) {
+            console.log(`Mock Backend only has UUID ${'0'.repeat(32)}!`)
+        }
+        const userDatasetTypes = {}
+        let ptmInputList = [];
+        let fpInputList = []
+
+
+        if (userDatasets.map(d => d.datasetId).includes(1)) {
+            userDatasetTypes[1] = "phospho"
+            ptmInputList = ptmInputList.concat(userPtmInputList)
+        }
+
+        if (userDatasets.map(d => d.datasetId).includes(2)) {
+            userDatasetTypes[2] = "fullprot"
+            fpInputList = fpInputList.concat(userFpInputList)
+        }
+
+        if (userDatasets.map(d => d.datasetId).includes(3)) {
+            userDatasetTypes[3] = "phospho"
+            ptmInputList = ptmInputList.concat(userdecryptMInputList)
+        }
+
+        if (userDatasets.map(d => d.datasetId).includes(4)) {
+            userDatasetTypes[4] = "fullprot" //TODO: Replace fullprot by protein - or maybe just distinguish phospho and nonphospho, that is all this field is used for at the moment
+            fpInputList = fpInputList.concat(userdecryptEInputList)
+        }
+
+        return {
+            ptmInputList,
+            fpInputList,
+            userDatasetTypes,
+            //TODO: Awkwaaaard
+            organismOfFirstDataset: 9606
+        }
     },
 
-
-    //TODO: Rename to Internal Datasets
-    async getProjects() {
+    async getInternalProjects() {
         return [{projectId: 1234, projectName: "MockInternalDatabaseProject"}]
     },
 
-    //TODO: Rename to Internal Experiment
-    async getExperimentDesigns(projectId) {
+    async getInternalDatasetsForProject(projectId) {
         if (projectId !== 1234) {
             console.log("Mock Backend only has Project 'MockInternalDatabaseProject'")
         }
         return [{
-            datasetName: "Mock InternalDatabase Experiment Design",
+            datasetName: "MockInternalPTMDataset",
             datasetId: 42,
-            omicsType: 'decryptM'
-        }]
-
+            omicsType: 'FoldChange'
+        },
+            {
+                datasetName: "MockInternalFPDataset",
+                datasetId: 43,
+                omicsType: 'FoldChange'
+            }
+        ]
     },
 
-    async getCustomPathwayList(uuid) {
-        if (uuid !== '0'.repeat(32)) {
-            console.log(`Mock Backend only has UUID ${'0'.repeat(32)}!`)
+    async loadInternalDatasets(selectedDatasets) {
+        let ptmInputList = [];
+        let fpInputList = []
+
+        if (selectedDatasets.map(d => d.datasetId).includes(42)) {
+            ptmInputList = ptmInputList = ptmInputList.concat(InternalDatabasePTMInputList)
         }
-        return customPathwayList;
+
+        if (selectedDatasets.map(d => d.datasetId).includes(43)) {
+            fpInputList = fpInputList.concat(InternalDatabaseFPInputList)
+        }
+
+        return {
+            ptmInputList,
+            fpInputList,
+            organismOfFirstDataset: 9606
+        }
+
     },
+
 
     async getCanonicalPathwayList(taxcode) {
         if (taxcode !== 9606) {
@@ -93,6 +160,13 @@ const mockApi = {
 
     },
 
+    async getCustomPathwayList(uuid) {
+        if (uuid !== '0'.repeat(32)) {
+            console.log(`Mock Backend only has UUID ${'0'.repeat(32)}!`)
+        }
+        return customPathwayList;
+    },
+
     async getPathwaySkeleton(taxcode, canonicalPathwayLink) {
         if (taxcode !== 9606) {
             console.log('Mock Backend only has Taxcode 9606 (Homo sapiens)')
@@ -101,52 +175,6 @@ const mockApi = {
             console.log('Mock Backend only has WP422 (MAPK cascade)')
         }
         return WP422;
-
-    },
-
-    async getUserProteomicsData(sessionId, userDatasets) {
-        if (sessionId !== '0'.repeat(32)) {
-            console.log(`Mock Backend only has UUID ${'0'.repeat(32)}!`)
-        }
-        const userDatasetTypes = {}
-        let ptmInputList = [];
-        let fpInputList = []
-
-        if(userDatasets.map(d => d.datasetId).includes('mockPtm')){
-            userDatasetTypes["mockPtm"] = "phospho"
-            ptmInputList = userPtmInputList
-        }
-
-        if(userDatasets.map(d => d.datasetId).includes('mockFp')){
-            userDatasetTypes["mockFp"] = "fullprot"
-            fpInputList = userFpInputList
-        }
-
-        if(userDatasets.map(d => d.datasetId).includes('mockDecryptM')){
-            userDatasetTypes["mockDecryptM"] = "decryptM" //TODO Not sure if this is the same as omics type... maybe need to put phospho instead
-            ptmInputList = userdecryptMInputList
-        }
-
-        if(userDatasets.map(d => d.datasetId).includes('mockDecryptE')){
-            userDatasetTypes["mockDecryptE"] = "decryptE" //TODO This type is not recognized by PTMNav yet
-            fpInputList = userdecryptEInputList
-        }
-
-
-        return {
-            ptmInputList,
-            fpInputList,
-            userDatasetTypes,
-            organismOfFirstDataset : 9606
-        }
-    },
-
-    async getInternalDatabaseData(selectedExperimentDesigns) {
-        if (selectedExperimentDesigns !== 42) {
-            console.log('Mock backend only has experiment 42!')
-        }
-
-        return { ptmInputList:InternalDatabasePTMInputList, fpInputList:InternalDatabaseFPInputList }
 
     },
 
@@ -173,8 +201,8 @@ const mockApi = {
         if (sessionId !== '0'.repeat(32)) {
             console.log(`Mock Backend only has UUID ${'0'.repeat(32)}!`)
         }
-        if (userDatasetIds[0] !== 'mockPtm') {
-            console.log(`Mock Backend only has enrichment for the Mock PTM Dataset with ID 'mockPtm'`)
+        if (userDatasetIds[0] !== 1) {
+            console.log(`Mock Backend only has enrichment for the Mock PTM Dataset with ID 1`)
             return null
         }
         return mockUserEnrichmentResults[enrichmentTypeId]
@@ -185,10 +213,6 @@ const mockApi = {
             console.log('Mock backend only has experiment 42!')
         }
         return mockInternalDatabaseEnrichmentResults
-
-    },
-    async renewSession(uuid) {
-        console.log(`Pretending to extend the following UUID: ${uuid}`)
 
     },
 

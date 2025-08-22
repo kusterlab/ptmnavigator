@@ -776,7 +776,7 @@
         </v-row>
 <!--        TODO: Eliminate hardcoded taxcodes-->
         <template
-            v-if="pathwaygraphApplicationMode==='viewing' && selectedOrganism && [9606, 10090].includes(selectedOrganism.value)">
+            v-if="pathwaygraphApplicationMode==='viewing' && selectedOrganism && [9606, 10090].includes(selectedOrganism.taxcode)">
           <v-row
               dense
           >
@@ -1431,7 +1431,7 @@ export default {
 
     //TODO: This should not be hard-coded
     existsReferenceProteomeInInternalDatabase () {
-      return !this.selectedOrganism || [3702, 9606, 10090].includes(this.selectedOrganism.value)
+      return !this.selectedOrganism || [3702, 9606, 10090].includes(this.selectedOrganism.taxcode)
     }
 
   },
@@ -1617,7 +1617,7 @@ export default {
     },
 
     async getCanonicalPathwayList () {
-      const pathwayListResponse = await this.backendApi.getCanonicalPathwayList(this.selectedOrganism.value)
+      const pathwayListResponse = await this.backendApi.getCanonicalPathwayList(this.selectedOrganism.taxcode)
 
       this.canonicalPathwayList = pathwayListResponse.map(pw => {
         return {
@@ -1691,7 +1691,7 @@ export default {
     },
 
     onOrganismSelectionChange (selectedOrganism) {
-      if (!selectedOrganism.value) {
+      if (!selectedOrganism.taxcode) {
         this.selectedOrganism = this.previouslySelectedOrganism
       } else {
         this.previouslySelectedOrganism = this.selectedOrganism
@@ -1825,7 +1825,7 @@ export default {
       }
 
       const pathwaySkeletonResponse = await this.backendApi.getPathwaySkeleton(
-        this.selectedOrganism.value, this.selectedCanonicalPathway.link)
+        this.selectedOrganism.taxcode, this.selectedCanonicalPathway.link)
       this.constructPathwaySkeleton(pathwaySkeletonResponse)
 
       // If we have data loaded already, collapse the pathway menu now (index 2 in the panel)
@@ -2215,7 +2215,7 @@ export default {
       if (searchStringArray.length > 0) {
         const filteredPathwayIds = await this.backendApi.getFilteredPathwayIds(
             searchStringArray.join(';'),
-            this.selectedOrganism.value
+            this.selectedOrganism.taxcode
         )
         this.canonicalPathwayListFiltered = this.canonicalPathwayList.filter(pathway => filteredPathwayIds.includes(pathway.value))
       } else {

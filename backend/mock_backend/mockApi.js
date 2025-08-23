@@ -53,10 +53,34 @@ const mockApi = {
             return []
         } else {
             return [
-                {datasetName: "MockPTMDataset", datasetId: 1, omicsType: "FoldChange", taxcode: 9606},
-                {datasetName: "MockProteinDataset", datasetId: 2, omicsType: "FoldChange", taxcode: 9606},
-                {datasetName: "MockDecryptMDataset", datasetId: 3, omicsType: "decryptM", taxcode: 9606},
-                {datasetName: "MockDecryptEDataset", datasetId: 4, omicsType: "decryptE", taxcode: 9606}
+                {
+                    datasetName: "MockPTMDataset",
+                    datasetId: 1,
+                    datasetType: "FoldChange",
+                    omics: 'Phosphorylation',
+                    taxcode: 9606
+                },
+                {
+                    datasetName: "MockProteinDataset",
+                    datasetId: 2,
+                    datasetType: "FoldChange",
+                    omics: 'Protein',
+                    taxcode: 9606
+                },
+                {
+                    datasetName: "MockDecryptMDataset",
+                    datasetId: 3,
+                    datasetType: "Curve",
+                    omics: 'Phosphorylation',
+                    taxcode: 9606
+                },
+                {
+                    datasetName: "MockDecryptEDataset",
+                    datasetId: 4,
+                    datasetType: "Curve",
+                    omics: 'Protein',
+                    taxcode: 9606
+                }
             ]
         }
     },
@@ -66,41 +90,35 @@ const mockApi = {
      * The 32-Digit Session ID is much harder to guess
      * @param sessionId
      * @param userDatasets
-     * @returns {Promise<{proteinInputList: *[], ptmInputList: *[], userDatasetTypes: {}}>}
+     * @returns {Promise<{proteinInputList: *[], ptmInputList: *[]}>}
      */
     async loadUserDatasets(sessionId, userDatasets) {
         if (sessionId !== '0'.repeat(32)) {
             console.log(`Mock Backend only has UUID ${'0'.repeat(32)}!`)
         }
-        const userDatasetTypes = {}
         let ptmInputList = [];
         let proteinInputList = []
 
 
         if (userDatasets.map(d => d.datasetId).includes(1)) {
-            userDatasetTypes[1] = "phospho"
             ptmInputList = ptmInputList.concat(userPtmInputList)
         }
 
         if (userDatasets.map(d => d.datasetId).includes(2)) {
-            userDatasetTypes[2] = "protein"
             proteinInputList = proteinInputList.concat(userProteinInputList)
         }
 
         if (userDatasets.map(d => d.datasetId).includes(3)) {
-            userDatasetTypes[3] = "phospho"
             ptmInputList = ptmInputList.concat(userdecryptMInputList)
         }
 
         if (userDatasets.map(d => d.datasetId).includes(4)) {
-            userDatasetTypes[4] = "protein" //TODO: maybe just distinguish phospho and nonphospho, that is all this field is used for at the moment
             proteinInputList = proteinInputList.concat(userdecryptEInputList)
         }
 
         return {
             ptmInputList,
-            proteinInputList,
-            userDatasetTypes
+            proteinInputList
         }
     },
 
@@ -115,13 +133,15 @@ const mockApi = {
         return [{
             datasetName: "MockInternalPTMDataset",
             datasetId: 42,
-            omicsType: 'FoldChange',
+            datasetType: 'FoldChange',
+            omics: 'Phosphorylation',
             taxcode: 9606
         },
             {
                 datasetName: "MockInternalProteinDataset",
                 datasetId: 43,
-                omicsType: 'FoldChange',
+                datasetType: 'FoldChange',
+                omics: 'Protein',
                 taxcode: 9606
             }
         ]
@@ -194,6 +214,81 @@ const mockApi = {
         return ['WP422']
 
 
+    },
+
+    async getEnrichmentTypes() {
+        return [
+            {
+                name: 'PTM-SEA',
+                short: 'ptmsea',
+                enrichmentTypeId: 1,
+                applicableOmics: ['Phosphorylation'],
+                enrichmentClass: 'Pathway'
+            },
+            {
+                name: 'GC-PEA',
+                short: 'gc',
+                enrichmentTypeId: 2,
+                applicableOmics: ['Phosphorylation', 'Protein', 'Other'],
+                enrichmentClass: 'Pathway'
+            },
+            {
+                name: 'GCR-PEA',
+                short: 'gcr',
+                enrichmentTypeId: 3,
+                applicableOmics: ['Phosphorylation', 'Protein', 'Other'],
+                enrichmentClass: 'Pathway'
+            },
+            {
+                name: 'GO',
+                short: 'go',
+                enrichmentTypeId: 10,
+                applicableOmics: ['Phosphorylation', 'Protein', 'Other'],
+                enrichmentClass: 'Pathway'
+            },
+            {
+                name: 'KSEA',
+                short: 'ksea',
+                enrichmentTypeId: 4,
+                applicableOmics: ['Phosphorylation'],
+                enrichmentClass: 'KinaseActivity'
+            },
+            {
+                name: 'RoKAI+KSEA',
+                short: 'ksea_rokai',
+                enrichmentTypeId: 5,
+                applicableOmics: ['Phosphorylation'],
+                enrichmentClass: 'KinaseActivity'
+            },
+            {
+                name: 'MOTIF',
+                short: 'motif',
+                enrichmentTypeId: 6,
+                applicableOmics: ['Phosphorylation'],
+                enrichmentClass: 'KinaseActivity'
+            },
+            {
+                name: 'KEA3',
+                short: 'kea3',
+                enrichmentTypeId: 7,
+                applicableOmics: ['Phosphorylation'],
+                enrichmentClass: 'KinaseActivity'
+            },
+            {
+                name: 'KSTAR',
+                short: 'kstar',
+                enrichmentTypeId: 8,
+                applicableOmics: ['Phosphorylation'],
+                enrichmentClass: 'KinaseActivity'
+            },
+            {
+                name: 'RoKAI',
+                short: 'rokai',
+                enrichmentTypeId: 9,
+                applicableOmics: ['Phosphorylation'],
+                enrichmentClass: 'KinaseActivity'
+            }
+        ]
     },
 
     async getUserEnrichmentResults(sessionId, userDatasetIds, enrichmentTypeId) {

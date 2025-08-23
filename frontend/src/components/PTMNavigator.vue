@@ -552,7 +552,9 @@
         <v-row
           v-if="pathwaygraphApplicationMode==='viewing'
             && Object.keys(enrichmentResponse)
-              .some(kai_method => !['ptmsea', 'gcr', 'gc']
+              .some(kai_method => enrichmentTypes
+                .filter(t => t.enrichmentClass === 'KinaseActivity')
+                .map(t => t.short)
                 .includes(kai_method) && enrichmentResponse[kai_method].length > 0)"
         >
           <v-col
@@ -1295,7 +1297,6 @@ export default {
       ],
       userDatasets: [],
       selectedUserDatasets: [],
-      currentlyLoadedUserDatasetTypes: {},
 
       //Pathway Diagrams
       // graphdataSkeleton holds just the information from KEGG/Wikipathway, plus potential Protein-Level Datasets
@@ -1330,18 +1331,7 @@ export default {
       enrichmentQueryIntervalId: undefined,
       enrichmentOrSelectionTable: 'enrichment',
       enrichmentResponse: {},
-      enrichmentTypeMap: {
-        'PTM-SEA': 'ptmsea',
-        'GC-PEA': 'gc',
-        'GCR-PEA': 'gcr',
-        'KSEA': 'ksea',
-        'RoKAI': 'rokai',
-        'RoKAI+KSEA': 'ksea_rokai',
-        'MOTIF': 'motif',
-        'KEA3': 'kea3',
-        'KSTAR': 'kstar',
-        'GO': 'go'
-      },
+      enrichmentTypes: [],
       enrichmentStatuses: [],
 
       //Selected Peptides/Proteins
@@ -1405,9 +1395,9 @@ export default {
     },
     doSomeSelectedDatasetsHaveCurves () {
       if (this.isUserDataMode) {
-        return this.selectedUserDatasets.length > 0 && this.selectedUserDatasets.some(ds => ds.omicsType && ds.omicsType.startsWith('decrypt'))
+        return this.selectedUserDatasets.length > 0 && this.selectedUserDatasets.some(ds => ds.datasetType && ds.datasetType === 'Curve')
       } else {
-        return this.selectedInternalDatasets.length > 0 && this.selectedInternalDatasets.some(ds => ds.omicsType && ds.omicsType.startsWith('decrypt'))
+        return this.selectedInternalDatasets.length > 0 && this.selectedInternalDatasets.some(ds => ds.datasetType && ds.datasetType === 'Curve')
       }
     },
     canonicalPathwayLink() {
@@ -1437,9 +1427,16 @@ export default {
       res += ':'
       return res
     },
-    customPathwaySelectionLabel () {
+    customPathwaySelectionLabel() {
       return `Custom Pathways (n=${this.customPathwayList.length}):`
     },
+    enrichmentTypeMap() {
+      const res = new Map();
+      this.enrichmentTypes.forEach(t => {
+        res.set(t.name, t.short)
+      })
+      return res;
+    }
 
   },
   watch: {
@@ -1462,8 +1459,7 @@ export default {
             if (newUUID !== this.defaultUUID) {
               this.$cookie.set('analyticsUploadSessionID', newUUID, {expires: d})
             }
-            this.userDatasets = userDatasetListResponse.filter(
-                d => d.omicsType.startsWith('decrypt') || d.omicsType.startsWith('FoldChange'))
+            this.userDatasets = userDatasetListResponse
 
             // Only do the following in view mode. In edit mode, we don't want to lose the graph and the values that
             // are changed here do not matter anyways.
@@ -1543,6 +1539,8 @@ export default {
     // (https://v2.vuetifyjs.com/en/components/expansion-panels/#model)
     this.leftExpansionPanel.push(0, 1, 2)
 
+
+    await this.getEnrichmentTypes()
     // Set up the periodic retrieval of missing enrichment analysis results
     // Only in user-data mode - in internal database-data mode, the data is retrieved once and that's it
     this.enrichmentQueryIntervalId = setInterval(() => {
@@ -1611,6 +1609,10 @@ export default {
       if (this.selectedInternalProject) {
         this.internalDatasets = await this.backendApi.getInternalDatasetsForProject(this.selectedInternalProject.projectId)
       }
+    },
+
+    async getEnrichmentTypes() {
+      this.enrichmentTypes = await this.backendApi.getEnrichmentTypes()
     },
 
     async getCustomPathwayList() {
@@ -1867,7 +1869,6 @@ export default {
 
       this.ptmInputList = userProteomicsDataResult.ptmInputList
       this.proteinInputList = userProteomicsDataResult.proteinInputList
-      this.currentlyLoadedUserDatasetTypes = userProteomicsDataResult.userDatasetTypes
       //Select the organism of the first selected dataset
       this.selectedOrganism = this.organismList.find(org => this.selectedUserDatasets[0].taxcode === org.taxcode)
 
@@ -1955,7 +1956,7 @@ export default {
         // KSTAR: Concatenate the separate results of 'ST' and 'Y' kinases
         this.enrichmentResponse.kstar = [...unformattedjson.ST || [], ...unformattedjson.Y || []]
       } else {
-        this.enrichmentResponse[this.enrichmentTypeMap[enrichmentType]] = unformattedjson
+        this.enrichmentResponse[this.enrichmentTypeMap.get(enrichmentType)] = unformattedjson
       }
     },
 
@@ -1989,10 +1990,10 @@ export default {
             // KSTAR: Concatenate the separate results of 'ST' and 'Y' kinases
             responseFormatted.kstar = [...result.ST || [], ...result.Y || []]
           } else {
-            responseFormatted[this.enrichmentTypeMap[enrichment.enrichmentType]] = result
+            responseFormatted[this.enrichmentTypeMap.get(enrichment.enrichmentType)] = result
           }
         } catch (e) {
-          responseFormatted[this.enrichmentTypeMap[enrichment.enrichmentType]] = []
+          responseFormatted[this.enrichmentTypeMap.get(enrichment.enrichmentType)] = []
         }
       })
       return responseFormatted
@@ -2129,17 +2130,6 @@ export default {
         this.leftExpansionPanel = this.leftExpansionPanel.filter(val => val !== 3)
       }
     },
-    onMouseOverCurve: function (curveId) {
-      //TODO: Implement something, if you want
-      // console.log(`Mouse over curve: ${curveId}`)
-      return curveId
-    },
-
-    onClickCurve: function (curveId) {
-      //TODO: Implement something, if you want
-      // console.log(`Curve clicked: ${curveId}`)
-      return curveId
-    },
     downloadCurvesPlot: function (filetype) {
       this.downloadCurveLoading = true
       const curveSvg = this.$refs.responseCurve.getSVG();
@@ -2275,35 +2265,10 @@ export default {
 
     async fetchEnrichmentResults () {
       if (this.isUserDataMode) {
-        // Initialize based on the type of the dataset
-        if (this.currentlyLoadedUserDatasetTypes[this.selectedDatasetForEnrichment.datasetId] === 'phospho') {
-          //TODO: The enrichment Type IDs should not be hardcoded, they depend on the backend.
-          this.enrichmentStatuses = [
-            {name: 'PTM-SEA', short: 'ptmsea', status: 'in progress', enrichmentTypeId: 1},
-            {name: 'GC-PEA', short: 'gc', status: 'in progress', enrichmentTypeId: 2},
-            {name: 'GCR-PEA', short: 'gcr', status: 'in progress', enrichmentTypeId: 3},
-            {name: 'GO', short: 'go', status: 'in progress', enrichmentTypeId: 10},
-            {name: 'KSEA', short: 'ksea', status: 'in progress', enrichmentTypeId: 4},
-            {name: 'RoKAI+KSEA', short: 'ksea_rokai', status: 'in progress', enrichmentTypeId: 5},
-            {name: 'MOTIF', short: 'motif', status: 'in progress', enrichmentTypeId: 6},
-            {name: 'KEA3', short: 'kea3', status: 'in progress', enrichmentTypeId: 7},
-            {name: 'KSTAR', short: 'kstar', status: 'in progress', enrichmentTypeId: 8},
-            {name: 'RoKAI', short: 'rokai', status: 'in progress', enrichmentTypeId: 9}
-          ]
-        } else {
-          this.enrichmentStatuses = [
-            { name: 'PTM-SEA', short: 'ptmsea', status: 'not applicable', enrichmentTypeId: 1 },
-            { name: 'GC-PEA', short: 'gc', status: 'in progress', enrichmentTypeId: 2 },
-            { name: 'GCR-PEA', short: 'gcr', status: 'in progress', enrichmentTypeId: 3 },
-            { name: 'GO', short: 'go', status: 'not applicable', enrichmentTypeId: 10 },
-            { name: 'KSEA', short: 'ksea', status: 'not applicable', enrichmentTypeId: 4 },
-            { name: 'RoKAI+KSEA', short: 'ksea_rokai', status: 'not applicable', enrichmentTypeId: 5 },
-            { name: 'MOTIF', short: 'motif', status: 'not applicable', enrichmentTypeId: 6 },
-            { name: 'KEA3', short: 'kea3', status: 'not applicable', enrichmentTypeId: 7 },
-            { name: 'KSTAR', short: 'kstar', status: 'not applicable', enrichmentTypeId: 8 },
-            { name: 'RoKAI', short: 'rokai', status: 'not applicable', enrichmentTypeId: 9 }
-          ]
-        }
+        this.enrichmentStatuses = this.enrichmentTypes.map(enrichmentType => {
+          const initialStatus = enrichmentType.applicableOmics.includes(this.selectedDatasetForEnrichment.omics) ? 'in progress' : 'not applicable'
+          return {...enrichmentType, status: initialStatus}
+        })
       } else {
         // No enrichment statuses in Internal Database Mode (they were calculated prior to startup, so they don't change anymore)
         this.enrichmentStatuses = []

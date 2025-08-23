@@ -17,6 +17,7 @@
  * @property {(skeleton: String, uuid: String, customPathwayName: string, currentlyEditedPathwayId: string|undefined) => number} storeCustomPathway
  * @property {(searchStrings: String[], taxcode: String) => Array} getFilteredPathwayIds
  * @property {() => String} getCustomDataUploadComponent
+ * @property {() => EnrichmentType[]} getEnrichmentTypes
  * @property {(sessionId: String, userDatasetIds: String, enrichmentTypeId: String) => Object} getUserEnrichmentResults
  * @property {(experimentDesignIds: String) => Object} getInternalDatabaseEnrichmentResults
  * @property {(curveIds: Array) => Array} getCurveData
@@ -33,7 +34,8 @@
  * @typedef Dataset
  * @property {string} datasetName
  * @property {string} datasetId
- * @property {string} omicsType
+ * @property {string} datasetType //TODO provide enumeration of possible values
+ * @property {string} omics //TODO provide enumeration of possible values
  * @property {number} taxcode
  */
 
@@ -81,6 +83,14 @@
  * @typedef LoadedData
  * @property {Array} ptmInputList //TODO: Need to make clear what are the mandatory fields for these (probably the same for both so you could create a type)
  * @property {Array} proteinInputList
+ */
+
+/**
+ * @typedef EnrichmentType
+ * @property {string} name
+ * @property {string} short
+ * @property {number} enrichmentTypeId
+ * @property {string[]} applicableOmics
  */
 
 

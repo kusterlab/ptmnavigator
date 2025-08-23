@@ -1350,8 +1350,6 @@ export default {
 
       //Dose-Response Curve Plot
       selectedCurveIDs: [],
-      //TODO: This, too, needs to go
-      selectedDrugNames: [],
       curvePlotLoading: false,
       curvePlotInputData: [],
       curvePlotMetaData: {},
@@ -1783,9 +1781,6 @@ export default {
       if (this.pathwaygraphApplicationMode === 'viewing') {
         this.currentGraphdataSkeleton = undefined
         this.selectedCurveIDs = []
-        if (!this.isUserDataMode) {
-          this.selectedDrugNames = []
-        }
         if (this.selectedCustomPathway && this.selectedCustomPathway.json) {
           this.customPathwayName = this.selectedCustomPathway.pathwayName
           this.constructPathwaySkeleton(JSON.parse(this.selectedCustomPathway.json))
@@ -1830,9 +1825,6 @@ export default {
         return
       }
       this.selectedCurveIDs = []
-      if (!this.isUserDataMode) {
-        this.selectedDrugNames = []
-      }
 
       const pathwaySkeletonResponse = await this.backendApi.getPathwaySkeleton(
         this.selectedOrganism.taxcode, this.selectedCanonicalPathway.link)
@@ -1902,9 +1894,6 @@ export default {
       this.selectedProteinsTableData = []
       this.infoboxContent = undefined
 
-      if (!this.isUserDataMode) {
-        this.selectedDrugNames = []
-      }
       if (this.$refs['protein-list-filter-combobox']) { this.$refs['protein-list-filter-combobox'].reset() }
     },
     clearUserData () {
@@ -1921,7 +1910,6 @@ export default {
       this.ptmInputListFiltered = []
       this.proteinInputList = []
       this.proteinInputListFiltered = []
-      this.selectedDrugNames = []
       this.getCanonicalPathwayList()
     },
     async loadInternalDatabaseData () {
@@ -2087,9 +2075,6 @@ export default {
               break
           }
           this.selectedCurveIDs = []
-          if (!this.isUserDataMode) {
-            this.selectedDrugNames = []
-          }
           this.constructPathwaySkeleton(JSON.parse(this.selectedCustomPathway.json))
           resolve()
         })
@@ -2121,13 +2106,6 @@ export default {
             .filter(curveid => !!curveid)
       }
 
-      // For Internal Database data, we also need a drug name to show the curves (because of a possible combination treatment)
-      //TODO: This reaaallly should not be a thing in the standalone version. Try to get rid of it somehow, move it to the api idk
-      if (!this.isUserDataMode) {
-        this.selectedDrugNames = [
-          ...newSelection.detail.selection_peptide.flatMap(sel => sel['Drug Name'] ? String(sel['Drug Name']).split(',') : undefined).filter(drugname => !!drugname),
-          ...newSelection.detail.selection_protein.flatMap(sel => sel['Drug Name'] ? String(sel['Drug Name']).split(',') : undefined).filter(drugname => !!drugname)]
-      }
     },
 
 
@@ -2211,8 +2189,6 @@ export default {
     },
     filterInputData() {
       this.selectedCurveIDs = []
-      //TODO: Eliminate
-      this.selectedDrugNames = []
 
       // Filter for selected experiments
       const experimentFilterIDs = this.experimentFilter.map(entry => entry.experimentID)

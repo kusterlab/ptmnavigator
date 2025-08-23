@@ -285,7 +285,7 @@
                         <v-combobox
                             v-show="pathwayByProteinFilterEnabled"
                             ref="protein-list-filter-combobox"
-                            :disabled="!canonicalPathwayListFiltered || !existsReferenceProteomeInInternalDatabase"
+                            :disabled="!canonicalPathwayListFiltered"
                             hint="Enter gene names or Uniprot accession numbers to show only the pathways that contain them."
                             prepend-inner-icon="mdi-filter-outline"
                             persistent-hint
@@ -445,7 +445,7 @@
                   <v-combobox
                       v-show="pathwayByProteinFilterEnabled"
                       ref="protein-list-filter-combobox"
-                      :disabled="!canonicalPathwayListFiltered || !existsReferenceProteomeInInternalDatabase"
+                      :disabled="!canonicalPathwayListFiltered"
                       hint="Enter gene names or Uniprot accession numbers to show only the pathways that contain them."
                       prepend-inner-icon="mdi-filter-outline"
                       persistent-hint
@@ -789,9 +789,8 @@
             </v-btn>
           </v-col>
         </v-row>
-<!--        TODO: Eliminate hardcoded taxcodes-->
         <template
-            v-if="pathwaygraphApplicationMode==='viewing' && selectedOrganism && [9606, 10090].includes(selectedOrganism.taxcode)">
+            v-if="pathwaygraphApplicationMode==='viewing'">
           <v-row
               dense
           >
@@ -925,7 +924,7 @@
                         analysis algorithms on it (e.g. KSEA, PTM-SEA).<br>
                         When you load the dataset into PTMNavigator,
                         the enrichment results will be displayed here.<br>
-                        Note that for now, this feature is only implemented for <i>Homo sapiens</i> datasets.
+                        Note that for now, this feature is only implemented for <i>Homo sapiens</i> and <i>Mus musculus</i> datasets.
                       </div>
                     </v-alert>
                   </v-card-text>
@@ -1444,11 +1443,6 @@ export default {
       return `Custom Pathways (n=${this.customPathwayList.length}):`
     },
 
-    //TODO: This should not be hard-coded
-    existsReferenceProteomeInInternalDatabase () {
-      return !this.selectedOrganism || [3702, 9606, 10090].includes(this.selectedOrganism.taxcode)
-    }
-
   },
   watch: {
     uuid: {
@@ -1599,7 +1593,8 @@ export default {
       this.organismList = organismResponse.map(datum => {
         return {organismName: datum.name, taxcode: datum.taxcode}
       })
-      this.selectedOrganism = this.organismList.find(org => org.taxcode === 9606)
+      //Initially select the first organism in the list
+      this.selectedOrganism = this.organismList[0]
       this.previouslySelectedOrganism = this.selectedOrganism
     },
 

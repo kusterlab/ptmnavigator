@@ -21,14 +21,14 @@
           </v-col>
         </v-row>
         <v-expansion-panels
-          v-if="pathwaygraphApplicationMode==='viewing'"
-          v-model="leftExpansionPanel"
-          multiple
+            v-if="pathwaygraphApplicationMode==='viewing'"
+            v-model="leftExpansionPanelsExpandedPanelIndices"
+            multiple
         >
           <v-expansion-panel>
             <v-expansion-panel-header>
               <h2 class="text-h6">
-                Data Selection
+                {{ leftExpansionPanels[0] }}
               </h2>
             </v-expansion-panel-header>
             <v-expansion-panel-content>
@@ -174,7 +174,7 @@
           <v-expansion-panel>
             <v-expansion-panel-header>
               <h2 class="text-h6">
-                Experiment Filter
+                {{ leftExpansionPanels[1] }}
               </h2>
             </v-expansion-panel-header>
             <v-expansion-panel-content>
@@ -219,7 +219,7 @@
             <v-expansion-panel-header v-slot="{ open }">
               <div>
                 <h2 class="text-h6">
-                  Pathway Selection
+                  {{ leftExpansionPanels[2] }}
                 </h2>
                 <v-fade-transition>
                   <span v-if="!open && !!selectedCanonicalPathway">{{ selectedCanonicalPathway.pathwayName }}</span>
@@ -354,7 +354,7 @@
           <v-expansion-panel>
             <v-expansion-panel-header>
               <h2 class="text-h6">
-                Currently Selected:
+                {{ leftExpansionPanels[3] }}
               </h2>
             </v-expansion-panel-header>
             <v-expansion-panel-content>
@@ -1351,9 +1351,11 @@ export default {
       perturbedNodes: {up: [], down: [], undirected: []},
 
       //Frontend Variables
-      //TODO: Refactor this so that the values 0,1,2 are more self-explanatory. They are supposed to mean 'Data Selection', 'Experiment Filter', 'Pathway Selection'
       //And whatever is in this array is expanded, the others are not.
-      leftExpansionPanel: [],
+      leftExpansionPanels: ['Data Selection', 'Experiment Filter', 'Pathway Selection', 'Currently Selected'],
+      //This holds the indices of the leftExpansionPanels list that are currently expanded.
+      //Can't use that list directly because v-expansion-panels can only work with a list of numeric indices
+      leftExpansionPanelsExpandedPanelIndices: [],
       pathwaygraphApplicationMode: 'viewing',
       pathwayViewCanonicalOrCustom: 0,
       pathwayEditTemplateCanonicalOrCustom: 0,
@@ -1537,7 +1539,7 @@ export default {
     // Expand the accordion on the left side (all tabs except the 'currently selected', bc there is nothing selected initially)
     // This is done by adding the indices of the open items to the array modeling the panel
     // (https://v2.vuetifyjs.com/en/components/expansion-panels/#model)
-    this.leftExpansionPanel.push(0, 1, 2)
+    this.leftExpansionPanelsExpandedPanelIndices = this.leftExpansionPanels.map((_, i) => i)
 
 
     await this.getEnrichmentTypes()
@@ -1832,9 +1834,10 @@ export default {
         this.selectedOrganism.taxcode, this.selectedCanonicalPathway.link)
       this.constructPathwaySkeleton(pathwaySkeletonResponse)
 
-      // If we have data loaded already, collapse the pathway menu now (index 2 in the panel)
+      // If we have data loaded already, collapse the pathway menu now
       if (this.ptmInputList.length + this.proteinInputList.length > 0) {
-        this.leftExpansionPanel = this.leftExpansionPanel.filter(val => val !== 2)
+        this.leftExpansionPanelsExpandedPanelIndices = this.leftExpansionPanels
+            .reduce((res, elem, index) => elem !== 'Pathway Selection' ? (res.push(index), res) : res, [])
       }
     },
 
@@ -1882,9 +1885,7 @@ export default {
       this.selectAllExperiments()
 
       // Collapse the dataset and experiment menus (indices 0 and 1)
-      this.leftExpansionPanel = this.leftExpansionPanel.filter(val => ![0, 1].includes(val))
-      // Expand the pathway selection menu (index 2)
-      this.leftExpansionPanel.push(2)
+      this.leftExpansionPanelsExpandedPanelIndices = [this.leftExpansionPanels.indexOf('Pathway Selection')]
     },
     clearPathwayGraph: function () {
       this.currentGraphdataSkeleton = undefined
@@ -1933,8 +1934,8 @@ export default {
       this.clearPathwayGraph()
       this.selectAllExperiments()
 
-      // Collapse the dataset and experiment menus (indices 0 and 1)
-      this.leftExpansionPanel = this.leftExpansionPanel.filter(val => ![0, 1].includes(val))
+      // Collapse the dataset and experiment menus (indices 0 and 1), only have the Pathway Selection menu expanded
+      this.leftExpansionPanelsExpandedPanelIndices = [this.leftExpansionPanels.indexOf('Pathway Selection')]
 
       // If it hasn't been triggered elsewhere, try to sort pathways by gcr score
       this.getGCRSortedPathwayList()
@@ -2125,9 +2126,10 @@ export default {
       // Expand the box if there is content, collapse it if there isn't
       // The box is index 3 in the panel
       if (this.infoboxContent) {
-        this.leftExpansionPanel.push(3)
+        this.leftExpansionPanelsExpandedPanelIndices.push(this.leftExpansionPanels.indexOf('Currently Selected'))
       } else {
-        this.leftExpansionPanel = this.leftExpansionPanel.filter(val => val !== 3)
+        const indexOfInfoboxPanel = this.leftExpansionPanels.indexOf('Currently Selected')
+        this.leftExpansionPanelsExpandedPanelIndices = this.leftExpansionPanelsExpandedPanelIndices.filter(val => val !== indexOfInfoboxPanel)
       }
     },
     downloadCurvesPlot: function (filetype) {

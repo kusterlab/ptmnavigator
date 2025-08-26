@@ -9,7 +9,10 @@ import userdecryptEInputList from './mock_data/mockUserDatasetDecryptEInput.json
 import InternalDatasetPTMInputList from './mock_data/mockInternalDatasetPTMInput.json'
 import InternalDatasetProteinInputList from './mock_data/mockInternalDatasetProteinInput.json'
 //TODO: Motif and KEA3 not available, haven't checked InternalDatabase datasets yet
-import mockUserEnrichmentResults from './mock_data/mockUserEnrichmentResults.json'
+import mockUserEnrichmentResults1 from './mock_data/mockUserEnrichmentResults1.json'
+import mockUserEnrichmentResults2 from './mock_data/mockUserEnrichmentResults2.json'
+import mockUserEnrichmentResults3 from './mock_data/mockUserEnrichmentResults3.json'
+import mockUserEnrichmentResults4 from './mock_data/mockUserEnrichmentResults4.json'
 import mockInternalDatasetEnrichmentResults from './mock_data/mockInternalDatasetEnrichmentResults.json'
 
 
@@ -294,12 +297,24 @@ const mockApi = {
     async getUserEnrichmentResults(sessionId, userDatasetIds, enrichmentTypeId) {
         if (sessionId !== '0'.repeat(32)) {
             console.log(`Mock Backend only has UUID ${'0'.repeat(32)}!`)
-        }
-        if (userDatasetIds[0] !== 1) {
-            console.log(`Mock Backend only has enrichment for the Mock PTM Dataset with ID 1`)
             return null
         }
-        return mockUserEnrichmentResults[enrichmentTypeId]
+        else if(userDatasetIds[0] === 1){
+            return mockUserEnrichmentResults1[enrichmentTypeId]
+        }
+        else if(userDatasetIds[0] === 2){
+            return mockUserEnrichmentResults2[enrichmentTypeId]
+        }
+        else if(userDatasetIds[0] === 3){
+            return mockUserEnrichmentResults3[enrichmentTypeId]
+        }
+        else if(userDatasetIds[0] === 4){
+            return mockUserEnrichmentResults4[enrichmentTypeId]
+        }
+        else {
+            console.log(`Mock Backend only has enrichment for the Mock PTM Dataset with IDs 1,3`)
+            return null
+        }
 
     },
     async getInternalDatabaseEnrichmentResults(experimentDesignIds) {

@@ -1351,10 +1351,11 @@ export default {
       perturbedNodes: {up: [], down: [], undirected: []},
 
       //Frontend Variables
-      //And whatever is in this array is expanded, the others are not.
       leftExpansionPanels: ['Data Selection', 'Experiment Filter', 'Pathway Selection', 'Currently Selected'],
       //This holds the indices of the leftExpansionPanels list that are currently expanded.
       //Can't use that list directly because v-expansion-panels can only work with a list of numeric indices
+      //And whatever is in this array is expanded, the others are not.
+
       leftExpansionPanelsExpandedPanelIndices: [],
       pathwaygraphApplicationMode: 'viewing',
       pathwayViewCanonicalOrCustom: 0,

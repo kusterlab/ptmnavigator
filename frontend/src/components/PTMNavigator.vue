@@ -8,7 +8,8 @@
         ref="leftColumn"
         sm="12"
         md="12"
-        lg="3"
+        lg="4"
+        xl="3"
       >
         <v-row>
           <v-col cols="12">
@@ -532,9 +533,7 @@
                   flat
               >
                 <v-card-title>Dose-Response Curves:</v-card-title>
-                <v-card-text
-                    :style="{transform: `scale(${curvePlotScale})`}"
-                >
+                <v-card-text>
                   <loading-overlay
                       :loading="curvePlotLoading"
                   />
@@ -581,7 +580,8 @@
         id="spacereservedforgraph"
         sm="12"
         md="12"
-        lg="9"
+        lg="8"
+        xl="9"
       >
         <v-row
           dense
@@ -1345,7 +1345,6 @@ export default {
       curvePlotMetaData: {},
       curvePlotLegendFontSize: 12,
       curvePlotSize: 450,
-      curvePlotScale: 1.0,
 
       // Kinase Activity Thresholder
       perturbedNodes: {up: [], down: [], undirected: []},
@@ -1375,7 +1374,6 @@ export default {
       doneSnackbar: false,
 
       //Misc
-      refreshColumnWidthKey: 0,
       graphWidth: null,
       infoboxContent: undefined,
       dataTabs: 1, // Initially show userDataMode
@@ -1384,13 +1382,6 @@ export default {
   computed: {
     defaultUUID() {
       return this.backendApi.getDefaultSessionId()
-    },
-    responseCurveContainerWidth () {
-      // Sorry eslint, I need this because the clientWidth is not reactive by itself
-      // eslint-disable-next-line no-unused-expressions
-      this.refreshColumnWidthKey
-      //TODO: Rewrite, hopefully remove
-      return Number(this.$refs.leftColumn.clientWidth)
     },
     isUserDataMode () {
       // this.tabs is 0 if we are in 'internal data' mode, and 1 if we are in 'user data mode'
@@ -1563,28 +1554,8 @@ export default {
     window.removeEventListener('resize', this.onResize)
   },
   methods: {
-
-
     onResize () {
       this.graphWidth = document.querySelector('#spacereservedforgraph').clientWidth - 35
-
-      const card = this.$refs['lineplot-doseresponsecurve-card']
-      if(card) {
-        const card_el = card.$el
-        console.log('should do shit!')
-        console.log(`boundingclientwidth:${card_el.getBoundingClientRect().width}`)
-        console.log(`Before: ${this.curvePlotScale}`)
-        this.curvePlotScale = Math.min(1, card_el.getBoundingClientRect().width * 0.99 / this.curvePlotSize)
-        console.log(`After: ${this.curvePlotScale}`)
-      }
-      if (this.$refs.responseCurve) {
-        //TODO: Check if this is still necessary with the new implementation of responseCurve
-        // Sorry, this is a bit ugly. What actually happens here is that the responseCurve must be redrawn with the new width.
-        // But the computed responseCurveContainerWidth does not update on its own because it depends on a non-reactive DOM component.
-        // The following dummy variable appears in the computed, forcing it to update.
-        // See here: https://stackoverflow.com/questions/48700142/vue-js-force-computed-properties-to-recompute
-        this.refreshColumnWidthKey++
-      }
     },
 
     async getOrganisms() {

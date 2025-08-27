@@ -1440,9 +1440,8 @@ export default {
         // Validate the UUID
         if (newUUID && newUUID !== oldUUID && newUUID.length === 32) {
           const sessionIdResponse = await this.backendApi.refreshSessionId(newUUID)
-          if (sessionIdResponse.cookieStatus === 0) {
-            if (sessionIdResponse.uuid !== newUUID) {
-              this.uuid = sessionIdResponse.uuid
+            if (sessionIdResponse !== newUUID) {
+              this.uuid = sessionIdResponse
               return
             }
             const userDatasetListResponse = await this.backendApi.getUserDatasetList(newUUID)
@@ -1463,7 +1462,6 @@ export default {
               this.selectedCustomPathway = null
               await this.onCustomPathwaySelectionChange()
             }
-          }
         }
       }
     },
@@ -1980,7 +1978,7 @@ export default {
         if (!this.$cookie.get('analyticsUploadSessionID')) {
           // TODO: Check if this causes an error since I am not supplying a UUID
           const sessionIdResponse = await this.backendApi.refreshSessionId(undefined)
-          this.uuid = sessionIdResponse.uuid
+          this.uuid = sessionIdResponse
         }
 
         this.currentlyEditedPathwayId = await this.backendApi.storeCustomPathway(

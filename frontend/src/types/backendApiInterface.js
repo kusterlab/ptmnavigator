@@ -17,9 +17,9 @@
  * @property {(searchStrings: String[], taxcode: String) => Array} getFilteredPathwayIds
  * @property {() => String} getCustomDataUploadComponent
  * @property {() => EnrichmentType[]} getEnrichmentTypes
- * @property {(sessionId: String, userDatasetIds: String, enrichmentTypeId: String) => Object} getUserEnrichmentResults
- * @property {(experimentDesignIds: String) => Object} getInternalDatabaseEnrichmentResults
- * @property {(curveIds: Array) => Array} getCurveData
+ * @property {(sessionId: String, userDatasetIds: String, enrichmentTypeId: String) => Object} loadUserEnrichmentResults
+ * @property {(experimentDesignIds: String) => Object} loadInternalDatabaseEnrichmentResults
+ * @property {(curveIds: Array) => Array} loadCurveData
  */
 
 
@@ -107,9 +107,9 @@ export function apiValidator(api) {
         'storeCustomPathway',
         'getFilteredPathwayIds',
         'getCustomDataUploadComponent',
-        'getUserEnrichmentResults',
-        'getInternalDatabaseEnrichmentResults',
-        'getCurveData',
+        'loadUserEnrichmentResults',
+        'loadInternalDatabaseEnrichmentResults',
+        'loadCurveData',
     ];
     return requiredMethods.every((method) => {
         const functionExists = typeof api[method] === 'function'

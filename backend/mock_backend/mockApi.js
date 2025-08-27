@@ -286,7 +286,7 @@ const mockApi = {
         ]
     },
 
-    async getUserEnrichmentResults(sessionId, userDatasetIds, enrichmentTypeId) {
+    async loadUserEnrichmentResults(sessionId, userDatasetIds, enrichmentTypeId) {
         if (sessionId !== '0'.repeat(32)) {
             console.log(`Mock Backend only has UUID ${'0'.repeat(32)}!`)
             return null
@@ -309,7 +309,7 @@ const mockApi = {
         }
 
     },
-    async getInternalDatabaseEnrichmentResults(experimentDesignIds) {
+    async loadInternalDatabaseEnrichmentResults(experimentDesignIds) {
         if (experimentDesignIds !== '42') {
             console.log('Mock backend only has experiment 42!')
         }
@@ -317,7 +317,7 @@ const mockApi = {
 
     },
 
-    async getCurveData(curveIDs){
+    async loadCurveData(curveIDs){
         if(!curveIDs || curveIDs.length === 0){
             return [];
         }

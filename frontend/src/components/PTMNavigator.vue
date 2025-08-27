@@ -2082,7 +2082,7 @@ export default {
 
 
     async getCurveData(selectedCurveIds) {
-      this.curvePlotInputData = await this.backendApi.getCurveData(selectedCurveIds)
+      this.curvePlotInputData = await this.backendApi.loadCurveData(selectedCurveIds)
       if (this.curvePlotInputData && this.curvePlotInputData.length > 0) {
         // Set the axis labels based on the first curve (users need to ensure they don't load curves with different axis units at the same time)
         this.curvePlotMetaData.xAxisLabel = this.curvePlotInputData[0].xAxisLabel
@@ -2255,7 +2255,7 @@ export default {
         if (this.isUserDataMode) {
           for (const item of this.enrichmentStatuses) {
             if (item.status === 'in progress') {
-              const userEnrichmentResponseRaw = await this.backendApi.getUserEnrichmentResults(
+              const userEnrichmentResponseRaw = await this.backendApi.loadUserEnrichmentResults(
                   this.uuid,
                   //TODO: This list-ification might bite me later
                   [this.selectedDatasetForEnrichment.datasetId],
@@ -2293,7 +2293,7 @@ export default {
           }
         } else {
           // Load enrichment results from the server
-          const experimentEnrichmentResponseRaw = await this.backendApi.getInternalDatabaseEnrichmentResults(
+          const experimentEnrichmentResponseRaw = await this.backendApi.loadInternalDatabaseEnrichmentResults(
               this.selectedDatasetForEnrichment.datasetId)
 
           this.enrichmentResponse = this.formatInternalDatabaseEnrichmentResponse(

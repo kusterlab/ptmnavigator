@@ -705,7 +705,7 @@
                 :pathway-meta-data.prop="currentPathwayMetaData"
                 :graphdata-skeleton.prop="currentGraphdataSkeleton"
                 :ptm-input-list.prop="ptmInputListFiltered"
-                :full-proteome-input-list.prop="proteinInputListFiltered"
+                :protein-input-list.prop="proteinInputListFiltered"
                 :application-mode.prop="pathwaygraphApplicationMode"
                 :perturbed-nodes.prop="perturbedNodes"
                 @selectionDetails="onSelectionChanged"
@@ -2061,7 +2061,7 @@ export default {
       this.selectedProteinsTableData = newSelection.detail.selection_protein
 
       // If there are curves, display them
-      // If the selection contains full proteome data, 'Curve ID' might be a string of comma-separated values
+      // If the selection contains protein data, 'Curve ID' might be a string of comma-separated values
       // So split preventively and flatten into a level one array
       // We cannot show PTM and Protein Curves together, so:
       // Give PTM precedence, but if it is not present check for Protein

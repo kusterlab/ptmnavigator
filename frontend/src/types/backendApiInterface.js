@@ -3,9 +3,8 @@
  * @typedef {Object} BackendApiInterface
  * @property {() => String} getDefaultSessionId
  * @property {() => String} getBackendName
- * @property {(uuid: string||undefined) => RefreshSessionIdResult} refreshSessionId
+ * @property {(uuid: string||undefined) => String} refreshSessionId
  * @property {(uuid: string||undefined) => Dataset[]} getUserDatasetList
- * @property {(uuid: string) => void} renewSession
  * @property {() => Organism[]} getOrganisms
  * @property {() => Project} getInternalProjects
  * @property {(projectId: string) => Dataset[]} getInternalDatasetsForProject
@@ -23,12 +22,6 @@
  * @property {(curveIds: Array) => Array} getCurveData
  */
 
-
-/**
- * @typedef RefreshSessionIdResult
- * @property {number} cookieStatus
- * @property {string} uuid
- */
 
 /**
  * @typedef Dataset
@@ -103,7 +96,6 @@ export function apiValidator(api) {
         'getBackendName',
         'refreshSessionId',
         'getUserDatasetList',
-        'renewSession',
         'getOrganisms',
         'getInternalProjects',
         'getInternalDatasetsForProject',

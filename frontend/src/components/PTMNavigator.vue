@@ -1853,7 +1853,7 @@ export default {
       this.dataLoadingSnackbar = false
       this.userDataLoading = false
       this.clearPathwayGraph()
-      this.backendApi.renewSession(this.uuid)
+      this.backendApi.refreshSessionId(this.uuid)
       this.selectAllExperiments()
 
       // Collapse the dataset and experiment menus (indices 0 and 1)

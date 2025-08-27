@@ -30,27 +30,19 @@ const mockApi = {
         return '0'.repeat(32)
     },
 
-    async renewSession(uuid) {
-        console.log(`Pretending to extend the following UUID: ${uuid}`)
-
-    },
-
-    refreshSessionId(uuid) {
-        if (!uuid) {
-            uuid = '0'.repeat(32)
-        }
+    async refreshSessionId(uuid) {
+        /**
+         * In the mock backend, this function will only change any uuid to all 0s.
+         * In a proper backend, it could also reset its expiry date and create a new one if no existing uuid is supplied
+         */
         if (uuid !== '0'.repeat(32)) {
             console.log(`Mock Backend only has UUID ${'0'.repeat(32)}!`)
-        } else {
-            //A proper backend could also refresh the expiry date of the uuid
-            return {
-                cookieStatus: 0,
-                uuid,
-            }
+            uuid = '0'.repeat(32)
         }
+        return uuid
     },
 
-    getUserDatasetList(uuid) {
+    async getUserDatasetList(uuid) {
         if (uuid !== '0'.repeat(32)) {
             console.log(`Mock Backend only has UUID ${'0'.repeat(32)}!`)
             return []
@@ -243,13 +235,6 @@ const mockApi = {
                 enrichmentClass: 'Pathway'
             },
             {
-                name: 'GO',
-                short: 'go',
-                enrichmentTypeId: 10,
-                applicableOmics: ['Phosphorylation', 'Protein', 'Other'],
-                enrichmentClass: 'Pathway'
-            },
-            {
                 name: 'KSEA',
                 short: 'ksea',
                 enrichmentTypeId: 4,
@@ -290,7 +275,14 @@ const mockApi = {
                 enrichmentTypeId: 9,
                 applicableOmics: ['Phosphorylation'],
                 enrichmentClass: 'KinaseActivity'
-            }
+            },
+            {
+                name: 'GO',
+                short: 'go',
+                enrichmentTypeId: 10,
+                applicableOmics: ['Phosphorylation', 'Protein', 'Other'],
+                enrichmentClass: 'Pathway'
+            },
         ]
     },
 

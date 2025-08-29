@@ -19,7 +19,7 @@
  * @property {() => EnrichmentType[]} getEnrichmentTypes
  * @property {(sessionId: String, userDatasetIds: String, enrichmentTypeId: String) => Object} loadUserEnrichmentResults
  * @property {(experimentDesignIds: String) => Object} loadInternalDatabaseEnrichmentResults
- * @property {(curveIds: Array) => Array} loadCurveData
+ * @property {(curveIds: Array, isUserDataMode: Boolean) => Array} loadCurveData
  */
 
 

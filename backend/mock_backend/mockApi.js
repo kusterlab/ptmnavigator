@@ -299,16 +299,16 @@ const mockApi = {
         }
         else if(userDatasetIds[0] === 3){
             return mockUserEnrichmentResults3[enrichmentTypeId]
-        }
-        else if(userDatasetIds[0] === 4){
+        } else if (userDatasetIds[0] === 4) {
             return mockUserEnrichmentResults4[enrichmentTypeId]
-        }
-        else {
+        } else {
             console.log(`Mock Backend only has enrichment for the Mock PTM Dataset with IDs 1,3`)
             return null
         }
 
     },
+    //TODO: Currently the format of the mock dataset here is different then from user dataset enrichment results
+    //We could align that, it creates confusion
     async loadInternalDatabaseEnrichmentResults(experimentDesignIds) {
         if (experimentDesignIds !== '42') {
             console.log('Mock backend only has experiment 42!')
@@ -317,10 +317,15 @@ const mockApi = {
 
     },
 
-    async loadCurveData(curveIDs){
-        if(!curveIDs || curveIDs.length === 0){
+    async loadCurveData(curveIDs, isUserDataMode) {
+        if (!curveIDs || curveIDs.length === 0) {
             return [];
         }
+        if (!isUserDataMode) {
+            console.log('Mock backend currently only has curves for user data')
+            return [];
+        }
+
         return await Promise.all(curveIDs.map(async curveId => {
             const jsonfile = await import(`./mock_data/curve_data/${curveId}.json`);
             return jsonfile.default;

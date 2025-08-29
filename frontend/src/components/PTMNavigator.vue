@@ -2082,7 +2082,7 @@ export default {
 
 
     async getCurveData(selectedCurveIds) {
-      this.curvePlotInputData = await this.backendApi.loadCurveData(selectedCurveIds)
+      this.curvePlotInputData = await this.backendApi.loadCurveData(selectedCurveIds, this.isUserDataMode)
       if (this.curvePlotInputData && this.curvePlotInputData.length > 0) {
         // Set the axis labels based on the first curve (users need to ensure they don't load curves with different axis units at the same time)
         this.curvePlotMetaData.xAxisLabel = this.curvePlotInputData[0].xAxisLabel
@@ -2094,7 +2094,6 @@ export default {
     onInfoboxUpdated: function (newInfoboxContent) {
       this.infoboxContent = newInfoboxContent.detail
       // Expand the box if there is content, collapse it if there isn't
-      // The box is index 3 in the panel
       if (this.infoboxContent) {
         this.leftExpansionPanelsExpandedPanelIndices.push(this.leftExpansionPanels.indexOf('Currently Selected'))
       } else {

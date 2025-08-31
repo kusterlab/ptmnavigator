@@ -2086,6 +2086,8 @@ export default {
         // Set the axis labels based on the first curve (users need to ensure they don't load curves with different axis units at the same time)
         this.curvePlotMetaData.xAxisLabel = this.curvePlotInputData[0].xAxisLabel
         this.curvePlotMetaData.yAxisLabel = this.curvePlotInputData[0].yAxisLabel
+      }else{
+        this.curvePlotInputData = []
       }
 
     },

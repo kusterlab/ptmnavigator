@@ -1518,13 +1518,13 @@ export default {
     await this.getInternalProjects()
     await this.getInternalDatasetsForSelectedProject()
 
-    this.uuid = this.$cookie.get('analyticsUploadSessionID') || this.defaultUUID
   },
   async mounted () {
     this.graphWidth = document.querySelector('#spacereservedforgraph').clientWidth - 35
     window.addEventListener('resize', this.onResize)
     await this.getOrganisms()
     await this.getCanonicalPathwayList()
+    this.uuid = this.$cookie.get('analyticsUploadSessionID') || this.defaultUUID
     await this.getCustomPathwayList()
     // Expand the accordion on the left side (all tabs except the 'currently selected', bc there is nothing selected initially)
     // This is done by adding the indices of the open items to the array modeling the panel
@@ -1536,7 +1536,6 @@ export default {
     // Set up the periodic retrieval of missing enrichment analysis results
     // Only in user-data mode - in internal database-data mode, the data is retrieved once and that's it
     this.enrichmentQueryIntervalId = setInterval(() => {
-      if (this.isUserDataMode) return this.retrieveMissingEnrichments()
       if (this.isUserDataMode) return this.retrieveMissingEnrichments()
     }, 5000)
 

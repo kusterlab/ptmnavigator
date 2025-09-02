@@ -1,14 +1,12 @@
 {
   "name": "ptmnavigator",
   "author": "Julian Müller",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.1.1",
   "main": "dist/ptmnavigator.common.js",
   "module": "dist/ptmnavigator.esm.js",
   "unpkg": "dist/ptmnavigator.umd.min.js",
   "files": [
     "dist/*",
-    "src/*",
     "dist/img/*"
   ],
   "scripts": {
@@ -42,7 +40,6 @@
     "sass-loader": "10.3.1",
     "vue-cli-plugin-vuetify": "2.5.8",
     "vue-template-compiler": "2.7.16",
-    "vuetify": "2.6.11",
     "vuetify-loader": "1.9.2"
   },
   "eslintConfig": {

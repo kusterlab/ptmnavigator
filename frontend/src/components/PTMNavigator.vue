@@ -906,6 +906,7 @@
                     data-grid-ref-name="pathwayenrichmenttables"
                     :datasets="isUserDataMode ? selectedUserDatasets : selectedInternalDatasets"
                     :enrichment-response="enrichmentResponse"
+                    :enrichment-types="enrichmentTypes"
                     :enrichment-statuses="enrichmentStatuses"
                     @enrichment-selected-dataset-changed="updateSelectedDatasetForSorting"
                 />

@@ -1,0 +1,42 @@
+{
+  "ptmsea": {
+    "tooltip": "PTM-Centric Enrichment Analysis using the PTM Signature Database (PTMSigDB).<br>Basically a GSEA that is Single-Site-Centric (ssc).",
+    "parameters": "    gene.set.database:   ptm.sig.db.all.uniprot.human.v2.0.0.gmt\n    sample.norm.type:    rank\n    weight:              0.75\n    statistic:           area.under.RES\n    output.score.type    NES\n    nperm:               1000\n    global.fdr:          FALSE\n    min.overlap:         10\n    correl.type:         z.score\n    export.signat.gct:   FALSE\n    run.parallel:        TRUE"
+  },
+  "gc": {
+    "tooltip": "Gene-Centric Enrichment Analysis using the Molecular Signatures Database (MSigDB).<br>PTM data is collapsed to gene level.<br>We use the KEGG and WikiPathways signature sets.",
+    "parameters": "    gene.set.database:  c2.cp.kegg+wp.v2023.2.Hs.symbols.gmt\n    sample.norm.type:   rank\n    weight:             0.75\n    statistic:          area.under.RES\n    output.score.type   NES\n    nperm:              1000\n    global.fdr:         FALSE\n    min.overlap:        10\n    correl.type:        z.score\n    export.signat.gct:  FALSE\n    run.parallel:       TRUE"
+  },
+  "gcr": {
+    "tooltip": "Gene-Centric-Redundant Enrichment Analysis using the Molecular Signatures Database (MSigDB).<br>PTM data is collapsed to gene level.<br>We use the KEGG and WikiPathways signature sets.",
+    "parameters": "    gene.set.database:  c2.cp.kegg+wp.v2023.2.Hs.symbols.gmt\n    sample.norm.type:   rank\n    weight:             0.75\n    statistic:          area.under.RES\n    output.score.type   NES\n    nperm:              1000\n    global.fdr:         FALSE\n    min.overlap:        10\n    correl.type:        z.score\n    export.signat.gct:  FALSE\n    run.parallel:       TRUE"
+  },
+  "ksea": {
+    "tooltip": "Kinase Activity Inference using phosphoproteomic data and prior knowledge on kinase-substrate relationships.<br>In KSEA, the mean fold change among the set of substrates of each kinase is compared to an expected value.<br>",
+    "parameters": "   interactions:   \"Kinase-Substrate Interactions from PhosphoSitePlus\"\n                   See also here:\n                    github.com/kusterlab/enrichment-server/blob/publication/db/scripts/update_ksea_es_db.py\n   mP:             \"Experiment-Wise Fold Change Mean\"\n   delta:          \"Experiment-Wise Fold Change Standard Deviation\""
+  },
+  "ksea_rokai": {
+    "tooltip": "RoKAI refines phosphorylation profiles using prior knowledge functional networks.<br>Here, RoKAI and KSEA are combined, so RoKAI is only used for refining the phospho-data, <br>and KSEA is run on the refined profiles afterwards.<br>In general, this produces more robust results compared to only running KSEA.",
+    "parameters": "RoKAI:\n    network_file:   rokai_network_data_uniprotkb_human.rds (v2.2.0)\n    datanorm:       Normalized\n    ksNetwork:      PhosphoSitePlus (includeSignor = F)\n    rokaiNetwork:   KS+PPI+SD+CoEv\n\nKSEA:\n    interactions:   \"Kinase-Substrate Interactions from PhosphoSitePlus\"\n                    See also here:\n                     github.com/kusterlab/enrichment-server/blob/publication/db/scripts/update_ksea_es_db.py\n    mP:             \"Experiment-Wise Fold Change Mean\"\n    delta:          \"Experiment-Wise Fold Change Standard Deviation\"\n"
+  },
+  "motif": {
+    "tooltip": "Performs a Kinase Motif Enrichment by utilizing the Kinase Library.<br>Position-specific scoring matrices are used to score the motif of each kinase against a phosphoproteomics dataset.",
+    "parameters": " This is an inhouse re-implementation of the Kinase Library tool: https://kinase-library.phosphosite.org\n  For implementation details see here:\n  github.com/kusterlab/enrichment-server/blob/publication/flask_server/modules/motif_enrichment/motif_enrichment.py\n"
+  },
+  "kea3": {
+    "tooltip": "Kinase enrichment analysis using the KEA3 algorithm.<br>KEA3 infers upstream kinases whose putative substrates are <br>overrepresented in a user-inputted list of proteins or differentially phosphorylated proteins.",
+    "parameters": "   We use the KEA3 API endpoint: https://amp.pharm.mssm.edu/kea3/api/enrich/\n   This table shows the 'Integrated--meanRank' part of the results."
+  },
+  "kstar": {
+    "tooltip": "Kinase Activity Prediction using the KSTAR algorithm.",
+    "parameters": "  We use the functions calculate.KinaseActivity() and calculate.enrichment_analysis() from the kstar Python package.\n  Because of time and memory constraints, we do not perform the randomized analysis and Mann Whitney U-test,\n  instead we directly return the p-values from the hypergeometric tests.\n  For implementation details see here:\n  github.com/kusterlab/enrichment-server/blob/publication/flask_server/modules/k_star/k_star.py"
+  },
+  "rokai": {
+    "tooltip": "RoKAI refines phosphorylation profiles using prior knowledge functional networks and runs its own kinase activity inference algorithm afterwards.<br>",
+    "parameters": "    network_file:   rokai_network_data_uniprotkb_human.rds (v2.2.0)\n    datanorm:       Normalized\n    ksNetwork:      PhosphoSitePlus (includeSignor = F)\n    rokaiNetwork:   KS+PPI+SD+CoEv"
+  },
+  "go": {
+    "tooltip": "Overrepresentation analysis against the Gene Ontology Database.<br>We use the GO annotations provided by g:Profiler and perform Fisher's exact test using SciPy.",
+    "parameters": ""
+  }
+}

@@ -565,11 +565,12 @@
               <v-card-title>Highlight Kinase Activities:</v-card-title>
               <v-card-text>
                 <the-kinase-activity-thresholder
-                  v-if="ptmInputList.length > 0 || proteinInputList.length > 0"
-                  ref="kinaseActivityThresholder"
-                  :data-in="enrichmentResponse"
-                  :selected-dataset="selectedDatasetForEnrichment"
-                  @kinase-activities-filtered="perturbedNodes = $event"
+                    v-if="ptmInputList.length > 0 || proteinInputList.length > 0"
+                    ref="kinaseActivityThresholder"
+                    :enrichment-response="enrichmentResponse"
+                    :all-kinase-activity-methods="enrichmentTypes.filter(et => et.enrichmentClass === 'KinaseActivity')"
+                    :selected-dataset="selectedDatasetForEnrichment"
+                    @kinase-activities-filtered="perturbedNodes = $event"
                 />
               </v-card-text>
             </v-card>
@@ -905,6 +906,7 @@
                     data-grid-ref-name="pathwayenrichmenttables"
                     :datasets="isUserDataMode ? selectedUserDatasets : selectedInternalDatasets"
                     :enrichment-response="enrichmentResponse"
+                    :enrichment-types="enrichmentTypes"
                     :enrichment-statuses="enrichmentStatuses"
                     @enrichment-selected-dataset-changed="updateSelectedDatasetForSorting"
                 />
@@ -1925,6 +1927,20 @@ export default {
       } else if (enrichmentType === 'KSTAR') {
         // KSTAR: Concatenate the separate results of 'ST' and 'Y' kinases
         this.enrichmentResponse.kstar = [...unformattedjson.ST || [], ...unformattedjson.Y || []]
+
+        //Now de-duplicate the KSTAR results - only retain the absolute maximum value
+        const significanceColname = Object.keys(this.enrichmentResponse.kstar[0])[1]
+        this.enrichmentResponse.kstar = Object.values(
+            this.enrichmentResponse.kstar.reduce((accumulator, item) => {
+              const kinase = item['Kinase']
+              const significance = item[significanceColname]
+              // Check if this Kinase is already in the accumulator and compare the Significance to only retain the max
+              if (!accumulator[kinase] || Math.abs(significance) > Math.abs(accumulator[kinase][significanceColname])) {
+                accumulator[kinase] = item
+              }
+              return accumulator
+            }, {})
+        )
       } else {
         this.enrichmentResponse[this.enrichmentTypeMap.get(enrichmentType)] = unformattedjson
       }
@@ -2237,10 +2253,12 @@ export default {
 
     async fetchEnrichmentResults () {
       if (this.isUserDataMode) {
-        this.enrichmentStatuses = this.enrichmentTypes.map(enrichmentType => {
-          const initialStatus = enrichmentType.applicableOmics.includes(this.selectedDatasetForEnrichment.omics) ? 'in progress' : 'not applicable'
-          return {...enrichmentType, status: initialStatus}
-        })
+        this.enrichmentStatuses = this.enrichmentTypes
+            .filter(enrichmentType => typeof (enrichmentType.enrichmentTypeId) === "number")
+            .map(enrichmentType => {
+              const initialStatus = enrichmentType.applicableOmics.includes(this.selectedDatasetForEnrichment.omics) ? 'in progress' : 'not applicable'
+              return {...enrichmentType, status: initialStatus}
+            })
       } else {
         // No enrichment statuses in Internal Database Mode (they were calculated prior to startup, so they don't change anymore)
         this.enrichmentStatuses = []

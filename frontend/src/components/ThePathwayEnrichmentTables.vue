@@ -73,9 +73,9 @@
           Pathway Enrichment
         </v-tab>
         <v-tab
-          key="kea"
+          key="kai"
           class="enrichment-tab"
-          href="#kea"
+          href="#kai"
           style="font-size: 12pt"
         >
           Kinase Activity Inference
@@ -89,308 +89,33 @@
             dark
           >
             <v-tooltip
-              top
-              color="#4d4b4d"
-            >
-              <template #activator="{ on, attrs }">
-                <v-tab
-                  v-bind="attrs"
-                  key="ptmsea"
-                  class="enrichment-tab"
-                  href="#ptmsea"
-                  v-on="on"
-                >
-                  PTM-SEA
-                </v-tab>
-              </template>
-              <span>PTM-Centric Enrichment Analysis using the PTM Signature Database (PTMSigDB).<br>
-                Basically a GSEA that is Single-Site-Centric (ssc).</span>
-            </v-tooltip>
-            <v-tooltip
-              top
-              color="#4d4b4d"
-            >
-              <template #activator="{ on, attrs }">
-                <v-tab
-                  v-bind="attrs"
-                  key="gc"
-                  class="enrichment-tab"
-                  href="#gc"
-                  v-on="on"
-                >
-                  PEA Gene-Centric
-                </v-tab>
-              </template>
-              <span>Gene-Centric Enrichment Analysis using the Molecular Signatures Database (MSigDB).<br>
-                PTM data is collapsed to gene level.<br>
-                We use the KEGG and WikiPathways signature sets.</span>
-            </v-tooltip>
-            <v-tooltip
-              top
-              color="#4d4b4d"
-            >
-              <template #activator="{ on, attrs }">
-                <v-tab
-                  v-bind="attrs"
-                  key="gcr"
-                  class="enrichment-tab"
-                  href="#gcr"
-                  v-on="on"
-                >
-                  PEA Gene-Centric Redundant
-                </v-tab>
-              </template>
-              <span>Gene-Centric-Redundant Enrichment Analysis using the Molecular Signatures Database (MSigDB).<br>
-                PTM data is collapsed to gene level.<br>
-                We use the KEGG and WikiPathways signature sets.</span>
-            </v-tooltip>
-            <v-tooltip
+                v-for="pathwayEnrichmentType in enrichmentTypes.filter(et => et.enrichmentClass === 'Pathway')"
+                :key="pathwayEnrichmentType.short + '-tooltip'"
                 top
                 color="#4d4b4d"
             >
               <template #activator="{ on, attrs }">
                 <v-tab
                     v-bind="attrs"
-                    key="go"
+                    :key="pathwayEnrichmentType.short"
                     class="enrichment-tab"
-                    href="#go"
+                    :href="'#' + pathwayEnrichmentType.short"
                     v-on="on"
                 >
-                  Gene Ontology Enrichment
+                  {{ pathwayEnrichmentType.name }}
                 </v-tab>
               </template>
-              <span>Overrepresentation analysis against the Gene Ontology Database.<br>
-                We use the GO annotations provided by g:Profiler and perform Fisher's exact test using SciPy.</span>
+              <span v-html="pathwayEnrichmentType.tooltipHtml"></span>
             </v-tooltip>
           </v-tabs>
           <v-tabs-items
-            v-model="pathwayEnrichmentTab"
-            class="pt-5"
+              v-model="pathwayEnrichmentTab"
+              class="pt-5"
           >
             <v-tab-item
-              value="ptmsea"
-            >
-              <v-dialog
-                width="600"
-              >
-                <template #activator="{ on, attrs }">
-                  <v-btn
-                    class="ml-2 mb-3"
-                    v-bind="attrs"
-                    v-on="on"
-                  >
-                    Show Parameters File
-                  </v-btn>
-                </template>
-                <v-card style="overflow-x: scroll;">
-                  <v-card-title class="text-h5 grey lighten-2">
-                    PTM-SEA Parameters
-                  </v-card-title>
-
-                  <v-card-text class="mt-5">
-                    <pre>
-    gene.set.database:   ptm.sig.db.all.uniprot.human.v2.0.0.gmt
-    sample.norm.type:    rank
-    weight:              0.75
-    statistic:           area.under.RES
-    output.score.type    NES
-    nperm:               1000
-    global.fdr:          FALSE
-    min.overlap:         10
-    correl.type:         z.score
-    export.signat.gct:   FALSE
-    run.parallel:        TRUE
-                            </pre>
-                  </v-card-text>
-                </v-card>
-              </v-dialog>
-              <DxDataGrid
-                v-if="!!selectedDataset && !!enrichmentResponse && !!enrichmentResponse.ptmsea && enrichmentResponse.ptmsea.length > 0"
-                :ref="dataGridRefName + '-ptmsea'"
-                :data-source="enrichmentResponse.ptmsea"
-                :show-borders="true"
-                :repaint-changes-only="false"
-                :column-auto-width="true"
-                :allow-column-resizing="true"
-                column-resizing-mode="widget"
-                :allow-column-reordering="true"
-                :scrolling="{ useNative: true }"
-                @initialized="saveGridInstance"
-                @exporting="onExporting"
-              >
-                <DxFilterRow :visible="true" />
-                <DxColumn
-                  v-for="key in Object.keys(enrichmentResponse.ptmsea[0])"
-                  :key="key + '_column'"
-                  :width="250"
-                  :caption="key"
-                  :calculate-cell-value="getValue(key)"
-                  :calculate-sort-value="getValueAbsolute(key)"
-                  alignment="left"
-                  :data-type="(key === 'Signature ID' || key === 'Gene') ? 'string' : 'number'"
-                  :sort-order="key.startsWith('Score') ? 'desc' : null"
-                  :allow-sorting="true"
-                  :allow-filtering="true"
-                  :format="{formatter: val => key.startsWith('Percent Overlap') ? val + '%' : val.toFixed(2)}"
-                />
-                <DxPaging :page-size="10" />
-                <DxPager
-                  :show-page-size-selector="true"
-                  :allowed-page-sizes="[5, 10, 25]"
-                />
-              </DxDataGrid>
-              <TheEnrichmentTablePlaceholder v-else />
-            </v-tab-item>
-            <v-tab-item
-              value="gc"
-            >
-              <v-dialog
-                width="600"
-              >
-                <template #activator="{ on, attrs }">
-                  <v-btn
-                    class="ml-2 mb-3"
-                    v-bind="attrs"
-                    v-on="on"
-                  >
-                    Show Parameters File
-                  </v-btn>
-                </template>
-                <v-card style="overflow-x: scroll;">
-                  <v-card-title class="text-h5 grey lighten-2">
-                    Gene-Centric ssGSEA Parameters
-                  </v-card-title>
-
-                  <v-card-text class="mt-5">
-                    <pre>
-    gene.set.database:  c2.cp.kegg+wp.v2023.2.Hs.symbols.gmt
-    sample.norm.type:   rank
-    weight:             0.75
-    statistic:          area.under.RES
-    output.score.type   NES
-    nperm:              1000
-    global.fdr:         FALSE
-    min.overlap:        10
-    correl.type:        z.score
-    export.signat.gct:  FALSE
-    run.parallel:       TRUE
-                            </pre>
-                  </v-card-text>
-                </v-card>
-              </v-dialog>
-              <DxDataGrid
-                v-if="!!selectedDataset && !!enrichmentResponse && !! enrichmentResponse.gc&& enrichmentResponse.gc.length > 0"
-                :ref="dataGridRefName + '-gc'"
-                :data-source="enrichmentResponse.gc"
-                :show-borders="true"
-                :repaint-changes-only="false"
-                :column-auto-width="true"
-                :allow-column-resizing="true"
-                column-resizing-mode="widget"
-                :allow-column-reordering="true"
-                :scrolling="{ useNative: true }"
-                @initialized="saveGridInstance"
-                @exporting="onExporting"
-              >
-                <DxFilterRow :visible="true" />
-                <DxColumn
-                  v-for="key in Object.keys(enrichmentResponse.gc[0])"
-                  :key="key + '_column'"
-                  :width="250"
-                  :caption="key"
-                  :calculate-cell-value="getValue(key)"
-                  :calculate-sort-value="getValueAbsolute(key)"
-                  alignment="left"
-                  :data-type="(key === 'Signature ID' || key === 'Gene') ? 'string' : 'number'"
-                  :sort-order="key.startsWith('Score') ? 'desc' : null"
-                  :allow-sorting="true"
-                  :allow-filtering="true"
-                  :format="{formatter: val => key.startsWith('Percent Overlap') ? val + '%' : val.toFixed(2)}"
-                />
-                <DxPaging :page-size="10" />
-                <DxPager
-                  :show-page-size-selector="true"
-                  :allowed-page-sizes="[5, 10, 25]"
-                />
-              </DxDataGrid>
-              <TheEnrichmentTablePlaceholder v-else />
-            </v-tab-item>
-            <v-tab-item
-              value="gcr"
-            >
-              <v-dialog
-                width="600"
-              >
-                <template #activator="{ on, attrs }">
-                  <v-btn
-                    class="ml-2 mb-3"
-                    v-bind="attrs"
-                    v-on="on"
-                  >
-                    Show Parameters File
-                  </v-btn>
-                </template>
-                <v-card style="overflow-x: scroll;">
-                  <v-card-title class="text-h5 grey lighten-2">
-                    Gene-Centric Redundant ssGSEA Parameters
-                  </v-card-title>
-
-                  <v-card-text class="mt-5">
-                    <pre>
-    gene.set.database:  c2.cp.kegg+wp.v2023.2.Hs.symbols.gmt
-    sample.norm.type:   rank
-    weight:             0.75
-    statistic:          area.under.RES
-    output.score.type   NES
-    nperm:              1000
-    global.fdr:         FALSE
-    min.overlap:        10
-    correl.type:        z.score
-    export.signat.gct:  FALSE
-    run.parallel:       TRUE
-                            </pre>
-                  </v-card-text>
-                </v-card>
-              </v-dialog>
-              <DxDataGrid
-                v-if="!!selectedDataset && !!enrichmentResponse && !! enrichmentResponse.gcr&& enrichmentResponse.gcr.length > 0"
-                :ref="dataGridRefName + '-gcr'"
-                :data-source="enrichmentResponse.gcr"
-                :show-borders="true"
-                :repaint-changes-only="false"
-                :column-auto-width="true"
-                :allow-column-resizing="true"
-                column-resizing-mode="widget"
-                :allow-column-reordering="true"
-                :scrolling="{ useNative: true }"
-                @initialized="saveGridInstance"
-                @exporting="onExporting"
-              >
-                <DxFilterRow :visible="true" />
-                <DxColumn
-                  v-for="key in Object.keys(enrichmentResponse.gcr[0])"
-                  :key="key + '_column'"
-                  :width="250"
-                  :caption="key"
-                  :calculate-cell-value="getValue(key)"
-                  :calculate-sort-value="getValueAbsolute(key)"
-                  alignment="left"
-                  :data-type="(key === 'Signature ID' || key === 'Gene') ? 'string' : 'number'"
-                  :sort-order="key.startsWith('Score') ? 'desc' : null"
-                  :allow-sorting="true"
-                  :allow-filtering="true"
-                  :format="{formatter: val => key.startsWith('Percent Overlap') ? val + '%' : val.toFixed(2)}"
-                />
-                <DxPaging :page-size="10" />
-                <DxPager
-                  :show-page-size-selector="true"
-                  :allowed-page-sizes="[5, 10, 25]"
-                />
-              </DxDataGrid>
-              <TheEnrichmentTablePlaceholder v-else />
-            </v-tab-item>
-            <v-tab-item
-                value="go"
+                v-for="pathwayEnrichmentType in enrichmentTypes.filter(et => et.enrichmentClass === 'Pathway')"
+                :key="pathwayEnrichmentType.short + '-tabitem'"
+                :value="pathwayEnrichmentType.short"
             >
               <v-dialog
                   width="600"
@@ -406,18 +131,18 @@
                 </template>
                 <v-card style="overflow-x: scroll;">
                   <v-card-title class="text-h5 grey lighten-2">
-                    Gene Ontology Enrichment Parameters
+                    {{ pathwayEnrichmentType.name }} Parameters
                   </v-card-title>
-
                   <v-card-text class="mt-5">
-                    <pre></pre>
+                    <pre>{{pathwayEnrichmentType.parametersHtml}}</pre>
                   </v-card-text>
                 </v-card>
               </v-dialog>
+
               <DxDataGrid
-                  v-if="!!selectedDataset && !!enrichmentResponse && !! enrichmentResponse.go&& enrichmentResponse.go.length > 0"
-                  :ref="dataGridRefName + '-go'"
-                  :data-source="enrichmentResponse.go"
+                  v-if="!!selectedDataset && !!enrichmentResponse && !!enrichmentResponse[pathwayEnrichmentType.short] && enrichmentResponse[pathwayEnrichmentType.short].length > 0"
+                  :ref="dataGridRefName + '-' + pathwayEnrichmentType.short"
+                  :data-source="enrichmentResponse[pathwayEnrichmentType.short]"
                   :show-borders="true"
                   :repaint-changes-only="false"
                   :column-auto-width="true"
@@ -430,17 +155,18 @@
               >
                 <DxFilterRow :visible="true" />
                 <DxColumn
-                    v-for="key in Object.keys(enrichmentResponse.go[0])"
+                    v-for="key in Object.keys(enrichmentResponse[pathwayEnrichmentType.short][0])"
                     :key="key + '_column'"
-                    :width="['GO_ID', 'Term_Size'].includes(key)? 100 : (key === 'Name' ? 400: 200)"
+                    :width="250"
                     :caption="key"
                     :calculate-cell-value="getValue(key)"
                     :calculate-sort-value="getValueAbsolute(key)"
                     alignment="left"
-                    :data-type="(['GO_ID', 'Name'].includes(key) || key.startsWith('Intersection (')) ? 'string' : 'number'"
-                    :sort-order="key.startsWith('neg_log10_adjusted_p_value') ? 'desc' : null"
+                    :data-type="pathwayEnrichmentType.stringColumns.some(c => key.startsWith(c)) ? 'string' : 'number' "
+                    :sort-order="key.startsWith(pathwayEnrichmentType.sortColumn) ? (pathwayEnrichmentType.sortDesc ? 'desc' : 'asc') : null"
                     :allow-sorting="true"
                     :allow-filtering="true"
+                    :format="{formatter: val => key.startsWith('Percent Overlap') ? val + '%' : val.toFixed(2)}"
                 />
                 <DxPaging :page-size="10" />
                 <DxPager
@@ -452,142 +178,29 @@
             </v-tab-item>
           </v-tabs-items>
         </v-tab-item>
-        <v-tab-item value="kea">
+        <v-tab-item value="kai">
           <v-tabs
             v-model="kinaseActivityTab"
             dark
           >
             <v-tooltip
-              top
-              color="#4d4b4d"
-            >
-              <template #activator="{ on, attrs }">
-                <v-tab
-                  v-bind="attrs"
-                  key="ksea"
-                  class="enrichment-tab"
-                  href="#ksea"
-                  v-on="on"
-                >
-                  KSEA
-                </v-tab>
-              </template>
-              <span>Kinase Activity Inference using phosphoproteomic data and prior knowledge on kinase-substrate relationships.<br>
-                In KSEA, the mean fold change among the set of substrates of each kinase is compared to an expected value.<br></span>
-            </v-tooltip>
-            <v-tooltip
+                v-for="pathwayEnrichmentType in enrichmentTypes.filter(et => et.enrichmentClass === 'KinaseActivity')"
+                :key="pathwayEnrichmentType.short + '-tooltip'"
                 top
                 color="#4d4b4d"
             >
               <template #activator="{ on, attrs }">
                 <v-tab
                     v-bind="attrs"
-                    key="rokai"
+                    :key="pathwayEnrichmentType.short"
                     class="enrichment-tab"
-                    href="#rokai"
+                    :href="'#' + pathwayEnrichmentType.short"
                     v-on="on"
                 >
-                  RoKAI
+                  {{ pathwayEnrichmentType.name }}
                 </v-tab>
               </template>
-              <span>RoKAI refines phosphorylation profiles using prior knowledge functional networks and runs its own kinase activity inference algorithm afterwards.<br>
-              </span>
-            </v-tooltip>
-            <v-tooltip
-              top
-              color="#4d4b4d"
-            >
-              <template #activator="{ on, attrs }">
-                <v-tab
-                  v-bind="attrs"
-                  key="ksea_rokai"
-                  class="enrichment-tab"
-                  href="#ksea_rokai"
-                  v-on="on"
-                >
-                  KSEA with RoKAI
-                </v-tab>
-              </template>
-              <span>RoKAI refines phosphorylation profiles using prior knowledge functional networks.<br>
-                Here, RoKAI and KSEA are combined, so RoKAI is only used for refining the phospho-data, <br>
-                and KSEA is run on the refined profiles afterwards.<br>
-                In general, this produces more robust results compared to only running KSEA.</span>
-            </v-tooltip>
-            <v-tooltip
-              top
-              color="#4d4b4d"
-            >
-              <template #activator="{ on, attrs }">
-                <v-tab
-                  v-bind="attrs"
-                  key="motif"
-                  class="enrichment-tab"
-                  href="#motif"
-                  v-on="on"
-                >
-                  Motif Enrichment
-                </v-tab>
-              </template>
-              <span>Performs a Kinase Motif Enrichment by utilizing the Kinase Library.<br>
-                Position-specific scoring matrices are used to score the motif of each kinase against a phosphoproteomics dataset.</span>
-            </v-tooltip>
-
-            <v-tooltip
-              top
-              color="#4d4b4d"
-            >
-              <template #activator="{ on, attrs }">
-                <v-tab
-                  v-bind="attrs"
-                  key="kea3_mean"
-                  class="enrichment-tab"
-                  href="#kea3_mean"
-                  v-on="on"
-                >
-                  KEA3 MeanRank
-                </v-tab>
-              </template>
-              <span>Kinase enrichment analysis using the KEA3 algorithm.<br>
-                KEA3 infers upstream kinases whose putative substrates are <br>
-                overrepresented in a user-inputted list of proteins or differentially phosphorylated proteins.</span>
-            </v-tooltip>
-
-            <v-tooltip
-              top
-              color="#4d4b4d"
-            >
-              <template #activator="{ on, attrs }">
-                <v-tab
-                  v-bind="attrs"
-                  key="kea3_top"
-                  class="enrichment-tab"
-                  href="#kea3_top"
-                  v-on="on"
-                >
-                  KEA3 TopRank
-                </v-tab>
-              </template>
-              <span>Kinase enrichment analysis using the KEA3 algorithm.<br>
-                KEA3 infers upstream kinases whose putative substrates are <br>
-                overrepresented in a user-inputted list of proteins or differentially phosphorylated proteins.</span>
-            </v-tooltip>
-
-            <v-tooltip
-              top
-              color="#4d4b4d"
-            >
-              <template #activator="{ on, attrs }">
-                <v-tab
-                  v-bind="attrs"
-                  key="kstar"
-                  class="enrichment-tab"
-                  href="#kstar"
-                  v-on="on"
-                >
-                  KSTAR
-                </v-tab>
-              </template>
-              <span>Kinase Activity Prediction using the KSTAR algorithm.</span>
+              <span v-html="pathwayEnrichmentType.tooltipHtml"></span>
             </v-tooltip>
           </v-tabs>
           <v-tabs-items
@@ -595,76 +208,9 @@
             class="pt-5"
           >
             <v-tab-item
-              value="ksea"
-            >
-              <v-dialog
-                width="1000"
-              >
-                <template #activator="{ on, attrs }">
-                  <v-btn
-                    class="ml-2 mb-3"
-                    v-bind="attrs"
-                    v-on="on"
-                  >
-                    Show Parameters File
-                  </v-btn>
-                </template>
-                <v-card style="overflow-x: scroll;">
-                  <v-card-title class="text-h5 grey lighten-2">
-                    KSEA Parameters (kinact)
-                  </v-card-title>
-
-                  <v-card-text class="mt-5">
-                    <pre>
-   interactions:   "Kinase-Substrate Interactions from PhosphoSitePlus"
-                   See also here:
-                    github.com/kusterlab/enrichment-server/blob/publication/db/scripts/update_ksea_es_db.py
-   mP:             "Experiment-Wise Fold Change Mean"
-   delta:          "Experiment-Wise Fold Change Standard Deviation"
-                            </pre>
-                  </v-card-text>
-                </v-card>
-              </v-dialog>
-              <DxDataGrid
-                v-if="!!selectedDataset && !!enrichmentResponse && !! enrichmentResponse.ksea&& enrichmentResponse.ksea.length > 0"
-                :ref="dataGridRefName + '-ksea'"
-                :data-source="enrichmentResponse.ksea"
-                :show-borders="true"
-                :repaint-changes-only="false"
-                :column-auto-width="true"
-                :allow-column-resizing="true"
-                column-resizing-mode="widget"
-                :allow-column-reordering="true"
-                :scrolling="{ useNative: true }"
-                @initialized="saveGridInstance"
-                @exporting="onExporting"
-              >
-                <DxFilterRow :visible="true" />
-                <DxColumn
-                  v-for="key in Object.keys(enrichmentResponse.ksea[0])"
-                  :key="key + '_column'"
-                  :width="250"
-                  :caption="key"
-                  :calculate-cell-value="getValue(key)"
-                  :calculate-sort-value="getValueAbsolute(key)"
-                  alignment="left"
-                  :data-type="(key === 'Signature ID' || key === 'Gene') ? 'string' : 'number'"
-                  :sort-order="key.startsWith('Score') ? 'desc' : null"
-                  :allow-sorting="true"
-                  :allow-filtering="true"
-                  :format="{formatter: val => key.startsWith('Percent Overlap') ? val.toFixed(2) + '%' : val.toFixed(2)}"
-                />
-                <DxPaging :page-size="10" />
-                <DxPager
-                  :show-page-size-selector="true"
-                  :allowed-page-sizes="[5, 10, 25]"
-                />
-              </DxDataGrid>
-              <TheEnrichmentTablePlaceholder v-else />
-            </v-tab-item>
-
-            <v-tab-item
-                value="rokai"
+                v-for="pathwayEnrichmentType in enrichmentTypes.filter(et => et.enrichmentClass === 'KinaseActivity')"
+                :key="pathwayEnrichmentType.short + '-tabitem'"
+                :value="pathwayEnrichmentType.short"
             >
               <v-dialog
                   width="600"
@@ -680,23 +226,18 @@
                 </template>
                 <v-card style="overflow-x: scroll;">
                   <v-card-title class="text-h5 grey lighten-2">
-                    RoKAI Parameters
+                    {{ pathwayEnrichmentType.name }} Parameters
                   </v-card-title>
-
                   <v-card-text class="mt-5">
-                    <pre>
-    network_file:   rokai_network_data_uniprotkb_human.rds (v2.2.0)
-    datanorm:       Normalized
-    ksNetwork:      PhosphoSitePlus (includeSignor = F)
-    rokaiNetwork:   KS+PPI+SD+CoEv
-                            </pre>
+                    <pre>{{pathwayEnrichmentType.parametersHtml}}</pre>
                   </v-card-text>
                 </v-card>
               </v-dialog>
+
               <DxDataGrid
-                  v-if="!!selectedDataset && !!enrichmentResponse && !! enrichmentResponse.rokai&& enrichmentResponse.rokai.length > 0"
-                  :ref="dataGridRefName + '-rokai'"
-                  :data-source="enrichmentResponse.rokai"
+                  v-if="!!selectedDataset && !!enrichmentResponse && !!enrichmentResponse[pathwayEnrichmentType.short] && enrichmentResponse[pathwayEnrichmentType.short].length > 0"
+                  :ref="dataGridRefName + '-' + pathwayEnrichmentType.short"
+                  :data-source="enrichmentResponse[pathwayEnrichmentType.short]"
                   :show-borders="true"
                   :repaint-changes-only="false"
                   :column-auto-width="true"
@@ -709,372 +250,23 @@
               >
                 <DxFilterRow :visible="true" />
                 <DxColumn
-                    v-for="key in Object.keys(enrichmentResponse.rokai[0])"
+                    v-for="key in Object.keys(enrichmentResponse[pathwayEnrichmentType.short][0])"
                     :key="key + '_column'"
                     :width="250"
                     :caption="key"
                     :calculate-cell-value="getValue(key)"
                     :calculate-sort-value="getValueAbsolute(key)"
                     alignment="left"
-                    :data-type="(key === 'Gene') ? 'string' : 'number'"
-                    :sort-order="key.startsWith('ZScore') ? 'desc' : null"
+                    :data-type="pathwayEnrichmentType.stringColumns.some(c => key.startsWith(c)) ? 'string' : 'number' "
+                    :sort-order="key.startsWith(pathwayEnrichmentType.sortColumn) ? (pathwayEnrichmentType.sortDesc ? 'desc' : 'asc') : null"
                     :allow-sorting="true"
                     :allow-filtering="true"
-                    :format="{formatter: val => val.toFixed(2)}"
+                    :format="{formatter: val => key.startsWith('Percent Overlap') ? val + '%' : val.toFixed(2)}"
                 />
                 <DxPaging :page-size="10" />
                 <DxPager
                     :show-page-size-selector="true"
                     :allowed-page-sizes="[5, 10, 25]"
-                />
-              </DxDataGrid>
-              <TheEnrichmentTablePlaceholder v-else />
-            </v-tab-item>
-
-            <v-tab-item
-              value="ksea_rokai"
-            >
-              <v-dialog
-                  width="1000"
-              >
-                <template #activator="{ on, attrs }">
-                  <v-btn
-                    class="ml-2 mb-3"
-                    v-bind="attrs"
-                    v-on="on"
-                  >
-                    Show Parameters File
-                  </v-btn>
-                </template>
-                <v-card style="overflow-x: scroll;">
-                  <v-card-title class="text-h5 grey lighten-2">
-                    RoKAI + KSEA Parameters
-                  </v-card-title>
-
-                  <v-card-text class="mt-5">
-                    <pre>
-RoKAI:
-    network_file:   rokai_network_data_uniprotkb_human.rds (v2.2.0)
-    datanorm:       Normalized
-    ksNetwork:      PhosphoSitePlus (includeSignor = F)
-    rokaiNetwork:   KS+PPI+SD+CoEv
-
-KSEA:
-    interactions:   "Kinase-Substrate Interactions from PhosphoSitePlus"
-                    See also here:
-                     github.com/kusterlab/enrichment-server/blob/publication/db/scripts/update_ksea_es_db.py
-    mP:             "Experiment-Wise Fold Change Mean"
-    delta:          "Experiment-Wise Fold Change Standard Deviation"
-
-                            </pre>
-                  </v-card-text>
-                </v-card>
-              </v-dialog>
-              <DxDataGrid
-                v-if="!!selectedDataset && !!enrichmentResponse && !! enrichmentResponse.ksea_rokai&& enrichmentResponse.ksea_rokai.length > 0"
-                :ref="dataGridRefName + '-ksea_rokai'"
-                :data-source="enrichmentResponse.ksea_rokai"
-                :show-borders="true"
-                :repaint-changes-only="false"
-                :column-auto-width="true"
-                :allow-column-resizing="true"
-                column-resizing-mode="widget"
-                :allow-column-reordering="true"
-                :scrolling="{ useNative: true }"
-                @initialized="saveGridInstance"
-                @exporting="onExporting"
-              >
-                <DxFilterRow :visible="true" />
-                <DxColumn
-                  v-for="key in Object.keys(enrichmentResponse.ksea_rokai[0])"
-                  :key="key + '_column'"
-                  :width="250"
-                  :caption="key"
-                  :calculate-cell-value="getValue(key)"
-                  :calculate-sort-value="getValueAbsolute(key)"
-                  alignment="left"
-                  :data-type="(key === 'Signature ID' || key === 'Gene') ? 'string' : 'number'"
-                  :sort-order="key.startsWith('Score') ? 'desc' : null"
-                  :allow-sorting="true"
-                  :allow-filtering="true"
-                  :format="{formatter: val => key.startsWith('Percent Overlap') ? val.toFixed(2) + '%' : val.toFixed(2)}"
-                />
-                <DxPaging :page-size="10" />
-                <DxPager
-                  :show-page-size-selector="true"
-                  :allowed-page-sizes="[5, 10, 25]"
-                />
-              </DxDataGrid>
-              <TheEnrichmentTablePlaceholder v-else />
-            </v-tab-item>
-
-            <v-tab-item
-              value="motif"
-            >
-              <v-dialog
-                width="1000"
-              >
-                <template #activator="{ on, attrs }">
-                  <v-btn
-                    class="ml-2 mb-3"
-                    v-bind="attrs"
-                    v-on="on"
-                  >
-                    Show Parameters File
-                  </v-btn>
-                </template>
-                <v-card
-                  style="overflow-x: scroll;"
-                >
-                  <v-card-title class="text-h5 grey lighten-2">
-                    Motif Enrichment Parameters
-                  </v-card-title>
-
-                  <v-card-text class="mt-5">
-                    <pre>
-  This is an inhouse re-implementation of the Kinase Library tool: https://kinase-library.phosphosite.org
-  For implementation details see here:
-  github.com/kusterlab/enrichment-server/blob/publication/flask_server/modules/motif_enrichment/motif_enrichment.py
-                            </pre>
-                  </v-card-text>
-                </v-card>
-              </v-dialog>
-
-              <DxDataGrid
-                v-if="!!selectedDataset && !!enrichmentResponse && !! enrichmentResponse.motif&& enrichmentResponse.motif.length > 0"
-                :ref="dataGridRefName + '-motif'"
-                :data-source="enrichmentResponse.motif"
-                :show-borders="true"
-                :repaint-changes-only="false"
-                :column-auto-width="true"
-                :allow-column-resizing="true"
-                column-resizing-mode="widget"
-                :allow-column-reordering="true"
-                :scrolling="{ useNative: true }"
-                @initialized="saveGridInstance"
-                @exporting="onExporting"
-              >
-                <DxFilterRow :visible="true" />
-                <DxColumn
-                  v-for="key in Object.keys(enrichmentResponse.motif[0])"
-                  :key="key + '_column'"
-                  :width="250"
-                  :caption="key"
-                  :calculate-cell-value="getValue(key)"
-                  :calculate-sort-value="getValueAbsolute(key)"
-                  alignment="left"
-                  :data-type="(key === 'Kinase') ? 'string' : 'number'"
-                  :sort-order="key.startsWith('-Log10 p_value adjusted') ? 'desc' : null"
-                  :allow-sorting="true"
-                  :allow-filtering="true"
-                  :format="{formatter: val => val.toFixed(2)}"
-                />
-                <DxPaging :page-size="10" />
-                <DxPager
-                  :show-page-size-selector="true"
-                  :allowed-page-sizes="[5, 10, 25]"
-                />
-              </DxDataGrid>
-              <TheEnrichmentTablePlaceholder v-else />
-            </v-tab-item>
-
-            <v-tab-item
-              value="kea3_mean"
-            >
-              <v-dialog
-                width="800"
-              >
-                <template #activator="{ on, attrs }">
-                  <v-btn
-                    class="ml-2 mb-3"
-                    v-bind="attrs"
-                    v-on="on"
-                  >
-                    Show Parameters File
-                  </v-btn>
-                </template>
-                <v-card style="overflow-x: scroll;">
-                  <v-card-title class="text-h5 grey lighten-2">
-                    KEA3 Parameters
-                  </v-card-title>
-
-                  <v-card-text class="mt-5">
-                    <pre>
-   We use the KEA3 API endpoint: https://amp.pharm.mssm.edu/kea3/api/enrich/
-   This table shows the 'Integrated--meanRank' part of the results.
-                            </pre>
-                  </v-card-text>
-                </v-card>
-              </v-dialog>
-              <DxDataGrid
-                v-if="!!selectedDataset && !!enrichmentResponse && !! enrichmentResponse.kea3_mean&& enrichmentResponse.kea3_mean.length > 0"
-                :ref="dataGridRefName + '-kea3_mean'"
-                :data-source="enrichmentResponse.kea3_mean"
-                :show-borders="true"
-                :repaint-changes-only="false"
-                :column-auto-width="true"
-                :allow-column-resizing="true"
-                column-resizing-mode="widget"
-                :allow-column-reordering="true"
-                :scrolling="{ useNative: true }"
-                @initialized="saveGridInstance"
-                @exporting="onExporting"
-              >
-                <DxFilterRow :visible="true" />
-                <DxColumn
-                  v-for="key in Object.keys(enrichmentResponse.kea3_mean[0]).filter(col => col !== 'Query Name')"
-                  :key="key + '_column'"
-                  :width="250"
-                  :caption="key"
-                  :calculate-cell-value="getValue(key)"
-                  :calculate-sort-value="getValueAbsolute(key)"
-                  alignment="left"
-                  :data-type="[ 'TF', 'Library', 'Overlapping_Genes'].includes(key) ? 'string' : 'number'"
-                  :sort-order="key === 'Rank' ? 'asc' : null"
-                  :allow-sorting="true"
-                  :allow-filtering="true"
-                  :format="{formatter: val => key=== 'Rank' ? val : val.toFixed(2)}"
-                />
-                <DxPaging :page-size="10" />
-                <DxPager
-                  :show-page-size-selector="true"
-                  :allowed-page-sizes="[5, 10, 25]"
-                />
-              </DxDataGrid>
-              <TheEnrichmentTablePlaceholder v-else />
-            </v-tab-item>
-
-            <v-tab-item
-              value="kea3_top"
-            >
-              <v-dialog
-                width="800"
-              >
-                <template #activator="{ on, attrs }">
-                  <v-btn
-                    class="ml-2 mb-3"
-                    v-bind="attrs"
-                    v-on="on"
-                  >
-                    Show Parameters File
-                  </v-btn>
-                </template>
-                <v-card style="overflow-x: scroll;">
-                  <v-card-title class="text-h5 grey lighten-2">
-                    KEA3 Parameters
-                  </v-card-title>
-
-                  <v-card-text class="mt-5">
-                    <pre>
-   We use the KEA3 API endpoint: https://amp.pharm.mssm.edu/kea3/api/enrich/
-   This table shows the 'Integrated--topRank' part of the results.
-                            </pre>
-                  </v-card-text>
-                </v-card>
-              </v-dialog>
-              <DxDataGrid
-                v-if="!!selectedDataset && !!enrichmentResponse && !! enrichmentResponse.kea3_top&& enrichmentResponse.kea3_top.length > 0"
-                :ref="dataGridRefName + '-kea3_top'"
-                :data-source="enrichmentResponse.kea3_top"
-                :show-borders="true"
-                :repaint-changes-only="false"
-                :column-auto-width="true"
-                :allow-column-resizing="true"
-                column-resizing-mode="widget"
-                :allow-column-reordering="true"
-                :scrolling="{ useNative: true }"
-                @initialized="saveGridInstance"
-                @exporting="onExporting"
-              >
-                <DxFilterRow :visible="true" />
-                <DxColumn
-                  v-for="key in Object.keys(enrichmentResponse.kea3_top[0]).filter(col => col !== 'Query Name')"
-                  :key="key + '_column'"
-                  :width="250"
-                  :caption="key"
-                  :calculate-cell-value="getValue(key)"
-                  :calculate-sort-value="getValueAbsolute(key)"
-                  alignment="left"
-                  :data-type="[ 'TF', 'Library', 'Overlapping_Genes'].includes(key) ? 'string' : 'number'"
-                  :sort-order="key === 'Rank' ? 'asc' : null"
-                  :allow-sorting="true"
-                  :allow-filtering="true"
-                  :format="{formatter: val => key=== 'Rank' ? val : val.toFixed(2)}"
-                />
-                <DxPaging :page-size="10" />
-                <DxPager
-                  :show-page-size-selector="true"
-                  :allowed-page-sizes="[5, 10, 25]"
-                />
-              </DxDataGrid>
-              <TheEnrichmentTablePlaceholder v-else />
-            </v-tab-item>
-
-            <v-tab-item
-              value="kstar"
-            >
-              <v-dialog
-                width="1050"
-              >
-                <template #activator="{ on, attrs }">
-                  <v-btn
-                    class="ml-2 mb-3"
-                    v-bind="attrs"
-                    v-on="on"
-                  >
-                    Show Parameters File
-                  </v-btn>
-                </template>
-                <v-card style="overflow-x: scroll;">
-                  <v-card-title class="text-h5 grey lighten-2">
-                    K-STAR Parameters
-                  </v-card-title>
-
-                  <v-card-text class="mt-5">
-                    <pre>
-  We use the functions calculate.KinaseActivity() and calculate.enrichment_analysis() from the kstar Python package.
-  Because of time and memory constraints, we do not perform the randomized analysis and Mann Whitney U-test,
-  instead we directly return the p-values from the hypergeometric tests.
-  For implementation details see here:
-  github.com/kusterlab/enrichment-server/blob/publication/flask_server/modules/k_star/k_star.py
-                            </pre>
-                  </v-card-text>
-                </v-card>
-              </v-dialog>
-
-              <DxDataGrid
-                v-if="!!selectedDataset && !!enrichmentResponse && !! enrichmentResponse.kstar&& enrichmentResponse.kstar && enrichmentResponse.kstar.length > 0"
-                :ref="dataGridRefName + '-kstar'"
-                :data-source="enrichmentResponse.kstar"
-                :show-borders="true"
-                :repaint-changes-only="false"
-                :column-auto-width="true"
-                :allow-column-resizing="true"
-                column-resizing-mode="widget"
-                :allow-column-reordering="true"
-                :scrolling="{ useNative: true }"
-                @initialized="saveGridInstance"
-                @exporting="onExporting"
-              >
-                <DxFilterRow :visible="true" />
-                <DxColumn
-                  v-for="key in Object.keys(enrichmentResponse.kstar[0])"
-                  :key="key + '_column'"
-                  :width="250"
-                  :caption="(key === 'Kinase') ? key : 'p-value ('+key+')'"
-                  :calculate-cell-value="getValue(key)"
-                  :calculate-sort-value="getValueAbsolute(key)"
-                  alignment="left"
-                  :data-type="(key === 'Kinase') ? 'string' : 'number'"
-                  :sort-order="key === 'Kinase' ? null : 'asc'"
-                  :allow-sorting="true"
-                  :allow-filtering="true"
-                  :format="{formatter: val => val.toFixed(2)}"
-                />
-                <DxPaging :page-size="10" />
-                <DxPager
-                  :show-page-size-selector="true"
-                  :allowed-page-sizes="[5, 10, 25]"
                 />
               </DxDataGrid>
               <TheEnrichmentTablePlaceholder v-else />
@@ -1117,11 +309,16 @@ export default {
     },
     enrichmentResponse: {
       type: Object,
-      default: () => {}
+      default: () => {
+      }
     },
     isLoading: {
       type: Boolean,
       default: false
+    },
+    enrichmentTypes: {
+      type: Array,
+      default: () => []
     },
     enrichmentStatuses: {
       type: Array,
@@ -1130,8 +327,8 @@ export default {
   },
   data: () => ({
     peaVsKaiTab: 'pea',
-    pathwayEnrichmentTab: 'ptmsea',
-    kinaseActivityTab: 'ksea',
+    pathwayEnrichmentTab: '',
+    kinaseActivityTab: '',
     selectedDataset: undefined
   }),
   watch: {

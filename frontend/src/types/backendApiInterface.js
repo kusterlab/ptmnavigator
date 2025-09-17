@@ -84,6 +84,24 @@
  * @property {string} short
  * @property {number} enrichmentTypeId
  * @property {string[]} applicableOmics
+ * @property {'KinaseActivity'|'Pathway'} enrichmentClass
+ * @property {string} tooltipHtml
+ * @property {string} parametersHtml
+ * @property {string[]} stringColumns
+ * @property {string} sortColumn
+ * @property {boolean} sortDesc
+ * @property {KAIDetails|undefined} kaiDetails //Needs to be KAIDetails if enrichmentClass === 'KinaseActivity', else it can be undefined
+ */
+
+/**
+ * @typedef KAIDetails
+ * @property {string} kinaseColname
+ * @property {string|undefined} scoreColnamePrefix
+ * @property {string|undefined} significanceColnamePrefix
+ * @property {boolean} higherScoreIsStrongerEnrichment
+ * @property {boolean} hasDirection
+ * @property {boolean} directionFromSignificance
+ * @property {boolean} isAlreadyLogTransformed
  */
 
 

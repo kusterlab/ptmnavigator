@@ -85,6 +85,11 @@
  * @property {number} enrichmentTypeId
  * @property {string[]} applicableOmics
  * @property {'KinaseActivity'|'Pathway'} enrichmentClass
+ * @property {string} tooltipHtml
+ * @property {string} parametersHtml
+ * @property {string[]} stringColumns
+ * @property {string} sortColumn
+ * @property {boolean} sortDesc
  * @property {KAIDetails|undefined} kaiDetails //Needs to be KAIDetails if enrichmentClass === 'KinaseActivity', else it can be undefined
  */
 

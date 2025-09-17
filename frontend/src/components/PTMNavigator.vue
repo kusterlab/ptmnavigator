@@ -1925,6 +1925,20 @@ export default {
       } else if (enrichmentType === 'KSTAR') {
         // KSTAR: Concatenate the separate results of 'ST' and 'Y' kinases
         this.enrichmentResponse.kstar = [...unformattedjson.ST || [], ...unformattedjson.Y || []]
+
+        //Now de-duplicate the KSTAR results - only retain the absolute maximum value
+        const significanceColname = Object.keys(this.enrichmentResponse.kstar[0])[1]
+        this.enrichmentResponse.kstar = Object.values(
+            this.enrichmentResponse.kstar.reduce((accumulator, item) => {
+              const kinase = item['Kinase']
+              const significance = item[significanceColname]
+              // Check if this Kinase is already in the accumulator and compare the Significance to only retain the max
+              if (!accumulator[kinase] || Math.abs(significance) > Math.abs(accumulator[kinase][significanceColname])) {
+                accumulator[kinase] = item
+              }
+              return accumulator
+            }, {})
+        )
       } else {
         this.enrichmentResponse[this.enrichmentTypeMap.get(enrichmentType)] = unformattedjson
       }

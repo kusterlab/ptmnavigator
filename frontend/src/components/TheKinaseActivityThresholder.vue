@@ -170,21 +170,6 @@ export default {
         this.maxScore = Math.max(...this.selectedKaiResults.map(datum => Math.abs(datum.Score || 0)))
         this.maxSignificance = Math.max(...this.selectedKaiResults.map(datum => datum.Significance || 0))
 
-        // Hack for KSTAR: For some reason, many (all?) entries in KSTAR results are duplicated, so each kinase gets two scores.
-        // Here we reduce this to only retain the absolute maximum value.
-        // Props to ChatGPT for this beautiful use case for reduce <3
-        if (this.selectedKaiMethod === 'kstar') {
-          this.selectedKaiResults = Object.values(
-            this.selectedKaiResults.reduce((acc, item) => {
-              const { Kinase, Significance } = item
-              // Check if this Kinase is already in the accumulator and compare Significance
-              if (!acc[Kinase] || Math.abs(Significance) > Math.abs(acc[Kinase].Significance)) {
-                acc[Kinase] = item
-              }
-              return acc
-            }, {})
-          )
-        }
       }
     },
 

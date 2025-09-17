@@ -565,11 +565,12 @@
               <v-card-title>Highlight Kinase Activities:</v-card-title>
               <v-card-text>
                 <the-kinase-activity-thresholder
-                  v-if="ptmInputList.length > 0 || proteinInputList.length > 0"
-                  ref="kinaseActivityThresholder"
-                  :data-in="enrichmentResponse"
-                  :selected-dataset="selectedDatasetForEnrichment"
-                  @kinase-activities-filtered="perturbedNodes = $event"
+                    v-if="ptmInputList.length > 0 || proteinInputList.length > 0"
+                    ref="kinaseActivityThresholder"
+                    :enrichment-response="enrichmentResponse"
+                    :all-kinase-activity-methods="enrichmentTypes.filter(et => et.enrichmentClass === 'KinaseActivity')"
+                    :selected-dataset="selectedDatasetForEnrichment"
+                    @kinase-activities-filtered="perturbedNodes = $event"
                 />
               </v-card-text>
             </v-card>
@@ -2251,10 +2252,12 @@ export default {
 
     async fetchEnrichmentResults () {
       if (this.isUserDataMode) {
-        this.enrichmentStatuses = this.enrichmentTypes.map(enrichmentType => {
-          const initialStatus = enrichmentType.applicableOmics.includes(this.selectedDatasetForEnrichment.omics) ? 'in progress' : 'not applicable'
-          return {...enrichmentType, status: initialStatus}
-        })
+        this.enrichmentStatuses = this.enrichmentTypes
+            .filter(enrichmentType => typeof (enrichmentType.enrichmentTypeId) === "number")
+            .map(enrichmentType => {
+              const initialStatus = enrichmentType.applicableOmics.includes(this.selectedDatasetForEnrichment.omics) ? 'in progress' : 'not applicable'
+              return {...enrichmentType, status: initialStatus}
+            })
       } else {
         // No enrichment statuses in Internal Database Mode (they were calculated prior to startup, so they don't change anymore)
         this.enrichmentStatuses = []

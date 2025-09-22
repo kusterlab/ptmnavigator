@@ -440,7 +440,6 @@ const mockApi = {
     //TODO: Currently the format of the mock dataset here is different then from user dataset enrichment results
     //We could align that, it creates confusion
     async loadInternalDatabaseEnrichmentResults(projectId, experimentDesignIds) {
-        console.log(projectId, experimentDesignIds)
         if (experimentDesignIds !== '42') {
             console.log('Mock backend only has experiment 42!')
         }

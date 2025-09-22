@@ -2311,8 +2311,9 @@ export default {
           }
         } else {
           // Load enrichment results from the server
+          console.log(this.selectedDatasetForEnrichment)
           const experimentEnrichmentResponseRaw = await this.backendApi.loadInternalDatabaseEnrichmentResults(
-              this.selectedDatasetForEnrichment.datasetId)
+              this.selectedInternalProject.projectId, this.selectedDatasetForEnrichment.datasetId)
 
           this.enrichmentResponse = this.formatInternalDatabaseEnrichmentResponse(
             experimentEnrichmentResponseRaw[this.selectedDatasetForEnrichment.datasetId])

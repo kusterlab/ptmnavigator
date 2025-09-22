@@ -214,18 +214,6 @@ const mockApi = {
     async getEnrichmentTypes() {
         return [
             {
-                name: 'RANDOM',
-                short: 'random',
-                enrichmentTypeId: 0,
-                applicableOmics: ['Phosphorylation', 'Protein', 'Other'],
-                enrichmentClass: 'KinaseActivity',
-                tooltipHtml: enrichmentTypeHTMLs.gc.tooltip,
-                parametersHtml: enrichmentTypeHTMLs.gc.parameters,
-                stringColumns: ['Signature ID', 'Gene'],
-                sortColumn: 'Score',
-                sortDesc: true,
-            },
-            {
                 name: 'PTM-SEA',
                 short: 'ptmsea',
                 enrichmentTypeId: 1,

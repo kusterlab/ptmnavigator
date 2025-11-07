@@ -1,0 +1,155 @@
+// Use DBML to define your database structure
+// Docs: https://dbml.dbdiagram.io/docs
+
+//Static
+
+Table ORGANISM {
+  TAXCODE integer [primary key]
+  NAME text
+}
+
+Table PROTEIN {
+  PROTEIN_ID integer [primary key]
+  UNIPROT_ACC text [not null]
+  GENE_NAME text [not null]
+  TAXCODE integer [not null, ref: > ORGANISM.TAXCODE]
+  CANONICAL_PROTEIN_ID integer [ref: > PROTEIN.PROTEIN_ID]  //Is this easily possible from fasta file?
+}
+
+Table PEPTIDE {
+  PEPTIDE_ID integer [primary key]
+  SEQUENCE text
+  
+}
+
+
+Table PROTEASE {
+  PROTEASE_ID integer [primary key]
+  NAME text
+  CLEAVAGE_RULE text //Regex that specifies the cleavage rule of that protease
+
+}
+
+Table PROTEIN_TO_PEPTIDE {
+  PROTEIN_ID integer [ref: > PROTEIN.PROTEIN_ID]
+  PEPTIDE_ID integer [ref: > PEPTIDE.PEPTIDE_ID]
+  PROTEASE_ID integer [ref: > PROTEASE.PROTEASE_ID]
+  START_POSITION integer [not null]
+  END_POSITION integer [not null]
+  MISSED_CLEAVAGES integer [not null]
+    indexes {
+    (PROTEIN_ID, PEPTIDE_ID) [pk]
+    }
+}
+
+Table MODIFICATION {
+  MODIFICATION_ID integer [primary key]
+  NAME text
+  SYMBOL text
+}
+
+
+Table MODIFIED_PEPTIDE {
+  MODIFIED_PEPTIDE_ID integer [primary key]
+  PEPTIDE_ID integer [not null, ref: > PEPTIDE.PEPTIDE_ID]
+  MODIFIED_SEQUENCE text [not null]
+  //MODIFICATION_TYPE //Would be awkward, since a peptide can have multiple types of mod
+  }
+
+
+Table MODIFIED_SITE {
+ MODIFIED_SITE_ID integer [primary key]
+ MODIFIED_PEPTIDE_ID integer [not null, ref: > MODIFIED_PEPTIDE.MODIFIED_PEPTIDE_ID]
+ MODIFICATION_ID integer [not null, ref: > MODIFICATION.MODIFICATION_ID]
+ POSITION integer [not null]
+ RESIDUE text [not null]
+ //SITE_IDENTIFIER text //Composed of e.g. Uniprot + Residue + Position - only if otherwise not performant
+}
+
+
+Table ENZYME_CLASS{
+  ENZYME_CLASS_ID integer [primary key]
+  NAME text [not null]
+}
+
+Table ENZYME_SUBSTRATE_RELATIONSHIP{
+  ENZYME_PROTEIN_ID integer [ref: > PROTEIN.PROTEIN_ID]
+  SUBSTRATE_SITE_ID integer [ref: > MODIFIED_SITE.MODIFIED_SITE_ID]
+  ENZYME_CLASS_ID integer [not null, ref: > ENZYME_CLASS.ENZYME_CLASS_ID]
+
+      indexes {
+    (ENZYME_PROTEIN_ID, SUBSTRATE_SITE_ID) [pk]
+    }
+}
+
+
+
+Table ENRICHMENT_TYPE{
+ ENRICHMENT_TYPE_ID integer [primary key]
+ NAME text [not null] 
+ DESCRIPTION text [not null] 
+ REFERENCE text [not null] 
+ SHORT text [not null] 
+ ENRICHMENT_CLASS text [not null] //TODO: Maybe add mapping table
+ APPLICABLE_OMICS_LIST text [not null] //TODO: Awkward, maybe change to a mtm table
+
+}
+
+
+//Dynamic -- TODO: Do Pre-Existing Datasets need their own tables? 
+//If not, you could rename and remove the user prefix or so
+//But then there are datasets without user
+
+Table USER {
+  USER_ID integer [primary key]
+  SESSION_ID text
+  LAST_ACCESSION_DATE text
+}
+
+Table USER_DATASET {
+  DATASET_ID integer [primary key]
+  NAME text [not null]
+  USER_ID integer [not null, ref: > USER.USER_ID]
+  DATASET_TYPE text [not null, note: 'One of: FoldChange/Curve']
+  OMICS text [not null, note: 'One of: Phosphorylation/Protein/Other']
+  TAXCODE integer [not null, ref: > ORGANISM.TAXCODE]
+}
+
+
+//TODO: Lowercase integer and text
+Table USER_QUANTIFICATION_DATA {
+  USER_DATUM_ID INTEGER [primary key]
+  DATASET_ID INTEGER [not null, ref: > USER_DATASET.DATASET_ID]
+  REGULATION TEXT [not null, note: 'One of: up/down/-'] //Could instead do up/down/not/nan or allow NULL
+  USER_CURVE_ID INTEGER
+  PROTEIN_ID INTEGER
+  PEPTIDE_ID INTEGER //Null if site level
+  MODIFIED_PEPTIDE_ID INTEGER //Null if site level or unmodified peptide
+  MODIFIED_SITE_ID INTEGER //Null if peptide level 
+
+}
+
+
+Table USER_DATUM_DETAIL {
+  USER_DATUM_ID INTEGER [not null, ref: > USER_QUANTIFICATION_DATA.USER_DATUM_ID]
+  KEY TEXT [not null]
+  VALUE TEXT
+}
+
+
+Table USER_CURVE_DATA {
+  USER_CURVE_ID integer [not null, ref: > USER_QUANTIFICATION_DATA.USER_CURVE_ID] //Not sure if this ref works since USER_CURVE_ID is not a primary key (is it a candidate key tho?)
+  FACTOR_NAME text [not null] //E.g. dose, temperature, time
+  FACTOR_VALUE real [not null]
+  FACTOR_UNIT text [not null] //E.g. nM, h
+  RESPONSE_VALUE real [not null]
+}
+
+
+Table USER_DATASET_ENRICHMENT_RESULT {
+  DATASET_ID integer [not null, ref: > USER_DATASET.DATASET_ID] //TODO: No need to put UUID_ID here, but via joins you should still make sure the user has the correct uuid_id 
+  ENRICHMENT_TYPE_ID integer [not null, ref: > ENRICHMENT_TYPE.ENRICHMENT_TYPE_ID]
+  ENRICHMENT_JSON blob [not null]
+}
+
+

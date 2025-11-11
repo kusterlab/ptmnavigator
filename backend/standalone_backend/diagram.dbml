@@ -13,6 +13,7 @@ Table MODIFICATION {
   MODIFICATION_ID integer [primary key]
   NAME text
   SYMBOL text
+  MODIFIABLE_RESIDUES text 
 }
 
 Table PROTEASE {
@@ -31,7 +32,7 @@ Table ENRICHMENT_TYPE{
  ENRICHMENT_TYPE_ID integer [primary key]
  NAME text [not null] 
  DESCRIPTION text [not null] 
- REFERENCE text [not null] 
+ REFERENCE text
  SHORT text [not null] 
  ENRICHMENT_CLASS text [not null]
 }
@@ -53,7 +54,7 @@ Table ENZYME_CLASS{
 Table PROTEIN {
   PROTEIN_ID integer [primary key]
   UNIPROT_ACC text [not null]
-  GENE_NAME text [not null]
+  GENE_NAME text
   TAXCODE integer [not null, ref: > ORGANISM.TAXCODE]
   PARENT_PROTEIN_ID integer [ref: > PROTEIN.PROTEIN_ID]
 }

@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "standalone-backend"
-version = "0.1.0"
+version = "0.0.1"
 description = ""
 authors = ["Julian Müller <julian2.mueller@tum.de>"]
 readme = "README.md"
@@ -12,6 +12,8 @@ numpy = "^2.3.4"
 pandas = "^2.3.3"
 tqdm = "^4.67.1"
 psite-annotation = "^0.7.2"
+flask = "^3.1.2"
+flask-cors = "^6.0.1"
 
 
 [tool.poetry.group.dev.dependencies]

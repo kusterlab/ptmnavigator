@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "standalone-backend"
+version = "0.1.0"
+description = ""
+authors = ["Julian Müller <julian2.mueller@tum.de>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+dbml-sqlite = "^0.3.3"
+numpy = "^2.3.4"
+pandas = "^2.3.3"
+tqdm = "^4.67.1"
+psite-annotation = "^0.7.2"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^7.1.0"
+jupyter = "^1.1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

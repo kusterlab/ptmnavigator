@@ -3,43 +3,10 @@
 
 //Static
 
+//Filled manually
 Table ORGANISM {
   TAXCODE integer [primary key]
   NAME text
-}
-
-Table PROTEIN {
-  PROTEIN_ID integer [primary key]
-  UNIPROT_ACC text [not null]
-  GENE_NAME text [not null]
-  TAXCODE integer [not null, ref: > ORGANISM.TAXCODE]
-  CANONICAL_PROTEIN_ID integer [ref: > PROTEIN.PROTEIN_ID]  //Is this easily possible from fasta file?
-}
-
-Table PEPTIDE {
-  PEPTIDE_ID integer [primary key]
-  SEQUENCE text
-  
-}
-
-
-Table PROTEASE {
-  PROTEASE_ID integer [primary key]
-  NAME text
-  CLEAVAGE_RULE text //Regex that specifies the cleavage rule of that protease
-
-}
-
-Table PROTEIN_TO_PEPTIDE {
-  PROTEIN_ID integer [ref: > PROTEIN.PROTEIN_ID]
-  PEPTIDE_ID integer [ref: > PEPTIDE.PEPTIDE_ID]
-  PROTEASE_ID integer [ref: > PROTEASE.PROTEASE_ID]
-  START_POSITION integer [not null]
-  END_POSITION integer [not null]
-  MISSED_CLEAVAGES integer [not null]
-    indexes {
-    (PROTEIN_ID, PEPTIDE_ID) [pk]
-    }
 }
 
 Table MODIFICATION {
@@ -48,28 +15,85 @@ Table MODIFICATION {
   SYMBOL text
 }
 
+Table PROTEASE {
+  PROTEASE_ID integer [primary key]
+  NAME text
+  CLEAVAGE_RULE text //Regex that specifies the cleavage rule of that protease
 
-Table MODIFIED_PEPTIDE {
-  MODIFIED_PEPTIDE_ID integer [primary key]
-  PEPTIDE_ID integer [not null, ref: > PEPTIDE.PEPTIDE_ID]
-  MODIFIED_SEQUENCE text [not null]
-  //MODIFICATION_TYPE //Would be awkward, since a peptide can have multiple types of mod
-  }
-
-
-Table MODIFIED_SITE {
- MODIFIED_SITE_ID integer [primary key]
- MODIFIED_PEPTIDE_ID integer [not null, ref: > MODIFIED_PEPTIDE.MODIFIED_PEPTIDE_ID]
- MODIFICATION_ID integer [not null, ref: > MODIFICATION.MODIFICATION_ID]
- POSITION integer [not null]
- RESIDUE text [not null]
- //SITE_IDENTIFIER text //Composed of e.g. Uniprot + Residue + Position - only if otherwise not performant
 }
 
+Table OMIC{
+  OMIC_ID integer [primary key]
+  NAME text [not null]
+}
+
+Table ENRICHMENT_TYPE{
+ ENRICHMENT_TYPE_ID integer [primary key]
+ NAME text [not null] 
+ DESCRIPTION text [not null] 
+ REFERENCE text [not null] 
+ SHORT text [not null] 
+ ENRICHMENT_CLASS text [not null]
+}
+
+Table ENRICHMENT_TYPE_TO_OMIC{
+  ENRICHMENT_TYPE_ID integer [ref: > ENRICHMENT_TYPE.ENRICHMENT_TYPE_ID]
+  OMIC_ID integer [ref: > OMIC.OMIC_ID]
+    indexes {
+    (ENRICHMENT_TYPE_ID, OMIC_ID) [pk]
+    }
+}
 
 Table ENZYME_CLASS{
   ENZYME_CLASS_ID integer [primary key]
   NAME text [not null]
+}
+
+//Filled via a script
+Table PROTEIN {
+  PROTEIN_ID integer [primary key]
+  UNIPROT_ACC text [not null]
+  GENE_NAME text [not null]
+  TAXCODE integer [not null, ref: > ORGANISM.TAXCODE]
+  PARENT_PROTEIN_ID integer [ref: > PROTEIN.PROTEIN_ID]
+}
+
+Table PEPTIDE {
+  PEPTIDE_ID integer [primary key]
+  SEQUENCE text
+  
+}
+
+Table PROTEIN_TO_PEPTIDE {
+  PROTEIN_ID integer [ref: > PROTEIN.PROTEIN_ID]
+  PEPTIDE_ID integer [ref: > PEPTIDE.PEPTIDE_ID]
+  PROTEASE_ID integer [ref: > PROTEASE.PROTEASE_ID]
+  START_POSITION integer [not null]
+  END_POSITION integer [not null]
+  // MISSED_CLEAVAGES integer [not null] //I do not need this for anything
+    indexes {
+    (PROTEIN_ID, PEPTIDE_ID) [pk]
+    }
+}
+
+
+//
+//Table MODIFIED_PEPTIDE {
+//  MODIFIED_PEPTIDE_ID integer [primary key]
+//  PEPTIDE_ID integer [not null, ref: > PEPTIDE.PEPTIDE_ID]
+//  MODIFIED_SEQUENCE text [not null]
+//  //MODIFICATION_TYPE //Would be awkward, since a peptide can have multiple types of mod
+//  }
+
+
+
+Table MODIFIED_SITE {
+ MODIFIED_SITE_ID integer [primary key]
+ PROTEIN_ID integer [not null, ref: > PROTEIN.PROTEIN_ID]
+ MODIFICATION_ID integer [not null, ref: > MODIFICATION.MODIFICATION_ID]
+ POSITION integer [not null]
+ RESIDUE text [not null]
+ SITE_IDENTIFIER text //Composed of e.g. Uniprot + Residue + Position - only if otherwise not performant, else remove
 }
 
 Table ENZYME_SUBSTRATE_RELATIONSHIP{
@@ -82,18 +106,6 @@ Table ENZYME_SUBSTRATE_RELATIONSHIP{
     }
 }
 
-
-
-Table ENRICHMENT_TYPE{
- ENRICHMENT_TYPE_ID integer [primary key]
- NAME text [not null] 
- DESCRIPTION text [not null] 
- REFERENCE text [not null] 
- SHORT text [not null] 
- ENRICHMENT_CLASS text [not null] //TODO: Maybe add mapping table
- APPLICABLE_OMICS_LIST text [not null] //TODO: Awkward, maybe change to a mtm table
-
-}
 
 
 //Dynamic -- TODO: Do Pre-Existing Datasets need their own tables? 
@@ -124,8 +136,10 @@ Table USER_QUANTIFICATION_DATA {
   USER_CURVE_ID INTEGER
   PROTEIN_ID INTEGER
   PEPTIDE_ID INTEGER //Null if site level
-  MODIFIED_PEPTIDE_ID INTEGER //Null if site level or unmodified peptide
-  MODIFIED_SITE_ID INTEGER //Null if peptide level 
+  //No direct columns for modified peptide or sites. Because a) we don't have modified peptide ids anymore and b) Modified Site IDs might be many-to-many. So instead we add key-value pairs into UDD table and put modified sequence as string here
+  MODIFIED_SEQUENCE TEXT //Null if site level
+  //MODIFIED_PEPTIDE_ID INTEGER //Null if site level or unmodified peptide
+  //MODIFIED_SITE_ID INTEGER //Null if peptide level 
 
 }
 

@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import App from './App.vue'
+import emulatedRouter from "@/plugins/emulatedRouter";
 import vuetify from './plugins/vuetify';
 import vueCookie from 'vue-cookie'
 import 'vuetify/dist/vuetify.min.css';
@@ -10,6 +11,7 @@ import 'devextreme/dist/css/dx.material.blue.light.compact.css'
 
 
 Vue.use(vueCookie)
+Vue.use(emulatedRouter)
 
 Vue.config.productionTip = false
 

@@ -463,8 +463,10 @@ const mockApi = {
     },
 
     getCustomDataUploadComponent() {
-        console.log('No Custom Data Upload Component Implemented (yet)!')
-        return null;
+        //TODO: Revert this once the standaloneApi is fully functional
+        // console.log('No Custom Data Upload Component Implemented (yet)!')
+        // return null;
+        return 'DataUpload';
 
     }
 }

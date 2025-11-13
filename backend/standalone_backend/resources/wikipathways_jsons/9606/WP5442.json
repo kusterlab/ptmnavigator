@@ -1,0 +1,521 @@
+{
+  "pathway": {
+    "name": "WP5442",
+    "org": "Homo sapiens",
+    "title": "Wnt/Beta-catenin signaling inhibitors in current and past clinical trials"
+  },
+  "links": [
+    {
+      "id": "id217be93a",
+      "sourceId": "a6ee7",
+      "targetId": "a56fe",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id21a16c1a",
+      "sourceId": "c0f1e",
+      "targetId": "a0d22",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "id41907ea",
+      "sourceId": "cfc9e",
+      "targetId": "a2eb7",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id41a9b399",
+      "sourceId": "a85ea",
+      "targetId": "b0a71",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id5e2d272b",
+      "sourceId": "ea7d0",
+      "targetId": "b0a71",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id740f5f64",
+      "sourceId": "ad597",
+      "targetId": "a5b99",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id75d93cd1",
+      "sourceId": "a0d22",
+      "targetId": "ded10",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "id9879fcd3",
+      "sourceId": "dd14d",
+      "targetId": "c0f1e",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "idef6af99a",
+      "sourceId": "c0f1e",
+      "targetId": "aaba4",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "idf9c86343",
+      "sourceId": "a56fe",
+      "targetId": "id740f5f64",
+      "types": [
+        "modification"
+      ]
+    },
+    {
+      "id": "ecba6",
+      "sourceId": "e8857",
+      "targetId": "a56fe",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "a0ec8",
+      "sourceId": "a8a3c",
+      "targetId": "a56fe",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "f16cf",
+      "sourceId": "b4a99",
+      "targetId": "a56fe",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "f006f",
+      "sourceId": "b0f6e",
+      "targetId": "a0d22",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "c6333",
+      "sourceId": "ef458",
+      "targetId": "a0d22",
+      "types": [
+        "inhibition"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "a02eb",
+      "geneNames": [
+        "AXIN"
+      ],
+      "type": "gene_protein",
+      "x": 566.0,
+      "y": 282.3305084745763,
+      "label": null,
+      "groupId": "caa57",
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "a0d22",
+      "geneNames": [
+        "Frizzled"
+      ],
+      "type": "gene_protein",
+      "x": 335.17089305402425,
+      "y": 244.76295479603087,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "InterPro",
+      "referenceId": "IPR000539"
+    },
+    {
+      "id": "a27f2",
+      "geneNames": [
+        "GSK3"
+      ],
+      "type": "gene_protein",
+      "x": 667.3147459495825,
+      "y": 255.65453254349387,
+      "label": null,
+      "groupId": "caa57",
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "a2eb7",
+      "geneNames": [
+        "CBP"
+      ],
+      "type": "gene_protein",
+      "x": 466.9490642810715,
+      "y": 590.1152455207255,
+      "label": null,
+      "groupId": "d9d93",
+      "referenceDatabase": "Uniprot",
+      "referenceId": "Q92793",
+      "uniprotAccs": [
+        "Q92793"
+      ]
+    },
+    {
+      "id": "a56fe",
+      "geneNames": [
+        "PORCN"
+      ],
+      "type": "gene_protein",
+      "x": 876.0419529249527,
+      "y": 404.0890602947053,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000102312",
+      "uniprotAccs": [
+        "Q9H237",
+        "C9JWI5",
+        "F2Z360",
+        "F8WEW7"
+      ]
+    },
+    {
+      "id": "a6ee7",
+      "geneNames": null,
+      "type": "compound",
+      "x": 1063.7943359503424,
+      "y": 392.33311182211986,
+      "label": "ETC-1922159",
+      "groupId": null,
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q124448578"
+    },
+    {
+      "id": "a85ea",
+      "geneNames": null,
+      "type": "compound",
+      "x": 841.278343739907,
+      "y": 620.45169144071,
+      "label": "SM08502",
+      "groupId": null,
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q124448796"
+    },
+    {
+      "id": "a8a3c",
+      "geneNames": null,
+      "type": "compound",
+      "x": 1063.7943359503424,
+      "y": 417.33311182211986,
+      "label": "RXC004",
+      "groupId": null,
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q124439695"
+    },
+    {
+      "id": "aaba4",
+      "geneNames": [
+        "LRP5"
+      ],
+      "type": "gene_protein",
+      "x": 566.0,
+      "y": 214.0,
+      "label": null,
+      "groupId": "caa57",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000162337",
+      "uniprotAccs": [
+        "O75197",
+        "E9PHY1",
+        "H0YE98"
+      ]
+    },
+    {
+      "id": "ad597",
+      "geneNames": [
+        "WNT"
+      ],
+      "type": "gene_protein",
+      "x": 744.4970245897819,
+      "y": 452.2365244622905,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "InterPro",
+      "referenceId": "IPR005817"
+    },
+    {
+      "id": "b0f6e",
+      "geneNames": null,
+      "type": "compound",
+      "x": 290.09592061742006,
+      "y": 179.40573318632855,
+      "label": "OMP-18R5",
+      "groupId": null,
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q7915216"
+    },
+    {
+      "id": "b4a99",
+      "geneNames": null,
+      "type": "compound",
+      "x": 1063.7943359503424,
+      "y": 367.33311182211986,
+      "label": "WNT-974",
+      "groupId": null,
+      "referenceDatabase": "PubChem-compound",
+      "referenceId": "46926973"
+    },
+    {
+      "id": "cfc9e",
+      "geneNames": null,
+      "type": "compound",
+      "x": 841.2783437399069,
+      "y": 583.1156992492041,
+      "label": "PRI 724",
+      "groupId": null,
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q123515698"
+    },
+    {
+      "id": "d711d",
+      "geneNames": [
+        "CK1"
+      ],
+      "type": "gene_protein",
+      "x": 667.3147459495825,
+      "y": 230.65453254349387,
+      "label": null,
+      "groupId": "caa57",
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "dd14d",
+      "geneNames": null,
+      "type": "compound",
+      "x": 467.37252423244547,
+      "y": 64.02212882790026,
+      "label": "OMP-54f28",
+      "groupId": null,
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q124625115"
+    },
+    {
+      "id": "ded10",
+      "geneNames": [
+        "DVL"
+      ],
+      "type": "gene_protein",
+      "x": 475.4050931549349,
+      "y": 295.67571898417185,
+      "label": null,
+      "groupId": "caa57",
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "e8857",
+      "geneNames": null,
+      "type": "compound",
+      "x": 1063.794335950342,
+      "y": 442.33311182211986,
+      "label": "CGX-1321",
+      "groupId": null,
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q124448546"
+    },
+    {
+      "id": "ea7d0",
+      "geneNames": [
+        "CTNNB1"
+      ],
+      "type": "gene_protein",
+      "x": 340.40245151615596,
+      "y": 480.7253928821587,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000168036",
+      "uniprotAccs": [
+        "P35222",
+        "A0A2R8Y543",
+        "A0A2R8Y5A3",
+        "A0A2R8Y5C3",
+        "A0A2R8Y5Z1",
+        "A0A2R8Y6G0",
+        "A0A2R8Y750",
+        "A0A2R8Y7Z0",
+        "A0A2R8Y804",
+        "A0A2R8Y815",
+        "A0A2R8YCH5",
+        "A0A2R8YG06",
+        "B4DGU4",
+        "C9IZ65"
+      ]
+    },
+    {
+      "id": "ef458",
+      "geneNames": null,
+      "type": "compound",
+      "x": 323.4615490628445,
+      "y": 138.7109977949285,
+      "label": "OTSA101-DTPA-90Y",
+      "groupId": null,
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q124449028"
+    },
+    {
+      "id": "eff81",
+      "geneNames": [
+        "TCF"
+      ],
+      "type": "gene_protein",
+      "x": 466.94906428107157,
+      "y": 640.1152455207255,
+      "label": null,
+      "groupId": "d9d93",
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "f28df",
+      "geneNames": [
+        "APC"
+      ],
+      "type": "gene_protein",
+      "x": 475.40509315493495,
+      "y": 270.67571898417185,
+      "label": null,
+      "groupId": "caa57",
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "f9a60",
+      "geneNames": [
+        "LRP6"
+      ],
+      "type": "gene_protein",
+      "x": 566.0,
+      "y": 248.16525423728814,
+      "label": null,
+      "groupId": "caa57",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000070018",
+      "states": [
+        "P",
+        "P",
+        "P"
+      ],
+      "uniprotAccs": [
+        "O75581",
+        "F5H0Z3",
+        "F5H7J9",
+        "H0YGH0",
+        "H0YGW5"
+      ]
+    },
+    {
+      "id": "a5b99",
+      "geneNames": [
+        "WNT"
+      ],
+      "type": "gene_protein",
+      "x": 742.8180815876522,
+      "y": 153.2061742006613,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "InterPro",
+      "referenceId": "IPR005817",
+      "states": [
+        "Ac"
+      ]
+    },
+    {
+      "id": "b0a71",
+      "geneNames": [
+        "CTNNB1"
+      ],
+      "type": "gene_protein",
+      "x": 466.9490642810716,
+      "y": 615.1152455207255,
+      "label": null,
+      "groupId": "d9d93",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000168036",
+      "uniprotAccs": [
+        "P35222",
+        "A0A2R8Y543",
+        "A0A2R8Y5A3",
+        "A0A2R8Y5C3",
+        "A0A2R8Y5Z1",
+        "A0A2R8Y6G0",
+        "A0A2R8Y750",
+        "A0A2R8Y7Z0",
+        "A0A2R8Y804",
+        "A0A2R8Y815",
+        "A0A2R8YCH5",
+        "A0A2R8YG06",
+        "B4DGU4",
+        "C9IZ65"
+      ]
+    },
+    {
+      "id": "c0f1e",
+      "geneNames": [
+        "WNT"
+      ],
+      "type": "gene_protein",
+      "x": 467.37252423244547,
+      "y": 128.17179806715058,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "InterPro",
+      "referenceId": "IPR005817"
+    },
+    {
+      "id": "caa57",
+      "type": "group",
+      "components": [
+        "a02eb",
+        "a27f2",
+        "aaba4",
+        "d711d",
+        "ded10",
+        "f28df",
+        "f9a60"
+      ]
+    },
+    {
+      "id": "d9d93",
+      "type": "group",
+      "components": [
+        "a2eb7",
+        "eff81",
+        "b0a71"
+      ]
+    }
+  ]
+}

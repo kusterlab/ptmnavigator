@@ -1,0 +1,339 @@
+{
+  "pathway": {
+    "name": "WP5440",
+    "org": "Homo sapiens",
+    "title": "EPAC1 and PKA reduction of retinal inflammation"
+  },
+  "links": [
+    {
+      "id": "idaa2be7a2",
+      "sourceId": "afe1d",
+      "targetId": "a1892",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "idd77d3d51",
+      "sourceId": "f2cc3",
+      "targetId": "afe1d",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "a8285",
+      "sourceId": "a2a1a",
+      "targetId": "afe1d",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "ffd11",
+      "sourceId": "a1892",
+      "targetId": "fadec",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "e3a71",
+      "sourceId": "fadec",
+      "targetId": "faf7f",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "c7aa4",
+      "sourceId": "faf7f",
+      "targetId": "d3b64",
+      "types": [
+        "stimulation"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "afe1d",
+      "geneNames": [
+        "NEK7"
+      ],
+      "type": "gene_protein",
+      "x": 127.0,
+      "y": 158.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000151414",
+      "uniprotAccs": [
+        "Q8TDX7",
+        "C9J1H8",
+        "F5H3U7",
+        "F8WAG2"
+      ]
+    },
+    {
+      "id": "f2cc3",
+      "geneNames": [
+        "EPAC1"
+      ],
+      "type": "gene_protein",
+      "x": 59.0,
+      "y": 76.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "10411",
+      "uniprotAccs": [
+        "O95398",
+        "Q99777"
+      ]
+    },
+    {
+      "id": "e8424",
+      "geneNames": [
+        "PRKACA"
+      ],
+      "type": "gene_protein",
+      "x": 371.0,
+      "y": 221.89906103286376,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000288516",
+      "uniprotAccs": [
+        "P17612"
+      ]
+    },
+    {
+      "id": "b57ac",
+      "geneNames": [
+        "PRKACB"
+      ],
+      "type": "gene_protein",
+      "x": 441.0,
+      "y": 221.89906103286376,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000142875",
+      "uniprotAccs": [
+        "P22694",
+        "A0A087WVC4",
+        "B1APF7",
+        "B1APF8",
+        "B1APF9",
+        "B1APG0",
+        "B1APG1",
+        "B1APG2",
+        "B1APG3"
+      ]
+    },
+    {
+      "id": "e6f3a",
+      "geneNames": [
+        "PRKAR1A"
+      ],
+      "type": "gene_protein",
+      "x": 371.0,
+      "y": 196.89939436619716,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000108946",
+      "uniprotAccs": [
+        "P10644",
+        "K7EIE5",
+        "K7EJ40",
+        "K7EK41",
+        "K7EKR1",
+        "K7EM13",
+        "K7EMU2",
+        "K7EMZ6",
+        "K7EPB2",
+        "K7EPR5",
+        "K7EQK3",
+        "X6RAV4"
+      ]
+    },
+    {
+      "id": "a1892",
+      "geneNames": [
+        "NLRP3"
+      ],
+      "type": "gene_protein",
+      "x": 127.0,
+      "y": 223.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000162711",
+      "uniprotAccs": [
+        "A0A2R8YEG7",
+        "A0A7I2PJH0",
+        "A0A7I2PMC6",
+        "A0A7I2PRX0",
+        "A0A7I2R3P8",
+        "A0A7I2UNQ2",
+        "A0A7I2YME5"
+      ]
+    },
+    {
+      "id": "fadec",
+      "geneNames": [
+        "IL1B"
+      ],
+      "type": "gene_protein",
+      "x": 127.0,
+      "y": 294.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000125538",
+      "uniprotAccs": [
+        "P01584",
+        "C9JSC2",
+        "C9JVK0",
+        "C9JWV2"
+      ]
+    },
+    {
+      "id": "d9de1",
+      "geneNames": [
+        "PRKAR2B"
+      ],
+      "type": "gene_protein",
+      "x": 442.0,
+      "y": 347.53319718309865,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000188191",
+      "uniprotAccs": [
+        "P31321",
+        "C9IZL8",
+        "C9J4C2",
+        "C9JR00",
+        "C9JSK5",
+        "H7BYW5"
+      ]
+    },
+    {
+      "id": "e842d",
+      "geneNames": [
+        "PRKACA"
+      ],
+      "type": "gene_protein",
+      "x": 372.0,
+      "y": 372.53286384976525,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000288516",
+      "uniprotAccs": [
+        "P17612"
+      ]
+    },
+    {
+      "id": "fb189",
+      "geneNames": [
+        "PRKACB"
+      ],
+      "type": "gene_protein",
+      "x": 442.0,
+      "y": 372.53286384976525,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000142875",
+      "uniprotAccs": [
+        "P22694",
+        "A0A087WVC4",
+        "B1APF7",
+        "B1APF8",
+        "B1APF9",
+        "B1APG0",
+        "B1APG1",
+        "B1APG2",
+        "B1APG3"
+      ]
+    },
+    {
+      "id": "a5ae2",
+      "geneNames": [
+        "PRKAR2A"
+      ],
+      "type": "gene_protein",
+      "x": 372.0,
+      "y": 347.53319718309865,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000114302",
+      "uniprotAccs": [
+        "P13861",
+        "A0A9L9PX32",
+        "A0A9L9PXB0",
+        "A0A9L9PXB4",
+        "A0A9L9PXM7",
+        "A0A9L9PXP9",
+        "A0A9L9PY56",
+        "A0A9L9PY59",
+        "C9J830",
+        "H7C1L0",
+        "H7C330",
+        "H7C4A9"
+      ]
+    },
+    {
+      "id": "b52de",
+      "geneNames": [
+        "PRKAR1B"
+      ],
+      "type": "gene_protein",
+      "x": 441.0,
+      "y": 196.89939436619716,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000188191",
+      "uniprotAccs": [
+        "P31321",
+        "C9IZL8",
+        "C9J4C2",
+        "C9JR00",
+        "C9JSK5",
+        "H7BYW5"
+      ]
+    },
+    {
+      "id": "a2a1a",
+      "geneNames": null,
+      "type": "misc",
+      "x": 201.0,
+      "y": 76.0,
+      "label": "PKA",
+      "groupId": null
+    },
+    {
+      "id": "d3b64",
+      "geneNames": null,
+      "type": "misc",
+      "x": 127.0,
+      "y": 428.0,
+      "label": "Diabetic retinopathy",
+      "groupId": null
+    },
+    {
+      "id": "faf7f",
+      "geneNames": null,
+      "type": "misc",
+      "x": 127.0,
+      "y": 365.0,
+      "label": "Retinal inflammation",
+      "groupId": null
+    }
+  ]
+}

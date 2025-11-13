@@ -1,0 +1,670 @@
+{
+  "pathway": {
+    "name": "WP3601",
+    "org": "Homo sapiens",
+    "title": "Lipid particles composition"
+  },
+  "links": [
+    {
+      "id": "id1ddb44b4",
+      "sourceId": "fe999",
+      "targetId": "ideaf9b77c",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id311357b6",
+      "sourceId": "a9626",
+      "targetId": "fe999",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "id59ee23b",
+      "sourceId": "c44d8",
+      "targetId": "a7738",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id5bbe403b",
+      "sourceId": "aafaa",
+      "targetId": "acbd2",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id6766c5ee",
+      "sourceId": "d1855",
+      "targetId": "idd424c752",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "id6ada6ba6",
+      "sourceId": "b807e",
+      "targetId": "d8f6c",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "ida77e0f70",
+      "sourceId": "aafaa",
+      "targetId": "d8f6c",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "idd424c752",
+      "sourceId": "a7738",
+      "targetId": "f5c88",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ideaf9b77c",
+      "sourceId": "ffd78",
+      "targetId": "a6d31",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "idf4f04973",
+      "sourceId": "a08d9",
+      "targetId": "id5bbe403b",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "idfed07c36",
+      "sourceId": "e67ea",
+      "targetId": "id59ee23b",
+      "types": [
+        "catalysis"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "a08d9",
+      "geneNames": null,
+      "type": "compound",
+      "x": 1036.0,
+      "y": 206.0,
+      "label": "ROS",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:26523"
+    },
+    {
+      "id": "a7738",
+      "geneNames": null,
+      "type": "compound",
+      "x": 399.2857142857136,
+      "y": 212.9523809523808,
+      "label": "cholesteryl\nester",
+      "groupId": "cd43d",
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:17002"
+    },
+    {
+      "id": "afbdf",
+      "geneNames": [
+        "Apo C-III"
+      ],
+      "type": "gene_protein",
+      "x": 215.28571428571436,
+      "y": 134.9523809523808,
+      "label": null,
+      "groupId": "cd43d",
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P02656",
+      "uniprotAccs": [
+        "P02656"
+      ]
+    },
+    {
+      "id": "b3f63",
+      "geneNames": [
+        "Apo C-II"
+      ],
+      "type": "gene_protein",
+      "x": 215.28571428571436,
+      "y": 114.95238095238099,
+      "label": null,
+      "groupId": "cd43d",
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P02655",
+      "uniprotAccs": [
+        "P02655"
+      ]
+    },
+    {
+      "id": "c3a06",
+      "geneNames": null,
+      "type": "compound",
+      "x": 333.5238095238089,
+      "y": 50.000000000000064,
+      "label": "HDL",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:39025"
+    },
+    {
+      "id": "c44d8",
+      "geneNames": null,
+      "type": "compound",
+      "x": 231.28571428571445,
+      "y": 212.9523809523808,
+      "label": "cholesterol",
+      "groupId": "cd43d",
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000067"
+    },
+    {
+      "id": "cbadb",
+      "geneNames": null,
+      "type": "compound",
+      "x": 664.0,
+      "y": 173.0,
+      "label": "TG",
+      "groupId": "d9618",
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:17855"
+    },
+    {
+      "id": "d1855",
+      "geneNames": [
+        "CETP"
+      ],
+      "type": "gene_protein",
+      "x": 462.2857142857133,
+      "y": 147.9523809523808,
+      "label": null,
+      "groupId": "cd43d",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000087237",
+      "uniprotAccs": [
+        "P11597",
+        "H3BRJ9"
+      ]
+    },
+    {
+      "id": "d8f6c",
+      "geneNames": [
+        "LDLR"
+      ],
+      "type": "gene_protein",
+      "x": 1038.0,
+      "y": 148.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000130164",
+      "uniprotAccs": [
+        "P01130",
+        "H0YM92",
+        "H0YMD1",
+        "H0YMQ3",
+        "J3KMZ9"
+      ]
+    },
+    {
+      "id": "d9a5a",
+      "geneNames": [
+        "Apo A-II"
+      ],
+      "type": "gene_protein",
+      "x": 215.28571428571436,
+      "y": 94.95238095238103,
+      "label": null,
+      "groupId": "cd43d",
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P02652",
+      "uniprotAccs": [
+        "P02652"
+      ]
+    },
+    {
+      "id": "dd634",
+      "geneNames": [
+        "Apo E"
+      ],
+      "type": "gene_protein",
+      "x": 215.28571428571436,
+      "y": 154.9523809523808,
+      "label": null,
+      "groupId": "cd43d",
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P02649",
+      "uniprotAccs": [
+        "P02649"
+      ]
+    },
+    {
+      "id": "e2320",
+      "geneNames": null,
+      "type": "compound",
+      "x": 366.5,
+      "y": 362.0,
+      "label": "FA",
+      "groupId": "a6d31",
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:35366"
+    },
+    {
+      "id": "e3358",
+      "geneNames": [
+        "IDL"
+      ],
+      "type": "gene_protein",
+      "x": 794.5,
+      "y": 118.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "e67ea",
+      "geneNames": [
+        "LCAT"
+      ],
+      "type": "gene_protein",
+      "x": 305.83333333333263,
+      "y": 147.9523809523808,
+      "label": null,
+      "groupId": "cd43d",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000213398",
+      "uniprotAccs": [
+        "P04180",
+        "I3L0J6",
+        "I3L1Q6",
+        "I3L215",
+        "I3L3R0",
+        "J3QKT0",
+        "J3QSE5"
+      ]
+    },
+    {
+      "id": "ed5fa",
+      "geneNames": null,
+      "type": "compound",
+      "x": 936.0,
+      "y": 121.0,
+      "label": "LDL",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:39026"
+    },
+    {
+      "id": "f6ce6",
+      "geneNames": [
+        "Apo A-I"
+      ],
+      "type": "gene_protein",
+      "x": 215.28571428571436,
+      "y": 74.95238095238102,
+      "label": null,
+      "groupId": "cd43d",
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P02647",
+      "uniprotAccs": [
+        "P02647"
+      ]
+    },
+    {
+      "id": "fe999",
+      "geneNames": [
+        "LPL"
+      ],
+      "type": "gene_protein",
+      "x": 291.0,
+      "y": 329.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000175445",
+      "uniprotAccs": [
+        "P06858",
+        "A0A3B3IT60",
+        "E5RHN7",
+        "E5RJI0",
+        "E5RJZ4",
+        "E7EW14"
+      ]
+    },
+    {
+      "id": "ff285",
+      "geneNames": [
+        "Apo B-100"
+      ],
+      "type": "gene_protein",
+      "x": 583.8095238095215,
+      "y": 118.09523809523778,
+      "label": null,
+      "groupId": "d9618",
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P04114",
+      "uniprotAccs": [
+        "P04114"
+      ]
+    },
+    {
+      "id": "ddc4f",
+      "geneNames": null,
+      "type": "compound",
+      "x": 621.4285714285716,
+      "y": 92.57142857142863,
+      "label": "VLDL",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:39027"
+    },
+    {
+      "id": "f5c88",
+      "geneNames": null,
+      "type": "compound",
+      "x": 659.5714285714274,
+      "y": 212.04761904761884,
+      "label": "cholesteryl\nester",
+      "groupId": "d9618",
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:17002"
+    },
+    {
+      "id": "dd474",
+      "geneNames": [
+        "Apo E"
+      ],
+      "type": "gene_protein",
+      "x": 583.8095238095215,
+      "y": 178.0952380952376,
+      "label": null,
+      "groupId": "d9618",
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P02649",
+      "uniprotAccs": [
+        "P02649"
+      ]
+    },
+    {
+      "id": "b1904",
+      "geneNames": [
+        "Apo C-II"
+      ],
+      "type": "gene_protein",
+      "x": 583.8095238095215,
+      "y": 138.0952380952376,
+      "label": null,
+      "groupId": "d9618",
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P02655",
+      "uniprotAccs": [
+        "P02655"
+      ]
+    },
+    {
+      "id": "baae8",
+      "geneNames": [
+        "Apo C-III"
+      ],
+      "type": "gene_protein",
+      "x": 583.8095238095215,
+      "y": 158.0952380952376,
+      "label": null,
+      "groupId": "d9618",
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P02656",
+      "uniprotAccs": [
+        "P02656"
+      ]
+    },
+    {
+      "id": "abdd7",
+      "geneNames": [
+        "Apo B-48"
+      ],
+      "type": "gene_protein",
+      "x": 82.57142857142742,
+      "y": 308.7619047619044,
+      "label": null,
+      "groupId": "d92c4",
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "e41e3",
+      "geneNames": [
+        "Apo E"
+      ],
+      "type": "gene_protein",
+      "x": 82.57142857142742,
+      "y": 368.76190476190436,
+      "label": null,
+      "groupId": "d92c4",
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P02649",
+      "uniprotAccs": [
+        "P02649"
+      ]
+    },
+    {
+      "id": "a9626",
+      "geneNames": [
+        "Apo C-II"
+      ],
+      "type": "gene_protein",
+      "x": 82.57142857142742,
+      "y": 328.76190476190436,
+      "label": null,
+      "groupId": "d92c4",
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P02655",
+      "uniprotAccs": [
+        "P02655"
+      ]
+    },
+    {
+      "id": "fc008",
+      "geneNames": [
+        "Apo C-III"
+      ],
+      "type": "gene_protein",
+      "x": 82.57142857142742,
+      "y": 348.76190476190436,
+      "label": null,
+      "groupId": "d92c4",
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P02656",
+      "uniprotAccs": [
+        "P02656"
+      ]
+    },
+    {
+      "id": "c8eb7",
+      "geneNames": [
+        "Chylomicron"
+      ],
+      "type": "gene_protein",
+      "x": 115.83333333333374,
+      "y": 282.7619047619047,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "ffd78",
+      "geneNames": null,
+      "type": "compound",
+      "x": 173.0,
+      "y": 362.0,
+      "label": "TG",
+      "groupId": "d92c4",
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:17855"
+    },
+    {
+      "id": "fbb22",
+      "geneNames": null,
+      "type": "compound",
+      "x": 408.0,
+      "y": 362.0,
+      "label": "glycerol",
+      "groupId": "a6d31",
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000131"
+    },
+    {
+      "id": "a8ab0",
+      "geneNames": null,
+      "type": "compound",
+      "x": 120.28571428571445,
+      "y": 398.9523809523808,
+      "label": "cholesterol",
+      "groupId": "d92c4",
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000067"
+    },
+    {
+      "id": "b88d7",
+      "geneNames": null,
+      "type": "compound",
+      "x": 796.2857142857144,
+      "y": 146.9523809523808,
+      "label": "cholesterol",
+      "groupId": "e8006",
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000067"
+    },
+    {
+      "id": "d6a32",
+      "geneNames": null,
+      "type": "compound",
+      "x": 936.0,
+      "y": 148.9523809523808,
+      "label": "cholesterol",
+      "groupId": "aafaa",
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000067"
+    },
+    {
+      "id": "d1cbe",
+      "geneNames": null,
+      "type": "compound",
+      "x": 936.0,
+      "y": 307.0,
+      "label": "oxLDL",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:60151"
+    },
+    {
+      "id": "a8182",
+      "geneNames": null,
+      "type": "compound",
+      "x": 936.0,
+      "y": 280.9523809523808,
+      "label": "cholesterol",
+      "groupId": "acbd2",
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000067"
+    },
+    {
+      "id": "b807e",
+      "geneNames": [
+        "Apo E"
+      ],
+      "type": "gene_protein",
+      "x": 1038.021008403361,
+      "y": 66.2128851540613,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P02649",
+      "uniprotAccs": [
+        "P02649"
+      ]
+    },
+    {
+      "id": "a6d31",
+      "type": "group",
+      "components": [
+        "e2320",
+        "fbb22"
+      ]
+    },
+    {
+      "id": "aafaa",
+      "type": "group",
+      "components": [
+        "d6a32"
+      ]
+    },
+    {
+      "id": "acbd2",
+      "type": "group",
+      "components": [
+        "a8182"
+      ]
+    },
+    {
+      "id": "cd43d",
+      "type": "group",
+      "components": [
+        "a7738",
+        "afbdf",
+        "b3f63",
+        "c44d8",
+        "d1855",
+        "d9a5a",
+        "dd634",
+        "e67ea",
+        "f6ce6"
+      ]
+    },
+    {
+      "id": "d92c4",
+      "type": "group",
+      "components": [
+        "abdd7",
+        "e41e3",
+        "a9626",
+        "fc008",
+        "ffd78",
+        "a8ab0"
+      ]
+    },
+    {
+      "id": "d9618",
+      "type": "group",
+      "components": [
+        "cbadb",
+        "ff285",
+        "f5c88",
+        "dd474",
+        "b1904",
+        "baae8"
+      ]
+    },
+    {
+      "id": "e8006",
+      "type": "group",
+      "components": [
+        "b88d7"
+      ]
+    }
+  ]
+}

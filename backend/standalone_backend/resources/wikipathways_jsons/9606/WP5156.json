@@ -1,0 +1,231 @@
+{
+  "pathway": {
+    "name": "WP5156",
+    "org": "Homo sapiens",
+    "title": "SARS-CoV-2 replication organelle formation"
+  },
+  "links": [
+    {
+      "id": "id54a76e1d",
+      "sourceId": "b96c6",
+      "targetId": "cff8b",
+      "types": [
+        "stimulation"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "eb0ee",
+      "geneNames": [
+        "Beclin-1"
+      ],
+      "type": "gene_protein",
+      "x": 473.75,
+      "y": 468.25,
+      "label": null,
+      "groupId": "ae28e",
+      "referenceDatabase": "Uniprot",
+      "referenceId": "Q14457",
+      "uniprotAccs": [
+        "Q14457"
+      ]
+    },
+    {
+      "id": "ee422",
+      "geneNames": [
+        "VPS15\t"
+      ],
+      "type": "gene_protein",
+      "x": 537.75,
+      "y": 437.75,
+      "label": null,
+      "groupId": "ae28e",
+      "referenceDatabase": "Uniprot",
+      "referenceId": "Q99570",
+      "uniprotAccs": [
+        "Q99570"
+      ]
+    },
+    {
+      "id": "c895e",
+      "geneNames": [
+        "VPS34"
+      ],
+      "type": "gene_protein",
+      "x": 537.75,
+      "y": 468.25,
+      "label": null,
+      "groupId": "ae28e",
+      "referenceDatabase": "Uniprot",
+      "referenceId": "Q8NEB9",
+      "uniprotAccs": [
+        "Q8NEB9"
+      ]
+    },
+    {
+      "id": "ee487",
+      "geneNames": [
+        "AMBRA"
+      ],
+      "type": "gene_protein",
+      "x": 473.75,
+      "y": 437.75,
+      "label": null,
+      "groupId": "ae28e",
+      "referenceDatabase": "Uniprot",
+      "referenceId": "Q9C0C7",
+      "uniprotAccs": [
+        "Q9C0C7"
+      ]
+    },
+    {
+      "id": "eec88",
+      "geneNames": [
+        "ATG14"
+      ],
+      "type": "gene_protein",
+      "x": 501.75,
+      "y": 499.75,
+      "label": null,
+      "groupId": "ae28e",
+      "referenceDatabase": "Uniprot",
+      "referenceId": "Q6ZNE5",
+      "uniprotAccs": [
+        "Q6ZNE5"
+      ]
+    },
+    {
+      "id": "cff8b",
+      "geneNames": null,
+      "type": "compound",
+      "x": 664.75,
+      "y": 481.75,
+      "label": "PI3P",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "26034"
+    },
+    {
+      "id": "d63a7",
+      "geneNames": [
+        "DFCP1"
+      ],
+      "type": "gene_protein",
+      "x": 772.75,
+      "y": 480.75,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "Q9HBF4",
+      "uniprotAccs": [
+        "Q9HBF4"
+      ]
+    },
+    {
+      "id": "b96c6",
+      "geneNames": [
+        "nsp3"
+      ],
+      "type": "gene_protein",
+      "x": 665.75,
+      "y": 412.75,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "RefSeq_Protein",
+      "referenceId": "YP_009725299",
+      "uniprotAccs": null
+    },
+    {
+      "id": "b3621",
+      "geneNames": [
+        "rep 1ab"
+      ],
+      "type": "gene_protein",
+      "x": 211.0,
+      "y": 574.75,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P0DTD1",
+      "uniprotAccs": [
+        "P0DTD1"
+      ]
+    },
+    {
+      "id": "cc921",
+      "geneNames": [
+        "rep 1ab"
+      ],
+      "type": "gene_protein",
+      "x": 345.0,
+      "y": 460.75,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P0DTD1",
+      "uniprotAccs": [
+        "P0DTD1"
+      ]
+    },
+    {
+      "id": "affd6",
+      "geneNames": [
+        "rep 1ab"
+      ],
+      "type": "gene_protein",
+      "x": 337.0,
+      "y": 623.75,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P0DTD1",
+      "uniprotAccs": [
+        "P0DTD1"
+      ]
+    },
+    {
+      "id": "a9559",
+      "geneNames": [
+        "rep 1ab"
+      ],
+      "type": "gene_protein",
+      "x": 856.0,
+      "y": 554.75,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P0DTD1",
+      "uniprotAccs": [
+        "P0DTD1"
+      ]
+    },
+    {
+      "id": "be601",
+      "geneNames": [
+        "rep 1ab"
+      ],
+      "type": "gene_protein",
+      "x": 928.0,
+      "y": 521.75,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P0DTD1",
+      "uniprotAccs": [
+        "P0DTD1"
+      ]
+    },
+    {
+      "id": "ae28e",
+      "type": "group",
+      "components": [
+        "eb0ee",
+        "ee422",
+        "c895e",
+        "ee487",
+        "eec88"
+      ]
+    }
+  ]
+}

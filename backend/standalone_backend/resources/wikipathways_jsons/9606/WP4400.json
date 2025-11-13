@@ -1,0 +1,134 @@
+{
+  "pathway": {
+    "name": "WP4400",
+    "org": "Homo sapiens",
+    "title": "FABP4 in ovarian cancer"
+  },
+  "links": [
+    {
+      "id": "id374425a1",
+      "sourceId": "d9a66",
+      "targetId": "cce25",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id8bef8d3e",
+      "sourceId": "c2e9a",
+      "targetId": "d26ef",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id9d7db212",
+      "sourceId": "d26ef",
+      "targetId": "cce25",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "ida26f0a21",
+      "sourceId": "cce25",
+      "targetId": "ddb85",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "aec65",
+      "sourceId": "be356",
+      "targetId": "cce25",
+      "types": [
+        "inhibition"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "cce25",
+      "geneNames": [
+        "FABP4"
+      ],
+      "type": "gene_protein",
+      "x": 293.5,
+      "y": 358.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000170323",
+      "uniprotAccs": [
+        "P15090",
+        "E5RIR0"
+      ]
+    },
+    {
+      "id": "d26ef",
+      "geneNames": [
+        "MIR409"
+      ],
+      "type": "gene_protein",
+      "x": 293.5,
+      "y": 233.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000199107",
+      "uniprotAccs": null
+    },
+    {
+      "id": "c2e9a",
+      "geneNames": null,
+      "type": "misc",
+      "x": 293.5,
+      "y": 78.0,
+      "label": "Hypoxia",
+      "groupId": null,
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q105688"
+    },
+    {
+      "id": "ddb85",
+      "geneNames": null,
+      "type": "misc",
+      "x": 293.5,
+      "y": 509.0,
+      "label": "Aggressive disease",
+      "groupId": null
+    },
+    {
+      "id": "eab5f",
+      "geneNames": null,
+      "type": "misc",
+      "x": 569.5,
+      "y": 237.0,
+      "label": "mir-409-3p \nmimic",
+      "groupId": "d9a66"
+    },
+    {
+      "id": "bb40a",
+      "geneNames": null,
+      "type": "misc",
+      "x": 569.5,
+      "y": 368.0,
+      "label": "FABP4\nsiRNA",
+      "groupId": "be356"
+    },
+    {
+      "id": "be356",
+      "type": "group",
+      "components": [
+        "bb40a"
+      ]
+    },
+    {
+      "id": "d9a66",
+      "type": "group",
+      "components": [
+        "eab5f"
+      ]
+    }
+  ]
+}

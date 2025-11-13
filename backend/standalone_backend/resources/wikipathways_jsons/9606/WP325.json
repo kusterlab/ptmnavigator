@@ -1,0 +1,863 @@
+{
+  "pathway": {
+    "name": "WP325",
+    "org": "Homo sapiens",
+    "title": "Triacylglyceride synthesis"
+  },
+  "links": [
+    {
+      "id": "a0b3d",
+      "sourceId": "e98d1",
+      "targetId": "be6cd",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "a92aa",
+      "sourceId": "cff84",
+      "targetId": "b4d7e",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ab28d",
+      "sourceId": "b687d",
+      "targetId": "b7a8b",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "ac313",
+      "sourceId": "a3c",
+      "targetId": "e63f7",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "bb7ea",
+      "sourceId": "cff84",
+      "targetId": "b237b",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "be6cd",
+      "sourceId": "b7a8b",
+      "targetId": "b037f",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "c0970",
+      "sourceId": "da0f7",
+      "targetId": "e0971",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "c5cee",
+      "sourceId": "e2b",
+      "targetId": "fe8f4",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "c5ef2",
+      "sourceId": "a8fda",
+      "targetId": "cfb91",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "cef81",
+      "sourceId": "b114e",
+      "targetId": "d8780",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "cfb91",
+      "sourceId": "b237b",
+      "targetId": "b114e",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "d2239",
+      "sourceId": "cf4ec",
+      "targetId": "ab28d",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "d5b9c",
+      "sourceId": "be5b1",
+      "targetId": "b037f",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "d6c55",
+      "sourceId": "b27",
+      "targetId": "fb23e",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "dc020",
+      "sourceId": "cff84",
+      "targetId": "b1fe6",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "dc989",
+      "sourceId": "a7a34",
+      "targetId": "d5b9c",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "dee2f",
+      "sourceId": "e62c2",
+      "targetId": "d6c55",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "e0971",
+      "sourceId": "d8780",
+      "targetId": "be5b1",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "e4eb3",
+      "sourceId": "fb23e",
+      "targetId": "d8780",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "e63f7",
+      "sourceId": "dbe78",
+      "targetId": "fb23e",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "e9e14",
+      "sourceId": "b037f",
+      "targetId": "b687d",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "ef59b",
+      "sourceId": "ef351",
+      "targetId": "f76da",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "f76da",
+      "sourceId": "b1fe6",
+      "targetId": "b687d",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "f9a91",
+      "sourceId": "a8fda",
+      "targetId": "fa261",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "fa261",
+      "sourceId": "bfc",
+      "targetId": "b114e",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "fa98f",
+      "sourceId": "e32",
+      "targetId": "cef81",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "fc390",
+      "sourceId": "ef351",
+      "targetId": "e9e14",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "fe8f4",
+      "sourceId": "b4d7e",
+      "targetId": "d8780",
+      "types": [
+        "conversion"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "a2f",
+      "geneNames": [
+        "PPAP2B"
+      ],
+      "type": "gene_protein",
+      "x": 571.0,
+      "y": 641.0,
+      "label": null,
+      "groupId": "a7a34",
+      "referenceDatabase": "GeneID",
+      "referenceId": "8613",
+      "uniprotAccs": [
+        "O14495"
+      ]
+    },
+    {
+      "id": "a3c",
+      "geneNames": [
+        "GPD1"
+      ],
+      "type": "gene_protein",
+      "x": 194.0,
+      "y": 187.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "2819",
+      "uniprotAccs": [
+        "P21695",
+        "A0A024R138"
+      ]
+    },
+    {
+      "id": "a92",
+      "geneNames": [
+        "DGAT2"
+      ],
+      "type": "gene_protein",
+      "x": 721.6666666666666,
+      "y": 807.6666666666666,
+      "label": null,
+      "groupId": "ef351",
+      "referenceDatabase": "GeneID",
+      "referenceId": "84649",
+      "uniprotAccs": [
+        "Q96PD7"
+      ]
+    },
+    {
+      "id": "ac8",
+      "geneNames": [
+        "LIPF"
+      ],
+      "type": "gene_protein",
+      "x": 503.0,
+      "y": 1054.6666666666665,
+      "label": null,
+      "groupId": "cf4ec",
+      "referenceDatabase": "GeneID",
+      "referenceId": "8513",
+      "uniprotAccs": [
+        "P07098"
+      ]
+    },
+    {
+      "id": "b037f",
+      "geneNames": null,
+      "type": "compound",
+      "x": 505.3333333333333,
+      "y": 717.3333333333334,
+      "label": "Diacylglycerol",
+      "groupId": null,
+      "referenceDatabase": "KEGG Compound",
+      "referenceId": "C00165"
+    },
+    {
+      "id": "b0c",
+      "geneNames": [
+        "AGPAT1"
+      ],
+      "type": "gene_protein",
+      "x": 571.6666666666667,
+      "y": 445.0,
+      "label": null,
+      "groupId": "da0f7",
+      "referenceDatabase": "GeneID",
+      "referenceId": "10554",
+      "uniprotAccs": [
+        "Q99943",
+        "A0A024RCV5"
+      ]
+    },
+    {
+      "id": "b114e",
+      "geneNames": null,
+      "type": "compound",
+      "x": 508.0,
+      "y": 276.0,
+      "label": "Acyl dihydroxyacetone phosphate",
+      "groupId": null,
+      "referenceDatabase": "KEGG Compound",
+      "referenceId": "C03372"
+    },
+    {
+      "id": "b1fe6",
+      "geneNames": null,
+      "type": "compound",
+      "x": 738.6666666666666,
+      "y": 717.3333333333334,
+      "label": "Fatty acyl CoA",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:37554"
+    },
+    {
+      "id": "b21",
+      "geneNames": [
+        "PPAP2A"
+      ],
+      "type": "gene_protein",
+      "x": 571.0,
+      "y": 621.0,
+      "label": null,
+      "groupId": "a7a34",
+      "referenceDatabase": "GeneID",
+      "referenceId": "8611",
+      "uniprotAccs": [
+        "O14494"
+      ]
+    },
+    {
+      "id": "b237b",
+      "geneNames": null,
+      "type": "compound",
+      "x": 617.3333333333334,
+      "y": 117.75,
+      "label": "Fatty acyl CoA",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:37554"
+    },
+    {
+      "id": "b27",
+      "geneNames": null,
+      "type": "compound",
+      "x": 348.5833333333333,
+      "y": 217.98333740234375,
+      "label": "Glycerol",
+      "groupId": null,
+      "referenceDatabase": "CAS",
+      "referenceId": "56-81-5"
+    },
+    {
+      "id": "b4d7e",
+      "geneNames": null,
+      "type": "compound",
+      "x": 768.6666666666666,
+      "y": 314.6666666666667,
+      "label": "Fatty acyl CoA",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:37554"
+    },
+    {
+      "id": "b687d",
+      "geneNames": null,
+      "type": "compound",
+      "x": 630.6666666666666,
+      "y": 844.0,
+      "label": "Triacylglycerol",
+      "groupId": null,
+      "referenceDatabase": "KEGG Compound",
+      "referenceId": "C00422"
+    },
+    {
+      "id": "b7a8b",
+      "geneNames": null,
+      "type": "compound",
+      "x": 374.0,
+      "y": 844.0,
+      "label": "Monoacylglycerol",
+      "groupId": null,
+      "referenceDatabase": "KEGG Compound",
+      "referenceId": "C01885"
+    },
+    {
+      "id": "be5b1",
+      "geneNames": null,
+      "type": "compound",
+      "x": 506.0,
+      "y": 588.0,
+      "label": "Phosphatidic acid",
+      "groupId": null,
+      "referenceDatabase": "PubChem-compound",
+      "referenceId": "5460104"
+    },
+    {
+      "id": "bfc",
+      "geneNames": null,
+      "type": "compound",
+      "x": 358.1666666666667,
+      "y": 117.75,
+      "label": "Dihydroxyacetone phosphate",
+      "groupId": null,
+      "referenceDatabase": "CAS",
+      "referenceId": "57-04-5"
+    },
+    {
+      "id": "c33",
+      "geneNames": [
+        "MOGAT1"
+      ],
+      "type": "gene_protein",
+      "x": 312.3333333333333,
+      "y": 768.0,
+      "label": null,
+      "groupId": "e98d1",
+      "referenceDatabase": "GeneID",
+      "referenceId": "116255",
+      "uniprotAccs": [
+        "Q96PD6"
+      ]
+    },
+    {
+      "id": "c49",
+      "geneNames": [
+        "GNPAT"
+      ],
+      "type": "gene_protein",
+      "x": 606.3333333333333,
+      "y": 235.0,
+      "label": null,
+      "groupId": "a8fda",
+      "referenceDatabase": "GeneID",
+      "referenceId": "8443",
+      "uniprotAccs": [
+        "O15228"
+      ]
+    },
+    {
+      "id": "c58",
+      "geneNames": [
+        "GK"
+      ],
+      "type": "gene_protein",
+      "x": 286.00000000000006,
+      "y": 164.0,
+      "label": null,
+      "groupId": "e62c2",
+      "referenceDatabase": "GeneID",
+      "referenceId": "2710",
+      "uniprotAccs": [
+        "P32189",
+        "A0A8I5KXY7",
+        "B4DH54"
+      ]
+    },
+    {
+      "id": "cca",
+      "geneNames": [
+        "PPAP2C"
+      ],
+      "type": "gene_protein",
+      "x": 571.0,
+      "y": 661.0,
+      "label": null,
+      "groupId": "a7a34",
+      "referenceDatabase": "GeneID",
+      "referenceId": "8612",
+      "uniprotAccs": [
+        "O43688"
+      ]
+    },
+    {
+      "id": "cec",
+      "geneNames": [
+        "AGPAT2"
+      ],
+      "type": "gene_protein",
+      "x": 571.6666666666667,
+      "y": 465.0,
+      "label": null,
+      "groupId": "da0f7",
+      "referenceDatabase": "GeneID",
+      "referenceId": "10555",
+      "uniprotAccs": [
+        "O15120",
+        "A0A024R8F9"
+      ]
+    },
+    {
+      "id": "cff84",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 880.0,
+      "y": 30.0,
+      "label": "Fatty Acid Synthesis",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP357"
+    },
+    {
+      "id": "d8780",
+      "geneNames": null,
+      "type": "compound",
+      "x": 506.0,
+      "y": 414.6666666666667,
+      "label": "Lysophosphatidic acid",
+      "groupId": null,
+      "referenceDatabase": "PubChem-compound",
+      "referenceId": "5497152"
+    },
+    {
+      "id": "d8a",
+      "geneNames": [
+        "LPL"
+      ],
+      "type": "gene_protein",
+      "x": 503.0,
+      "y": 994.6666666666666,
+      "label": null,
+      "groupId": "cf4ec",
+      "referenceDatabase": "GeneID",
+      "referenceId": "4023",
+      "uniprotAccs": [
+        "P06858",
+        "A0A1B1RVA9"
+      ]
+    },
+    {
+      "id": "dbe78",
+      "geneNames": null,
+      "type": "compound",
+      "x": 90.65833333333333,
+      "y": 217.98333333333332,
+      "label": "Dihydroxyacetone phosphate",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0001473"
+    },
+    {
+      "id": "e2b",
+      "geneNames": [
+        "GPAM"
+      ],
+      "type": "gene_protein",
+      "x": 687.6666666666666,
+      "y": 284.6666666666667,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "57678",
+      "uniprotAccs": [
+        "Q9HCL2",
+        "Q86T70",
+        "Q8N1G6"
+      ]
+    },
+    {
+      "id": "e32",
+      "geneNames": [
+        "AYR1"
+      ],
+      "type": "gene_protein",
+      "x": 559.3333333333333,
+      "y": 332.3333333333333,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "ea3",
+      "geneNames": [
+        "MOGAT2"
+      ],
+      "type": "gene_protein",
+      "x": 312.3333333333333,
+      "y": 787.0,
+      "label": null,
+      "groupId": "e98d1",
+      "referenceDatabase": "GeneID",
+      "referenceId": "80168",
+      "uniprotAccs": [
+        "Q3SYC2"
+      ]
+    },
+    {
+      "id": "ee4",
+      "geneNames": [
+        "PNPLA2"
+      ],
+      "type": "gene_protein",
+      "x": 503.0,
+      "y": 1074.6666666666665,
+      "label": null,
+      "groupId": "cf4ec",
+      "referenceDatabase": "GeneID",
+      "referenceId": "57104",
+      "uniprotAccs": [
+        "Q96AD5"
+      ]
+    },
+    {
+      "id": "f0c",
+      "geneNames": [
+        "AGPS"
+      ],
+      "type": "gene_protein",
+      "x": 606.3333333333333,
+      "y": 215.0,
+      "label": null,
+      "groupId": "a8fda",
+      "referenceDatabase": "GeneID",
+      "referenceId": "8540",
+      "uniprotAccs": [
+        "O00116",
+        "B7Z3Q4"
+      ]
+    },
+    {
+      "id": "f3b",
+      "geneNames": [
+        "AGPAT5"
+      ],
+      "type": "gene_protein",
+      "x": 571.6666666666667,
+      "y": 525.0,
+      "label": null,
+      "groupId": "da0f7",
+      "referenceDatabase": "GeneID",
+      "referenceId": "55326",
+      "uniprotAccs": [
+        "Q9NUQ2",
+        "A0A024R640"
+      ]
+    },
+    {
+      "id": "f4c",
+      "geneNames": [
+        "GK2"
+      ],
+      "type": "gene_protein",
+      "x": 286.00000000000006,
+      "y": 184.0,
+      "label": null,
+      "groupId": "e62c2",
+      "referenceDatabase": "GeneID",
+      "referenceId": "2712",
+      "uniprotAccs": [
+        "Q14410",
+        "A0A140VKG0"
+      ]
+    },
+    {
+      "id": "f79",
+      "geneNames": [
+        "DGAT1"
+      ],
+      "type": "gene_protein",
+      "x": 721.6666666666666,
+      "y": 787.6666666666666,
+      "label": null,
+      "groupId": "ef351",
+      "referenceDatabase": "GeneID",
+      "referenceId": "8694",
+      "uniprotAccs": [
+        "O75907"
+      ]
+    },
+    {
+      "id": "f89",
+      "geneNames": [
+        "LIPC"
+      ],
+      "type": "gene_protein",
+      "x": 503.0,
+      "y": 1034.6666666666665,
+      "label": null,
+      "groupId": "cf4ec",
+      "referenceDatabase": "GeneID",
+      "referenceId": "3990",
+      "uniprotAccs": [
+        "P11150",
+        "A6H8L5"
+      ]
+    },
+    {
+      "id": "fab",
+      "geneNames": [
+        "MOGAT3"
+      ],
+      "type": "gene_protein",
+      "x": 312.3333333333333,
+      "y": 807.0,
+      "label": null,
+      "groupId": "e98d1",
+      "referenceDatabase": "GeneID",
+      "referenceId": "346606",
+      "uniprotAccs": [
+        "Q86VF5"
+      ]
+    },
+    {
+      "id": "fb23e",
+      "geneNames": null,
+      "type": "compound",
+      "x": 233.33333333333334,
+      "y": 314.6666666666667,
+      "label": "Glycerol-3-phosphate",
+      "groupId": null,
+      "referenceDatabase": "KEGG Compound",
+      "referenceId": "C00093"
+    },
+    {
+      "id": "fc0",
+      "geneNames": [
+        "AGPAT3"
+      ],
+      "type": "gene_protein",
+      "x": 571.6666666666667,
+      "y": 485.0,
+      "label": null,
+      "groupId": "da0f7",
+      "referenceDatabase": "GeneID",
+      "referenceId": "56894",
+      "uniprotAccs": [
+        "Q9NRZ7"
+      ]
+    },
+    {
+      "id": "fd7",
+      "geneNames": [
+        "LIPE"
+      ],
+      "type": "gene_protein",
+      "x": 503.0,
+      "y": 1014.6666666666666,
+      "label": null,
+      "groupId": "cf4ec",
+      "referenceDatabase": "GeneID",
+      "referenceId": "3991",
+      "uniprotAccs": [
+        "Q05469",
+        "A8K8W7"
+      ]
+    },
+    {
+      "id": "ffc",
+      "geneNames": [
+        "AGPAT4"
+      ],
+      "type": "gene_protein",
+      "x": 571.6666666666667,
+      "y": 505.0,
+      "label": null,
+      "groupId": "da0f7",
+      "referenceDatabase": "GeneID",
+      "referenceId": "56895",
+      "uniprotAccs": [
+        "Q9NRZ5"
+      ]
+    },
+    {
+      "id": "a7a34",
+      "type": "group",
+      "components": [
+        "a2f",
+        "b21",
+        "cca"
+      ]
+    },
+    {
+      "id": "a8fda",
+      "type": "group",
+      "components": [
+        "c49",
+        "f0c"
+      ]
+    },
+    {
+      "id": "cf4ec",
+      "type": "group",
+      "components": [
+        "ac8",
+        "d8a",
+        "ee4",
+        "f89",
+        "fd7"
+      ]
+    },
+    {
+      "id": "da0f7",
+      "type": "group",
+      "components": [
+        "b0c",
+        "cec",
+        "f3b",
+        "fc0",
+        "ffc"
+      ]
+    },
+    {
+      "id": "e62c2",
+      "type": "group",
+      "components": [
+        "c58",
+        "f4c"
+      ]
+    },
+    {
+      "id": "e98d1",
+      "type": "group",
+      "components": [
+        "c33",
+        "ea3",
+        "fab"
+      ]
+    },
+    {
+      "id": "ef351",
+      "type": "group",
+      "components": [
+        "a92",
+        "f79"
+      ]
+    }
+  ]
+}

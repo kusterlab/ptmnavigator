@@ -1,0 +1,374 @@
+{
+  "pathway": {
+    "name": "WP136",
+    "org": "Homo sapiens",
+    "title": "Phase I biotransformations, non P450"
+  },
+  "links": [
+    {
+      "id": "ae21f",
+      "sourceId": "aa661",
+      "targetId": "af048",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "af048",
+      "sourceId": "a1e36",
+      "targetId": "c28bd",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "d1dd6",
+      "sourceId": "ab569",
+      "targetId": "db646",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "db646",
+      "sourceId": "cae49",
+      "targetId": "d55f1",
+      "types": [
+        "activation"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "a1626",
+      "geneNames": null,
+      "type": "compound",
+      "x": 105.0,
+      "y": 233.0,
+      "label": "thio esters",
+      "groupId": "cae49",
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:51277"
+    },
+    {
+      "id": "a1e36",
+      "geneNames": null,
+      "type": "compound",
+      "x": 105.0,
+      "y": 291.0,
+      "label": "Phosphoric acid esters",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:37734"
+    },
+    {
+      "id": "ac5",
+      "geneNames": [
+        "CES7"
+      ],
+      "type": "gene_protein",
+      "x": 282.0,
+      "y": 134.0,
+      "label": null,
+      "groupId": "ab569",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000159398",
+      "uniprotAccs": [
+        "Q6NT32",
+        "A0A0J9YW16",
+        "E5RFG9",
+        "F5H0J7",
+        "I3NI11"
+      ]
+    },
+    {
+      "id": "b198c",
+      "geneNames": null,
+      "type": "compound",
+      "x": 478.0,
+      "y": 232.0,
+      "label": "thio esters",
+      "groupId": "d55f1",
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:51277"
+    },
+    {
+      "id": "b38",
+      "geneNames": [
+        "ESD"
+      ],
+      "type": "gene_protein",
+      "x": 282.0,
+      "y": 114.0,
+      "label": null,
+      "groupId": "ab569",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000139684",
+      "uniprotAccs": [
+        "P10768",
+        "H7BZT7",
+        "U3KQT1",
+        "X6RA14"
+      ]
+    },
+    {
+      "id": "b6f",
+      "geneNames": [
+        "LIPA"
+      ],
+      "type": "gene_protein",
+      "x": 282.0,
+      "y": 154.0,
+      "label": null,
+      "groupId": "ab569",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000107798",
+      "uniprotAccs": [
+        "P38571",
+        "A0A0A0MT32",
+        "Q5T073",
+        "Q5T770"
+      ]
+    },
+    {
+      "id": "b758e",
+      "geneNames": null,
+      "type": "compound",
+      "x": 105.0,
+      "y": 185.0,
+      "label": "carboxylic acid esters",
+      "groupId": "cae49",
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:33308"
+    },
+    {
+      "id": "b76",
+      "geneNames": [
+        "PON3"
+      ],
+      "type": "gene_protein",
+      "x": 265.0,
+      "y": 368.0,
+      "label": null,
+      "groupId": "aa661",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000105852",
+      "uniprotAccs": [
+        "Q15166",
+        "C9JZ99",
+        "F2Z2L3",
+        "F8WBV4",
+        "F8WD41"
+      ]
+    },
+    {
+      "id": "bc7f3",
+      "geneNames": null,
+      "type": "compound",
+      "x": 478.0,
+      "y": 208.0,
+      "label": "amides",
+      "groupId": "d55f1",
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:32988"
+    },
+    {
+      "id": "c109a",
+      "geneNames": null,
+      "type": "compound",
+      "x": 478.0,
+      "y": 184.0,
+      "label": "carboxylic acid esters",
+      "groupId": "d55f1",
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:33308"
+    },
+    {
+      "id": "db710",
+      "geneNames": null,
+      "type": "compound",
+      "x": 478.0,
+      "y": 291.0,
+      "label": "Phosphoric acid esters",
+      "groupId": "c28bd",
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:37734"
+    },
+    {
+      "id": "dd4",
+      "geneNames": [
+        "CES2"
+      ],
+      "type": "gene_protein",
+      "x": 282.0,
+      "y": 173.0,
+      "label": null,
+      "groupId": "ab569",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000172831",
+      "uniprotAccs": [
+        "O00748",
+        "H3BUN5",
+        "J3QLP1",
+        "J3QSC0"
+      ]
+    },
+    {
+      "id": "dfd",
+      "geneNames": [
+        "PON2"
+      ],
+      "type": "gene_protein",
+      "x": 265.0,
+      "y": 348.0,
+      "label": null,
+      "groupId": "aa661",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000105854",
+      "uniprotAccs": [
+        "Q15165",
+        "A0A0J9YVW3",
+        "A0A0J9YXF2",
+        "A0A0J9YXM1",
+        "A0A0J9YXU7",
+        "A0A0J9YYF0",
+        "A0A0J9YYF3",
+        "A0A0J9YYJ1",
+        "A0A2Q2SAK4",
+        "G3XAK4"
+      ]
+    },
+    {
+      "id": "e744e",
+      "geneNames": null,
+      "type": "compound",
+      "x": 105.0,
+      "y": 209.0,
+      "label": "amides",
+      "groupId": "cae49",
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:32988"
+    },
+    {
+      "id": "f26",
+      "geneNames": [
+        "CES1"
+      ],
+      "type": "gene_protein",
+      "x": 282.0,
+      "y": 94.0,
+      "label": null,
+      "groupId": "ab569",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000198848",
+      "uniprotAccs": [
+        "P23141",
+        "H3BQR4",
+        "H3BQV8",
+        "H3BSU0"
+      ]
+    },
+    {
+      "id": "ff0",
+      "geneNames": [
+        "PON1"
+      ],
+      "type": "gene_protein",
+      "x": 265.0,
+      "y": 328.0,
+      "label": null,
+      "groupId": "aa661",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000005421",
+      "uniprotAccs": [
+        "P27169",
+        "F8WF42"
+      ]
+    },
+    {
+      "id": "db7",
+      "geneNames": null,
+      "type": "misc",
+      "x": 555.0,
+      "y": 182.0,
+      "label": "OH",
+      "groupId": "d55f1"
+    },
+    {
+      "id": "e3d",
+      "geneNames": null,
+      "type": "misc",
+      "x": 555.0,
+      "y": 232.0,
+      "label": "OH",
+      "groupId": "d55f1"
+    },
+    {
+      "id": "e68",
+      "geneNames": null,
+      "type": "misc",
+      "x": 555.0,
+      "y": 208.0,
+      "label": "OH",
+      "groupId": "d55f1"
+    },
+    {
+      "id": "f1b",
+      "geneNames": null,
+      "type": "misc",
+      "x": 555.0,
+      "y": 291.0,
+      "label": "OH",
+      "groupId": "c28bd"
+    },
+    {
+      "id": "aa661",
+      "type": "group",
+      "components": [
+        "b76",
+        "dfd",
+        "ff0"
+      ]
+    },
+    {
+      "id": "ab569",
+      "type": "group",
+      "components": [
+        "ac5",
+        "b38",
+        "b6f",
+        "dd4",
+        "f26"
+      ]
+    },
+    {
+      "id": "c28bd",
+      "type": "group",
+      "components": [
+        "db710",
+        "f1b"
+      ]
+    },
+    {
+      "id": "cae49",
+      "type": "group",
+      "components": [
+        "a1626",
+        "b758e",
+        "e744e"
+      ]
+    },
+    {
+      "id": "d55f1",
+      "type": "group",
+      "components": [
+        "b198c",
+        "bc7f3",
+        "c109a",
+        "db7",
+        "e3d",
+        "e68"
+      ]
+    }
+  ]
+}

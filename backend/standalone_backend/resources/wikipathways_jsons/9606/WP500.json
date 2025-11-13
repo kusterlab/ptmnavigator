@@ -1,0 +1,1220 @@
+{
+  "pathway": {
+    "name": "WP500",
+    "org": "Homo sapiens",
+    "title": "Glycogen synthesis and degradation"
+  },
+  "links": [
+    {
+      "id": "a4db7",
+      "sourceId": "b8494",
+      "targetId": "aa2",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "a4e9b",
+      "sourceId": "df1",
+      "targetId": "ce527",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "a54eb",
+      "sourceId": "dfe4e",
+      "targetId": "d0c9e",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "a5a44",
+      "sourceId": "d5dd2",
+      "targetId": "f2c",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "b3d0e",
+      "sourceId": "e2798",
+      "targetId": "d0c9e",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "c6ab1",
+      "sourceId": "f80c3",
+      "targetId": "a9287",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "c82b7",
+      "sourceId": "f2c",
+      "targetId": "e609e",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "cb7a2",
+      "sourceId": "af3bf",
+      "targetId": "e2798",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "ce527",
+      "sourceId": "b8494",
+      "targetId": "dcc",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "d0c9e",
+      "sourceId": "d1c90",
+      "targetId": "e3e",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "dfd99",
+      "sourceId": "b9f",
+      "targetId": "d1c90",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "e7e9d",
+      "sourceId": "f88ec",
+      "targetId": "a9287",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "e8d28",
+      "sourceId": "afdba",
+      "targetId": "f88ec",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ef204",
+      "sourceId": "dea4e",
+      "targetId": "dfd99",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "f08e5",
+      "sourceId": "aa2",
+      "targetId": "d5dd2",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "f1a41",
+      "sourceId": "a9287",
+      "targetId": "f08e5",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "f23be",
+      "sourceId": "e3e",
+      "targetId": "da6",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "f99e1",
+      "sourceId": "f88ec",
+      "targetId": "e2798",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "f9baf",
+      "sourceId": "f80c3",
+      "targetId": "e2798",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "fd333",
+      "sourceId": "f01",
+      "targetId": "f23be",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ffbe5",
+      "sourceId": "f0d",
+      "targetId": "a5a44",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id928e4693",
+      "sourceId": "da6",
+      "targetId": "b9f",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id968909f8",
+      "sourceId": "e65d7",
+      "targetId": "a84a3",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ida1160cf",
+      "sourceId": "dcc",
+      "targetId": "f2c",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "idc0592b88",
+      "sourceId": "c7cc1",
+      "targetId": "dfd18",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idfa0452a7",
+      "sourceId": "dcc",
+      "targetId": "c80b0",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "c80b0",
+      "sourceId": "c7cc1",
+      "targetId": "id928e4693",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "d311b",
+      "sourceId": "e65d7",
+      "targetId": "ida1160cf",
+      "types": [
+        "catalysis"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "a03",
+      "geneNames": [
+        "PYGM"
+      ],
+      "type": "gene_protein",
+      "x": 343.3333333333334,
+      "y": 283.9999999999994,
+      "label": null,
+      "groupId": "a9287",
+      "referenceDatabase": "GeneID",
+      "referenceId": "5837",
+      "uniprotAccs": [
+        "P11217"
+      ]
+    },
+    {
+      "id": "a2e",
+      "geneNames": [
+        "PPP2CB"
+      ],
+      "type": "gene_protein",
+      "x": 492.3333333333334,
+      "y": 443.3333333333329,
+      "label": null,
+      "groupId": "f80c3",
+      "referenceDatabase": "GeneID",
+      "referenceId": "5516",
+      "uniprotAccs": [
+        "P62714",
+        "A0A140VJS0"
+      ]
+    },
+    {
+      "id": "a31",
+      "geneNames": [
+        "PHKB"
+      ],
+      "type": "gene_protein",
+      "x": 491.3333333333334,
+      "y": 163.00000000000045,
+      "label": null,
+      "groupId": "f88ec",
+      "referenceDatabase": "GeneID",
+      "referenceId": "5257",
+      "uniprotAccs": [
+        "Q93100"
+      ]
+    },
+    {
+      "id": "a362c",
+      "geneNames": [
+        "PYG, muscle form"
+      ],
+      "type": "gene_protein",
+      "x": 1245.0,
+      "y": 277.0,
+      "label": null,
+      "groupId": "dfd18",
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P11217",
+      "uniprotAccs": [
+        "P11217"
+      ]
+    },
+    {
+      "id": "a3c",
+      "geneNames": [
+        "GYS2"
+      ],
+      "type": "gene_protein",
+      "x": 711.3333333333331,
+      "y": 292.333333333333,
+      "label": null,
+      "groupId": "e2798",
+      "referenceDatabase": "GeneID",
+      "referenceId": "2998",
+      "uniprotAccs": [
+        "P54840"
+      ]
+    },
+    {
+      "id": "a4f",
+      "geneNames": [
+        "PPP2R5B"
+      ],
+      "type": "gene_protein",
+      "x": 559.3333333333334,
+      "y": 463.3333333333334,
+      "label": null,
+      "groupId": "f80c3",
+      "referenceDatabase": "GeneID",
+      "referenceId": "5526",
+      "uniprotAccs": [
+        "Q15173"
+      ]
+    },
+    {
+      "id": "a9b",
+      "geneNames": [
+        "PHKG2"
+      ],
+      "type": "gene_protein",
+      "x": 551.3333333333333,
+      "y": 123.00000000000027,
+      "label": null,
+      "groupId": "f88ec",
+      "referenceDatabase": "GeneID",
+      "referenceId": "5261",
+      "uniprotAccs": [
+        "P15735"
+      ]
+    },
+    {
+      "id": "aa2",
+      "geneNames": null,
+      "type": "compound",
+      "x": 268.6666666666667,
+      "y": 228.66666666666637,
+      "label": "Glycogen",
+      "groupId": null,
+      "referenceDatabase": "CAS",
+      "referenceId": "9005-79-2"
+    },
+    {
+      "id": "ac1",
+      "geneNames": [
+        "PPP2R5C"
+      ],
+      "type": "gene_protein",
+      "x": 559.3333333333334,
+      "y": 483.33333333333366,
+      "label": null,
+      "groupId": "f80c3",
+      "referenceDatabase": "GeneID",
+      "referenceId": "5527",
+      "uniprotAccs": [
+        "Q13362"
+      ]
+    },
+    {
+      "id": "af6",
+      "geneNames": [
+        "CALM1"
+      ],
+      "type": "gene_protein",
+      "x": 551.3333333333333,
+      "y": 143.0000000000004,
+      "label": null,
+      "groupId": "f88ec",
+      "referenceDatabase": "GeneID",
+      "referenceId": "801",
+      "uniprotAccs": [
+        "P0DP23",
+        "P0DP24",
+        "P0DP25",
+        "B4DJ51"
+      ]
+    },
+    {
+      "id": "afdba",
+      "geneNames": null,
+      "type": "compound",
+      "x": 521.0000000000002,
+      "y": 39.99999999999993,
+      "label": "cAMP",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000058"
+    },
+    {
+      "id": "b13",
+      "geneNames": [
+        "PHKA1"
+      ],
+      "type": "gene_protein",
+      "x": 491.3333333333334,
+      "y": 123.00000000000027,
+      "label": null,
+      "groupId": "f88ec",
+      "referenceDatabase": "GeneID",
+      "referenceId": "5255",
+      "uniprotAccs": [
+        "P46020"
+      ]
+    },
+    {
+      "id": "b42",
+      "geneNames": [
+        "PPP2R2C"
+      ],
+      "type": "gene_protein",
+      "x": 492.3333333333334,
+      "y": 543.3333333333347,
+      "label": null,
+      "groupId": "f80c3",
+      "referenceDatabase": "GeneID",
+      "referenceId": "5522",
+      "uniprotAccs": [
+        "Q9Y2T4"
+      ]
+    },
+    {
+      "id": "b4d",
+      "geneNames": [
+        "PYGB"
+      ],
+      "type": "gene_protein",
+      "x": 343.3333333333334,
+      "y": 303.99999999999943,
+      "label": null,
+      "groupId": "a9287",
+      "referenceDatabase": "GeneID",
+      "referenceId": "5834",
+      "uniprotAccs": [
+        "P11216"
+      ]
+    },
+    {
+      "id": "b6f",
+      "geneNames": [
+        "UGP2"
+      ],
+      "type": "gene_protein",
+      "x": 800.9999999999998,
+      "y": 149.00000000000023,
+      "label": null,
+      "groupId": "dea4e",
+      "referenceDatabase": "GeneID",
+      "referenceId": "7360",
+      "uniprotAccs": [
+        "Q16851",
+        "A0A140VKE1"
+      ]
+    },
+    {
+      "id": "b8494",
+      "geneNames": null,
+      "type": "compound",
+      "x": 75.33333333333334,
+      "y": 335.3333333333335,
+      "label": "Glycogen (n+1)",
+      "groupId": null,
+      "referenceDatabase": "CAS",
+      "referenceId": "9005-79-2"
+    },
+    {
+      "id": "b99a6",
+      "geneNames": [
+        "Putative hexokinase HKDC1"
+      ],
+      "type": "gene_protein",
+      "x": 140.0,
+      "y": 784.0,
+      "label": null,
+      "groupId": "a84a3",
+      "referenceDatabase": "Uniprot",
+      "referenceId": "Q2TB90",
+      "uniprotAccs": [
+        "Q2TB90"
+      ]
+    },
+    {
+      "id": "b9f",
+      "geneNames": null,
+      "type": "compound",
+      "x": 728.9999999999999,
+      "y": 110.33333333333347,
+      "label": "Glucose-1-phosphate",
+      "groupId": null,
+      "referenceDatabase": "CAS",
+      "referenceId": "59-56-3"
+    },
+    {
+      "id": "bbcb8",
+      "geneNames": [
+        "PYG, liver form"
+      ],
+      "type": "gene_protein",
+      "x": 1245.0,
+      "y": 227.0,
+      "label": null,
+      "groupId": "dfd18",
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P06737",
+      "uniprotAccs": [
+        "P06737"
+      ]
+    },
+    {
+      "id": "bdb",
+      "geneNames": [
+        "GYS1"
+      ],
+      "type": "gene_protein",
+      "x": 711.3333333333331,
+      "y": 272.333333333333,
+      "label": null,
+      "groupId": "e2798",
+      "referenceDatabase": "GeneID",
+      "referenceId": "2997",
+      "uniprotAccs": [
+        "P13807"
+      ]
+    },
+    {
+      "id": "bf3",
+      "geneNames": [
+        "GSK3A"
+      ],
+      "type": "gene_protein",
+      "x": 692.6666666666665,
+      "y": 372.99999999999966,
+      "label": null,
+      "groupId": "af3bf",
+      "referenceDatabase": "GeneID",
+      "referenceId": "2931",
+      "uniprotAccs": [
+        "P49840"
+      ]
+    },
+    {
+      "id": "bf6",
+      "geneNames": [
+        "PPP2R3A"
+      ],
+      "type": "gene_protein",
+      "x": 559.3333333333334,
+      "y": 423.33333333333246,
+      "label": null,
+      "groupId": "f80c3",
+      "referenceDatabase": "GeneID",
+      "referenceId": "5523",
+      "uniprotAccs": [
+        "Q06190"
+      ]
+    },
+    {
+      "id": "c04",
+      "geneNames": [
+        "GYG"
+      ],
+      "type": "gene_protein",
+      "x": 872.9999999999998,
+      "y": 215.33333333333312,
+      "label": null,
+      "groupId": "dfe4e",
+      "referenceDatabase": "GeneID",
+      "referenceId": "2992",
+      "uniprotAccs": [
+        "P46976"
+      ]
+    },
+    {
+      "id": "c15",
+      "geneNames": [
+        "PPP2R1A"
+      ],
+      "type": "gene_protein",
+      "x": 492.3333333333334,
+      "y": 463.3333333333334,
+      "label": null,
+      "groupId": "f80c3",
+      "referenceDatabase": "GeneID",
+      "referenceId": "5518",
+      "uniprotAccs": [
+        "P30153",
+        "A8K7B7"
+      ]
+    },
+    {
+      "id": "c2a",
+      "geneNames": [
+        "CALM3"
+      ],
+      "type": "gene_protein",
+      "x": 551.3333333333333,
+      "y": 183.0000000000002,
+      "label": null,
+      "groupId": "f88ec",
+      "referenceDatabase": "GeneID",
+      "referenceId": "808",
+      "uniprotAccs": [
+        "P0DP23",
+        "P0DP24",
+        "P0DP25",
+        "B4DJ51",
+        "Q96HY3",
+        "Q9BRL5"
+      ]
+    },
+    {
+      "id": "c42",
+      "geneNames": [
+        "PPP2R5E"
+      ],
+      "type": "gene_protein",
+      "x": 559.3333333333334,
+      "y": 523.3333333333347,
+      "label": null,
+      "groupId": "f80c3",
+      "referenceDatabase": "GeneID",
+      "referenceId": "5529",
+      "uniprotAccs": [
+        "Q16537"
+      ]
+    },
+    {
+      "id": "c65",
+      "geneNames": [
+        "PPP2CA"
+      ],
+      "type": "gene_protein",
+      "x": 492.3333333333334,
+      "y": 423.33333333333246,
+      "label": null,
+      "groupId": "f80c3",
+      "referenceDatabase": "GeneID",
+      "referenceId": "5515",
+      "uniprotAccs": [
+        "P67775",
+        "B3KUN1"
+      ]
+    },
+    {
+      "id": "ced",
+      "geneNames": [
+        "UGP2"
+      ],
+      "type": "gene_protein",
+      "x": 800.9999999999998,
+      "y": 169.00000000000009,
+      "label": null,
+      "groupId": "dea4e",
+      "referenceDatabase": "GeneID",
+      "referenceId": "7360",
+      "uniprotAccs": [
+        "Q16851",
+        "A0A140VKE1"
+      ]
+    },
+    {
+      "id": "d1c90",
+      "geneNames": null,
+      "type": "compound",
+      "x": 727.9999999999999,
+      "y": 210.99999999999974,
+      "label": "UDP-glucose",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000286"
+    },
+    {
+      "id": "d29",
+      "geneNames": [
+        "GYG2"
+      ],
+      "type": "gene_protein",
+      "x": 872.9999999999998,
+      "y": 235.33333333333306,
+      "label": null,
+      "groupId": "dfe4e",
+      "referenceDatabase": "GeneID",
+      "referenceId": "8908",
+      "uniprotAccs": [
+        "O15488",
+        "B3KUV6",
+        "Q1ZYL7"
+      ]
+    },
+    {
+      "id": "d4b",
+      "geneNames": [
+        "PPP2R5D"
+      ],
+      "type": "gene_protein",
+      "x": 559.3333333333334,
+      "y": 503.33333333333417,
+      "label": null,
+      "groupId": "f80c3",
+      "referenceDatabase": "GeneID",
+      "referenceId": "5528",
+      "uniprotAccs": [
+        "Q14738"
+      ]
+    },
+    {
+      "id": "d5a",
+      "geneNames": [
+        "PPP2R2B"
+      ],
+      "type": "gene_protein",
+      "x": 492.3333333333334,
+      "y": 523.3333333333347,
+      "label": null,
+      "groupId": "f80c3",
+      "referenceDatabase": "GeneID",
+      "referenceId": "5521",
+      "uniprotAccs": [
+        "Q00005"
+      ]
+    },
+    {
+      "id": "d5dd2",
+      "geneNames": null,
+      "type": "compound",
+      "x": 268.66666666666663,
+      "y": 340.00000000000017,
+      "label": "Glucose 1-phosphate",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0001586"
+    },
+    {
+      "id": "da6",
+      "geneNames": null,
+      "type": "compound",
+      "x": 801.9999999999999,
+      "y": 407.9999999999995,
+      "label": "Glycogen",
+      "groupId": null,
+      "referenceDatabase": "CAS",
+      "referenceId": "9005-79-2"
+    },
+    {
+      "id": "dc2cf",
+      "geneNames": [
+        "PYG, brain form"
+      ],
+      "type": "gene_protein",
+      "x": 1245.0,
+      "y": 252.0,
+      "label": null,
+      "groupId": "dfd18",
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P11216",
+      "uniprotAccs": [
+        "P11216"
+      ]
+    },
+    {
+      "id": "dcc",
+      "geneNames": null,
+      "type": "compound",
+      "x": 77.33333333333331,
+      "y": 419.66666666666686,
+      "label": "D-Glucose",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000122"
+    },
+    {
+      "id": "df1",
+      "geneNames": [
+        "AGL"
+      ],
+      "type": "gene_protein",
+      "x": 137.33333333333337,
+      "y": 370.00000000000017,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "178",
+      "uniprotAccs": [
+        "P35573",
+        "A0A0S2A4E4"
+      ]
+    },
+    {
+      "id": "df7",
+      "geneNames": [
+        "PPP2R5A"
+      ],
+      "type": "gene_protein",
+      "x": 559.3333333333334,
+      "y": 443.3333333333329,
+      "label": null,
+      "groupId": "f80c3",
+      "referenceDatabase": "GeneID",
+      "referenceId": "5525",
+      "uniprotAccs": [
+        "Q15172"
+      ]
+    },
+    {
+      "id": "df8",
+      "geneNames": [
+        "CALM2"
+      ],
+      "type": "gene_protein",
+      "x": 551.3333333333333,
+      "y": 163.00000000000034,
+      "label": null,
+      "groupId": "f88ec",
+      "referenceDatabase": "GeneID",
+      "referenceId": "805",
+      "uniprotAccs": [
+        "P0DP23",
+        "P0DP24",
+        "P0DP25",
+        "B4DJ51",
+        "Q96HY3"
+      ]
+    },
+    {
+      "id": "df9",
+      "geneNames": [
+        "PPP2R3B"
+      ],
+      "type": "gene_protein",
+      "x": 559.3333333333334,
+      "y": 543.3333333333347,
+      "label": null,
+      "groupId": "f80c3",
+      "referenceDatabase": "GeneID",
+      "referenceId": "28227",
+      "uniprotAccs": [
+        "Q9Y5P8"
+      ]
+    },
+    {
+      "id": "e17",
+      "geneNames": [
+        "PHKA2"
+      ],
+      "type": "gene_protein",
+      "x": 491.3333333333334,
+      "y": 143.0000000000004,
+      "label": null,
+      "groupId": "f88ec",
+      "referenceDatabase": "GeneID",
+      "referenceId": "5256",
+      "uniprotAccs": [
+        "P46019"
+      ]
+    },
+    {
+      "id": "e1e",
+      "geneNames": [
+        "PPP2R2A"
+      ],
+      "type": "gene_protein",
+      "x": 492.3333333333334,
+      "y": 503.33333333333417,
+      "label": null,
+      "groupId": "f80c3",
+      "referenceDatabase": "GeneID",
+      "referenceId": "5520",
+      "uniprotAccs": [
+        "P63151",
+        "A0A140VJT0"
+      ]
+    },
+    {
+      "id": "e3e",
+      "geneNames": null,
+      "type": "compound",
+      "x": 801.9999999999999,
+      "y": 331.3333333333329,
+      "label": "Glycogen (n+1)",
+      "groupId": null,
+      "referenceDatabase": "CAS",
+      "referenceId": "9005-79-2"
+    },
+    {
+      "id": "e609e",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 267.9999999999999,
+      "y": 499.99999999999994,
+      "label": "Glycolysis",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP534"
+    },
+    {
+      "id": "ea5",
+      "geneNames": [
+        "GSK3B"
+      ],
+      "type": "gene_protein",
+      "x": 692.6666666666665,
+      "y": 392.99999999999966,
+      "label": null,
+      "groupId": "af3bf",
+      "referenceDatabase": "GeneID",
+      "referenceId": "2932",
+      "uniprotAccs": [
+        "P49841",
+        "Q6FI27"
+      ]
+    },
+    {
+      "id": "ea53e",
+      "geneNames": [
+        "Hexokinase-1 (Brain)"
+      ],
+      "type": "gene_protein",
+      "x": 140.0,
+      "y": 709.0,
+      "label": null,
+      "groupId": "a84a3",
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P19367",
+      "uniprotAccs": [
+        "P19367"
+      ]
+    },
+    {
+      "id": "eb4",
+      "geneNames": [
+        "PHKG1"
+      ],
+      "type": "gene_protein",
+      "x": 491.3333333333334,
+      "y": 183.0000000000003,
+      "label": null,
+      "groupId": "f88ec",
+      "referenceDatabase": "GeneID",
+      "referenceId": "5260",
+      "uniprotAccs": [
+        "Q16816",
+        "B7Z6U2"
+      ]
+    },
+    {
+      "id": "edd",
+      "geneNames": [
+        "PPP2R1B"
+      ],
+      "type": "gene_protein",
+      "x": 492.3333333333334,
+      "y": 483.33333333333366,
+      "label": null,
+      "groupId": "f80c3",
+      "referenceDatabase": "GeneID",
+      "referenceId": "5519",
+      "uniprotAccs": [
+        "P30154"
+      ]
+    },
+    {
+      "id": "f01",
+      "geneNames": [
+        "GBE1"
+      ],
+      "type": "gene_protein",
+      "x": 851.9999999999999,
+      "y": 373.6666666666663,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "2632",
+      "uniprotAccs": [
+        "Q04446",
+        "Q59ET0"
+      ]
+    },
+    {
+      "id": "f0d",
+      "geneNames": [
+        "PGM1"
+      ],
+      "type": "gene_protein",
+      "x": 333.00000000000006,
+      "y": 374.00000000000017,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "5236",
+      "uniprotAccs": [
+        "P36871",
+        "B4DDQ8",
+        "B7Z6C2"
+      ]
+    },
+    {
+      "id": "f2c",
+      "geneNames": null,
+      "type": "compound",
+      "x": 268.6666666666666,
+      "y": 419.66666666666686,
+      "label": "Glucose-6-phosphate (2-)",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:75052"
+    },
+    {
+      "id": "f57",
+      "geneNames": [
+        "PPP2R4"
+      ],
+      "type": "gene_protein",
+      "x": 559.3333333333334,
+      "y": 563.3333333333346,
+      "label": null,
+      "groupId": "f80c3",
+      "referenceDatabase": "GeneID",
+      "referenceId": "5524",
+      "uniprotAccs": [
+        "Q15257",
+        "F6WIT2"
+      ]
+    },
+    {
+      "id": "fd9",
+      "geneNames": [
+        "PYGL"
+      ],
+      "type": "gene_protein",
+      "x": 343.3333333333334,
+      "y": 263.9999999999993,
+      "label": null,
+      "groupId": "a9287",
+      "referenceDatabase": "GeneID",
+      "referenceId": "5836",
+      "uniprotAccs": [
+        "P06737"
+      ]
+    },
+    {
+      "id": "c7cc1",
+      "geneNames": [
+        "PYG"
+      ],
+      "type": "gene_protein",
+      "x": 1096.0,
+      "y": 252.6666666666663,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "EC",
+      "referenceId": "2.4.1.1",
+      "uniprotAccs": [
+        "P11217",
+        "P06737",
+        "P11216"
+      ]
+    },
+    {
+      "id": "e65d7",
+      "geneNames": [
+        "hexokinase"
+      ],
+      "type": "gene_protein",
+      "x": 140.0,
+      "y": 480.6666666666663,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "EC",
+      "referenceId": "2.7.1.1",
+      "uniprotAccs": [
+        "P19367",
+        "P35557",
+        "P52789",
+        "P52790",
+        "Q2TB90"
+      ]
+    },
+    {
+      "id": "faf39",
+      "geneNames": [
+        "Hexokinase-2 (muscle)"
+      ],
+      "type": "gene_protein",
+      "x": 140.0,
+      "y": 734.0,
+      "label": null,
+      "groupId": "a84a3",
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P52789",
+      "uniprotAccs": [
+        "P52789"
+      ]
+    },
+    {
+      "id": "fd0fa",
+      "geneNames": [
+        "Hexokinase-3 "
+      ],
+      "type": "gene_protein",
+      "x": 140.0,
+      "y": 759.0,
+      "label": null,
+      "groupId": "a84a3",
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P52790",
+      "uniprotAccs": [
+        "P52790"
+      ]
+    },
+    {
+      "id": "a84a3",
+      "type": "group",
+      "components": [
+        "b99a6",
+        "ea53e",
+        "faf39",
+        "fd0fa"
+      ]
+    },
+    {
+      "id": "a9287",
+      "type": "group",
+      "components": [
+        "a03",
+        "b4d",
+        "fd9"
+      ]
+    },
+    {
+      "id": "af3bf",
+      "type": "group",
+      "components": [
+        "bf3",
+        "ea5"
+      ]
+    },
+    {
+      "id": "dea4e",
+      "type": "group",
+      "components": [
+        "b6f",
+        "ced"
+      ]
+    },
+    {
+      "id": "dfd18",
+      "type": "group",
+      "components": [
+        "a362c",
+        "bbcb8",
+        "dc2cf"
+      ]
+    },
+    {
+      "id": "dfe4e",
+      "type": "group",
+      "components": [
+        "c04",
+        "d29"
+      ]
+    },
+    {
+      "id": "e2798",
+      "type": "group",
+      "components": [
+        "a3c",
+        "bdb"
+      ]
+    },
+    {
+      "id": "f80c3",
+      "type": "group",
+      "components": [
+        "a2e",
+        "a4f",
+        "ac1",
+        "b42",
+        "bf6",
+        "c15",
+        "c42",
+        "c65",
+        "d4b",
+        "d5a",
+        "df7",
+        "df9",
+        "e1e",
+        "edd",
+        "f57"
+      ]
+    },
+    {
+      "id": "f88ec",
+      "type": "group",
+      "components": [
+        "a31",
+        "a9b",
+        "af6",
+        "b13",
+        "c2a",
+        "df8",
+        "e17",
+        "eb4"
+      ]
+    }
+  ]
+}

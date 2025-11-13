@@ -1,0 +1,359 @@
+{
+  "pathway": {
+    "name": "WP80",
+    "org": "Homo sapiens",
+    "title": "Nucleotide GPCRs"
+  },
+  "links": [
+    {
+      "id": "id2e31fc5",
+      "sourceId": "e37",
+      "targetId": "de1d6",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id4ff7f6fc",
+      "sourceId": "b82",
+      "targetId": "b62e8",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id5dfcf38b",
+      "sourceId": "e4c",
+      "targetId": "de1d6",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id67b240e9",
+      "sourceId": "a58",
+      "targetId": "d72b3",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id79e85aae",
+      "sourceId": "afd",
+      "targetId": "d72b3",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id8876d41e",
+      "sourceId": "afd",
+      "targetId": "b62e8",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id916bcd07",
+      "sourceId": "f37",
+      "targetId": "b62e8",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id9a6e7319",
+      "sourceId": "efa",
+      "targetId": "af03b",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idca6442a3",
+      "sourceId": "f37",
+      "targetId": "de1d6",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ide94f47c5",
+      "sourceId": "c4d",
+      "targetId": "cb700",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idf7f12c86",
+      "sourceId": "fa1",
+      "targetId": "de1d6",
+      "types": [
+        "activation"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "a25",
+      "geneNames": [
+        "P2RY5"
+      ],
+      "type": "gene_protein",
+      "x": 372.6666666666667,
+      "y": 192.66666666666666,
+      "label": null,
+      "groupId": "af03b",
+      "referenceDatabase": "GeneID",
+      "referenceId": "10161",
+      "uniprotAccs": [
+        "P43657",
+        "B3KVQ5"
+      ]
+    },
+    {
+      "id": "a58",
+      "geneNames": [
+        "ADORA2A"
+      ],
+      "type": "gene_protein",
+      "x": 177.33333333333334,
+      "y": 156.0,
+      "label": null,
+      "groupId": "cb700",
+      "referenceDatabase": "GeneID",
+      "referenceId": "135",
+      "uniprotAccs": [
+        "P29274",
+        "A8K1F6",
+        "B3KVQ4",
+        "X5DNB4"
+      ]
+    },
+    {
+      "id": "afd",
+      "geneNames": [
+        "ADORA3"
+      ],
+      "type": "gene_protein",
+      "x": 177.33333333333334,
+      "y": 196.0,
+      "label": null,
+      "groupId": "cb700",
+      "referenceDatabase": "GeneID",
+      "referenceId": "140",
+      "uniprotAccs": [
+        "P0DMS8",
+        "A0A0J9YWR0",
+        "H6VQ59"
+      ]
+    },
+    {
+      "id": "b62e8",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 116.5,
+      "y": 384.0,
+      "label": "Gi/Go pathway",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP35"
+    },
+    {
+      "id": "b6a",
+      "geneNames": [
+        "LTB4R"
+      ],
+      "type": "gene_protein",
+      "x": 372.6666666666667,
+      "y": 232.66666666666669,
+      "label": null,
+      "groupId": "af03b",
+      "referenceDatabase": "GeneID",
+      "referenceId": "1241",
+      "uniprotAccs": [
+        "Q15722"
+      ]
+    },
+    {
+      "id": "b82",
+      "geneNames": [
+        "ADORA1"
+      ],
+      "type": "gene_protein",
+      "x": 177.33333333333334,
+      "y": 136.0,
+      "label": null,
+      "groupId": "cb700",
+      "referenceDatabase": "GeneID",
+      "referenceId": "134",
+      "uniprotAccs": [
+        "P30542"
+      ]
+    },
+    {
+      "id": "c4d",
+      "geneNames": null,
+      "type": "compound",
+      "x": 177.33333333333331,
+      "y": 76.0,
+      "label": "Adenosine",
+      "groupId": null,
+      "referenceDatabase": "CAS",
+      "referenceId": "58-61-7"
+    },
+    {
+      "id": "d72b3",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 271.5,
+      "y": 384.0,
+      "label": "Gs pathway",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP35"
+    },
+    {
+      "id": "de1d6",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 450.5,
+      "y": 384.0,
+      "label": "Gq/G11 pathway",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP35"
+    },
+    {
+      "id": "e37",
+      "geneNames": [
+        "P2RY6"
+      ],
+      "type": "gene_protein",
+      "x": 372.6666666666667,
+      "y": 212.66666666666666,
+      "label": null,
+      "groupId": "af03b",
+      "referenceDatabase": "GeneID",
+      "referenceId": "5031",
+      "uniprotAccs": [
+        "Q15077"
+      ]
+    },
+    {
+      "id": "e4c",
+      "geneNames": [
+        "P2RY4"
+      ],
+      "type": "gene_protein",
+      "x": 372.6666666666667,
+      "y": 172.66666666666666,
+      "label": null,
+      "groupId": "af03b",
+      "referenceDatabase": "GeneID",
+      "referenceId": "5030",
+      "uniprotAccs": [
+        "P51582"
+      ]
+    },
+    {
+      "id": "efa",
+      "geneNames": null,
+      "type": "compound",
+      "x": 372.6666666666667,
+      "y": 76.0,
+      "label": "Adenine",
+      "groupId": null,
+      "referenceDatabase": "CAS",
+      "referenceId": "73-24-5"
+    },
+    {
+      "id": "f37",
+      "geneNames": [
+        "P2RY2"
+      ],
+      "type": "gene_protein",
+      "x": 372.6666666666667,
+      "y": 152.66666666666666,
+      "label": null,
+      "groupId": "af03b",
+      "referenceDatabase": "GeneID",
+      "referenceId": "5029",
+      "uniprotAccs": [
+        "P41231"
+      ]
+    },
+    {
+      "id": "fa1",
+      "geneNames": [
+        "P2RY1"
+      ],
+      "type": "gene_protein",
+      "x": 372.6666666666667,
+      "y": 132.66666666666666,
+      "label": null,
+      "groupId": "af03b",
+      "referenceDatabase": "GeneID",
+      "referenceId": "5028",
+      "uniprotAccs": [
+        "P47900"
+      ]
+    },
+    {
+      "id": "fd4",
+      "geneNames": [
+        "GPR23"
+      ],
+      "type": "gene_protein",
+      "x": 372.6666666666667,
+      "y": 252.66666666666669,
+      "label": null,
+      "groupId": "af03b",
+      "referenceDatabase": "GeneID",
+      "referenceId": "2846",
+      "uniprotAccs": [
+        "Q99677"
+      ]
+    },
+    {
+      "id": "fd5",
+      "geneNames": [
+        "ADORA2B"
+      ],
+      "type": "gene_protein",
+      "x": 177.33333333333334,
+      "y": 176.0,
+      "label": null,
+      "groupId": "cb700",
+      "referenceDatabase": "GeneID",
+      "referenceId": "136",
+      "uniprotAccs": [
+        "P29275"
+      ]
+    },
+    {
+      "id": "af03b",
+      "type": "group",
+      "components": [
+        "a25",
+        "b6a",
+        "e37",
+        "e4c",
+        "f37",
+        "fa1",
+        "fd4"
+      ]
+    },
+    {
+      "id": "cb700",
+      "type": "group",
+      "components": [
+        "a58",
+        "afd",
+        "b82",
+        "fd5"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,358 @@
+{
+  "pathway": {
+    "name": "WP4186",
+    "org": "Homo sapiens",
+    "title": "Somatroph axis (GH) and its relationship to dietary restriction and aging"
+  },
+  "links": [
+    {
+      "id": "id125d7377",
+      "sourceId": "cd394",
+      "targetId": "eebfa",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "id28ab4c8c",
+      "sourceId": "bb264",
+      "targetId": "cf8ce",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "id450d9e19",
+      "sourceId": "cd394",
+      "targetId": "fd3be",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "id48f792b3",
+      "sourceId": "a476e",
+      "targetId": "cd394",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "id51313552",
+      "sourceId": "ae825",
+      "targetId": "b9086",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id68eacfd6",
+      "sourceId": "d6a76",
+      "targetId": "bb264",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "id7b33528",
+      "sourceId": "cf8ce",
+      "targetId": "ef536",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "id82dac71d",
+      "sourceId": "eebfa",
+      "targetId": "b9086",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id8bc2b7ff",
+      "sourceId": "fd3be",
+      "targetId": "da955",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "ida3a65c5",
+      "sourceId": "a476e",
+      "targetId": "fd3be",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "idb91995c9",
+      "sourceId": "da955",
+      "targetId": "b9086",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "idc17fd844",
+      "sourceId": "a476e",
+      "targetId": "da955",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "idc194dbe1",
+      "sourceId": "f5b19",
+      "targetId": "id68eacfd6",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idc56675d7",
+      "sourceId": "fd3be",
+      "targetId": "cd394",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "idc91c0061",
+      "sourceId": "a476e",
+      "targetId": "bb264",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "idf1d91ea7",
+      "sourceId": "c5c3e",
+      "targetId": "cf8ce",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "idf6d69c75",
+      "sourceId": "ef536",
+      "targetId": "da955",
+      "types": [
+        "stimulation"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "ae825",
+      "geneNames": [
+        "FOXO"
+      ],
+      "type": "gene_protein",
+      "x": 168.85000000000002,
+      "y": 351.0807499999999,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000150907",
+      "uniprotAccs": [
+        "Q12778"
+      ]
+    },
+    {
+      "id": "bb264",
+      "geneNames": [
+        "IGF-1"
+      ],
+      "type": "gene_protein",
+      "x": 278.0,
+      "y": 132.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000140443",
+      "uniprotAccs": [
+        "P08069",
+        "C9J5X1",
+        "H0YMJ5",
+        "H0YNR0",
+        "H3BSZ8"
+      ]
+    },
+    {
+      "id": "c5c3e",
+      "geneNames": [
+        "PTEN"
+      ],
+      "type": "gene_protein",
+      "x": 161.05552457734373,
+      "y": 200.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000171862",
+      "uniprotAccs": [
+        "P60484",
+        "A0A087X033",
+        "A0A8I5KR36",
+        "A0A8I5KSF9",
+        "A0A8I5KVQ8",
+        "A0A8V8TP77",
+        "A0A8V8TPK6",
+        "A0A8V8TQX2",
+        "A0A9L9PYJ2",
+        "A0AA34QVZ8"
+      ]
+    },
+    {
+      "id": "cd394",
+      "geneNames": [
+        "SIRT1"
+      ],
+      "type": "gene_protein",
+      "x": 633.4583749999999,
+      "y": 269.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000096717",
+      "uniprotAccs": [
+        "Q96EB6",
+        "B0QZ35",
+        "E9PC49"
+      ]
+    },
+    {
+      "id": "cf8ce",
+      "geneNames": [
+        "PI3K "
+      ],
+      "type": "gene_protein",
+      "x": 278.0,
+      "y": 200.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "RefSeq_Protein",
+      "referenceId": "NP_006209.2",
+      "uniprotAccs": [
+        "P42336",
+        "Q4LE51"
+      ]
+    },
+    {
+      "id": "d6a76",
+      "geneNames": null,
+      "type": "compound",
+      "x": 278.0,
+      "y": 61.0,
+      "label": "GH",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:37845"
+    },
+    {
+      "id": "da955",
+      "geneNames": [
+        "MTOR"
+      ],
+      "type": "gene_protein",
+      "x": 415.1176999999998,
+      "y": 354.0807499999999,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000198793",
+      "uniprotAccs": [
+        "P42345",
+        "A0A8V8TQ52",
+        "A0A8V8TQM6",
+        "A0A8V8TQN3",
+        "A0A8V8TQP2",
+        "A0A8V8TR74",
+        "A0A8V8TRG9"
+      ]
+    },
+    {
+      "id": "eebfa",
+      "geneNames": [
+        "PGC-1 alpha"
+      ],
+      "type": "gene_protein",
+      "x": 633.616,
+      "y": 350.0807499999999,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "Q01711",
+      "uniprotAccs": [
+        "Q01711"
+      ]
+    },
+    {
+      "id": "ef536",
+      "geneNames": [
+        "AKT"
+      ],
+      "type": "gene_protein",
+      "x": 278.0,
+      "y": 270.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000142208",
+      "uniprotAccs": [
+        "P31749",
+        "A0A087WY56",
+        "A0A804HJM6",
+        "G3V2I6",
+        "G3V3X1"
+      ]
+    },
+    {
+      "id": "f5b19",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 431.5,
+      "y": 91.0,
+      "label": "IGF and insuline signaling",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP2799"
+    },
+    {
+      "id": "fd3be",
+      "geneNames": [
+        "AMPK"
+      ],
+      "type": "gene_protein",
+      "x": 492.3857499999999,
+      "y": 270.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "EC",
+      "referenceId": "2.7.11.31",
+      "uniprotAccs": [
+        "Q13131",
+        "P54646"
+      ]
+    },
+    {
+      "id": "a476e",
+      "geneNames": null,
+      "type": "misc",
+      "x": 568.0,
+      "y": 180.0,
+      "label": "Dietary Restriction",
+      "groupId": null
+    },
+    {
+      "id": "b9086",
+      "geneNames": null,
+      "type": "misc",
+      "x": 422.0,
+      "y": 482.0,
+      "label": "Aging",
+      "groupId": null
+    }
+  ]
+}

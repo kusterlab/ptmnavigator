@@ -1,0 +1,767 @@
+{
+  "pathway": {
+    "name": "WP5182",
+    "org": "Homo sapiens",
+    "title": "Pro-survival signaling of neuroprotectin D1"
+  },
+  "links": [
+    {
+      "id": "id1fb5e857",
+      "sourceId": "ea839",
+      "targetId": "f2c30",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "id202c730b",
+      "sourceId": "f8c94",
+      "targetId": "b88b4",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "id22f4697a",
+      "sourceId": "eafe6",
+      "targetId": "cf49d",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "id3023510f",
+      "sourceId": "b9efe",
+      "targetId": "id86e48be0",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id38e23e24",
+      "sourceId": "eedaf",
+      "targetId": "c6ab4",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "id391e68c",
+      "sourceId": "b88b4",
+      "targetId": "cc27c",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "id3a4d5d5b",
+      "sourceId": "ad5d3",
+      "targetId": "b74d6",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "id3c3890a4",
+      "sourceId": "cf49d",
+      "targetId": "b74d6",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "id48252f15",
+      "sourceId": "a0893",
+      "targetId": "d9890",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id61598039",
+      "sourceId": "b00d1",
+      "targetId": "id6a00d3d4",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id6a00d3d4",
+      "sourceId": "a6e73",
+      "targetId": "f8c94",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id84bc8a8",
+      "sourceId": "a80a6",
+      "targetId": "c6ab4",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "id86e48be0",
+      "sourceId": "a28e1",
+      "targetId": "c3de3",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id889a75cd",
+      "sourceId": "f2c30",
+      "targetId": "b00d1",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "id892bd304",
+      "sourceId": "b6dbd",
+      "targetId": "ad5d3",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "id9001e123",
+      "sourceId": "bfdc9",
+      "targetId": "fc71e",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id92364437",
+      "sourceId": "a694c",
+      "targetId": "eafe6",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "idc6df6c6b",
+      "sourceId": "f2c30",
+      "targetId": "a0893",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "idcb97e1b",
+      "sourceId": "f8c94",
+      "targetId": "eafe6",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "ide72c3269",
+      "sourceId": "b00d1",
+      "targetId": "cf49d",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "ide74310d6",
+      "sourceId": "d9890",
+      "targetId": "a80a6",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "idf4fcdc08",
+      "sourceId": "c3de3",
+      "targetId": "b6dbd",
+      "types": [
+        "stimulation"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "b74d6",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 1028.1711753333593,
+      "y": 854.8210784274715,
+      "label": "Apoptosis",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP254"
+    },
+    {
+      "id": "cc27c",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 1064.353757630232,
+      "y": 561.2140493030805,
+      "label": "Necroptosis",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP2513"
+    },
+    {
+      "id": "a0893",
+      "geneNames": [
+        "PP2A"
+      ],
+      "type": "gene_protein",
+      "x": 378.68883738638453,
+      "y": 464.25122708450226,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P62714",
+      "uniprotAccs": [
+        "P62714"
+      ]
+    },
+    {
+      "id": "a0f6e",
+      "geneNames": [
+        "TNFR1"
+      ],
+      "type": "gene_protein",
+      "x": 701.6435896375431,
+      "y": 84.26698886509891,
+      "label": null,
+      "groupId": "a6e73",
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P19438",
+      "uniprotAccs": [
+        "P19438"
+      ]
+    },
+    {
+      "id": "a694c",
+      "geneNames": [
+        "Procaspase-8"
+      ],
+      "type": "gene_protein",
+      "x": 784.6868684792223,
+      "y": 463.16764021463257,
+      "label": null,
+      "groupId": "f8c94",
+      "referenceDatabase": "Reactome",
+      "referenceId": "R-HSA-2671813"
+    },
+    {
+      "id": "a80a6",
+      "geneNames": [
+        "Bcl-xL "
+      ],
+      "type": "gene_protein",
+      "x": 378.68883738638453,
+      "y": 642.2563845552054,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "Q07817-1",
+      "uniprotAccs": [
+        "Q07817-1"
+      ]
+    },
+    {
+      "id": "af042",
+      "geneNames": [
+        "BAX"
+      ],
+      "type": "gene_protein",
+      "x": 301.68883738638465,
+      "y": 768.2512270845023,
+      "label": null,
+      "groupId": "c6ab4",
+      "referenceDatabase": "Uniprot",
+      "referenceId": "Q07812",
+      "uniprotAccs": [
+        "Q07812"
+      ]
+    },
+    {
+      "id": "b00d1",
+      "geneNames": [
+        "BIRC3"
+      ],
+      "type": "gene_protein",
+      "x": 541.0015167622078,
+      "y": 352.7419034572973,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "Q13489",
+      "uniprotAccs": [
+        "Q13489"
+      ]
+    },
+    {
+      "id": "b6dbd",
+      "geneNames": [
+        "Caspase-9"
+      ],
+      "type": "gene_protein",
+      "x": 729.1661594488862,
+      "y": 854.8210784274715,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P55211",
+      "uniprotAccs": [
+        "P55211"
+      ]
+    },
+    {
+      "id": "b9efe",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 465.3487417457596,
+      "y": 786.2600750000004,
+      "label": "Neuroprotection\nPathway",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP4008"
+    },
+    {
+      "id": "ba66e",
+      "geneNames": [
+        "RIP3"
+      ],
+      "type": "gene_protein",
+      "x": 784.6868684792223,
+      "y": 438.16764021463257,
+      "label": null,
+      "groupId": "f8c94",
+      "referenceDatabase": "Uniprot",
+      "referenceId": "Q9Y572",
+      "uniprotAccs": [
+        "Q9Y572"
+      ]
+    },
+    {
+      "id": "c3de3",
+      "geneNames": [
+        "Cytochrome c"
+      ],
+      "type": "gene_protein",
+      "x": 580.6888373863846,
+      "y": 854.8210784274715,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P99999",
+      "uniprotAccs": [
+        "P99999"
+      ]
+    },
+    {
+      "id": "d2c32",
+      "geneNames": [
+        "TRAF2"
+      ],
+      "type": "gene_protein",
+      "x": 701.6435896375431,
+      "y": 109.26698886509905,
+      "label": null,
+      "groupId": "a6e73",
+      "referenceDatabase": "Uniprot",
+      "referenceId": "Q12933",
+      "uniprotAccs": [
+        "Q12933"
+      ]
+    },
+    {
+      "id": "d9890",
+      "geneNames": [
+        "Bcl-xL"
+      ],
+      "type": "gene_protein",
+      "x": 378.68883738638453,
+      "y": 561.2512270845023,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "Q07817-1",
+      "states": [
+        "P"
+      ],
+      "uniprotAccs": [
+        "Q07817-1"
+      ]
+    },
+    {
+      "id": "dd25e",
+      "geneNames": [
+        "Caspase-3"
+      ],
+      "type": "gene_protein",
+      "x": 784.6868684792223,
+      "y": 680.4825613187061,
+      "label": null,
+      "groupId": "cf49d",
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P42574",
+      "uniprotAccs": [
+        "P42574"
+      ]
+    },
+    {
+      "id": "e3aa6",
+      "geneNames": [
+        "FADD"
+      ],
+      "type": "gene_protein",
+      "x": 1064.353757630232,
+      "y": 338.39779039683054,
+      "label": null,
+      "groupId": "b88b4",
+      "referenceDatabase": "Uniprot",
+      "referenceId": "Q13158",
+      "uniprotAccs": [
+        "Q13158"
+      ]
+    },
+    {
+      "id": "eafe6",
+      "geneNames": [
+        "Caspase-8"
+      ],
+      "type": "gene_protein",
+      "x": 784.6868684792223,
+      "y": 573.2749100687058,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "Q14790",
+      "uniprotAccs": [
+        "Q14790"
+      ]
+    },
+    {
+      "id": "eca0a",
+      "geneNames": [
+        "Caspase-7"
+      ],
+      "type": "gene_protein",
+      "x": 784.6868684792223,
+      "y": 705.4825613187061,
+      "label": null,
+      "groupId": "cf49d",
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P55210",
+      "uniprotAccs": [
+        "P55210"
+      ]
+    },
+    {
+      "id": "ed7d6",
+      "geneNames": [
+        "TRADD"
+      ],
+      "type": "gene_protein",
+      "x": 701.6435896375431,
+      "y": 134.26698886509922,
+      "label": null,
+      "groupId": "a6e73",
+      "referenceDatabase": "Uniprot",
+      "referenceId": "Q15628",
+      "uniprotAccs": [
+        "Q15628"
+      ]
+    },
+    {
+      "id": "eedaf",
+      "geneNames": [
+        "BAX"
+      ],
+      "type": "gene_protein",
+      "x": 208.6888373863843,
+      "y": 642.2563845552054,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "Q07812",
+      "uniprotAccs": [
+        "Q07812"
+      ]
+    },
+    {
+      "id": "f088b",
+      "geneNames": [
+        "TNF alpha"
+      ],
+      "type": "gene_protein",
+      "x": 701.6435896375431,
+      "y": 59.26698886509891,
+      "label": null,
+      "groupId": "a6e73",
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P01375",
+      "uniprotAccs": [
+        "P01375"
+      ]
+    },
+    {
+      "id": "f28a5",
+      "geneNames": [
+        "Bcl-xL"
+      ],
+      "type": "gene_protein",
+      "x": 301.68883738638465,
+      "y": 793.2512270845023,
+      "label": null,
+      "groupId": "c6ab4",
+      "referenceDatabase": "Uniprot",
+      "referenceId": "Q07817-1",
+      "uniprotAccs": [
+        "Q07817-1"
+      ]
+    },
+    {
+      "id": "f2c30",
+      "geneNames": null,
+      "type": "compound",
+      "x": 378.68883738638453,
+      "y": 352.7419034572973,
+      "label": "NPD1",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:138655"
+    },
+    {
+      "id": "fb9c3",
+      "geneNames": [
+        "RIP1"
+      ],
+      "type": "gene_protein",
+      "x": 701.6435896375431,
+      "y": 159.2669888650994,
+      "label": null,
+      "groupId": "a6e73",
+      "referenceDatabase": "Uniprot",
+      "referenceId": "Q13546",
+      "uniprotAccs": [
+        "Q13546"
+      ]
+    },
+    {
+      "id": "d5ec0",
+      "geneNames": [
+        "TNFR1"
+      ],
+      "type": "gene_protein",
+      "x": 784.6868684792223,
+      "y": 338.1676402146328,
+      "label": null,
+      "groupId": "f8c94",
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P19438",
+      "uniprotAccs": [
+        "P19438"
+      ]
+    },
+    {
+      "id": "bc129",
+      "geneNames": [
+        "TRAF2"
+      ],
+      "type": "gene_protein",
+      "x": 784.6868684792223,
+      "y": 363.1676402146327,
+      "label": null,
+      "groupId": "f8c94",
+      "referenceDatabase": "Uniprot",
+      "referenceId": "Q12933",
+      "uniprotAccs": [
+        "Q12933"
+      ]
+    },
+    {
+      "id": "bd521",
+      "geneNames": [
+        "TRADD"
+      ],
+      "type": "gene_protein",
+      "x": 784.6868684792223,
+      "y": 388.1676402146327,
+      "label": null,
+      "groupId": "f8c94",
+      "referenceDatabase": "Uniprot",
+      "referenceId": "Q15628",
+      "uniprotAccs": [
+        "Q15628"
+      ]
+    },
+    {
+      "id": "d9fdd",
+      "geneNames": [
+        "TNF alpha"
+      ],
+      "type": "gene_protein",
+      "x": 784.6868684792223,
+      "y": 313.1676402146329,
+      "label": null,
+      "groupId": "f8c94",
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P01375",
+      "uniprotAccs": [
+        "P01375"
+      ]
+    },
+    {
+      "id": "a5b26",
+      "geneNames": [
+        "RIP1"
+      ],
+      "type": "gene_protein",
+      "x": 784.6868684792223,
+      "y": 413.1676402146327,
+      "label": null,
+      "groupId": "f8c94",
+      "referenceDatabase": "Uniprot",
+      "referenceId": "Q13546",
+      "uniprotAccs": [
+        "Q13546"
+      ]
+    },
+    {
+      "id": "c7741",
+      "geneNames": [
+        "TRADD"
+      ],
+      "type": "gene_protein",
+      "x": 1064.353757630232,
+      "y": 363.3977903968306,
+      "label": null,
+      "groupId": "b88b4",
+      "referenceDatabase": "Uniprot",
+      "referenceId": "Q15628",
+      "uniprotAccs": [
+        "Q15628"
+      ]
+    },
+    {
+      "id": "bfdc9",
+      "geneNames": [
+        "TRAF2"
+      ],
+      "type": "gene_protein",
+      "x": 1064.353757630232,
+      "y": 388.3977903968307,
+      "label": null,
+      "groupId": "b88b4",
+      "referenceDatabase": "Uniprot",
+      "referenceId": "Q12933",
+      "uniprotAccs": [
+        "Q12933"
+      ]
+    },
+    {
+      "id": "c7cf3",
+      "geneNames": [
+        "RIP1"
+      ],
+      "type": "gene_protein",
+      "x": 1064.353757630232,
+      "y": 413.3977903968307,
+      "label": null,
+      "groupId": "b88b4",
+      "referenceDatabase": "Uniprot",
+      "referenceId": "Q13546",
+      "uniprotAccs": [
+        "Q13546"
+      ]
+    },
+    {
+      "id": "fc71e",
+      "geneNames": [
+        "RIP3"
+      ],
+      "type": "gene_protein",
+      "x": 1064.353757630232,
+      "y": 438.3977903968308,
+      "label": null,
+      "groupId": "b88b4",
+      "referenceDatabase": "Uniprot",
+      "referenceId": "Q9Y572",
+      "states": [
+        "P"
+      ],
+      "uniprotAccs": [
+        "Q9Y572"
+      ]
+    },
+    {
+      "id": "ad5d3",
+      "geneNames": null,
+      "type": "misc",
+      "x": 878.0804635833601,
+      "y": 854.8210784274715,
+      "label": "Apoptososome",
+      "groupId": null
+    },
+    {
+      "id": "ea839",
+      "geneNames": null,
+      "type": "misc",
+      "x": 200.35121977085674,
+      "y": 352.7419034572973,
+      "label": "Uncompensated\noxidative stress",
+      "groupId": null
+    },
+    {
+      "id": "c6ab4",
+      "type": "group",
+      "components": [
+        "af042",
+        "f28a5"
+      ]
+    },
+    {
+      "id": "f8c94",
+      "type": "group",
+      "components": [
+        "a694c",
+        "ba66e",
+        "d5ec0",
+        "bc129",
+        "bd521",
+        "d9fdd",
+        "a5b26"
+      ]
+    },
+    {
+      "id": "b88b4",
+      "type": "group",
+      "components": [
+        "e3aa6",
+        "c7741",
+        "bfdc9",
+        "c7cf3",
+        "fc71e"
+      ]
+    },
+    {
+      "id": "a6e73",
+      "type": "group",
+      "components": [
+        "a0f6e",
+        "d2c32",
+        "ed7d6",
+        "f088b",
+        "fb9c3"
+      ]
+    },
+    {
+      "id": "cf49d",
+      "type": "group",
+      "components": [
+        "dd25e",
+        "eca0a"
+      ]
+    }
+  ]
+}

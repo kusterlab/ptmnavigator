@@ -1,0 +1,294 @@
+{
+  "pathway": {
+    "name": "WP4860",
+    "org": "Homo sapiens",
+    "title": "Hijack of ubiquitination by SARS-CoV-2"
+  },
+  "links": [
+    {
+      "id": "id3979ccaf",
+      "sourceId": "c08d9",
+      "targetId": "a6b93",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id92c39589",
+      "sourceId": "d1f64",
+      "targetId": "e5bba",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idc583d98b",
+      "sourceId": "dda75",
+      "targetId": "c466c",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "idf1661f52",
+      "sourceId": "fbcac",
+      "targetId": "cc693",
+      "types": [
+        "activation"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "cb26a",
+      "geneNames": [
+        "orf10"
+      ],
+      "type": "gene_protein",
+      "x": 57.86259332113656,
+      "y": 119.3228223670119,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q89227548"
+    },
+    {
+      "id": "d10c6",
+      "geneNames": [
+        "NAE1"
+      ],
+      "type": "gene_protein",
+      "x": 285.21154691945037,
+      "y": 173.38003613807294,
+      "label": null,
+      "groupId": "c466c",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000159593",
+      "uniprotAccs": [
+        "Q13564",
+        "H3BMN8",
+        "H3BMR3",
+        "H3BQ16",
+        "H3BQW6",
+        "H3BS69",
+        "H3BSS8",
+        "J3KRK3",
+        "J3KTE3",
+        "J3QLH4",
+        "J3QRA5"
+      ]
+    },
+    {
+      "id": "a87a8",
+      "geneNames": [
+        "UBA3"
+      ],
+      "type": "gene_protein",
+      "x": 285.2115469194505,
+      "y": 198.38003613807297,
+      "label": null,
+      "groupId": "c466c",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000144744",
+      "states": [
+        "N8"
+      ],
+      "uniprotAccs": [
+        "Q8TBC4",
+        "F8W8D4",
+        "F8WAT6",
+        "F8WF86"
+      ]
+    },
+    {
+      "id": "dda75",
+      "geneNames": null,
+      "type": "compound",
+      "x": 285.30828254373876,
+      "y": 102.85945841401696,
+      "label": "Pevonedistat",
+      "groupId": null,
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q25100575"
+    },
+    {
+      "id": "e5bba",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 113.23407202216035,
+      "y": 56.58884052235856,
+      "label": "Proteasome degradation",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP183"
+    },
+    {
+      "id": "d1f64",
+      "geneNames": [
+        "Substrate"
+      ],
+      "type": "gene_protein",
+      "x": 113.18426411976043,
+      "y": 122.55809452759436,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null,
+      "states": [
+        "Ub"
+      ]
+    },
+    {
+      "id": "d8af8",
+      "geneNames": [
+        "CUL2"
+      ],
+      "type": "gene_protein",
+      "x": 150.3918935729498,
+      "y": 172.50658305077255,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000108094",
+      "states": [
+        "N8"
+      ],
+      "uniprotAccs": [
+        "Q13617",
+        "A0A0A0MTN0",
+        "A0A0D9SET6",
+        "A0A8I5KP04",
+        "A0A8I5KPX0",
+        "A0A8I5KQQ5",
+        "A0A8I5KR51",
+        "A0A8I5KS98",
+        "A0A8I5KSW7",
+        "A0A8I5KTY2",
+        "A0A8I5KTY5",
+        "A0A8I5KU22",
+        "A0A8I5KUA0",
+        "A0A8I5KUA9",
+        "A0A8I5KV54",
+        "A0A8I5KVE2",
+        "A0A8I5KVR3",
+        "A0A8I5KWB8",
+        "A0A8I5KXB2",
+        "A0A8I5KY75",
+        "A0A8I5KYA3",
+        "A0A8I5KYM7",
+        "A0A8I5KYP8",
+        "A0A8I5KYZ8",
+        "A0A8I5QJI3",
+        "A0A8I5QKN3",
+        "Q5T2B5",
+        "Q5T2B7"
+      ]
+    },
+    {
+      "id": "e916f",
+      "geneNames": [
+        "ELOC"
+      ],
+      "type": "gene_protein",
+      "x": 95.39189357294981,
+      "y": 172.50658305077255,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000154582",
+      "uniprotAccs": [
+        "Q15369",
+        "A0A8I5KYG1",
+        "A0A8J9AD82",
+        "E5RHG8",
+        "R4GMY8"
+      ]
+    },
+    {
+      "id": "e4a09",
+      "geneNames": [
+        "ELOB"
+      ],
+      "type": "gene_protein",
+      "x": 80.24037842143474,
+      "y": 197.5065830507724,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000103363",
+      "uniprotAccs": [
+        "Q15370",
+        "A0A0B4J296",
+        "A0A8I5KQX6",
+        "A0A8I5KUS5",
+        "B8ZZU8",
+        "I3L0M9"
+      ]
+    },
+    {
+      "id": "a7eea",
+      "geneNames": [
+        "RBX1"
+      ],
+      "type": "gene_protein",
+      "x": 173.62799116645488,
+      "y": 147.47701963960284,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000100387",
+      "uniprotAccs": [
+        "P62877"
+      ]
+    },
+    {
+      "id": "ac58a",
+      "geneNames": [
+        "E2"
+      ],
+      "type": "gene_protein",
+      "x": 189.70085481499484,
+      "y": 122.47701963960284,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000067955",
+      "states": [
+        "Ub"
+      ],
+      "uniprotAccs": [
+        "Q13951",
+        "A0A494C0A9",
+        "H3BSC0",
+        "J3KRT0",
+        "J3KS23",
+        "J3KTD8"
+      ]
+    },
+    {
+      "id": "b75da",
+      "geneNames": [
+        "ZYG11B"
+      ],
+      "type": "gene_protein",
+      "x": 77.9398865921471,
+      "y": 147.50658305077255,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000162378",
+      "uniprotAccs": [
+        "Q9C0D3",
+        "A8DPD7"
+      ]
+    },
+    {
+      "id": "c466c",
+      "type": "group",
+      "components": [
+        "d10c6",
+        "a87a8"
+      ]
+    }
+  ]
+}

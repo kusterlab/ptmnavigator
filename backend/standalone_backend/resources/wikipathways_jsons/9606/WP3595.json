@@ -1,0 +1,252 @@
+{
+  "pathway": {
+    "name": "WP3595",
+    "org": "Homo sapiens",
+    "title": "mir-124 predicted interactions with cell cycle and differentiation "
+  },
+  "links": [
+    {
+      "id": "idd3d3bd2a",
+      "sourceId": "b55db",
+      "targetId": "bae25",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "idba9bdd6a",
+      "sourceId": "b55db",
+      "targetId": "f3d26",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id31b81667",
+      "sourceId": "bae25",
+      "targetId": "idba9bdd6a",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id4b2a4814",
+      "sourceId": "f3d26",
+      "targetId": "b7afc",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id161fdcb7",
+      "sourceId": "b55db",
+      "targetId": "bc31c",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "idb879810a",
+      "sourceId": "bc31c",
+      "targetId": "ccbb3",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id3afb19d",
+      "sourceId": "ccbb3",
+      "targetId": "a31c9",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id5279fbc9",
+      "sourceId": "a31c9",
+      "targetId": "fc27e",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id2426cd12",
+      "sourceId": "fc27e",
+      "targetId": "a6137",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id1ba64a9a",
+      "sourceId": "bc31c",
+      "targetId": "f62cb",
+      "types": [
+        "activation"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "b55db",
+      "geneNames": [
+        "hsa-miR-124a"
+      ],
+      "type": "gene_protein",
+      "x": 280.6804374240579,
+      "y": 70.47387606318351,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "miRBase mature sequence",
+      "referenceId": "MIMAT0000422"
+    },
+    {
+      "id": "bc31c",
+      "geneNames": [
+        "SIX4"
+      ],
+      "type": "gene_protein",
+      "x": 139.7326852976915,
+      "y": 202.91616038882105,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000100625",
+      "uniprotAccs": [
+        "Q9UIU6",
+        "G3V2N2"
+      ]
+    },
+    {
+      "id": "ccbb3",
+      "geneNames": [
+        "STRADB"
+      ],
+      "type": "gene_protein",
+      "x": 139.7326852976915,
+      "y": 308.6269744835973,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000082146",
+      "uniprotAccs": [
+        "Q9C0K7",
+        "C9JSU7",
+        "F8WCQ7",
+        "H7C3S5"
+      ]
+    },
+    {
+      "id": "a31c9",
+      "geneNames": [
+        "KLB1"
+      ],
+      "type": "gene_protein",
+      "x": 270.9599027946532,
+      "y": 308.626974483597,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000118046",
+      "uniprotAccs": [
+        "Q15831",
+        "A0A087WT72",
+        "A0A1B0GUW2",
+        "K7EMR0",
+        "K7EQN8"
+      ]
+    },
+    {
+      "id": "fc27e",
+      "geneNames": [
+        "AMPK"
+      ],
+      "type": "gene_protein",
+      "x": 411.90765492102037,
+      "y": 308.62697448359705,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000132356",
+      "uniprotAccs": [
+        "Q13131",
+        "Q96E92"
+      ]
+    },
+    {
+      "id": "bae25",
+      "geneNames": [
+        "PTBP"
+      ],
+      "type": "gene_protein",
+      "x": 403.4021871202922,
+      "y": 134.87241798298902,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000011304",
+      "uniprotAccs": [
+        "P26599",
+        "A0A087WTS6",
+        "A0A087WU68",
+        "A0A087WUW5",
+        "A0A0D9SF20",
+        "A0A0U1RRM4",
+        "A0A6Q8PEX4",
+        "A0A7I2V4H6",
+        "A0A7I2V621",
+        "A6NLN1",
+        "K7EK45",
+        "K7EKJ7",
+        "K7ELW5",
+        "K7ES59"
+      ]
+    },
+    {
+      "id": "f3d26",
+      "geneNames": [
+        "SCP1"
+      ],
+      "type": "gene_protein",
+      "x": 549.1616038882157,
+      "y": 190.7654921020656,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000144579",
+      "uniprotAccs": [
+        "Q9GZU7",
+        "A0AA34QVU0",
+        "A0AA34QW09",
+        "H7C270"
+      ]
+    },
+    {
+      "id": "b7afc",
+      "geneNames": null,
+      "type": "misc",
+      "x": 549.1616038882157,
+      "y": 240.58323207776414,
+      "label": "Neuronal differentiation",
+      "groupId": null
+    },
+    {
+      "id": "a6137",
+      "geneNames": null,
+      "type": "misc",
+      "x": 569.3985419198066,
+      "y": 309.23450789793475,
+      "label": "Cell polarity\nand differentiation",
+      "groupId": null
+    },
+    {
+      "id": "f62cb",
+      "geneNames": null,
+      "type": "misc",
+      "x": 258.4811664641551,
+      "y": 203.05589307411887,
+      "label": "Cell cycle \nprogression",
+      "groupId": null
+    }
+  ]
+}

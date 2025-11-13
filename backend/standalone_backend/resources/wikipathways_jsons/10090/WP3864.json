@@ -1,0 +1,197 @@
+{
+  "pathway": {
+    "name": "WP3864",
+    "org": "Mus musculus",
+    "title": "Robo4 and VEGF signaling pathways crosstalk"
+  },
+  "links": [
+    {
+      "id": "id14447c5",
+      "sourceId": "e9a5f",
+      "targetId": "bbf12",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id8f6175b1",
+      "sourceId": "bb178",
+      "targetId": "e9a5f",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id9cf5d153",
+      "sourceId": "bbf12",
+      "targetId": "ea02d",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ida7aa2972",
+      "sourceId": "bbf12",
+      "targetId": "e7330",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idc600851e",
+      "sourceId": "ad17e",
+      "targetId": "id8f6175b1",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "idc96ead42",
+      "sourceId": "b955c",
+      "targetId": "ad17e",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "ideee2e4f0",
+      "sourceId": "c98ea",
+      "targetId": "bb178",
+      "types": [
+        "binding/association"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "ad17e",
+      "geneNames": [
+        "Robo4"
+      ],
+      "type": "gene_protein",
+      "x": 156.49498997996008,
+      "y": 143.3186372745491,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000032125",
+      "uniprotAccs": [
+        "Q8C310",
+        "A0A0R4J197",
+        "A0A1L1SSV2",
+        "A0A1L1SUF8",
+        "D3Z4M4",
+        "Q6IR38"
+      ]
+    },
+    {
+      "id": "b955c",
+      "geneNames": [
+        "Slit2"
+      ],
+      "type": "gene_protein",
+      "x": 156.24298597194388,
+      "y": 72.42735470941884,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000031558",
+      "uniprotAccs": [
+        "Q9R1B9",
+        "A0A140T8T2",
+        "G3UWQ3",
+        "G3UY21",
+        "G3UYX7",
+        "G3UZ61",
+        "G3UZW0",
+        "G3X909"
+      ]
+    },
+    {
+      "id": "bb178",
+      "geneNames": [
+        "VEGFR2"
+      ],
+      "type": "gene_protein",
+      "x": 332.25,
+      "y": 143.25,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000062960",
+      "uniprotAccs": [
+        "P35918"
+      ]
+    },
+    {
+      "id": "bbf12",
+      "geneNames": [
+        "Rac1"
+      ],
+      "type": "gene_protein",
+      "x": 332.25,
+      "y": 300.75,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000001847",
+      "uniprotAccs": [
+        "P63001",
+        "Q3TLP8"
+      ]
+    },
+    {
+      "id": "c98ea",
+      "geneNames": [
+        "Vegfa"
+      ],
+      "type": "gene_protein",
+      "x": 332.0,
+      "y": 69.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000023951",
+      "uniprotAccs": [
+        "Q00731",
+        "E9Q4N8",
+        "E9Q4N9",
+        "F8WH10"
+      ]
+    },
+    {
+      "id": "e9a5f",
+      "geneNames": [
+        "Src"
+      ],
+      "type": "gene_protein",
+      "x": 332.8276553106236,
+      "y": 224.48697394789556,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000027646",
+      "uniprotAccs": [
+        "P05480"
+      ]
+    },
+    {
+      "id": "e7330",
+      "geneNames": null,
+      "type": "misc",
+      "x": 250.0,
+      "y": 372.0,
+      "label": "Angiogenesis",
+      "groupId": null
+    },
+    {
+      "id": "ea02d",
+      "geneNames": null,
+      "type": "misc",
+      "x": 439.0,
+      "y": 373.5,
+      "label": "Permeability",
+      "groupId": null
+    }
+  ]
+}

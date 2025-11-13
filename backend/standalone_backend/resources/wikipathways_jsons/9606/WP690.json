@@ -1,0 +1,360 @@
+{
+  "pathway": {
+    "name": "WP690",
+    "org": "Homo sapiens",
+    "title": "Polyol pathway"
+  },
+  "links": [
+    {
+      "id": "a2c0b",
+      "sourceId": "e285c",
+      "targetId": "bd923",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "a82a0",
+      "sourceId": "f6cd9",
+      "targetId": "fa8dc",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "b21bb",
+      "sourceId": "e285c",
+      "targetId": "c05e7",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "b31eb",
+      "sourceId": "a4027",
+      "targetId": "a02f1",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "c1b0c",
+      "sourceId": "a4027",
+      "targetId": "e91ea",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "cc6fe",
+      "sourceId": "b6834",
+      "targetId": "b21bb",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "d2d24",
+      "sourceId": "f61f1",
+      "targetId": "f7c71",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "dc056",
+      "sourceId": "a9883",
+      "targetId": "f6dda",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "f6dce",
+      "sourceId": "c43b6",
+      "targetId": "b31eb",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "f6dda",
+      "sourceId": "b29e5",
+      "targetId": "e285c",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "f7c71",
+      "sourceId": "a02f1",
+      "targetId": "b29e5",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "fc0ff",
+      "sourceId": "c05e7",
+      "targetId": "f6cd9",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "ff7ae",
+      "sourceId": "bd923",
+      "targetId": "f6cd9",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id1b230319",
+      "sourceId": "a02f1",
+      "targetId": "ec8aa",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id424bfeb7",
+      "sourceId": "b5536",
+      "targetId": "b091d",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id5bbd5e2d",
+      "sourceId": "a02f1",
+      "targetId": "b5536",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "bf6f0",
+      "sourceId": "a02f1",
+      "targetId": "e1a80",
+      "types": [
+        "conversion"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "a02f1",
+      "geneNames": null,
+      "type": "compound",
+      "x": 389.34541577825166,
+      "y": 125.23809523809526,
+      "label": "D-Sorbitol",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000247"
+    },
+    {
+      "id": "a4027",
+      "geneNames": null,
+      "type": "compound",
+      "x": 590.5024875621892,
+      "y": 125.42928216062546,
+      "label": "D-Glucose",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000122"
+    },
+    {
+      "id": "a9883",
+      "geneNames": [
+        "Fructokinase"
+      ],
+      "type": "gene_protein",
+      "x": 476.9239516702204,
+      "y": 258.272210376688,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000138030",
+      "uniprotAccs": [
+        "P50053",
+        "C9JDL1"
+      ]
+    },
+    {
+      "id": "b29e5",
+      "geneNames": null,
+      "type": "compound",
+      "x": 388.90728500355374,
+      "y": 220.25554371002133,
+      "label": "D-Fructose",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000660"
+    },
+    {
+      "id": "b6834",
+      "geneNames": [
+        "ALDOB"
+      ],
+      "type": "gene_protein",
+      "x": 564.9239516702204,
+      "y": 371.272210376688,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000136872",
+      "uniprotAccs": [
+        "P05062",
+        "A0A3B3IS80",
+        "A0A3B3ITZ0"
+      ]
+    },
+    {
+      "id": "bd923",
+      "geneNames": null,
+      "type": "compound",
+      "x": 302.9239516702204,
+      "y": 417.272210376688,
+      "label": "Dihydroxyacetone phosphate",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0001473"
+    },
+    {
+      "id": "c05e7",
+      "geneNames": null,
+      "type": "compound",
+      "x": 470.9239516702204,
+      "y": 417.272210376688,
+      "label": "Glyceraldehyde",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0001051"
+    },
+    {
+      "id": "c43b6",
+      "geneNames": [
+        "ALR2"
+      ],
+      "type": "gene_protein",
+      "x": 495.9239516702204,
+      "y": 74.27221037668801,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "231",
+      "uniprotAccs": [
+        "P15121"
+      ]
+    },
+    {
+      "id": "e1a80",
+      "geneNames": null,
+      "type": "compound",
+      "x": 224.51936744847194,
+      "y": 67.51954513148544,
+      "label": "1,5-anhydrosorbitol",
+      "groupId": null,
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q4545703"
+    },
+    {
+      "id": "e285c",
+      "geneNames": null,
+      "type": "compound",
+      "x": 387.9239516702204,
+      "y": 312.272210376688,
+      "label": "Fructose 1-phosphate",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0001076"
+    },
+    {
+      "id": "e91ea",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 590.5024875621892,
+      "y": 213.272210376688,
+      "label": "Glycolysis",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP534"
+    },
+    {
+      "id": "f61f1",
+      "geneNames": [
+        "SORD"
+      ],
+      "type": "gene_protein",
+      "x": 472.9239516702204,
+      "y": 172.272210376688,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000140263",
+      "uniprotAccs": [
+        "Q00796",
+        "A0A6I8PIS1",
+        "A0A6I8PRA7",
+        "H0YKB3"
+      ]
+    },
+    {
+      "id": "f6cd9",
+      "geneNames": null,
+      "type": "compound",
+      "x": 387.9239516702204,
+      "y": 509.272210376688,
+      "label": "D-Glyceraldehyde 3-phosphate",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0001112"
+    },
+    {
+      "id": "fa8dc",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 635.9239516702204,
+      "y": 509.272210376688,
+      "label": "Glycolysis",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP534"
+    },
+    {
+      "id": "b5536",
+      "geneNames": null,
+      "type": "compound",
+      "x": 224.51936744847194,
+      "y": 125.23809523809526,
+      "label": "1,4-anhydrosorbitol",
+      "groupId": null,
+      "referenceDatabase": "PubChem-compound",
+      "referenceId": "10953859"
+    },
+    {
+      "id": "ec8aa",
+      "geneNames": null,
+      "type": "compound",
+      "x": 224.51936744847197,
+      "y": 182.04690831556508,
+      "label": "1,4,3,6-dianhydrosorbitol",
+      "groupId": null,
+      "referenceDatabase": "Chemspider",
+      "referenceId": "16739231"
+    },
+    {
+      "id": "b091d",
+      "geneNames": null,
+      "type": "compound",
+      "x": 76.90831556503196,
+      "y": 125.23809523809524,
+      "label": "Isosorbid",
+      "groupId": null,
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q1243800"
+    }
+  ]
+}

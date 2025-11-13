@@ -1,0 +1,369 @@
+{
+  "pathway": {
+    "name": "WP3934",
+    "org": "Homo sapiens",
+    "title": "Leptin and adiponectin"
+  },
+  "links": [
+    {
+      "id": "a0e5a",
+      "sourceId": "c7407",
+      "targetId": "b99a3",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "a609c",
+      "sourceId": "bd2d8",
+      "targetId": "d931c",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "b5dcd",
+      "sourceId": "fe4e5",
+      "targetId": "e683e",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "c173e",
+      "sourceId": "de8e5",
+      "targetId": "fe4e5",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "c4106",
+      "sourceId": "e4d8f",
+      "targetId": "bd2d8",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "cc93c",
+      "sourceId": "f9953",
+      "targetId": "c7cbc",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ce400",
+      "sourceId": "c7cbc",
+      "targetId": "bd2d8",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "d844c",
+      "sourceId": "b383b",
+      "targetId": "bd2d8",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "d9fc6",
+      "sourceId": "b99a3",
+      "targetId": "afcbe",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "dca61",
+      "sourceId": "c4eeb",
+      "targetId": "e4d8f",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "de57c",
+      "sourceId": "f9953",
+      "targetId": "b383b",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "b4625",
+      "sourceId": "d931c",
+      "targetId": "c173e",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "d8581",
+      "sourceId": "e683e",
+      "targetId": "a0e5a",
+      "types": [
+        "catalysis"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "b383b",
+      "geneNames": [
+        "ADIPOR1"
+      ],
+      "type": "gene_protein",
+      "x": 415.0,
+      "y": 204.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000159346",
+      "uniprotAccs": [
+        "Q96A54",
+        "C9J0W7",
+        "C9JNM5",
+        "F8W782"
+      ]
+    },
+    {
+      "id": "b99a3",
+      "geneNames": null,
+      "type": "compound",
+      "x": 379.0,
+      "y": 620.0,
+      "label": "Fatty acid",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:35366"
+    },
+    {
+      "id": "bd895",
+      "geneNames": [
+        "PRKAA1"
+      ],
+      "type": "gene_protein",
+      "x": 529.0,
+      "y": 310.0,
+      "label": null,
+      "groupId": "bd2d8",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000132356",
+      "uniprotAccs": [
+        "Q13131",
+        "Q96E92"
+      ]
+    },
+    {
+      "id": "be7c2",
+      "geneNames": [
+        "PRKAB1"
+      ],
+      "type": "gene_protein",
+      "x": 529.0,
+      "y": 330.0,
+      "label": null,
+      "groupId": "bd2d8",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000111725",
+      "uniprotAccs": [
+        "Q9Y478",
+        "F5H2X8",
+        "F5H4Y8",
+        "F5H610"
+      ]
+    },
+    {
+      "id": "c4eeb",
+      "geneNames": [
+        "LEP"
+      ],
+      "type": "gene_protein",
+      "x": 314.0,
+      "y": 99.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000174697",
+      "uniprotAccs": [
+        "P41159"
+      ]
+    },
+    {
+      "id": "c7407",
+      "geneNames": null,
+      "type": "compound",
+      "x": 663.0,
+      "y": 620.0,
+      "label": "Fatty acid",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:35366"
+    },
+    {
+      "id": "c7cbc",
+      "geneNames": [
+        "ADIPOR2"
+      ],
+      "type": "gene_protein",
+      "x": 528.0,
+      "y": 204.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000006831",
+      "uniprotAccs": [
+        "Q86V24"
+      ]
+    },
+    {
+      "id": "d931c",
+      "geneNames": [
+        "ACACA"
+      ],
+      "type": "gene_protein",
+      "x": 529.0,
+      "y": 420.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000278540",
+      "uniprotAccs": [
+        "Q13085",
+        "A0A087WVR6",
+        "A0A087WWN5",
+        "A0A087WYK6",
+        "A0A087WYS8",
+        "A0A087X0W4",
+        "A0A087X126",
+        "A0A087X2F8",
+        "A0A0C4DGT1",
+        "Q59FY4"
+      ]
+    },
+    {
+      "id": "de8e5",
+      "geneNames": null,
+      "type": "compound",
+      "x": 438.0,
+      "y": 470.0,
+      "label": "Acetyl-CoA",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:15351"
+    },
+    {
+      "id": "e197d",
+      "geneNames": [
+        "PRKAG1"
+      ],
+      "type": "gene_protein",
+      "x": 529.0,
+      "y": 350.0,
+      "label": null,
+      "groupId": "bd2d8",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000181929",
+      "uniprotAccs": [
+        "P54619",
+        "F8VPF5",
+        "F8VQQ1",
+        "F8VRY2",
+        "F8VSH3",
+        "F8VSL2",
+        "F8VVA3",
+        "F8VYY9",
+        "F8VYZ8",
+        "F8VZX1",
+        "F8W046",
+        "H0YHF8",
+        "H0YIC9"
+      ]
+    },
+    {
+      "id": "e4d8f",
+      "geneNames": [
+        "LEPR"
+      ],
+      "type": "gene_protein",
+      "x": 314.0,
+      "y": 204.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000116678",
+      "uniprotAccs": [
+        "P48357"
+      ]
+    },
+    {
+      "id": "e683e",
+      "geneNames": [
+        "CPT1A"
+      ],
+      "type": "gene_protein",
+      "x": 506.0,
+      "y": 586.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000110090",
+      "uniprotAccs": [
+        "P50416",
+        "H3BMD2",
+        "H3BP22",
+        "H3BUJ0",
+        "H3BUV7"
+      ]
+    },
+    {
+      "id": "f9953",
+      "geneNames": [
+        "ADIPOQ"
+      ],
+      "type": "gene_protein",
+      "x": 471.0,
+      "y": 99.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000181092",
+      "uniprotAccs": [
+        "Q15848"
+      ]
+    },
+    {
+      "id": "fe4e5",
+      "geneNames": null,
+      "type": "compound",
+      "x": 624.0,
+      "y": 470.0,
+      "label": "Malonyl-CoA",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:15531"
+    },
+    {
+      "id": "afcbe",
+      "geneNames": null,
+      "type": "misc",
+      "x": 319.0,
+      "y": 564.0,
+      "label": "beta-oxidation",
+      "groupId": null
+    },
+    {
+      "id": "bd2d8",
+      "type": "group",
+      "components": [
+        "bd895",
+        "be7c2",
+        "e197d"
+      ]
+    }
+  ]
+}

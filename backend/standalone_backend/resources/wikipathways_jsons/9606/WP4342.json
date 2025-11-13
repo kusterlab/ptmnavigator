@@ -1,0 +1,482 @@
+{
+  "pathway": {
+    "name": "WP4342",
+    "org": "Homo sapiens",
+    "title": "Vitamins A and D - action mechanisms"
+  },
+  "links": [
+    {
+      "id": "idb82999dd",
+      "sourceId": "d7e5b",
+      "targetId": "f777c",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ideeb0237f",
+      "sourceId": "e72d2",
+      "targetId": "bb1a2",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id91bce333",
+      "sourceId": "a4994",
+      "targetId": "e5375",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id42b069c",
+      "sourceId": "aad4b",
+      "targetId": "df163",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "idddea5ab9",
+      "sourceId": "abf76",
+      "targetId": "a4994",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id14e4b369",
+      "sourceId": "bb1a2",
+      "targetId": "e5375",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id495176fc",
+      "sourceId": "f777c",
+      "targetId": "e83af",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id6d0a0e7",
+      "sourceId": "e5375",
+      "targetId": "cb2b6",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id2afd117f",
+      "sourceId": "c9348",
+      "targetId": "df163",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "id79e2455",
+      "sourceId": "aad4b",
+      "targetId": "d9995",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "id3b60e567",
+      "sourceId": "aad4b",
+      "targetId": "c9348",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id10f4bf73",
+      "sourceId": "c9348",
+      "targetId": "aad4b",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id95b27a2a",
+      "sourceId": "f8431",
+      "targetId": "b3893",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idf866470a",
+      "sourceId": "c2ee8",
+      "targetId": "f8431",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id49e3ed99",
+      "sourceId": "f8431",
+      "targetId": "fd5f5",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id2bfc5c6d",
+      "sourceId": "a6966",
+      "targetId": "d4b3b",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "id126403c0",
+      "sourceId": "c2ee8",
+      "targetId": "b3893",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "idd3d33d9e",
+      "sourceId": "fd5f5",
+      "targetId": "a6966",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idea5bafd9",
+      "sourceId": "b3893",
+      "targetId": "a6966",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id37d1b1a4",
+      "sourceId": "df2fd",
+      "targetId": "c2ee8",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idd38b031c",
+      "sourceId": "e83af",
+      "targetId": "c2ee8",
+      "types": [
+        "conversion"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "bb1a2",
+      "geneNames": null,
+      "type": "compound",
+      "x": 1009.9271494565239,
+      "y": 241.41756043559369,
+      "label": "beta-carotene",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:17579"
+    },
+    {
+      "id": "f777c",
+      "geneNames": null,
+      "type": "compound",
+      "x": 171.50038146972656,
+      "y": 139.0,
+      "label": "7-Dehydrocholesterol",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000032"
+    },
+    {
+      "id": "a4994",
+      "geneNames": null,
+      "type": "compound",
+      "x": 850.1145016304348,
+      "y": 176.4597986413043,
+      "label": "retinol (vit A)",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:17336"
+    },
+    {
+      "id": "e5375",
+      "geneNames": null,
+      "type": "compound",
+      "x": 850.1145016304348,
+      "y": 241.41756043559369,
+      "label": "retinal",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:15035"
+    },
+    {
+      "id": "c9348",
+      "geneNames": null,
+      "type": "compound",
+      "x": 923.7847499999998,
+      "y": 361.4809891304347,
+      "label": "ATRA",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:50648"
+    },
+    {
+      "id": "aad4b",
+      "geneNames": null,
+      "type": "compound",
+      "x": 789.3258994565211,
+      "y": 361.4809891304347,
+      "label": "9-cis-Retinoic acid",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0002369"
+    },
+    {
+      "id": "f8431",
+      "geneNames": null,
+      "type": "compound",
+      "x": 300.0,
+      "y": 139.0,
+      "label": "25(OH)D3",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:17933"
+    },
+    {
+      "id": "e296e",
+      "geneNames": [
+        "VDR"
+      ],
+      "type": "gene_protein",
+      "x": 208.2999999999998,
+      "y": 518.1499999999999,
+      "label": null,
+      "groupId": "d4b3b",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000111424",
+      "uniprotAccs": [
+        "P11473",
+        "A0A5K1VW50",
+        "F8VPF8",
+        "F8VRJ4",
+        "F8VVY8",
+        "F8VXQ9"
+      ]
+    },
+    {
+      "id": "c2ee8",
+      "geneNames": null,
+      "type": "compound",
+      "x": 171.50038146972656,
+      "y": 241.0,
+      "label": "Vitamin D3",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:28940"
+    },
+    {
+      "id": "e83af",
+      "geneNames": null,
+      "type": "compound",
+      "x": 171.50038146972656,
+      "y": 190.0,
+      "label": "Previtamin D3",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0006500"
+    },
+    {
+      "id": "fd5f5",
+      "geneNames": null,
+      "type": "compound",
+      "x": 413.0,
+      "y": 139.0,
+      "label": "1,25(OH)2D3",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000969"
+    },
+    {
+      "id": "b3893",
+      "geneNames": null,
+      "type": "compound",
+      "x": 171.50038146972656,
+      "y": 340.0,
+      "label": "25(OH)D3",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:17933"
+    },
+    {
+      "id": "a6966",
+      "geneNames": null,
+      "type": "compound",
+      "x": 171.50038146972656,
+      "y": 388.0,
+      "label": "1,25(OH)2D3",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000969"
+    },
+    {
+      "id": "a6a7c",
+      "geneNames": [
+        "RXR"
+      ],
+      "type": "gene_protein",
+      "x": 298.2999999999998,
+      "y": 518.1499999999999,
+      "label": null,
+      "groupId": "d4b3b",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000186350",
+      "uniprotAccs": [
+        "P19793",
+        "A0A3B3IS44",
+        "A0A5F9ZHH6"
+      ]
+    },
+    {
+      "id": "c0c4b",
+      "geneNames": [
+        "RXR"
+      ],
+      "type": "gene_protein",
+      "x": 727.755663043477,
+      "y": 518.120570923913,
+      "label": null,
+      "groupId": "d9995",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000131759",
+      "uniprotAccs": [
+        "P10276",
+        "A8MUP8",
+        "J3KSJ4",
+        "J3QRM2"
+      ]
+    },
+    {
+      "id": "f1d59",
+      "geneNames": [
+        "RXR"
+      ],
+      "type": "gene_protein",
+      "x": 818.4847771739134,
+      "y": 518.120570923913,
+      "label": null,
+      "groupId": "d9995",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000186350",
+      "uniprotAccs": [
+        "P19793",
+        "A0A3B3IS44",
+        "A0A5F9ZHH6"
+      ]
+    },
+    {
+      "id": "a0ef9",
+      "geneNames": [
+        "RAR"
+      ],
+      "type": "gene_protein",
+      "x": 943.8632445652163,
+      "y": 518.120570923913,
+      "label": null,
+      "groupId": "df163",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000131759",
+      "uniprotAccs": [
+        "P10276",
+        "A8MUP8",
+        "J3KSJ4",
+        "J3QRM2"
+      ]
+    },
+    {
+      "id": "ff8ac",
+      "geneNames": [
+        "RXR"
+      ],
+      "type": "gene_protein",
+      "x": 1033.8632445652163,
+      "y": 518.120570923913,
+      "label": null,
+      "groupId": "df163",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000186350",
+      "uniprotAccs": [
+        "P19793",
+        "A0A3B3IS44",
+        "A0A5F9ZHH6"
+      ]
+    },
+    {
+      "id": "cb2b6",
+      "geneNames": null,
+      "type": "misc",
+      "x": 850.8543749999995,
+      "y": 330.82909239130413,
+      "label": "Retinoic acid",
+      "groupId": null
+    },
+    {
+      "id": "a3a07",
+      "geneNames": null,
+      "type": "misc",
+      "x": 1009.9271494565239,
+      "y": 140.88449320652163,
+      "label": "Vitamin A-\nrich diet",
+      "groupId": "abf76"
+    },
+    {
+      "id": "d7e5b",
+      "geneNames": null,
+      "type": "misc",
+      "x": 219.2697782721887,
+      "y": 78.22870171535357,
+      "label": "UV-B light",
+      "groupId": null
+    },
+    {
+      "id": "d9995",
+      "type": "group",
+      "components": [
+        "c0c4b",
+        "f1d59"
+      ]
+    },
+    {
+      "id": "abf76",
+      "type": "group",
+      "components": [
+        "a3a07"
+      ]
+    },
+    {
+      "id": "d4b3b",
+      "type": "group",
+      "components": [
+        "e296e",
+        "a6a7c"
+      ]
+    },
+    {
+      "id": "df163",
+      "type": "group",
+      "components": [
+        "a0ef9",
+        "ff8ac"
+      ]
+    }
+  ]
+}

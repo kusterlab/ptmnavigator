@@ -1,0 +1,681 @@
+{
+  "pathway": {
+    "name": "WP692",
+    "org": "Homo sapiens",
+    "title": "Sulfation biotransformation reaction"
+  },
+  "links": [
+    {
+      "id": "a5d9e",
+      "sourceId": "e5377",
+      "targetId": "b6da1",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "a98be",
+      "sourceId": "f86e8",
+      "targetId": "cab83",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "a9f78",
+      "sourceId": "b6da1",
+      "targetId": "f2a78",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "abced",
+      "sourceId": "efc9b",
+      "targetId": "fde0b",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "aeefb",
+      "sourceId": "dd1af",
+      "targetId": "c9af0",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "be82f",
+      "sourceId": "b1db5",
+      "targetId": "d04e5",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "c9af0",
+      "sourceId": "d04e5",
+      "targetId": "b1db5",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "d26cc",
+      "sourceId": "e366d",
+      "targetId": "e0780",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "d2d7d",
+      "sourceId": "e366d",
+      "targetId": "a5d9e",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "dc4a8",
+      "sourceId": "c52fb",
+      "targetId": "a98be",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "e0780",
+      "sourceId": "a9bd0",
+      "targetId": "e5377",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ec4ed",
+      "sourceId": "d04e5",
+      "targetId": "c1752",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "ecdf8",
+      "sourceId": "b19ad",
+      "targetId": "d53c1",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "eecbd",
+      "sourceId": "c1483",
+      "targetId": "be82f",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "f34cf",
+      "sourceId": "b6da1",
+      "targetId": "ec4ed",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "f3cb1",
+      "sourceId": "c1752",
+      "targetId": "f4b9a",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "f4b9a",
+      "sourceId": "a7d22",
+      "targetId": "a3eac",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "fcc06",
+      "sourceId": "cab83",
+      "targetId": "f86e8",
+      "types": [
+        "activation"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "a0aeb",
+      "geneNames": [
+        "SULT1E1"
+      ],
+      "type": "gene_protein",
+      "x": 135.0,
+      "y": 162.0,
+      "label": null,
+      "groupId": "c3ad9",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000109193",
+      "uniprotAccs": [
+        "P49888"
+      ]
+    },
+    {
+      "id": "a7615",
+      "geneNames": [
+        "PAPSS2"
+      ],
+      "type": "gene_protein",
+      "x": 310.0,
+      "y": 380.0,
+      "label": null,
+      "groupId": "e366d",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000198682",
+      "uniprotAccs": [
+        "O95340"
+      ]
+    },
+    {
+      "id": "a9bd0",
+      "geneNames": null,
+      "type": "compound",
+      "x": 185.0,
+      "y": 434.0,
+      "label": "Sulfate",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0001448"
+    },
+    {
+      "id": "b19ad",
+      "geneNames": null,
+      "type": "compound",
+      "x": 110.0,
+      "y": 346.0,
+      "label": "ATP",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000538"
+    },
+    {
+      "id": "b1db5",
+      "geneNames": null,
+      "type": "compound",
+      "x": 518.4916666666667,
+      "y": 28.483333333333334,
+      "label": "Glutathione (reduced)",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000125"
+    },
+    {
+      "id": "b2fc3",
+      "geneNames": [
+        "SULT1A1"
+      ],
+      "type": "gene_protein",
+      "x": 55.0,
+      "y": 82.0,
+      "label": null,
+      "groupId": "c3ad9",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000196502",
+      "uniprotAccs": [
+        "P50225",
+        "H3BQX5",
+        "H3BRY5"
+      ]
+    },
+    {
+      "id": "b6da1",
+      "geneNames": null,
+      "type": "compound",
+      "x": 463.0,
+      "y": 296.0,
+      "label": "PAPS",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0001134"
+    },
+    {
+      "id": "c06a9",
+      "geneNames": [
+        "PAPSS1"
+      ],
+      "type": "gene_protein",
+      "x": 310.0,
+      "y": 360.0,
+      "label": null,
+      "groupId": "e366d",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000138801",
+      "uniprotAccs": [
+        "O43252"
+      ]
+    },
+    {
+      "id": "c1483",
+      "geneNames": [
+        "GPX"
+      ],
+      "type": "gene_protein",
+      "x": 669.0,
+      "y": 54.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "c1752",
+      "geneNames": [
+        "Sulfotransferase"
+      ],
+      "type": "gene_protein",
+      "x": 517.0,
+      "y": 159.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "c52fb",
+      "geneNames": [
+        "G6PD"
+      ],
+      "type": "gene_protein",
+      "x": 238.0,
+      "y": 57.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000160211",
+      "uniprotAccs": [
+        "P11413",
+        "A0A8Q3SIN6",
+        "A0A8Q3SIS5",
+        "A0A8Q3SJB9",
+        "A0A8Q3WL80",
+        "A0A8Q3WL83",
+        "A0A8Q3WL90",
+        "A0A8Q3WL93",
+        "A0A8Q3WL95",
+        "A0A8Q3WLB9",
+        "A0A8Q3WLT0",
+        "E7EM57",
+        "E7EUI8",
+        "E9PD92"
+      ]
+    },
+    {
+      "id": "c6d02",
+      "geneNames": [
+        "SULT6B1"
+      ],
+      "type": "gene_protein",
+      "x": 135.0,
+      "y": 202.0,
+      "label": null,
+      "groupId": "c3ad9",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000138068",
+      "uniprotAccs": [
+        "Q6IMI4",
+        "A0A0C4DG03",
+        "A0A8I5KWB2",
+        "A0A8I5KXR4",
+        "C9JFH2"
+      ]
+    },
+    {
+      "id": "c993e",
+      "geneNames": [
+        "SULT4A1"
+      ],
+      "type": "gene_protein",
+      "x": 55.0,
+      "y": 202.0,
+      "label": null,
+      "groupId": "c3ad9",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000130540",
+      "uniprotAccs": [
+        "Q9BR01",
+        "F8WE22"
+      ]
+    },
+    {
+      "id": "cab83",
+      "geneNames": null,
+      "type": "compound",
+      "x": 384.0,
+      "y": 92.0,
+      "label": "NADPH",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000221"
+    },
+    {
+      "id": "cfc18",
+      "geneNames": [
+        "SULT1A4"
+      ],
+      "type": "gene_protein",
+      "x": 135.0,
+      "y": 102.0,
+      "label": null,
+      "groupId": "c3ad9",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000213648",
+      "uniprotAccs": [
+        "P0DMN0",
+        "A0A0A6YYL2",
+        "H3BNY7",
+        "H3BRT0"
+      ]
+    },
+    {
+      "id": "d04e5",
+      "geneNames": null,
+      "type": "compound",
+      "x": 517.0,
+      "y": 82.0,
+      "label": "Glutathione (oxidized)",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0003337"
+    },
+    {
+      "id": "d4728",
+      "geneNames": [
+        "SULT1A2"
+      ],
+      "type": "gene_protein",
+      "x": 135.0,
+      "y": 82.0,
+      "label": null,
+      "groupId": "c3ad9",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000197165",
+      "uniprotAccs": [
+        "P50226",
+        "E9PKR8",
+        "E9PKW4",
+        "E9PM76"
+      ]
+    },
+    {
+      "id": "d53c1",
+      "geneNames": null,
+      "type": "compound",
+      "x": 111.0,
+      "y": 395.0,
+      "label": "PPi",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "dd1af",
+      "geneNames": [
+        "GSR"
+      ],
+      "type": "gene_protein",
+      "x": 372.0,
+      "y": 56.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000104687",
+      "uniprotAccs": [
+        "P00390",
+        "A0A2R8YF59",
+        "H0YC68"
+      ]
+    },
+    {
+      "id": "e1f0d",
+      "geneNames": [
+        "SULT2A1"
+      ],
+      "type": "gene_protein",
+      "x": 55.0,
+      "y": 182.0,
+      "label": null,
+      "groupId": "c3ad9",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000105398",
+      "uniprotAccs": [
+        "Q06520"
+      ]
+    },
+    {
+      "id": "e444e",
+      "geneNames": [
+        "SULT1C3"
+      ],
+      "type": "gene_protein",
+      "x": 135.0,
+      "y": 142.0,
+      "label": null,
+      "groupId": "c3ad9",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000196228",
+      "uniprotAccs": [
+        "Q6IMI6"
+      ]
+    },
+    {
+      "id": "e5377",
+      "geneNames": null,
+      "type": "compound",
+      "x": 185.0,
+      "y": 296.0,
+      "label": "APS",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0001003"
+    },
+    {
+      "id": "eafc6",
+      "geneNames": [
+        "SULT1A3"
+      ],
+      "type": "gene_protein",
+      "x": 55.0,
+      "y": 102.0,
+      "label": null,
+      "groupId": "c3ad9",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000213599",
+      "uniprotAccs": null
+    },
+    {
+      "id": "eb6c5",
+      "geneNames": [
+        "SULT1C4"
+      ],
+      "type": "gene_protein",
+      "x": 55.0,
+      "y": 162.0,
+      "label": null,
+      "groupId": "c3ad9",
+      "referenceDatabase": "GeneID",
+      "referenceId": "27233",
+      "uniprotAccs": [
+        "O75897",
+        "Q6PD90"
+      ]
+    },
+    {
+      "id": "ebadf",
+      "geneNames": [
+        "SULT1C1"
+      ],
+      "type": "gene_protein",
+      "x": 135.0,
+      "y": 122.0,
+      "label": null,
+      "groupId": "c3ad9",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000198203",
+      "uniprotAccs": [
+        "O00338",
+        "B4DLP0",
+        "B8ZZF7",
+        "C9JSR0",
+        "H7BZ17",
+        "H7C420"
+      ]
+    },
+    {
+      "id": "efc9b",
+      "geneNames": null,
+      "type": "compound",
+      "x": 262.0,
+      "y": 249.0,
+      "label": "ATP",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000538"
+    },
+    {
+      "id": "f2a78",
+      "geneNames": null,
+      "type": "compound",
+      "x": 578.0,
+      "y": 296.0,
+      "label": "PAP",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000061"
+    },
+    {
+      "id": "f504b",
+      "geneNames": [
+        "SULT1C2"
+      ],
+      "type": "gene_protein",
+      "x": 55.0,
+      "y": 142.0,
+      "label": null,
+      "groupId": "c3ad9",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000198075",
+      "uniprotAccs": [
+        "O75897"
+      ]
+    },
+    {
+      "id": "f86e8",
+      "geneNames": null,
+      "type": "compound",
+      "x": 383.0,
+      "y": 24.0,
+      "label": "NADP+",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000217"
+    },
+    {
+      "id": "f89bf",
+      "geneNames": [
+        "SULT1B1"
+      ],
+      "type": "gene_protein",
+      "x": 55.0,
+      "y": 122.0,
+      "label": null,
+      "groupId": "c3ad9",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000173597",
+      "uniprotAccs": [
+        "O43704",
+        "D6RD70",
+        "D6RIA8"
+      ]
+    },
+    {
+      "id": "faca8",
+      "geneNames": [
+        "SULT2B1"
+      ],
+      "type": "gene_protein",
+      "x": 135.0,
+      "y": 182.0,
+      "label": null,
+      "groupId": "c3ad9",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000088002",
+      "uniprotAccs": [
+        "O00204"
+      ]
+    },
+    {
+      "id": "fde0b",
+      "geneNames": null,
+      "type": "compound",
+      "x": 362.0,
+      "y": 249.0,
+      "label": "ADP",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0001341"
+    },
+    {
+      "id": "a3eac",
+      "geneNames": null,
+      "type": "misc",
+      "x": 654.5,
+      "y": 194.0,
+      "label": "Substrate sulfate",
+      "groupId": null
+    },
+    {
+      "id": "a7d22",
+      "geneNames": null,
+      "type": "misc",
+      "x": 410.0,
+      "y": 194.0,
+      "label": "Substrate",
+      "groupId": null
+    },
+    {
+      "id": "c3ad9",
+      "type": "group",
+      "components": [
+        "a0aeb",
+        "b2fc3",
+        "c6d02",
+        "c993e",
+        "cfc18",
+        "d4728",
+        "e1f0d",
+        "e444e",
+        "eafc6",
+        "eb6c5",
+        "ebadf",
+        "f504b",
+        "f89bf",
+        "faca8"
+      ]
+    },
+    {
+      "id": "e366d",
+      "type": "group",
+      "components": [
+        "a7615",
+        "c06a9"
+      ]
+    }
+  ]
+}

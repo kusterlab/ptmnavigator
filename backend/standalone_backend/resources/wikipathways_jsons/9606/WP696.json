@@ -1,0 +1,696 @@
+{
+  "pathway": {
+    "name": "WP696",
+    "org": "Homo sapiens",
+    "title": "Benzo(a)pyrene metabolism"
+  },
+  "links": [
+    {
+      "id": "a23db",
+      "sourceId": "a04fa",
+      "targetId": "ed917",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "a667f",
+      "sourceId": "f724f",
+      "targetId": "dcac1",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "a76ac",
+      "sourceId": "b7283",
+      "targetId": "d3bbf",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "aa851",
+      "sourceId": "b6d0b",
+      "targetId": "d7f0b",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "aae88",
+      "sourceId": "a9aec",
+      "targetId": "f0c0d",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "aef67",
+      "sourceId": "b44a4",
+      "targetId": "f2245",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "b08b9",
+      "sourceId": "f6289",
+      "targetId": "d8002",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "b09a9",
+      "sourceId": "f7e88",
+      "targetId": "a23db",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "b1425",
+      "sourceId": "ef8ff",
+      "targetId": "aae88",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "b680d",
+      "sourceId": "b6d0b",
+      "targetId": "cfcfd",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "bedfb",
+      "sourceId": "d5528",
+      "targetId": "b680d",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "bf0bc",
+      "sourceId": "fb222",
+      "targetId": "cfcfd",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "c3980",
+      "sourceId": "cfaea",
+      "targetId": "f6289",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "cad21",
+      "sourceId": "b44a4",
+      "targetId": "f54ba",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "cf18b",
+      "sourceId": "f7e88",
+      "targetId": "e0d06",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "d3137",
+      "sourceId": "b6d0b",
+      "targetId": "fb222",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "d3bbf",
+      "sourceId": "a9aec",
+      "targetId": "ac807",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "d4d95",
+      "sourceId": "b6d0b",
+      "targetId": "a04fa",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "dcac1",
+      "sourceId": "b6d0b",
+      "targetId": "cfaea",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "de12e",
+      "sourceId": "fb222",
+      "targetId": "d7f0b",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "e0d06",
+      "sourceId": "d7f0b",
+      "targetId": "db97f",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "e568d",
+      "sourceId": "c1f99",
+      "targetId": "f3e0d",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "eb567",
+      "sourceId": "f6289",
+      "targetId": "fda0c",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "f1d60",
+      "sourceId": "d5528",
+      "targetId": "d3137",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "f2245",
+      "sourceId": "d7f0b",
+      "targetId": "de944",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "f25b0",
+      "sourceId": "fb222",
+      "targetId": "a04fa",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "f2eac",
+      "sourceId": "f6289",
+      "targetId": "c18cd",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "f3e0d",
+      "sourceId": "fb222",
+      "targetId": "a9aec",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "f54ba",
+      "sourceId": "a04fa",
+      "targetId": "a17f9",
+      "types": [
+        "activation"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "a04fa",
+      "geneNames": null,
+      "type": "compound",
+      "x": 822.0,
+      "y": 178.0,
+      "label": "9-hydroxy-benzo[a]pyrene",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "a17f9",
+      "geneNames": null,
+      "type": "compound",
+      "x": 1123.0,
+      "y": 148.0,
+      "label": "Benzo[a]pyrene-9-sulfate",
+      "groupId": null,
+      "referenceDatabase": "PubChem-compound",
+      "referenceId": "149850"
+    },
+    {
+      "id": "a43a3",
+      "geneNames": [
+        "CYP3A4"
+      ],
+      "type": "gene_protein",
+      "x": 248.0,
+      "y": 559.0,
+      "label": null,
+      "groupId": "bfb8b",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000160868",
+      "uniprotAccs": [
+        "P08684",
+        "A0A494C0W7",
+        "A0A499FJM4",
+        "C9JBD2",
+        "E7EVM8"
+      ]
+    },
+    {
+      "id": "a64b3",
+      "geneNames": [
+        "AKR1C2"
+      ],
+      "type": "gene_protein",
+      "x": 670.0,
+      "y": 539.0,
+      "label": null,
+      "groupId": "b7283",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000151632",
+      "uniprotAccs": [
+        "P52895",
+        "B4DK69",
+        "S4R3P0"
+      ]
+    },
+    {
+      "id": "a7b1a",
+      "geneNames": [
+        "AKR1C3"
+      ],
+      "type": "gene_protein",
+      "x": 750.0,
+      "y": 539.0,
+      "label": null,
+      "groupId": "b7283",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000196139",
+      "uniprotAccs": [
+        "P42330",
+        "A0A0A0MSS8",
+        "S4R3D5",
+        "S4R3Z2"
+      ]
+    },
+    {
+      "id": "a9aec",
+      "geneNames": null,
+      "type": "compound",
+      "x": 469.0,
+      "y": 509.0,
+      "label": "7,8-dihydroxy-7,8-dihydro-benzo[a]pyrene",
+      "groupId": null,
+      "referenceDatabase": "Chemspider",
+      "referenceId": "24123"
+    },
+    {
+      "id": "aaad3",
+      "geneNames": [
+        "CYP1A1"
+      ],
+      "type": "gene_protein",
+      "x": 248.0,
+      "y": 519.0,
+      "label": null,
+      "groupId": "bfb8b",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000140465",
+      "uniprotAccs": [
+        "P04798",
+        "A4F3V8",
+        "E7EMT5"
+      ]
+    },
+    {
+      "id": "ac807",
+      "geneNames": null,
+      "type": "compound",
+      "x": 610.5,
+      "y": 624.0,
+      "label": "Benzo[a]pyrene-7,8-dione",
+      "groupId": null,
+      "referenceDatabase": "PubChem-compound",
+      "referenceId": "105020"
+    },
+    {
+      "id": "b44a4",
+      "geneNames": [
+        "SULT"
+      ],
+      "type": "gene_protein",
+      "x": 966.0,
+      "y": 176.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "b6d0b",
+      "geneNames": null,
+      "type": "compound",
+      "x": 469.0,
+      "y": 71.0,
+      "label": "Benzo[a]pyrene",
+      "groupId": null,
+      "referenceDatabase": "PubChem-compound",
+      "referenceId": "2336"
+    },
+    {
+      "id": "bd135",
+      "geneNames": [
+        "AKR1A1"
+      ],
+      "type": "gene_protein",
+      "x": 670.0,
+      "y": 519.0,
+      "label": null,
+      "groupId": "b7283",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000117448",
+      "uniprotAccs": [
+        "P14550",
+        "Q5T621",
+        "V9GYG2",
+        "V9GYP9"
+      ]
+    },
+    {
+      "id": "c18cd",
+      "geneNames": null,
+      "type": "compound",
+      "x": 319.0,
+      "y": 299.0,
+      "label": "Benzo[a]pyrene-6,12-dione",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "c1f99",
+      "geneNames": [
+        "EPHX1"
+      ],
+      "type": "gene_protein",
+      "x": 565.0,
+      "y": 415.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000143819",
+      "uniprotAccs": [
+        "P07099",
+        "B1AQP8"
+      ]
+    },
+    {
+      "id": "c46cf",
+      "geneNames": [
+        "AKR1C4"
+      ],
+      "type": "gene_protein",
+      "x": 670.0,
+      "y": 559.0,
+      "label": null,
+      "groupId": "b7283",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000198610",
+      "uniprotAccs": [
+        "P17516"
+      ]
+    },
+    {
+      "id": "cfaea",
+      "geneNames": null,
+      "type": "compound",
+      "x": 209.0,
+      "y": 184.0,
+      "label": "Benzo[a]pyrene radical cation",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "cfcfd",
+      "geneNames": null,
+      "type": "compound",
+      "x": 641.0,
+      "y": 176.0,
+      "label": "3-hydroxy-benzo[a]pyrene",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "d7f0b",
+      "geneNames": null,
+      "type": "compound",
+      "x": 735.0,
+      "y": 205.0,
+      "label": "7-hydroxy-benzo[a]pyrene",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "d8002",
+      "geneNames": null,
+      "type": "compound",
+      "x": 209.5,
+      "y": 328.0,
+      "label": "Benzo[a]pyrene-3,6-dione",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "db97f",
+      "geneNames": null,
+      "type": "compound",
+      "x": 1147.5,
+      "y": 326.0,
+      "label": "Benzo[a]pyrene-7-glucuronide",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "dc6a2",
+      "geneNames": [
+        "CYP1A1"
+      ],
+      "type": "gene_protein",
+      "x": 559.0,
+      "y": 254.0,
+      "label": null,
+      "groupId": "d5528",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000140465",
+      "uniprotAccs": [
+        "P04798",
+        "A4F3V8",
+        "E7EMT5"
+      ]
+    },
+    {
+      "id": "de944",
+      "geneNames": null,
+      "type": "compound",
+      "x": 1126.0,
+      "y": 204.0,
+      "label": "Benzo[a]pyrene-7-sulfate",
+      "groupId": null,
+      "referenceDatabase": "PubChem-compound",
+      "referenceId": "23703977"
+    },
+    {
+      "id": "e3ea7",
+      "geneNames": [
+        "AKR1C1"
+      ],
+      "type": "gene_protein",
+      "x": 750.0,
+      "y": 519.0,
+      "label": null,
+      "groupId": "b7283",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000187134",
+      "uniprotAccs": [
+        "Q04828",
+        "A6NHU4",
+        "H0Y804"
+      ]
+    },
+    {
+      "id": "e62e7",
+      "geneNames": [
+        "CYP1B1"
+      ],
+      "type": "gene_protein",
+      "x": 559.0,
+      "y": 274.0,
+      "label": null,
+      "groupId": "d5528",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000138061",
+      "uniprotAccs": [
+        "Q16678",
+        "A0A087WUQ7",
+        "A0A087WW26"
+      ]
+    },
+    {
+      "id": "ed917",
+      "geneNames": null,
+      "type": "compound",
+      "x": 1145.5,
+      "y": 262.0,
+      "label": "Benzo[a]pyrene-9-glucuronide",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "ef8ff",
+      "geneNames": [
+        "CYP1B1"
+      ],
+      "type": "gene_protein",
+      "x": 248.0,
+      "y": 539.0,
+      "label": null,
+      "groupId": "bfb8b",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000138061",
+      "uniprotAccs": [
+        "Q16678",
+        "A0A087WUQ7",
+        "A0A087WW26"
+      ]
+    },
+    {
+      "id": "f0c0d",
+      "geneNames": null,
+      "type": "compound",
+      "x": 326.5,
+      "y": 622.0,
+      "label": "9,10-epoxy-7,8-dihydroxy-7,8-dihydro-benzo[a]pyrene",
+      "groupId": null,
+      "referenceDatabase": "Chemspider",
+      "referenceId": "46738"
+    },
+    {
+      "id": "f6289",
+      "geneNames": null,
+      "type": "compound",
+      "x": 209.5,
+      "y": 240.0,
+      "label": "6-hydroxy-benzo[a]pyrene",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "f724f",
+      "geneNames": [
+        "Cytochrome P450 peroxidase"
+      ],
+      "type": "gene_protein",
+      "x": 211.8373934226554,
+      "y": 102.85749086479899,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "f7e88",
+      "geneNames": [
+        "Glucuronosyltransferase"
+      ],
+      "type": "gene_protein",
+      "x": 974.0,
+      "y": 292.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "fb222",
+      "geneNames": null,
+      "type": "compound",
+      "x": 469.5,
+      "y": 338.0,
+      "label": "7,8-epoxy-benzo[a]pyrene",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "fda0c",
+      "geneNames": null,
+      "type": "compound",
+      "x": 92.5,
+      "y": 299.0,
+      "label": "Benzo[a]pyrene-1,6-dione",
+      "groupId": null,
+      "referenceDatabase": "PubChem-compound",
+      "referenceId": "18300"
+    },
+    {
+      "id": "b7283",
+      "type": "group",
+      "components": [
+        "a64b3",
+        "a7b1a",
+        "bd135",
+        "c46cf",
+        "e3ea7"
+      ]
+    },
+    {
+      "id": "bfb8b",
+      "type": "group",
+      "components": [
+        "a43a3",
+        "aaad3",
+        "ef8ff"
+      ]
+    },
+    {
+      "id": "d5528",
+      "type": "group",
+      "components": [
+        "dc6a2",
+        "e62e7"
+      ]
+    }
+  ]
+}

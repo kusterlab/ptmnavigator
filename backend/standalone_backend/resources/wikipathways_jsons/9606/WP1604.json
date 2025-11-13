@@ -1,0 +1,728 @@
+{
+  "pathway": {
+    "name": "WP1604",
+    "org": "Homo sapiens",
+    "title": "Codeine and morphine metabolism"
+  },
+  "links": [
+    {
+      "id": "id157a3ce3",
+      "sourceId": "a05b6",
+      "targetId": "e46d4",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id1f1fc9a3",
+      "sourceId": "bd808",
+      "targetId": "idc8d059f6",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id2647e419",
+      "sourceId": "f8ef0",
+      "targetId": "id35379b93",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id3295267",
+      "sourceId": "ae2b0",
+      "targetId": "idaa161f3f",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id35379b93",
+      "sourceId": "a05b6",
+      "targetId": "b59b1",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id4e7cb6a3",
+      "sourceId": "b05ff",
+      "targetId": "caaed",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id642d9ee1",
+      "sourceId": "dbbd0",
+      "targetId": "id917ac615",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id67727403",
+      "sourceId": "a5cfa",
+      "targetId": "id35379b93",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id6a688998",
+      "sourceId": "a05b6",
+      "targetId": "b1b59",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id7b019058",
+      "sourceId": "dbbd0",
+      "targetId": "id4e7cb6a3",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id892fc659",
+      "sourceId": "b1b59",
+      "targetId": "e9b6a",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id917ac615",
+      "sourceId": "dad0a",
+      "targetId": "cd587",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id96151173",
+      "sourceId": "dbbd0",
+      "targetId": "id892fc659",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id9e976b05",
+      "sourceId": "cd587",
+      "targetId": "dfdb9",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ida20009c6",
+      "sourceId": "a15cc",
+      "targetId": "id157a3ce3",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "idaa161f3f",
+      "sourceId": "b59b1",
+      "targetId": "b05ff",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "idad0b415a",
+      "sourceId": "b59b1",
+      "targetId": "dad0a",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "idc7d7facd",
+      "sourceId": "caaed",
+      "targetId": "dfdb9",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idc8d059f6",
+      "sourceId": "b59b1",
+      "targetId": "a83fd",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "idcabfc5d",
+      "sourceId": "f3c5f",
+      "targetId": "adedd",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ide74120",
+      "sourceId": "b962e",
+      "targetId": "idad0b415a",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "ide74ddb3f",
+      "sourceId": "e9b6a",
+      "targetId": "dfdb9",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ide804ace8",
+      "sourceId": "d7c1a",
+      "targetId": "idaa161f3f",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "ide9ecbfc1",
+      "sourceId": "f3c5f",
+      "targetId": "idaa161f3f",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "ided88d85f",
+      "sourceId": "f957d",
+      "targetId": "id6a688998",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "idedd99414",
+      "sourceId": "a9a36",
+      "targetId": "id6a688998",
+      "types": [
+        "catalysis"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "dfdb9",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 410.35011029838597,
+      "y": 653.5242075931724,
+      "label": "Elimination via bile",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "a05b6",
+      "geneNames": null,
+      "type": "compound",
+      "x": 192.4035759897818,
+      "y": 128.74074074074065,
+      "label": "Codeine",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0004995"
+    },
+    {
+      "id": "a15cc",
+      "geneNames": [
+        "CYP3A4"
+      ],
+      "type": "gene_protein",
+      "x": 104.66180048661818,
+      "y": 156.9489051094891,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "1576",
+      "uniprotAccs": [
+        "P08684",
+        "Q6GRK0"
+      ]
+    },
+    {
+      "id": "a5cfa",
+      "geneNames": [
+        "CYP2D6"
+      ],
+      "type": "gene_protein",
+      "x": 296.39753987564205,
+      "y": 94.21654501216545,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "1565",
+      "uniprotAccs": [
+        "P10635",
+        "C1ID52",
+        "Q5Y7H2"
+      ]
+    },
+    {
+      "id": "a83fd",
+      "geneNames": null,
+      "type": "compound",
+      "x": 358.0600255427841,
+      "y": 260.0715197956576,
+      "label": "Normorphine",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0041959"
+    },
+    {
+      "id": "a9a36",
+      "geneNames": [
+        "UGT2B7"
+      ],
+      "type": "gene_protein",
+      "x": 248.0,
+      "y": 261.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "7364",
+      "uniprotAccs": [
+        "P16662",
+        "E9PBP8"
+      ]
+    },
+    {
+      "id": "ae2b0",
+      "geneNames": [
+        "UGT2B7"
+      ],
+      "type": "gene_protein",
+      "x": 341.0114942528735,
+      "y": 292.228607918263,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "7364",
+      "uniprotAccs": [
+        "P16662",
+        "E9PBP8"
+      ]
+    },
+    {
+      "id": "b05ff",
+      "geneNames": null,
+      "type": "compound",
+      "x": 409.90868454661506,
+      "y": 386.0,
+      "label": "Morphine-3-glucuronide",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0041936"
+    },
+    {
+      "id": "b1b59",
+      "geneNames": null,
+      "type": "compound",
+      "x": 192.4035759897818,
+      "y": 386.0,
+      "label": "Codeine-6-glucuronide",
+      "groupId": null,
+      "referenceDatabase": "PubChem-compound",
+      "referenceId": "5489029"
+    },
+    {
+      "id": "b59b1",
+      "geneNames": null,
+      "type": "compound",
+      "x": 406.5,
+      "y": 128.74074074074065,
+      "label": "Morphine",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0014440"
+    },
+    {
+      "id": "c7695",
+      "geneNames": [
+        "SLCO1B1"
+      ],
+      "type": "gene_protein",
+      "x": 299.8920817369104,
+      "y": 491.62196679438,
+      "label": null,
+      "groupId": "dbbd0",
+      "referenceDatabase": "GeneID",
+      "referenceId": "10599",
+      "uniprotAccs": [
+        "Q9Y6L6",
+        "Q05CV5"
+      ]
+    },
+    {
+      "id": "c78b0",
+      "geneNames": [
+        "UGT2B7"
+      ],
+      "type": "gene_protein",
+      "x": 584.9598613391728,
+      "y": 147.85732530560114,
+      "label": null,
+      "groupId": "b962e",
+      "referenceDatabase": "GeneID",
+      "referenceId": "7364",
+      "uniprotAccs": [
+        "P16662",
+        "E9PBP8"
+      ]
+    },
+    {
+      "id": "ca599",
+      "geneNames": [
+        "UGT1A1"
+      ],
+      "type": "gene_protein",
+      "x": 584.9598613391728,
+      "y": 168.41160372194872,
+      "label": null,
+      "groupId": "b962e",
+      "referenceDatabase": "GeneID",
+      "referenceId": "54658",
+      "uniprotAccs": [
+        "P22309",
+        "Q5DT03"
+      ]
+    },
+    {
+      "id": "caaed",
+      "geneNames": null,
+      "type": "compound",
+      "x": 410.32886334610475,
+      "y": 569.5887611749672,
+      "label": "Morphine-3-glucuronide",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0041936"
+    },
+    {
+      "id": "cd587",
+      "geneNames": null,
+      "type": "compound",
+      "x": 579.805874840357,
+      "y": 572.5887611749672,
+      "label": "Morphine-6-glucuronide",
+      "groupId": null,
+      "referenceDatabase": "PubChem-compound",
+      "referenceId": "5360621"
+    },
+    {
+      "id": "cf2f5",
+      "geneNames": [
+        "ABCC2"
+      ],
+      "type": "gene_protein",
+      "x": 299.8920817369104,
+      "y": 431.62196679438,
+      "label": null,
+      "groupId": "dbbd0",
+      "referenceDatabase": "GeneID",
+      "referenceId": "1244",
+      "uniprotAccs": [
+        "Q92887"
+      ]
+    },
+    {
+      "id": "dad0a",
+      "geneNames": null,
+      "type": "compound",
+      "x": 579.805874840357,
+      "y": 267.9629629629628,
+      "label": "Morphine-6-glucuronide",
+      "groupId": null,
+      "referenceDatabase": "PubChem-compound",
+      "referenceId": "5360621"
+    },
+    {
+      "id": "ddbf0",
+      "geneNames": [
+        "ABCB1"
+      ],
+      "type": "gene_protein",
+      "x": 299.8920817369104,
+      "y": 471.6219667943799,
+      "label": null,
+      "groupId": "dbbd0",
+      "referenceDatabase": "GeneID",
+      "referenceId": "5243",
+      "uniprotAccs": [
+        "P08183",
+        "A4D1D2"
+      ]
+    },
+    {
+      "id": "e46d4",
+      "geneNames": null,
+      "type": "compound",
+      "x": 84.0,
+      "y": 295.0,
+      "label": "Norcodeine",
+      "groupId": null,
+      "referenceDatabase": "PubChem-compound",
+      "referenceId": "9925873"
+    },
+    {
+      "id": "e9b6a",
+      "geneNames": null,
+      "type": "compound",
+      "x": 192.4035759897818,
+      "y": 569.5887611749672,
+      "label": "Codeine-6-glucuronide",
+      "groupId": null,
+      "referenceDatabase": "PubChem-compound",
+      "referenceId": "5489029"
+    },
+    {
+      "id": "f3c5f",
+      "geneNames": [
+        "UGT1A1"
+      ],
+      "type": "gene_protein",
+      "x": 341.0114942528735,
+      "y": 327.39719029374186,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "54658",
+      "uniprotAccs": [
+        "P22309",
+        "Q5DT03"
+      ]
+    },
+    {
+      "id": "f8ef0",
+      "geneNames": [
+        "CYP2D7P1"
+      ],
+      "type": "gene_protein",
+      "x": 296.39753987564205,
+      "y": 163.21654501216545,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000205702",
+      "uniprotAccs": [
+        "F5H6E7"
+      ]
+    },
+    {
+      "id": "fb1c5",
+      "geneNames": [
+        "ABCC3"
+      ],
+      "type": "gene_protein",
+      "x": 299.8920817369104,
+      "y": 451.6219667943799,
+      "label": null,
+      "groupId": "dbbd0",
+      "referenceDatabase": "GeneID",
+      "referenceId": "8714",
+      "uniprotAccs": [
+        "O15438",
+        "Q86VN9"
+      ]
+    },
+    {
+      "id": "aaf79",
+      "geneNames": [
+        "CYP3A4"
+      ],
+      "type": "gene_protein",
+      "x": 283.0270882299288,
+      "y": 196.0926194232483,
+      "label": null,
+      "groupId": "bd808",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000160868",
+      "uniprotAccs": [
+        "P08684",
+        "A0A494C0W7",
+        "A0A499FJM4",
+        "C9JBD2",
+        "E7EVM8"
+      ]
+    },
+    {
+      "id": "ae0d5",
+      "geneNames": [
+        "CYP2C8"
+      ],
+      "type": "gene_protein",
+      "x": 283.0270882299288,
+      "y": 216.64689783959588,
+      "label": null,
+      "groupId": "bd808",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000138115",
+      "uniprotAccs": [
+        "P10632",
+        "A0A0D9SG51",
+        "B7Z1F5",
+        "E9PIW6",
+        "E9PLI9",
+        "G3V188"
+      ]
+    },
+    {
+      "id": "d07ba",
+      "geneNames": [
+        "UGT1A3"
+      ],
+      "type": "gene_protein",
+      "x": 465.2801210799962,
+      "y": 266.6434892587621,
+      "label": null,
+      "groupId": "d7c1a",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000243135",
+      "uniprotAccs": null
+    },
+    {
+      "id": "a2799",
+      "geneNames": [
+        "UGT1A6"
+      ],
+      "type": "gene_protein",
+      "x": 465.2801210799962,
+      "y": 286.6434892587621,
+      "label": null,
+      "groupId": "d7c1a",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000167165",
+      "uniprotAccs": [
+        "P19224",
+        "B5MCT4",
+        "C9JMY5",
+        "H7C5F8"
+      ]
+    },
+    {
+      "id": "a52da",
+      "geneNames": [
+        "UGT1A8"
+      ],
+      "type": "gene_protein",
+      "x": 465.2801210799962,
+      "y": 306.6434892587621,
+      "label": null,
+      "groupId": "d7c1a",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000242366",
+      "uniprotAccs": [
+        "Q9HAW9"
+      ]
+    },
+    {
+      "id": "a52f7",
+      "geneNames": [
+        "UGT1A9"
+      ],
+      "type": "gene_protein",
+      "x": 465.2801210799962,
+      "y": 326.6434892587621,
+      "label": null,
+      "groupId": "d7c1a",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000241119",
+      "uniprotAccs": [
+        "O60656"
+      ]
+    },
+    {
+      "id": "e34cb",
+      "geneNames": [
+        "UGT1A10"
+      ],
+      "type": "gene_protein",
+      "x": 465.2801210799962,
+      "y": 346.6434892587621,
+      "label": null,
+      "groupId": "d7c1a",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000242515",
+      "uniprotAccs": [
+        "Q9HAW8"
+      ]
+    },
+    {
+      "id": "f957d",
+      "geneNames": [
+        "UGT2B4"
+      ],
+      "type": "gene_protein",
+      "x": 137.04761904761835,
+      "y": 244.71428571428618,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000156096",
+      "uniprotAccs": [
+        "P06133",
+        "D6RGY0"
+      ]
+    },
+    {
+      "id": "adedd",
+      "geneNames": null,
+      "type": "misc",
+      "x": 241.43844873191728,
+      "y": 326.83944153577664,
+      "label": "Gilbert\nsyndrome",
+      "groupId": null
+    },
+    {
+      "id": "b962e",
+      "type": "group",
+      "components": [
+        "c78b0",
+        "ca599"
+      ]
+    },
+    {
+      "id": "bd808",
+      "type": "group",
+      "components": [
+        "aaf79",
+        "ae0d5"
+      ]
+    },
+    {
+      "id": "d7c1a",
+      "type": "group",
+      "components": [
+        "d07ba",
+        "a2799",
+        "a52da",
+        "a52f7",
+        "e34cb"
+      ]
+    },
+    {
+      "id": "dbbd0",
+      "type": "group",
+      "components": [
+        "c7695",
+        "cf2f5",
+        "ddbf0",
+        "fb1c5"
+      ]
+    }
+  ]
+}

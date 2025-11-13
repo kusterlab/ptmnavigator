@@ -1,0 +1,567 @@
+{
+  "pathway": {
+    "name": "WP238",
+    "org": "Mus musculus",
+    "title": "Osteoblast signaling"
+  },
+  "links": [
+    {
+      "id": "a2a2c",
+      "sourceId": "a1d",
+      "targetId": "e33",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "abaed",
+      "sourceId": "a41",
+      "targetId": "fad",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "b5f8a",
+      "sourceId": "ec2",
+      "targetId": "c7f",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "bdcc3",
+      "sourceId": "b53",
+      "targetId": "fff",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "c0997",
+      "sourceId": "f00",
+      "targetId": "cda",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "c24a6",
+      "sourceId": "b53",
+      "targetId": "d83",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "c3a6a",
+      "sourceId": "e33",
+      "targetId": "cda",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "c8f11",
+      "sourceId": "c3e6b",
+      "targetId": "fff",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "cccf3",
+      "sourceId": "b53",
+      "targetId": "b71",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "cd185",
+      "sourceId": "fa4",
+      "targetId": "a41",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "d3622",
+      "sourceId": "c3e6b",
+      "targetId": "a41",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "d7700",
+      "sourceId": "f7c75",
+      "targetId": "cda",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "e3eed",
+      "sourceId": "d83",
+      "targetId": "cd0",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "e6b24",
+      "sourceId": "b71",
+      "targetId": "ba7",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ea29e",
+      "sourceId": "d68",
+      "targetId": "f7c75",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ebcc3",
+      "sourceId": "ac3",
+      "targetId": "bc5",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "f9311",
+      "sourceId": "fa4",
+      "targetId": "ac3",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "fe56d",
+      "sourceId": "f1a",
+      "targetId": "c3e6b",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "fef7a",
+      "sourceId": "c7f",
+      "targetId": "ac3",
+      "types": [
+        "activation"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "a1d",
+      "geneNames": [
+        "Parathyroid hormone"
+      ],
+      "type": "gene_protein",
+      "x": 461.0883534136547,
+      "y": 650.1285140562263,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "19226",
+      "uniprotAccs": [
+        "Q9Z0L6"
+      ]
+    },
+    {
+      "id": "a41",
+      "geneNames": [
+        "Osteoprotegerin"
+      ],
+      "type": "gene_protein",
+      "x": 547.0200803212861,
+      "y": 277.847389558233,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "18383",
+      "uniprotAccs": [
+        "O08712",
+        "Q3UK97"
+      ]
+    },
+    {
+      "id": "a43",
+      "geneNames": [
+        "PDGF Ra"
+      ],
+      "type": "gene_protein",
+      "x": 312.3694779116467,
+      "y": 186.42570281124506,
+      "label": null,
+      "groupId": "c3e6b",
+      "referenceDatabase": "GeneID",
+      "referenceId": "18595",
+      "uniprotAccs": [
+        "P26618"
+      ]
+    },
+    {
+      "id": "ac3",
+      "geneNames": [
+        "RANK ligand"
+      ],
+      "type": "gene_protein",
+      "x": 629.3815261044181,
+      "y": 247.43775100401606,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "21943",
+      "uniprotAccs": [
+        "O35235"
+      ]
+    },
+    {
+      "id": "b53",
+      "geneNames": [
+        "Vitamin D"
+      ],
+      "type": "gene_protein",
+      "x": 170.4578313253014,
+      "y": 267.5823293172691,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "b71",
+      "geneNames": [
+        "Bone sialoprotein"
+      ],
+      "type": "gene_protein",
+      "x": 548.8835341365486,
+      "y": 374.05622489959836,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "12907",
+      "uniprotAccs": null
+    },
+    {
+      "id": "ba7",
+      "geneNames": [
+        "Bone sialoprotein"
+      ],
+      "type": "gene_protein",
+      "x": 972.7630522088361,
+      "y": 381.4377510040159,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "12907",
+      "uniprotAccs": null
+    },
+    {
+      "id": "bc5",
+      "geneNames": [
+        "Soluble RANK ligand"
+      ],
+      "type": "gene_protein",
+      "x": 972.6867469879526,
+      "y": 320.68072289156623,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "c7f",
+      "geneNames": [
+        "PTH receptor"
+      ],
+      "type": "gene_protein",
+      "x": 786.6345381526113,
+      "y": 198.63453815261047,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "19228",
+      "uniprotAccs": [
+        "P41593"
+      ]
+    },
+    {
+      "id": "cd0",
+      "geneNames": [
+        "FGF-23"
+      ],
+      "type": "gene_protein",
+      "x": 162.97188755020093,
+      "y": 413.79919678714856,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "64654",
+      "uniprotAccs": [
+        "Q9EPC2",
+        "Q3U1V5"
+      ]
+    },
+    {
+      "id": "cda",
+      "geneNames": [
+        "Collagen 1"
+      ],
+      "type": "gene_protein",
+      "x": 548.1927710843374,
+      "y": 452.18072289156623,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "12842",
+      "uniprotAccs": [
+        "P11087"
+      ]
+    },
+    {
+      "id": "cf2",
+      "geneNames": [
+        "avb3 integrin"
+      ],
+      "type": "gene_protein",
+      "x": 779.7510040160654,
+      "y": 514.6987951807229,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "d68",
+      "geneNames": [
+        "PDGF-BB"
+      ],
+      "type": "gene_protein",
+      "x": 732.5100401606456,
+      "y": 665.2409638554238,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "d83",
+      "geneNames": [
+        "FGF-23"
+      ],
+      "type": "gene_protein",
+      "x": 422.1204819277109,
+      "y": 412.3453815261045,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "64654",
+      "uniprotAccs": [
+        "Q9EPC2",
+        "Q3U1V5"
+      ]
+    },
+    {
+      "id": "e33",
+      "geneNames": [
+        "PTH receptor"
+      ],
+      "type": "gene_protein",
+      "x": 549.1526104417666,
+      "y": 591.2730923694795,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "19228",
+      "uniprotAccs": [
+        "P41593"
+      ]
+    },
+    {
+      "id": "ec2",
+      "geneNames": [
+        "Parathyroid hormone"
+      ],
+      "type": "gene_protein",
+      "x": 890.3293172690785,
+      "y": 136.27309236947798,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "19226",
+      "uniprotAccs": [
+        "Q9Z0L6"
+      ]
+    },
+    {
+      "id": "edb",
+      "geneNames": null,
+      "type": "compound",
+      "x": 298.2971887550201,
+      "y": 589.6064257028125,
+      "label": "Sodium",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000588"
+    },
+    {
+      "id": "ef2",
+      "geneNames": [
+        "NPT3"
+      ],
+      "type": "gene_protein",
+      "x": 345.1887550200803,
+      "y": 539.2931726907632,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "218103",
+      "uniprotAccs": [
+        "Q5SZA1"
+      ]
+    },
+    {
+      "id": "f00",
+      "geneNames": null,
+      "type": "compound",
+      "x": 209.0120481927712,
+      "y": 589.8795180722907,
+      "label": "Phosphate",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0001429"
+    },
+    {
+      "id": "f1a",
+      "geneNames": [
+        "PDGF-BB"
+      ],
+      "type": "gene_protein",
+      "x": 227.64658634538168,
+      "y": 134.04016064257024,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "fa4",
+      "geneNames": [
+        "Vitamin D"
+      ],
+      "type": "gene_protein",
+      "x": 689.4939759036156,
+      "y": 89.70281124497994,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "fad",
+      "geneNames": [
+        "Osteoprotegerin"
+      ],
+      "type": "gene_protein",
+      "x": 965.0963855421703,
+      "y": 351.06024096385534,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "18383",
+      "uniprotAccs": [
+        "O08712",
+        "Q3UK97"
+      ]
+    },
+    {
+      "id": "fff",
+      "geneNames": [
+        "Osteocalcin"
+      ],
+      "type": "gene_protein",
+      "x": 547.5742971887553,
+      "y": 328.69076305220887,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "12097",
+      "uniprotAccs": [
+        "P86547"
+      ]
+    },
+    {
+      "id": "ca793",
+      "geneNames": [
+        "PDGF Rb"
+      ],
+      "type": "gene_protein",
+      "x": 312.3694779116467,
+      "y": 206.42570281124506,
+      "label": null,
+      "groupId": "c3e6b",
+      "referenceDatabase": "GeneID",
+      "referenceId": "18596",
+      "uniprotAccs": [
+        "P05622"
+      ]
+    },
+    {
+      "id": "d2e71",
+      "geneNames": [
+        "PDGF Ra"
+      ],
+      "type": "gene_protein",
+      "x": 674.3970879202743,
+      "y": 564.8467554428254,
+      "label": null,
+      "groupId": "f7c75",
+      "referenceDatabase": "GeneID",
+      "referenceId": "18595",
+      "uniprotAccs": [
+        "P26618"
+      ]
+    },
+    {
+      "id": "a0876",
+      "geneNames": [
+        "PDGF Rb"
+      ],
+      "type": "gene_protein",
+      "x": 674.3970879202743,
+      "y": 584.8467554428255,
+      "label": null,
+      "groupId": "f7c75",
+      "referenceDatabase": "GeneID",
+      "referenceId": "18596",
+      "uniprotAccs": [
+        "P05622"
+      ]
+    },
+    {
+      "id": "c3e6b",
+      "type": "group",
+      "components": [
+        "a43",
+        "ca793"
+      ]
+    },
+    {
+      "id": "f7c75",
+      "type": "group",
+      "components": [
+        "d2e71",
+        "a0876"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,479 @@
+{
+  "pathway": {
+    "name": "WP5258",
+    "org": "Homo sapiens",
+    "title": "Role of ROS in COVID-19 endothelial dysfunction"
+  },
+  "links": [
+    {
+      "id": "id1c7c5bd8",
+      "sourceId": "cf782",
+      "targetId": "dcb13",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id260039df",
+      "sourceId": "daaa8",
+      "targetId": "a473c",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id355a55f8",
+      "sourceId": "d0c54",
+      "targetId": "bc67d",
+      "types": [
+        "transcription/translation"
+      ]
+    },
+    {
+      "id": "id48739a9",
+      "sourceId": "daefd",
+      "targetId": "dacc9",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id64983066",
+      "sourceId": "b94b4",
+      "targetId": "cf782",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id748b9d75",
+      "sourceId": "b3db6",
+      "targetId": "c182b",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id7bb48f6f",
+      "sourceId": "dacc9",
+      "targetId": "e5a21",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id8c38d739",
+      "sourceId": "b94b4",
+      "targetId": "daaa8",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id8d9d5eb3",
+      "sourceId": "da2b5",
+      "targetId": "afb08",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id9893fd00",
+      "sourceId": "c8351",
+      "targetId": "b3db6",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id9a9ed424",
+      "sourceId": "c182b",
+      "targetId": "e5a21",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "idaa474948",
+      "sourceId": "a473c",
+      "targetId": "bbafd",
+      "types": [
+        "transcription/translation"
+      ]
+    },
+    {
+      "id": "idb14e7f6e",
+      "sourceId": "dcb13",
+      "targetId": "dacc9",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "idb73e5566",
+      "sourceId": "e5a21",
+      "targetId": "da2b5",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "idbed4e731",
+      "sourceId": "bbafd",
+      "targetId": "daefd",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "idcf89604c",
+      "sourceId": "bc886",
+      "targetId": "b4158",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "iddb0c791d",
+      "sourceId": "e5a21",
+      "targetId": "d0c54",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "ide5f8fc10",
+      "sourceId": "bc67d",
+      "targetId": "bc886",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "idf188f6a",
+      "sourceId": "b94b4",
+      "targetId": "c8351",
+      "types": [
+        "conversion"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "a473c",
+      "geneNames": [
+        "IFNAR1"
+      ],
+      "type": "gene_protein",
+      "x": 936.0,
+      "y": 166.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000142166",
+      "uniprotAccs": [
+        "P17181",
+        "A0A494BZU5",
+        "A0A494C0E2",
+        "A0A494C0K3",
+        "A0A494C0P2",
+        "A0A8V8TQJ9",
+        "A0A8V8TQK8",
+        "A0A994J3P7",
+        "A0A994J479",
+        "A0A994J4B0",
+        "A0A994J6F6",
+        "A0A994J6F9",
+        "A0A994J6V0",
+        "C9J114"
+      ]
+    },
+    {
+      "id": "b397a",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 701.6666666666665,
+      "y": 227.08333333333337,
+      "label": "RAS signaling",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "b3db6",
+      "geneNames": [
+        "TNFRSF1A"
+      ],
+      "type": "gene_protein",
+      "x": 260.0,
+      "y": 158.25000000000003,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000067182",
+      "uniprotAccs": [
+        "P19438",
+        "A0A8V8TLL5",
+        "F5GWJ4",
+        "F5H061",
+        "F5H4T5",
+        "F5H6V7",
+        "F5H6Z2",
+        "F5H7N1",
+        "F5H8A6"
+      ]
+    },
+    {
+      "id": "bc886",
+      "geneNames": [
+        "ICAM1"
+      ],
+      "type": "gene_protein",
+      "x": 106.83333333333368,
+      "y": 417.4999999999999,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000090339",
+      "uniprotAccs": [
+        "P05362",
+        "E7ESS4",
+        "K7EKL8"
+      ]
+    },
+    {
+      "id": "c182b",
+      "geneNames": [
+        "NOX1"
+      ],
+      "type": "gene_protein",
+      "x": 406.99999999999983,
+      "y": 158.25000000000003,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneCards",
+      "referenceId": "NOX1",
+      "uniprotAccs": [
+        "Q9Y5S8"
+      ]
+    },
+    {
+      "id": "c8351",
+      "geneNames": [
+        "TNF"
+      ],
+      "type": "gene_protein",
+      "x": 260.0,
+      "y": 55.25,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000232810",
+      "uniprotAccs": [
+        "P01375",
+        "A0A8V8TNL2"
+      ]
+    },
+    {
+      "id": "cf782",
+      "geneNames": [
+        "ACE2"
+      ],
+      "type": "gene_protein",
+      "x": 804.0,
+      "y": 165.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000130234",
+      "uniprotAccs": [
+        "Q9BYF1",
+        "A0A7I2V2E9",
+        "A0A7I2V3N4",
+        "A0A7I2V3X6",
+        "A0A7I2V4H0",
+        "A0A7I2V5W5"
+      ]
+    },
+    {
+      "id": "d0c54",
+      "geneNames": [
+        "NFKB1"
+      ],
+      "type": "gene_protein",
+      "x": 301.6666666666664,
+      "y": 245.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000109320",
+      "uniprotAccs": [
+        "P19838",
+        "A0A494C157",
+        "A0A494C1E9",
+        "A0A8V8TLB2",
+        "D6RC45",
+        "D6RH30"
+      ]
+    },
+    {
+      "id": "da2b5",
+      "geneNames": null,
+      "type": "compound",
+      "x": 443.1666666666667,
+      "y": 315.0,
+      "label": "nitric oxide",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:16480"
+    },
+    {
+      "id": "daaa8",
+      "geneNames": [
+        "IFNA1"
+      ],
+      "type": "gene_protein",
+      "x": 936.0,
+      "y": 60.250000000000014,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000197919",
+      "uniprotAccs": [
+        "P01562"
+      ]
+    },
+    {
+      "id": "dacc9",
+      "geneNames": null,
+      "type": "compound",
+      "x": 603.9999999999994,
+      "y": 245.3333333333333,
+      "label": "Angiotensin II",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB01035"
+    },
+    {
+      "id": "dcb13",
+      "geneNames": [
+        "ACE2"
+      ],
+      "type": "gene_protein",
+      "x": 804.0,
+      "y": 240.3333333333333,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000130234",
+      "uniprotAccs": [
+        "Q9BYF1",
+        "A0A7I2V2E9",
+        "A0A7I2V3N4",
+        "A0A7I2V3X6",
+        "A0A7I2V4H0",
+        "A0A7I2V5W5"
+      ]
+    },
+    {
+      "id": "e5a21",
+      "geneNames": null,
+      "type": "compound",
+      "x": 443.5,
+      "y": 245.0,
+      "label": "Reactive oxygen species",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:26523"
+    },
+    {
+      "id": "daefd",
+      "geneNames": [
+        "ACE2 (truncated)"
+      ],
+      "type": "gene_protein",
+      "x": 804.0,
+      "y": 275.0000000000001,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000130234",
+      "uniprotAccs": [
+        "Q9BYF1",
+        "A0A7I2V2E9",
+        "A0A7I2V3N4",
+        "A0A7I2V3X6",
+        "A0A7I2V4H0",
+        "A0A7I2V5W5"
+      ]
+    },
+    {
+      "id": "bc67d",
+      "geneNames": [
+        "ICAM1"
+      ],
+      "type": "gene_protein",
+      "x": 244.9166666666661,
+      "y": 418.166666666667,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000090339",
+      "uniprotAccs": [
+        "P05362",
+        "E7ESS4",
+        "K7EKL8"
+      ]
+    },
+    {
+      "id": "bbafd",
+      "geneNames": [
+        "ACE2 (truncated)"
+      ],
+      "type": "gene_protein",
+      "x": 803.3333333333336,
+      "y": 409.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000130234",
+      "uniprotAccs": [
+        "Q9BYF1",
+        "A0A7I2V2E9",
+        "A0A7I2V3N4",
+        "A0A7I2V3X6",
+        "A0A7I2V4H0",
+        "A0A7I2V5W5"
+      ]
+    },
+    {
+      "id": "c09be",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 978.3333333333326,
+      "y": 299.3333333333334,
+      "label": "IFN signaling",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "afb08",
+      "geneNames": null,
+      "type": "misc",
+      "x": 595.0,
+      "y": 315.0,
+      "label": "Disturbed vascular tone ",
+      "groupId": null
+    },
+    {
+      "id": "b4158",
+      "geneNames": null,
+      "type": "misc",
+      "x": 105.49999999999994,
+      "y": 342.6666666666665,
+      "label": "Increased permeability",
+      "groupId": null
+    }
+  ]
+}

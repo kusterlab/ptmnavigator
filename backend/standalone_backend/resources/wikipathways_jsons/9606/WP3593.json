@@ -1,0 +1,294 @@
+{
+  "pathway": {
+    "name": "WP3593",
+    "org": "Homo sapiens",
+    "title": "MicroRNA for targeting cancer growth and vascularization in glioblastoma"
+  },
+  "links": [
+    {
+      "id": "id4c607dd0",
+      "sourceId": "c1945",
+      "targetId": "d8648",
+      "types": [
+        "transcription/translation"
+      ]
+    },
+    {
+      "id": "id4f6bb02a",
+      "sourceId": "b4193",
+      "targetId": "c1945",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id74addfdd",
+      "sourceId": "d8648",
+      "targetId": "e06bc",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id79dc72a3",
+      "sourceId": "b4193",
+      "targetId": "f5d7d",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "ide662591b",
+      "sourceId": "d315c",
+      "targetId": "b4193",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "b02a9",
+      "sourceId": "f5d7d",
+      "targetId": "b7592",
+      "types": [
+        "transcription/translation"
+      ]
+    },
+    {
+      "id": "bcc50",
+      "sourceId": "b7592",
+      "targetId": "e06bc",
+      "types": [
+        "activation"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "a1278",
+      "geneNames": [
+        "HES1"
+      ],
+      "type": "gene_protein",
+      "x": 377.5126050420148,
+      "y": 227.9747899159658,
+      "label": null,
+      "groupId": "b7592",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000114315",
+      "uniprotAccs": [
+        "Q14469"
+      ]
+    },
+    {
+      "id": "a5c7d",
+      "geneNames": [
+        "MIR31"
+      ],
+      "type": "gene_protein",
+      "x": 164.9033613445378,
+      "y": 71.79831932773106,
+      "label": null,
+      "groupId": "d315c",
+      "referenceDatabase": "miRBase Sequence",
+      "referenceId": "MI0000089"
+    },
+    {
+      "id": "a9fc2",
+      "geneNames": [
+        "VEGFA"
+      ],
+      "type": "gene_protein",
+      "x": 140.9915966386559,
+      "y": 219.57142857142856,
+      "label": null,
+      "groupId": "d8648",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000112715",
+      "uniprotAccs": [
+        "P15692",
+        "A0A0A0MR43",
+        "A0A0A0MRQ4",
+        "A0A0A0MSH5",
+        "A0A0A0MSH7",
+        "A0A0A0MSI7",
+        "A0A0A0MTB2",
+        "A0A5F9ZH41",
+        "A2A2V4",
+        "H0YBI8",
+        "H0YBZ0",
+        "H3BLW8",
+        "J3KPA4"
+      ]
+    },
+    {
+      "id": "b4193",
+      "geneNames": [
+        "HIF1AN"
+      ],
+      "type": "gene_protein",
+      "x": 164.80672268907563,
+      "y": 147.30252100840335,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000166135",
+      "uniprotAccs": [
+        "Q9NWT6",
+        "E9PL41",
+        "E9PNR8"
+      ]
+    },
+    {
+      "id": "be13d",
+      "geneNames": [
+        "MIR148A"
+      ],
+      "type": "gene_protein",
+      "x": 164.9033613445378,
+      "y": 91.79831932773106,
+      "label": null,
+      "groupId": "d315c",
+      "referenceDatabase": "miRBase Sequence",
+      "referenceId": "MI0000253"
+    },
+    {
+      "id": "c3813",
+      "geneNames": [
+        "HEY1"
+      ],
+      "type": "gene_protein",
+      "x": 377.5126050420148,
+      "y": 247.9747899159658,
+      "label": null,
+      "groupId": "b7592",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000164683",
+      "uniprotAccs": [
+        "Q9Y5J3",
+        "A0A6I8PIY0",
+        "A0A6I8PRC2",
+        "A0A6I8PRS3",
+        "A0A6I8PU82",
+        "E5RHK6"
+      ]
+    },
+    {
+      "id": "c1945",
+      "geneNames": [
+        "HIF1A"
+      ],
+      "type": "gene_protein",
+      "x": 62.25210084033611,
+      "y": 147.30252100840335,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000100644",
+      "uniprotAccs": [
+        "Q16665",
+        "A8MYV6"
+      ]
+    },
+    {
+      "id": "b3047",
+      "geneNames": [
+        "VEGFB"
+      ],
+      "type": "gene_protein",
+      "x": 140.9915966386559,
+      "y": 239.57142857142856,
+      "label": null,
+      "groupId": "d8648",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000173511",
+      "uniprotAccs": [
+        "P49765",
+        "H0YGB6"
+      ]
+    },
+    {
+      "id": "bd27c",
+      "geneNames": [
+        "VEGFC"
+      ],
+      "type": "gene_protein",
+      "x": 140.9915966386559,
+      "y": 259.57142857142856,
+      "label": null,
+      "groupId": "d8648",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000150630",
+      "uniprotAccs": [
+        "P49767"
+      ]
+    },
+    {
+      "id": "a9e99",
+      "geneNames": [
+        "HIF1A"
+      ],
+      "type": "gene_protein",
+      "x": 283.0168067226905,
+      "y": 159.8487394957985,
+      "label": null,
+      "groupId": "f5d7d",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000100644",
+      "uniprotAccs": [
+        "Q16665",
+        "A8MYV6"
+      ]
+    },
+    {
+      "id": "e06bc",
+      "geneNames": null,
+      "type": "misc",
+      "x": 252.5,
+      "y": 354.25,
+      "label": "Tumor growth\nStem cell maintenance\nAbnormal angiogenesis",
+      "groupId": null
+    },
+    {
+      "id": "de258",
+      "geneNames": null,
+      "type": "misc",
+      "x": 283.0,
+      "y": 135.0,
+      "label": "NICD",
+      "groupId": "f5d7d"
+    },
+    {
+      "id": "b7592",
+      "type": "group",
+      "components": [
+        "a1278",
+        "c3813"
+      ]
+    },
+    {
+      "id": "d315c",
+      "type": "group",
+      "components": [
+        "a5c7d",
+        "be13d"
+      ]
+    },
+    {
+      "id": "d8648",
+      "type": "group",
+      "components": [
+        "a9fc2",
+        "b3047",
+        "bd27c"
+      ]
+    },
+    {
+      "id": "f5d7d",
+      "type": "group",
+      "components": [
+        "a9e99",
+        "de258"
+      ]
+    }
+  ]
+}

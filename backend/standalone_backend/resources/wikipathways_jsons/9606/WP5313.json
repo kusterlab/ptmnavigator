@@ -1,0 +1,633 @@
+{
+  "pathway": {
+    "name": "WP5313",
+    "org": "Homo sapiens",
+    "title": "Carnosine metabolism of glial cells"
+  },
+  "links": [
+    {
+      "id": "id24e33f9b",
+      "sourceId": "a1eec",
+      "targetId": "bf9f0",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "id342b537",
+      "sourceId": "b3a85",
+      "targetId": "a7abb",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id3497070e",
+      "sourceId": "cb510",
+      "targetId": "id24e33f9b",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id366a1620",
+      "sourceId": "ffa23",
+      "targetId": "idd37ec57b",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id47ea18cd",
+      "sourceId": "bed25",
+      "targetId": "b557f",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "id5416c030",
+      "sourceId": "c6320",
+      "targetId": "d9e59",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id5d116fe7",
+      "sourceId": "ff44e",
+      "targetId": "d70c4",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id637b8faa",
+      "sourceId": "a09d3",
+      "targetId": "id93dafafe",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id736719c0",
+      "sourceId": "b557f",
+      "targetId": "b5e47",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id76ff5eaa",
+      "sourceId": "fc0f7",
+      "targetId": "ff44e",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "id8963773d",
+      "sourceId": "cd68b",
+      "targetId": "f8c7f",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id8b07df6a",
+      "sourceId": "caec5",
+      "targetId": "b52db",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id93dafafe",
+      "sourceId": "a1eec",
+      "targetId": "fc0f7",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id9a19e084",
+      "sourceId": "fad09",
+      "targetId": "ida03a5130",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "ida03a5130",
+      "sourceId": "fc0f7",
+      "targetId": "e7056",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "idae97c20a",
+      "sourceId": "a09d3",
+      "targetId": "e1b14",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "idd37ec57b",
+      "sourceId": "be914",
+      "targetId": "bff2a",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "ide29f66b7",
+      "sourceId": "d509c",
+      "targetId": "b3a85",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idebc7416",
+      "sourceId": "ec34e",
+      "targetId": "idd37ec57b",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "idf26da21c",
+      "sourceId": "cb510",
+      "targetId": "idd37ec57b",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "idf6b8aaa7",
+      "sourceId": "b5e47",
+      "targetId": "d1166",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "bc150",
+      "sourceId": "bb143",
+      "targetId": "bed25",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "e1f69",
+      "sourceId": "a6c78",
+      "targetId": "cd5fd",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "d3416",
+      "sourceId": "ffa23",
+      "targetId": "id24e33f9b",
+      "types": [
+        "catalysis"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "a09d3",
+      "geneNames": [
+        "CARNS1"
+      ],
+      "type": "gene_protein",
+      "x": 448.8203564727962,
+      "y": 574.6149155722346,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000172508",
+      "uniprotAccs": [
+        "A5YM72"
+      ]
+    },
+    {
+      "id": "a6c78",
+      "geneNames": null,
+      "type": "compound",
+      "x": 413.1953564727962,
+      "y": 637.1149155722346,
+      "label": "ATP",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:30616"
+    },
+    {
+      "id": "b557f",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 622.5703564727962,
+      "y": 1010.8649155722338,
+      "label": "Glycolysis",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP4629"
+    },
+    {
+      "id": "b5e47",
+      "geneNames": null,
+      "type": "compound",
+      "x": 764.5703564727962,
+      "y": 1010.8649155722338,
+      "label": "lactate",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:24996"
+    },
+    {
+      "id": "b9a8f",
+      "geneNames": [
+        "CN1"
+      ],
+      "type": "gene_protein",
+      "x": 887.7370231394627,
+      "y": 538.2399155722345,
+      "label": null,
+      "groupId": "fad09",
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "bc0f8",
+      "geneNames": null,
+      "type": "compound",
+      "x": 613.5703564727962,
+      "y": 868.1149155722322,
+      "label": "Carnosine",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:15727"
+    },
+    {
+      "id": "bf9f0",
+      "geneNames": null,
+      "type": "compound",
+      "x": 822.1536898061299,
+      "y": 193.01047529706003,
+      "label": "L-histidine",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:15971"
+    },
+    {
+      "id": "bff2a",
+      "geneNames": null,
+      "type": "compound",
+      "x": 558.7775171982496,
+      "y": 194.34615384615344,
+      "label": "BETA-ALANINE",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:16958"
+    },
+    {
+      "id": "cb510",
+      "geneNames": [
+        "SLC7A5"
+      ],
+      "type": "gene_protein",
+      "x": 470.18398695914885,
+      "y": 294.73111689003963,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "cd5fd",
+      "geneNames": null,
+      "type": "compound",
+      "x": 493.8203564727962,
+      "y": 637.1149155722346,
+      "label": "ADP",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:456216"
+    },
+    {
+      "id": "cd68b",
+      "geneNames": null,
+      "type": "compound",
+      "x": 290.0,
+      "y": 1131.0,
+      "label": "K+",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:29103"
+    },
+    {
+      "id": "d1166",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 764.5703564727972,
+      "y": 1079.963925473221,
+      "label": "Lactate Shuttle",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP5314"
+    },
+    {
+      "id": "d509c",
+      "geneNames": null,
+      "type": "compound",
+      "x": 273.0,
+      "y": 932.8649155722338,
+      "label": "Na+",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:29101"
+    },
+    {
+      "id": "dc901",
+      "geneNames": [
+        "ATPase"
+      ],
+      "type": "gene_protein",
+      "x": 338.570356472796,
+      "y": 1058.8649155722337,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "dd3ab",
+      "geneNames": null,
+      "type": "compound",
+      "x": 1023.0703564727962,
+      "y": 847.3649155722322,
+      "label": "Carnosine",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:15727"
+    },
+    {
+      "id": "e7056",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 896.903689806129,
+      "y": 471.2399155722339,
+      "label": "Carnosine degradation ",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "ec34e",
+      "geneNames": [
+        "SLC6A6"
+      ],
+      "type": "gene_protein",
+      "x": 458.0042523940348,
+      "y": 418.57089874209436,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000131389",
+      "uniprotAccs": [
+        "P31641",
+        "A0A087WY96",
+        "A0A087WYN0",
+        "A0A087WYY8",
+        "A0A087WZ59",
+        "C9JPV1",
+        "H7C1B9"
+      ]
+    },
+    {
+      "id": "f21af",
+      "geneNames": null,
+      "type": "compound",
+      "x": 217.57035647279537,
+      "y": 890.8649155722338,
+      "label": "glutamate",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:14321"
+    },
+    {
+      "id": "fc0f7",
+      "geneNames": null,
+      "type": "compound",
+      "x": 616.8203564727962,
+      "y": 620.8649155722346,
+      "label": "L-carnosine",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:15727"
+    },
+    {
+      "id": "ff44e",
+      "geneNames": [
+        "SLC1A2/GLT-1"
+      ],
+      "type": "gene_protein",
+      "x": 340.570356472796,
+      "y": 850.8649155722338,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "be914",
+      "geneNames": null,
+      "type": "compound",
+      "x": 556.3203564727962,
+      "y": 500.8649155722339,
+      "label": "BETA-ALANINE",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:16958"
+    },
+    {
+      "id": "ffa23",
+      "geneNames": [
+        "SLC15A2"
+      ],
+      "type": "gene_protein",
+      "x": 458.00425239403484,
+      "y": 444.31070183632914,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000163406",
+      "uniprotAccs": [
+        "Q16348",
+        "C9IZ38"
+      ]
+    },
+    {
+      "id": "c6320",
+      "geneNames": [
+        "SLC15A2"
+      ],
+      "type": "gene_protein",
+      "x": 693.8203564727962,
+      "y": 788.6149155722331,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000163406",
+      "uniprotAccs": [
+        "Q16348",
+        "C9IZ38"
+      ]
+    },
+    {
+      "id": "f4c3b",
+      "geneNames": [
+        "SLC15A2"
+      ],
+      "type": "gene_protein",
+      "x": 1048.8203564727955,
+      "y": 778.7399155722346,
+      "label": null,
+      "groupId": "caec5",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000163406",
+      "uniprotAccs": [
+        "Q16348",
+        "C9IZ38"
+      ]
+    },
+    {
+      "id": "f8f45",
+      "geneNames": [
+        "SLC15A4"
+      ],
+      "type": "gene_protein",
+      "x": 1048.8203564727955,
+      "y": 805.1149155722346,
+      "label": null,
+      "groupId": "caec5",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000139370",
+      "uniprotAccs": [
+        "Q8N697",
+        "B6ZDF2",
+        "H7BYB7"
+      ]
+    },
+    {
+      "id": "a1eec",
+      "geneNames": null,
+      "type": "compound",
+      "x": 676.3620231394632,
+      "y": 502.7815822389004,
+      "label": "L-histidine",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:15971"
+    },
+    {
+      "id": "b3a85",
+      "geneNames": null,
+      "type": "compound",
+      "x": 416.5703564727962,
+      "y": 933.8649155722338,
+      "label": "Na+",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:29101"
+    },
+    {
+      "id": "e97ff",
+      "geneNames": null,
+      "type": "compound",
+      "x": 454.5703564727962,
+      "y": 890.8649155722338,
+      "label": "glutamate",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:14321"
+    },
+    {
+      "id": "bb143",
+      "geneNames": null,
+      "type": "compound",
+      "x": 457.1953564727962,
+      "y": 1039.1149155722346,
+      "label": "ATP",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:30616"
+    },
+    {
+      "id": "bed25",
+      "geneNames": null,
+      "type": "compound",
+      "x": 457.1953564727962,
+      "y": 1079.1149155722337,
+      "label": "ADP",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:456216"
+    },
+    {
+      "id": "fbb72",
+      "geneNames": [
+        "CN2"
+      ],
+      "type": "gene_protein",
+      "x": 887.7370231394627,
+      "y": 564.2399155722345,
+      "label": null,
+      "groupId": "fad09",
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "a7abb",
+      "geneNames": null,
+      "type": "compound",
+      "x": 273.0,
+      "y": 996.0,
+      "label": "Na+",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:29101"
+    },
+    {
+      "id": "f8c7f",
+      "geneNames": null,
+      "type": "compound",
+      "x": 392.0,
+      "y": 1131.0,
+      "label": "K+",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:29103"
+    },
+    {
+      "id": "caec5",
+      "type": "group",
+      "components": [
+        "f4c3b",
+        "f8f45"
+      ]
+    },
+    {
+      "id": "fad09",
+      "type": "group",
+      "components": [
+        "b9a8f",
+        "fbb72"
+      ]
+    }
+  ]
+}

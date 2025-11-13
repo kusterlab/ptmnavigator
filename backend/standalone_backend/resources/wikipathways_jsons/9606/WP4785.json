@@ -1,0 +1,286 @@
+{
+  "pathway": {
+    "name": "WP4785",
+    "org": "Homo sapiens",
+    "title": "Somitogenesis in the context of spondylocostal dysostosis"
+  },
+  "links": [
+    {
+      "id": "id11108b8",
+      "sourceId": "f6285",
+      "targetId": "c4987",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "id40e608c5",
+      "sourceId": "f6285",
+      "targetId": "cc4fc",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "id43c2ff14",
+      "sourceId": "c4987",
+      "targetId": "f4152",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id53f0fda1",
+      "sourceId": "e85fd",
+      "targetId": "c4987",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id83b23b09",
+      "sourceId": "f6285",
+      "targetId": "aa980",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "id8fb209b9",
+      "sourceId": "a4618",
+      "targetId": "f4152",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id95506671",
+      "sourceId": "a46d7",
+      "targetId": "f6285",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "ida48a038",
+      "sourceId": "e85fd",
+      "targetId": "e85fd",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "idc0400cb5",
+      "sourceId": "f4152",
+      "targetId": "e85fd",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "idd9f1ab2e",
+      "sourceId": "cc4fc",
+      "targetId": "a46d7",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "iddaf98135",
+      "sourceId": "f6285",
+      "targetId": "a46d7",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "ide9eba57b",
+      "sourceId": "f4152",
+      "targetId": "f6285",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "idf1160d9f",
+      "sourceId": "e932d",
+      "targetId": "f4152",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "idfc227fc2",
+      "sourceId": "f4152",
+      "targetId": "c4987",
+      "types": [
+        "stimulation"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "a4618",
+      "geneNames": [
+        "DLL3"
+      ],
+      "type": "gene_protein",
+      "x": 788.3897428495814,
+      "y": 345.30562170744025,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000090932",
+      "uniprotAccs": [
+        "Q9NYJ7",
+        "M0R177"
+      ]
+    },
+    {
+      "id": "a46d7",
+      "geneNames": [
+        "TBX6"
+      ],
+      "type": "gene_protein",
+      "x": 365.1228414654127,
+      "y": 502.115657549734,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000149922",
+      "uniprotAccs": [
+        "O95947"
+      ]
+    },
+    {
+      "id": "aa980",
+      "geneNames": [
+        "EPHA4"
+      ],
+      "type": "gene_protein",
+      "x": 591.9857643840746,
+      "y": 582.7608188400561,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000116106",
+      "uniprotAccs": [
+        "P54764",
+        "C9JEM6",
+        "C9JFX5",
+        "C9JIX8",
+        "E9PG71",
+        "F5GZZ5",
+        "H7C1N8",
+        "H7C2W7"
+      ]
+    },
+    {
+      "id": "c4987",
+      "geneNames": [
+        "LFNG"
+      ],
+      "type": "gene_protein",
+      "x": 663.4938473485819,
+      "y": 502.115657549734,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000106003",
+      "uniprotAccs": [
+        "Q8NES3"
+      ]
+    },
+    {
+      "id": "cc4fc",
+      "geneNames": [
+        "RIPPLY2"
+      ],
+      "type": "gene_protein",
+      "x": 365.1228414654127,
+      "y": 582.7608188400559,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000203877",
+      "uniprotAccs": [
+        "Q5TAB7"
+      ]
+    },
+    {
+      "id": "e85fd",
+      "geneNames": [
+        "HES7"
+      ],
+      "type": "gene_protein",
+      "x": 867.3768187185801,
+      "y": 502.11565754973407,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000179111",
+      "uniprotAccs": [
+        "Q9BYE0",
+        "J3KSH6"
+      ]
+    },
+    {
+      "id": "e932d",
+      "geneNames": [
+        "DLL1"
+      ],
+      "type": "gene_protein",
+      "x": 543.7660869356039,
+      "y": 345.30562170744025,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000198719",
+      "uniprotAccs": [
+        "O00548",
+        "A0A0D9SF76"
+      ]
+    },
+    {
+      "id": "f4152",
+      "geneNames": [
+        "NOTCH1"
+      ],
+      "type": "gene_protein",
+      "x": 663.4938473485819,
+      "y": 412.40583815298237,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000148400",
+      "uniprotAccs": [
+        "P46531",
+        "A0A7P0T8U6",
+        "A0A7P0T8W1",
+        "A0A7P0T9V1",
+        "A0A7P0TA56",
+        "A0A7P0TAK8",
+        "A0A7P0TB20",
+        "A0A7P0TBG2",
+        "A0A7P0Z4H9"
+      ]
+    },
+    {
+      "id": "f6285",
+      "geneNames": [
+        "MESP2"
+      ],
+      "type": "gene_protein",
+      "x": 510.6119650718049,
+      "y": 502.115657549734,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000188095",
+      "uniprotAccs": [
+        "Q0VG99",
+        "H0YKZ5"
+      ]
+    }
+  ]
+}

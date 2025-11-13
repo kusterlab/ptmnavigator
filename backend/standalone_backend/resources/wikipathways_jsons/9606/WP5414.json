@@ -1,0 +1,517 @@
+{
+  "pathway": {
+    "name": "WP5414",
+    "org": "Homo sapiens",
+    "title": "IDO metabolic pathway"
+  },
+  "links": [
+    {
+      "id": "bcddb",
+      "sourceId": "f4cf2",
+      "targetId": "b3722",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "eb571",
+      "sourceId": "f4cf2",
+      "targetId": "b4a02",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "cf351",
+      "sourceId": "f4cf2",
+      "targetId": "b1fa6",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "c1d73",
+      "sourceId": "aff15",
+      "targetId": "c6785",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "cc419",
+      "sourceId": "f9486",
+      "targetId": "f7954",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "d4385",
+      "sourceId": "ca1ec",
+      "targetId": "fa17e",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "d4f18",
+      "sourceId": "f48d7",
+      "targetId": "d7800",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "fefba",
+      "sourceId": "ca1ec",
+      "targetId": "aff15",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "dce43",
+      "sourceId": "aab47",
+      "targetId": "f574d",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "aa27e",
+      "sourceId": "aff15",
+      "targetId": "af230",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "ff748",
+      "sourceId": "f7877",
+      "targetId": "f9486",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "faaa1",
+      "sourceId": "f0cd0",
+      "targetId": "e2ccb",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "b509c",
+      "sourceId": "e5c28",
+      "targetId": "eb713",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "e2ccb",
+      "sourceId": "f9486",
+      "targetId": "f574d",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "eb713",
+      "sourceId": "f9486",
+      "targetId": "aab47",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "faca1",
+      "sourceId": "ff680",
+      "targetId": "cc419",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "d7800",
+      "sourceId": "f574d",
+      "targetId": "ca1ec",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "f3eb1",
+      "sourceId": "a00e3",
+      "targetId": "ff748",
+      "types": [
+        "catalysis"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "f574d",
+      "geneNames": null,
+      "type": "compound",
+      "x": 506.3753872922564,
+      "y": 403.5363349566471,
+      "label": "3-Hydroxykynurenine",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:1547"
+    },
+    {
+      "id": "f7954",
+      "geneNames": null,
+      "type": "compound",
+      "x": 712.2577402334316,
+      "y": 292.14137697345365,
+      "label": "Kynurenic Acid",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:18344"
+    },
+    {
+      "id": "fa17e",
+      "geneNames": null,
+      "type": "compound",
+      "x": 712.2577402334316,
+      "y": 501.225410586899,
+      "label": "Picolinic Acid",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:28747"
+    },
+    {
+      "id": "b0bc7",
+      "geneNames": [
+        "IFNG"
+      ],
+      "type": "gene_protein",
+      "x": 222.5,
+      "y": 166.0,
+      "label": null,
+      "groupId": "f4cf2",
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P01579",
+      "uniprotAccs": [
+        "P01579"
+      ]
+    },
+    {
+      "id": "f7877",
+      "geneNames": null,
+      "type": "compound",
+      "x": 506.3753872922563,
+      "y": 142.36498874120974,
+      "label": "L-Tryptophan",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:16828"
+    },
+    {
+      "id": "e5c28",
+      "geneNames": [
+        "KYNU"
+      ],
+      "type": "gene_protein",
+      "x": 327.3509253034846,
+      "y": 305.9807180685776,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "Q16719",
+      "uniprotAccs": [
+        "Q16719"
+      ]
+    },
+    {
+      "id": "ca1ec",
+      "geneNames": null,
+      "type": "compound",
+      "x": 506.37538729225525,
+      "y": 501.225410586899,
+      "label": "3-Hydroxyanthranilic Acid",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:15793"
+    },
+    {
+      "id": "fb060",
+      "geneNames": [
+        "KAT1"
+      ],
+      "type": "gene_protein",
+      "x": 620.3849587416778,
+      "y": 123.15557500499784,
+      "label": null,
+      "groupId": "ff680",
+      "referenceDatabase": "Uniprot",
+      "referenceId": "Q16773",
+      "uniprotAccs": [
+        "Q16773"
+      ]
+    },
+    {
+      "id": "aff15",
+      "geneNames": null,
+      "type": "compound",
+      "x": 323.6022780485588,
+      "y": 501.225410586899,
+      "label": "Quinolinic Acid",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:16675"
+    },
+    {
+      "id": "b4a02",
+      "geneNames": null,
+      "type": "compound",
+      "x": 222.5,
+      "y": 59.502722323049,
+      "label": "Neopterin",
+      "groupId": null,
+      "referenceDatabase": "CAS",
+      "referenceId": "2009-64-5"
+    },
+    {
+      "id": "aab47",
+      "geneNames": null,
+      "type": "compound",
+      "x": 323.6022780485589,
+      "y": 357.31784756168923,
+      "label": "Anthranilic Acid",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:30754"
+    },
+    {
+      "id": "f9486",
+      "geneNames": null,
+      "type": "compound",
+      "x": 506.37538729225616,
+      "y": 292.14137697345353,
+      "label": "Kynurenine",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:57959"
+    },
+    {
+      "id": "af230",
+      "geneNames": null,
+      "type": "compound",
+      "x": 190.33268557206986,
+      "y": 501.225410586899,
+      "label": "NAD+",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:13389"
+    },
+    {
+      "id": "a98f2",
+      "geneNames": [
+        "INFA"
+      ],
+      "type": "gene_protein",
+      "x": 222.5,
+      "y": 216.0,
+      "label": null,
+      "groupId": "f4cf2",
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "f0cd0",
+      "geneNames": [
+        "KMO"
+      ],
+      "type": "gene_protein",
+      "x": 593.7899918549099,
+      "y": 339.0576411455004,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "O15229",
+      "uniprotAccs": [
+        "O15229"
+      ]
+    },
+    {
+      "id": "b3722",
+      "geneNames": [
+        "IDO1"
+      ],
+      "type": "gene_protein",
+      "x": 388.25650974084846,
+      "y": 164.5979003581062,
+      "label": null,
+      "groupId": "a00e3",
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P14902",
+      "uniprotAccs": [
+        "P14902"
+      ]
+    },
+    {
+      "id": "b1fa6",
+      "geneNames": [
+        "IDO2"
+      ],
+      "type": "gene_protein",
+      "x": 388.25650974084846,
+      "y": 189.59790035810624,
+      "label": null,
+      "groupId": "a00e3",
+      "referenceDatabase": "Uniprot",
+      "referenceId": "Q6ZQW0",
+      "uniprotAccs": [
+        "Q6ZQW0"
+      ]
+    },
+    {
+      "id": "f00e0",
+      "geneNames": [
+        "T23O"
+      ],
+      "type": "gene_protein",
+      "x": 388.25650974084846,
+      "y": 214.59790035810607,
+      "label": null,
+      "groupId": "a00e3",
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P48775",
+      "uniprotAccs": [
+        "P48775"
+      ]
+    },
+    {
+      "id": "b38bf",
+      "geneNames": [
+        "KAT3"
+      ],
+      "type": "gene_protein",
+      "x": 620.3849587416778,
+      "y": 148.15557500499756,
+      "label": null,
+      "groupId": "ff680",
+      "referenceDatabase": "Uniprot",
+      "referenceId": "Q6YP21",
+      "uniprotAccs": [
+        "Q6YP21"
+      ]
+    },
+    {
+      "id": "c7f9c",
+      "geneNames": [
+        "AADAT"
+      ],
+      "type": "gene_protein",
+      "x": 620.384958741678,
+      "y": 173.15557500499767,
+      "label": null,
+      "groupId": "ff680",
+      "referenceDatabase": "Uniprot",
+      "referenceId": "Q8N5Z0",
+      "uniprotAccs": [
+        "Q8N5Z0"
+      ]
+    },
+    {
+      "id": "e40d8",
+      "geneNames": [
+        "AATM"
+      ],
+      "type": "gene_protein",
+      "x": 620.384958741678,
+      "y": 198.15557500499762,
+      "label": null,
+      "groupId": "ff680",
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P00505",
+      "uniprotAccs": [
+        "P00505"
+      ]
+    },
+    {
+      "id": "f48d7",
+      "geneNames": [
+        "KYNU"
+      ],
+      "type": "gene_protein",
+      "x": 418.59552340201515,
+      "y": 445.62635333219066,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "Q16719",
+      "uniprotAccs": [
+        "Q16719"
+      ]
+    },
+    {
+      "id": "a0ee0",
+      "geneNames": [
+        "TNFA"
+      ],
+      "type": "gene_protein",
+      "x": 222.5,
+      "y": 191.0,
+      "label": null,
+      "groupId": "f4cf2",
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P01375",
+      "uniprotAccs": [
+        "P01375"
+      ]
+    },
+    {
+      "id": "d4f85",
+      "geneNames": null,
+      "type": "misc",
+      "x": 222.5,
+      "y": 135.25,
+      "label": "Pro-inflammatory\ncytokines",
+      "groupId": "f4cf2"
+    },
+    {
+      "id": "c6785",
+      "geneNames": null,
+      "type": "misc",
+      "x": 323.6022780485588,
+      "y": 583.3625226860264,
+      "label": "Activation of inflammation\nand generation of ROS",
+      "groupId": null
+    },
+    {
+      "id": "a00e3",
+      "type": "group",
+      "components": [
+        "b3722",
+        "b1fa6",
+        "f00e0"
+      ]
+    },
+    {
+      "id": "f4cf2",
+      "type": "group",
+      "components": [
+        "b0bc7",
+        "a98f2",
+        "a0ee0",
+        "d4f85"
+      ]
+    },
+    {
+      "id": "ff680",
+      "type": "group",
+      "components": [
+        "fb060",
+        "b38bf",
+        "c7f9c",
+        "e40d8"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,362 @@
+{
+  "pathway": {
+    "name": "WP1526",
+    "org": "Mus musculus",
+    "title": "Regulation of cardiac hypertrophy by miR-208"
+  },
+  "links": [
+    {
+      "id": "id17dd8f1",
+      "sourceId": "bf9d8",
+      "targetId": "e2d4a",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idf068a87f",
+      "sourceId": "bf9d8",
+      "targetId": "a0cb4",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id30c8cef3",
+      "sourceId": "c9190",
+      "targetId": "bf9d8",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id8cbb42ad",
+      "sourceId": "a0cb4",
+      "targetId": "b45cb",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id7351c64e",
+      "sourceId": "c036a",
+      "targetId": "b9875",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ide42a4c71",
+      "sourceId": "bf9d8",
+      "targetId": "a2d46",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id16d201f3",
+      "sourceId": "b9875",
+      "targetId": "a2d46",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "idfb60d04c",
+      "sourceId": "b9875",
+      "targetId": "f91d7",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id2397b047",
+      "sourceId": "bf9d8",
+      "targetId": "ec49a",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id4344a768",
+      "sourceId": "bf9d8",
+      "targetId": "caa69",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id10796641",
+      "sourceId": "bf9d8",
+      "targetId": "dcd4e",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id63fc196a",
+      "sourceId": "bf9d8",
+      "targetId": "a71d5",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id563ec578",
+      "sourceId": "a71d5",
+      "targetId": "f4864",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id101ed129",
+      "sourceId": "f4864",
+      "targetId": "dcd4e",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id2834867c",
+      "sourceId": "a2d46",
+      "targetId": "a0cb4",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id1f657449",
+      "sourceId": "a2d46",
+      "targetId": "ef0b5",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idb6465aab",
+      "sourceId": "dcd4e",
+      "targetId": "ec49a",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id2923b917",
+      "sourceId": "b45cb",
+      "targetId": "e2d4a",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "iddca1ffee",
+      "sourceId": "f91d7",
+      "targetId": "e2d4a",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id471728c8",
+      "sourceId": "bf9d8",
+      "targetId": "f91d7",
+      "types": [
+        "inhibition"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "bf9d8",
+      "geneNames": [
+        "miR-208a"
+      ],
+      "type": "gene_protein",
+      "x": 374.0,
+      "y": 195.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "miRBase Sequence",
+      "referenceId": "MI0000555"
+    },
+    {
+      "id": "a2d46",
+      "geneNames": [
+        "Trap1"
+      ],
+      "type": "gene_protein",
+      "x": 548.8302469135806,
+      "y": 221.1718106995882,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "327987",
+      "uniprotAccs": [
+        "Q5SWW4"
+      ]
+    },
+    {
+      "id": "b9875",
+      "geneNames": [
+        "miR-208b"
+      ],
+      "type": "gene_protein",
+      "x": 548.5339506172829,
+      "y": 327.82613168724265,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000077928",
+      "uniprotAccs": null
+    },
+    {
+      "id": "f91d7",
+      "geneNames": [
+        "Myostatin"
+      ],
+      "type": "gene_protein",
+      "x": 718.9969135802457,
+      "y": 327.8487654320986,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "17700",
+      "uniprotAccs": [
+        "O08689",
+        "Q540E2"
+      ]
+    },
+    {
+      "id": "dcd4e",
+      "geneNames": [
+        "Cx40"
+      ],
+      "type": "gene_protein",
+      "x": 528.0781893004103,
+      "y": 156.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "14613",
+      "uniprotAccs": [
+        "Q01231",
+        "A0A654ICB8"
+      ]
+    },
+    {
+      "id": "a71d5",
+      "geneNames": [
+        "Gata4"
+      ],
+      "type": "gene_protein",
+      "x": 682.25,
+      "y": 480.75,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "14463",
+      "uniprotAccs": [
+        "Q08369",
+        "E9PXW9",
+        "Q3UYJ1"
+      ]
+    },
+    {
+      "id": "f4864",
+      "geneNames": [
+        "Hop"
+      ],
+      "type": "gene_protein",
+      "x": 823.0,
+      "y": 480.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "74318",
+      "uniprotAccs": [
+        "Q8R1H0"
+      ]
+    },
+    {
+      "id": "b45cb",
+      "geneNames": [
+        "beta-MHC"
+      ],
+      "type": "gene_protein",
+      "x": 51.75,
+      "y": 425.4351851851852,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "140781",
+      "uniprotAccs": [
+        "Q91Z83",
+        "B2RXX9"
+      ]
+    },
+    {
+      "id": "a0cb4",
+      "geneNames": null,
+      "type": "misc",
+      "x": 239.53292181069952,
+      "y": 423.5,
+      "label": "beta-MHC",
+      "groupId": null
+    },
+    {
+      "id": "ef0b5",
+      "geneNames": null,
+      "type": "misc",
+      "x": 192.0,
+      "y": 291.5,
+      "label": "beta-MHC",
+      "groupId": null
+    },
+    {
+      "id": "c9190",
+      "geneNames": null,
+      "type": "misc",
+      "x": 205.0,
+      "y": 291.5,
+      "label": "miR-208a",
+      "groupId": null
+    },
+    {
+      "id": "c036a",
+      "geneNames": null,
+      "type": "misc",
+      "x": 303.75308641975295,
+      "y": 423.49999999999994,
+      "label": "miR-208b",
+      "groupId": null
+    },
+    {
+      "id": "e2d4a",
+      "geneNames": null,
+      "type": "misc",
+      "x": 51.5329218106996,
+      "y": 145.36625514403295,
+      "label": "Hypertrophy",
+      "groupId": null
+    },
+    {
+      "id": "ec49a",
+      "geneNames": null,
+      "type": "misc",
+      "x": 451.5473251028809,
+      "y": 88.97325102880657,
+      "label": "Prolonged PR interval, abberand conduction",
+      "groupId": null
+    },
+    {
+      "id": "caa69",
+      "geneNames": null,
+      "type": "misc",
+      "x": 274.9135802469132,
+      "y": 89.79629629629629,
+      "label": "Atrial fibrilations",
+      "groupId": null
+    }
+  ]
+}

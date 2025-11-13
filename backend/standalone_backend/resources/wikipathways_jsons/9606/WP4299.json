@@ -1,0 +1,426 @@
+{
+  "pathway": {
+    "name": "WP4299",
+    "org": "Homo sapiens",
+    "title": "Lamin A-processing pathway"
+  },
+  "links": [
+    {
+      "id": "id45c96a96",
+      "sourceId": "id774d50f8",
+      "targetId": "f5d54",
+      "types": [
+        "cleavage"
+      ]
+    },
+    {
+      "id": "id774d50f8",
+      "sourceId": "fab72",
+      "targetId": "d9e53",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id98265bf8",
+      "sourceId": "f8dfc",
+      "targetId": "id774d50f8",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id9ff51ddc",
+      "sourceId": "idda8238c3",
+      "targetId": "f0a02",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id8dc9b64f",
+      "sourceId": "b98d9",
+      "targetId": "id563b6a79",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "idfe38ef92",
+      "sourceId": "a1db2",
+      "targetId": "fc461",
+      "types": [
+        "transcription/translation"
+      ]
+    },
+    {
+      "id": "id5571503e",
+      "sourceId": "fa3ca",
+      "targetId": "f8dfc",
+      "types": [
+        "transcription/translation"
+      ]
+    },
+    {
+      "id": "idda8238c3",
+      "sourceId": "fa7f8",
+      "targetId": "b79fa",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id950f3d65",
+      "sourceId": "d85dc",
+      "targetId": "id369b51fd",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id8244c3a6",
+      "sourceId": "fc461",
+      "targetId": "idda8238c3",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "ida836bc32",
+      "sourceId": "b7f8c",
+      "targetId": "fed3a",
+      "types": [
+        "transcription/translation"
+      ]
+    },
+    {
+      "id": "id563b6a79",
+      "sourceId": "d9e53",
+      "targetId": "fa7f8",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id369b51fd",
+      "sourceId": "fed3a",
+      "targetId": "da7c2",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "ideaed46a2",
+      "sourceId": "idda8238c3",
+      "targetId": "de62c",
+      "types": [
+        "cleavage"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "a781e",
+      "geneNames": null,
+      "type": "compound",
+      "x": 1056.3686440433337,
+      "y": 275.9359375,
+      "label": "C",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:15356"
+    },
+    {
+      "id": "f0a02",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 1188.148148148148,
+      "y": 434.0277777777777,
+      "label": "Progeria syndrome",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP4320"
+    },
+    {
+      "id": "c5911",
+      "geneNames": null,
+      "type": "misc",
+      "x": 1155.4049166666668,
+      "y": 357.65836309523917,
+      "label": "15 amino acids",
+      "groupId": "de62c",
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "fa3ca",
+      "geneNames": [
+        "ZMPSTE24"
+      ],
+      "type": "gene_protein",
+      "x": 511.6319046520241,
+      "y": 146.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000084073",
+      "uniprotAccs": [
+        "O75844",
+        "A0A6Q8PF67",
+        "A0A6Q8PH40",
+        "A0A6Q8PHG9"
+      ]
+    },
+    {
+      "id": "d85dc",
+      "geneNames": [
+        "Farnesyl transferase"
+      ],
+      "type": "gene_protein",
+      "x": 246.07914040718003,
+      "y": 221.650018021964,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "b7f8c",
+      "geneNames": [
+        "LMNA"
+      ],
+      "type": "gene_protein",
+      "x": 63.483327326012,
+      "y": 197.650018021964,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000160789",
+      "uniprotAccs": [
+        "P02545",
+        "A0A6Q8PF59",
+        "A0A6Q8PF80",
+        "A0A6Q8PFF5",
+        "A0A6Q8PFJ0",
+        "A0A6Q8PFM1",
+        "A0A6Q8PGH0",
+        "A0A6Q8PHQ9",
+        "A0A804HL68",
+        "D6RB20",
+        "H0YAB0",
+        "Q3BDU5",
+        "Q5TCI8"
+      ]
+    },
+    {
+      "id": "f5d54",
+      "geneNames": [
+        "aaX"
+      ],
+      "type": "gene_protein",
+      "x": 531.9059549689446,
+      "y": 341.1743575310559,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "f8dfc",
+      "geneNames": [
+        "CAAX prenyl protease 1 homolog"
+      ],
+      "type": "gene_protein",
+      "x": 510.848577326012,
+      "y": 205.409029652024,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "O75844",
+      "uniprotAccs": [
+        "O75844"
+      ]
+    },
+    {
+      "id": "b79fa",
+      "geneNames": [
+        "Mature lamin A"
+      ],
+      "type": "gene_protein",
+      "x": 979.574188230508,
+      "y": 435.845727906284,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "b98d9",
+      "geneNames": [
+        "Protein-S-isoprenylcysteine O-methyltransferase"
+      ],
+      "type": "gene_protein",
+      "x": 784.7883273260124,
+      "y": 208.89250000000004,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "O60725",
+      "uniprotAccs": [
+        "O60725"
+      ]
+    },
+    {
+      "id": "da7c2",
+      "geneNames": [
+        "Pre-lamin A"
+      ],
+      "type": "gene_protein",
+      "x": 333.0525944684972,
+      "y": 275.98742218017577,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P02545",
+      "states": [
+        ""
+      ],
+      "uniprotAccs": [
+        "P02545"
+      ]
+    },
+    {
+      "id": "d9e53",
+      "geneNames": [
+        "Pre-lamin A"
+      ],
+      "type": "gene_protein",
+      "x": 616.7433273260135,
+      "y": 276.2899221801758,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P02545",
+      "states": [
+        ""
+      ],
+      "uniprotAccs": [
+        "P02545"
+      ]
+    },
+    {
+      "id": "f5553",
+      "geneNames": null,
+      "type": "compound",
+      "x": 697.8856268316513,
+      "y": 276.26680267512853,
+      "label": "C",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:15356"
+    },
+    {
+      "id": "fa7f8",
+      "geneNames": [
+        "Pre-lamin A"
+      ],
+      "type": "gene_protein",
+      "x": 944.9497978508371,
+      "y": 275.90572790628494,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P02545",
+      "states": [
+        "",
+        ""
+      ],
+      "uniprotAccs": [
+        "P02545"
+      ]
+    },
+    {
+      "id": "fc461",
+      "geneNames": [
+        "CAAX prenyl protease 1 homolog"
+      ],
+      "type": "gene_protein",
+      "x": 811.6007142857139,
+      "y": 373.499523809523,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "O75844",
+      "uniprotAccs": [
+        "O75844"
+      ]
+    },
+    {
+      "id": "a1db2",
+      "geneNames": [
+        "ZMPSTE24"
+      ],
+      "type": "gene_protein",
+      "x": 757.3043988095227,
+      "y": 435.433785714285,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000084073",
+      "uniprotAccs": [
+        "O75844",
+        "A0A6Q8PF67",
+        "A0A6Q8PH40",
+        "A0A6Q8PHG9"
+      ]
+    },
+    {
+      "id": "ede4f",
+      "geneNames": null,
+      "type": "compound",
+      "x": 1155.4049166666668,
+      "y": 333.57918154761956,
+      "label": "C",
+      "groupId": "de62c",
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:15356",
+      "states": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": "fed3a",
+      "geneNames": [
+        "Pre-lamin A"
+      ],
+      "type": "gene_protein",
+      "x": 63.40257644653326,
+      "y": 275.98742218017577,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P02545",
+      "uniprotAccs": [
+        "P02545"
+      ]
+    },
+    {
+      "id": "fab72",
+      "geneNames": null,
+      "type": "misc",
+      "x": 431.5,
+      "y": 275.98742218017577,
+      "label": "CaaX group",
+      "groupId": null
+    },
+    {
+      "id": "de62c",
+      "type": "group",
+      "components": [
+        "c5911",
+        "ede4f"
+      ]
+    }
+  ]
+}

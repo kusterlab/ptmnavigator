@@ -1,0 +1,203 @@
+{
+  "pathway": {
+    "name": "WP3943",
+    "org": "Homo sapiens",
+    "title": "Robo4 and VEGF signaling pathways crosstalk"
+  },
+  "links": [
+    {
+      "id": "id14447c5",
+      "sourceId": "e9a5f",
+      "targetId": "bbf12",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id8f6175b1",
+      "sourceId": "bb178",
+      "targetId": "e9a5f",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id9cf5d153",
+      "sourceId": "bbf12",
+      "targetId": "ea02d",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ida7aa2972",
+      "sourceId": "bbf12",
+      "targetId": "e7330",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idc600851e",
+      "sourceId": "ad17e",
+      "targetId": "id8f6175b1",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "idc96ead42",
+      "sourceId": "b955c",
+      "targetId": "ad17e",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "ideee2e4f0",
+      "sourceId": "c98ea",
+      "targetId": "bb178",
+      "types": [
+        "binding/association"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "ad17e",
+      "geneNames": [
+        "ROBO4"
+      ],
+      "type": "gene_protein",
+      "x": 156.49498997996008,
+      "y": 143.3186372745491,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000154133",
+      "uniprotAccs": [
+        "Q8WZ75",
+        "B4DYV8"
+      ]
+    },
+    {
+      "id": "b955c",
+      "geneNames": [
+        "SLIT2"
+      ],
+      "type": "gene_protein",
+      "x": 156.24298597194388,
+      "y": 72.42735470941884,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000145147",
+      "uniprotAccs": [
+        "O94813",
+        "A0A087WYV5",
+        "E9PCX4",
+        "F5H0U4",
+        "H0Y968",
+        "H0Y9Z6",
+        "X6R3P0"
+      ]
+    },
+    {
+      "id": "bb178",
+      "geneNames": [
+        "KDR"
+      ],
+      "type": "gene_protein",
+      "x": 332.25,
+      "y": 143.25,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000128052",
+      "uniprotAccs": [
+        "P35968"
+      ]
+    },
+    {
+      "id": "bbf12",
+      "geneNames": [
+        "RAC1"
+      ],
+      "type": "gene_protein",
+      "x": 332.25,
+      "y": 300.75,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000136238",
+      "uniprotAccs": [
+        "P63000",
+        "A0A994J4S4",
+        "A0A994J6T1"
+      ]
+    },
+    {
+      "id": "c98ea",
+      "geneNames": [
+        "VEGFA"
+      ],
+      "type": "gene_protein",
+      "x": 332.0,
+      "y": 69.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000112715",
+      "uniprotAccs": [
+        "P15692",
+        "A0A0A0MR43",
+        "A0A0A0MRQ4",
+        "A0A0A0MSH5",
+        "A0A0A0MSH7",
+        "A0A0A0MSI7",
+        "A0A0A0MTB2",
+        "A0A5F9ZH41",
+        "A2A2V4",
+        "H0YBI8",
+        "H0YBZ0",
+        "H3BLW8",
+        "J3KPA4"
+      ]
+    },
+    {
+      "id": "e9a5f",
+      "geneNames": [
+        "SRC"
+      ],
+      "type": "gene_protein",
+      "x": 332.8276553106236,
+      "y": 224.48697394789556,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000197122",
+      "uniprotAccs": [
+        "P12931",
+        "A0A8I5KYU4"
+      ]
+    },
+    {
+      "id": "e7330",
+      "geneNames": null,
+      "type": "misc",
+      "x": 250.0,
+      "y": 372.0,
+      "label": "Angiogenesis",
+      "groupId": null
+    },
+    {
+      "id": "ea02d",
+      "geneNames": null,
+      "type": "misc",
+      "x": 439.0,
+      "y": 373.5,
+      "label": "Permeability",
+      "groupId": null
+    }
+  ]
+}

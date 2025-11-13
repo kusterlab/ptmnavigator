@@ -1,0 +1,288 @@
+{
+  "pathway": {
+    "name": "WP4751",
+    "org": "Homo sapiens",
+    "title": "HIPK2 in kidney fibrosis"
+  },
+  "links": [
+    {
+      "id": 0,
+      "sourceId": "e40eb",
+      "targetId": "e3933",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id17e976cf",
+      "sourceId": "c1d83",
+      "targetId": "e3933",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id2a671ab0",
+      "sourceId": "ed1ec",
+      "targetId": "fbf1a",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "id407a8f33",
+      "sourceId": "e952c",
+      "targetId": "ed1ec",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "id4e1d3bf5",
+      "sourceId": "fbf1a",
+      "targetId": "e3f0b",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idbf69bc25",
+      "sourceId": "e3933",
+      "targetId": "e952c",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "a944a",
+      "sourceId": "e952c",
+      "targetId": "dc5e1",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "bc9d1",
+      "sourceId": "e952c",
+      "targetId": "ee0e3",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "bf029",
+      "sourceId": "e952c",
+      "targetId": "d43d6",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "dad40",
+      "sourceId": "e952c",
+      "targetId": "fdfcc",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "eee47",
+      "sourceId": "dc5e1",
+      "targetId": "fbf1a",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "e910a",
+      "sourceId": "ee0e3",
+      "targetId": "fbf1a",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "c88b2",
+      "sourceId": "ee0e3",
+      "targetId": "a3213",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "aa55c",
+      "sourceId": "d43d6",
+      "targetId": "a3213",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "ed3e0",
+      "sourceId": "fdfcc",
+      "targetId": "f15a3",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "f2ff7",
+      "sourceId": "a3213",
+      "targetId": "e3f0b",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "cdf20",
+      "sourceId": "f15a3",
+      "targetId": "e3f0b",
+      "types": [
+        "activation"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "e3933",
+      "geneNames": [
+        "SIAH1"
+      ],
+      "type": "gene_protein",
+      "x": 498.0,
+      "y": 100.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "6477",
+      "uniprotAccs": [
+        "Q8IUQ4"
+      ]
+    },
+    {
+      "id": "ed1ec",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 379.25,
+      "y": 345.0,
+      "label": "Notch signaling",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP268"
+    },
+    {
+      "id": "e952c",
+      "geneNames": [
+        "HIPK2"
+      ],
+      "type": "gene_protein",
+      "x": 498.0,
+      "y": 200.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "28996",
+      "uniprotAccs": [
+        "Q9H2X6"
+      ]
+    },
+    {
+      "id": "dc5e1",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 251.0,
+      "y": 345.0,
+      "label": "Wnt / B-catenin \nsignaling",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP4150"
+    },
+    {
+      "id": "ee0e3",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 498.0,
+      "y": 345.0,
+      "label": "TGF-B signaling",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP3874"
+    },
+    {
+      "id": "d43d6",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 620.25,
+      "y": 345.0,
+      "label": "p53 pathway",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP707"
+    },
+    {
+      "id": "fdfcc",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 735.25,
+      "y": 345.0,
+      "label": "NF-kB signaling",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP4562"
+    },
+    {
+      "id": "c1d83",
+      "geneNames": null,
+      "type": "misc",
+      "x": 309.0,
+      "y": 100.0,
+      "label": "HIV infection",
+      "groupId": null
+    },
+    {
+      "id": "fbf1a",
+      "geneNames": null,
+      "type": "misc",
+      "x": 292.5,
+      "y": 462.0,
+      "label": "Epithelial-mesenchymal\ntransition markers",
+      "groupId": null
+    },
+    {
+      "id": "e3f0b",
+      "geneNames": null,
+      "type": "misc",
+      "x": 498.0,
+      "y": 584.0,
+      "label": "KIDNEY FIBROSIS",
+      "groupId": null
+    },
+    {
+      "id": "a3213",
+      "geneNames": null,
+      "type": "misc",
+      "x": 498.0,
+      "y": 468.5,
+      "label": "Apoptosis",
+      "groupId": null
+    },
+    {
+      "id": "f15a3",
+      "geneNames": null,
+      "type": "misc",
+      "x": 735.0,
+      "y": 460.5,
+      "label": "Inflammation",
+      "groupId": null
+    },
+    {
+      "id": "e40eb",
+      "geneNames": null,
+      "type": "misc",
+      "x": 654.0,
+      "y": 100.0,
+      "label": "ROS\nDNA damage",
+      "groupId": null
+    }
+  ]
+}

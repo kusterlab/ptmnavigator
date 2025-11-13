@@ -1,0 +1,519 @@
+{
+  "pathway": {
+    "name": "WP4661",
+    "org": "Homo sapiens",
+    "title": "Amino acid metabolism pathway excerpt: histidine catabolism extension"
+  },
+  "links": [
+    {
+      "id": "id25a0d83f",
+      "sourceId": "d2478",
+      "targetId": "d1463",
+      "types": [
+        "modification"
+      ]
+    },
+    {
+      "id": "id59bafb8",
+      "sourceId": "de8d0",
+      "targetId": "f5f0d",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "idb93fd5c3",
+      "sourceId": "d1463",
+      "targetId": "ebdd3",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "iddf3437a3",
+      "sourceId": "d2478",
+      "targetId": "d4804",
+      "types": [
+        "modification"
+      ]
+    },
+    {
+      "id": "ef527",
+      "sourceId": "b8916",
+      "targetId": "dcf4f",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "c8239",
+      "sourceId": "b8916",
+      "targetId": "d3922",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "b8916",
+      "sourceId": "cc058",
+      "targetId": "dab10",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "a3851",
+      "sourceId": "ebe3c",
+      "targetId": "a4099",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "bfa52",
+      "sourceId": "a4cfa",
+      "targetId": "c3712",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "a4cfa",
+      "sourceId": "dab10",
+      "targetId": "cc058",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "b5cbe",
+      "sourceId": "e5dc1",
+      "targetId": "f40dc",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "ac94c",
+      "sourceId": "d40ac",
+      "targetId": "fcbea",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "c03f3",
+      "sourceId": "d4804",
+      "targetId": "a3851",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "ce1d2",
+      "sourceId": "cc058",
+      "targetId": "e2c11",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "eb56f",
+      "sourceId": "e468e",
+      "targetId": "a4cfa",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "f7ccc",
+      "sourceId": "c9d9e",
+      "targetId": "b8916",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "c5ffb",
+      "sourceId": "af14a",
+      "targetId": "d120f",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "d18d0",
+      "sourceId": "a5c85",
+      "targetId": "cc058",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "bc15f",
+      "sourceId": "fcbea",
+      "targetId": "a4975",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "c317f",
+      "sourceId": "e2c11",
+      "targetId": "d40ac",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "c8dbf",
+      "sourceId": "a5c85",
+      "targetId": "d49f0",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "a4269",
+      "sourceId": "d49f0",
+      "targetId": "f40dc",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "f2590",
+      "sourceId": "a4975",
+      "targetId": "e5dc1",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "f5f0d",
+      "sourceId": "b7308",
+      "targetId": "ebe3c",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "ebdd3",
+      "sourceId": "b7308",
+      "targetId": "e3caf",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "d120f",
+      "sourceId": "dab10",
+      "targetId": "e3caf",
+      "types": [
+        "conversion"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "d40ac",
+      "geneNames": null,
+      "type": "compound",
+      "x": 188.10684606252536,
+      "y": 345.1658092599926,
+      "label": "Aconitate",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000072"
+    },
+    {
+      "id": "e468e",
+      "geneNames": [
+        "GLUD1"
+      ],
+      "type": "gene_protein",
+      "x": 318.34190740007944,
+      "y": 372.33926922569543,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000148672",
+      "uniprotAccs": [
+        "P00367",
+        "A0A804HHS2",
+        "A0A804HHU3",
+        "A0A804HIA0",
+        "A0A804HJD7",
+        "A0A804HJH3",
+        "A0A804HJZ0",
+        "A0A804HKE0",
+        "A0A804HLC0"
+      ]
+    },
+    {
+      "id": "c3712",
+      "geneNames": null,
+      "type": "compound",
+      "x": 274.79224376731156,
+      "y": 416.2905949083223,
+      "label": "Oxaloacetate",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000223"
+    },
+    {
+      "id": "d4804",
+      "geneNames": [
+        "HAL"
+      ],
+      "type": "gene_protein",
+      "x": 836.5947764147166,
+      "y": 477.7666534758055,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000084110",
+      "uniprotAccs": [
+        "P42357",
+        "F8VNX0",
+        "F8W0V1",
+        "H0YHB0",
+        "Q4VB95"
+      ]
+    },
+    {
+      "id": "e2c11",
+      "geneNames": null,
+      "type": "compound",
+      "x": 333.66666666666674,
+      "y": 329.0000000000004,
+      "label": "isocitrate",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000193"
+    },
+    {
+      "id": "fcbea",
+      "geneNames": null,
+      "type": "compound",
+      "x": 150.5733474726054,
+      "y": 285.590668080594,
+      "label": "Citrate",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000094"
+    },
+    {
+      "id": "a4099",
+      "geneNames": null,
+      "type": "compound",
+      "x": 909.3333333333309,
+      "y": 524.9999999999995,
+      "label": "Histidine",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000177"
+    },
+    {
+      "id": "dcf4f",
+      "geneNames": null,
+      "type": "compound",
+      "x": 457.1444400474903,
+      "y": 426.58461944334425,
+      "label": "Pyruvate",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000243"
+    },
+    {
+      "id": "d3922",
+      "geneNames": null,
+      "type": "compound",
+      "x": 498.0825406596419,
+      "y": 327.4652322814831,
+      "label": "Alanine",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000161"
+    },
+    {
+      "id": "c9d9e",
+      "geneNames": [
+        "GPT2"
+      ],
+      "type": "gene_protein",
+      "x": 453.82904629995784,
+      "y": 389.72312359846677,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000166123",
+      "uniprotAccs": [
+        "Q8TD30",
+        "H3BU54"
+      ]
+    },
+    {
+      "id": "a4975",
+      "geneNames": null,
+      "type": "compound",
+      "x": 110.66666666666683,
+      "y": 221.66666666666657,
+      "label": "Oxaloacetate",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000223"
+    },
+    {
+      "id": "a5c85",
+      "geneNames": null,
+      "type": "compound",
+      "x": 398.0835945663536,
+      "y": 170.7523510971783,
+      "label": "Succinyl-CoA",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0001022"
+    },
+    {
+      "id": "af14a",
+      "geneNames": [
+        "FTCD"
+      ],
+      "type": "gene_protein",
+      "x": 409.9938002901996,
+      "y": 574.4330563250223,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000160282",
+      "uniprotAccs": [
+        "O95954",
+        "A0A804HKA5",
+        "B7WPK3",
+        "H7C315",
+        "Q49AR5"
+      ]
+    },
+    {
+      "id": "d49f0",
+      "geneNames": null,
+      "type": "compound",
+      "x": 336.66666666666674,
+      "y": 93.99999999999994,
+      "label": "Succinate",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000254"
+    },
+    {
+      "id": "f40dc",
+      "geneNames": null,
+      "type": "compound",
+      "x": 181.66666666666663,
+      "y": 90.99999999999994,
+      "label": "Fumarate",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000134"
+    },
+    {
+      "id": "dab10",
+      "geneNames": null,
+      "type": "compound",
+      "x": 330.3333333333344,
+      "y": 524.9999999999995,
+      "label": "Glutamate",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000148"
+    },
+    {
+      "id": "e5dc1",
+      "geneNames": null,
+      "type": "compound",
+      "x": 151.66666666666663,
+      "y": 153.99999999999986,
+      "label": "Malate",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000156"
+    },
+    {
+      "id": "cc058",
+      "geneNames": null,
+      "type": "compound",
+      "x": 429.2549019607835,
+      "y": 257.0672268907563,
+      "label": "2-oxo-glutarate",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:16810"
+    },
+    {
+      "id": "de8d0",
+      "geneNames": [
+        "UROC1"
+      ],
+      "type": "gene_protein",
+      "x": 702.4285714285716,
+      "y": 575.5714285714287,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "Q96N76",
+      "uniprotAccs": [
+        "Q96N76"
+      ]
+    },
+    {
+      "id": "d1463",
+      "geneNames": [
+        "AMDHD1"
+      ],
+      "type": "gene_protein",
+      "x": 546.1428571428587,
+      "y": 477.3333333333341,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "Q96NU7",
+      "uniprotAccs": [
+        "Q96NU7"
+      ]
+    },
+    {
+      "id": "ebe3c",
+      "geneNames": null,
+      "type": "compound",
+      "x": 772.3333333333314,
+      "y": 524.9999999999995,
+      "label": "UCA",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:30817"
+    },
+    {
+      "id": "b7308",
+      "geneNames": null,
+      "type": "compound",
+      "x": 618.1666666666786,
+      "y": 524.9999999999995,
+      "label": "4I-5PROA",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:27384"
+    },
+    {
+      "id": "e3caf",
+      "geneNames": null,
+      "type": "compound",
+      "x": 480.3333333333313,
+      "y": 524.9999999999995,
+      "label": "NF-Glu",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:18327"
+    }
+  ]
+}

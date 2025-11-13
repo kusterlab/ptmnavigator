@@ -1,0 +1,193 @@
+{
+  "pathway": {
+    "name": "WP4284",
+    "org": "Homo sapiens",
+    "title": "Ultraconserved region 339 modulation of tumor suppressor microRNAs in cancer"
+  },
+  "links": [
+    {
+      "id": "fa4a2",
+      "sourceId": "f219e",
+      "targetId": "ddb77",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "bb356",
+      "sourceId": "fdf54",
+      "targetId": "f219e",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "a74bc",
+      "sourceId": "ddb77",
+      "targetId": "e540f",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "f5d85",
+      "sourceId": "e540f",
+      "targetId": "a34ce",
+      "types": [
+        "activation"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "f219e",
+      "geneNames": [
+        "uc339\n(Entraper1)"
+      ],
+      "type": "gene_protein",
+      "x": 280.0,
+      "y": 213.5833333333328,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "fdf54",
+      "geneNames": [
+        "TP53"
+      ],
+      "type": "gene_protein",
+      "x": 280.0000000000001,
+      "y": 122.66666666666669,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000141510",
+      "states": [
+        ""
+      ],
+      "uniprotAccs": [
+        "P04637",
+        "A0A087WT22",
+        "A0A087WXZ1",
+        "A0A087X1Q1",
+        "A0A0U1RQC9",
+        "E7EMR6",
+        "E7EQX7",
+        "E7ESS1",
+        "E9PCY9",
+        "E9PFT5",
+        "I3L0W9",
+        "J3KP33",
+        "S4R334"
+      ]
+    },
+    {
+      "id": "d7b8a",
+      "geneNames": [
+        "MIR95"
+      ],
+      "type": "gene_protein",
+      "x": 280.0,
+      "y": 308.66666666666686,
+      "label": null,
+      "groupId": "ddb77",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000207807",
+      "uniprotAccs": null
+    },
+    {
+      "id": "ef0cb",
+      "geneNames": [
+        "MIR339"
+      ],
+      "type": "gene_protein",
+      "x": 280.0,
+      "y": 333.66666666666686,
+      "label": null,
+      "groupId": "ddb77",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000199023",
+      "uniprotAccs": null
+    },
+    {
+      "id": "c6483",
+      "geneNames": [
+        "MIR663B"
+      ],
+      "type": "gene_protein",
+      "x": 280.0,
+      "y": 358.66666666666686,
+      "label": null,
+      "groupId": "ddb77",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000221288",
+      "uniprotAccs": null
+    },
+    {
+      "id": "e540f",
+      "geneNames": [
+        "CCNE2"
+      ],
+      "type": "gene_protein",
+      "x": 280.0000000000001,
+      "y": 441.99999999999994,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000175305",
+      "uniprotAccs": [
+        "O96020",
+        "E5RHN2",
+        "E5RK20",
+        "H0YBQ2",
+        "Q8WUE3"
+      ]
+    },
+    {
+      "id": "a0820",
+      "geneNames": null,
+      "type": "misc",
+      "x": 564.8333333333333,
+      "y": 108.0,
+      "label": "Inactivating mutation",
+      "groupId": "c3466"
+    },
+    {
+      "id": "a34ce",
+      "geneNames": null,
+      "type": "misc",
+      "x": 280.0000000000001,
+      "y": 532.4166666666711,
+      "label": "Increased tumor \ngrowth and motility",
+      "groupId": null
+    },
+    {
+      "id": "c1044",
+      "geneNames": null,
+      "type": "misc",
+      "x": 534.6666666666677,
+      "y": 139.33333333333337,
+      "label": "Entrapping",
+      "groupId": "c3466"
+    },
+    {
+      "id": "c3466",
+      "type": "group",
+      "components": [
+        "a0820",
+        "c1044"
+      ]
+    },
+    {
+      "id": "ddb77",
+      "type": "group",
+      "components": [
+        "d7b8a",
+        "ef0cb",
+        "c6483"
+      ]
+    }
+  ]
+}

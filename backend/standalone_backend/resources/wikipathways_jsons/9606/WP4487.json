@@ -1,0 +1,221 @@
+{
+  "pathway": {
+    "name": "WP4487",
+    "org": "Homo sapiens",
+    "title": "Ophthalmate biosynthesis in hepatocytes"
+  },
+  "links": [
+    {
+      "id": "id90fdc074",
+      "sourceId": "a9161",
+      "targetId": "b3e6b",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "ida18834",
+      "sourceId": "f3452",
+      "targetId": "ab6da",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ida5e3974f",
+      "sourceId": "d4226",
+      "targetId": "f3a4b",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "idfa5c8d63",
+      "sourceId": "b3e6b",
+      "targetId": "d4226",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "idfaecfa06",
+      "sourceId": "c56d9",
+      "targetId": "a9161",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "a6ed8",
+      "sourceId": "a7f90",
+      "targetId": "f3452",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "f3a4b",
+      "sourceId": "bdbde",
+      "targetId": "a7f90",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "eca69",
+      "sourceId": "d4226",
+      "targetId": "idfaecfa06",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "cd9c8",
+      "sourceId": "ff2fb",
+      "targetId": "a6ed8",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "caee3",
+      "sourceId": "ff2fb",
+      "targetId": "id90fdc074",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "acb7e",
+      "sourceId": "ab6da",
+      "targetId": "aefde",
+      "types": [
+        "activation"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "ab6da",
+      "geneNames": [
+        "MRP-transporter"
+      ],
+      "type": "gene_protein",
+      "x": 295.3776185226021,
+      "y": 337.37596471885325,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "c56d9",
+      "geneNames": null,
+      "type": "compound",
+      "x": 137.0,
+      "y": 91.0,
+      "label": "Cys",
+      "groupId": null,
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q186474"
+    },
+    {
+      "id": "d4226",
+      "geneNames": [
+        "GCS"
+      ],
+      "type": "gene_protein",
+      "x": 216.0,
+      "y": 132.10253583241456,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "EC",
+      "referenceId": "6.3.2.2",
+      "uniprotAccs": [
+        "P48506"
+      ]
+    },
+    {
+      "id": "a9161",
+      "geneNames": null,
+      "type": "compound",
+      "x": 137.0,
+      "y": 186.0,
+      "label": "gamma-Glu-Cys",
+      "groupId": null,
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q288236"
+    },
+    {
+      "id": "b3e6b",
+      "geneNames": null,
+      "type": "compound",
+      "x": 137.0,
+      "y": 273.0,
+      "label": "GSH",
+      "groupId": null,
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q116907"
+    },
+    {
+      "id": "bdbde",
+      "geneNames": null,
+      "type": "compound",
+      "x": 295.0,
+      "y": 91.0,
+      "label": "2AB",
+      "groupId": null,
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q27104317"
+    },
+    {
+      "id": "a7f90",
+      "geneNames": null,
+      "type": "compound",
+      "x": 295.0,
+      "y": 186.0,
+      "label": "gamma-Glu-2AB",
+      "groupId": null,
+      "referenceDatabase": "PubChem-compound",
+      "referenceId": "78437958"
+    },
+    {
+      "id": "f3452",
+      "geneNames": null,
+      "type": "compound",
+      "x": 295.0,
+      "y": 273.0,
+      "label": "ophthalmate",
+      "groupId": null,
+      "referenceDatabase": "TTD Drug",
+      "referenceId": "Q7098084"
+    },
+    {
+      "id": "ff2fb",
+      "geneNames": [
+        "GS"
+      ],
+      "type": "gene_protein",
+      "x": 216.0,
+      "y": 223.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "EC",
+      "referenceId": "6.3.2.3",
+      "uniprotAccs": [
+        "P48637"
+      ]
+    },
+    {
+      "id": "aefde",
+      "geneNames": null,
+      "type": "compound",
+      "x": 295.07717750826896,
+      "y": 399.86879823594273,
+      "label": "ophthalmate",
+      "groupId": null,
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q7098084"
+    }
+  ]
+}

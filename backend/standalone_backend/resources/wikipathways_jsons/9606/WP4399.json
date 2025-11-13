@@ -1,0 +1,295 @@
+{
+  "pathway": {
+    "name": "WP4399",
+    "org": "Homo sapiens",
+    "title": "MicroRNA network associated with chronic lymphocytic leukemia"
+  },
+  "links": [
+    {
+      "id": "id36f8ab8c",
+      "sourceId": "dc54f",
+      "targetId": "c509f",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id75d44810",
+      "sourceId": "b74fa",
+      "targetId": "ba180",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id8cead32f",
+      "sourceId": "b9067",
+      "targetId": "ba180",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "ida7060f8f",
+      "sourceId": "ba180",
+      "targetId": "b9067",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idaf585fc4",
+      "sourceId": "acfde",
+      "targetId": "b9067",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "idc114cff9",
+      "sourceId": "b9067",
+      "targetId": "f74c6",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "idcb04114d",
+      "sourceId": "ba180",
+      "targetId": "dc54f",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idf7862cab",
+      "sourceId": "b8843",
+      "targetId": "dc54f",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "e9d11",
+      "sourceId": "b9067",
+      "targetId": "e54d9",
+      "types": [
+        "inhibition"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "c509f",
+      "geneNames": [
+        "ZAP70"
+      ],
+      "type": "gene_protein",
+      "x": 480.5,
+      "y": 350.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000115085",
+      "uniprotAccs": [
+        "P43403"
+      ]
+    },
+    {
+      "id": "f74c6",
+      "geneNames": [
+        "BCL2"
+      ],
+      "type": "gene_protein",
+      "x": 198.5,
+      "y": 349.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000171791",
+      "uniprotAccs": [
+        "P10415",
+        "A0A7I2V3S7",
+        "A0A7I2V4W1",
+        "A0A7I2V5Q7",
+        "A0A7I2V5Q9"
+      ]
+    },
+    {
+      "id": "ba180",
+      "geneNames": [
+        "TP53"
+      ],
+      "type": "gene_protein",
+      "x": 344.5,
+      "y": 246.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000141510",
+      "uniprotAccs": [
+        "P04637",
+        "A0A087WT22",
+        "A0A087WXZ1",
+        "A0A087X1Q1",
+        "A0A0U1RQC9",
+        "E7EMR6",
+        "E7EQX7",
+        "E7ESS1",
+        "E9PCY9",
+        "E9PFT5",
+        "I3L0W9",
+        "J3KP33",
+        "S4R334"
+      ]
+    },
+    {
+      "id": "e1311",
+      "geneNames": [
+        "MIR34A"
+      ],
+      "type": "gene_protein",
+      "x": 480.5,
+      "y": 221.0,
+      "label": null,
+      "groupId": "dc54f",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000284357",
+      "uniprotAccs": null
+    },
+    {
+      "id": "a91d3",
+      "geneNames": [
+        "MIR34B"
+      ],
+      "type": "gene_protein",
+      "x": 480.5,
+      "y": 246.0,
+      "label": null,
+      "groupId": "dc54f",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000207811",
+      "uniprotAccs": null
+    },
+    {
+      "id": "ab62c",
+      "geneNames": [
+        "MIR34C"
+      ],
+      "type": "gene_protein",
+      "x": 480.5,
+      "y": 271.0,
+      "label": null,
+      "groupId": "dc54f",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000207562",
+      "uniprotAccs": null
+    },
+    {
+      "id": "e6245",
+      "geneNames": [
+        "MIR15A"
+      ],
+      "type": "gene_protein",
+      "x": 219.5,
+      "y": 233.0,
+      "label": null,
+      "groupId": "b9067",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000283785",
+      "uniprotAccs": null
+    },
+    {
+      "id": "af064",
+      "geneNames": [
+        "MIR16-1"
+      ],
+      "type": "gene_protein",
+      "x": 219.5,
+      "y": 258.0,
+      "label": null,
+      "groupId": "b9067",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000208006",
+      "uniprotAccs": null
+    },
+    {
+      "id": "e54d9",
+      "geneNames": [
+        "MCL1"
+      ],
+      "type": "gene_protein",
+      "x": 240.0,
+      "y": 382.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000143384",
+      "uniprotAccs": [
+        "Q07820",
+        "A0A087WT64",
+        "A0A7I2V2W2"
+      ]
+    },
+    {
+      "id": "b74fa",
+      "geneNames": null,
+      "type": "misc",
+      "x": 361.0,
+      "y": 140.0,
+      "label": "del17p",
+      "groupId": null
+    },
+    {
+      "id": "e7bfa",
+      "geneNames": null,
+      "type": "misc",
+      "x": 721.0,
+      "y": 55.0,
+      "label": "Effect of deletion/mutation",
+      "groupId": "c47df"
+    },
+    {
+      "id": "b8843",
+      "geneNames": null,
+      "type": "misc",
+      "x": 480.5,
+      "y": 140.0,
+      "label": "del11q",
+      "groupId": null
+    },
+    {
+      "id": "acfde",
+      "geneNames": null,
+      "type": "misc",
+      "x": 219.0,
+      "y": 140.0,
+      "label": "del13q",
+      "groupId": null
+    },
+    {
+      "id": "c47df",
+      "type": "group",
+      "components": [
+        "e7bfa"
+      ]
+    },
+    {
+      "id": "dc54f",
+      "type": "group",
+      "components": [
+        "e1311",
+        "a91d3",
+        "ab62c"
+      ]
+    },
+    {
+      "id": "b9067",
+      "type": "group",
+      "components": [
+        "e6245",
+        "af064"
+      ]
+    }
+  ]
+}

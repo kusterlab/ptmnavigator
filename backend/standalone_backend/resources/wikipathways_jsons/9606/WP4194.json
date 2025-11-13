@@ -1,0 +1,275 @@
+{
+  "pathway": {
+    "name": "WP4194",
+    "org": "Homo sapiens",
+    "title": "Hormonal control of pubertal growth spurt"
+  },
+  "links": [
+    {
+      "id": "id12ceef46",
+      "sourceId": "e6ee0",
+      "targetId": "f3e2e",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "id2928af34",
+      "sourceId": "a4244",
+      "targetId": "ec9ee",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "id2f512d1",
+      "sourceId": "e0ed5",
+      "targetId": "a2306",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "id30267f0c",
+      "sourceId": "a2306",
+      "targetId": "a4244",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "id382a6039",
+      "sourceId": "a505b",
+      "targetId": "f3e2e",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "id46b63bd4",
+      "sourceId": "f3e2e",
+      "targetId": "a62a8",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "id4932c3c9",
+      "sourceId": "d3d80",
+      "targetId": "e6ee0",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "id4da996f",
+      "sourceId": "c6b73",
+      "targetId": "d1862",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "id5d5ecc9",
+      "sourceId": "f3e2e",
+      "targetId": "a2306",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "id5da40298",
+      "sourceId": "a2306",
+      "targetId": "ec9ee",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "id64688f52",
+      "sourceId": "d3d80",
+      "targetId": "a505b",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "id7b083e52",
+      "sourceId": "a62a8",
+      "targetId": "a2306",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "id867f9b95",
+      "sourceId": "f3e2e",
+      "targetId": "ec9ee",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "idfbbbce8d",
+      "sourceId": "d1862",
+      "targetId": "c6b73",
+      "types": [
+        "stimulation"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "c6b73",
+      "geneNames": [
+        "IGF1"
+      ],
+      "type": "gene_protein",
+      "x": 370.29596303131103,
+      "y": 415.40653357531755,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "3479",
+      "uniprotAccs": [
+        "P05019",
+        "Q13429",
+        "Q59GC5",
+        "Q5U743"
+      ]
+    },
+    {
+      "id": "d3d80",
+      "geneNames": [
+        "GnRH"
+      ],
+      "type": "gene_protein",
+      "x": 304.9602098552672,
+      "y": 78.44174770430944,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "2796",
+      "uniprotAccs": [
+        "P01148"
+      ]
+    },
+    {
+      "id": "a62a8",
+      "geneNames": [
+        "GHRH"
+      ],
+      "type": "gene_protein",
+      "x": 471.66459896524503,
+      "y": 78.44174770430945,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "2691",
+      "uniprotAccs": [
+        "P01286"
+      ]
+    },
+    {
+      "id": "e0ed5",
+      "geneNames": [
+        "SST"
+      ],
+      "type": "gene_protein",
+      "x": 702.4392014519019,
+      "y": 78.44174770430944,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "6750",
+      "uniprotAccs": [
+        "P61278"
+      ]
+    },
+    {
+      "id": "a2306",
+      "geneNames": [
+        "GH"
+      ],
+      "type": "gene_protein",
+      "x": 623.4392014519019,
+      "y": 171.85117967332133,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "2688",
+      "uniprotAccs": [
+        "P01241",
+        "B1A4G6",
+        "B1A4G7"
+      ]
+    },
+    {
+      "id": "a505b",
+      "geneNames": [
+        "FSH"
+      ],
+      "type": "gene_protein",
+      "x": 362.9602098552665,
+      "y": 171.85117967332133,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "RefSeq_Protein",
+      "referenceId": "449322",
+      "uniprotAccs": null
+    },
+    {
+      "id": "e6ee0",
+      "geneNames": [
+        "LH"
+      ],
+      "type": "gene_protein",
+      "x": 244.96020985526724,
+      "y": 171.85117967332133,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "RefSeq_Protein",
+      "referenceId": "3972",
+      "uniprotAccs": null
+    },
+    {
+      "id": "f3e2e",
+      "geneNames": null,
+      "type": "compound",
+      "x": 304.9602098552672,
+      "y": 253.85117967332133,
+      "label": "Estrogens",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:50114"
+    },
+    {
+      "id": "a4244",
+      "geneNames": [
+        "IGF1"
+      ],
+      "type": "gene_protein",
+      "x": 623.4392014519019,
+      "y": 276.96042337080047,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "3479",
+      "uniprotAccs": [
+        "P05019",
+        "Q13429",
+        "Q59GC5",
+        "Q5U743"
+      ]
+    },
+    {
+      "id": "d1862",
+      "geneNames": null,
+      "type": "misc",
+      "x": 370.29596303131103,
+      "y": 344.3139745916515,
+      "label": "Growth plate",
+      "groupId": null
+    }
+  ]
+}

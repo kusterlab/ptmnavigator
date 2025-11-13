@@ -1,0 +1,295 @@
+{
+  "pathway": {
+    "name": "WP1252",
+    "org": "Mus musculus",
+    "title": "Amino acid conjugation of benzoic acid"
+  },
+  "links": [
+    {
+      "id": "a3b44",
+      "sourceId": "bdf48",
+      "targetId": "d9fc5",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "a52c1",
+      "sourceId": "f4d6d",
+      "targetId": "ba590",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "be749",
+      "sourceId": "d1438",
+      "targetId": "a52c1",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "d817a",
+      "sourceId": "f8b3c",
+      "targetId": "f880c",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "d8ba1",
+      "sourceId": "f4d6d",
+      "targetId": "cfee7",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "d9fc5",
+      "sourceId": "f8b3c",
+      "targetId": "f4d6d",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "dca68",
+      "sourceId": "e9f5c",
+      "targetId": "ba590",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "dd1c5",
+      "sourceId": "e5093",
+      "targetId": "f4d6d",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "e4068",
+      "sourceId": "f08c7",
+      "targetId": "f8b3c",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id9e2bb7a4",
+      "sourceId": "e4068",
+      "targetId": "eb377",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "idd98423d7",
+      "sourceId": "e4068",
+      "targetId": "a39e2",
+      "types": [
+        "conversion"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "a52db",
+      "geneNames": [
+        "Glyat"
+      ],
+      "type": "gene_protein",
+      "x": 77.0,
+      "y": 313.0,
+      "label": null,
+      "groupId": "d1438",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000063683",
+      "uniprotAccs": [
+        "Q91XE0"
+      ]
+    },
+    {
+      "id": "ba590",
+      "geneNames": null,
+      "type": "compound",
+      "x": 193.33333333333334,
+      "y": 385.6666666666667,
+      "label": "hippuric acid",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000714"
+    },
+    {
+      "id": "bc23e",
+      "geneNames": [
+        "GLYATL2"
+      ],
+      "type": "gene_protein",
+      "x": 77.0,
+      "y": 353.0,
+      "label": null,
+      "groupId": "d1438",
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "bdf48",
+      "geneNames": [
+        "Acss2"
+      ],
+      "type": "gene_protein",
+      "x": 80.0,
+      "y": 236.33333333333334,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "60525",
+      "uniprotAccs": [
+        "Q9QXG4"
+      ]
+    },
+    {
+      "id": "cfee7",
+      "geneNames": null,
+      "type": "compound",
+      "x": 290.3086419753089,
+      "y": 327.9794238683128,
+      "label": "Coenzyme A",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0001423"
+    },
+    {
+      "id": "e0307",
+      "geneNames": [
+        "GLYATL1"
+      ],
+      "type": "gene_protein",
+      "x": 77.0,
+      "y": 333.0,
+      "label": null,
+      "groupId": "d1438",
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "e077f",
+      "geneNames": null,
+      "type": "compound",
+      "x": 270.6666666666667,
+      "y": 159.66666666666666,
+      "label": "Phosphate",
+      "groupId": "a39e2",
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0001429"
+    },
+    {
+      "id": "e4925",
+      "geneNames": null,
+      "type": "compound",
+      "x": 270.6666666666667,
+      "y": 139.66666666666666,
+      "label": "Phosphate",
+      "groupId": "a39e2",
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0001429"
+    },
+    {
+      "id": "e5093",
+      "geneNames": null,
+      "type": "compound",
+      "x": 295.2674897119344,
+      "y": 253.96707818930054,
+      "label": "Acetyl CoA",
+      "groupId": null,
+      "referenceDatabase": "CAS",
+      "referenceId": "72-89-9"
+    },
+    {
+      "id": "e9f5c",
+      "geneNames": null,
+      "type": "compound",
+      "x": 290.3086419753089,
+      "y": 351.64609053497946,
+      "label": "glycine",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000123"
+    },
+    {
+      "id": "eb377",
+      "geneNames": null,
+      "type": "compound",
+      "x": 269.3333333333333,
+      "y": 97.66666666666667,
+      "label": "ATP",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000538"
+    },
+    {
+      "id": "f08c7",
+      "geneNames": null,
+      "type": "compound",
+      "x": 193.0,
+      "y": 59.666666666666664,
+      "label": "Benzoic acid",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0001870"
+    },
+    {
+      "id": "f4d6d",
+      "geneNames": null,
+      "type": "compound",
+      "x": 193.33333333333334,
+      "y": 295.0,
+      "label": "Benzoyl-CoA",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0002252"
+    },
+    {
+      "id": "f880c",
+      "geneNames": null,
+      "type": "compound",
+      "x": 295.2674897119344,
+      "y": 227.9670781893005,
+      "label": "AMP",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000045"
+    },
+    {
+      "id": "f8b3c",
+      "geneNames": null,
+      "type": "compound",
+      "x": 193.0,
+      "y": 189.66666666666666,
+      "label": "Benzoic acid AMP ester",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0001870"
+    },
+    {
+      "id": "a39e2",
+      "type": "group",
+      "components": [
+        "e077f",
+        "e4925"
+      ]
+    },
+    {
+      "id": "d1438",
+      "type": "group",
+      "components": [
+        "a52db",
+        "bc23e",
+        "e0307"
+      ]
+    }
+  ]
+}

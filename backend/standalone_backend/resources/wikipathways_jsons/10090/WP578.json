@@ -1,0 +1,533 @@
+{
+  "pathway": {
+    "name": "WP578",
+    "org": "Mus musculus",
+    "title": "Leptin-insulin signaling overlap"
+  },
+  "links": [
+    {
+      "id": "a6451",
+      "sourceId": "af6df",
+      "targetId": "c0662",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "adcf7",
+      "sourceId": "af6df",
+      "targetId": "e3534",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "b40f4",
+      "sourceId": "a74bd",
+      "targetId": "f4db3",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "bcc85",
+      "sourceId": "ce781",
+      "targetId": "c1fbc",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "c74ad",
+      "sourceId": "f8c1e",
+      "targetId": "af6df",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "d2086",
+      "sourceId": "cc48f",
+      "targetId": "c949b",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "d2bc6",
+      "sourceId": "ebdc1",
+      "targetId": "f8c1e",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "efb08",
+      "sourceId": "a8fb6",
+      "targetId": "dcff2",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "fb38c",
+      "sourceId": "c1fbc",
+      "targetId": "cb1d2",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "fc362",
+      "sourceId": "f98e8",
+      "targetId": "dcff2",
+      "types": [
+        "activation"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "a74bd",
+      "geneNames": [
+        "Jak2"
+      ],
+      "type": "gene_protein",
+      "x": 502.0,
+      "y": 143.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "16452",
+      "uniprotAccs": [
+        "Q62120"
+      ]
+    },
+    {
+      "id": "af6df",
+      "geneNames": [
+        "PDK1"
+      ],
+      "type": "gene_protein",
+      "x": 73.5,
+      "y": 119.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "18607",
+      "uniprotAccs": [
+        "Q9Z2A0",
+        "F2Z3X6",
+        "Q3TRL2",
+        "Q3UGN6",
+        "Q3UHZ0"
+      ]
+    },
+    {
+      "id": "b257d",
+      "geneNames": [
+        "Lepr"
+      ],
+      "type": "gene_protein",
+      "x": 545.5,
+      "y": 105.48333333333333,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "16847",
+      "uniprotAccs": [
+        "P48356",
+        "Q3UNU8",
+        "Q3US58",
+        "Q640Q2"
+      ]
+    },
+    {
+      "id": "b319c",
+      "geneNames": [
+        "Socs3"
+      ],
+      "type": "gene_protein",
+      "x": 712.0526315789468,
+      "y": 173.05263157894737,
+      "label": null,
+      "groupId": "ce781",
+      "referenceDatabase": "GeneID",
+      "referenceId": "12702",
+      "uniprotAccs": [
+        "O35718"
+      ]
+    },
+    {
+      "id": "bb089",
+      "geneNames": [
+        "Stat3"
+      ],
+      "type": "gene_protein",
+      "x": 588.0,
+      "y": 162.0,
+      "label": null,
+      "groupId": "c1fbc",
+      "referenceDatabase": "GeneID",
+      "referenceId": "20848",
+      "uniprotAccs": [
+        "P42227",
+        "Q3ULI4",
+        "Q6GU23"
+      ]
+    },
+    {
+      "id": "bf599",
+      "geneNames": [
+        "P85"
+      ],
+      "type": "gene_protein",
+      "x": 263.0,
+      "y": 261.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000028698",
+      "uniprotAccs": [
+        "Q64143",
+        "B1AUF8",
+        "B1AUG0"
+      ]
+    },
+    {
+      "id": "c0662",
+      "geneNames": [
+        "Akt1/PKB"
+      ],
+      "type": "gene_protein",
+      "x": 45.42105263157896,
+      "y": 203.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "11651",
+      "uniprotAccs": [
+        "P31750"
+      ]
+    },
+    {
+      "id": "c0927",
+      "geneNames": [
+        "Socs2"
+      ],
+      "type": "gene_protein",
+      "x": 712.0526315789468,
+      "y": 154.05263157894737,
+      "label": null,
+      "groupId": "ce781",
+      "referenceDatabase": "GeneID",
+      "referenceId": "216233",
+      "uniprotAccs": [
+        "O35717",
+        "Q548Q7"
+      ]
+    },
+    {
+      "id": "c949b",
+      "geneNames": [
+        "P110"
+      ],
+      "type": "gene_protein",
+      "x": 239.0,
+      "y": 144.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000020573",
+      "uniprotAccs": [
+        "Q9JHG7",
+        "A0A1W2P8F6"
+      ]
+    },
+    {
+      "id": "cd19e",
+      "geneNames": [
+        "Insr"
+      ],
+      "type": "gene_protein",
+      "x": 393.0,
+      "y": 103.48333333333333,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "16337",
+      "uniprotAccs": [
+        "P15208",
+        "M4TKR7",
+        "Q3TPM5"
+      ]
+    },
+    {
+      "id": "d491b",
+      "geneNames": [
+        "Socs1"
+      ],
+      "type": "gene_protein",
+      "x": 712.0526315789468,
+      "y": 134.05263157894737,
+      "label": null,
+      "groupId": "ce781",
+      "referenceDatabase": "GeneID",
+      "referenceId": "12703",
+      "uniprotAccs": [
+        "O35716"
+      ]
+    },
+    {
+      "id": "d6a2b",
+      "geneNames": [
+        "Insulin"
+      ],
+      "type": "gene_protein",
+      "x": 393.0,
+      "y": 44.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "16333",
+      "uniprotAccs": [
+        "P01325"
+      ]
+    },
+    {
+      "id": "d9e12",
+      "geneNames": [
+        "Jak2"
+      ],
+      "type": "gene_protein",
+      "x": 588.0,
+      "y": 143.0,
+      "label": null,
+      "groupId": "c1fbc",
+      "referenceDatabase": "GeneID",
+      "referenceId": "16452",
+      "uniprotAccs": [
+        "Q62120"
+      ]
+    },
+    {
+      "id": "e3534",
+      "geneNames": [
+        "PKC"
+      ],
+      "type": "gene_protein",
+      "x": 106.75,
+      "y": 204.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000040479",
+      "uniprotAccs": [
+        "Q80UP3",
+        "A0A668KL90",
+        "A2AHJ7",
+        "A2AHK0",
+        "D6RDR3",
+        "D6RHK9",
+        "D6RIP2"
+      ]
+    },
+    {
+      "id": "e762b",
+      "geneNames": [
+        "Stat3"
+      ],
+      "type": "gene_protein",
+      "x": 561.0340681362729,
+      "y": 276.5811401809142,
+      "label": null,
+      "groupId": "cb1d2",
+      "referenceDatabase": "GeneID",
+      "referenceId": "20848",
+      "uniprotAccs": [
+        "P42227",
+        "Q3ULI4",
+        "Q6GU23"
+      ]
+    },
+    {
+      "id": "e7e2a",
+      "geneNames": [
+        "Leptin"
+      ],
+      "type": "gene_protein",
+      "x": 543.0,
+      "y": 46.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P41160",
+      "uniprotAccs": [
+        "P41160"
+      ]
+    },
+    {
+      "id": "ebdc1",
+      "geneNames": null,
+      "type": "compound",
+      "x": 226.0,
+      "y": 121.0,
+      "label": "PIP2",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:18348"
+    },
+    {
+      "id": "f0520",
+      "geneNames": [
+        "Irs1"
+      ],
+      "type": "gene_protein",
+      "x": 350.5,
+      "y": 125.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "16367",
+      "uniprotAccs": [
+        "P35569",
+        "Q543V3"
+      ]
+    },
+    {
+      "id": "f3b79",
+      "geneNames": [
+        "P110"
+      ],
+      "type": "gene_protein",
+      "x": 263.0,
+      "y": 241.5,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000020573",
+      "uniprotAccs": [
+        "Q9JHG7",
+        "A0A1W2P8F6"
+      ]
+    },
+    {
+      "id": "f4561",
+      "geneNames": [
+        "Irs2"
+      ],
+      "type": "gene_protein",
+      "x": 350.5,
+      "y": 145.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "384783",
+      "uniprotAccs": [
+        "P81122"
+      ]
+    },
+    {
+      "id": "f4c5b",
+      "geneNames": [
+        "Irs3"
+      ],
+      "type": "gene_protein",
+      "x": 350.5,
+      "y": 165.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "16369",
+      "uniprotAccs": [
+        "O54718"
+      ]
+    },
+    {
+      "id": "f4db3",
+      "geneNames": [
+        "Jak2"
+      ],
+      "type": "gene_protein",
+      "x": 465.0,
+      "y": 209.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "16452",
+      "uniprotAccs": [
+        "Q62120"
+      ]
+    },
+    {
+      "id": "f4fea",
+      "geneNames": [
+        "Stat3"
+      ],
+      "type": "gene_protein",
+      "x": 614.0340681362729,
+      "y": 276.5811401809142,
+      "label": null,
+      "groupId": "cb1d2",
+      "referenceDatabase": "GeneID",
+      "referenceId": "20848",
+      "uniprotAccs": [
+        "P42227",
+        "Q3ULI4",
+        "Q6GU23"
+      ]
+    },
+    {
+      "id": "f8c1e",
+      "geneNames": null,
+      "type": "compound",
+      "x": 158.5,
+      "y": 119.0,
+      "label": "PIP3",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:16618"
+    },
+    {
+      "id": "f98d4",
+      "geneNames": [
+        "Irs4"
+      ],
+      "type": "gene_protein",
+      "x": 350.5,
+      "y": 185.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "16370",
+      "uniprotAccs": [
+        "Q9Z0Y7"
+      ]
+    },
+    {
+      "id": "c1fbc",
+      "type": "group",
+      "components": [
+        "bb089",
+        "d9e12"
+      ]
+    },
+    {
+      "id": "cb1d2",
+      "type": "group",
+      "components": [
+        "e762b",
+        "f4fea"
+      ]
+    },
+    {
+      "id": "ce781",
+      "type": "group",
+      "components": [
+        "b319c",
+        "c0927",
+        "d491b"
+      ]
+    }
+  ]
+}

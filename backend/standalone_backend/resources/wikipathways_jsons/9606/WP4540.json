@@ -1,0 +1,2294 @@
+{
+  "pathway": {
+    "name": "WP4540",
+    "org": "Homo sapiens",
+    "title": "Hippo signaling regulation pathways"
+  },
+  "links": [
+    {
+      "id": "id11d928a1",
+      "sourceId": "e94c5",
+      "targetId": "dc83f",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id223508f7",
+      "sourceId": "ff02a",
+      "targetId": "d5f93",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id2dc75cec",
+      "sourceId": "a93af",
+      "targetId": "d5f93",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id30273895",
+      "sourceId": "ee7d4",
+      "targetId": "a88f3",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id3ef24d70",
+      "sourceId": "a5d4f",
+      "targetId": "d5f93",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id61a62cfa",
+      "sourceId": "a88f3",
+      "targetId": "fe00a",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id6a0b0b4c",
+      "sourceId": "d5f93",
+      "targetId": "acb08",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id6f0f7469",
+      "sourceId": "b8627",
+      "targetId": "e4561",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ida2dad3e4",
+      "sourceId": "eb30a",
+      "targetId": "ae0f3",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "idb269efe1",
+      "sourceId": "ce95c",
+      "targetId": "ceba5",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idb7200574",
+      "sourceId": "e2572",
+      "targetId": "cab9d",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idbc6146d5",
+      "sourceId": "e4561",
+      "targetId": "e7a58",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idbda879a4",
+      "sourceId": "dc83f",
+      "targetId": "a88f3",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "idbe069d68",
+      "sourceId": "fe00a",
+      "targetId": "dc83f",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idca9ac344",
+      "sourceId": "e7a58",
+      "targetId": "d5f93",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idcc246741",
+      "sourceId": "acb08",
+      "targetId": "d7607",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "idff1cf228",
+      "sourceId": "efb02",
+      "targetId": "a93af",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "cfed1",
+      "sourceId": "a88f3",
+      "targetId": "f8f16",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "c87fe",
+      "sourceId": "d7607",
+      "targetId": "ae0f3",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "ea513",
+      "sourceId": "f8f16",
+      "targetId": "d7607",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "d3f39",
+      "sourceId": "ae0f3",
+      "targetId": "b5932",
+      "types": [
+        "activation"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "0",
+      "geneNames": [
+        "PRKAA1"
+      ],
+      "type": "gene_protein",
+      "x": 99.88016749735203,
+      "y": 414.9462365322013,
+      "label": null,
+      "groupId": "eb30a",
+      "referenceDatabase": "GeneID",
+      "referenceId": "5562",
+      "uniprotAccs": [
+        "Q13131"
+      ]
+    },
+    {
+      "id": "1",
+      "geneNames": [
+        "PRKAA2"
+      ],
+      "type": "gene_protein",
+      "x": 99.88016749735203,
+      "y": 434.9462365322013,
+      "label": null,
+      "groupId": "eb30a",
+      "referenceDatabase": "GeneID",
+      "referenceId": "5563",
+      "uniprotAccs": [
+        "P54646"
+      ]
+    },
+    {
+      "id": "2",
+      "geneNames": [
+        "PRKAB1"
+      ],
+      "type": "gene_protein",
+      "x": 99.88016749735203,
+      "y": 454.94623653219975,
+      "label": null,
+      "groupId": "eb30a",
+      "referenceDatabase": "GeneID",
+      "referenceId": "5564",
+      "uniprotAccs": [
+        "Q9Y478"
+      ]
+    },
+    {
+      "id": "3",
+      "geneNames": [
+        "PRKAB2"
+      ],
+      "type": "gene_protein",
+      "x": 99.88016749735203,
+      "y": 474.9462365321991,
+      "label": null,
+      "groupId": "eb30a",
+      "referenceDatabase": "GeneID",
+      "referenceId": "5565",
+      "uniprotAccs": [
+        "O43741"
+      ]
+    },
+    {
+      "id": "4",
+      "geneNames": [
+        "PRKAG1"
+      ],
+      "type": "gene_protein",
+      "x": 179.7121002704616,
+      "y": 426.7529592212753,
+      "label": null,
+      "groupId": "eb30a",
+      "referenceDatabase": "GeneID",
+      "referenceId": "5571",
+      "uniprotAccs": [
+        "P54619"
+      ]
+    },
+    {
+      "id": "5",
+      "geneNames": [
+        "PRKAG2"
+      ],
+      "type": "gene_protein",
+      "x": 179.7121002704616,
+      "y": 446.75295922127475,
+      "label": null,
+      "groupId": "eb30a",
+      "referenceDatabase": "GeneID",
+      "referenceId": "51422",
+      "uniprotAccs": [
+        "Q9UGJ0",
+        "A0A090N8Q6",
+        "A0A384MDZ2",
+        "B7Z6X8",
+        "E9PGP6"
+      ]
+    },
+    {
+      "id": "6",
+      "geneNames": [
+        "PRKAG3"
+      ],
+      "type": "gene_protein",
+      "x": 179.7121002704616,
+      "y": 466.75295922127367,
+      "label": null,
+      "groupId": "eb30a",
+      "referenceDatabase": "GeneID",
+      "referenceId": "53632",
+      "uniprotAccs": [
+        "Q9UGI9"
+      ]
+    },
+    {
+      "id": "7",
+      "geneNames": [
+        "CDH1"
+      ],
+      "type": "gene_protein",
+      "x": 99.30107972383477,
+      "y": 79.49307396085922,
+      "label": null,
+      "groupId": "ee7d4",
+      "referenceDatabase": "GeneID",
+      "referenceId": "999",
+      "uniprotAccs": [
+        "P12830",
+        "A0A0U2ZQU7",
+        "B3GN61",
+        "Q9UII7"
+      ]
+    },
+    {
+      "id": "8",
+      "geneNames": [
+        "CDH10"
+      ],
+      "type": "gene_protein",
+      "x": 179.2410025115626,
+      "y": 119.2219503167185,
+      "label": null,
+      "groupId": "ee7d4",
+      "referenceDatabase": "GeneID",
+      "referenceId": "1008",
+      "uniprotAccs": [
+        "Q9Y6N8",
+        "X5D8X5",
+        "X5DNG6"
+      ]
+    },
+    {
+      "id": "9",
+      "geneNames": [
+        "CDH11"
+      ],
+      "type": "gene_protein",
+      "x": 179.2410025115626,
+      "y": 139.22195031671848,
+      "label": null,
+      "groupId": "ee7d4",
+      "referenceDatabase": "GeneID",
+      "referenceId": "1009",
+      "uniprotAccs": [
+        "P55287",
+        "H3BUU9"
+      ]
+    },
+    {
+      "id": "10",
+      "geneNames": [
+        "CDH12"
+      ],
+      "type": "gene_protein",
+      "x": 179.2410025115626,
+      "y": 159.22195031671848,
+      "label": null,
+      "groupId": "ee7d4",
+      "referenceDatabase": "GeneID",
+      "referenceId": "1010",
+      "uniprotAccs": [
+        "P55289"
+      ]
+    },
+    {
+      "id": "11",
+      "geneNames": [
+        "CDH13"
+      ],
+      "type": "gene_protein",
+      "x": 179.2410025115626,
+      "y": 179.2219503167185,
+      "label": null,
+      "groupId": "ee7d4",
+      "referenceDatabase": "GeneID",
+      "referenceId": "1012",
+      "uniprotAccs": [
+        "P55290",
+        "B7Z3H7",
+        "B7Z9B1"
+      ]
+    },
+    {
+      "id": "12",
+      "geneNames": [
+        "CDH15"
+      ],
+      "type": "gene_protein",
+      "x": 179.2410025115626,
+      "y": 199.2219503167185,
+      "label": null,
+      "groupId": "ee7d4",
+      "referenceDatabase": "GeneID",
+      "referenceId": "1013",
+      "uniprotAccs": [
+        "P55291"
+      ]
+    },
+    {
+      "id": "13",
+      "geneNames": [
+        "CDH16"
+      ],
+      "type": "gene_protein",
+      "x": 259.18730201901724,
+      "y": 79.30499588062386,
+      "label": null,
+      "groupId": "ee7d4",
+      "referenceDatabase": "GeneID",
+      "referenceId": "1014",
+      "uniprotAccs": [
+        "O75309"
+      ]
+    },
+    {
+      "id": "14",
+      "geneNames": [
+        "CDH17"
+      ],
+      "type": "gene_protein",
+      "x": 259.18730201901724,
+      "y": 99.30499588062386,
+      "label": null,
+      "groupId": "ee7d4",
+      "referenceDatabase": "GeneID",
+      "referenceId": "1015",
+      "uniprotAccs": [
+        "Q12864"
+      ]
+    },
+    {
+      "id": "15",
+      "geneNames": [
+        "CDH18"
+      ],
+      "type": "gene_protein",
+      "x": 259.18730201901724,
+      "y": 119.30499588062386,
+      "label": null,
+      "groupId": "ee7d4",
+      "referenceDatabase": "GeneID",
+      "referenceId": "1016",
+      "uniprotAccs": [
+        "Q13634",
+        "D6RER2"
+      ]
+    },
+    {
+      "id": "16",
+      "geneNames": [
+        "CDH19"
+      ],
+      "type": "gene_protein",
+      "x": 259.18730201901724,
+      "y": 139.30499588062398,
+      "label": null,
+      "groupId": "ee7d4",
+      "referenceDatabase": "GeneID",
+      "referenceId": "28513",
+      "uniprotAccs": [
+        "Q9H159"
+      ]
+    },
+    {
+      "id": "17",
+      "geneNames": [
+        "CDH2"
+      ],
+      "type": "gene_protein",
+      "x": 99.30107972383477,
+      "y": 99.49307396085922,
+      "label": null,
+      "groupId": "ee7d4",
+      "referenceDatabase": "GeneID",
+      "referenceId": "1000",
+      "uniprotAccs": [
+        "P19022",
+        "C9J126"
+      ]
+    },
+    {
+      "id": "18",
+      "geneNames": [
+        "CDH20"
+      ],
+      "type": "gene_protein",
+      "x": 259.18730201901724,
+      "y": 159.3049958806241,
+      "label": null,
+      "groupId": "ee7d4",
+      "referenceDatabase": "GeneID",
+      "referenceId": "28316",
+      "uniprotAccs": [
+        "Q9HBT6",
+        "A8K2C5",
+        "Q8N9J3"
+      ]
+    },
+    {
+      "id": "19",
+      "geneNames": [
+        "CDH22"
+      ],
+      "type": "gene_protein",
+      "x": 259.18730201901724,
+      "y": 179.30499588062412,
+      "label": null,
+      "groupId": "ee7d4",
+      "referenceDatabase": "GeneID",
+      "referenceId": "64405",
+      "uniprotAccs": [
+        "Q9UJ99",
+        "A8K0L9"
+      ]
+    },
+    {
+      "id": "20",
+      "geneNames": [
+        "CDH24"
+      ],
+      "type": "gene_protein",
+      "x": 259.18730201901724,
+      "y": 199.30499588062412,
+      "label": null,
+      "groupId": "ee7d4",
+      "referenceDatabase": "GeneID",
+      "referenceId": "64403",
+      "uniprotAccs": [
+        "Q86UP0"
+      ]
+    },
+    {
+      "id": "21",
+      "geneNames": [
+        "CDH3"
+      ],
+      "type": "gene_protein",
+      "x": 99.30107972383477,
+      "y": 119.49307396085928,
+      "label": null,
+      "groupId": "ee7d4",
+      "referenceDatabase": "GeneID",
+      "referenceId": "1001",
+      "uniprotAccs": [
+        "P22223",
+        "B4DLF0"
+      ]
+    },
+    {
+      "id": "22",
+      "geneNames": [
+        "CDH4"
+      ],
+      "type": "gene_protein",
+      "x": 99.30107972383477,
+      "y": 139.49307396085928,
+      "label": null,
+      "groupId": "ee7d4",
+      "referenceDatabase": "GeneID",
+      "referenceId": "1002",
+      "uniprotAccs": [
+        "P55283"
+      ]
+    },
+    {
+      "id": "23",
+      "geneNames": [
+        "CDH5"
+      ],
+      "type": "gene_protein",
+      "x": 99.58619376945232,
+      "y": 158.7277678384091,
+      "label": null,
+      "groupId": "ee7d4",
+      "referenceDatabase": "GeneID",
+      "referenceId": "1003",
+      "uniprotAccs": [
+        "P33151",
+        "Q59EA3"
+      ]
+    },
+    {
+      "id": "24",
+      "geneNames": [
+        "CDH6"
+      ],
+      "type": "gene_protein",
+      "x": 99.58619376945232,
+      "y": 178.7277678384091,
+      "label": null,
+      "groupId": "ee7d4",
+      "referenceDatabase": "GeneID",
+      "referenceId": "1004",
+      "uniprotAccs": [
+        "P55285"
+      ]
+    },
+    {
+      "id": "25",
+      "geneNames": [
+        "CDH7"
+      ],
+      "type": "gene_protein",
+      "x": 99.58619376945232,
+      "y": 198.72776783840916,
+      "label": null,
+      "groupId": "ee7d4",
+      "referenceDatabase": "GeneID",
+      "referenceId": "1005",
+      "uniprotAccs": [
+        "Q9ULB5",
+        "F5H5X9",
+        "Q8IY78"
+      ]
+    },
+    {
+      "id": "26",
+      "geneNames": [
+        "CDH8"
+      ],
+      "type": "gene_protein",
+      "x": 179.2410025115626,
+      "y": 79.2219503167185,
+      "label": null,
+      "groupId": "ee7d4",
+      "referenceDatabase": "GeneID",
+      "referenceId": "1006",
+      "uniprotAccs": [
+        "P55286"
+      ]
+    },
+    {
+      "id": "27",
+      "geneNames": [
+        "CDH9"
+      ],
+      "type": "gene_protein",
+      "x": 179.2410025115626,
+      "y": 99.2219503167185,
+      "label": null,
+      "groupId": "ee7d4",
+      "referenceDatabase": "GeneID",
+      "referenceId": "1007",
+      "uniprotAccs": [
+        "Q9ULB4"
+      ]
+    },
+    {
+      "id": "28",
+      "geneNames": [
+        "GNA11"
+      ],
+      "type": "gene_protein",
+      "x": 753.2298298505353,
+      "y": 174.32369588747432,
+      "label": null,
+      "groupId": "b8627",
+      "referenceDatabase": "GeneID",
+      "referenceId": "2767",
+      "uniprotAccs": [
+        "P29992"
+      ]
+    },
+    {
+      "id": "29",
+      "geneNames": [
+        "GNAI2"
+      ],
+      "type": "gene_protein",
+      "x": 623.7303597180006,
+      "y": 172.43294418902912,
+      "label": null,
+      "groupId": "ff02a",
+      "referenceDatabase": "GeneID",
+      "referenceId": "2771",
+      "uniprotAccs": [
+        "P04899",
+        "B3KP24",
+        "B3KX51"
+      ]
+    },
+    {
+      "id": "30",
+      "geneNames": [
+        "GNAI3"
+      ],
+      "type": "gene_protein",
+      "x": 623.7303597180006,
+      "y": 192.43294418902914,
+      "label": null,
+      "groupId": "ff02a",
+      "referenceDatabase": "GeneID",
+      "referenceId": "2773",
+      "uniprotAccs": [
+        "P08754"
+      ]
+    },
+    {
+      "id": "31",
+      "geneNames": [
+        "GNAL"
+      ],
+      "type": "gene_protein",
+      "x": 883.4936733274681,
+      "y": 194.79980809435452,
+      "label": null,
+      "groupId": "efb02",
+      "referenceDatabase": "GeneID",
+      "referenceId": "2774",
+      "uniprotAccs": [
+        "P38405",
+        "A8K1Y9"
+      ]
+    },
+    {
+      "id": "32",
+      "geneNames": [
+        "GNAQ"
+      ],
+      "type": "gene_protein",
+      "x": 753.2298298505355,
+      "y": 194.32369588747443,
+      "label": null,
+      "groupId": "b8627",
+      "referenceDatabase": "GeneID",
+      "referenceId": "2776",
+      "uniprotAccs": [
+        "P50148",
+        "A0A024R240"
+      ]
+    },
+    {
+      "id": "33",
+      "geneNames": [
+        "GNAS"
+      ],
+      "type": "gene_protein",
+      "x": 883.4936733274681,
+      "y": 175.2401407335677,
+      "label": null,
+      "groupId": "efb02",
+      "referenceDatabase": "GeneID",
+      "referenceId": "2778",
+      "uniprotAccs": [
+        "O95467",
+        "P63092",
+        "P84996",
+        "Q5JWF2",
+        "A0A0S2Z3H8",
+        "A0A0S2Z3S5",
+        "A0A590UJF0",
+        "A0A7I2V5R6",
+        "B0AZR9",
+        "Q14455",
+        "Q5FWY2",
+        "Q5JWD1"
+      ]
+    },
+    {
+      "id": "34",
+      "geneNames": [
+        "PRKACA"
+      ],
+      "type": "gene_protein",
+      "x": 909.5936925593556,
+      "y": 390.23614458380393,
+      "label": null,
+      "groupId": "a93af",
+      "referenceDatabase": "GeneID",
+      "referenceId": "5566",
+      "uniprotAccs": [
+        "P17612",
+        "A0A8V8TL59",
+        "A8K8B9"
+      ]
+    },
+    {
+      "id": "35",
+      "geneNames": [
+        "PRKACB"
+      ],
+      "type": "gene_protein",
+      "x": 909.5936925593556,
+      "y": 410.23614458380393,
+      "label": null,
+      "groupId": "a93af",
+      "referenceDatabase": "GeneID",
+      "referenceId": "5567",
+      "uniprotAccs": [
+        "P22694",
+        "A0A087WVC4",
+        "B1APF9",
+        "B1APG3",
+        "B2RB89",
+        "B7ZA00"
+      ]
+    },
+    {
+      "id": "36",
+      "geneNames": [
+        "PRKACG"
+      ],
+      "type": "gene_protein",
+      "x": 909.5936925593556,
+      "y": 430.236144583804,
+      "label": null,
+      "groupId": "a93af",
+      "referenceDatabase": "GeneID",
+      "referenceId": "5568",
+      "uniprotAccs": [
+        "P22612"
+      ]
+    },
+    {
+      "id": "37",
+      "geneNames": [
+        "PRKAR1A"
+      ],
+      "type": "gene_protein",
+      "x": 989.4290835058578,
+      "y": 376.5324408801003,
+      "label": null,
+      "groupId": "a93af",
+      "referenceDatabase": "GeneID",
+      "referenceId": "5573",
+      "uniprotAccs": [
+        "P10644",
+        "B2R5T5"
+      ]
+    },
+    {
+      "id": "38",
+      "geneNames": [
+        "PRKAR1B"
+      ],
+      "type": "gene_protein",
+      "x": 989.4290835058578,
+      "y": 396.5324408801003,
+      "label": null,
+      "groupId": "a93af",
+      "referenceDatabase": "GeneID",
+      "referenceId": "5575",
+      "uniprotAccs": [
+        "P31321"
+      ]
+    },
+    {
+      "id": "39",
+      "geneNames": [
+        "PRKAR2A"
+      ],
+      "type": "gene_protein",
+      "x": 989.4290835058578,
+      "y": 416.5324408801003,
+      "label": null,
+      "groupId": "a93af",
+      "referenceDatabase": "GeneID",
+      "referenceId": "5576",
+      "uniprotAccs": [
+        "P13861",
+        "A0A024R2W3",
+        "A0A0S2Z472",
+        "A0A9L9PY56",
+        "A8KAH7"
+      ]
+    },
+    {
+      "id": "40",
+      "geneNames": [
+        "PRKAR2B"
+      ],
+      "type": "gene_protein",
+      "x": 989.4290835058578,
+      "y": 436.53244088010035,
+      "label": null,
+      "groupId": "a93af",
+      "referenceDatabase": "GeneID",
+      "referenceId": "5577",
+      "uniprotAccs": [
+        "P31323",
+        "B3KY43"
+      ]
+    },
+    {
+      "id": "41",
+      "geneNames": [
+        "PRKCA"
+      ],
+      "type": "gene_protein",
+      "x": 713.5851524525921,
+      "y": 356.584729381923,
+      "label": null,
+      "groupId": "e7a58",
+      "referenceDatabase": "GeneID",
+      "referenceId": "5578",
+      "uniprotAccs": [
+        "P17252",
+        "L7RSM7",
+        "Q7Z727"
+      ]
+    },
+    {
+      "id": "42",
+      "geneNames": [
+        "PRKCB"
+      ],
+      "type": "gene_protein",
+      "x": 713.5851524525921,
+      "y": 376.584729381923,
+      "label": null,
+      "groupId": "e7a58",
+      "referenceDatabase": "GeneID",
+      "referenceId": "5579",
+      "uniprotAccs": [
+        "P05771"
+      ]
+    },
+    {
+      "id": "43",
+      "geneNames": [
+        "PRKCD"
+      ],
+      "type": "gene_protein",
+      "x": 713.5851524525921,
+      "y": 396.58472938192295,
+      "label": null,
+      "groupId": "e7a58",
+      "referenceDatabase": "GeneID",
+      "referenceId": "5580",
+      "uniprotAccs": [
+        "Q05655",
+        "B4DFV1"
+      ]
+    },
+    {
+      "id": "44",
+      "geneNames": [
+        "PRKCE"
+      ],
+      "type": "gene_protein",
+      "x": 713.556857906365,
+      "y": 416.98509721102295,
+      "label": null,
+      "groupId": "e7a58",
+      "referenceDatabase": "GeneID",
+      "referenceId": "5581",
+      "uniprotAccs": [
+        "Q02156",
+        "L7RTI5"
+      ]
+    },
+    {
+      "id": "45",
+      "geneNames": [
+        "PRKCG"
+      ],
+      "type": "gene_protein",
+      "x": 713.556857906365,
+      "y": 436.985097211023,
+      "label": null,
+      "groupId": "e7a58",
+      "referenceDatabase": "GeneID",
+      "referenceId": "5582",
+      "uniprotAccs": [
+        "P05129",
+        "A0A804HIU5",
+        "B2R5T1",
+        "B7Z3W6"
+      ]
+    },
+    {
+      "id": "46",
+      "geneNames": [
+        "PRKCH"
+      ],
+      "type": "gene_protein",
+      "x": 793.4076041750229,
+      "y": 356.9850972110217,
+      "label": null,
+      "groupId": "e7a58",
+      "referenceDatabase": "GeneID",
+      "referenceId": "5583",
+      "uniprotAccs": [
+        "P24723"
+      ]
+    },
+    {
+      "id": "47",
+      "geneNames": [
+        "PRKCI"
+      ],
+      "type": "gene_protein",
+      "x": 793.4076041750229,
+      "y": 376.98509721102164,
+      "label": null,
+      "groupId": "e7a58",
+      "referenceDatabase": "GeneID",
+      "referenceId": "5584",
+      "uniprotAccs": [
+        "P41743"
+      ]
+    },
+    {
+      "id": "48",
+      "geneNames": [
+        "PRKCQ"
+      ],
+      "type": "gene_protein",
+      "x": 793.4076041750229,
+      "y": 396.98509721102164,
+      "label": null,
+      "groupId": "e7a58",
+      "referenceDatabase": "GeneID",
+      "referenceId": "5588",
+      "uniprotAccs": [
+        "Q04759"
+      ]
+    },
+    {
+      "id": "49",
+      "geneNames": [
+        "PRKCZ"
+      ],
+      "type": "gene_protein",
+      "x": 793.4076041750229,
+      "y": 416.9850972110216,
+      "label": null,
+      "groupId": "e7a58",
+      "referenceDatabase": "GeneID",
+      "referenceId": "5590",
+      "uniprotAccs": [
+        "Q05513"
+      ]
+    },
+    {
+      "id": "50",
+      "geneNames": [
+        "PRKD3"
+      ],
+      "type": "gene_protein",
+      "x": 793.407604175023,
+      "y": 436.9850972110216,
+      "label": null,
+      "groupId": "e7a58",
+      "referenceDatabase": "GeneID",
+      "referenceId": "23683",
+      "uniprotAccs": [
+        "O94806"
+      ]
+    },
+    {
+      "id": "51",
+      "geneNames": [
+        "PLCB1"
+      ],
+      "type": "gene_protein",
+      "x": 713.0557969811024,
+      "y": 261.5415015632984,
+      "label": null,
+      "groupId": "e4561",
+      "referenceDatabase": "GeneID",
+      "referenceId": "23236",
+      "uniprotAccs": [
+        "Q9NQ66"
+      ]
+    },
+    {
+      "id": "52",
+      "geneNames": [
+        "PLCB2"
+      ],
+      "type": "gene_protein",
+      "x": 713.0557969811024,
+      "y": 281.5415015632983,
+      "label": null,
+      "groupId": "e4561",
+      "referenceDatabase": "GeneID",
+      "referenceId": "5330",
+      "uniprotAccs": [
+        "Q00722",
+        "Q59F77",
+        "Q9BVT6"
+      ]
+    },
+    {
+      "id": "53",
+      "geneNames": [
+        "PLCB3"
+      ],
+      "type": "gene_protein",
+      "x": 792.6968594362352,
+      "y": 261.46468892869655,
+      "label": null,
+      "groupId": "e4561",
+      "referenceDatabase": "GeneID",
+      "referenceId": "5331",
+      "uniprotAccs": [
+        "Q01970"
+      ]
+    },
+    {
+      "id": "54",
+      "geneNames": [
+        "PLCB4"
+      ],
+      "type": "gene_protein",
+      "x": 792.6968594362352,
+      "y": 281.46468892869643,
+      "label": null,
+      "groupId": "e4561",
+      "referenceDatabase": "GeneID",
+      "referenceId": "5332",
+      "uniprotAccs": [
+        "Q15147",
+        "A0A7P0MRI8"
+      ]
+    },
+    {
+      "id": "55",
+      "geneNames": [
+        "SMAD3"
+      ],
+      "type": "gene_protein",
+      "x": 428.32807834553245,
+      "y": 681.4690872690171,
+      "label": null,
+      "groupId": "cab9d",
+      "referenceDatabase": "GeneID",
+      "referenceId": "4088",
+      "uniprotAccs": [
+        "P84022",
+        "Q9P0T0"
+      ]
+    },
+    {
+      "id": "a5d4f",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 919.0680473372786,
+      "y": 532.5443786982254,
+      "label": "Mevalonate pathway",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP3963"
+    },
+    {
+      "id": "d911a",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 128.16828675577153,
+      "y": 369.38031591737615,
+      "label": "Energy stress",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "dc937",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 762.4641321618847,
+      "y": 117.96753111361954,
+      "label": "G protein signaling",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP35"
+    },
+    {
+      "id": "e4aec",
+      "geneNames": [
+        "CDC42"
+      ],
+      "type": "gene_protein",
+      "x": 653.8461538461538,
+      "y": 508.8757396449722,
+      "label": null,
+      "groupId": "d5f93",
+      "referenceDatabase": "GeneID",
+      "referenceId": "998",
+      "uniprotAccs": [
+        "P60953"
+      ]
+    },
+    {
+      "id": "f923a",
+      "geneNames": [
+        "SMAD2"
+      ],
+      "type": "gene_protein",
+      "x": 428.32807834553245,
+      "y": 661.469087269017,
+      "label": null,
+      "groupId": "cab9d",
+      "referenceDatabase": "GeneID",
+      "referenceId": "4087",
+      "uniprotAccs": [
+        "Q15796",
+        "B7Z5N5",
+        "Q53XR6"
+      ]
+    },
+    {
+      "id": "fe00a",
+      "geneNames": [
+        "MTOR"
+      ],
+      "type": "gene_protein",
+      "x": 455.6305350046014,
+      "y": 349.63600947079294,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "2475",
+      "uniprotAccs": [
+        "P42345",
+        "A0A8V8TQ52"
+      ]
+    },
+    {
+      "id": "d28f6",
+      "geneNames": [
+        "LATS2"
+      ],
+      "type": "gene_protein",
+      "x": 308.92077336337235,
+      "y": 462.99815579217267,
+      "label": null,
+      "groupId": "d7607",
+      "referenceDatabase": "GeneID",
+      "referenceId": "26524",
+      "states": [
+        "P"
+      ],
+      "uniprotAccs": [
+        "Q9NRM7"
+      ]
+    },
+    {
+      "id": "a3e0b",
+      "geneNames": [
+        "STK3"
+      ],
+      "type": "gene_protein",
+      "x": 308.9207733633721,
+      "y": 362.01281229727505,
+      "label": null,
+      "groupId": "f8f16",
+      "referenceDatabase": "GeneID",
+      "referenceId": "6788",
+      "uniprotAccs": [
+        "Q13188",
+        "A0A087WZ06",
+        "A0A384MR07"
+      ]
+    },
+    {
+      "id": "a10ee",
+      "geneNames": [
+        "LATS1"
+      ],
+      "type": "gene_protein",
+      "x": 308.92077336337235,
+      "y": 442.9981557921726,
+      "label": null,
+      "groupId": "d7607",
+      "referenceDatabase": "GeneID",
+      "referenceId": "9113",
+      "states": [
+        "P"
+      ],
+      "uniprotAccs": [
+        "O95835"
+      ]
+    },
+    {
+      "id": "a88f3",
+      "geneNames": [
+        "NF2"
+      ],
+      "type": "gene_protein",
+      "x": 308.87318738663595,
+      "y": 277.17307451160895,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "4771",
+      "states": [
+        "P"
+      ],
+      "uniprotAccs": [
+        "P35240"
+      ]
+    },
+    {
+      "id": "cdb69",
+      "geneNames": [
+        "STK4"
+      ],
+      "type": "gene_protein",
+      "x": 308.9207733633721,
+      "y": 342.01281229727476,
+      "label": null,
+      "groupId": "f8f16",
+      "referenceDatabase": "GeneID",
+      "referenceId": "4485",
+      "states": [
+        "P"
+      ],
+      "uniprotAccs": [
+        "P26927",
+        "G3XAK1",
+        "Q53GN8"
+      ]
+    },
+    {
+      "id": "cbe41",
+      "geneNames": [
+        "TEAD1"
+      ],
+      "type": "gene_protein",
+      "x": 350.0028160181482,
+      "y": 730.9577897239968,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000187079",
+      "uniprotAccs": [
+        "P28347",
+        "E9PKB7",
+        "H0YCZ6",
+        "H0YE88",
+        "H0YEJ9"
+      ]
+    },
+    {
+      "id": "febdb",
+      "geneNames": [
+        "TEAD2"
+      ],
+      "type": "gene_protein",
+      "x": 350.00281601815095,
+      "y": 750.9577897239968,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000074219",
+      "uniprotAccs": [
+        "Q15562",
+        "M0R1A5",
+        "M0R290"
+      ]
+    },
+    {
+      "id": "b88fc",
+      "geneNames": [
+        "TEAD3"
+      ],
+      "type": "gene_protein",
+      "x": 431.8513683566767,
+      "y": 730.9091886942683,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000007866",
+      "uniprotAccs": [
+        "Q99594",
+        "A0A1X7SBS4",
+        "A0A7P0SNI2",
+        "B5MCM0"
+      ]
+    },
+    {
+      "id": "c3589",
+      "geneNames": [
+        "TEAD4"
+      ],
+      "type": "gene_protein",
+      "x": 431.8513683566767,
+      "y": 750.9091886942684,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000197905",
+      "uniprotAccs": [
+        "Q15561",
+        "A0A0A0MRF3",
+        "H0Y7B0",
+        "H0YFF9",
+        "H0YFK0",
+        "H0YG62",
+        "H0YGS2",
+        "Q53GI4"
+      ]
+    },
+    {
+      "id": "e2572",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 469.3636233014783,
+      "y": 576.4615287405959,
+      "label": "TGF-beta signaling",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP560"
+    },
+    {
+      "id": "b8b34",
+      "geneNames": [
+        "FGFR2"
+      ],
+      "type": "gene_protein",
+      "x": 421.88725486960755,
+      "y": 117.05637644880028,
+      "label": null,
+      "groupId": "e94c5",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000066468",
+      "uniprotAccs": [
+        "P21802",
+        "A0A087WY21",
+        "A0A087X2D1",
+        "A0A0A0MR25",
+        "A0A1B0GWF4",
+        "A0A1W2PQT9",
+        "A0A5S6RJB7",
+        "A0A804HI10",
+        "A0A804HI76",
+        "A0A804HIH8",
+        "D2CGD1",
+        "E7EVR7",
+        "H7BXU9",
+        "H7C265",
+        "S4R381",
+        "S4R3B2"
+      ]
+    },
+    {
+      "id": "f4d8e",
+      "geneNames": [
+        "KDR"
+      ],
+      "type": "gene_protein",
+      "x": 490.6117446655312,
+      "y": 56.706036312746505,
+      "label": null,
+      "groupId": "e94c5",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000128052",
+      "uniprotAccs": [
+        "P35968"
+      ]
+    },
+    {
+      "id": "d1542",
+      "geneNames": [
+        "INSR"
+      ],
+      "type": "gene_protein",
+      "x": 490.6117446655312,
+      "y": 36.7060363127463,
+      "label": null,
+      "groupId": "e94c5",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000171105",
+      "uniprotAccs": [
+        "P06213",
+        "M0R3E6"
+      ]
+    },
+    {
+      "id": "d028f",
+      "geneNames": [
+        "FGFR3"
+      ],
+      "type": "gene_protein",
+      "x": 421.88725486960755,
+      "y": 137.05637644880005,
+      "label": null,
+      "groupId": "e94c5",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000068078",
+      "uniprotAccs": [
+        "P22607",
+        "A0A7I2RW32",
+        "F8W9L4",
+        "I6LM06",
+        "Q96T34"
+      ]
+    },
+    {
+      "id": "b637f",
+      "geneNames": [
+        "IGF1R"
+      ],
+      "type": "gene_protein",
+      "x": 490.6117446655312,
+      "y": 16.706036312746438,
+      "label": null,
+      "groupId": "e94c5",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000140443",
+      "uniprotAccs": [
+        "P08069",
+        "C9J5X1",
+        "H0YMJ5",
+        "H0YNR0",
+        "H3BSZ8"
+      ]
+    },
+    {
+      "id": "de44c",
+      "geneNames": [
+        "KIT"
+      ],
+      "type": "gene_protein",
+      "x": 490.6117446655312,
+      "y": 76.70603631274585,
+      "label": null,
+      "groupId": "e94c5",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000157404",
+      "uniprotAccs": [
+        "P10721",
+        "A0A0U2N547",
+        "A0A8I5KPX7",
+        "A0A8I5KQZ6",
+        "A0A8I5KR87",
+        "A0A8I5KRE7",
+        "A0A8I5KS03",
+        "A0A8I5KXA4",
+        "A0A8I5QKL5",
+        "A0A8I5QKP7",
+        "A0A8J8Z860"
+      ]
+    },
+    {
+      "id": "d17b3",
+      "geneNames": [
+        "FGFR1"
+      ],
+      "type": "gene_protein",
+      "x": 421.88725486960755,
+      "y": 97.05637644880068,
+      "label": null,
+      "groupId": "e94c5",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000077782",
+      "uniprotAccs": [
+        "P11362",
+        "A0A0S2Z3T4",
+        "A0A3B3ISD1",
+        "A0A6I8PRY1",
+        "A0A6I8PTV4",
+        "A0A804HIF1",
+        "A0A8I3B1S4",
+        "A0A994J419",
+        "B5A958",
+        "C9J1L5",
+        "C9J205",
+        "E7EU09",
+        "E9PKF2",
+        "E9PKV7",
+        "E9PKX3",
+        "E9PN14",
+        "E9PNM3",
+        "E9PQ40",
+        "H0YE20"
+      ]
+    },
+    {
+      "id": "fd556",
+      "geneNames": [
+        "EPHA2"
+      ],
+      "type": "gene_protein",
+      "x": 421.88725486960755,
+      "y": 77.0563764488009,
+      "label": null,
+      "groupId": "e94c5",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000142627",
+      "uniprotAccs": [
+        "P29317"
+      ]
+    },
+    {
+      "id": "c728d",
+      "geneNames": [
+        "EGFR"
+      ],
+      "type": "gene_protein",
+      "x": 421.88725486960755,
+      "y": 57.056376448801046,
+      "label": null,
+      "groupId": "e94c5",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000146648",
+      "uniprotAccs": [
+        "P00533",
+        "A0A8V8TPW8",
+        "C9JYS6",
+        "Q504U8"
+      ]
+    },
+    {
+      "id": "db4e9",
+      "geneNames": [
+        "CSF1R"
+      ],
+      "type": "gene_protein",
+      "x": 421.88725486960755,
+      "y": 37.05637644880128,
+      "label": null,
+      "groupId": "e94c5",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000182578",
+      "uniprotAccs": [
+        "P07333",
+        "D6RGW1",
+        "E9PEK4",
+        "H0YAL5"
+      ]
+    },
+    {
+      "id": "aa330",
+      "geneNames": [
+        "FGFR4"
+      ],
+      "type": "gene_protein",
+      "x": 421.88725486960755,
+      "y": 157.05637644879994,
+      "label": null,
+      "groupId": "e94c5",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000160867",
+      "uniprotAccs": [
+        "P22455",
+        "B5A964",
+        "D6R9V0",
+        "D6RG06",
+        "D6RJD4",
+        "E7EWF4",
+        "H0Y9P2",
+        "J3KPQ0"
+      ]
+    },
+    {
+      "id": "e38bb",
+      "geneNames": [
+        "FLT1"
+      ],
+      "type": "gene_protein",
+      "x": 421.88725486960755,
+      "y": 177.05637644880048,
+      "label": null,
+      "groupId": "e94c5",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000102755",
+      "uniprotAccs": [
+        "P17948",
+        "A0A1W2PNW4"
+      ]
+    },
+    {
+      "id": "c2800",
+      "geneNames": [
+        "FLT4"
+      ],
+      "type": "gene_protein",
+      "x": 421.88725486960755,
+      "y": 197.0563764488005,
+      "label": null,
+      "groupId": "e94c5",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000037280",
+      "uniprotAccs": [
+        "P35916",
+        "B5A927",
+        "D6RFF2",
+        "E9PD35"
+      ]
+    },
+    {
+      "id": "d1185",
+      "geneNames": [
+        "NGFR"
+      ],
+      "type": "gene_protein",
+      "x": 490.6117446655312,
+      "y": 116.70603631274517,
+      "label": null,
+      "groupId": "e94c5",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000064300",
+      "uniprotAccs": [
+        "P08138"
+      ]
+    },
+    {
+      "id": "b0ec7",
+      "geneNames": [
+        "MET"
+      ],
+      "type": "gene_protein",
+      "x": 490.6117446655312,
+      "y": 96.70603631274528,
+      "label": null,
+      "groupId": "e94c5",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000105976",
+      "uniprotAccs": [
+        "P08581",
+        "C9JKM5",
+        "E6Y365",
+        "H7C130"
+      ]
+    },
+    {
+      "id": "a3949",
+      "geneNames": [
+        "PDGFRA"
+      ],
+      "type": "gene_protein",
+      "x": 490.6117446655312,
+      "y": 136.7060363127452,
+      "label": null,
+      "groupId": "e94c5",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000134853",
+      "uniprotAccs": [
+        "P16234",
+        "D6RDX0",
+        "D6RG11",
+        "D6RIG5",
+        "D6RJH0"
+      ]
+    },
+    {
+      "id": "bfefe",
+      "geneNames": [
+        "PDGFRB"
+      ],
+      "type": "gene_protein",
+      "x": 490.6117446655312,
+      "y": 156.7060363127458,
+      "label": null,
+      "groupId": "e94c5",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000113721",
+      "uniprotAccs": [
+        "P09619",
+        "E5RH16",
+        "E5RII0",
+        "E5RJ14"
+      ]
+    },
+    {
+      "id": "b5a43",
+      "geneNames": [
+        "TEK"
+      ],
+      "type": "gene_protein",
+      "x": 490.6117446655312,
+      "y": 176.70603631274588,
+      "label": null,
+      "groupId": "e94c5",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000120156",
+      "uniprotAccs": [
+        "Q02763",
+        "B5A954",
+        "E5RIV9"
+      ]
+    },
+    {
+      "id": "ab5fb",
+      "geneNames": [
+        "FLT3"
+      ],
+      "type": "gene_protein",
+      "x": 421.8872548696078,
+      "y": 217.05637644880053,
+      "label": null,
+      "groupId": "e94c5",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000122025",
+      "uniprotAccs": [
+        "P36888",
+        "E7ER61"
+      ]
+    },
+    {
+      "id": "df7e5",
+      "geneNames": [
+        "NTRK1"
+      ],
+      "type": "gene_protein",
+      "x": 490.6117446655312,
+      "y": 196.7060363127459,
+      "label": null,
+      "groupId": "e94c5",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000198400",
+      "uniprotAccs": [
+        "P04629",
+        "A0A6Q8PF65",
+        "A0A6Q8PGU5",
+        "A0A6Q8PHG5",
+        "E9PQG0",
+        "J3KP20"
+      ]
+    },
+    {
+      "id": "cc08d",
+      "geneNames": [
+        "NTRK2"
+      ],
+      "type": "gene_protein",
+      "x": 490.6117446655312,
+      "y": 216.70603631274602,
+      "label": null,
+      "groupId": "e94c5",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000148053",
+      "uniprotAccs": [
+        "Q16620",
+        "A0A8I5KPC6",
+        "A0A8I5KR47",
+        "A0A8I5KUH9",
+        "A0A8I5KUV8",
+        "A0A8I5KUZ1",
+        "A0A8I5KVH8",
+        "A0A8I5KYI3",
+        "A0A8I5KZB7",
+        "A0A8I5QKP8",
+        "A0A8J8YUT9"
+      ]
+    },
+    {
+      "id": "dc83f",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 455.6742855100727,
+      "y": 277.3741193116058,
+      "label": "PI3K/Akt signaling",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP4172"
+    },
+    {
+      "id": "d5eee",
+      "geneNames": [
+        "RHOA"
+      ],
+      "type": "gene_protein",
+      "x": 653.8461538461538,
+      "y": 558.8757396449719,
+      "label": null,
+      "groupId": "d5f93",
+      "referenceDatabase": "GeneID",
+      "referenceId": "387",
+      "uniprotAccs": [
+        "P61586",
+        "A0A024R324",
+        "A0A7I2YQV1",
+        "B4DKN9",
+        "C9JRM1",
+        "C9JX21",
+        "Q9BVT0"
+      ]
+    },
+    {
+      "id": "d12f9",
+      "geneNames": [
+        "RAC1"
+      ],
+      "type": "gene_protein",
+      "x": 653.8461538461538,
+      "y": 533.875739644972,
+      "label": null,
+      "groupId": "d5f93",
+      "referenceDatabase": "GeneID",
+      "referenceId": "5879",
+      "uniprotAccs": [
+        "P63000",
+        "A4D2P0",
+        "A4D2P1"
+      ]
+    },
+    {
+      "id": "ce95c",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 742.3978645201256,
+      "y": 649.6591179320817,
+      "label": "WNT signaling",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP428"
+    },
+    {
+      "id": "ce801",
+      "geneNames": [
+        "LEF1"
+      ],
+      "type": "gene_protein",
+      "x": 556.728987253029,
+      "y": 749.5740700448622,
+      "label": null,
+      "groupId": "ceba5",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000138795",
+      "uniprotAccs": [
+        "Q9UJU2",
+        "D6RAB1",
+        "D6RID7",
+        "D6RIV1"
+      ]
+    },
+    {
+      "id": "eab2d",
+      "geneNames": [
+        "TCF7L1"
+      ],
+      "type": "gene_protein",
+      "x": 556.728987253029,
+      "y": 729.574070044863,
+      "label": null,
+      "groupId": "ceba5",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000152284",
+      "uniprotAccs": [
+        "Q9HCS4",
+        "C9JPE3"
+      ]
+    },
+    {
+      "id": "f5cbd",
+      "geneNames": [
+        "TCF7L2"
+      ],
+      "type": "gene_protein",
+      "x": 556.728987253029,
+      "y": 709.574070044863,
+      "label": null,
+      "groupId": "ceba5",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000148737",
+      "uniprotAccs": [
+        "Q9NQB0",
+        "A0A0A0MTL7",
+        "A0A0D9SGH8",
+        "A0A1B0GU84",
+        "A0A1B0GVE1",
+        "A0A994J4F0",
+        "A0A994J711",
+        "C6ZRJ7",
+        "C6ZRK5",
+        "H0YEE5",
+        "Q5JRY3",
+        "Q5JRY4",
+        "Q5VVR5",
+        "Q5VVR7",
+        "Q5VVR8"
+      ]
+    },
+    {
+      "id": "e3e9f",
+      "geneNames": [
+        "TCF7"
+      ],
+      "type": "gene_protein",
+      "x": 556.728987253029,
+      "y": 689.574070044863,
+      "label": null,
+      "groupId": "ceba5",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000081059",
+      "uniprotAccs": [
+        "P36402",
+        "B7WNT5",
+        "E5RG34",
+        "E5RG75",
+        "E5RGJ5",
+        "E5RGQ1",
+        "E5RHL1",
+        "E5RJ51",
+        "H0YAR8",
+        "H0YBC8",
+        "H0YBM1",
+        "H0YBP2"
+      ]
+    },
+    {
+      "id": "dd547",
+      "geneNames": [
+        "CTNNB1"
+      ],
+      "type": "gene_protein",
+      "x": 556.728987253029,
+      "y": 669.574070044863,
+      "label": null,
+      "groupId": "ceba5",
+      "referenceDatabase": "GeneID",
+      "referenceId": "1499",
+      "uniprotAccs": [
+        "P35222",
+        "B4DGU4"
+      ]
+    },
+    {
+      "id": "ca1c2",
+      "geneNames": [
+        "WWTR1"
+      ],
+      "type": "gene_protein",
+      "x": 309.0,
+      "y": 566.0,
+      "label": null,
+      "groupId": "ae0f3",
+      "referenceDatabase": "GeneID",
+      "referenceId": "25937",
+      "states": [
+        "P"
+      ],
+      "uniprotAccs": [
+        "Q9GZV5"
+      ]
+    },
+    {
+      "id": "e5fcc",
+      "geneNames": [
+        "YAP1"
+      ],
+      "type": "gene_protein",
+      "x": 309.0,
+      "y": 541.0,
+      "label": null,
+      "groupId": "ae0f3",
+      "referenceDatabase": "GeneID",
+      "referenceId": "10413",
+      "states": [
+        "P",
+        "P",
+        "P"
+      ],
+      "uniprotAccs": [
+        "P46937",
+        "K0KVU2",
+        "Q86T74"
+      ]
+    },
+    {
+      "id": "dace1",
+      "geneNames": [
+        "WWTR1"
+      ],
+      "type": "gene_protein",
+      "x": 309.0,
+      "y": 684.0,
+      "label": null,
+      "groupId": "b5932",
+      "referenceDatabase": "GeneID",
+      "referenceId": "25937",
+      "states": [
+        "P"
+      ],
+      "uniprotAccs": [
+        "Q9GZV5"
+      ]
+    },
+    {
+      "id": "d587d",
+      "geneNames": [
+        "YAP1"
+      ],
+      "type": "gene_protein",
+      "x": 309.0,
+      "y": 659.0,
+      "label": null,
+      "groupId": "b5932",
+      "referenceDatabase": "GeneID",
+      "referenceId": "10413",
+      "states": [
+        "P",
+        "P",
+        "P"
+      ],
+      "uniprotAccs": [
+        "P46937",
+        "K0KVU2",
+        "Q86T74"
+      ]
+    },
+    {
+      "id": "acb08",
+      "geneNames": null,
+      "type": "misc",
+      "x": 469.18639053254543,
+      "y": 453.7869822485227,
+      "label": "F-actin",
+      "groupId": null
+    },
+    {
+      "id": "a93af",
+      "type": "group",
+      "components": [
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "40"
+      ]
+    },
+    {
+      "id": "ae0f3",
+      "type": "group",
+      "components": [
+        "ca1c2",
+        "e5fcc"
+      ]
+    },
+    {
+      "id": "b5932",
+      "type": "group",
+      "components": [
+        "dace1",
+        "d587d"
+      ]
+    },
+    {
+      "id": "b8627",
+      "type": "group",
+      "components": [
+        "28",
+        "32"
+      ]
+    },
+    {
+      "id": "cab9d",
+      "type": "group",
+      "components": [
+        "55",
+        "f923a"
+      ]
+    },
+    {
+      "id": "ceba5",
+      "type": "group",
+      "components": [
+        "ce801",
+        "eab2d",
+        "f5cbd",
+        "e3e9f",
+        "dd547"
+      ]
+    },
+    {
+      "id": "d5f93",
+      "type": "group",
+      "components": [
+        "e4aec",
+        "d5eee",
+        "d12f9"
+      ]
+    },
+    {
+      "id": "d7607",
+      "type": "group",
+      "components": [
+        "d28f6",
+        "a10ee"
+      ]
+    },
+    {
+      "id": "e4561",
+      "type": "group",
+      "components": [
+        "51",
+        "52",
+        "53",
+        "54"
+      ]
+    },
+    {
+      "id": "e7a58",
+      "type": "group",
+      "components": [
+        "41",
+        "42",
+        "43",
+        "44",
+        "45",
+        "46",
+        "47",
+        "48",
+        "49",
+        "50"
+      ]
+    },
+    {
+      "id": "e94c5",
+      "type": "group",
+      "components": [
+        "b8b34",
+        "f4d8e",
+        "d1542",
+        "d028f",
+        "b637f",
+        "de44c",
+        "d17b3",
+        "fd556",
+        "c728d",
+        "db4e9",
+        "aa330",
+        "e38bb",
+        "c2800",
+        "d1185",
+        "b0ec7",
+        "a3949",
+        "bfefe",
+        "b5a43",
+        "ab5fb",
+        "df7e5",
+        "cc08d"
+      ]
+    },
+    {
+      "id": "eb30a",
+      "type": "group",
+      "components": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ]
+    },
+    {
+      "id": "ee7d4",
+      "type": "group",
+      "components": [
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27"
+      ]
+    },
+    {
+      "id": "efb02",
+      "type": "group",
+      "components": [
+        "31",
+        "33"
+      ]
+    },
+    {
+      "id": "f8f16",
+      "type": "group",
+      "components": [
+        "a3e0b",
+        "cdb69"
+      ]
+    },
+    {
+      "id": "ff02a",
+      "type": "group",
+      "components": [
+        "29",
+        "30"
+      ]
+    }
+  ]
+}

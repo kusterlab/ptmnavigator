@@ -1,0 +1,464 @@
+{
+  "pathway": {
+    "name": "WP3930",
+    "org": "Homo sapiens",
+    "title": "EDA signaling in hair follicle development"
+  },
+  "links": [
+    {
+      "id": "idf82ace22",
+      "sourceId": "d8af8",
+      "targetId": "ab370",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id54906c30",
+      "sourceId": "e15f7",
+      "targetId": "a3a3f",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id59ec146",
+      "sourceId": "bacf3",
+      "targetId": "f7fcf",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id903491d8",
+      "sourceId": "fe5a2",
+      "targetId": "a8a5b",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id2ed63bd0",
+      "sourceId": "f5dd2",
+      "targetId": "e5b80",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "id30585d23",
+      "sourceId": "e5b80",
+      "targetId": "c5640",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "ide59439c7",
+      "sourceId": "e5b80",
+      "targetId": "fe3e0",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "id97b3dca",
+      "sourceId": "ebb37",
+      "targetId": "ce3df",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id7aa89bfb",
+      "sourceId": "b21a6",
+      "targetId": "ce3df",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id3d9eafab",
+      "sourceId": "ce3df",
+      "targetId": "f5dd2",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id1229470a",
+      "sourceId": "e5b80",
+      "targetId": "d8af8",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id848b1065",
+      "sourceId": "e5b80",
+      "targetId": "e15f7",
+      "types": [
+        "activation"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "ebb37",
+      "geneNames": [
+        "EDA"
+      ],
+      "type": "gene_protein",
+      "x": 407.0,
+      "y": 66.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000158813",
+      "uniprotAccs": [
+        "Q92838",
+        "A0A0C4DGX3",
+        "D6RA95"
+      ]
+    },
+    {
+      "id": "b21a6",
+      "geneNames": [
+        "EDA"
+      ],
+      "type": "gene_protein",
+      "x": 574.0,
+      "y": 66.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000158813",
+      "uniprotAccs": [
+        "Q92838",
+        "A0A0C4DGX3",
+        "D6RA95"
+      ]
+    },
+    {
+      "id": "c905d",
+      "geneNames": [
+        "EDAR"
+      ],
+      "type": "gene_protein",
+      "x": 499.0,
+      "y": 153.0,
+      "label": null,
+      "groupId": "ce3df",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000135960",
+      "uniprotAccs": [
+        "Q9UNE0"
+      ]
+    },
+    {
+      "id": "f3d10",
+      "geneNames": [
+        "EDARADD"
+      ],
+      "type": "gene_protein",
+      "x": 499.0,
+      "y": 173.0,
+      "label": null,
+      "groupId": "ce3df",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000186197",
+      "uniprotAccs": [
+        "Q8WWZ3",
+        "A0A1B0GV26",
+        "A0A2R8Y5E0",
+        "B1AL55"
+      ]
+    },
+    {
+      "id": "e22e8",
+      "geneNames": [
+        "p65"
+      ],
+      "type": "gene_protein",
+      "x": 499.0,
+      "y": 249.0,
+      "label": null,
+      "groupId": "f5dd2",
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "a6984",
+      "geneNames": [
+        "p50"
+      ],
+      "type": "gene_protein",
+      "x": 499.0,
+      "y": 269.0,
+      "label": null,
+      "groupId": "f5dd2",
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "e0347",
+      "geneNames": [
+        "DKK4"
+      ],
+      "type": "gene_protein",
+      "x": 325.25,
+      "y": 332.25,
+      "label": null,
+      "groupId": "d8af8",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000104371",
+      "uniprotAccs": [
+        "Q9UBT3"
+      ]
+    },
+    {
+      "id": "f6150",
+      "geneNames": [
+        "DKK1"
+      ],
+      "type": "gene_protein",
+      "x": 325.0,
+      "y": 352.0,
+      "label": null,
+      "groupId": "d8af8",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000107984",
+      "uniprotAccs": [
+        "O94907"
+      ]
+    },
+    {
+      "id": "ab370",
+      "geneNames": [
+        "WNT3"
+      ],
+      "type": "gene_protein",
+      "x": 184.75,
+      "y": 342.25,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000108379",
+      "uniprotAccs": [
+        "P56703",
+        "A0A9L9PXI5",
+        "A0A9L9PXJ3",
+        "A0A9L9PXK4"
+      ]
+    },
+    {
+      "id": "a3a3f",
+      "geneNames": [
+        "BMP1"
+      ],
+      "type": "gene_protein",
+      "x": 181.0,
+      "y": 424.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000168487",
+      "uniprotAccs": [
+        "P13497",
+        "B7ZKR5",
+        "E5RH22",
+        "Q3MIM8"
+      ]
+    },
+    {
+      "id": "e15f7",
+      "geneNames": [
+        "SOSTDC1"
+      ],
+      "type": "gene_protein",
+      "x": 324.0,
+      "y": 424.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000171243",
+      "uniprotAccs": [
+        "Q6X4U4"
+      ]
+    },
+    {
+      "id": "fe3e0",
+      "geneNames": [
+        "SHH"
+      ],
+      "type": "gene_protein",
+      "x": 499.0,
+      "y": 411.0,
+      "label": null,
+      "groupId": "bacf3",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000164690",
+      "uniprotAccs": [
+        "Q15465",
+        "C9JC48",
+        "F8WB84",
+        "F8WEH4"
+      ]
+    },
+    {
+      "id": "f930f",
+      "geneNames": [
+        "GLI1"
+      ],
+      "type": "gene_protein",
+      "x": 499.0,
+      "y": 431.0,
+      "label": null,
+      "groupId": "bacf3",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000111087",
+      "uniprotAccs": [
+        "P08151",
+        "E9PIB9",
+        "E9PQQ1"
+      ]
+    },
+    {
+      "id": "fae33",
+      "geneNames": [
+        "PTCH1"
+      ],
+      "type": "gene_protein",
+      "x": 499.0,
+      "y": 451.0,
+      "label": null,
+      "groupId": "bacf3",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000185920",
+      "uniprotAccs": [
+        "Q13635",
+        "A0A0C4DGI4",
+        "A0A0C4DGJ5",
+        "A0A8I5KPP5",
+        "F8VPA3",
+        "F8VQS6",
+        "F8VXL8",
+        "H0Y3B8",
+        "H0YHK0",
+        "H3BLX7"
+      ]
+    },
+    {
+      "id": "c5640",
+      "geneNames": [
+        "LTB"
+      ],
+      "type": "gene_protein",
+      "x": 668.25,
+      "y": 414.75,
+      "label": null,
+      "groupId": "fe5a2",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000227507",
+      "uniprotAccs": [
+        "Q06643"
+      ]
+    },
+    {
+      "id": "bfb6a",
+      "geneNames": [
+        "RELB"
+      ],
+      "type": "gene_protein",
+      "x": 668.25,
+      "y": 434.75,
+      "label": null,
+      "groupId": "fe5a2",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000104856",
+      "uniprotAccs": [
+        "Q01201",
+        "A0A8V8TQY2",
+        "D6R992",
+        "D6RIV7",
+        "K7ERX9"
+      ]
+    },
+    {
+      "id": "e5b80",
+      "geneNames": [
+        "Nf-kB"
+      ],
+      "type": "gene_protein",
+      "x": 499.0,
+      "y": 323.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "f7fcf",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 500.25,
+      "y": 536.75,
+      "label": "Cell Growth",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "a8a5b",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 668.0,
+      "y": 528.0,
+      "label": "Cell Differentiation",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP2082"
+    },
+    {
+      "id": "ce3df",
+      "type": "group",
+      "components": [
+        "c905d",
+        "f3d10"
+      ]
+    },
+    {
+      "id": "f5dd2",
+      "type": "group",
+      "components": [
+        "e22e8",
+        "a6984"
+      ]
+    },
+    {
+      "id": "d8af8",
+      "type": "group",
+      "components": [
+        "e0347",
+        "f6150"
+      ]
+    },
+    {
+      "id": "bacf3",
+      "type": "group",
+      "components": [
+        "fe3e0",
+        "f930f",
+        "fae33"
+      ]
+    },
+    {
+      "id": "fe5a2",
+      "type": "group",
+      "components": [
+        "c5640",
+        "bfb6a"
+      ]
+    }
+  ]
+}

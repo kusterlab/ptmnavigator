@@ -1,0 +1,274 @@
+{
+  "pathway": {
+    "name": "WP2542",
+    "org": "Homo sapiens",
+    "title": "Sulindac metabolic pathway"
+  },
+  "links": [
+    {
+      "id": "id88e36fe3",
+      "sourceId": "c89b3",
+      "targetId": "a1f9f",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id1bc04a73",
+      "sourceId": "e495e",
+      "targetId": "id88e36fe3",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id1d00538b",
+      "sourceId": "a1f9f",
+      "targetId": "facbe",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id6412c6f1",
+      "sourceId": "facbe",
+      "targetId": "a1f9f",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id6897b5e0",
+      "sourceId": "cbaa1",
+      "targetId": "id6412c6f1",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "idd5b178a2",
+      "sourceId": "ed228",
+      "targetId": "id1d00538b",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id4bb9df15",
+      "sourceId": "facbe",
+      "targetId": "b80d4",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id76eea139",
+      "sourceId": "c89b3",
+      "targetId": "b80d4",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "idf9bbca95",
+      "sourceId": "f8012",
+      "targetId": "id4bb9df15",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id31bb6c8a",
+      "sourceId": "d8d1c",
+      "targetId": "id76eea139",
+      "types": [
+        "catalysis"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "c89b3",
+      "geneNames": null,
+      "type": "compound",
+      "x": 390.0,
+      "y": 285.0,
+      "label": "Sulindac-S",
+      "groupId": null,
+      "referenceDatabase": "PubChem-compound",
+      "referenceId": "11245227"
+    },
+    {
+      "id": "a1f9f",
+      "geneNames": null,
+      "type": "compound",
+      "x": 550.5,
+      "y": 199.0,
+      "label": "Sulfindac sulfide",
+      "groupId": null,
+      "referenceDatabase": "Chemspider",
+      "referenceId": "4509492"
+    },
+    {
+      "id": "e495e",
+      "geneNames": [
+        "MsrA"
+      ],
+      "type": "gene_protein",
+      "x": 549.5,
+      "y": 277.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000175806",
+      "uniprotAccs": [
+        "Q9UJ68",
+        "E5RIA9",
+        "E5RJK1",
+        "E9PJ70",
+        "H0YAN3"
+      ]
+    },
+    {
+      "id": "ed228",
+      "geneNames": [
+        "FMO"
+      ],
+      "type": "gene_protein",
+      "x": 416.0,
+      "y": 193.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "InterPro",
+      "referenceId": "IPR000960"
+    },
+    {
+      "id": "c2ce3",
+      "geneNames": [
+        "MsrB2"
+      ],
+      "type": "gene_protein",
+      "x": 547.5,
+      "y": 90.0,
+      "label": null,
+      "groupId": "cbaa1",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000148450",
+      "uniprotAccs": [
+        "Q9Y3D2",
+        "H0YE51"
+      ]
+    },
+    {
+      "id": "adfbb",
+      "geneNames": [
+        "CYP1B1"
+      ],
+      "type": "gene_protein",
+      "x": 236.0,
+      "y": 79.0,
+      "label": null,
+      "groupId": "f8012",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000138061",
+      "uniprotAccs": [
+        "Q16678",
+        "A0A087WUQ7",
+        "A0A087WW26"
+      ]
+    },
+    {
+      "id": "facbe",
+      "geneNames": null,
+      "type": "compound",
+      "x": 390.0,
+      "y": 96.0,
+      "label": "Sulindac-R",
+      "groupId": null,
+      "referenceDatabase": "PubChem-compound",
+      "referenceId": "16046677"
+    },
+    {
+      "id": "b80d4",
+      "geneNames": null,
+      "type": "compound",
+      "x": 222.0,
+      "y": 199.0,
+      "label": "Sulindac sulfone",
+      "groupId": null,
+      "referenceDatabase": "Chemspider",
+      "referenceId": "4582441"
+    },
+    {
+      "id": "aff0a",
+      "geneNames": [
+        "MsrB3"
+      ],
+      "type": "gene_protein",
+      "x": 547.5,
+      "y": 110.0,
+      "label": null,
+      "groupId": "cbaa1",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000174099",
+      "uniprotAccs": [
+        "Q8IXL7",
+        "A0A2R8Y7J8",
+        "F5H199",
+        "F5H4C9",
+        "F5H6G9",
+        "F5H7C4",
+        "H0YFW5",
+        "H7C2B7"
+      ]
+    },
+    {
+      "id": "e312f",
+      "geneNames": [
+        "CYP1A2"
+      ],
+      "type": "gene_protein",
+      "x": 236.0,
+      "y": 99.0,
+      "label": null,
+      "groupId": "f8012",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000140505",
+      "uniprotAccs": [
+        "P05177"
+      ]
+    },
+    {
+      "id": "d8d1c",
+      "geneNames": [
+        "CYP1A2"
+      ],
+      "type": "gene_protein",
+      "x": 238.0,
+      "y": 271.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000140505",
+      "uniprotAccs": [
+        "P05177"
+      ]
+    },
+    {
+      "id": "cbaa1",
+      "type": "group",
+      "components": [
+        "c2ce3",
+        "aff0a"
+      ]
+    },
+    {
+      "id": "f8012",
+      "type": "group",
+      "components": [
+        "adfbb",
+        "e312f"
+      ]
+    }
+  ]
+}

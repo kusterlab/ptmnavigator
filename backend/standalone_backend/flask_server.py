@@ -98,4 +98,4 @@ def get_proteins_by_gene_name():
 
 
 if __name__ == '__main__':
-    app.run(debug=os.getenv("PRODUCTION", '0') != '1', host='0.0.0.0', port=int(os.getenv("PORT", '0228')))
+    app.run(debug=os.getenv("PRODUCTION", '0') != '1', host='0.0.0.0', port=int(os.getenv("PORT", '3000')))

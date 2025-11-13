@@ -1,0 +1,183 @@
+{
+  "pathway": {
+    "name": "WP3938",
+    "org": "Homo sapiens",
+    "title": "miR-222 in exercise-induced cardiac growth"
+  },
+  "links": [
+    {
+      "id": "id3388e8cc",
+      "sourceId": "f0c6a",
+      "targetId": "da55b",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id456aac16",
+      "sourceId": "da55b",
+      "targetId": "a0d43",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id7ae14f91",
+      "sourceId": "f0c6a",
+      "targetId": "ec3fe",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "idbe43a34b",
+      "sourceId": "aa48c",
+      "targetId": "f0c6a",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idc62262fa",
+      "sourceId": "f0c6a",
+      "targetId": "eada6",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "ac720",
+      "sourceId": "eada6",
+      "targetId": "a0d43",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "a82f4",
+      "sourceId": "ec3fe",
+      "targetId": "a0d43",
+      "types": [
+        "inhibition"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "da55b",
+      "geneNames": [
+        "CDKN1B"
+      ],
+      "type": "gene_protein",
+      "x": 176.66666666666657,
+      "y": 340.33333333333354,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000111276",
+      "uniprotAccs": [
+        "P46527",
+        "E7ES52",
+        "H7C2T1"
+      ]
+    },
+    {
+      "id": "eada6",
+      "geneNames": [
+        "HMBOX1"
+      ],
+      "type": "gene_protein",
+      "x": 325.0,
+      "y": 340.0000000000003,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000147421",
+      "uniprotAccs": [
+        "Q6NT76",
+        "E5RGZ2",
+        "E5RHH9",
+        "H0YBM8",
+        "H0YKJ1",
+        "H0YLF2"
+      ]
+    },
+    {
+      "id": "ee50c",
+      "geneNames": [
+        "HIPK2"
+      ],
+      "type": "gene_protein",
+      "x": 483.33333333333326,
+      "y": 361.3333333333336,
+      "label": null,
+      "groupId": "ec3fe",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000064393",
+      "uniprotAccs": [
+        "Q9H2X6",
+        "H7BXX9"
+      ]
+    },
+    {
+      "id": "f0c6a",
+      "geneNames": [
+        "MIR222"
+      ],
+      "type": "gene_protein",
+      "x": 324.6666666666663,
+      "y": 195.99999999999997,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "miRBase Sequence",
+      "referenceId": "MI0000299"
+    },
+    {
+      "id": "f37b0",
+      "geneNames": [
+        "HIPK1"
+      ],
+      "type": "gene_protein",
+      "x": 483.33333333333326,
+      "y": 341.3333333333336,
+      "label": null,
+      "groupId": "ec3fe",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000163349",
+      "uniprotAccs": [
+        "Q86Z02",
+        "D6RC95",
+        "D6RF28",
+        "H3BLW0",
+        "J3KP92",
+        "Q5SQL3"
+      ]
+    },
+    {
+      "id": "a0d43",
+      "geneNames": null,
+      "type": "misc",
+      "x": 325.0,
+      "y": 462.6666666666666,
+      "label": "Growth, Proliferation and Cardiac Repair",
+      "groupId": null
+    },
+    {
+      "id": "aa48c",
+      "geneNames": null,
+      "type": "misc",
+      "x": 324.6666666666662,
+      "y": 72.00000000000003,
+      "label": "Exercise",
+      "groupId": null
+    },
+    {
+      "id": "ec3fe",
+      "type": "group",
+      "components": [
+        "ee50c",
+        "f37b0"
+      ]
+    }
+  ]
+}

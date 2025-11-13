@@ -1,0 +1,114 @@
+{
+  "pathway": {
+    "name": "WP2640",
+    "org": "Homo sapiens",
+    "title": "Aripiprazole metabolic pathway"
+  },
+  "links": [
+    {
+      "id": "id403afc34",
+      "sourceId": "c1ed5",
+      "targetId": "idf965780e",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id6b0af018",
+      "sourceId": "ef6ee",
+      "targetId": "id7653b8d8",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id7653b8d8",
+      "sourceId": "cf694",
+      "targetId": "dd805",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idf965780e",
+      "sourceId": "cf694",
+      "targetId": "d02eb",
+      "types": [
+        "conversion"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "c1ed5",
+      "geneNames": [
+        "CYP2D6"
+      ],
+      "type": "gene_protein",
+      "x": 311.0,
+      "y": 38.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000100197",
+      "uniprotAccs": [
+        "P10635",
+        "H7BY38"
+      ]
+    },
+    {
+      "id": "cf694",
+      "geneNames": null,
+      "type": "compound",
+      "x": 211.0,
+      "y": 86.0,
+      "label": "aripiprazole",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0005042"
+    },
+    {
+      "id": "d02eb",
+      "geneNames": null,
+      "type": "compound",
+      "x": 427.0,
+      "y": 86.0,
+      "label": "dehydroaripiprazole",
+      "groupId": null,
+      "referenceDatabase": "PubChem-compound",
+      "referenceId": "10114519"
+    },
+    {
+      "id": "dd805",
+      "geneNames": null,
+      "type": "compound",
+      "x": 211.0,
+      "y": 193.0,
+      "label": "Product",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:25212"
+    },
+    {
+      "id": "ef6ee",
+      "geneNames": [
+        "CYP3A43"
+      ],
+      "type": "gene_protein",
+      "x": 121.0,
+      "y": 139.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000021461",
+      "uniprotAccs": [
+        "Q9HB55",
+        "C9JA26",
+        "E7EMH4",
+        "E9PDL8",
+        "E9PG90",
+        "Q9HB50"
+      ]
+    }
+  ]
+}

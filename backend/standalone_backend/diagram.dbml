@@ -107,6 +107,21 @@ Table ENZYME_SUBSTRATE_RELATIONSHIP{
     }
 }
 
+TABLE PATHWAY{
+  PATHWAY_ID integer
+  PATHWAY_NAME text
+  TITLE text
+  TAXCODE integer [not null, ref: > ORGANISM.TAXCODE]
+  DATABASE text
+  N_GENES integer
+  PATHWAY_JSON blob
+}
+
+TABLE PATHWAY_TO_PROTEIN{
+  PATHWAY_ID integer [not null, ref: > PATHWAY.PATHWAY_ID]
+  NODE_IDS text [not null]
+  PROTEIN_ID integer [not null, ref: > PROTEIN.PROTEIN_ID]
+}
 
 
 //Dynamic -- TODO: Do Pre-Existing Datasets need their own tables? 
@@ -167,4 +182,10 @@ Table USER_DATASET_ENRICHMENT_RESULT {
   ENRICHMENT_JSON blob [not null]
 }
 
+Table USER_CUSTOM_PATHWAY{
+  CUSTOM_PATHWAY_ID integer [primary key]
+  USER_ID integer [not null, ref: > USER.USER_ID]
+  PATHWAY_NAME text
+  PATHWAY_JSON blob [not null]
+}
 

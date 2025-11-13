@@ -1,0 +1,388 @@
+{
+  "pathway": {
+    "name": "WP3302",
+    "org": "Homo sapiens",
+    "title": "eIF5A regulation in response to inhibition of the nuclear export system"
+  },
+  "links": [
+    {
+      "id": "ida3c2409",
+      "sourceId": "c264b",
+      "targetId": "ce2a2",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id580a2022",
+      "sourceId": "ce2a2",
+      "targetId": "bfcd5",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id3b9fd6d5",
+      "sourceId": "bfcd5",
+      "targetId": "b627d",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id523509c8",
+      "sourceId": "f53db",
+      "targetId": "cf092",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id2ca87cd4",
+      "sourceId": "bfcd5",
+      "targetId": "aa209",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id26b4db4f",
+      "sourceId": "cf092",
+      "targetId": "aa209",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idcaffb1a4",
+      "sourceId": "b7b8f",
+      "targetId": "f53db",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "ida3c44fa2",
+      "sourceId": "ef914",
+      "targetId": "e7048",
+      "types": [
+        "inhibition"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "d5475",
+      "geneNames": [
+        "EIF5A"
+      ],
+      "type": "gene_protein",
+      "x": 143.0,
+      "y": 234.0,
+      "label": null,
+      "groupId": "c264b",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000132507",
+      "uniprotAccs": [
+        "P63241",
+        "I3L397",
+        "I3L504"
+      ]
+    },
+    {
+      "id": "ace16",
+      "geneNames": [
+        "EXP4"
+      ],
+      "type": "gene_protein",
+      "x": 165.5,
+      "y": 254.0,
+      "label": null,
+      "groupId": "c264b",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000132953",
+      "uniprotAccs": [
+        "Q9C0E2"
+      ]
+    },
+    {
+      "id": "e7048",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 757.0,
+      "y": 214.04816295450217,
+      "label": "Apoptosis",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP254"
+    },
+    {
+      "id": "a2cd3",
+      "geneNames": [
+        "IGF2BP1"
+      ],
+      "type": "gene_protein",
+      "x": 460.0,
+      "y": 214.0,
+      "label": null,
+      "groupId": "aa209",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000159217",
+      "uniprotAccs": [
+        "Q9NZI8"
+      ]
+    },
+    {
+      "id": "bfcd5",
+      "geneNames": [
+        "EIF5A"
+      ],
+      "type": "gene_protein",
+      "x": 400.0,
+      "y": 306.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000132507",
+      "uniprotAccs": [
+        "P63241",
+        "I3L397",
+        "I3L504"
+      ]
+    },
+    {
+      "id": "b698b",
+      "geneNames": [
+        "EIF5A"
+      ],
+      "type": "gene_protein",
+      "x": 314.0,
+      "y": 297.0,
+      "label": null,
+      "groupId": "ce2a2",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000132507",
+      "uniprotAccs": [
+        "P63241",
+        "I3L397",
+        "I3L504"
+      ]
+    },
+    {
+      "id": "de3be",
+      "geneNames": [
+        "EXP4"
+      ],
+      "type": "gene_protein",
+      "x": 295.5,
+      "y": 317.0,
+      "label": null,
+      "groupId": "ce2a2",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000132953",
+      "uniprotAccs": [
+        "Q9C0E2"
+      ]
+    },
+    {
+      "id": "b627d",
+      "geneNames": [
+        "EIF5A"
+      ],
+      "type": "gene_protein",
+      "x": 621.0,
+      "y": 211.0,
+      "label": null,
+      "groupId": "cb26b",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000132507",
+      "uniprotAccs": [
+        "P63241",
+        "I3L397",
+        "I3L504"
+      ]
+    },
+    {
+      "id": "faa51",
+      "geneNames": [
+        "IGF2BP1"
+      ],
+      "type": "gene_protein",
+      "x": 355.0,
+      "y": 177.0,
+      "label": null,
+      "groupId": "cf092",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000159217",
+      "uniprotAccs": [
+        "Q9NZI8"
+      ]
+    },
+    {
+      "id": "e970e",
+      "geneNames": [
+        "CRM1"
+      ],
+      "type": "gene_protein",
+      "x": 343.0,
+      "y": 157.0,
+      "label": null,
+      "groupId": "cf092",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000082898",
+      "uniprotAccs": [
+        "O14980",
+        "A0A7I2V2C5",
+        "A0A7I2V2H0",
+        "A0A7I2V2S3",
+        "A0A7I2V2Y6",
+        "A0A7I2V396",
+        "A0A7I2V3J1",
+        "A0A7I2V3N0",
+        "A0A7I2V3P3",
+        "A0A7I2V3W6",
+        "A0A7I2V461",
+        "A0A7I2V488",
+        "A0A7I2V4A3",
+        "A0A7I2V531",
+        "A0A7I2V6B9",
+        "A0A7I2YQP1",
+        "A0A7I2YQV4",
+        "A0A7I2YQX3",
+        "A0A7P0Z4B7",
+        "C9IYM2",
+        "C9J673",
+        "C9JKM9",
+        "F8WF71"
+      ]
+    },
+    {
+      "id": "a57ba",
+      "geneNames": [
+        "EIF5A"
+      ],
+      "type": "gene_protein",
+      "x": 472.0,
+      "y": 234.0,
+      "label": null,
+      "groupId": "aa209",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000132507",
+      "uniprotAccs": [
+        "P63241",
+        "I3L397",
+        "I3L504"
+      ]
+    },
+    {
+      "id": "b02a6",
+      "geneNames": [
+        "IGF2BP1"
+      ],
+      "type": "gene_protein",
+      "x": 182.0,
+      "y": 142.0,
+      "label": null,
+      "groupId": "f53db",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000159217",
+      "uniprotAccs": [
+        "Q9NZI8"
+      ]
+    },
+    {
+      "id": "ebdf0",
+      "geneNames": [
+        "CRM1"
+      ],
+      "type": "gene_protein",
+      "x": 175.0,
+      "y": 122.0,
+      "label": null,
+      "groupId": "f53db",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000082898",
+      "uniprotAccs": [
+        "O14980",
+        "A0A7I2V2C5",
+        "A0A7I2V2H0",
+        "A0A7I2V2S3",
+        "A0A7I2V2Y6",
+        "A0A7I2V396",
+        "A0A7I2V3J1",
+        "A0A7I2V3N0",
+        "A0A7I2V3P3",
+        "A0A7I2V3W6",
+        "A0A7I2V461",
+        "A0A7I2V488",
+        "A0A7I2V4A3",
+        "A0A7I2V531",
+        "A0A7I2V6B9",
+        "A0A7I2YQP1",
+        "A0A7I2YQV4",
+        "A0A7I2YQX3",
+        "A0A7P0Z4B7",
+        "C9IYM2",
+        "C9J673",
+        "C9JKM9",
+        "F8WF71"
+      ]
+    },
+    {
+      "id": "b7b8f",
+      "geneNames": null,
+      "type": "misc",
+      "x": 92.5,
+      "y": 170.0,
+      "label": "SINE",
+      "groupId": null
+    },
+    {
+      "id": "cb26b",
+      "type": "group",
+      "components": [
+        "b627d"
+      ]
+    },
+    {
+      "id": "ce2a2",
+      "type": "group",
+      "components": [
+        "b698b",
+        "de3be"
+      ]
+    },
+    {
+      "id": "c264b",
+      "type": "group",
+      "components": [
+        "d5475",
+        "ace16"
+      ]
+    },
+    {
+      "id": "f53db",
+      "type": "group",
+      "components": [
+        "b02a6",
+        "ebdf0"
+      ]
+    },
+    {
+      "id": "cf092",
+      "type": "group",
+      "components": [
+        "faa51",
+        "e970e"
+      ]
+    },
+    {
+      "id": "aa209",
+      "type": "group",
+      "components": [
+        "a2cd3",
+        "a57ba"
+      ]
+    }
+  ]
+}

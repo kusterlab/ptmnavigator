@@ -1,0 +1,541 @@
+{
+  "pathway": {
+    "name": "WP5273",
+    "org": "Homo sapiens",
+    "title": "Effect of intestinal microbiome on anticoagulant response of vitamin K antagonists"
+  },
+  "links": [
+    {
+      "id": "id8ebffdf2",
+      "sourceId": "d27dc",
+      "targetId": "e4713",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id93834066",
+      "sourceId": "b9ee5",
+      "targetId": "b3d4a",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "idb88b530f",
+      "sourceId": "f98c9",
+      "targetId": "id4c47e2d4",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "b8fea",
+      "sourceId": "cb259",
+      "targetId": "b05db",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "idd6ce5bb9",
+      "sourceId": "cb259",
+      "targetId": "c0dd8",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "e4cfd",
+      "sourceId": "b5369",
+      "targetId": "ba0c6",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "c571e",
+      "sourceId": "b5369",
+      "targetId": "d6cca",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "d2de3",
+      "sourceId": "ecf9b",
+      "targetId": "b05db",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "b5a22",
+      "sourceId": "b05db",
+      "targetId": "d4a5d",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "ac387",
+      "sourceId": "b05db",
+      "targetId": "ae915",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "e1bb9",
+      "sourceId": "f5214",
+      "targetId": "e4713",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id2ce3725",
+      "sourceId": "b5369",
+      "targetId": "d4a5d",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "c0efd",
+      "sourceId": "ba0c6",
+      "targetId": "d4a5d",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "f244b",
+      "sourceId": "d6cca",
+      "targetId": "d4a5d",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "a7561",
+      "sourceId": "b05db",
+      "targetId": "f1a02",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "ff02e",
+      "sourceId": "b05db",
+      "targetId": "f98c9",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "d87d4",
+      "sourceId": "c0dd8",
+      "targetId": "f98c9",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "id4c47e2d4",
+      "sourceId": "b3d4a",
+      "targetId": "bb692",
+      "types": [
+        "activation"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "b05db",
+      "geneNames": [
+        "PXR"
+      ],
+      "type": "gene_protein",
+      "x": 588.1867678600862,
+      "y": 360.29533080349796,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "O75469",
+      "uniprotAccs": [
+        "O75469"
+      ]
+    },
+    {
+      "id": "b5369",
+      "geneNames": null,
+      "type": "compound",
+      "x": 259.0331628444152,
+      "y": 135.37370070945397,
+      "label": "1-butyrate",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:17968"
+    },
+    {
+      "id": "ba0c6",
+      "geneNames": [
+        "PPAR alpha"
+      ],
+      "type": "gene_protein",
+      "x": 248.06137601055934,
+      "y": 290.54611450255743,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "Q07869",
+      "uniprotAccs": [
+        "Q07869"
+      ]
+    },
+    {
+      "id": "c0dd8",
+      "geneNames": [
+        "VDR"
+      ],
+      "type": "gene_protein",
+      "x": 475.33410328328716,
+      "y": 360.29533080349796,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P11473",
+      "uniprotAccs": [
+        "P11473"
+      ]
+    },
+    {
+      "id": "cb259",
+      "geneNames": null,
+      "type": "compound",
+      "x": 453.729628407492,
+      "y": 135.37370070945397,
+      "label": "Lithocholic acid",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:16325"
+    },
+    {
+      "id": "d27dc",
+      "geneNames": null,
+      "type": "compound",
+      "x": 693.2024418412711,
+      "y": 135.37370070945397,
+      "label": "menaquinone",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:16374"
+    },
+    {
+      "id": "d44ec",
+      "geneNames": null,
+      "type": "compound",
+      "x": 161.7697268584111,
+      "y": 362.51330196712524,
+      "label": "Warfarin",
+      "groupId": "b9ee5",
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:10033"
+    },
+    {
+      "id": "d4a5d",
+      "geneNames": [
+        "NPC1L1"
+      ],
+      "type": "gene_protein",
+      "x": 588.1867678600862,
+      "y": 222.77181983171113,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "Q9UHC9",
+      "uniprotAccs": [
+        "Q9UHC9"
+      ]
+    },
+    {
+      "id": "e4713",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 693.2024418412732,
+      "y": 191.01633393829388,
+      "label": "Vitamin K absorption",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "f5214",
+      "geneNames": null,
+      "type": "compound",
+      "x": 802.2071811777665,
+      "y": 95.65549278565676,
+      "label": "phylloquinone",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:28433"
+    },
+    {
+      "id": "f98c9",
+      "geneNames": [
+        "CYP2C9"
+      ],
+      "type": "gene_protein",
+      "x": 530.2768725584633,
+      "y": 461.0677811020149,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P11712",
+      "uniprotAccs": [
+        "P11712"
+      ]
+    },
+    {
+      "id": "ae915",
+      "geneNames": [
+        "CD36"
+      ],
+      "type": "gene_protein",
+      "x": 693.2024418412732,
+      "y": 222.7718198317111,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P16671",
+      "uniprotAccs": [
+        "P16671"
+      ]
+    },
+    {
+      "id": "f1a02",
+      "geneNames": [
+        "SR-BI"
+      ],
+      "type": "gene_protein",
+      "x": 795.4908430951956,
+      "y": 222.77181983171107,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "Q8WTV0",
+      "uniprotAccs": [
+        "Q8WTV0"
+      ]
+    },
+    {
+      "id": "ecf9b",
+      "geneNames": null,
+      "type": "compound",
+      "x": 757.3011879227729,
+      "y": 354.6213496122749,
+      "label": "menaquinone",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:16374"
+    },
+    {
+      "id": "d6cca",
+      "geneNames": [
+        "PPAR beta"
+      ],
+      "type": "gene_protein",
+      "x": 340.3497772644775,
+      "y": 330.32667876588005,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "Q03181",
+      "uniprotAccs": [
+        "Q03181"
+      ]
+    },
+    {
+      "id": "aceb6",
+      "geneNames": null,
+      "type": "compound",
+      "x": 161.7697268584111,
+      "y": 387.51330196712524,
+      "label": "Coumatetralyl",
+      "groupId": "b9ee5",
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q415772"
+    },
+    {
+      "id": "ead9b",
+      "geneNames": null,
+      "type": "compound",
+      "x": 161.7697268584111,
+      "y": 412.51330196712513,
+      "label": "Phenprocoumon",
+      "groupId": "b9ee5",
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:50438"
+    },
+    {
+      "id": "a4b61",
+      "geneNames": null,
+      "type": "compound",
+      "x": 161.7697268584111,
+      "y": 437.51330196712513,
+      "label": "Acenocoumarol",
+      "groupId": "b9ee5",
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:53766"
+    },
+    {
+      "id": "c2487",
+      "geneNames": null,
+      "type": "compound",
+      "x": 84.84352509808596,
+      "y": 362.51330196712524,
+      "label": "Apaxiban",
+      "groupId": "b9ee5",
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:72296"
+    },
+    {
+      "id": "c4174",
+      "geneNames": null,
+      "type": "compound",
+      "x": 238.5876009274698,
+      "y": 387.51330196712513,
+      "label": "dicoumarol",
+      "groupId": "b9ee5",
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:4513"
+    },
+    {
+      "id": "cb78d",
+      "geneNames": null,
+      "type": "compound",
+      "x": 238.5876009274698,
+      "y": 412.51330196712513,
+      "label": "Tioclomarol",
+      "groupId": "b9ee5",
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:135730"
+    },
+    {
+      "id": "f5595",
+      "geneNames": null,
+      "type": "compound",
+      "x": 238.5876009274698,
+      "y": 437.51330196712513,
+      "label": "Brodifacoum",
+      "groupId": "b9ee5",
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q421203"
+    },
+    {
+      "id": "f55f0",
+      "geneNames": null,
+      "type": "compound",
+      "x": 161.76972685841105,
+      "y": 496.93781110727366,
+      "label": "Pindone",
+      "groupId": "b9ee5",
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0256560"
+    },
+    {
+      "id": "f8b27",
+      "geneNames": null,
+      "type": "compound",
+      "x": 161.76972685841105,
+      "y": 521.9378111072731,
+      "label": "Chlorophacinone",
+      "groupId": "b9ee5",
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q413488"
+    },
+    {
+      "id": "b832e",
+      "geneNames": null,
+      "type": "compound",
+      "x": 161.76972685841105,
+      "y": 546.9378111072731,
+      "label": "Diphacinone",
+      "groupId": "b9ee5",
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:81896"
+    },
+    {
+      "id": "e04dc",
+      "geneNames": null,
+      "type": "compound",
+      "x": 238.12043775888503,
+      "y": 496.93781110727366,
+      "label": "Anisindione",
+      "groupId": "b9ee5",
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:133809"
+    },
+    {
+      "id": "efa0a",
+      "geneNames": null,
+      "type": "compound",
+      "x": 238.12043775888503,
+      "y": 521.9378111072731,
+      "label": "Fluindione",
+      "groupId": "b9ee5",
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q3074488"
+    },
+    {
+      "id": "e83a7",
+      "geneNames": null,
+      "type": "compound",
+      "x": 238.12043775888503,
+      "y": 546.9378111072731,
+      "label": "Phenindione",
+      "groupId": "b9ee5",
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:8066"
+    },
+    {
+      "id": "b3d4a",
+      "geneNames": null,
+      "type": "misc",
+      "x": 395.44632028674323,
+      "y": 382.8787706109535,
+      "label": "VKA",
+      "groupId": null
+    },
+    {
+      "id": "bb692",
+      "geneNames": null,
+      "type": "misc",
+      "x": 478.64537241944504,
+      "y": 566.2030766366798,
+      "label": "VKA metabolites",
+      "groupId": null
+    },
+    {
+      "id": "b9ee5",
+      "type": "group",
+      "components": [
+        "d44ec",
+        "aceb6",
+        "ead9b",
+        "a4b61",
+        "c2487",
+        "c4174",
+        "cb78d",
+        "f5595",
+        "f55f0",
+        "f8b27",
+        "b832e",
+        "e04dc",
+        "efa0a",
+        "e83a7"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,546 @@
+{
+  "pathway": {
+    "name": "WP5189",
+    "org": "Homo sapiens",
+    "title": "Copper metabolism"
+  },
+  "links": [
+    {
+      "id": "id194968da",
+      "sourceId": "cb8d9",
+      "targetId": "id6e6d3116",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id22f52019",
+      "sourceId": "ab8c3",
+      "targetId": "cbf6c",
+      "types": [
+        "translocation"
+      ]
+    },
+    {
+      "id": "id2793c504",
+      "sourceId": "bc8ba",
+      "targetId": "id521a72a8",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id2f51a9e3",
+      "sourceId": "id521a72a8",
+      "targetId": "c84f9",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id43398c9d",
+      "sourceId": "d6872",
+      "targetId": "id6bda39f5",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id5124a4f1",
+      "sourceId": "dbf92",
+      "targetId": "a4b5e",
+      "types": [
+        "translocation"
+      ]
+    },
+    {
+      "id": "id521a72a8",
+      "sourceId": "d9781",
+      "targetId": "ab8c3",
+      "types": [
+        "translocation"
+      ]
+    },
+    {
+      "id": "id57db7fb",
+      "sourceId": "ad842",
+      "targetId": "b00d7",
+      "types": [
+        "translocation"
+      ]
+    },
+    {
+      "id": "id581aa7a9",
+      "sourceId": "f5b8b",
+      "targetId": "c32f4",
+      "types": [
+        "translocation"
+      ]
+    },
+    {
+      "id": "id64276086",
+      "sourceId": "idce5b21ed",
+      "targetId": "a0156",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id6bda39f5",
+      "sourceId": "ca10e",
+      "targetId": "d9781",
+      "types": [
+        "translocation"
+      ]
+    },
+    {
+      "id": "id6e6d3116",
+      "sourceId": "f5b8b",
+      "targetId": "ca10e",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id846e8551",
+      "sourceId": "a9b62",
+      "targetId": "c4a86",
+      "types": [
+        "translocation"
+      ]
+    },
+    {
+      "id": "id9ac00151",
+      "sourceId": "id521a72a8",
+      "targetId": "f1b13",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id9f0aad7",
+      "sourceId": "fbedb",
+      "targetId": "idf5815d12",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "ida025b758",
+      "sourceId": "f3274",
+      "targetId": "id581aa7a9",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "ida96c39ef",
+      "sourceId": "fe331",
+      "targetId": "id5124a4f1",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "idb4297b6e",
+      "sourceId": "b0ec8",
+      "targetId": "idce5b21ed",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "idb9eb1d59",
+      "sourceId": "idce5b21ed",
+      "targetId": "f0f37",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idc1ea9427",
+      "sourceId": "cc341",
+      "targetId": "id846e8551",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "idce5b21ed",
+      "sourceId": "a4b5e",
+      "targetId": "ad842",
+      "types": [
+        "translocation"
+      ]
+    },
+    {
+      "id": "ide762a761",
+      "sourceId": "idce5b21ed",
+      "targetId": "dfcfd",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idf5815d12",
+      "sourceId": "a9b62",
+      "targetId": "dbf92",
+      "types": [
+        "activation"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "a9b62",
+      "geneNames": null,
+      "type": "compound",
+      "x": 398.0034418173387,
+      "y": 123.97953855758587,
+      "label": "COPPER (II) ION",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:29036"
+    },
+    {
+      "id": "b0ec8",
+      "geneNames": [
+        "ATP7A"
+      ],
+      "type": "gene_protein",
+      "x": 312.5255576510622,
+      "y": 367.88716759915013,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000165240",
+      "uniprotAccs": [
+        "Q04656",
+        "A0A2R8YD60",
+        "A0A8I5KPN6",
+        "A0A8I5KQ07",
+        "A0A8I5KQ62",
+        "A0A8I5KR00",
+        "A0A8I5KST1",
+        "A0A8I5KU46",
+        "A0A8I5KVB6",
+        "A0A8I5KVT9",
+        "A0A8I5KWA8",
+        "A0A8I5KWH1",
+        "A0A8I5KXV0",
+        "A0A8I5KY05",
+        "A0A8I5KZ63",
+        "A0A8I5QJP0",
+        "A0A8I5QKR3",
+        "A0A8J9FM07"
+      ]
+    },
+    {
+      "id": "bc8ba",
+      "geneNames": [
+        "ATP7B"
+      ],
+      "type": "gene_protein",
+      "x": 622.2954305893422,
+      "y": 436.2238869868463,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000123191",
+      "uniprotAccs": [
+        "P35670",
+        "A0A0U1RQY8",
+        "A0A0U1RRG1",
+        "A0A669KA36",
+        "A0A669KB21",
+        "A0A669KB88",
+        "B7ZLR4",
+        "E7ET55",
+        "F5H562",
+        "F5H748"
+      ]
+    },
+    {
+      "id": "d41db",
+      "geneNames": [
+        "DMT1\n"
+      ],
+      "type": "gene_protein",
+      "x": 319.9999999999997,
+      "y": 187.6190476190476,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000110911",
+      "uniprotAccs": [
+        "P49281",
+        "A0A2R8Y4F9",
+        "A0A2R8Y5L1",
+        "A0A2R8Y5Q7",
+        "A0A2R8YD71",
+        "A0A2R8YDL2",
+        "A0A7P0T8E3",
+        "F8VR36",
+        "F8VRL7",
+        "F8VWB0",
+        "F8W154",
+        "F8W1C0",
+        "F8W1D8",
+        "F8W1F2",
+        "F8W1P7",
+        "H0YIV3"
+      ]
+    },
+    {
+      "id": "f3274",
+      "geneNames": [
+        "DMT1"
+      ],
+      "type": "gene_protein",
+      "x": 671.0444584552804,
+      "y": 688.2251525120228,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000110911",
+      "uniprotAccs": [
+        "P49281",
+        "A0A2R8Y4F9",
+        "A0A2R8Y5L1",
+        "A0A2R8Y5Q7",
+        "A0A2R8YD71",
+        "A0A2R8YDL2",
+        "A0A7P0T8E3",
+        "F8VR36",
+        "F8VRL7",
+        "F8VWB0",
+        "F8W154",
+        "F8W1C0",
+        "F8W1D8",
+        "F8W1F2",
+        "F8W1P7",
+        "H0YIV3"
+      ]
+    },
+    {
+      "id": "fbedb",
+      "geneNames": null,
+      "type": "misc",
+      "x": 321.7463952854134,
+      "y": 86.90310545033694,
+      "label": "Reductase",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "fe331",
+      "geneNames": [
+        "CTR1"
+      ],
+      "type": "gene_protein",
+      "x": 158.76406100281858,
+      "y": 188.31433728235822,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000136868",
+      "uniprotAccs": [
+        "O15431"
+      ]
+    },
+    {
+      "id": "dbf92",
+      "geneNames": null,
+      "type": "compound",
+      "x": 229.12662582082322,
+      "y": 123.97953855758587,
+      "label": "COPPER (I) ION",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:49552"
+    },
+    {
+      "id": "d6872",
+      "geneNames": [
+        "CTR1"
+      ],
+      "type": "gene_protein",
+      "x": 827.2759264571495,
+      "y": 687.2727715596417,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000136868",
+      "uniprotAccs": [
+        "O15431"
+      ]
+    },
+    {
+      "id": "ca10e",
+      "geneNames": null,
+      "type": "compound",
+      "x": 757.8605226246541,
+      "y": 741.6345215888266,
+      "label": "COPPER (I) ION",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:49552"
+    },
+    {
+      "id": "ad842",
+      "geneNames": null,
+      "type": "compound",
+      "x": 229.12662582082322,
+      "y": 565.3013278297417,
+      "label": "COPPER (I) ION",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:49552"
+    },
+    {
+      "id": "a4b5e",
+      "geneNames": null,
+      "type": "compound",
+      "x": 229.12662582082322,
+      "y": 243.29283110571075,
+      "label": "COPPER (I) ION",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:49552"
+    },
+    {
+      "id": "d9781",
+      "geneNames": null,
+      "type": "compound",
+      "x": 757.8605226246541,
+      "y": 587.3534867633103,
+      "label": "COPPER (I) ION",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:49552"
+    },
+    {
+      "id": "ab8c3",
+      "geneNames": null,
+      "type": "compound",
+      "x": 757.8605226246541,
+      "y": 251.638838952311,
+      "label": "COPPER (I) ION",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:49552"
+    },
+    {
+      "id": "c4a86",
+      "geneNames": null,
+      "type": "compound",
+      "x": 398.0034418173387,
+      "y": 243.29283110571075,
+      "label": "COPPER (II) ION",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:29036"
+    },
+    {
+      "id": "f5b8b",
+      "geneNames": null,
+      "type": "compound",
+      "x": 599.1140280321067,
+      "y": 741.6345215888267,
+      "label": "COPPER (II) ION",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:29036"
+    },
+    {
+      "id": "c32f4",
+      "geneNames": null,
+      "type": "compound",
+      "x": 599.6964044290057,
+      "y": 587.3534867633103,
+      "label": "COPPER (II) ION",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:29036"
+    },
+    {
+      "id": "cb8d9",
+      "geneNames": null,
+      "type": "misc",
+      "x": 675.470932521008,
+      "y": 787.8738041859905,
+      "label": "Reductase",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "cbf6c",
+      "geneNames": null,
+      "type": "compound",
+      "x": 757.8605226246541,
+      "y": 115.33011412009624,
+      "label": "COPPER (I) ION",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:49552"
+    },
+    {
+      "id": "b00d7",
+      "geneNames": null,
+      "type": "compound",
+      "x": 229.12662582082322,
+      "y": 741.6345215888267,
+      "label": "COPPER (I) ION",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:49552"
+    },
+    {
+      "id": "c84f9",
+      "geneNames": null,
+      "type": "misc",
+      "x": 622.2954305893423,
+      "y": 362.94689260900583,
+      "label": "Wilson disease",
+      "groupId": null
+    },
+    {
+      "id": "dfcfd",
+      "geneNames": null,
+      "type": "misc",
+      "x": 108.89230077384693,
+      "y": 292.945127403833,
+      "label": "Menkes disease",
+      "groupId": null
+    },
+    {
+      "id": "f0f37",
+      "geneNames": null,
+      "type": "misc",
+      "x": 108.89230077384693,
+      "y": 365.6930594178348,
+      "label": "Occipital horn syndrome",
+      "groupId": null
+    },
+    {
+      "id": "f1b13",
+      "geneNames": null,
+      "type": "misc",
+      "x": 622.2954305893422,
+      "y": 493.6888213814477,
+      "label": "MEDNIKs disease\n",
+      "groupId": null
+    },
+    {
+      "id": "a0156",
+      "geneNames": null,
+      "type": "misc",
+      "x": 108.8923007738469,
+      "y": 439.1378705490732,
+      "label": "X-linked distal spinal \nmuscular atrophy",
+      "groupId": null
+    }
+  ]
+}

@@ -1,0 +1,352 @@
+{
+  "pathway": {
+    "name": "WP2942",
+    "org": "Homo sapiens",
+    "title": "DDX1 as a regulatory component of the Drosha microprocessor"
+  },
+  "links": [
+    {
+      "id": "id1d023ed6",
+      "sourceId": "c47c5",
+      "targetId": "f663d",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id2e804b5c",
+      "sourceId": "ca7e4",
+      "targetId": "id7c0d7ced",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id7c0d7ced",
+      "sourceId": "f8a2c",
+      "targetId": "fcb3b",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ida7f10500",
+      "sourceId": "f09b8",
+      "targetId": "ca7e4",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idc528e909",
+      "sourceId": "aa8f3",
+      "targetId": "ide4997318",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "ide4997318",
+      "sourceId": "c3cbb",
+      "targetId": "f09b8",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ide6a62a5d",
+      "sourceId": "fcb3b",
+      "targetId": "b6259",
+      "types": [
+        "inhibition"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "aa8f3",
+      "geneNames": [
+        "ATM"
+      ],
+      "type": "gene_protein",
+      "x": 294.78828326061506,
+      "y": 180.24149286498363,
+      "label": null,
+      "groupId": "be003",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000149311",
+      "uniprotAccs": [
+        "Q13315",
+        "A0A087X0E9",
+        "A0A6Q8PH76",
+        "A0A804HL86",
+        "E9PIN0",
+        "E9PRG7",
+        "H0YDU7",
+        "H0YEC6",
+        "M0QXY8",
+        "Q6P7P1"
+      ]
+    },
+    {
+      "id": "c3cbb",
+      "geneNames": [
+        "DDX1"
+      ],
+      "type": "gene_protein",
+      "x": 335.88386573070255,
+      "y": 240.9274598972407,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000079785",
+      "uniprotAccs": [
+        "Q92499",
+        "A0A087WZ71",
+        "A0A087X2G1",
+        "A0A7I2V2M5",
+        "A0A7I2V421",
+        "A0A7I2V430",
+        "A0A7I2V4F0",
+        "A0A7I2V4J3",
+        "A0A7I2V4Q0",
+        "A0A7I2V5X8",
+        "A0A7I2YQ77",
+        "A0A7I2YQD0",
+        "C9JLP0"
+      ]
+    },
+    {
+      "id": "cec85",
+      "geneNames": [
+        "NBN"
+      ],
+      "type": "gene_protein",
+      "x": 309.4549499272812,
+      "y": 160.2414928649838,
+      "label": null,
+      "groupId": "be003",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000104320",
+      "uniprotAccs": [
+        "O60934",
+        "A0A087X1V5",
+        "A0A0C4DG07",
+        "A0A8V8TKV9",
+        "A0A8V8TKW6",
+        "A0A8V8TKY0",
+        "A0A8V8TKY5",
+        "A0A8V8TL91",
+        "A0A8V8TL95",
+        "A0A8V8TL98",
+        "A0A8V8TLA3",
+        "A0A8V8TM80",
+        "A0A8V8TM88",
+        "A0A8V8TM94",
+        "A0A8V8TMG0",
+        "A0A8V8TMG6",
+        "A0A8V8TMH1",
+        "A0A8V8TMH6",
+        "E2QRP0",
+        "E5RGR7",
+        "E5RGU1"
+      ]
+    },
+    {
+      "id": "d3def",
+      "geneNames": [
+        "DGCR8"
+      ],
+      "type": "gene_protein",
+      "x": 201.5884413040738,
+      "y": 360.7874130991582,
+      "label": null,
+      "groupId": "ca7e4",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000128191",
+      "uniprotAccs": [
+        "Q8WYQ5",
+        "A0A994J4Y2",
+        "A0A994J7P0",
+        "C9JSD5"
+      ]
+    },
+    {
+      "id": "e52f5",
+      "geneNames": [
+        "MRE11A"
+      ],
+      "type": "gene_protein",
+      "x": 252.12161659394664,
+      "y": 160.24149286498366,
+      "label": null,
+      "groupId": "be003",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000020922",
+      "uniprotAccs": [
+        "P49959",
+        "F5GXT0",
+        "F5H256",
+        "F5H742",
+        "F8W7U8"
+      ]
+    },
+    {
+      "id": "f836e",
+      "geneNames": [
+        "RAD50"
+      ],
+      "type": "gene_protein",
+      "x": 280.1216165939476,
+      "y": 140.24149286498368,
+      "label": null,
+      "groupId": "be003",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000113522",
+      "uniprotAccs": [
+        "Q92878",
+        "A0A494BZW0",
+        "A0A494BZX5",
+        "A0A494BZX8",
+        "A0A494C0Y7",
+        "A0A494C122",
+        "A0A494C1B7",
+        "C9JNH8",
+        "E7EN38",
+        "E7ESD9",
+        "E9PM98",
+        "H7C0P8",
+        "H7C0V2"
+      ]
+    },
+    {
+      "id": "ff0c0",
+      "geneNames": [
+        "DROSHA"
+      ],
+      "type": "gene_protein",
+      "x": 201.58844130407397,
+      "y": 340.7874130991582,
+      "label": null,
+      "groupId": "ca7e4",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000113360",
+      "uniprotAccs": [
+        "Q9NRR4",
+        "E5RHD1",
+        "H0YB67",
+        "H7C5U6"
+      ]
+    },
+    {
+      "id": "f09b8",
+      "geneNames": [
+        "DDX1"
+      ],
+      "type": "gene_protein",
+      "x": 228.74204171240342,
+      "y": 241.13794365166427,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000079785",
+      "states": [
+        "P",
+        "P"
+      ],
+      "uniprotAccs": [
+        "Q92499",
+        "A0A087WZ71",
+        "A0A087X2G1",
+        "A0A7I2V2M5",
+        "A0A7I2V421",
+        "A0A7I2V430",
+        "A0A7I2V4F0",
+        "A0A7I2V4J3",
+        "A0A7I2V4Q0",
+        "A0A7I2V5X8",
+        "A0A7I2YQ77",
+        "A0A7I2YQD0",
+        "C9JLP0"
+      ]
+    },
+    {
+      "id": "c39aa",
+      "geneNames": [
+        "DDX1"
+      ],
+      "type": "gene_protein",
+      "x": 254.4983442334103,
+      "y": 340.42365793737866,
+      "label": null,
+      "groupId": "ca7e4",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000079785",
+      "states": [
+        "P",
+        "P"
+      ],
+      "uniprotAccs": [
+        "Q92499",
+        "A0A087WZ71",
+        "A0A087X2G1",
+        "A0A7I2V2M5",
+        "A0A7I2V421",
+        "A0A7I2V430",
+        "A0A7I2V4F0",
+        "A0A7I2V4J3",
+        "A0A7I2V4Q0",
+        "A0A7I2V5X8",
+        "A0A7I2YQ77",
+        "A0A7I2YQD0",
+        "C9JLP0"
+      ]
+    },
+    {
+      "id": "b6259",
+      "geneNames": null,
+      "type": "misc",
+      "x": 621.645078668126,
+      "y": 446.3911452616171,
+      "label": "Epithelial-Mesenchymal Transition (EMT)\nand Metastasis",
+      "groupId": null
+    },
+    {
+      "id": "c47c5",
+      "geneNames": null,
+      "type": "misc",
+      "x": 126.23600439077927,
+      "y": 90.06330040248814,
+      "label": "Oncogenic stress",
+      "groupId": null
+    },
+    {
+      "id": "f663d",
+      "geneNames": null,
+      "type": "misc",
+      "x": 126.47164288327957,
+      "y": 142.81046469081554,
+      "label": "DNA damage",
+      "groupId": null
+    },
+    {
+      "id": "ca7e4",
+      "type": "group",
+      "components": [
+        "d3def",
+        "ff0c0",
+        "c39aa"
+      ]
+    },
+    {
+      "id": "be003",
+      "type": "group",
+      "components": [
+        "aa8f3",
+        "cec85",
+        "e52f5",
+        "f836e"
+      ]
+    }
+  ]
+}

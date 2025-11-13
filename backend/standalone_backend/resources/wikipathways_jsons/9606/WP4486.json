@@ -1,0 +1,357 @@
+{
+  "pathway": {
+    "name": "WP4486",
+    "org": "Homo sapiens",
+    "title": "Role of carnosine in muscle contraction"
+  },
+  "links": [
+    {
+      "id": 0,
+      "sourceId": "be95c",
+      "targetId": "a6da9",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": 1,
+      "sourceId": "bc1cc",
+      "targetId": "d9801",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": 2,
+      "sourceId": "bc1cc",
+      "targetId": "eb67f",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": 3,
+      "sourceId": "b1e2f",
+      "targetId": null,
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": 4,
+      "sourceId": null,
+      "targetId": "a095e",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id70783305",
+      "sourceId": "d6ea0",
+      "targetId": "ef2a2",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id855f498f",
+      "sourceId": "eb67f",
+      "targetId": "ac054",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "feeb6",
+      "sourceId": "c82fc",
+      "targetId": "ac054",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "ee1c2",
+      "sourceId": "a095e",
+      "targetId": "c82fc",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "dab7f",
+      "sourceId": "a095e",
+      "targetId": "aa476",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "de25b",
+      "sourceId": "e6275",
+      "targetId": "aa476",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "bd754",
+      "sourceId": "aa476",
+      "targetId": "a1349",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "ef31f",
+      "sourceId": "a095e",
+      "targetId": "ef2a2",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "ef2a2",
+      "sourceId": "eb67f",
+      "targetId": "bc1cc",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "a6da9",
+      "sourceId": "bc1cc",
+      "targetId": "e7ee3",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "dbc1a",
+      "sourceId": "bc1cc",
+      "targetId": "e4d3f",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "fe323",
+      "sourceId": "bc1cc",
+      "targetId": "daa46",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "f4b09",
+      "sourceId": "e4d3f",
+      "targetId": "a1dfd",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "a8e6e",
+      "sourceId": "be95c",
+      "targetId": "dbc1a",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "ddd96",
+      "sourceId": "be95c",
+      "targetId": "fe323",
+      "types": [
+        "catalysis"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "b1e2f",
+      "geneNames": [
+        "Carnosinase"
+      ],
+      "type": "gene_protein",
+      "x": 450.52515201768927,
+      "y": 158.5160616669739,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "be95c",
+      "geneNames": [
+        "carnosinase"
+      ],
+      "type": "gene_protein",
+      "x": 576.1522633744852,
+      "y": 135.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "EC",
+      "referenceId": "3.4.13.3",
+      "uniprotAccs": []
+    },
+    {
+      "id": "d6ea0",
+      "geneNames": [
+        "carnosine \nsynthetase"
+      ],
+      "type": "gene_protein",
+      "x": 252.96081321786144,
+      "y": 204.0144800687918,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "EC",
+      "referenceId": "6.3.2.11",
+      "uniprotAccs": [
+        "A5YM72"
+      ]
+    },
+    {
+      "id": "d9801",
+      "geneNames": null,
+      "type": "compound",
+      "x": 500.1522633744852,
+      "y": 55.0,
+      "label": "Carnosine",
+      "groupId": null,
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q413822"
+    },
+    {
+      "id": "eb67f",
+      "geneNames": null,
+      "type": "compound",
+      "x": 253.1790123456795,
+      "y": 163.0,
+      "label": "beta-alanine",
+      "groupId": null,
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q310919"
+    },
+    {
+      "id": "ac054",
+      "geneNames": null,
+      "type": "compound",
+      "x": 105.30587801732085,
+      "y": 220.0,
+      "label": "Carcinine",
+      "groupId": null,
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q27892933"
+    },
+    {
+      "id": "c82fc",
+      "geneNames": null,
+      "type": "compound",
+      "x": 105.30587801732085,
+      "y": 282.3086419753089,
+      "label": "histamine",
+      "groupId": null,
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q61233"
+    },
+    {
+      "id": "a095e",
+      "geneNames": null,
+      "type": "compound",
+      "x": 253.1790123456795,
+      "y": 307.0,
+      "label": "Histidine",
+      "groupId": null,
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q485277"
+    },
+    {
+      "id": "bc1cc",
+      "geneNames": null,
+      "type": "compound",
+      "x": 500.6522633744852,
+      "y": 220.0,
+      "label": "Carnosine",
+      "groupId": null,
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q413822"
+    },
+    {
+      "id": "e7ee3",
+      "geneNames": null,
+      "type": "compound",
+      "x": 704.1522633744852,
+      "y": 142.0,
+      "label": "Ophidine",
+      "groupId": null,
+      "referenceDatabase": "PubChem-compound",
+      "referenceId": "90658938"
+    },
+    {
+      "id": "e4d3f",
+      "geneNames": null,
+      "type": "compound",
+      "x": 704.1522633744852,
+      "y": 220.0,
+      "label": "Anserine",
+      "groupId": null,
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q415335"
+    },
+    {
+      "id": "a1dfd",
+      "geneNames": null,
+      "type": "compound",
+      "x": 851.1522633744852,
+      "y": 220.0,
+      "label": "AcetylAnserine",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "daa46",
+      "geneNames": null,
+      "type": "compound",
+      "x": 704.1522633744852,
+      "y": 284.0,
+      "label": "Acetylcarnosine",
+      "groupId": null,
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q4673297"
+    },
+    {
+      "id": "aa476",
+      "geneNames": null,
+      "type": "compound",
+      "x": 522.0,
+      "y": 390.0,
+      "label": "Homocarnosine",
+      "groupId": null,
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q27158831"
+    },
+    {
+      "id": "a1349",
+      "geneNames": null,
+      "type": "compound",
+      "x": 663.0,
+      "y": 390.0,
+      "label": "Homoanserine",
+      "groupId": null,
+      "referenceDatabase": "PubChem-compound",
+      "referenceId": "20849429"
+    },
+    {
+      "id": "e6275",
+      "geneNames": null,
+      "type": "compound",
+      "x": 459.5,
+      "y": 464.0,
+      "label": "gamma-aminobutyric acid",
+      "groupId": null,
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q210021"
+    }
+  ]
+}

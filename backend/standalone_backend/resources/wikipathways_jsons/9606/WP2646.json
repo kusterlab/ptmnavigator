@@ -1,0 +1,283 @@
+{
+  "pathway": {
+    "name": "WP2646",
+    "org": "Homo sapiens",
+    "title": "Lidocaine metabolism"
+  },
+  "links": [
+    {
+      "id": "id28a7c7d9",
+      "sourceId": "c59ff",
+      "targetId": "d02c6",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id4e93dbbe",
+      "sourceId": "e20e7",
+      "targetId": "idb9262808",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id5c24ba9b",
+      "sourceId": "cb81f",
+      "targetId": "idb9262808",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id6747c81e",
+      "sourceId": "d668d",
+      "targetId": "ca7df",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id76aaf04a",
+      "sourceId": "e11d4",
+      "targetId": "idb4e6360e",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id94583f32",
+      "sourceId": "cd113",
+      "targetId": "c59ff",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id99c68ff9",
+      "sourceId": "d668d",
+      "targetId": "ca0ff",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id9c9a3c27",
+      "sourceId": "ca7df",
+      "targetId": "c59ff",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "ida635fa68",
+      "sourceId": "d668d",
+      "targetId": "c59ff",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "idb4e6360e",
+      "sourceId": "cd113",
+      "targetId": "d668d",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "idb8588c6a",
+      "sourceId": "e517f",
+      "targetId": "ca0ff",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "idb9262808",
+      "sourceId": "cd113",
+      "targetId": "e517f",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "idc372dfec",
+      "sourceId": "e3332",
+      "targetId": "idb4e6360e",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "idf6b56c5b",
+      "sourceId": "c59ff",
+      "targetId": "eadb2",
+      "types": [
+        "conversion"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "c59ff",
+      "geneNames": null,
+      "type": "compound",
+      "x": 548.0,
+      "y": 212.0,
+      "label": "2,6-xylidine",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:28738"
+    },
+    {
+      "id": "ca0ff",
+      "geneNames": null,
+      "type": "compound",
+      "x": 376.5,
+      "y": 354.0,
+      "label": "3-hydroxymonoethyl\nglycinexylidide",
+      "groupId": null,
+      "referenceDatabase": "KEGG Compound",
+      "referenceId": "C16572"
+    },
+    {
+      "id": "ca7df",
+      "geneNames": null,
+      "type": "compound",
+      "x": 548.0,
+      "y": 306.0,
+      "label": "glycinexylidide",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:357241"
+    },
+    {
+      "id": "cd113",
+      "geneNames": null,
+      "type": "compound",
+      "x": 179.0,
+      "y": 212.0,
+      "label": "Lidocaine",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0014426"
+    },
+    {
+      "id": "d02c6",
+      "geneNames": null,
+      "type": "compound",
+      "x": 711.0,
+      "y": 106.0,
+      "label": "2-amino-3-methylbenzoate",
+      "groupId": null,
+      "referenceDatabase": "PubChem-compound",
+      "referenceId": "4161142"
+    },
+    {
+      "id": "d668d",
+      "geneNames": null,
+      "type": "compound",
+      "x": 376.0,
+      "y": 212.0,
+      "label": "monoethyl\nglycinexylidide",
+      "groupId": null,
+      "referenceDatabase": "PubChem-compound",
+      "referenceId": "24415"
+    },
+    {
+      "id": "e11d4",
+      "geneNames": [
+        "CYP3A4"
+      ],
+      "type": "gene_protein",
+      "x": 265.0,
+      "y": 245.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000160868",
+      "uniprotAccs": [
+        "P08684",
+        "A0A494C0W7",
+        "A0A499FJM4",
+        "C9JBD2",
+        "E7EVM8"
+      ]
+    },
+    {
+      "id": "e3332",
+      "geneNames": [
+        "CYP1A2"
+      ],
+      "type": "gene_protein",
+      "x": 265.0,
+      "y": 157.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000140505",
+      "uniprotAccs": [
+        "P05177"
+      ]
+    },
+    {
+      "id": "e517f",
+      "geneNames": null,
+      "type": "compound",
+      "x": 178.0,
+      "y": 353.0,
+      "label": "3-hydroxylidocaine",
+      "groupId": null,
+      "referenceDatabase": "PubChem-compound",
+      "referenceId": "161824"
+    },
+    {
+      "id": "eadb2",
+      "geneNames": null,
+      "type": "compound",
+      "x": 729.5,
+      "y": 212.5,
+      "label": "4-hydroxy-\n2,6-dimethylaniline",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:55545"
+    },
+    {
+      "id": "e20e7",
+      "geneNames": [
+        "CYP1A2"
+      ],
+      "type": "gene_protein",
+      "x": 100.0,
+      "y": 282.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000140505",
+      "uniprotAccs": [
+        "P05177"
+      ]
+    },
+    {
+      "id": "cb81f",
+      "geneNames": [
+        "CYP3A4"
+      ],
+      "type": "gene_protein",
+      "x": 265.0,
+      "y": 282.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000160868",
+      "uniprotAccs": [
+        "P08684",
+        "A0A494C0W7",
+        "A0A499FJM4",
+        "C9JBD2",
+        "E7EVM8"
+      ]
+    }
+  ]
+}

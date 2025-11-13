@@ -1,0 +1,461 @@
+{
+  "pathway": {
+    "name": "WP3891",
+    "org": "Homo sapiens",
+    "title": "Benzene metabolism"
+  },
+  "links": [
+    {
+      "id": "id2ab7067",
+      "sourceId": "d4e1c",
+      "targetId": "d05a8",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id3cb9de0b",
+      "sourceId": "ce386",
+      "targetId": "f77c4",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id40ac18fe",
+      "sourceId": "a6e66",
+      "targetId": "id84d32d53",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id44b97fb6",
+      "sourceId": "f77c4",
+      "targetId": "e14d7",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id4c968ed",
+      "sourceId": "bd0b8",
+      "targetId": "idebc55b67",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id4d94e977",
+      "sourceId": "e38ee",
+      "targetId": "id4dcacb5b",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id4dcacb5b",
+      "sourceId": "f77c4",
+      "targetId": "d37b1",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id5f12a092",
+      "sourceId": "e09d3",
+      "targetId": "ide60c1664",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id6a308cc4",
+      "sourceId": "bc416",
+      "targetId": "idff837936",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id71a099d6",
+      "sourceId": "f4c0a",
+      "targetId": "eabfa",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id84d32d53",
+      "sourceId": "c1be3",
+      "targetId": "f4c0a",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "ida58f9d82",
+      "sourceId": "eabfa",
+      "targetId": "f4c0a",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "idaa65aa68",
+      "sourceId": "a3de1",
+      "targetId": "id3cb9de0b",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "idb320942f",
+      "sourceId": "f77c4",
+      "targetId": "c1be3",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "idc28f66d2",
+      "sourceId": "ce686",
+      "targetId": "e2712",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "idd491da6",
+      "sourceId": "a9977",
+      "targetId": "id71a099d6",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "ide141e5ed",
+      "sourceId": "fb77e",
+      "targetId": "ida58f9d82",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "ide60c1664",
+      "sourceId": "b2b58",
+      "targetId": "cc821",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "idebc55b67",
+      "sourceId": "d4e1c",
+      "targetId": "cc821",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "idff837936",
+      "sourceId": "cc821",
+      "targetId": "b2b58",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "e2712",
+      "sourceId": "f77c4",
+      "targetId": "d4e1c",
+      "types": [
+        "conversion"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "a3de1",
+      "geneNames": [
+        "CYP2E1"
+      ],
+      "type": "gene_protein",
+      "x": 415.31105710814103,
+      "y": 70.98784933171329,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000130649",
+      "uniprotAccs": [
+        "P05181",
+        "F5H694",
+        "H0Y593",
+        "H0Y7H4",
+        "H0YGV5"
+      ]
+    },
+    {
+      "id": "a6e66",
+      "geneNames": [
+        "CYP2E1"
+      ],
+      "type": "gene_protein",
+      "x": 163.31105710814074,
+      "y": 342.98784933171356,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000130649",
+      "uniprotAccs": [
+        "P05181",
+        "F5H694",
+        "H0Y593",
+        "H0Y7H4",
+        "H0YGV5"
+      ]
+    },
+    {
+      "id": "b2b58",
+      "geneNames": null,
+      "type": "compound",
+      "x": 619.1215066828671,
+      "y": 462.98784933171305,
+      "label": "1,2-Benzoquinone",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0012133"
+    },
+    {
+      "id": "bc416",
+      "geneNames": [
+        "NQO1"
+      ],
+      "type": "gene_protein",
+      "x": 509.90036452004847,
+      "y": 397.4070473876066,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000181019",
+      "uniprotAccs": [
+        "P15559",
+        "B4DLR8",
+        "H3BNV2",
+        "H3BRK3"
+      ]
+    },
+    {
+      "id": "bd0b8",
+      "geneNames": [
+        "Dihydrodiol\ndehydrogenase"
+      ],
+      "type": "gene_protein",
+      "x": 509.31105710814063,
+      "y": 342.98784933171345,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "27294",
+      "uniprotAccs": [
+        "Q9UQ10"
+      ]
+    },
+    {
+      "id": "c1be3",
+      "geneNames": null,
+      "type": "compound",
+      "x": 251.31105710814072,
+      "y": 264.9878493317133,
+      "label": "Phenol",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000228"
+    },
+    {
+      "id": "cc821",
+      "geneNames": null,
+      "type": "compound",
+      "x": 438.31105710814103,
+      "y": 462.9878493317131,
+      "label": "Catechol",
+      "groupId": null,
+      "referenceDatabase": "PubChem-compound",
+      "referenceId": "289"
+    },
+    {
+      "id": "ce386",
+      "geneNames": null,
+      "type": "compound",
+      "x": 320.31105710814103,
+      "y": 21.987849331713225,
+      "label": "Benzene",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0001505"
+    },
+    {
+      "id": "ce686",
+      "geneNames": [
+        "Microsomal Epoxide Hydrolase"
+      ],
+      "type": "gene_protein",
+      "x": 481.65552855407026,
+      "y": 194.9878493317133,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "2052",
+      "uniprotAccs": [
+        "P07099",
+        "R4SBI6"
+      ]
+    },
+    {
+      "id": "d05a8",
+      "geneNames": null,
+      "type": "compound",
+      "x": 576.8110571081406,
+      "y": 264.9878493317133,
+      "label": "Benzene diol epoxide",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "d37b1",
+      "geneNames": null,
+      "type": "compound",
+      "x": 104.77946537059523,
+      "y": 135.77278250303766,
+      "label": "S-Phenylmercapturic acid",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0042011"
+    },
+    {
+      "id": "d4e1c",
+      "geneNames": null,
+      "type": "compound",
+      "x": 398.31105710814103,
+      "y": 264.9878493317134,
+      "label": "Benzene dihydrodiol",
+      "groupId": null,
+      "referenceDatabase": "PubChem-compound",
+      "referenceId": "418"
+    },
+    {
+      "id": "e09d3",
+      "geneNames": [
+        "MPO"
+      ],
+      "type": "gene_protein",
+      "x": 541.6421628189551,
+      "y": 528.7727825030371,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "4353",
+      "uniprotAccs": [
+        "P05164"
+      ]
+    },
+    {
+      "id": "e14d7",
+      "geneNames": null,
+      "type": "compound",
+      "x": 477.3110571081398,
+      "y": 135.77278250303766,
+      "label": "Oxepine",
+      "groupId": null,
+      "referenceDatabase": "PubChem-compound",
+      "referenceId": "6451477"
+    },
+    {
+      "id": "e38ee",
+      "geneNames": [
+        "Glutathione S-transferase"
+      ],
+      "type": "gene_protein",
+      "x": 238.0425273390038,
+      "y": 88.98784933171328,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "2944",
+      "uniprotAccs": [
+        "P09488",
+        "X5D932",
+        "X5DR03"
+      ]
+    },
+    {
+      "id": "eabfa",
+      "geneNames": null,
+      "type": "compound",
+      "x": 54.31105710814103,
+      "y": 462.98784933171316,
+      "label": "p-benzoquinone",
+      "groupId": null,
+      "referenceDatabase": "PubChem-compound",
+      "referenceId": "4650"
+    },
+    {
+      "id": "f4c0a",
+      "geneNames": null,
+      "type": "compound",
+      "x": 219.3110571081406,
+      "y": 462.9878493317131,
+      "label": "Hydroquinone",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0002434"
+    },
+    {
+      "id": "f77c4",
+      "geneNames": null,
+      "type": "compound",
+      "x": 320.31105710814103,
+      "y": 135.77278250303766,
+      "label": "Benzene oxide",
+      "groupId": null,
+      "referenceDatabase": "PubChem-compound",
+      "referenceId": "104944"
+    },
+    {
+      "id": "fb77e",
+      "geneNames": [
+        "NQO1"
+      ],
+      "type": "gene_protein",
+      "x": 156.52187120291603,
+      "y": 528.7727825030371,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000181019",
+      "uniprotAccs": [
+        "P15559",
+        "B4DLR8",
+        "H3BNV2",
+        "H3BRK3"
+      ]
+    },
+    {
+      "id": "a9977",
+      "geneNames": [
+        "MPO"
+      ],
+      "type": "gene_protein",
+      "x": 152.9842041312271,
+      "y": 397.4070473876066,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "4353",
+      "uniprotAccs": [
+        "P05164"
+      ]
+    }
+  ]
+}

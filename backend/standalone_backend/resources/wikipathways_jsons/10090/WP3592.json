@@ -1,0 +1,442 @@
+{
+  "pathway": {
+    "name": "WP3592",
+    "org": "Mus musculus",
+    "title": "ApoE and miR-146 in inflammation and atherosclerosis"
+  },
+  "links": [
+    {
+      "id": "id23731ff3",
+      "sourceId": "a82a7",
+      "targetId": "ee6ee",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id29f19bad",
+      "sourceId": "fa33a",
+      "targetId": "a7ed5",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "id3169426f",
+      "sourceId": "a22de",
+      "targetId": "a84e6",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id39896e46",
+      "sourceId": "da74b",
+      "targetId": "a7ed5",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id3b137d88",
+      "sourceId": "d4c80",
+      "targetId": "deee3",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id5fc40f62",
+      "sourceId": "ee6ee",
+      "targetId": "d4c80",
+      "types": [
+        "transcription/translation"
+      ]
+    },
+    {
+      "id": "id75364118",
+      "sourceId": "bfc4d",
+      "targetId": "f77bb",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id79dfb402",
+      "sourceId": "e6c3d",
+      "targetId": "fa33a",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "idb607b62c",
+      "sourceId": "ba110",
+      "targetId": "ffe69",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "idbe323268",
+      "sourceId": "a84e6",
+      "targetId": "eb278",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "idc1efcbcf",
+      "sourceId": "ee6ee",
+      "targetId": "a22de",
+      "types": [
+        "transcription/translation"
+      ]
+    },
+    {
+      "id": "idf64f1c51",
+      "sourceId": "ffe69",
+      "targetId": "a7ed5",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "idf6b9813b",
+      "sourceId": "a7ed5",
+      "targetId": "cc3aa",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "a295e",
+      "sourceId": "eb278",
+      "targetId": "da74b",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "f3315",
+      "sourceId": "f77bb",
+      "targetId": "a22de",
+      "types": [
+        "transcription/translation"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "e6c3d",
+      "geneNames": null,
+      "type": "compound",
+      "x": 275.5,
+      "y": 50.0,
+      "label": "Lipopolysaccharide",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:16412"
+    },
+    {
+      "id": "b2151",
+      "geneNames": [
+        "Nfkb2"
+      ],
+      "type": "gene_protein",
+      "x": 318.6683673469391,
+      "y": 322.3775510204081,
+      "label": null,
+      "groupId": "a82a7",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000025225",
+      "uniprotAccs": [
+        "Q9WTK5",
+        "A0A494B9Y5",
+        "A0A494BAQ2"
+      ]
+    },
+    {
+      "id": "bfc4d",
+      "geneNames": [
+        "ApoE"
+      ],
+      "type": "gene_protein",
+      "x": 626.0714285714284,
+      "y": 285.85714285714283,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000002985",
+      "uniprotAccs": [
+        "P08226",
+        "A0A1B0GX15",
+        "G3UWN5",
+        "G3UWW2",
+        "G3UZM8"
+      ]
+    },
+    {
+      "id": "cc3aa",
+      "geneNames": [
+        "p65"
+      ],
+      "type": "gene_protein",
+      "x": 318.6683673469391,
+      "y": 302.3775510204081,
+      "label": null,
+      "groupId": "a82a7",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000024927",
+      "states": [
+        "P"
+      ],
+      "uniprotAccs": [
+        "Q04207",
+        "A0A494B901",
+        "A0A494BA44",
+        "Q4U113"
+      ]
+    },
+    {
+      "id": "da74b",
+      "geneNames": [
+        "Mir146"
+      ],
+      "type": "gene_protein",
+      "x": 478.89502762430936,
+      "y": 223.1049723756906,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "miRBase Sequence",
+      "referenceId": "MI0000170"
+    },
+    {
+      "id": "e6e69",
+      "geneNames": [
+        "PU.1"
+      ],
+      "type": "gene_protein",
+      "x": 626.5,
+      "y": 458.0,
+      "label": null,
+      "groupId": "f77bb",
+      "referenceDatabase": "GeneID",
+      "referenceId": "20375",
+      "uniprotAccs": [
+        "P17433",
+        "Q3U5L4"
+      ]
+    },
+    {
+      "id": "ed792",
+      "geneNames": [
+        "Irak1"
+      ],
+      "type": "gene_protein",
+      "x": 318.668367346939,
+      "y": 212.9285714285714,
+      "label": null,
+      "groupId": "a7ed5",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000031392",
+      "uniprotAccs": [
+        "Q62406",
+        "B1AUV9",
+        "B1AUW1",
+        "B1AUW6",
+        "B1AUW8",
+        "B1AUW9",
+        "F6THK7",
+        "F6TQF4",
+        "F6ZGQ1",
+        "F7ANU5",
+        "F7CUT1",
+        "Q8BR10"
+      ]
+    },
+    {
+      "id": "fa33a",
+      "geneNames": [
+        "Tlr4"
+      ],
+      "type": "gene_protein",
+      "x": 275.83418367346957,
+      "y": 123.82653061224488,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000039005",
+      "uniprotAccs": [
+        "Q9QUK6",
+        "A2BHU8"
+      ]
+    },
+    {
+      "id": "fc1b1",
+      "geneNames": [
+        "Traf6"
+      ],
+      "type": "gene_protein",
+      "x": 318.668367346939,
+      "y": 232.9285714285714,
+      "label": null,
+      "groupId": "a7ed5",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000027164",
+      "uniprotAccs": [
+        "P70196"
+      ]
+    },
+    {
+      "id": "ffe69",
+      "geneNames": [
+        "Tlr2"
+      ],
+      "type": "gene_protein",
+      "x": 375.5,
+      "y": 125.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000027995",
+      "uniprotAccs": [
+        "G3X8Y8"
+      ]
+    },
+    {
+      "id": "ba110",
+      "geneNames": null,
+      "type": "compound",
+      "x": 375.5,
+      "y": 51.0,
+      "label": "ox-LDL",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:60151"
+    },
+    {
+      "id": "c87cb",
+      "geneNames": [
+        "p65"
+      ],
+      "type": "gene_protein",
+      "x": 318.6683673469391,
+      "y": 448.3775510204081,
+      "label": null,
+      "groupId": "ee6ee",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000024927",
+      "states": [
+        "P"
+      ],
+      "uniprotAccs": [
+        "Q04207",
+        "A0A494B901",
+        "A0A494BA44",
+        "Q4U113"
+      ]
+    },
+    {
+      "id": "c2fa9",
+      "geneNames": [
+        "Nfkb2"
+      ],
+      "type": "gene_protein",
+      "x": 318.6683673469391,
+      "y": 468.3775510204081,
+      "label": null,
+      "groupId": "ee6ee",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000025225",
+      "uniprotAccs": [
+        "Q9WTK5",
+        "A0A494B9Y5",
+        "A0A494BAQ2"
+      ]
+    },
+    {
+      "id": "deee3",
+      "geneNames": null,
+      "type": "misc",
+      "x": 287.5,
+      "y": 528.5,
+      "label": "Monocyte and macrophage \nactivation",
+      "groupId": null
+    },
+    {
+      "id": "ac979",
+      "geneNames": null,
+      "type": "misc",
+      "x": 479.5,
+      "y": 458.0,
+      "label": "pri-miR-146a",
+      "groupId": "a22de"
+    },
+    {
+      "id": "a84e6",
+      "geneNames": null,
+      "type": "misc",
+      "x": 479.5,
+      "y": 388.0,
+      "label": "pre-miR-146a",
+      "groupId": null
+    },
+    {
+      "id": "eb278",
+      "geneNames": null,
+      "type": "misc",
+      "x": 479.5,
+      "y": 279.0,
+      "label": "pre-miR-146a",
+      "groupId": null
+    },
+    {
+      "id": "d4c80",
+      "geneNames": null,
+      "type": "misc",
+      "x": 141.0,
+      "y": 458.0,
+      "label": "cytokine genes",
+      "groupId": null
+    },
+    {
+      "id": "a22de",
+      "type": "group",
+      "components": [
+        "ac979"
+      ]
+    },
+    {
+      "id": "a7ed5",
+      "type": "group",
+      "components": [
+        "ed792",
+        "fc1b1"
+      ]
+    },
+    {
+      "id": "a82a7",
+      "type": "group",
+      "components": [
+        "b2151",
+        "cc3aa"
+      ]
+    },
+    {
+      "id": "ee6ee",
+      "type": "group",
+      "components": [
+        "c87cb",
+        "c2fa9"
+      ]
+    },
+    {
+      "id": "f77bb",
+      "type": "group",
+      "components": [
+        "e6e69"
+      ]
+    }
+  ]
+}

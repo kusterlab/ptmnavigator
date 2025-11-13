@@ -1,0 +1,665 @@
+{
+  "pathway": {
+    "name": "WP1596",
+    "org": "Mus musculus",
+    "title": "Iron homeostasis"
+  },
+  "links": [
+    {
+      "id": "a2215",
+      "sourceId": "fb03f",
+      "targetId": "id748d82f",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "ab5c5",
+      "sourceId": "ce64e",
+      "targetId": "d1b0c",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "c3d89",
+      "sourceId": "d5d8e",
+      "targetId": "f3770",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ec128",
+      "sourceId": "d1b0c",
+      "targetId": "d792a",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "id1334398d",
+      "sourceId": "c9a17",
+      "targetId": "f710c",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id1770c409",
+      "sourceId": "d7a54",
+      "targetId": "d488e",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id1b72726a",
+      "sourceId": "af3ce",
+      "targetId": "f33e8",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id1db6a281",
+      "sourceId": "f33e8",
+      "targetId": "f710c",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id2c47fde1",
+      "sourceId": "b12e8",
+      "targetId": "f33e8",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id30536691",
+      "sourceId": "f1796",
+      "targetId": "d1b0c",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id355431fb",
+      "sourceId": "e4dbb",
+      "targetId": "fc39a",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id380d6a8b",
+      "sourceId": "bb6fd",
+      "targetId": "fb03f",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id47922eae",
+      "sourceId": "ba42e",
+      "targetId": "d1b0c",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id4d5f8009",
+      "sourceId": "ide51745fb",
+      "targetId": "af3ce",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "id5af2b362",
+      "sourceId": "c3b0c",
+      "targetId": "f710c",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id5c10042",
+      "sourceId": "e4dbb",
+      "targetId": "d5d8e",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id748d82f",
+      "sourceId": "d792a",
+      "targetId": "e6e40",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id80b9fe26",
+      "sourceId": "efe7c",
+      "targetId": "d7a54",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id84841d50",
+      "sourceId": "dfb51",
+      "targetId": "d7a54",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id8d8f984a",
+      "sourceId": "d1d51",
+      "targetId": "c3b0c",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id988524b3",
+      "sourceId": "e6e40",
+      "targetId": "d792a",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id9a5e6429",
+      "sourceId": "f3770",
+      "targetId": "d1d51",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idb678f24b",
+      "sourceId": "a0d8b",
+      "targetId": "e6e40",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "idc4e22227",
+      "sourceId": "fc39a",
+      "targetId": "c9a17",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idcf4701b4",
+      "sourceId": "f710c",
+      "targetId": "bb6fd",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idd5c2fb37",
+      "sourceId": "f04ec",
+      "targetId": "d1b0c",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idd7dc36a2",
+      "sourceId": "d488e",
+      "targetId": "f710c",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ide51745fb",
+      "sourceId": "b12e8",
+      "targetId": "id988524b3",
+      "types": [
+        "stimulation"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "a0d8b",
+      "geneNames": [
+        "Transferrin"
+      ],
+      "type": "gene_protein",
+      "x": 485.0,
+      "y": 156.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000032554",
+      "uniprotAccs": [
+        "Q921I1",
+        "D3YYR8",
+        "E9Q2Q7",
+        "E9Q939",
+        "F7BAE9",
+        "F7CJN9"
+      ]
+    },
+    {
+      "id": "a6d1e",
+      "geneNames": [
+        "Fth1"
+      ],
+      "type": "gene_protein",
+      "x": 237.0,
+      "y": 118.0,
+      "label": null,
+      "groupId": "d1b0c",
+      "referenceDatabase": "GeneID",
+      "referenceId": "14319",
+      "uniprotAccs": [
+        "P09528"
+      ]
+    },
+    {
+      "id": "af3ce",
+      "geneNames": [
+        "Trfr2"
+      ],
+      "type": "gene_protein",
+      "x": 360.5,
+      "y": 311.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000029716",
+      "uniprotAccs": [
+        "Q9JKX3",
+        "A0A0G2JED7"
+      ]
+    },
+    {
+      "id": "b12e8",
+      "geneNames": [
+        "Trfr1"
+      ],
+      "type": "gene_protein",
+      "x": 359.3131553860821,
+      "y": 285.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "b1b08",
+      "geneNames": [
+        "Ftl1"
+      ],
+      "type": "gene_protein",
+      "x": 237.0,
+      "y": 98.0,
+      "label": null,
+      "groupId": "d1b0c",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000050708",
+      "uniprotAccs": [
+        "A0A1B0GR60",
+        "A0A1B0GRH4",
+        "Q9CPX4"
+      ]
+    },
+    {
+      "id": "b926a",
+      "geneNames": [
+        "hepcidin-2"
+      ],
+      "type": "gene_protein",
+      "x": 535.0,
+      "y": 311.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000056978",
+      "uniprotAccs": [
+        "Q80T19",
+        "A0A0U1RPF4",
+        "Q5M9M1"
+      ]
+    },
+    {
+      "id": "ba42e",
+      "geneNames": [
+        "Ireb2"
+      ],
+      "type": "gene_protein",
+      "x": 135.0,
+      "y": 193.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000032293",
+      "uniprotAccs": [
+        "Q811J3",
+        "A0A1L1SS62"
+      ]
+    },
+    {
+      "id": "bb6fd",
+      "geneNames": [
+        "hepcidin"
+      ],
+      "type": "gene_protein",
+      "x": 535.0,
+      "y": 331.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000050440",
+      "uniprotAccs": [
+        "Q9EQ21"
+      ]
+    },
+    {
+      "id": "c3b0c",
+      "geneNames": [
+        "STAT3"
+      ],
+      "type": "gene_protein",
+      "x": 214.0,
+      "y": 380.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "c9a17",
+      "geneNames": [
+        "IL1R"
+      ],
+      "type": "gene_protein",
+      "x": 365.0,
+      "y": 372.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "ce64e",
+      "geneNames": [
+        "Tnf"
+      ],
+      "type": "gene_protein",
+      "x": 79.0,
+      "y": 130.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000024401",
+      "uniprotAccs": [
+        "P06804",
+        "A0A0R4J210"
+      ]
+    },
+    {
+      "id": "d1d51",
+      "geneNames": [
+        "JAK1/2"
+      ],
+      "type": "gene_protein",
+      "x": 266.0,
+      "y": 418.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "d488e",
+      "geneNames": [
+        "SMAD-1/5/8"
+      ],
+      "type": "gene_protein",
+      "x": 140.0,
+      "y": 427.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "d5d8e",
+      "geneNames": [
+        "IL-6"
+      ],
+      "type": "gene_protein",
+      "x": 487.0,
+      "y": 407.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000025746",
+      "uniprotAccs": [
+        "P08505",
+        "A0A0G2JFG1",
+        "A0A0G2JFT1",
+        "A0A0G2JGF4"
+      ]
+    },
+    {
+      "id": "d792a",
+      "geneNames": null,
+      "type": "compound",
+      "x": 241.0,
+      "y": 228.0,
+      "label": "Iron",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000692"
+    },
+    {
+      "id": "d7a54",
+      "geneNames": [
+        "BMPR-1"
+      ],
+      "type": "gene_protein",
+      "x": 365.0,
+      "y": 496.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "dfb51",
+      "geneNames": [
+        "hemojuvelin"
+      ],
+      "type": "gene_protein",
+      "x": 486.99999999999994,
+      "y": 521.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000038403",
+      "uniprotAccs": [
+        "Q7TQ32"
+      ]
+    },
+    {
+      "id": "e6e40",
+      "geneNames": null,
+      "type": "compound",
+      "x": 484.0,
+      "y": 225.0,
+      "label": "Iron",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000692"
+    },
+    {
+      "id": "efe7c",
+      "geneNames": [
+        "BMP1/2/4/9"
+      ],
+      "type": "gene_protein",
+      "x": 486.99999999999994,
+      "y": 466.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "f1796",
+      "geneNames": [
+        "cMyc"
+      ],
+      "type": "gene_protein",
+      "x": 80.0,
+      "y": 85.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "f33e8",
+      "geneNames": [
+        "Hfe"
+      ],
+      "type": "gene_protein",
+      "x": 196.0,
+      "y": 286.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000006611",
+      "uniprotAccs": [
+        "P70387",
+        "F7CW53",
+        "Q5SZ87",
+        "Q5SZ91"
+      ]
+    },
+    {
+      "id": "f3770",
+      "geneNames": [
+        "IL6R"
+      ],
+      "type": "gene_protein",
+      "x": 365.00000000000006,
+      "y": 403.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000027947",
+      "uniprotAccs": [
+        "P22272",
+        "A0A0G2JGF1"
+      ]
+    },
+    {
+      "id": "f5bac",
+      "geneNames": [
+        "hepcidin-2"
+      ],
+      "type": "gene_protein",
+      "x": 77.0,
+      "y": 314.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000056978",
+      "uniprotAccs": [
+        "Q80T19",
+        "A0A0U1RPF4",
+        "Q5M9M1"
+      ]
+    },
+    {
+      "id": "f710c",
+      "geneNames": [
+        "hepcidin"
+      ],
+      "type": "gene_protein",
+      "x": 77.0,
+      "y": 334.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000050440",
+      "uniprotAccs": [
+        "Q9EQ21"
+      ]
+    },
+    {
+      "id": "fb03f",
+      "geneNames": [
+        "Ferroportin"
+      ],
+      "type": "gene_protein",
+      "x": 355.5,
+      "y": 138.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000025993",
+      "uniprotAccs": [
+        "Q9JHI9",
+        "C5H8V4"
+      ]
+    },
+    {
+      "id": "fc39a",
+      "geneNames": [
+        "IL-1"
+      ],
+      "type": "gene_protein",
+      "x": 487.0,
+      "y": 367.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000027399",
+      "uniprotAccs": [
+        "P01582"
+      ]
+    },
+    {
+      "id": "e4dbb",
+      "geneNames": null,
+      "type": "misc",
+      "x": 608.0,
+      "y": 379.0,
+      "label": "Inflammation",
+      "groupId": null
+    },
+    {
+      "id": "f04ec",
+      "geneNames": null,
+      "type": "misc",
+      "x": 60.0,
+      "y": 109.0,
+      "label": "Oxidative Stress",
+      "groupId": null
+    },
+    {
+      "id": "d1b0c",
+      "type": "group",
+      "components": [
+        "a6d1e",
+        "b1b08"
+      ]
+    }
+  ]
+}

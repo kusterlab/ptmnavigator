@@ -1,0 +1,369 @@
+{
+  "pathway": {
+    "name": "WP5315",
+    "org": "Homo sapiens",
+    "title": "Sebaleic acid formation and metabolism"
+  },
+  "links": [
+    {
+      "id": "id1429368f",
+      "sourceId": "dc7ec",
+      "targetId": "a1597",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id17729126",
+      "sourceId": "f3aca",
+      "targetId": "deab8",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id5e8689e2",
+      "sourceId": "deab8",
+      "targetId": "b647c",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id76da0278",
+      "sourceId": "a296e",
+      "targetId": "id868b121",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id78cf5cf4",
+      "sourceId": "e1c78",
+      "targetId": "id17729126",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id84e27e60",
+      "sourceId": "f3aca",
+      "targetId": "f96e9",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id868b121",
+      "sourceId": "a1597",
+      "targetId": "dc7ec",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id8ca306b4",
+      "sourceId": "ed81e",
+      "targetId": "id5e8689e2",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id8cc72654",
+      "sourceId": "ed81e",
+      "targetId": "id84e27e60",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "idb8a775c5",
+      "sourceId": "a8fa2",
+      "targetId": "f3aca",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "idb964356d",
+      "sourceId": "a57d3",
+      "targetId": "idfe156a2e",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "idbcc51d5",
+      "sourceId": "bbf76",
+      "targetId": "idb8a775c5",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "idc7507684",
+      "sourceId": "a296e",
+      "targetId": "idfe1da3ee",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "idda029de7",
+      "sourceId": "e9b05",
+      "targetId": "f72b7",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "ide6f794d8",
+      "sourceId": "b7d42",
+      "targetId": "a8fa2",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "idfd9dd96a",
+      "sourceId": "e5617",
+      "targetId": "fe2de",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "idfe156a2e",
+      "sourceId": "dc7ec",
+      "targetId": "e9b05",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "idfe1da3ee",
+      "sourceId": "dd11b",
+      "targetId": "e9b05",
+      "types": [
+        "conversion"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "a1597",
+      "geneNames": null,
+      "type": "compound",
+      "x": 115.94444444444437,
+      "y": 390.0,
+      "label": "Palmitic Acid",
+      "groupId": null,
+      "referenceDatabase": "LIPID MAPS",
+      "referenceId": "LMFA01010001"
+    },
+    {
+      "id": "a296e",
+      "geneNames": [
+        "ACSL1\net al"
+      ],
+      "type": "gene_protein",
+      "x": 209.62962962962948,
+      "y": 350.15740740740733,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P33121",
+      "uniprotAccs": [
+        "P33121"
+      ]
+    },
+    {
+      "id": "a57d3",
+      "geneNames": [
+        "FADS2"
+      ],
+      "type": "gene_protein",
+      "x": 204.94444444444414,
+      "y": 241.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "O95864",
+      "uniprotAccs": [
+        "O95864"
+      ]
+    },
+    {
+      "id": "a8fa2",
+      "geneNames": null,
+      "type": "compound",
+      "x": 718.9818629512056,
+      "y": 300.0,
+      "label": "Sebaleic acid",
+      "groupId": null,
+      "referenceDatabase": "LIPID MAPS",
+      "referenceId": "LMFA01030323"
+    },
+    {
+      "id": "b647c",
+      "geneNames": null,
+      "type": "compound",
+      "x": 932.981481481479,
+      "y": 548.0,
+      "label": "5-oxo-18-ODE",
+      "groupId": null,
+      "referenceDatabase": "LIPID MAPS",
+      "referenceId": "LMFA02000396"
+    },
+    {
+      "id": "b7d42",
+      "geneNames": null,
+      "type": "compound",
+      "x": 587.9814814814813,
+      "y": 299.0,
+      "label": "Sebaleoyl CoA",
+      "groupId": null,
+      "referenceDatabase": "LIPID MAPS",
+      "referenceId": "LMFA07050490"
+    },
+    {
+      "id": "bbf76",
+      "geneNames": [
+        "ALOX5"
+      ],
+      "type": "gene_protein",
+      "x": 656.9814814814797,
+      "y": 351.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P09917",
+      "uniprotAccs": [
+        "P09917"
+      ]
+    },
+    {
+      "id": "dc7ec",
+      "geneNames": null,
+      "type": "compound",
+      "x": 115.94444444444437,
+      "y": 300.75,
+      "label": "Palmitoyl CoA",
+      "groupId": null,
+      "referenceDatabase": "LIPID MAPS",
+      "referenceId": "LMFA07050360"
+    },
+    {
+      "id": "dd11b",
+      "geneNames": null,
+      "type": "compound",
+      "x": 293.19444444444366,
+      "y": 390.0,
+      "label": "Sapienic acid",
+      "groupId": null,
+      "referenceDatabase": "LIPID MAPS",
+      "referenceId": "LMFA01030267"
+    },
+    {
+      "id": "deab8",
+      "geneNames": null,
+      "type": "compound",
+      "x": 932.981481481479,
+      "y": 420.0,
+      "label": "5-KODE",
+      "groupId": null,
+      "referenceDatabase": "LIPID MAPS",
+      "referenceId": "LMFA02000395"
+    },
+    {
+      "id": "e1c78",
+      "geneNames": [
+        "Unidentified"
+      ],
+      "type": "gene_protein",
+      "x": 814.981481481479,
+      "y": 371.89746416758544,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "e5617",
+      "geneNames": [
+        "FADS1"
+      ],
+      "type": "gene_protein",
+      "x": 512.9814814814831,
+      "y": 239.21630094043888,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "O60427",
+      "uniprotAccs": [
+        "O60427"
+      ]
+    },
+    {
+      "id": "e9b05",
+      "geneNames": null,
+      "type": "compound",
+      "x": 293.19444444444366,
+      "y": 300.75,
+      "label": "Sapienoyl-CoA",
+      "groupId": null,
+      "referenceDatabase": "LIPID MAPS",
+      "referenceId": "LMFA07050488"
+    },
+    {
+      "id": "ed81e",
+      "geneNames": [
+        "CYP4F3"
+      ],
+      "type": "gene_protein",
+      "x": 832.981481481479,
+      "y": 488.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "Q08477",
+      "uniprotAccs": [
+        "Q08477"
+      ]
+    },
+    {
+      "id": "f3aca",
+      "geneNames": null,
+      "type": "compound",
+      "x": 718.9818629512056,
+      "y": 420.0,
+      "label": "5S-HODE",
+      "groupId": null,
+      "referenceDatabase": "LIPID MAPS",
+      "referenceId": "LMFA02000394"
+    },
+    {
+      "id": "f72b7",
+      "geneNames": null,
+      "type": "compound",
+      "x": 449.9814814814827,
+      "y": 299.0,
+      "label": "8Z-octadecenoyl-CoA",
+      "groupId": null,
+      "referenceDatabase": "LIPID MAPS",
+      "referenceId": "LMFA07050489"
+    },
+    {
+      "id": "f96e9",
+      "geneNames": null,
+      "type": "compound",
+      "x": 718.9818629512056,
+      "y": 548.0,
+      "label": "5S-18-DiODE",
+      "groupId": null,
+      "referenceDatabase": "LIPID MAPS",
+      "referenceId": "LMFA02000397"
+    }
+  ]
+}

@@ -1,0 +1,408 @@
+{
+  "pathway": {
+    "name": "WP4211",
+    "org": "Homo sapiens",
+    "title": "Transcriptional cascade regulating adipogenesis"
+  },
+  "links": [
+    {
+      "id": "id13a2ad42",
+      "sourceId": "a0e05",
+      "targetId": "e35a1",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "id21126164",
+      "sourceId": "abce6",
+      "targetId": "a0e05",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id21c051e4",
+      "sourceId": "a31d4",
+      "targetId": "e4e52",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id241458b0",
+      "sourceId": "fad43",
+      "targetId": "e6700",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "id2b039924",
+      "sourceId": "e6700",
+      "targetId": "e35a1",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "id3e7c3f09",
+      "sourceId": "c30c1",
+      "targetId": "a0e05",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "id6173bc07",
+      "sourceId": "e6700",
+      "targetId": "a0e05",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "id7ad5c3c4",
+      "sourceId": "d513f",
+      "targetId": "e6700",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "id88d03025",
+      "sourceId": "defe5",
+      "targetId": "e4e52",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "id915c01b6",
+      "sourceId": "c30c1",
+      "targetId": "e6700",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "id9658a5a3",
+      "sourceId": "f4205",
+      "targetId": "e4e52",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "ida9ea02f3",
+      "sourceId": "e9cfe",
+      "targetId": "e6700",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "idd82be1ff",
+      "sourceId": "a0e05",
+      "targetId": "e6700",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "ideb86cddf",
+      "sourceId": "f0ffa",
+      "targetId": "e4e52",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "idee8120ab",
+      "sourceId": "abce6",
+      "targetId": "e6700",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "idf206907f",
+      "sourceId": "b3967",
+      "targetId": "e6700",
+      "types": [
+        "stimulation"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "e4603",
+      "geneNames": [
+        "GATA2"
+      ],
+      "type": "gene_protein",
+      "x": 293.9587227240942,
+      "y": 392.13490117583865,
+      "label": null,
+      "groupId": "abce6",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000179348",
+      "uniprotAccs": [
+        "P23769",
+        "A0A1D5RMQ8",
+        "A0A8Q3SJG7",
+        "A0A8Q3WLD0",
+        "A0A8Q3WMC3",
+        "C9J965"
+      ]
+    },
+    {
+      "id": "fefa0",
+      "geneNames": [
+        "GATA3"
+      ],
+      "type": "gene_protein",
+      "x": 293.9587227240942,
+      "y": 412.13490117583865,
+      "label": null,
+      "groupId": "abce6",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000107485",
+      "uniprotAccs": [
+        "P23771",
+        "A0A2R8Y2A9",
+        "A0A2R8Y4T2",
+        "A0A994J6H6"
+      ]
+    },
+    {
+      "id": "a0e05",
+      "geneNames": [
+        "CEBPA"
+      ],
+      "type": "gene_protein",
+      "x": 361.5102327778902,
+      "y": 285.8987518468595,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000245848",
+      "uniprotAccs": [
+        "P49715"
+      ]
+    },
+    {
+      "id": "a31d4",
+      "geneNames": [
+        "CEBPG"
+      ],
+      "type": "gene_protein",
+      "x": 51.427554123289596,
+      "y": 163.24804104477641,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000153879",
+      "uniprotAccs": [
+        "P53567"
+      ]
+    },
+    {
+      "id": "b3967",
+      "geneNames": [
+        "KLF5"
+      ],
+      "type": "gene_protein",
+      "x": 294.7527765086138,
+      "y": 85.52794403831162,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000102554",
+      "uniprotAccs": [
+        "Q13887"
+      ]
+    },
+    {
+      "id": "d513f",
+      "geneNames": [
+        "SREBF1"
+      ],
+      "type": "gene_protein",
+      "x": 260.5013074508404,
+      "y": 125.97802611094173,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000072310",
+      "uniprotAccs": [
+        "P36956",
+        "F6V242",
+        "J3QLB6",
+        "K7EIW8",
+        "K7EKR7",
+        "K7EMD1",
+        "K7EMT8",
+        "S4R3B4"
+      ]
+    },
+    {
+      "id": "defe5",
+      "geneNames": [
+        "CEBPD"
+      ],
+      "type": "gene_protein",
+      "x": 166.0762126865671,
+      "y": 265.9700559701494,
+      "label": null,
+      "groupId": "c30c1",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000221869",
+      "uniprotAccs": [
+        "P49716"
+      ]
+    },
+    {
+      "id": "e4e52",
+      "geneNames": [
+        "CEBPB"
+      ],
+      "type": "gene_protein",
+      "x": 166.0762126865671,
+      "y": 224.1119402985077,
+      "label": null,
+      "groupId": "c30c1",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000172216",
+      "uniprotAccs": [
+        "P17676"
+      ]
+    },
+    {
+      "id": "e6700",
+      "geneNames": [
+        "PPARG"
+      ],
+      "type": "gene_protein",
+      "x": 361.5102327778902,
+      "y": 194.1709533393965,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000132170",
+      "uniprotAccs": [
+        "P37231",
+        "A0A3P3ZKM0",
+        "A0A494C012",
+        "A0A494C0D9",
+        "A0A494C0T3",
+        "A0A499FIV4",
+        "A0A804HIG1",
+        "A0A804HJN2",
+        "A0A804HL89",
+        "A0A804HLH1",
+        "E7EU07",
+        "E7EUD1",
+        "E9PFV2",
+        "E9PFV3",
+        "E9PFX5",
+        "Q6L9M1"
+      ]
+    },
+    {
+      "id": "e9cfe",
+      "geneNames": [
+        "KLF2"
+      ],
+      "type": "gene_protein",
+      "x": 435.78918502724434,
+      "y": 85.5279440383116,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000127528",
+      "uniprotAccs": [
+        "Q9Y5W3",
+        "K7EJ60"
+      ]
+    },
+    {
+      "id": "f0ffa",
+      "geneNames": [
+        "EGR2"
+      ],
+      "type": "gene_protein",
+      "x": 51.427554123289596,
+      "y": 224.1119402985077,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000122877",
+      "uniprotAccs": [
+        "P11161",
+        "A0A1B0GUL0",
+        "A0A8I5KVU0",
+        "A0A8I5KYI5",
+        "A0A8I5QL03"
+      ]
+    },
+    {
+      "id": "f4205",
+      "geneNames": [
+        "DDIT3"
+      ],
+      "type": "gene_protein",
+      "x": 51.427554123289596,
+      "y": 193.24804104477641,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000175197",
+      "uniprotAccs": [
+        "P35638",
+        "F8W133"
+      ]
+    },
+    {
+      "id": "fad43",
+      "geneNames": [
+        "KLF15"
+      ],
+      "type": "gene_protein",
+      "x": 361.5102327778902,
+      "y": 54.688941770737934,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000163884",
+      "uniprotAccs": [
+        "Q9UIH9"
+      ]
+    },
+    {
+      "id": "e35a1",
+      "geneNames": null,
+      "type": "misc",
+      "x": 534.9071787110356,
+      "y": 246.44053171641804,
+      "label": " Genes of terminal\n adipocyte\n differentiation",
+      "groupId": null
+    },
+    {
+      "id": "abce6",
+      "type": "group",
+      "components": [
+        "e4603",
+        "fefa0"
+      ]
+    },
+    {
+      "id": "c30c1",
+      "type": "group",
+      "components": [
+        "defe5",
+        "e4e52"
+      ]
+    }
+  ]
+}

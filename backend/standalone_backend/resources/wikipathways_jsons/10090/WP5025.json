@@ -1,0 +1,447 @@
+{
+  "pathway": {
+    "name": "WP5025",
+    "org": "Mus musculus",
+    "title": "Hypoxia-dependent differentiation of myoblasts"
+  },
+  "links": [
+    {
+      "id": "id1846ef10",
+      "sourceId": "d9f0e",
+      "targetId": "b638a",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id357be3e9",
+      "sourceId": "fcacf",
+      "targetId": "e9872",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id391867cd",
+      "sourceId": "d9f0e",
+      "targetId": "afff5",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id3ecb8dec",
+      "sourceId": "fd81d",
+      "targetId": "cd85c",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id4c03b02c",
+      "sourceId": "d9f0e",
+      "targetId": "fd81d",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id4fd56cc7",
+      "sourceId": "d9f0e",
+      "targetId": "bee2a",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id51420a36",
+      "sourceId": "aaafe",
+      "targetId": "d9f0e",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id59879e9b",
+      "sourceId": "cd85c",
+      "targetId": "eb993",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id9124f15f",
+      "sourceId": "d9f0e",
+      "targetId": "e9872",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id9462d2a1",
+      "sourceId": "d9f0e",
+      "targetId": "ba107",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id9ef15076",
+      "sourceId": "aa59c",
+      "targetId": "d9f0e",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "ida2430273",
+      "sourceId": "d9f0e",
+      "targetId": "cd85c",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ide0af4216",
+      "sourceId": "d9f0e",
+      "targetId": "a6878",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "idf6d95b54",
+      "sourceId": "efd40",
+      "targetId": "fcacf",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idfafd0fcf",
+      "sourceId": "d9f0e",
+      "targetId": "efd40",
+      "types": [
+        "activation"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "a6878",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 234.21068883947817,
+      "y": 417.1618458382884,
+      "label": "WNT canoncial\npathway",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "aaafe",
+      "geneNames": null,
+      "type": "misc",
+      "x": 636.0,
+      "y": 177.0,
+      "label": "Hypoxia",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "afff5",
+      "geneNames": [
+        "CDKN1A"
+      ],
+      "type": "gene_protein",
+      "x": 978.0,
+      "y": 419.0,
+      "label": null,
+      "groupId": "ed1a8",
+      "referenceDatabase": "GeneID",
+      "referenceId": "12575",
+      "uniprotAccs": [
+        "P39689",
+        "Q564P6"
+      ]
+    },
+    {
+      "id": "b4be9",
+      "geneNames": [
+        "MAPK14"
+      ],
+      "type": "gene_protein",
+      "x": 894.0,
+      "y": 238.0,
+      "label": null,
+      "groupId": "aa59c",
+      "referenceDatabase": "GeneID",
+      "referenceId": "26416",
+      "uniprotAccs": [
+        "P47811",
+        "Q5U421"
+      ]
+    },
+    {
+      "id": "ba107",
+      "geneNames": [
+        "MYF5"
+      ],
+      "type": "gene_protein",
+      "x": 444.8965290035674,
+      "y": 417.1618458382884,
+      "label": null,
+      "groupId": "ad3d4",
+      "referenceDatabase": "GeneID",
+      "referenceId": "17877",
+      "uniprotAccs": [
+        "P24699",
+        "A2RSK4"
+      ]
+    },
+    {
+      "id": "ba360",
+      "geneNames": [
+        "MYF6"
+      ],
+      "type": "gene_protein",
+      "x": 444.8965290035674,
+      "y": 449.0,
+      "label": null,
+      "groupId": "ad3d4",
+      "referenceDatabase": "GeneID",
+      "referenceId": "17878",
+      "uniprotAccs": [
+        "P15375",
+        "Q0VEJ7"
+      ]
+    },
+    {
+      "id": "bee2a",
+      "geneNames": [
+        "Notch-pathway"
+      ],
+      "type": "gene_protein",
+      "x": 342.2978056426333,
+      "y": 268.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "18128",
+      "uniprotAccs": [
+        "Q01705"
+      ]
+    },
+    {
+      "id": "c5eaa",
+      "geneNames": [
+        "PHD2"
+      ],
+      "type": "gene_protein",
+      "x": 894.0,
+      "y": 268.0,
+      "label": null,
+      "groupId": "aa59c",
+      "referenceDatabase": "GeneID",
+      "referenceId": "112405",
+      "uniprotAccs": [
+        "Q91YE3"
+      ]
+    },
+    {
+      "id": "cad31",
+      "geneNames": [
+        "CDNK1B"
+      ],
+      "type": "gene_protein",
+      "x": 978.0,
+      "y": 449.0,
+      "label": null,
+      "groupId": "ed1a8",
+      "referenceDatabase": "GeneID",
+      "referenceId": "12576",
+      "uniprotAccs": [
+        "P46414"
+      ]
+    },
+    {
+      "id": "cd85c",
+      "geneNames": [
+        "miR210"
+      ],
+      "type": "gene_protein",
+      "x": 856.5153168347213,
+      "y": 417.1618458382884,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "cff18",
+      "geneNames": [
+        "HIF1AN"
+      ],
+      "type": "gene_protein",
+      "x": 894.0,
+      "y": 298.0,
+      "label": null,
+      "groupId": "aa59c",
+      "referenceDatabase": "GeneID",
+      "referenceId": "319594",
+      "uniprotAccs": [
+        "Q8BLR9"
+      ]
+    },
+    {
+      "id": "d9f0e",
+      "geneNames": [
+        "HIF1A"
+      ],
+      "type": "gene_protein",
+      "x": 636.0,
+      "y": 268.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "15251",
+      "uniprotAccs": [
+        "Q61221",
+        "A0A0R4J1E9",
+        "Q3UCW2"
+      ]
+    },
+    {
+      "id": "e6e68",
+      "geneNames": [
+        "MYH"
+      ],
+      "type": "gene_protein",
+      "x": 444.8965290035674,
+      "y": 482.0,
+      "label": null,
+      "groupId": "ad3d4",
+      "referenceDatabase": "GeneID",
+      "referenceId": "17879",
+      "uniprotAccs": [
+        "Q5SX40"
+      ]
+    },
+    {
+      "id": "e9872",
+      "geneNames": [
+        "MYOG"
+      ],
+      "type": "gene_protein",
+      "x": 539.9482645017838,
+      "y": 417.1618458382884,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "17928",
+      "uniprotAccs": [
+        "P12979"
+      ]
+    },
+    {
+      "id": "eb993",
+      "geneNames": null,
+      "type": "misc",
+      "x": 856.5153168347213,
+      "y": 483.0,
+      "label": "Myotube survival",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "efd40",
+      "geneNames": [
+        "TP53"
+      ],
+      "type": "gene_protein",
+      "x": 636.0,
+      "y": 490.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "fcacf",
+      "geneNames": [
+        "BHLHE40"
+      ],
+      "type": "gene_protein",
+      "x": 636.0,
+      "y": 552.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "20893",
+      "uniprotAccs": [
+        "O35185",
+        "Q542A5"
+      ]
+    },
+    {
+      "id": "fd81d",
+      "geneNames": [
+        "VEGF"
+      ],
+      "type": "gene_protein",
+      "x": 702.0,
+      "y": 417.1618458382884,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "22339",
+      "uniprotAccs": [
+        "Q00731"
+      ]
+    },
+    {
+      "id": "b638a",
+      "geneNames": [
+        "HGF"
+      ],
+      "type": "gene_protein",
+      "x": 338.9482645017838,
+      "y": 418.1618458382884,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "17928",
+      "uniprotAccs": [
+        "P12979"
+      ]
+    },
+    {
+      "id": "aa59c",
+      "type": "group",
+      "components": [
+        "b4be9",
+        "c5eaa",
+        "cff18"
+      ]
+    },
+    {
+      "id": "ad3d4",
+      "type": "group",
+      "components": [
+        "ba107",
+        "ba360",
+        "e6e68"
+      ]
+    },
+    {
+      "id": "ed1a8",
+      "type": "group",
+      "components": [
+        "afff5",
+        "cad31"
+      ]
+    }
+  ]
+}

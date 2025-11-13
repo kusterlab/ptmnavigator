@@ -1,0 +1,418 @@
+{
+  "pathway": {
+    "name": "WP5195",
+    "org": "Homo sapiens",
+    "title": "Disorders in ketolysis"
+  },
+  "links": [
+    {
+      "id": "c6959",
+      "sourceId": "b891f",
+      "targetId": "f9ea0",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id33dc99f8",
+      "sourceId": "c8826",
+      "targetId": "e3c75",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id403dc952",
+      "sourceId": "a2c2e",
+      "targetId": "b891f",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id4a0ee10",
+      "sourceId": "e4427",
+      "targetId": "id403dc952",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id4c6868de",
+      "sourceId": "ida8a1bbc7",
+      "targetId": "af38b",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id607f9f00",
+      "sourceId": "acd61",
+      "targetId": "id8e4952e8",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id731e4b9d",
+      "sourceId": "id8e4952e8",
+      "targetId": "dcd7f",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id8d59b2b5",
+      "sourceId": "ida8a1bbc7",
+      "targetId": "f934a",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id8e4952e8",
+      "sourceId": "e9733",
+      "targetId": "b88ec",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id8fc8f8ad",
+      "sourceId": "f012f",
+      "targetId": "id33dc99f8",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id9f6419f3",
+      "sourceId": "ff925",
+      "targetId": "ide90d867b",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "ida53ec0a9",
+      "sourceId": "f5ced",
+      "targetId": "ida8a1bbc7",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "ida8a1bbc7",
+      "sourceId": "c8826",
+      "targetId": "e9733",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "idc75204f8",
+      "sourceId": "ida8a1bbc7",
+      "targetId": "aefb7",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "ide1005f5b",
+      "sourceId": "db891",
+      "targetId": "id8e4952e8",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "ide7afecf5",
+      "sourceId": "ide90d867b",
+      "targetId": "cd5fa",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ide90d867b",
+      "sourceId": "b88ec",
+      "targetId": "a2c2e",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "idf45c458",
+      "sourceId": "e3142",
+      "targetId": "id403dc952",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "e68a3",
+      "sourceId": "e3142",
+      "targetId": "ide90d867b",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id6d0d0786",
+      "sourceId": "b891f",
+      "targetId": "f1f9c",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "aa3f3",
+      "sourceId": "id8e4952e8",
+      "targetId": "e3142",
+      "types": [
+        "conversion"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "f1f9c",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 332.1364861697096,
+      "y": 695.5051570557908,
+      "label": "Cholesterol synthesis",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP197"
+    },
+    {
+      "id": "acd61",
+      "geneNames": null,
+      "type": "compound",
+      "x": 451.21518987341517,
+      "y": 298.35700890764184,
+      "label": "HSCoA",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:15346"
+    },
+    {
+      "id": "aefb7",
+      "geneNames": null,
+      "type": "compound",
+      "x": 325.7707454289742,
+      "y": 249.81997187060466,
+      "label": "succinyl-CoA",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:15380"
+    },
+    {
+      "id": "af38b",
+      "geneNames": null,
+      "type": "compound",
+      "x": 431.770745428972,
+      "y": 249.81997187060466,
+      "label": "succinate",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:30031"
+    },
+    {
+      "id": "b88ec",
+      "geneNames": null,
+      "type": "compound",
+      "x": 546.7707454289689,
+      "y": 460.81997187060466,
+      "label": "Acetyl-CoA",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0001206"
+    },
+    {
+      "id": "b891f",
+      "geneNames": null,
+      "type": "compound",
+      "x": 332.13648616971454,
+      "y": 536.8199718706047,
+      "label": "HMG-CoA",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:15467"
+    },
+    {
+      "id": "c8826",
+      "geneNames": null,
+      "type": "compound",
+      "x": 226.27074542897395,
+      "y": 183.81997187060466,
+      "label": "acetoacetate",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:13705"
+    },
+    {
+      "id": "db891",
+      "geneNames": [
+        "MAT"
+      ],
+      "type": "gene_protein",
+      "x": 603.1874120956358,
+      "y": 305.3014533520863,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P24752",
+      "uniprotAccs": [
+        "P24752"
+      ]
+    },
+    {
+      "id": "e3c75",
+      "geneNames": null,
+      "type": "compound",
+      "x": 226.27074542897395,
+      "y": 412.81997187060466,
+      "label": "3-hydroxybutyric acid",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "20067"
+    },
+    {
+      "id": "e4427",
+      "geneNames": [
+        "HMCS1"
+      ],
+      "type": "gene_protein",
+      "x": 251.01148616971494,
+      "y": 496.9773792780121,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "Q01581",
+      "uniprotAccs": [
+        "Q01581"
+      ]
+    },
+    {
+      "id": "e9733",
+      "geneNames": null,
+      "type": "compound",
+      "x": 546.7707454289691,
+      "y": 183.81997187060466,
+      "label": "Acetoacetyl-CoA",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0001484"
+    },
+    {
+      "id": "f012f",
+      "geneNames": [
+        "BDH1"
+      ],
+      "type": "gene_protein",
+      "x": 160.77074542897395,
+      "y": 291.81997187060466,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "Q02338",
+      "uniprotAccs": [
+        "Q02338"
+      ]
+    },
+    {
+      "id": "f5ced",
+      "geneNames": [
+        "SCOT1"
+      ],
+      "type": "gene_protein",
+      "x": 381.77074542897304,
+      "y": 145.81997187060466,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P55809",
+      "uniprotAccs": [
+        "P55809"
+      ]
+    },
+    {
+      "id": "ff925",
+      "geneNames": [
+        "CT"
+      ],
+      "type": "gene_protein",
+      "x": 442.4837083919358,
+      "y": 420.4958977965303,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "Q9BWD1",
+      "uniprotAccs": [
+        "Q9BWD1"
+      ]
+    },
+    {
+      "id": "e3142",
+      "geneNames": null,
+      "type": "compound",
+      "x": 546.7707454289689,
+      "y": 497.39404594467885,
+      "label": "Acetyl-CoA",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0001206"
+    },
+    {
+      "id": "a2c2e",
+      "geneNames": null,
+      "type": "compound",
+      "x": 332.1364861697148,
+      "y": 460.81997187060466,
+      "label": "Acetoacetyl-CoA",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0001484"
+    },
+    {
+      "id": "f9ea0",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 332.1364861697096,
+      "y": 743.6301570557916,
+      "label": "Cholesterol synthesis\ndisorders",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP5193"
+    },
+    {
+      "id": "cd5fa",
+      "geneNames": null,
+      "type": "misc",
+      "x": 488.9003750586025,
+      "y": 554.6671940928269,
+      "label": "Cytosolic acetoacetyl-CoA \nthiolase deficiency",
+      "groupId": null
+    },
+    {
+      "id": "dcd7f",
+      "geneNames": null,
+      "type": "misc",
+      "x": 656.1179676511908,
+      "y": 267.43149320206277,
+      "label": "Methylacetoacetyl-CoA \nthiolase deficiency",
+      "groupId": null
+    },
+    {
+      "id": "f934a",
+      "geneNames": null,
+      "type": "misc",
+      "x": 556.7707454289705,
+      "y": 99.06997187060469,
+      "label": "Succinyl-CoA:3-oxoacid \nCoA transferase deficiency",
+      "groupId": null
+    }
+  ]
+}

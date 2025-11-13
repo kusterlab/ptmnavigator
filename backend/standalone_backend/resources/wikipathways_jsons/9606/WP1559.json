@@ -1,0 +1,360 @@
+{
+  "pathway": {
+    "name": "WP1559",
+    "org": "Homo sapiens",
+    "title": "Transcription factors regulate miRNAs related to cardiac hypertrophy"
+  },
+  "links": [
+    {
+      "id": "id1da1f434",
+      "sourceId": "ef514",
+      "targetId": "c58c0",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id683b2bd5",
+      "sourceId": "cef92",
+      "targetId": "d14a4",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id8e1a1f97",
+      "sourceId": "d798b",
+      "targetId": "bb83a",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id974a1e8a",
+      "sourceId": "c6fdc",
+      "targetId": "a0346",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idcf4c2738",
+      "sourceId": "afb71",
+      "targetId": "d96d5",
+      "types": [
+        "inhibition"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "a0346",
+      "geneNames": [
+        "hsa-mir-21"
+      ],
+      "type": "gene_protein",
+      "x": 152.0,
+      "y": 229.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000284190",
+      "uniprotAccs": null
+    },
+    {
+      "id": "ae9b8",
+      "geneNames": [
+        "hsa-mir-125b-2"
+      ],
+      "type": "gene_protein",
+      "x": 699.0,
+      "y": 229.0,
+      "label": null,
+      "groupId": "bb83a",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000207863",
+      "uniprotAccs": null
+    },
+    {
+      "id": "b2ee8",
+      "geneNames": [
+        "NFkB"
+      ],
+      "type": "gene_protein",
+      "x": 619.0,
+      "y": 131.0,
+      "label": null,
+      "groupId": "d798b",
+      "referenceDatabase": "GeneID",
+      "referenceId": "4790",
+      "uniprotAccs": [
+        "P19838"
+      ]
+    },
+    {
+      "id": "b885e",
+      "geneNames": [
+        "hsa-mir-125b-1"
+      ],
+      "type": "gene_protein",
+      "x": 619.0,
+      "y": 229.0,
+      "label": null,
+      "groupId": "bb83a",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000207971",
+      "uniprotAccs": null
+    },
+    {
+      "id": "bdc35",
+      "geneNames": [
+        "NFkB"
+      ],
+      "type": "gene_protein",
+      "x": 505.0,
+      "y": 112.0,
+      "label": null,
+      "groupId": "afb71",
+      "referenceDatabase": "GeneID",
+      "referenceId": "4790",
+      "uniprotAccs": [
+        "P19838"
+      ]
+    },
+    {
+      "id": "c2d59",
+      "geneNames": [
+        "RAS"
+      ],
+      "type": "gene_protein",
+      "x": 232.0,
+      "y": 133.0,
+      "label": null,
+      "groupId": "c6fdc",
+      "referenceDatabase": "GeneID",
+      "referenceId": "5923",
+      "uniprotAccs": [
+        "Q13972",
+        "A8K270",
+        "Q8IUU5"
+      ]
+    },
+    {
+      "id": "c3d2f",
+      "geneNames": [
+        "MIR1-2"
+      ],
+      "type": "gene_protein",
+      "x": 403.75,
+      "y": 229.0,
+      "label": null,
+      "groupId": "c58c0",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000284453",
+      "uniprotAccs": null
+    },
+    {
+      "id": "c7741",
+      "geneNames": [
+        "AKT1"
+      ],
+      "type": "gene_protein",
+      "x": 699.0,
+      "y": 131.0,
+      "label": null,
+      "groupId": "d798b",
+      "referenceDatabase": "GeneID",
+      "referenceId": "207",
+      "uniprotAccs": [
+        "P31749",
+        "B0LPE5",
+        "B3KVH4"
+      ]
+    },
+    {
+      "id": "cef92",
+      "geneNames": [
+        "Calcineurin"
+      ],
+      "type": "gene_protein",
+      "x": 801.0,
+      "y": 130.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "5534",
+      "uniprotAccs": [
+        "P63098"
+      ]
+    },
+    {
+      "id": "d14a4",
+      "geneNames": [
+        "hsa-mir-133b"
+      ],
+      "type": "gene_protein",
+      "x": 801.0,
+      "y": 229.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000199080",
+      "uniprotAccs": null
+    },
+    {
+      "id": "d5e1b",
+      "geneNames": [
+        "AKT1"
+      ],
+      "type": "gene_protein",
+      "x": 152.75,
+      "y": 133.25,
+      "label": null,
+      "groupId": "c6fdc",
+      "referenceDatabase": "GeneID",
+      "referenceId": "207",
+      "uniprotAccs": [
+        "P31749",
+        "B0LPE5",
+        "B3KVH4"
+      ]
+    },
+    {
+      "id": "d96d5",
+      "geneNames": [
+        "MIR29A"
+      ],
+      "type": "gene_protein",
+      "x": 505.0,
+      "y": 229.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000284032",
+      "uniprotAccs": null
+    },
+    {
+      "id": "ddb72",
+      "geneNames": [
+        "hsa-mir-1-1"
+      ],
+      "type": "gene_protein",
+      "x": 323.75,
+      "y": 229.0,
+      "label": null,
+      "groupId": "c58c0",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000199017",
+      "uniprotAccs": null
+    },
+    {
+      "id": "e80ed",
+      "geneNames": [
+        "TGFbeta"
+      ],
+      "type": "gene_protein",
+      "x": 505.0,
+      "y": 132.0,
+      "label": null,
+      "groupId": "afb71",
+      "referenceDatabase": "GeneID",
+      "referenceId": "7040",
+      "uniprotAccs": [
+        "P01137",
+        "A0A499FJK2"
+      ]
+    },
+    {
+      "id": "ef514",
+      "geneNames": [
+        "MEF-2"
+      ],
+      "type": "gene_protein",
+      "x": 363.0,
+      "y": 133.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "50804",
+      "uniprotAccs": [
+        "Q9P2K5"
+      ]
+    },
+    {
+      "id": "f6fb9",
+      "geneNames": [
+        "AKT2"
+      ],
+      "type": "gene_protein",
+      "x": 152.75,
+      "y": 113.25,
+      "label": null,
+      "groupId": "c6fdc",
+      "referenceDatabase": "GeneID",
+      "referenceId": "208",
+      "uniprotAccs": [
+        "P31751",
+        "B4DG79"
+      ]
+    },
+    {
+      "id": "fc1c9",
+      "geneNames": [
+        "STAT3"
+      ],
+      "type": "gene_protein",
+      "x": 72.0,
+      "y": 133.0,
+      "label": null,
+      "groupId": "c6fdc",
+      "referenceDatabase": "GeneID",
+      "referenceId": "6774",
+      "uniprotAccs": [
+        "P40763",
+        "A0A7I2V395"
+      ]
+    },
+    {
+      "id": "afb71",
+      "type": "group",
+      "components": [
+        "bdc35",
+        "e80ed"
+      ]
+    },
+    {
+      "id": "bb83a",
+      "type": "group",
+      "components": [
+        "ae9b8",
+        "b885e"
+      ]
+    },
+    {
+      "id": "c58c0",
+      "type": "group",
+      "components": [
+        "c3d2f",
+        "ddb72"
+      ]
+    },
+    {
+      "id": "c6fdc",
+      "type": "group",
+      "components": [
+        "c2d59",
+        "d5e1b",
+        "f6fb9",
+        "fc1c9"
+      ]
+    },
+    {
+      "id": "d798b",
+      "type": "group",
+      "components": [
+        "b2ee8",
+        "c7741"
+      ]
+    }
+  ]
+}

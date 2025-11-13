@@ -1,0 +1,562 @@
+{
+  "pathway": {
+    "name": "WP1531",
+    "org": "Homo sapiens",
+    "title": "Vitamin D metabolism"
+  },
+  "links": [
+    {
+      "id": "ac27b",
+      "sourceId": "c72dd",
+      "targetId": "id3edf95c8",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "b6cd3",
+      "sourceId": "cbc34",
+      "targetId": "id44f7d0a6",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "becb8",
+      "sourceId": "ide926490f",
+      "targetId": "fb5c0",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "f41a2",
+      "sourceId": "a9fb3",
+      "targetId": "e42dc",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id3306118f",
+      "sourceId": "a5036",
+      "targetId": "a3330",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id3a3d310",
+      "sourceId": "a5036",
+      "targetId": "ba01d",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id3edf95c8",
+      "sourceId": "ba01d",
+      "targetId": "d69a4",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "id402e7170",
+      "sourceId": "b3aa4",
+      "targetId": "e26ee",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "id44f7d0a6",
+      "sourceId": "b7c22",
+      "targetId": "dc335",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id4f4dd7e8",
+      "sourceId": "d69a4",
+      "targetId": "c7c40",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id52d502db",
+      "sourceId": "f2831",
+      "targetId": "id879db83f",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id646fbe27",
+      "sourceId": "ba01d",
+      "targetId": "e26ee",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "id6c5af5d8",
+      "sourceId": "e26ee",
+      "targetId": "id3306118f",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id867ef92",
+      "sourceId": "e42dc",
+      "targetId": "id3a3d310",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id879db83f",
+      "sourceId": "fd693",
+      "targetId": "b7c22",
+      "types": [
+        "modification"
+      ]
+    },
+    {
+      "id": "idaa80d2d4",
+      "sourceId": "ee55c",
+      "targetId": "ide926490f",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "idaf407315",
+      "sourceId": "bcdc9",
+      "targetId": "idc015bca4",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "idb2536244",
+      "sourceId": "a51a5",
+      "targetId": "a5036",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idba7e735a",
+      "sourceId": "b3aa4",
+      "targetId": "e42dc",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "idc015bca4",
+      "sourceId": "fd693",
+      "targetId": "de7a4",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "idd3589337",
+      "sourceId": "d140a",
+      "targetId": "idb2536244",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "ide926490f",
+      "sourceId": "dc335",
+      "targetId": "a51a5",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idf68b763e",
+      "sourceId": "bf5aa",
+      "targetId": "id4f4dd7e8",
+      "types": [
+        "undefined"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "a3330",
+      "geneNames": null,
+      "type": "compound",
+      "x": 1012.8959083633473,
+      "y": 421.9591911395338,
+      "label": "Inactive\n24,25-OH-\nvitamin D",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000430"
+    },
+    {
+      "id": "a4a3c",
+      "geneNames": [
+        "RXRA"
+      ],
+      "type": "gene_protein",
+      "x": 829.9228573728323,
+      "y": 754.1194520325887,
+      "label": null,
+      "groupId": "bf5aa",
+      "referenceDatabase": "GeneID",
+      "referenceId": "6256",
+      "uniprotAccs": [
+        "P19793",
+        "A0A5F9ZHH6",
+        "F1D8Q5",
+        "Q6P3U7"
+      ]
+    },
+    {
+      "id": "a5036",
+      "geneNames": null,
+      "type": "compound",
+      "x": 660.7085255270796,
+      "y": 421.9591911395338,
+      "label": "Calcidiol",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0003550"
+    },
+    {
+      "id": "a51a5",
+      "geneNames": null,
+      "type": "compound",
+      "x": 312.6490919548633,
+      "y": 421.9591911395338,
+      "label": "Calcidiol",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0003550"
+    },
+    {
+      "id": "b3aa4",
+      "geneNames": [
+        "Parathyroid hormone"
+      ],
+      "type": "gene_protein",
+      "x": 800.2817785328015,
+      "y": 512.2347805858262,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "5741",
+      "uniprotAccs": [
+        "P01270"
+      ]
+    },
+    {
+      "id": "b7c22",
+      "geneNames": null,
+      "type": "compound",
+      "x": 312.6490919548633,
+      "y": 196.29572384692023,
+      "label": "Previtamin D3",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:8403"
+    },
+    {
+      "id": "ba01d",
+      "geneNames": null,
+      "type": "compound",
+      "x": 660.7085255270797,
+      "y": 649.8942164470845,
+      "label": "Calcitriol",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0001903"
+    },
+    {
+      "id": "ba64b",
+      "geneNames": [
+        "CYP2R1 "
+      ],
+      "type": "gene_protein",
+      "x": 226.49016251061948,
+      "y": 371.66445239893267,
+      "label": null,
+      "groupId": "ee55c",
+      "referenceDatabase": "GeneID",
+      "referenceId": "120227",
+      "uniprotAccs": [
+        "Q6VVX0"
+      ]
+    },
+    {
+      "id": "bbd6c",
+      "geneNames": null,
+      "type": "compound",
+      "x": 876.6514824231788,
+      "y": 623.2849042694457,
+      "label": "Pi",
+      "groupId": "a9fb3",
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0001429"
+    },
+    {
+      "id": "bcdc9",
+      "geneNames": [
+        "DHCR7"
+      ],
+      "type": "gene_protein",
+      "x": 392.76947451373525,
+      "y": 70.44260022544654,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "1717",
+      "uniprotAccs": [
+        "Q9UBM7",
+        "A0A024R5F7"
+      ]
+    },
+    {
+      "id": "bfa93",
+      "geneNames": [
+        "CYP27A1"
+      ],
+      "type": "gene_protein",
+      "x": 226.49016251061948,
+      "y": 394.08111906559895,
+      "label": null,
+      "groupId": "ee55c",
+      "referenceDatabase": "GeneID",
+      "referenceId": "1593",
+      "uniprotAccs": [
+        "Q02318"
+      ]
+    },
+    {
+      "id": "c72dd",
+      "geneNames": [
+        "Vitamin D binding protein"
+      ],
+      "type": "gene_protein",
+      "x": 829.9228573728321,
+      "y": 693.1370872057851,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "2638",
+      "uniprotAccs": [
+        "P02774"
+      ]
+    },
+    {
+      "id": "d140a",
+      "geneNames": [
+        "alpha-globulin"
+      ],
+      "type": "gene_protein",
+      "x": 505.54836190308725,
+      "y": 473.54549880916693,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "d14a3",
+      "geneNames": [
+        "RXRB"
+      ],
+      "type": "gene_protein",
+      "x": 829.9228573728323,
+      "y": 777.1194520325885,
+      "label": null,
+      "groupId": "bf5aa",
+      "referenceDatabase": "GeneID",
+      "referenceId": "6257",
+      "uniprotAccs": [
+        "P28702",
+        "A0A0G2JKR7",
+        "A0A0S2Z570",
+        "B7Z7J5",
+        "Q5STP9"
+      ]
+    },
+    {
+      "id": "d69a4",
+      "geneNames": [
+        "VDR"
+      ],
+      "type": "gene_protein",
+      "x": 660.7085255270797,
+      "y": 723.426567805385,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "7421",
+      "uniprotAccs": [
+        "P11473",
+        "F1D8P8"
+      ]
+    },
+    {
+      "id": "dc335",
+      "geneNames": null,
+      "type": "compound",
+      "x": 312.6490919548633,
+      "y": 257.5005960920501,
+      "label": "Cholecalciferol",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000876"
+    },
+    {
+      "id": "de7a4",
+      "geneNames": null,
+      "type": "compound",
+      "x": 312.6490919548633,
+      "y": 39.021871202916174,
+      "label": "Cholesterol",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000067"
+    },
+    {
+      "id": "e26ee",
+      "geneNames": [
+        "CYP24A1"
+      ],
+      "type": "gene_protein",
+      "x": 917.9852620210139,
+      "y": 473.54549880916693,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "1591",
+      "uniprotAccs": [
+        "Q07973"
+      ]
+    },
+    {
+      "id": "e42dc",
+      "geneNames": [
+        "CYP27B1"
+      ],
+      "type": "gene_protein",
+      "x": 751.1847160032702,
+      "y": 572.2200079182135,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "1594",
+      "uniprotAccs": [
+        "O15528"
+      ]
+    },
+    {
+      "id": "f687e",
+      "geneNames": [
+        "Vitamin D binding protein"
+      ],
+      "type": "gene_protein",
+      "x": 463.8290694447569,
+      "y": 306.6933130317308,
+      "label": null,
+      "groupId": "fb5c0",
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P02774",
+      "uniprotAccs": [
+        "P02774"
+      ]
+    },
+    {
+      "id": "fd693",
+      "geneNames": null,
+      "type": "compound",
+      "x": 312.6490919548633,
+      "y": 106.91933537050156,
+      "label": "7-Dehydro-\ncholesterol",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000032"
+    },
+    {
+      "id": "ffd6c",
+      "geneNames": null,
+      "type": "compound",
+      "x": 849.651482423179,
+      "y": 623.2849042694457,
+      "label": "Ca",
+      "groupId": "a9fb3",
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000464"
+    },
+    {
+      "id": "a3a68",
+      "geneNames": null,
+      "type": "misc",
+      "x": 463.82906944475684,
+      "y": 278.48497969839696,
+      "label": "Vitamin D from Diet",
+      "groupId": "fb5c0"
+    },
+    {
+      "id": "cbc34",
+      "geneNames": null,
+      "type": "misc",
+      "x": 463.8290694447569,
+      "y": 222.630912405671,
+      "label": "Spontaneous isomerisation",
+      "groupId": null
+    },
+    {
+      "id": "f2831",
+      "geneNames": null,
+      "type": "misc",
+      "x": 463.8290694447569,
+      "y": 141.12878509680533,
+      "label": "UV B radiation from sunlight",
+      "groupId": null
+    },
+    {
+      "id": "a9fb3",
+      "type": "group",
+      "components": [
+        "bbd6c",
+        "ffd6c"
+      ]
+    },
+    {
+      "id": "bf5aa",
+      "type": "group",
+      "components": [
+        "a4a3c",
+        "d14a3"
+      ]
+    },
+    {
+      "id": "ee55c",
+      "type": "group",
+      "components": [
+        "ba64b",
+        "bfa93"
+      ]
+    },
+    {
+      "id": "fb5c0",
+      "type": "group",
+      "components": [
+        "f687e",
+        "a3a68"
+      ]
+    }
+  ]
+}

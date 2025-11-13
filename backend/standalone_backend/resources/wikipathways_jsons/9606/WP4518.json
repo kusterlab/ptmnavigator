@@ -1,0 +1,505 @@
+{
+  "pathway": {
+    "name": "WP4518",
+    "org": "Homo sapiens",
+    "title": "Gamma-glutamyl cycle for the biosynthesis and degradation of glutathione, including diseases"
+  },
+  "links": [
+    {
+      "id": "c0799",
+      "sourceId": "bcff7",
+      "targetId": "a1a9c",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "efb3a",
+      "sourceId": "f3e08",
+      "targetId": "c9a4e",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "e88cf",
+      "sourceId": "fbc3e",
+      "targetId": "efe5b",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "fa677",
+      "sourceId": "dc7ef",
+      "targetId": "fbbbb",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "cbdc7",
+      "sourceId": "f3e08",
+      "targetId": "efe5b",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "ed912",
+      "sourceId": "de82d",
+      "targetId": "c0799",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "c0551",
+      "sourceId": "e3dfd",
+      "targetId": "fbc3e",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "ec4c9",
+      "sourceId": "c6654",
+      "targetId": "ae0e8",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "a1ae2",
+      "sourceId": "f3e08",
+      "targetId": "aaf52",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "dc7ef",
+      "sourceId": "a1a9c",
+      "targetId": "fce97",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "ee852",
+      "sourceId": "c2ac7",
+      "targetId": "f3e08",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "fbc3e",
+      "sourceId": "e6d34",
+      "targetId": "ae0e8",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "e9007",
+      "sourceId": "d1b74",
+      "targetId": "e45fd",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "c6cb9",
+      "sourceId": "c0799",
+      "targetId": "f93bd",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "c6654",
+      "sourceId": "fce97",
+      "targetId": "fb3b4",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "ced6d",
+      "sourceId": "c9733",
+      "targetId": "dc7ef",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "def5b",
+      "sourceId": "b934e",
+      "targetId": "a21ab",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "eac43",
+      "sourceId": "ea836",
+      "targetId": "c6654",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "ee0fa",
+      "sourceId": "a21ab",
+      "targetId": "befcb",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "c73ed",
+      "sourceId": "c6654",
+      "targetId": "bf44b",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "f3e08",
+      "sourceId": "fb3b4",
+      "targetId": "d922d",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "a2770",
+      "sourceId": "c6654",
+      "targetId": "e9cb2",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "d1b74",
+      "sourceId": "d922d",
+      "targetId": "e6d34",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "a21ab",
+      "sourceId": "d922d",
+      "targetId": "bcff7",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "fb771",
+      "sourceId": "dc7ef",
+      "targetId": "dcbb5",
+      "types": [
+        "conversion"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "b4701",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 280.9090909090904,
+      "y": 193.6363636363636,
+      "label": "Leukotriene",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP5171"
+    },
+    {
+      "id": "fce97",
+      "geneNames": null,
+      "type": "compound",
+      "x": 631.4680361085448,
+      "y": 372.2310474537075,
+      "label": "Glutamate",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:14321"
+    },
+    {
+      "id": "b934e",
+      "geneNames": [
+        "GGT1"
+      ],
+      "type": "gene_protein",
+      "x": 299.8971341670432,
+      "y": 152.12324074073908,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P19440",
+      "uniprotAccs": [
+        "P19440"
+      ]
+    },
+    {
+      "id": "efe5b",
+      "geneNames": null,
+      "type": "compound",
+      "x": 493.2562670380348,
+      "y": 223.10240298279032,
+      "label": "Glycine",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:15428"
+    },
+    {
+      "id": "c2ac7",
+      "geneNames": [
+        "GSS"
+      ],
+      "type": "gene_protein",
+      "x": 435.8392418790628,
+      "y": 152.12324074073908,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P48637",
+      "uniprotAccs": [
+        "P48637"
+      ]
+    },
+    {
+      "id": "bcff7",
+      "geneNames": null,
+      "type": "compound",
+      "x": 129.49859042403645,
+      "y": 217.7289178240729,
+      "label": "L-Gamma-Glutamyl Amino Acid",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:15857"
+    },
+    {
+      "id": "aaf52",
+      "geneNames": null,
+      "type": "compound",
+      "x": 631.4680361085447,
+      "y": 152.68649240103872,
+      "label": "ATP",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:15422"
+    },
+    {
+      "id": "c9a4e",
+      "geneNames": null,
+      "type": "compound",
+      "x": 502.9722610589615,
+      "y": 95.2150735780425,
+      "label": "ADP",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:16761"
+    },
+    {
+      "id": "dcbb5",
+      "geneNames": null,
+      "type": "compound",
+      "x": 299.8971341670432,
+      "y": 404.36067708333906,
+      "label": "ADP",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:16761"
+    },
+    {
+      "id": "befcb",
+      "geneNames": null,
+      "type": "compound",
+      "x": 211.84717838699717,
+      "y": 102.55512152777808,
+      "label": "Amino Acid",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:33704"
+    },
+    {
+      "id": "c9733",
+      "geneNames": [
+        "5-Oxoprolinase"
+      ],
+      "type": "gene_protein",
+      "x": 362.02761241478163,
+      "y": 337.6526529431255,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "O14841",
+      "uniprotAccs": [
+        "O14841"
+      ]
+    },
+    {
+      "id": "ae0e8",
+      "geneNames": null,
+      "type": "compound",
+      "x": 362.0276124147816,
+      "y": 300.564380787038,
+      "label": "Cysteine",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:15356"
+    },
+    {
+      "id": "d922d",
+      "geneNames": null,
+      "type": "compound",
+      "x": 362.02761241478163,
+      "y": 102.55512152777808,
+      "label": "Glutathione",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:16856"
+    },
+    {
+      "id": "a1a9c",
+      "geneNames": null,
+      "type": "compound",
+      "x": 129.49859042403648,
+      "y": 372.2310474537075,
+      "label": "5-Oxoproline",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:16010"
+    },
+    {
+      "id": "fb3b4",
+      "geneNames": null,
+      "type": "compound",
+      "x": 631.4680361085449,
+      "y": 217.7289178240729,
+      "label": "Gamma-Glutamylcysteine",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:17515"
+    },
+    {
+      "id": "bf44b",
+      "geneNames": null,
+      "type": "compound",
+      "x": 773.6236334134536,
+      "y": 337.6526529431255,
+      "label": "ATP",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:15422"
+    },
+    {
+      "id": "e6d34",
+      "geneNames": null,
+      "type": "compound",
+      "x": 362.0276124147816,
+      "y": 217.7289178240729,
+      "label": "Cysteinylglycine",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:4047"
+    },
+    {
+      "id": "e9cb2",
+      "geneNames": null,
+      "type": "compound",
+      "x": 773.6236334134536,
+      "y": 260.4810474537037,
+      "label": "ADP",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:16761"
+    },
+    {
+      "id": "de82d",
+      "geneNames": [
+        "GGCT"
+      ],
+      "type": "gene_protein",
+      "x": 199.79462093953,
+      "y": 283.9440104166688,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "O75223",
+      "uniprotAccs": [
+        "O75223"
+      ]
+    },
+    {
+      "id": "ea836",
+      "geneNames": [
+        "GCLC"
+      ],
+      "type": "gene_protein",
+      "x": 585.5386685585808,
+      "y": 283.9440104166688,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P48506",
+      "uniprotAccs": [
+        "P48506"
+      ]
+    },
+    {
+      "id": "e3dfd",
+      "geneNames": [
+        "Dipeptidase"
+      ],
+      "type": "gene_protein",
+      "x": 284.9494510579251,
+      "y": 253.33513010452853,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P16444",
+      "uniprotAccs": [
+        "P16444"
+      ]
+    },
+    {
+      "id": "fbbbb",
+      "geneNames": null,
+      "type": "compound",
+      "x": 435.8392418790628,
+      "y": 404.36067708333906,
+      "label": "ATP",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:15422"
+    },
+    {
+      "id": "f93bd",
+      "geneNames": null,
+      "type": "compound",
+      "x": 69.0799826198026,
+      "y": 300.564380787038,
+      "label": "Amino Acid",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:33704"
+    },
+    {
+      "id": "e45fd",
+      "geneNames": null,
+      "type": "compound",
+      "x": 435.8392418790628,
+      "y": 186.99230902777722,
+      "label": "Glutamate",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:14321"
+    }
+  ]
+}

@@ -1,0 +1,553 @@
+{
+  "pathway": {
+    "name": "WP4891",
+    "org": "Homo sapiens",
+    "title": "COVID-19 adverse outcome pathway"
+  },
+  "links": [
+    {
+      "id": "idf55cb6e4",
+      "sourceId": "cf7c5",
+      "targetId": "f425c",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "id981d12bb",
+      "sourceId": "ee6e7",
+      "targetId": "f425c",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "idfc67b63",
+      "sourceId": "feac7",
+      "targetId": "cf7c5",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "id6de06d86",
+      "sourceId": "eb71b",
+      "targetId": "cf7c5",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "idfe2de42e",
+      "sourceId": "f59b7",
+      "targetId": "d380c",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "idd81b881e",
+      "sourceId": "f33e8",
+      "targetId": "b6003",
+      "types": [
+        "conversion"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "eb71b",
+      "geneNames": [
+        "CCL3"
+      ],
+      "type": "gene_protein",
+      "x": 578.2714843681865,
+      "y": 464.230232726809,
+      "label": null,
+      "groupId": "c757c",
+      "referenceDatabase": "GeneID",
+      "referenceId": "6348",
+      "uniprotAccs": [
+        "P10147",
+        "A0N0R1"
+      ]
+    },
+    {
+      "id": "c6c98",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 932.8882120774633,
+      "y": 437.4163097953347,
+      "label": "Positive regulation of\nleukocyte activation",
+      "groupId": "c757c",
+      "referenceDatabase": "Other",
+      "referenceId": "GO:0002696"
+    },
+    {
+      "id": "cd4a3",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 500.22877313300984,
+      "y": 422.0525096046233,
+      "label": "Toll-like\nreceptor signaling",
+      "groupId": "c757c",
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP75"
+    },
+    {
+      "id": "e87cf",
+      "geneNames": [
+        "TNF"
+      ],
+      "type": "gene_protein",
+      "x": 751.6585491719566,
+      "y": 564.4029643090937,
+      "label": null,
+      "groupId": "c757c",
+      "referenceDatabase": "GeneID",
+      "referenceId": "7124",
+      "uniprotAccs": [
+        "P01375",
+        "Q5STB3"
+      ]
+    },
+    {
+      "id": "f9a57",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 746.6214945774645,
+      "y": 372.5544505765847,
+      "label": "Cytokines and\ninflammatory\nresponse",
+      "groupId": "c757c",
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP530"
+    },
+    {
+      "id": "d380c",
+      "geneNames": [
+        "IL2"
+      ],
+      "type": "gene_protein",
+      "x": 749.2599471972103,
+      "y": 475.7932459560015,
+      "label": null,
+      "groupId": "c757c",
+      "referenceDatabase": "GeneID",
+      "referenceId": "3558",
+      "uniprotAccs": [
+        "P60568",
+        "Q0GK43"
+      ]
+    },
+    {
+      "id": "d59c0",
+      "geneNames": [
+        "CSF3"
+      ],
+      "type": "gene_protein",
+      "x": 748.6278196029466,
+      "y": 505.6096423035253,
+      "label": null,
+      "groupId": "c757c",
+      "referenceDatabase": "GeneID",
+      "referenceId": "1440",
+      "uniprotAccs": [
+        "P09919",
+        "Q6FH65",
+        "Q8N4W3"
+      ]
+    },
+    {
+      "id": "cf7c5",
+      "geneNames": [
+        "IL8"
+      ],
+      "type": "gene_protein",
+      "x": 427.2714843681874,
+      "y": 541.6563474274268,
+      "label": null,
+      "groupId": "c757c",
+      "referenceDatabase": "GeneID",
+      "referenceId": "3576",
+      "uniprotAccs": [
+        "P10145"
+      ]
+    },
+    {
+      "id": "feac7",
+      "geneNames": [
+        "CXCL10"
+      ],
+      "type": "gene_protein",
+      "x": 577.6214945774644,
+      "y": 494.142591064492,
+      "label": null,
+      "groupId": "c757c",
+      "referenceDatabase": "GeneID",
+      "referenceId": "3627",
+      "uniprotAccs": [
+        "P02778"
+      ]
+    },
+    {
+      "id": "f425c",
+      "geneNames": [
+        "IL6"
+      ],
+      "type": "gene_protein",
+      "x": 750.5811144790446,
+      "y": 591.1886310876084,
+      "label": null,
+      "groupId": "c757c",
+      "referenceDatabase": "GeneID",
+      "referenceId": "3569",
+      "uniprotAccs": [
+        "P05231",
+        "B4DNQ5",
+        "B4DVM1",
+        "B5MC21",
+        "Q75MH2"
+      ]
+    },
+    {
+      "id": "f1779",
+      "geneNames": [
+        "IL7"
+      ],
+      "type": "gene_protein",
+      "x": 747.6214945774645,
+      "y": 445.9916036225911,
+      "label": null,
+      "groupId": "c757c",
+      "referenceDatabase": "GeneID",
+      "referenceId": "3574",
+      "uniprotAccs": [
+        "P13232",
+        "A0A0A0MTG5",
+        "A8K673",
+        "Q5FBX5"
+      ]
+    },
+    {
+      "id": "cd7db",
+      "geneNames": [
+        "IL1B"
+      ],
+      "type": "gene_protein",
+      "x": 746.7052542958586,
+      "y": 417.9333613277106,
+      "label": null,
+      "groupId": "c757c",
+      "referenceDatabase": "GeneID",
+      "referenceId": "3553",
+      "uniprotAccs": [
+        "P01584"
+      ]
+    },
+    {
+      "id": "ee6e7",
+      "geneNames": [
+        "CCL2"
+      ],
+      "type": "gene_protein",
+      "x": 935.2714843681856,
+      "y": 503.28459307776853,
+      "label": null,
+      "groupId": "c757c",
+      "referenceDatabase": "GeneID",
+      "referenceId": "6347",
+      "uniprotAccs": [
+        "P13500"
+      ]
+    },
+    {
+      "id": "cb0f1",
+      "geneNames": [
+        "IL10"
+      ],
+      "type": "gene_protein",
+      "x": 749.6214945774645,
+      "y": 534.3044505765839,
+      "label": null,
+      "groupId": "c757c",
+      "referenceDatabase": "GeneID",
+      "referenceId": "3586",
+      "uniprotAccs": [
+        "P22301",
+        "Q6FGW4"
+      ]
+    },
+    {
+      "id": "f59b7",
+      "geneNames": [
+        "IL2RA"
+      ],
+      "type": "gene_protein",
+      "x": 933.2599471972071,
+      "y": 476.62051437371696,
+      "label": null,
+      "groupId": "c757c",
+      "referenceDatabase": "GeneID",
+      "referenceId": "3559",
+      "uniprotAccs": [
+        "P01589",
+        "H0Y5Z0",
+        "Q5W005"
+      ]
+    },
+    {
+      "id": "ace80",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 432.88821207746514,
+      "y": 502.91630979533517,
+      "label": "LTF danger signal\nresponse pathway",
+      "groupId": "c757c",
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP4478"
+    },
+    {
+      "id": "d20e7",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 695.6214945774645,
+      "y": 300.7551548019368,
+      "label": "Lung fibrosis",
+      "groupId": "c757c",
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP3624"
+    },
+    {
+      "id": "ac2f7",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 167.61281864876804,
+      "y": 416.2247968617959,
+      "label": "SARS-CoV-2 and ACE2 receptor:\nmolecular mechanisms and\npotential therapeutic target",
+      "groupId": "a3e09",
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP4883"
+    },
+    {
+      "id": "b6003",
+      "geneNames": [
+        "AGT"
+      ],
+      "type": "gene_protein",
+      "x": 254.8785037705917,
+      "y": 549.6466519868097,
+      "label": null,
+      "groupId": "a3e09",
+      "referenceDatabase": "GeneID",
+      "referenceId": "183",
+      "uniprotAccs": [
+        "P01019",
+        "B0ZBE2",
+        "B2R5S1"
+      ]
+    },
+    {
+      "id": "be0b0",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 119.28109963405956,
+      "y": 501.4401402675801,
+      "label": "SARS-CoV-2 and\nCOVID-19 pathway",
+      "groupId": "a3e09",
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP4846"
+    },
+    {
+      "id": "eba5c",
+      "geneNames": [
+        "TMPRSS2"
+      ],
+      "type": "gene_protein",
+      "x": 114.46392624095152,
+      "y": 577.7291901644246,
+      "label": null,
+      "groupId": "a3e09",
+      "referenceDatabase": "GeneID",
+      "referenceId": "7113",
+      "uniprotAccs": [
+        "O15393"
+      ]
+    },
+    {
+      "id": "f33e8",
+      "geneNames": [
+        "ACE2"
+      ],
+      "type": "gene_protein",
+      "x": 114.46392624095141,
+      "y": 549.4630483343346,
+      "label": null,
+      "groupId": "a3e09",
+      "referenceDatabase": "GeneID",
+      "referenceId": "59272",
+      "uniprotAccs": [
+        "Q9BYF1"
+      ]
+    },
+    {
+      "id": "bb627",
+      "geneNames": null,
+      "type": "misc",
+      "x": 748.9669577420332,
+      "y": 619.6691061391846,
+      "label": "KE2",
+      "groupId": "c757c"
+    },
+    {
+      "id": "b61bc",
+      "geneNames": null,
+      "type": "misc",
+      "x": 559.9669577420328,
+      "y": 559.6691061391846,
+      "label": "KE1",
+      "groupId": "c757c"
+    },
+    {
+      "id": "f446c",
+      "geneNames": null,
+      "type": "misc",
+      "x": 930.9669577420303,
+      "y": 525.6691061391846,
+      "label": "KE3",
+      "groupId": "c757c"
+    },
+    {
+      "id": "a32e5",
+      "geneNames": null,
+      "type": "misc",
+      "x": 675.5563380281687,
+      "y": 216.15492957746497,
+      "label": "AO (KE:1751) - Increased mortality",
+      "groupId": "c404e"
+    },
+    {
+      "id": "a5023",
+      "geneNames": null,
+      "type": "misc",
+      "x": 722.0563380281687,
+      "y": 118.15492957746484,
+      "label": "MIE (KE:1739) - Binding of S protein to ACE receptor",
+      "groupId": "c404e"
+    },
+    {
+      "id": "b40a2",
+      "geneNames": null,
+      "type": "misc",
+      "x": 795.5563380281687,
+      "y": 73.31338028169026,
+      "label": "Events related to the adverse outcome pathway for\nacute respiratory distress associated mortality (AOP:320)",
+      "groupId": "c404e"
+    },
+    {
+      "id": "bc4ba",
+      "geneNames": null,
+      "type": "misc",
+      "x": 745.0563380281687,
+      "y": 196.15492957746497,
+      "label": "KE4 (KE:1748) -  \tIncrease, the risk of acute respiratory failure",
+      "groupId": "c404e"
+    },
+    {
+      "id": "be031",
+      "geneNames": null,
+      "type": "misc",
+      "x": 740.5563380281687,
+      "y": 137.15492957746494,
+      "label": "KE1 (KE:1738) - Enhanced viral entry and gene expression",
+      "groupId": "c404e"
+    },
+    {
+      "id": "d40df",
+      "geneNames": null,
+      "type": "misc",
+      "x": 800.0563380281687,
+      "y": 156.15492957746497,
+      "label": "KE2 (KE:1496) - Increased, secretion of proinflammatory and profibrotic mediators",
+      "groupId": "c404e"
+    },
+    {
+      "id": "e8044",
+      "geneNames": null,
+      "type": "misc",
+      "x": 114.38138806333649,
+      "y": 606.6360455805955,
+      "label": "MIE",
+      "groupId": "a3e09"
+    },
+    {
+      "id": "e98ed",
+      "geneNames": null,
+      "type": "misc",
+      "x": 610.0563380281687,
+      "y": 37.15492957746483,
+      "label": "Legend",
+      "groupId": "c404e"
+    },
+    {
+      "id": "f4516",
+      "geneNames": null,
+      "type": "misc",
+      "x": 737.0563380281687,
+      "y": 176.15492957746497,
+      "label": "KE3 (KE:1750) - Increase inflammatory immune responses",
+      "groupId": "c404e"
+    },
+    {
+      "id": "c757c",
+      "type": "group",
+      "components": [
+        "eb71b",
+        "c6c98",
+        "cd4a3",
+        "e87cf",
+        "f9a57",
+        "d380c",
+        "d59c0",
+        "cf7c5",
+        "feac7",
+        "f425c",
+        "f1779",
+        "cd7db",
+        "ee6e7",
+        "cb0f1",
+        "f59b7",
+        "ace80",
+        "d20e7",
+        "bb627",
+        "b61bc",
+        "f446c"
+      ]
+    },
+    {
+      "id": "c404e",
+      "type": "group",
+      "components": [
+        "a32e5",
+        "a5023",
+        "b40a2",
+        "bc4ba",
+        "be031",
+        "d40df",
+        "e98ed",
+        "f4516"
+      ]
+    },
+    {
+      "id": "a3e09",
+      "type": "group",
+      "components": [
+        "ac2f7",
+        "b6003",
+        "be0b0",
+        "eba5c",
+        "f33e8",
+        "e8044"
+      ]
+    }
+  ]
+}

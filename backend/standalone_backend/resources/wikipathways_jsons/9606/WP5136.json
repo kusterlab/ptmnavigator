@@ -1,0 +1,388 @@
+{
+  "pathway": {
+    "name": "WP5136",
+    "org": "Homo sapiens",
+    "title": "ALA oxylipin metabolism"
+  },
+  "links": [
+    {
+      "id": "id157318b8",
+      "sourceId": "dc3b9",
+      "targetId": "dfb17",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id19465f4c",
+      "sourceId": "cfe77",
+      "targetId": "c8a4b",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id26318a1",
+      "sourceId": "ad228",
+      "targetId": "d20c1",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id2f6f768c",
+      "sourceId": "f3158",
+      "targetId": "idde335fbc",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id40bbd6cc",
+      "sourceId": "f309c",
+      "targetId": "ida8692bc8",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id429e9269",
+      "sourceId": "e282c",
+      "targetId": "idb17d31a6",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id65ae6d06",
+      "sourceId": "afc88",
+      "targetId": "ddcbc",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id6e2a4c86",
+      "sourceId": "c5c4d",
+      "targetId": "ad228",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id85ef51ac",
+      "sourceId": "c7c3c",
+      "targetId": "f8ed7",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id882edf90",
+      "sourceId": "ebd6b",
+      "targetId": "dc3b9",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id9835bf2f",
+      "sourceId": "c94f5",
+      "targetId": "id65ae6d06",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "ida8692bc8",
+      "sourceId": "c5c4d",
+      "targetId": "c7c3c",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "idb17d31a6",
+      "sourceId": "c5c4d",
+      "targetId": "cfe77",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "idb6b8fe3",
+      "sourceId": "c94f5",
+      "targetId": "id85ef51ac",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "idca31ea81",
+      "sourceId": "c94f5",
+      "targetId": "id26318a1",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "idde335fbc",
+      "sourceId": "c5c4d",
+      "targetId": "ebd6b",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "ideaa12f9d",
+      "sourceId": "f309c",
+      "targetId": "id6e2a4c86",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "idefdf41c2",
+      "sourceId": "f309c",
+      "targetId": "d253d",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "idf67ed5b5",
+      "sourceId": "dc3b9",
+      "targetId": "ce73e",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "d253d",
+      "sourceId": "c5c4d",
+      "targetId": "afc88",
+      "types": [
+        "conversion"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "ad228",
+      "geneNames": null,
+      "type": "compound",
+      "x": 822.3067788504673,
+      "y": 261.2222397227906,
+      "label": "9(10)-EpODE",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB10220"
+    },
+    {
+      "id": "c5c4d",
+      "geneNames": null,
+      "type": "compound",
+      "x": 500.95238095238074,
+      "y": 321.27777777777777,
+      "label": "\u03b1-Linolenic acid",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "27432"
+    },
+    {
+      "id": "c71b6",
+      "geneNames": null,
+      "type": "compound",
+      "x": 500.952,
+      "y": 621.523,
+      "label": "13-OxoOTrE",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "c7c3c",
+      "geneNames": null,
+      "type": "compound",
+      "x": 822.3067788504671,
+      "y": 387.86955982695906,
+      "label": "15(16)-EpODE",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB10206"
+    },
+    {
+      "id": "c8a4b",
+      "geneNames": null,
+      "type": "compound",
+      "x": 500.95238095238074,
+      "y": 547.8749616718651,
+      "label": "13-HOTrE",
+      "groupId": null,
+      "referenceDatabase": "PubChem-compound",
+      "referenceId": "10469728"
+    },
+    {
+      "id": "c94f5",
+      "geneNames": [
+        "sEH"
+      ],
+      "type": "gene_protein",
+      "x": 977.2685185185172,
+      "y": 455.5925925925929,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000120915",
+      "uniprotAccs": [
+        "P34913",
+        "E5RFH6",
+        "E5RFU2",
+        "E5RI53",
+        "H0YAW7"
+      ]
+    },
+    {
+      "id": "ce73e",
+      "geneNames": null,
+      "type": "compound",
+      "x": 289.96692392502814,
+      "y": 621.523,
+      "label": "9-OxoOTrE",
+      "groupId": null,
+      "referenceDatabase": "CAS",
+      "referenceId": "125559-74-2"
+    },
+    {
+      "id": "cfe77",
+      "geneNames": null,
+      "type": "compound",
+      "x": 500.95238095238074,
+      "y": 466.37265711135615,
+      "label": "13-HpOTrE",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:145300"
+    },
+    {
+      "id": "d20c1",
+      "geneNames": null,
+      "type": "compound",
+      "x": 1099.2249864542164,
+      "y": 261.22223972279056,
+      "label": "9,10-DiHODE",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB10221"
+    },
+    {
+      "id": "dc3b9",
+      "geneNames": null,
+      "type": "compound",
+      "x": 289.96692392502814,
+      "y": 547.8749616718651,
+      "label": "9-HOTrE",
+      "groupId": null,
+      "referenceDatabase": "PubChem-compound",
+      "referenceId": "10447175"
+    },
+    {
+      "id": "ddcbc",
+      "geneNames": null,
+      "type": "compound",
+      "x": 1099.2249864542164,
+      "y": 326.1292654926943,
+      "label": "12,13-DiHODE",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB10201"
+    },
+    {
+      "id": "dfb17",
+      "geneNames": null,
+      "type": "compound",
+      "x": 104.57130167360923,
+      "y": 621.5234083216129,
+      "label": "9,16-DiHOTrE",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "e282c",
+      "geneNames": [
+        "ALOX15"
+      ],
+      "type": "gene_protein",
+      "x": 613.898337112623,
+      "y": 413.6196145124717,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000161905",
+      "uniprotAccs": [
+        "P16050"
+      ]
+    },
+    {
+      "id": "ebd6b",
+      "geneNames": null,
+      "type": "compound",
+      "x": 289.96692392502814,
+      "y": 466.37265711135615,
+      "label": "9(S)-HpOTrE",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:60961"
+    },
+    {
+      "id": "f309c",
+      "geneNames": null,
+      "type": "compound",
+      "x": 606.3265306122449,
+      "y": 227.0408163265306,
+      "label": "cytochrome P450",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:38559"
+    },
+    {
+      "id": "f3158",
+      "geneNames": [
+        "ALOX5"
+      ],
+      "type": "gene_protein",
+      "x": 301.8804361141739,
+      "y": 351.7089305402422,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000012779",
+      "uniprotAccs": [
+        "P09917"
+      ]
+    },
+    {
+      "id": "f8ed7",
+      "geneNames": null,
+      "type": "compound",
+      "x": 1099.2249864542166,
+      "y": 387.869559826959,
+      "label": "15,16-DiHODE",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB10208"
+    },
+    {
+      "id": "afc88",
+      "geneNames": null,
+      "type": "compound",
+      "x": 822.3067788504673,
+      "y": 326.1292654926943,
+      "label": "12(13)-EpODE",
+      "groupId": null,
+      "referenceDatabase": "PubChem-compound",
+      "referenceId": "16061061"
+    }
+  ]
+}

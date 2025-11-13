@@ -1,0 +1,335 @@
+{
+  "pathway": {
+    "name": "WP2815",
+    "org": "Homo sapiens",
+    "title": "Mammary gland development pathway - Involution (Stage 4 of 4)"
+  },
+  "links": [
+    {
+      "id": "id1ddafc3a",
+      "sourceId": "d23d6",
+      "targetId": "b9da8",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id3e6f5b93",
+      "sourceId": "b9da8",
+      "targetId": "b2d34",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id3ea62b69",
+      "sourceId": "ab23a",
+      "targetId": "faa4d",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id46108da3",
+      "sourceId": "b51bf",
+      "targetId": "a34dc",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id486b53da",
+      "sourceId": "b2d34",
+      "targetId": "eaecb",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id5aaf959f",
+      "sourceId": "ab23a",
+      "targetId": "bb429",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id73dd39a2",
+      "sourceId": "fe541",
+      "targetId": "d23d6",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id775ccefb",
+      "sourceId": "b2d34",
+      "targetId": "ecb4e",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id8c0ce750",
+      "sourceId": "f78c3",
+      "targetId": "c0408",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idbfc32145",
+      "sourceId": "e1a4a",
+      "targetId": "f78c3",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idc01d08bc",
+      "sourceId": "b2d34",
+      "targetId": "cacc2",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idc814a90c",
+      "sourceId": "a34dc",
+      "targetId": "b82e2",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idc825b63a",
+      "sourceId": "ec440",
+      "targetId": "e1a4a",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idcdd288a3",
+      "sourceId": "b82e2",
+      "targetId": "fe541",
+      "types": [
+        "activation"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "a34dc",
+      "geneNames": null,
+      "type": "compound",
+      "x": 290.2221037668799,
+      "y": 200.21766169154222,
+      "label": "DNA",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:16991"
+    },
+    {
+      "id": "ab23a",
+      "geneNames": [
+        "CHI3L1"
+      ],
+      "type": "gene_protein",
+      "x": 51.0,
+      "y": 200.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "1116",
+      "uniprotAccs": [
+        "P36222"
+      ]
+    },
+    {
+      "id": "b51bf",
+      "geneNames": [
+        "STAT5"
+      ],
+      "type": "gene_protein",
+      "x": 228.0,
+      "y": 200.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "InterPro",
+      "referenceId": "IPR035858"
+    },
+    {
+      "id": "b82e2",
+      "geneNames": [
+        "SOCS3"
+      ],
+      "type": "gene_protein",
+      "x": 354.0,
+      "y": 200.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "9021",
+      "uniprotAccs": [
+        "O14543",
+        "Q6FI39"
+      ]
+    },
+    {
+      "id": "b9da8",
+      "geneNames": [
+        "MYC"
+      ],
+      "type": "gene_protein",
+      "x": 516.0,
+      "y": 200.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "4609",
+      "uniprotAccs": [
+        "P01106"
+      ]
+    },
+    {
+      "id": "bb429",
+      "geneNames": [
+        "MMP9"
+      ],
+      "type": "gene_protein",
+      "x": 51.0,
+      "y": 146.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "4318",
+      "uniprotAccs": [
+        "P14780"
+      ]
+    },
+    {
+      "id": "cacc2",
+      "geneNames": [
+        "E2F1"
+      ],
+      "type": "gene_protein",
+      "x": 671.8507462686567,
+      "y": 254.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "1869",
+      "uniprotAccs": [
+        "Q01094",
+        "Q9BSD8"
+      ]
+    },
+    {
+      "id": "d23d6",
+      "geneNames": [
+        "STAT3"
+      ],
+      "type": "gene_protein",
+      "x": 435.0,
+      "y": 200.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "6774",
+      "uniprotAccs": [
+        "P40763",
+        "A0A7I2V395"
+      ]
+    },
+    {
+      "id": "eaecb",
+      "geneNames": [
+        "TP53"
+      ],
+      "type": "gene_protein",
+      "x": 671.8507462686567,
+      "y": 146.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "7157",
+      "uniprotAccs": [
+        "P04637",
+        "A0A087WT22",
+        "A0A087WXZ1",
+        "A0A087X1Q1",
+        "H2EHT1",
+        "K7PPA8",
+        "Q53GA5"
+      ]
+    },
+    {
+      "id": "ecb4e",
+      "geneNames": [
+        "BAX"
+      ],
+      "type": "gene_protein",
+      "x": 671.8507462686567,
+      "y": 200.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "581",
+      "uniprotAccs": [
+        "Q07812",
+        "I6LPK7",
+        "Q5ZPJ0",
+        "Q5ZPJ1"
+      ]
+    },
+    {
+      "id": "faa4d",
+      "geneNames": [
+        "CDH1"
+      ],
+      "type": "gene_protein",
+      "x": 132.0,
+      "y": 200.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "999",
+      "uniprotAccs": [
+        "P12830",
+        "A0A0U2ZQU7",
+        "B3GN61",
+        "Q9UII7"
+      ]
+    },
+    {
+      "id": "fe541",
+      "geneNames": [
+        "IL6ST"
+      ],
+      "type": "gene_protein",
+      "x": 132.0,
+      "y": 254.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "3572",
+      "uniprotAccs": [
+        "P40189",
+        "A0A0A0N0L2",
+        "Q17RA0"
+      ]
+    },
+    {
+      "id": "b2d34",
+      "geneNames": null,
+      "type": "compound",
+      "x": 581.6719971570714,
+      "y": 200.97814498933894,
+      "label": "DNA",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:16991"
+    }
+  ]
+}

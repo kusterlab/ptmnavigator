@@ -1,0 +1,284 @@
+{
+  "pathway": {
+    "name": "WP3407",
+    "org": "Homo sapiens",
+    "title": "FTO obesity variant mechanism"
+  },
+  "links": [
+    {
+      "id": "id3088f9b5",
+      "sourceId": "c6fe8",
+      "targetId": "da83e",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "id427fa156",
+      "sourceId": "d916e",
+      "targetId": "d441d",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id4361f83f",
+      "sourceId": "d916e",
+      "targetId": "e5aca",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id6296afd",
+      "sourceId": "da83e",
+      "targetId": "d916e",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id87a734e1",
+      "sourceId": "d441d",
+      "targetId": "bdea0",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id8fb3513b",
+      "sourceId": "d441d",
+      "targetId": "a6b1d",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idbe537d08",
+      "sourceId": "bd803",
+      "targetId": "d916e",
+      "types": [
+        "activation"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "b70cf",
+      "geneNames": [
+        "PRDM16"
+      ],
+      "type": "gene_protein",
+      "x": 199.326881883494,
+      "y": 330.2622789225255,
+      "label": null,
+      "groupId": "d441d",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000142611",
+      "uniprotAccs": [
+        "Q9HAZ2",
+        "D6RDW0",
+        "D6RFY3",
+        "H0YA13",
+        "U3KQL6"
+      ]
+    },
+    {
+      "id": "bd803",
+      "geneNames": [
+        "FTO"
+      ],
+      "type": "gene_protein",
+      "x": 333.1634409417469,
+      "y": 122.13113946126285,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "79068",
+      "states": [
+        "C risk allele"
+      ],
+      "uniprotAccs": [
+        "Q9C0B1",
+        "A0A1B0GTC5",
+        "B3KU60",
+        "Q99770"
+      ]
+    },
+    {
+      "id": "bdea0",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 280.8916966983121,
+      "y": 423.4474641077107,
+      "label": "Fatty acid oxidation",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP368"
+    },
+    {
+      "id": "c6fe8",
+      "geneNames": [
+        "ARID5B"
+      ],
+      "type": "gene_protein",
+      "x": 197.326881883494,
+      "y": 57.26227892252575,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000150347",
+      "uniprotAccs": [
+        "Q14865",
+        "A0A2R8Y5F2",
+        "A0A7P0TAD2"
+      ]
+    },
+    {
+      "id": "d7732",
+      "geneNames": [
+        "IRX5"
+      ],
+      "type": "gene_protein",
+      "x": 263.3268818834937,
+      "y": 214.2622789225257,
+      "label": null,
+      "groupId": "d916e",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000176842",
+      "uniprotAccs": [
+        "P78411",
+        "H0YML8"
+      ]
+    },
+    {
+      "id": "d8875",
+      "geneNames": [
+        "PPARGC1A"
+      ],
+      "type": "gene_protein",
+      "x": 199.326881883494,
+      "y": 310.2622789225255,
+      "label": null,
+      "groupId": "d441d",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000109819",
+      "uniprotAccs": [
+        "Q9UBK2",
+        "A0A087WTJ3",
+        "A0A087WVW3",
+        "D6RBF3"
+      ]
+    },
+    {
+      "id": "e1668",
+      "geneNames": [
+        "IRX3"
+      ],
+      "type": "gene_protein",
+      "x": 263.3268818834937,
+      "y": 194.2622789225257,
+      "label": null,
+      "groupId": "d916e",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000177508",
+      "uniprotAccs": [
+        "P78415",
+        "J3QR11"
+      ]
+    },
+    {
+      "id": "f7d14",
+      "geneNames": [
+        "UCP1"
+      ],
+      "type": "gene_protein",
+      "x": 199.326881883494,
+      "y": 290.2622789225255,
+      "label": null,
+      "groupId": "d441d",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000109424",
+      "uniprotAccs": [
+        "P25874"
+      ]
+    },
+    {
+      "id": "fb31e",
+      "geneNames": [
+        "TBX1"
+      ],
+      "type": "gene_protein",
+      "x": 199.326881883494,
+      "y": 350.2622789225255,
+      "label": null,
+      "groupId": "d441d",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000184058",
+      "uniprotAccs": [
+        "O43435",
+        "A0A3B3IS18",
+        "A0A7P0Z4A3",
+        "A0A8V8TR38"
+      ]
+    },
+    {
+      "id": "da83e",
+      "geneNames": [
+        "FTO"
+      ],
+      "type": "gene_protein",
+      "x": 197.326881883494,
+      "y": 122.13113946126285,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "79068",
+      "states": [
+        "T risk allele"
+      ],
+      "uniprotAccs": [
+        "Q9C0B1",
+        "A0A1B0GTC5",
+        "B3KU60",
+        "Q99770"
+      ]
+    },
+    {
+      "id": "e5aca",
+      "geneNames": null,
+      "type": "misc",
+      "x": 343.01206706867896,
+      "y": 287.8178344780812,
+      "label": "Lipid storage in\nwhite adipocytes",
+      "groupId": null
+    },
+    {
+      "id": "a6b1d",
+      "geneNames": null,
+      "type": "misc",
+      "x": 105.73428929090244,
+      "y": 438.6095011447478,
+      "label": "Browning mitochondrial\nthermogenesis and\nbeige adipocytes",
+      "groupId": null
+    },
+    {
+      "id": "d441d",
+      "type": "group",
+      "components": [
+        "b70cf",
+        "d8875",
+        "f7d14",
+        "fb31e"
+      ]
+    },
+    {
+      "id": "d916e",
+      "type": "group",
+      "components": [
+        "d7732",
+        "e1668"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "pathway": {
+    "name": "WP300",
+    "org": "Mus musculus",
+    "title": "Histone modifications"
+  },
+  "links": [
+    {
+      "id": "cebc6",
+      "sourceId": "de8",
+      "targetId": "f0d",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "bcbf2",
+      "sourceId": "dbb",
+      "targetId": "aee",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "e8fae",
+      "sourceId": "aee",
+      "targetId": "de8",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "abffc",
+      "sourceId": "fa9",
+      "targetId": "b65",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "b7715",
+      "sourceId": "f0d",
+      "targetId": "dbb",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "c3a9a",
+      "sourceId": "dbb",
+      "targetId": "fa9",
+      "types": [
+        "activation"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "aee",
+      "geneNames": [
+        "HAT1"
+      ],
+      "type": "gene_protein",
+      "x": 511.0,
+      "y": 159.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "107435",
+      "uniprotAccs": [
+        "Q8BY71"
+      ]
+    },
+    {
+      "id": "a80",
+      "geneNames": [
+        "HDAC1"
+      ],
+      "type": "gene_protein",
+      "x": 509.0,
+      "y": 96.0,
+      "label": null,
+      "groupId": "f0d",
+      "referenceDatabase": "GeneID",
+      "referenceId": "433759",
+      "uniprotAccs": [
+        "O09106",
+        "Q58E49"
+      ]
+    },
+    {
+      "id": "b0b",
+      "geneNames": [
+        "HDAC2"
+      ],
+      "type": "gene_protein",
+      "x": 509.0,
+      "y": 116.0,
+      "label": null,
+      "groupId": "f0d",
+      "referenceDatabase": "GeneID",
+      "referenceId": "15182",
+      "uniprotAccs": [
+        "P70288",
+        "A0A0R4J008",
+        "Q3TMT1"
+      ]
+    },
+    {
+      "id": "c6f",
+      "geneNames": [
+        "EHMT1"
+      ],
+      "type": "gene_protein",
+      "x": 266.0,
+      "y": 147.0,
+      "label": null,
+      "groupId": "fa9",
+      "referenceDatabase": "GeneID",
+      "referenceId": "77683",
+      "uniprotAccs": [
+        "Q5DW34",
+        "A0A0H2UH19",
+        "Q8BHB2",
+        "Q8C358"
+      ]
+    },
+    {
+      "id": "ef1",
+      "geneNames": [
+        "EHMT2"
+      ],
+      "type": "gene_protein",
+      "x": 266.0,
+      "y": 169.0,
+      "label": null,
+      "groupId": "fa9",
+      "referenceDatabase": "GeneID",
+      "referenceId": "110147",
+      "uniprotAccs": [
+        "Q9Z148",
+        "A2CG76"
+      ]
+    },
+    {
+      "id": "b65",
+      "geneNames": null,
+      "type": "misc",
+      "x": 103.0,
+      "y": 159.0,
+      "label": "Methylated histone",
+      "groupId": null
+    },
+    {
+      "id": "de8",
+      "geneNames": null,
+      "type": "misc",
+      "x": 670.5,
+      "y": 159.0,
+      "label": "Acetylated histone",
+      "groupId": null
+    },
+    {
+      "id": "dbb",
+      "geneNames": null,
+      "type": "misc",
+      "x": 388.5,
+      "y": 159.0,
+      "label": "Histone",
+      "groupId": null
+    },
+    {
+      "id": "fa9",
+      "type": "group",
+      "components": [
+        "c6f",
+        "ef1"
+      ]
+    },
+    {
+      "id": "f0d",
+      "type": "group",
+      "components": [
+        "a80",
+        "b0b"
+      ]
+    }
+  ]
+}

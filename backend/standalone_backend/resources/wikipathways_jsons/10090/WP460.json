@@ -1,0 +1,815 @@
+{
+  "pathway": {
+    "name": "WP460",
+    "org": "Mus musculus",
+    "title": "Blood clotting cascade"
+  },
+  "links": [
+    {
+      "id": "ad596",
+      "sourceId": "a1d",
+      "targetId": "aef",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "a4187",
+      "sourceId": "cce",
+      "targetId": "fd90f",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "b70ba",
+      "sourceId": "f4e",
+      "targetId": "ad596",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "d82a9",
+      "sourceId": "b3e",
+      "targetId": "e95de",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "e6f59",
+      "sourceId": "fa8",
+      "targetId": "a3f",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "bac25",
+      "sourceId": "d41",
+      "targetId": "fbe",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "b0274",
+      "sourceId": "a3f",
+      "targetId": "a53",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "a3ebc",
+      "sourceId": "a29",
+      "targetId": "cd4",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "f395b",
+      "sourceId": "edf",
+      "targetId": "b0d",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "eea25",
+      "sourceId": "e0f",
+      "targetId": "c14",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "dbe88",
+      "sourceId": "c85",
+      "targetId": "b6a",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "e1b79",
+      "sourceId": "fd90f",
+      "targetId": "d8b",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "fb5de",
+      "sourceId": "aef",
+      "targetId": "c99a9",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "b9eb9",
+      "sourceId": "a53",
+      "targetId": "e5b",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "eaa53",
+      "sourceId": "e677e",
+      "targetId": "bfc",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "f0f42",
+      "sourceId": "e03",
+      "targetId": "b3e",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "a80d7",
+      "sourceId": "dcd",
+      "targetId": "a3f",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ef6d9",
+      "sourceId": "d27b6",
+      "targetId": "ef4",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "f20f6",
+      "sourceId": "c25",
+      "targetId": "eaa53",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "c99a9",
+      "sourceId": "fa7f8",
+      "targetId": "fa8",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "d2876",
+      "sourceId": "cd4",
+      "targetId": "f0f42",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "b8a44",
+      "sourceId": "ef4",
+      "targetId": "b6a",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "e95de",
+      "sourceId": "c3c",
+      "targetId": "ca8",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "de3df",
+      "sourceId": "fc6",
+      "targetId": "c25",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "bc161",
+      "sourceId": "b6a",
+      "targetId": "b0d",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "cc687",
+      "sourceId": "d78",
+      "targetId": "dcd",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "e1e91",
+      "sourceId": "b0d",
+      "targetId": "b9eb9",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "cae1d",
+      "sourceId": "c14",
+      "targetId": "de3df",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ed09b",
+      "sourceId": "ca8",
+      "targetId": "eaa53",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "f829a",
+      "sourceId": "d8b",
+      "targetId": "eaa53",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "c5767",
+      "sourceId": "bfc",
+      "targetId": "f4e",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idd584fc7f",
+      "sourceId": "fbe",
+      "targetId": "f4e",
+      "types": [
+        "activation"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "a29",
+      "geneNames": [
+        "F12"
+      ],
+      "type": "gene_protein",
+      "x": 62.333333333333336,
+      "y": 112.33333333333333,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "58992",
+      "uniprotAccs": [
+        "Q80YC5"
+      ]
+    },
+    {
+      "id": "e03",
+      "geneNames": [
+        "F11"
+      ],
+      "type": "gene_protein",
+      "x": 103.33333333333333,
+      "y": 163.33333333333334,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "109821",
+      "uniprotAccs": [
+        "Q91Y47"
+      ]
+    },
+    {
+      "id": "c3c",
+      "geneNames": [
+        "F9"
+      ],
+      "type": "gene_protein",
+      "x": 180.0,
+      "y": 213.33333333333334,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "14071",
+      "uniprotAccs": [
+        "P16294"
+      ]
+    },
+    {
+      "id": "b58",
+      "geneNames": [
+        "F10"
+      ],
+      "type": "gene_protein",
+      "x": 318.3333333333333,
+      "y": 253.33333333333334,
+      "label": null,
+      "groupId": "e677e",
+      "referenceDatabase": "GeneID",
+      "referenceId": "14058",
+      "uniprotAccs": [
+        "O88947",
+        "Q3TBR2",
+        "Q3U3V1",
+        "Q80Y26"
+      ]
+    },
+    {
+      "id": "a0e",
+      "geneNames": [
+        "F10"
+      ],
+      "type": "gene_protein",
+      "x": 318.3333333333333,
+      "y": 273.3333333333333,
+      "label": null,
+      "groupId": "e677e",
+      "referenceDatabase": "GeneID",
+      "referenceId": "14058",
+      "uniprotAccs": [
+        "O88947",
+        "Q3TBR2",
+        "Q3U3V1",
+        "Q80Y26"
+      ]
+    },
+    {
+      "id": "cce",
+      "geneNames": [
+        "Vwf"
+      ],
+      "type": "gene_protein",
+      "x": 667.0,
+      "y": 120.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "22371",
+      "uniprotAccs": [
+        "Q8CIZ8",
+        "E9QPU1"
+      ]
+    },
+    {
+      "id": "d41",
+      "geneNames": [
+        "F5"
+      ],
+      "type": "gene_protein",
+      "x": 686.6666666666666,
+      "y": 186.66666666666666,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "14067",
+      "uniprotAccs": [
+        "O88783"
+      ]
+    },
+    {
+      "id": "fc6",
+      "geneNames": [
+        "F7"
+      ],
+      "type": "gene_protein",
+      "x": 153.33333333333334,
+      "y": 353.3333333333333,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "14068",
+      "uniprotAccs": [
+        "P70375",
+        "Q542C2"
+      ]
+    },
+    {
+      "id": "a1d",
+      "geneNames": [
+        "F2"
+      ],
+      "type": "gene_protein",
+      "x": 486.6666666666667,
+      "y": 360.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "14061",
+      "uniprotAccs": [
+        "P19221",
+        "Q3TJ94"
+      ]
+    },
+    {
+      "id": "d78",
+      "geneNames": [
+        "F13b"
+      ],
+      "type": "gene_protein",
+      "x": 850.0,
+      "y": 340.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "14060",
+      "uniprotAccs": [
+        "Q07968",
+        "Q3UER0"
+      ]
+    },
+    {
+      "id": "edf",
+      "geneNames": [
+        "Serpinf2"
+      ],
+      "type": "gene_protein",
+      "x": 660.3333333333334,
+      "y": 510.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "18816",
+      "uniprotAccs": [
+        "Q61247",
+        "Q5ND36"
+      ]
+    },
+    {
+      "id": "c85",
+      "geneNames": [
+        "Plau"
+      ],
+      "type": "gene_protein",
+      "x": 481.0,
+      "y": 510.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "18792",
+      "uniprotAccs": [
+        "P06869",
+        "Q0VBA8"
+      ]
+    },
+    {
+      "id": "ef4",
+      "geneNames": [
+        "Plat"
+      ],
+      "type": "gene_protein",
+      "x": 299.0,
+      "y": 582.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "18791",
+      "uniprotAccs": [
+        "P11214"
+      ]
+    },
+    {
+      "id": "f20",
+      "geneNames": [
+        "Serpinb2"
+      ],
+      "type": "gene_protein",
+      "x": 299.0,
+      "y": 533.6666666666666,
+      "label": null,
+      "groupId": "d27b6",
+      "referenceDatabase": "GeneID",
+      "referenceId": "18788",
+      "uniprotAccs": [
+        "P12388",
+        "Q542A3"
+      ]
+    },
+    {
+      "id": "f7b",
+      "geneNames": [
+        "Serpine1"
+      ],
+      "type": "gene_protein",
+      "x": 299.0,
+      "y": 513.6666666666666,
+      "label": null,
+      "groupId": "d27b6",
+      "referenceDatabase": "GeneID",
+      "referenceId": "18787",
+      "uniprotAccs": [
+        "G5E899"
+      ]
+    },
+    {
+      "id": "b6a",
+      "geneNames": [
+        "Plg"
+      ],
+      "type": "gene_protein",
+      "x": 481.0,
+      "y": 582.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "18815",
+      "uniprotAccs": [
+        "P20918",
+        "Q3V1T9"
+      ]
+    },
+    {
+      "id": "c8e",
+      "geneNames": [
+        "Fgb"
+      ],
+      "type": "gene_protein",
+      "x": 526.0,
+      "y": 439.0,
+      "label": null,
+      "groupId": "fa7f8",
+      "referenceDatabase": "GeneID",
+      "referenceId": "110135",
+      "uniprotAccs": [
+        "Q8K0E8",
+        "Q3TGR2"
+      ]
+    },
+    {
+      "id": "fcc",
+      "geneNames": [
+        "Fga"
+      ],
+      "type": "gene_protein",
+      "x": 526.0,
+      "y": 419.0,
+      "label": null,
+      "groupId": "fa7f8",
+      "referenceDatabase": "GeneID",
+      "referenceId": "14161",
+      "uniprotAccs": [
+        "E9PV24"
+      ]
+    },
+    {
+      "id": "aa3",
+      "geneNames": [
+        "Fgg"
+      ],
+      "type": "gene_protein",
+      "x": 526.0,
+      "y": 459.0,
+      "label": null,
+      "groupId": "fa7f8",
+      "referenceDatabase": "GeneID",
+      "referenceId": "99571",
+      "uniprotAccs": [
+        "Q8VCM7",
+        "Q3UEM7",
+        "Q3UER8"
+      ]
+    },
+    {
+      "id": "fc4",
+      "geneNames": [
+        "F8"
+      ],
+      "type": "gene_protein",
+      "x": 516.6666666666666,
+      "y": 150.0,
+      "label": null,
+      "groupId": "fd90f",
+      "referenceDatabase": "GeneID",
+      "referenceId": "14069",
+      "uniprotAccs": [
+        "Q06194",
+        "B2RRC9",
+        "B7ZNH8",
+        "Q8BQ43"
+      ]
+    },
+    {
+      "id": "c42",
+      "geneNames": [
+        "F8a"
+      ],
+      "type": "gene_protein",
+      "x": 516.6666666666666,
+      "y": 170.0,
+      "label": null,
+      "groupId": "fd90f",
+      "referenceDatabase": "GeneID",
+      "referenceId": "14070",
+      "uniprotAccs": [
+        "Q00558"
+      ]
+    },
+    {
+      "id": "f4e",
+      "geneNames": [
+        "Prothrombinase Complex"
+      ],
+      "type": "gene_protein",
+      "x": 561.3333333333334,
+      "y": 315.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "a53",
+      "geneNames": null,
+      "type": "compound",
+      "x": 780.0,
+      "y": 548.0,
+      "label": "Fibrin",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "cd4",
+      "geneNames": null,
+      "type": "misc",
+      "x": 185.66666666666666,
+      "y": 112.33333333333333,
+      "label": "Factor XIIa",
+      "groupId": null
+    },
+    {
+      "id": "b3e",
+      "geneNames": null,
+      "type": "misc",
+      "x": 267.0,
+      "y": 163.33333333333334,
+      "label": "Factor XIa",
+      "groupId": null
+    },
+    {
+      "id": "d8b",
+      "geneNames": null,
+      "type": "misc",
+      "x": 486.0833333333333,
+      "y": 219.33333333333334,
+      "label": "Factor VIIIa",
+      "groupId": null
+    },
+    {
+      "id": "ca8",
+      "geneNames": null,
+      "type": "misc",
+      "x": 350.75,
+      "y": 213.33333333333334,
+      "label": "Factor IXa",
+      "groupId": null
+    },
+    {
+      "id": "bfc",
+      "geneNames": null,
+      "type": "misc",
+      "x": 506.6666666666667,
+      "y": 263.3333333333333,
+      "label": "Factor Xa",
+      "groupId": null
+    },
+    {
+      "id": "fbe",
+      "geneNames": null,
+      "type": "misc",
+      "x": 616.6666666666666,
+      "y": 263.3333333333333,
+      "label": "Factor Va",
+      "groupId": null
+    },
+    {
+      "id": "aef",
+      "geneNames": null,
+      "type": "misc",
+      "x": 632.0,
+      "y": 360.0,
+      "label": "Thrombin",
+      "groupId": null
+    },
+    {
+      "id": "fa8",
+      "geneNames": null,
+      "type": "misc",
+      "x": 726.1666666666666,
+      "y": 439.0,
+      "label": "Fibrin Monomer",
+      "groupId": null
+    },
+    {
+      "id": "dcd",
+      "geneNames": null,
+      "type": "misc",
+      "x": 850.0,
+      "y": 440.0,
+      "label": "Factor XIIIa",
+      "groupId": null
+    },
+    {
+      "id": "a3f",
+      "geneNames": null,
+      "type": "misc",
+      "x": 780.0,
+      "y": 493.3333333333333,
+      "label": "Fibrin Polymer",
+      "groupId": null
+    },
+    {
+      "id": "c25",
+      "geneNames": null,
+      "type": "misc",
+      "x": 303.3333333333333,
+      "y": 353.3333333333333,
+      "label": "Factor VIIa",
+      "groupId": null
+    },
+    {
+      "id": "c14",
+      "geneNames": null,
+      "type": "misc",
+      "x": 229.66666666666666,
+      "y": 301.0,
+      "label": "Tissue Factor",
+      "groupId": null
+    },
+    {
+      "id": "b0d",
+      "geneNames": null,
+      "type": "misc",
+      "x": 660.0,
+      "y": 582.0,
+      "label": "Plasmin",
+      "groupId": null
+    },
+    {
+      "id": "e5b",
+      "geneNames": null,
+      "type": "misc",
+      "x": 780.3333333333334,
+      "y": 628.9166666666666,
+      "label": "Fibrin Split Products",
+      "groupId": null
+    },
+    {
+      "id": "e0f",
+      "geneNames": null,
+      "type": "misc",
+      "x": 80.66666666666667,
+      "y": 301.0,
+      "label": "Tissue Injury",
+      "groupId": null
+    },
+    {
+      "id": "e677e",
+      "type": "group",
+      "components": [
+        "b58",
+        "a0e"
+      ]
+    },
+    {
+      "id": "fa7f8",
+      "type": "group",
+      "components": [
+        "c8e",
+        "fcc",
+        "aa3"
+      ]
+    },
+    {
+      "id": "d27b6",
+      "type": "group",
+      "components": [
+        "f20",
+        "f7b"
+      ]
+    },
+    {
+      "id": "fd90f",
+      "type": "group",
+      "components": [
+        "fc4",
+        "c42"
+      ]
+    }
+  ]
+}

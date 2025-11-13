@@ -1,0 +1,406 @@
+{
+  "pathway": {
+    "name": "WP206",
+    "org": "Homo sapiens",
+    "title": "Fatty acid omega-oxidation"
+  },
+  "links": [
+    {
+      "id": "a00e2",
+      "sourceId": "bb619",
+      "targetId": "ab1b1",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "b1ee0",
+      "sourceId": "bd747",
+      "targetId": "d14df",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "c1ff9",
+      "sourceId": "ff6c8",
+      "targetId": "f1bc1",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "d0387",
+      "sourceId": "da540",
+      "targetId": "b24e9",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "d14df",
+      "sourceId": "e55ad",
+      "targetId": "da540",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "f1bc1",
+      "sourceId": "ab1b1",
+      "targetId": "e55ad",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "f9fc3",
+      "sourceId": "c5d27",
+      "targetId": "a00e2",
+      "types": [
+        "catalysis"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "ab1b1",
+      "geneNames": null,
+      "type": "compound",
+      "x": 212.30393461774295,
+      "y": 267.3403807583813,
+      "label": "HO-CH-(CH2)10-COO-",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:39567"
+    },
+    {
+      "id": "b24e9",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 212.30393461774324,
+      "y": 588.086430004981,
+      "label": "Beta Oxidation",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "bb619",
+      "geneNames": null,
+      "type": "compound",
+      "x": 212.30393461774307,
+      "y": 81.76173320233622,
+      "label": "CH3-(CH2)10-COO-",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:30805"
+    },
+    {
+      "id": "da540",
+      "geneNames": null,
+      "type": "compound",
+      "x": 212.30393461774196,
+      "y": 525.7012774875241,
+      "label": "-OOC-(CH2)10-COO-",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:76273"
+    },
+    {
+      "id": "e55ad",
+      "geneNames": null,
+      "type": "compound",
+      "x": 212.30393461774307,
+      "y": 434.2900316220335,
+      "label": "HOC-(CH2)10-COO-",
+      "groupId": null,
+      "referenceDatabase": "PubChem-compound",
+      "referenceId": "3084276"
+    },
+    {
+      "id": "a06",
+      "geneNames": [
+        "ADH1C"
+      ],
+      "type": "gene_protein",
+      "x": 358.94119875592935,
+      "y": 339.22553327583785,
+      "label": null,
+      "groupId": "ff6c8",
+      "referenceDatabase": "GeneID",
+      "referenceId": "126",
+      "uniprotAccs": [
+        "P00326"
+      ]
+    },
+    {
+      "id": "a54",
+      "geneNames": [
+        "ALDH1A1"
+      ],
+      "type": "gene_protein",
+      "x": 358.94119875592935,
+      "y": 468.82880413214,
+      "label": null,
+      "groupId": "bd747",
+      "referenceDatabase": "GeneID",
+      "referenceId": "216",
+      "uniprotAccs": [
+        "P00352",
+        "V9HW83"
+      ]
+    },
+    {
+      "id": "a5b",
+      "geneNames": [
+        "ADH7"
+      ],
+      "type": "gene_protein",
+      "x": 358.94119875592935,
+      "y": 399.2255332758376,
+      "label": null,
+      "groupId": "ff6c8",
+      "referenceDatabase": "GeneID",
+      "referenceId": "131",
+      "uniprotAccs": [
+        "P40394"
+      ]
+    },
+    {
+      "id": "af5",
+      "geneNames": [
+        "CYP2E1"
+      ],
+      "type": "gene_protein",
+      "x": 358.9411987559274,
+      "y": 230.800873224387,
+      "label": null,
+      "groupId": "c5d27",
+      "referenceDatabase": "GeneID",
+      "referenceId": "1571",
+      "uniprotAccs": [
+        "P05181"
+      ]
+    },
+    {
+      "id": "b9c",
+      "geneNames": [
+        "ADH1B"
+      ],
+      "type": "gene_protein",
+      "x": 358.94119875592935,
+      "y": 319.22553327583785,
+      "label": null,
+      "groupId": "ff6c8",
+      "referenceDatabase": "GeneID",
+      "referenceId": "125",
+      "uniprotAccs": [
+        "P00325",
+        "D6RHZ6",
+        "V9HW50"
+      ]
+    },
+    {
+      "id": "c38",
+      "geneNames": [
+        "CYP3A4"
+      ],
+      "type": "gene_protein",
+      "x": 358.9411987559274,
+      "y": 151.30087322438692,
+      "label": null,
+      "groupId": "c5d27",
+      "referenceDatabase": "GeneID",
+      "referenceId": "1576",
+      "uniprotAccs": [
+        "P08684",
+        "Q6GRK0"
+      ]
+    },
+    {
+      "id": "c4d",
+      "geneNames": [
+        "CYP2D6"
+      ],
+      "type": "gene_protein",
+      "x": 358.9411987559274,
+      "y": 210.800873224387,
+      "label": null,
+      "groupId": "c5d27",
+      "referenceDatabase": "GeneID",
+      "referenceId": "1565",
+      "uniprotAccs": [
+        "P10635",
+        "C1ID52",
+        "Q5Y7H2"
+      ]
+    },
+    {
+      "id": "d0e",
+      "geneNames": [
+        "CYP1A1"
+      ],
+      "type": "gene_protein",
+      "x": 358.9411987559274,
+      "y": 111.3008732243869,
+      "label": null,
+      "groupId": "c5d27",
+      "referenceDatabase": "GeneID",
+      "referenceId": "1543",
+      "uniprotAccs": [
+        "P04798",
+        "A0N0X8",
+        "E7EMT5"
+      ]
+    },
+    {
+      "id": "d3e",
+      "geneNames": [
+        "ADH6"
+      ],
+      "type": "gene_protein",
+      "x": 358.94119875592935,
+      "y": 379.22553327583773,
+      "label": null,
+      "groupId": "ff6c8",
+      "referenceDatabase": "GeneID",
+      "referenceId": "130",
+      "uniprotAccs": [
+        "P28332",
+        "Q8IUN7"
+      ]
+    },
+    {
+      "id": "d60",
+      "geneNames": [
+        "ALDH2"
+      ],
+      "type": "gene_protein",
+      "x": 358.94119875592935,
+      "y": 488.82880413214,
+      "label": null,
+      "groupId": "bd747",
+      "referenceDatabase": "GeneID",
+      "referenceId": "217",
+      "uniprotAccs": [
+        "P05091",
+        "A0A384NPN7"
+      ]
+    },
+    {
+      "id": "dc8",
+      "geneNames": [
+        "ADH4"
+      ],
+      "type": "gene_protein",
+      "x": 358.94119875592935,
+      "y": 359.2255332758378,
+      "label": null,
+      "groupId": "ff6c8",
+      "referenceDatabase": "GeneID",
+      "referenceId": "127",
+      "uniprotAccs": [
+        "P08319",
+        "V9HVX7"
+      ]
+    },
+    {
+      "id": "e0e",
+      "geneNames": [
+        "ADH1A"
+      ],
+      "type": "gene_protein",
+      "x": 358.94119875592935,
+      "y": 299.22553327583785,
+      "label": null,
+      "groupId": "ff6c8",
+      "referenceDatabase": "GeneID",
+      "referenceId": "124",
+      "uniprotAccs": [
+        "P07327"
+      ]
+    },
+    {
+      "id": "f49",
+      "geneNames": [
+        "CYP4A11"
+      ],
+      "type": "gene_protein",
+      "x": 358.9411987559274,
+      "y": 171.30087322438692,
+      "label": null,
+      "groupId": "c5d27",
+      "referenceDatabase": "GeneID",
+      "referenceId": "1579",
+      "uniprotAccs": [
+        "Q02928"
+      ]
+    },
+    {
+      "id": "f63",
+      "geneNames": [
+        "CYP1A2"
+      ],
+      "type": "gene_protein",
+      "x": 358.9411987559274,
+      "y": 131.30087322438692,
+      "label": null,
+      "groupId": "c5d27",
+      "referenceDatabase": "GeneID",
+      "referenceId": "1544",
+      "uniprotAccs": [
+        "P05177"
+      ]
+    },
+    {
+      "id": "fd7",
+      "geneNames": [
+        "CYP2A6"
+      ],
+      "type": "gene_protein",
+      "x": 358.9411987559274,
+      "y": 190.80087322438695,
+      "label": null,
+      "groupId": "c5d27",
+      "referenceDatabase": "GeneID",
+      "referenceId": "1548",
+      "uniprotAccs": [
+        "P11509"
+      ]
+    },
+    {
+      "id": "c5d27",
+      "type": "group",
+      "components": [
+        "af5",
+        "c38",
+        "c4d",
+        "d0e",
+        "f49",
+        "f63",
+        "fd7"
+      ]
+    },
+    {
+      "id": "ff6c8",
+      "type": "group",
+      "components": [
+        "a06",
+        "a5b",
+        "b9c",
+        "d3e",
+        "dc8",
+        "e0e"
+      ]
+    },
+    {
+      "id": "bd747",
+      "type": "group",
+      "components": [
+        "a54",
+        "d60"
+      ]
+    }
+  ]
+}

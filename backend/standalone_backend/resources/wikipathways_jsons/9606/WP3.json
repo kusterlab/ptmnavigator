@@ -1,0 +1,573 @@
+{
+  "pathway": {
+    "name": "WP3",
+    "org": "Homo sapiens",
+    "title": "Transcriptional activation by NRF2 in response to phytochemicals"
+  },
+  "links": [
+    {
+      "id": "dc948",
+      "sourceId": "dabcf",
+      "targetId": "iddbb87dcb",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id14c2c6c1",
+      "sourceId": "c915f",
+      "targetId": "f8512",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id27fc892c",
+      "sourceId": "d3065",
+      "targetId": "id14c2c6c1",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id7b573b82",
+      "sourceId": "f8512",
+      "targetId": "be345",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "iddbb87dcb",
+      "sourceId": "f8512",
+      "targetId": "b2519",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idb1485347",
+      "sourceId": "df624",
+      "targetId": "dafdb",
+      "types": [
+        "transcription/translation"
+      ]
+    },
+    {
+      "id": "f0473",
+      "sourceId": "b366d",
+      "targetId": "bcfe7",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "bd859",
+      "sourceId": "c9ebb",
+      "targetId": "b3620",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "bcfe7",
+      "sourceId": "b2519",
+      "targetId": "b68db",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "bff9c",
+      "sourceId": "dea4c",
+      "targetId": "c9ebb",
+      "types": [
+        "activation"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "dbe12",
+      "geneNames": [
+        "ERK"
+      ],
+      "type": "gene_protein",
+      "x": 419.3759541984742,
+      "y": 57.87390443878981,
+      "label": null,
+      "groupId": "d3065",
+      "referenceDatabase": "GeneID",
+      "referenceId": "2048",
+      "uniprotAccs": [
+        "P29323",
+        "B4DSE0",
+        "Q4LE53",
+        "Q6NVW1"
+      ]
+    },
+    {
+      "id": "b3620",
+      "geneNames": [
+        "C/EBP-beta"
+      ],
+      "type": "gene_protein",
+      "x": 198.06771275091742,
+      "y": 539.5419847328252,
+      "label": null,
+      "groupId": "df624",
+      "referenceDatabase": "GeneID",
+      "referenceId": "1051",
+      "uniprotAccs": [
+        "P17676"
+      ]
+    },
+    {
+      "id": "d79c3",
+      "geneNames": [
+        "MAF"
+      ],
+      "type": "gene_protein",
+      "x": 365.9990104608406,
+      "y": 539.221374045802,
+      "label": null,
+      "groupId": "df624",
+      "referenceDatabase": "GeneID",
+      "referenceId": "4094",
+      "uniprotAccs": [
+        "O75444",
+        "H3BP11"
+      ]
+    },
+    {
+      "id": "dea4c",
+      "geneNames": [
+        "PI3K"
+      ],
+      "type": "gene_protein",
+      "x": 198.88888888888786,
+      "y": 262.2667514843092,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "5290",
+      "uniprotAccs": [
+        "P42336",
+        "Q4LE51"
+      ]
+    },
+    {
+      "id": "cecad",
+      "geneNames": [
+        "GCLC"
+      ],
+      "type": "gene_protein",
+      "x": 536.67366412214,
+      "y": 540.5390867967202,
+      "label": null,
+      "groupId": "dafdb",
+      "referenceDatabase": "GeneID",
+      "referenceId": "2729",
+      "uniprotAccs": [
+        "P48506",
+        "E1CEI4",
+        "Q14TF0"
+      ]
+    },
+    {
+      "id": "a859f",
+      "geneNames": [
+        "JNK"
+      ],
+      "type": "gene_protein",
+      "x": 419.3759541984742,
+      "y": 82.68306474413333,
+      "label": null,
+      "groupId": "d3065",
+      "referenceDatabase": "GeneID",
+      "referenceId": "5599",
+      "uniprotAccs": [
+        "P45983",
+        "A1L4K2"
+      ]
+    },
+    {
+      "id": "b06bd",
+      "geneNames": [
+        "P38"
+      ],
+      "type": "gene_protein",
+      "x": 419.3759541984742,
+      "y": 32.110545660163865,
+      "label": null,
+      "groupId": "d3065",
+      "referenceDatabase": "GeneID",
+      "referenceId": "7965",
+      "uniprotAccs": [
+        "Q13155",
+        "A8MU58"
+      ]
+    },
+    {
+      "id": "b68db",
+      "geneNames": [
+        "NRF2"
+      ],
+      "type": "gene_protein",
+      "x": 285.9990104608406,
+      "y": 539.221374045802,
+      "label": null,
+      "groupId": "df624",
+      "referenceDatabase": "GeneID",
+      "referenceId": "4780",
+      "states": [
+        "P",
+        "P"
+      ],
+      "uniprotAccs": [
+        "Q16236",
+        "A0A8V8TN14",
+        "A0A8V8TPA8"
+      ]
+    },
+    {
+      "id": "a62fe",
+      "geneNames": [
+        "PKC"
+      ],
+      "type": "gene_protein",
+      "x": 419.37595419847395,
+      "y": 107.49222504947666,
+      "label": null,
+      "groupId": "d3065",
+      "referenceDatabase": "GeneID",
+      "referenceId": "5578",
+      "uniprotAccs": [
+        "P17252",
+        "L7RSM7",
+        "Q7Z727"
+      ]
+    },
+    {
+      "id": "d3b16",
+      "geneNames": [
+        "NRF2"
+      ],
+      "type": "gene_protein",
+      "x": 286.90740740740534,
+      "y": 166.84732824427448,
+      "label": null,
+      "groupId": "f8512",
+      "referenceDatabase": "GeneID",
+      "referenceId": "4780",
+      "states": [
+        "P",
+        "P"
+      ],
+      "uniprotAccs": [
+        "Q16236",
+        "A0A8V8TN14",
+        "A0A8V8TPA8"
+      ]
+    },
+    {
+      "id": "d61e1",
+      "geneNames": [
+        "KEAP1"
+      ],
+      "type": "gene_protein",
+      "x": 286.90740740740205,
+      "y": 146.77099236641175,
+      "label": null,
+      "groupId": "f8512",
+      "referenceDatabase": "GeneID",
+      "referenceId": "9817",
+      "uniprotAccs": [
+        "Q14145"
+      ]
+    },
+    {
+      "id": "d4c77",
+      "geneNames": [
+        "HO-1"
+      ],
+      "type": "gene_protein",
+      "x": 536.67366412214,
+      "y": 580.5390867967202,
+      "label": null,
+      "groupId": "dafdb",
+      "referenceDatabase": "GeneID",
+      "referenceId": "3162",
+      "uniprotAccs": [
+        "P09601",
+        "Q6FH11"
+      ]
+    },
+    {
+      "id": "a1b6d",
+      "geneNames": [
+        "SLC7A11"
+      ],
+      "type": "gene_protein",
+      "x": 536.67366412214,
+      "y": 600.5390867967202,
+      "label": null,
+      "groupId": "dafdb",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000151012",
+      "uniprotAccs": [
+        "Q9UPY5",
+        "H0Y9F9"
+      ]
+    },
+    {
+      "id": "f553c",
+      "geneNames": [
+        "NQO1"
+      ],
+      "type": "gene_protein",
+      "x": 536.67366412214,
+      "y": 520.5390867967201,
+      "label": null,
+      "groupId": "dafdb",
+      "referenceDatabase": "GeneID",
+      "referenceId": "1728",
+      "uniprotAccs": [
+        "P15559",
+        "B4DLR8"
+      ]
+    },
+    {
+      "id": "ff3f4",
+      "geneNames": null,
+      "type": "compound",
+      "x": 406.7700028272554,
+      "y": 214.06870229007762,
+      "label": "Curcumin",
+      "groupId": "dabcf",
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0002269"
+    },
+    {
+      "id": "dfa5a",
+      "geneNames": [
+        "GSTA2"
+      ],
+      "type": "gene_protein",
+      "x": 536.7761999545546,
+      "y": 500.5390867967202,
+      "label": null,
+      "groupId": "dafdb",
+      "referenceDatabase": "GeneID",
+      "referenceId": "2939",
+      "uniprotAccs": [
+        "P09210",
+        "A0A140VKE2",
+        "A8K987"
+      ]
+    },
+    {
+      "id": "f5ed1",
+      "geneNames": [
+        "GCLM"
+      ],
+      "type": "gene_protein",
+      "x": 536.67366412214,
+      "y": 560.5390867967202,
+      "label": null,
+      "groupId": "dafdb",
+      "referenceDatabase": "GeneID",
+      "referenceId": "2730",
+      "uniprotAccs": [
+        "P48507"
+      ]
+    },
+    {
+      "id": "be345",
+      "geneNames": [
+        "KEAP1"
+      ],
+      "type": "gene_protein",
+      "x": 137.58234379418172,
+      "y": 156.97709923664078,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "9817",
+      "uniprotAccs": [
+        "Q14145"
+      ]
+    },
+    {
+      "id": "d739f",
+      "geneNames": null,
+      "type": "compound",
+      "x": 435.29290359061025,
+      "y": 241.80916030534488,
+      "label": "Caffeic acid phenethyl ester",
+      "groupId": "dabcf",
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:8062"
+    },
+    {
+      "id": "c9ebb",
+      "geneNames": [
+        "C/EBP-beta"
+      ],
+      "type": "gene_protein",
+      "x": 198.88888888888786,
+      "y": 377.80039581566257,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "1051",
+      "uniprotAccs": [
+        "P17676"
+      ]
+    },
+    {
+      "id": "b03a0",
+      "geneNames": null,
+      "type": "compound",
+      "x": 407.28145320893464,
+      "y": 269.0381679389331,
+      "label": "Sulforaphane",
+      "groupId": "dabcf",
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0005792"
+    },
+    {
+      "id": "b366d",
+      "geneNames": null,
+      "type": "compound",
+      "x": 393.4035906135134,
+      "y": 376.38931297709917,
+      "label": "6-HITC",
+      "groupId": null,
+      "referenceDatabase": "Chemspider",
+      "referenceId": "7991398"
+    },
+    {
+      "id": "b5bb9",
+      "geneNames": [
+        "NRF2"
+      ],
+      "type": "gene_protein",
+      "x": 525.9150409951956,
+      "y": 167.3053435114501,
+      "label": null,
+      "groupId": "c915f",
+      "referenceDatabase": "GeneID",
+      "referenceId": "4780",
+      "uniprotAccs": [
+        "Q16236",
+        "A0A8V8TN14",
+        "A0A8V8TPA8"
+      ]
+    },
+    {
+      "id": "e3f69",
+      "geneNames": [
+        "KEAP1"
+      ],
+      "type": "gene_protein",
+      "x": 525.9150409951931,
+      "y": 147.22900763358695,
+      "label": null,
+      "groupId": "c915f",
+      "referenceDatabase": "GeneID",
+      "referenceId": "9817",
+      "uniprotAccs": [
+        "Q14145"
+      ]
+    },
+    {
+      "id": "b2519",
+      "geneNames": [
+        "NRF2"
+      ],
+      "type": "gene_protein",
+      "x": 286.90740740740534,
+      "y": 314.25190839694636,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "4780",
+      "states": [
+        "P",
+        "P"
+      ],
+      "uniprotAccs": [
+        "Q16236",
+        "A0A8V8TN14",
+        "A0A8V8TPA8"
+      ]
+    },
+    {
+      "id": "edfb9",
+      "geneNames": null,
+      "type": "misc",
+      "x": 538.67366412214,
+      "y": 479.4932852700029,
+      "label": "Phase II enzymes",
+      "groupId": "dafdb"
+    },
+    {
+      "id": "c915f",
+      "type": "group",
+      "components": [
+        "b5bb9",
+        "e3f69"
+      ]
+    },
+    {
+      "id": "d3065",
+      "type": "group",
+      "components": [
+        "dbe12",
+        "a859f",
+        "b06bd",
+        "a62fe"
+      ]
+    },
+    {
+      "id": "dabcf",
+      "type": "group",
+      "components": [
+        "ff3f4",
+        "d739f",
+        "b03a0"
+      ]
+    },
+    {
+      "id": "dafdb",
+      "type": "group",
+      "components": [
+        "cecad",
+        "d4c77",
+        "a1b6d",
+        "f553c",
+        "dfa5a",
+        "f5ed1",
+        "edfb9"
+      ]
+    },
+    {
+      "id": "df624",
+      "type": "group",
+      "components": [
+        "b3620",
+        "d79c3",
+        "b68db"
+      ]
+    },
+    {
+      "id": "f8512",
+      "type": "group",
+      "components": [
+        "d3b16",
+        "d61e1"
+      ]
+    }
+  ]
+}

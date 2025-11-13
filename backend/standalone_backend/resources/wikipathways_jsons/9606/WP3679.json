@@ -1,0 +1,993 @@
+{
+  "pathway": {
+    "name": "WP3679",
+    "org": "Homo sapiens",
+    "title": "Cell-type dependent selectivity of CCK2R signaling"
+  },
+  "links": [
+    {
+      "id": "id1abd0d9f",
+      "sourceId": "a767c",
+      "targetId": "f3753",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id21f3c3e5",
+      "sourceId": "aaded",
+      "targetId": "f91d2",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id22cfa4be",
+      "sourceId": "aea1d",
+      "targetId": "f4f1f",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id32ed8cbf",
+      "sourceId": "f34d7",
+      "targetId": "f5209",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id41e191b7",
+      "sourceId": "a2ea3",
+      "targetId": "cdcb5",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id655e8be6",
+      "sourceId": "c4321",
+      "targetId": "d1efb",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id65c80b61",
+      "sourceId": "b1304",
+      "targetId": "f5209",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id6aaf4812",
+      "sourceId": "f91d2",
+      "targetId": "ida4f5458d",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id6b0ab544",
+      "sourceId": "d1efb",
+      "targetId": "f4656",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id7549ed51",
+      "sourceId": "e200a",
+      "targetId": "id9071c85b",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id78943fe3",
+      "sourceId": "a3602",
+      "targetId": "d1efb",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id7f5a66ae",
+      "sourceId": "f4f1f",
+      "targetId": "aaded",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id9071c85b",
+      "sourceId": "c0e2d",
+      "targetId": "deec8",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id9213e38e",
+      "sourceId": "dcf80",
+      "targetId": "f91d2",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id9a8ecce4",
+      "sourceId": "fc303",
+      "targetId": "c1e19",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id9f53f011",
+      "sourceId": "f5209",
+      "targetId": "a767c",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ida36b9784",
+      "sourceId": "a8817",
+      "targetId": "f0ee2",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "ida3f005a",
+      "sourceId": "ad481",
+      "targetId": "abf33",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ida4f5458d",
+      "sourceId": "e8003",
+      "targetId": "c4321",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idbace4c4a",
+      "sourceId": "e6f9a",
+      "targetId": "bcc43",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idbe4fea9a",
+      "sourceId": "e9a69",
+      "targetId": "fc303",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idbfce5b97",
+      "sourceId": "b9df2",
+      "targetId": "f91d2",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "idc7a052ad",
+      "sourceId": "bd67c",
+      "targetId": "b0440",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "idd53c8fe2",
+      "sourceId": "fd9ba",
+      "targetId": "id7f5a66ae",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "iddcb9dd99",
+      "sourceId": "d18bd",
+      "targetId": "dcee2",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "iddda8a114",
+      "sourceId": "f3753",
+      "targetId": "e9a69",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ide0f0dcf0",
+      "sourceId": "d8ae1",
+      "targetId": "a767c",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idf65f9f23",
+      "sourceId": "fd188",
+      "targetId": "b7013",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "idfc0cf358",
+      "sourceId": "a43e7",
+      "targetId": "iddcb9dd99",
+      "types": [
+        "activation"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "a43e7",
+      "geneNames": [
+        "IP3 receptor"
+      ],
+      "type": "gene_protein",
+      "x": 570.7384163594584,
+      "y": 542.5877183289631,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000150995",
+      "uniprotAccs": [
+        "Q14643",
+        "A0A3B3IRP0",
+        "A0A3B3IRT5",
+        "A0A3B3IS59",
+        "A0A3B3ISE3",
+        "A0A3B3ISR4",
+        "A0A3B3ITM1",
+        "A0A3B3ITM6",
+        "A0A3B3ITQ1",
+        "A0A3B3ITQ4",
+        "A0A3B3ITU8",
+        "A0A3B3IU04",
+        "A0A3B3IU05",
+        "A0A3B3IU13",
+        "A0A3F2YNW8",
+        "A0A8C8KBY2",
+        "B7ZMI3"
+      ]
+    },
+    {
+      "id": "a6c5e",
+      "geneNames": null,
+      "type": "compound",
+      "x": 1157.289002557544,
+      "y": 158.5460358056265,
+      "label": "2-APB",
+      "groupId": "a3602",
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q4596857"
+    },
+    {
+      "id": "a767c",
+      "geneNames": null,
+      "type": "compound",
+      "x": 449.27877237851663,
+      "y": 438.55754475703327,
+      "label": "DAG",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:18035"
+    },
+    {
+      "id": "a8817",
+      "geneNames": null,
+      "type": "compound",
+      "x": 1022.0,
+      "y": 146.4873208379272,
+      "label": "YM022",
+      "groupId": null,
+      "referenceDatabase": "PubChem-compound",
+      "referenceId": "122130"
+    },
+    {
+      "id": "aaded",
+      "geneNames": null,
+      "type": "compound",
+      "x": 926.1687810352554,
+      "y": 380.72122762148337,
+      "label": "cyclic ADPR",
+      "groupId": null,
+      "referenceDatabase": "PubChem-compound",
+      "referenceId": "123847"
+    },
+    {
+      "id": "b0440",
+      "geneNames": [
+        "Gi/0"
+      ],
+      "type": "gene_protein",
+      "x": 938.0063873744797,
+      "y": 204.38160573178087,
+      "label": null,
+      "groupId": "f4f1f",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000127955",
+      "uniprotAccs": [
+        "P63096",
+        "A0A3B3IRK0",
+        "A0A3B3IS42",
+        "A0A3B3ITG4",
+        "A0A3B3ITM0",
+        "A0A3B3ITX3",
+        "A0A3B3IU77",
+        "A0A3B3IUA8"
+      ]
+    },
+    {
+      "id": "b1304",
+      "geneNames": [
+        "Gq"
+      ],
+      "type": "gene_protein",
+      "x": 198.5507505560294,
+      "y": 356.6239292996166,
+      "label": null,
+      "groupId": "bcc43",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000156052",
+      "uniprotAccs": [
+        "P50148",
+        "B1AM21"
+      ]
+    },
+    {
+      "id": "b7013",
+      "geneNames": [
+        "CCK2R"
+      ],
+      "type": "gene_protein",
+      "x": 184.48425439234637,
+      "y": 336.7153615246806,
+      "label": null,
+      "groupId": "bcc43",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000110148",
+      "uniprotAccs": [
+        "P32239",
+        "E9PIC8",
+        "E9PJ49",
+        "E9PPL7"
+      ]
+    },
+    {
+      "id": "b9df2",
+      "geneNames": null,
+      "type": "compound",
+      "x": 1040.568008978194,
+      "y": 285.80016890510575,
+      "label": "8-NH2-cADPR",
+      "groupId": null,
+      "referenceDatabase": "PubChem-compound",
+      "referenceId": "3081323"
+    },
+    {
+      "id": "ba201",
+      "geneNames": null,
+      "type": "compound",
+      "x": 1157.289002557544,
+      "y": 134.27109974424542,
+      "label": "Flufenamic acid",
+      "groupId": "a3602",
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:42638"
+    },
+    {
+      "id": "c1e19",
+      "geneNames": null,
+      "type": "compound",
+      "x": 576.6669156836582,
+      "y": 157.5,
+      "label": "GABA\n",
+      "groupId": null,
+      "referenceDatabase": "Chemspider",
+      "referenceId": "116"
+    },
+    {
+      "id": "c32a7",
+      "geneNames": [
+        "RYR1"
+      ],
+      "type": "gene_protein",
+      "x": 389.17564298141525,
+      "y": 552.5071587285024,
+      "label": null,
+      "groupId": "e200a",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000196218",
+      "uniprotAccs": [
+        "P21817",
+        "A0A8I5KSR1",
+        "A0A8I5KUY6",
+        "M0R014",
+        "M0R0S0",
+        "M0R127",
+        "M0R1U6"
+      ]
+    },
+    {
+      "id": "c7e6a",
+      "geneNames": null,
+      "type": "compound",
+      "x": 1049.9335038363174,
+      "y": 230.52708826208186,
+      "label": "NEM",
+      "groupId": "bd67c",
+      "referenceDatabase": "Chemspider",
+      "referenceId": "4209"
+    },
+    {
+      "id": "d1efb",
+      "geneNames": [
+        "TRPC1"
+      ],
+      "type": "gene_protein",
+      "x": 1286.369792772112,
+      "y": 183.0035698379408,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000144935",
+      "uniprotAccs": [
+        "P48995",
+        "A0A8V8TLK5",
+        "H7C508"
+      ]
+    },
+    {
+      "id": "d8ae1",
+      "geneNames": [
+        "DAG lipase"
+      ],
+      "type": "gene_protein",
+      "x": 449.6893260571755,
+      "y": 382.93482314410556,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000134780",
+      "uniprotAccs": [
+        "Q9Y4D2",
+        "F5GY58"
+      ]
+    },
+    {
+      "id": "dcee2",
+      "geneNames": null,
+      "type": "compound",
+      "x": 565.3388746803067,
+      "y": 480.8184143222506,
+      "label": "Ca2+",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:29108"
+    },
+    {
+      "id": "dcf80",
+      "geneNames": null,
+      "type": "compound",
+      "x": 1196.2915601023024,
+      "y": 312.0792838874679,
+      "label": "Ryanodine",
+      "groupId": null,
+      "referenceDatabase": "Chemspider",
+      "referenceId": "16736002"
+    },
+    {
+      "id": "e6f9a",
+      "geneNames": [
+        "CCK"
+      ],
+      "type": "gene_protein",
+      "x": 191.09946938683373,
+      "y": 260.92043318950977,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000187094",
+      "uniprotAccs": [
+        "P06307"
+      ]
+    },
+    {
+      "id": "e9a69",
+      "geneNames": null,
+      "type": "compound",
+      "x": 576.6669156836582,
+      "y": 295.0,
+      "label": "endocannabinoids",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:67197"
+    },
+    {
+      "id": "f34d7",
+      "geneNames": null,
+      "type": "compound",
+      "x": 320.6193939154685,
+      "y": 377.2378516624042,
+      "label": "U-73122",
+      "groupId": null,
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q27089044"
+    },
+    {
+      "id": "f5209",
+      "geneNames": [
+        "PLCB1"
+      ],
+      "type": "gene_protein",
+      "x": 319.56584336606227,
+      "y": 438.4653615246806,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000182621",
+      "uniprotAccs": [
+        "Q9NQ66",
+        "A0A0D9SF51",
+        "A0A0D9SFA6",
+        "A0A0D9SFE7",
+        "A0A0D9SFJ4",
+        "A0A0D9SG17",
+        "A0A0D9SGI7",
+        "A0A1B0GTC7",
+        "A0A1B0GVC1",
+        "A0A1B0GVT0",
+        "A0A1B0GW45",
+        "A0A1B0GW62",
+        "A0A1B0GWB6",
+        "B1AK73",
+        "H0YCJ2",
+        "Q8IV91",
+        "Q8IV92"
+      ]
+    },
+    {
+      "id": "fc303",
+      "geneNames": [
+        "CB1"
+      ],
+      "type": "gene_protein",
+      "x": 576.6669156836582,
+      "y": 216.43658914616398,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000118432",
+      "uniprotAccs": [
+        "P21554",
+        "F8W187",
+        "F8W908"
+      ]
+    },
+    {
+      "id": "fd188",
+      "geneNames": null,
+      "type": "compound",
+      "x": 295.0,
+      "y": 300.0,
+      "label": "YM022",
+      "groupId": null,
+      "referenceDatabase": "PubChem-compound",
+      "referenceId": "122130"
+    },
+    {
+      "id": "fd9ba",
+      "geneNames": [
+        "ADP-Ribose cyclase"
+      ],
+      "type": "gene_protein",
+      "x": 924.1644766338545,
+      "y": 281.54704669845495,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000004468",
+      "uniprotAccs": [
+        "P28907",
+        "H0Y950"
+      ]
+    },
+    {
+      "id": "aea1d",
+      "geneNames": [
+        "CCK"
+      ],
+      "type": "gene_protein",
+      "x": 926.4974359678301,
+      "y": 106.94242280590527,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000187094",
+      "uniprotAccs": [
+        "P06307"
+      ]
+    },
+    {
+      "id": "f0ee2",
+      "geneNames": [
+        "CCK2R"
+      ],
+      "type": "gene_protein",
+      "x": 914.9884845611808,
+      "y": 184.94242280590527,
+      "label": null,
+      "groupId": "f4f1f",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000110148",
+      "uniprotAccs": [
+        "P32239",
+        "E9PIC8",
+        "E9PJ49",
+        "E9PPL7"
+      ]
+    },
+    {
+      "id": "d18bd",
+      "geneNames": null,
+      "type": "compound",
+      "x": 565.1086956521741,
+      "y": 581.9637262891343,
+      "label": "Ca2+",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:29108"
+    },
+    {
+      "id": "deec8",
+      "geneNames": null,
+      "type": "compound",
+      "x": 392.4744245524294,
+      "y": 489.5396419437338,
+      "label": "Ca2+",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:29108"
+    },
+    {
+      "id": "c0e2d",
+      "geneNames": null,
+      "type": "compound",
+      "x": 392.2442455242968,
+      "y": 663.2225063938598,
+      "label": "Ca2+",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:29108"
+    },
+    {
+      "id": "f5bd2",
+      "geneNames": [
+        "RYR2"
+      ],
+      "type": "gene_protein",
+      "x": 389.17564298141525,
+      "y": 572.6797929996022,
+      "label": null,
+      "groupId": "e200a",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000198626",
+      "uniprotAccs": [
+        "Q92736",
+        "A0A590UJF6",
+        "A0A590UJZ8",
+        "A0A590UK06",
+        "A0A590UKB7"
+      ]
+    },
+    {
+      "id": "a3822",
+      "geneNames": [
+        "RYR3"
+      ],
+      "type": "gene_protein",
+      "x": 389.17564298141525,
+      "y": 592.852427270702,
+      "label": null,
+      "groupId": "e200a",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000198838",
+      "uniprotAccs": [
+        "Q15413",
+        "A0A087X080",
+        "A0A0U1RR21",
+        "A0A0U1RR54",
+        "A0A0U1RRH1",
+        "A0A0X1KG73",
+        "A0A1B0GTF2",
+        "A0A1B0GTT7",
+        "A0A1B0GU27",
+        "A0A1B0GUB0",
+        "A0A1B0GVA9",
+        "A0A1B0GVS2"
+      ]
+    },
+    {
+      "id": "c1dbf",
+      "geneNames": null,
+      "type": "compound",
+      "x": 414.28974553882654,
+      "y": 167.5,
+      "label": "GABA\n",
+      "groupId": "a2ea3",
+      "referenceDatabase": "Chemspider",
+      "referenceId": "116"
+    },
+    {
+      "id": "c84de",
+      "geneNames": null,
+      "type": "compound",
+      "x": 250.20046551446325,
+      "y": 153.20332480818402,
+      "label": "GABA\n",
+      "groupId": null,
+      "referenceDatabase": "Chemspider",
+      "referenceId": "116"
+    },
+    {
+      "id": "cdcb5",
+      "geneNames": null,
+      "type": "compound",
+      "x": 414.93192331497477,
+      "y": 274.45652173913027,
+      "label": "GABA\n",
+      "groupId": null,
+      "referenceDatabase": "Chemspider",
+      "referenceId": "116"
+    },
+    {
+      "id": "d4aa9",
+      "geneNames": null,
+      "type": "compound",
+      "x": 1318.3056265984678,
+      "y": 114.62915601023006,
+      "label": "Ca2+",
+      "groupId": "ad481",
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:29108"
+    },
+    {
+      "id": "d722d",
+      "geneNames": null,
+      "type": "compound",
+      "x": 1316.7966751918161,
+      "y": 268.0818414322248,
+      "label": "Ca2+",
+      "groupId": "abf33",
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:29108"
+    },
+    {
+      "id": "d22c6",
+      "geneNames": null,
+      "type": "compound",
+      "x": 1251.579283887471,
+      "y": 114.62915601023006,
+      "label": "Na+",
+      "groupId": "ad481",
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:29101"
+    },
+    {
+      "id": "de925",
+      "geneNames": null,
+      "type": "compound",
+      "x": 1252.6278772378537,
+      "y": 268.08184143222485,
+      "label": "Na+",
+      "groupId": "abf33",
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:29101"
+    },
+    {
+      "id": "c4321",
+      "geneNames": null,
+      "type": "compound",
+      "x": 1098.1805409475032,
+      "y": 325.6805409475039,
+      "label": "Ca2+",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:29108"
+    },
+    {
+      "id": "e8003",
+      "geneNames": null,
+      "type": "compound",
+      "x": 1098.126598465474,
+      "y": 468.84910485933506,
+      "label": "Ca2+",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:29108"
+    },
+    {
+      "id": "a3bb7",
+      "geneNames": [
+        "RYR1"
+      ],
+      "type": "gene_protein",
+      "x": 1097.0780051150894,
+      "y": 380.34765478503317,
+      "label": null,
+      "groupId": "f91d2",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000196218",
+      "uniprotAccs": [
+        "P21817",
+        "A0A8I5KSR1",
+        "A0A8I5KUY6",
+        "M0R014",
+        "M0R0S0",
+        "M0R127",
+        "M0R1U6"
+      ]
+    },
+    {
+      "id": "d7e98",
+      "geneNames": [
+        "RYR2"
+      ],
+      "type": "gene_protein",
+      "x": 1097.0780051150894,
+      "y": 400.5202890561329,
+      "label": null,
+      "groupId": "f91d2",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000198626",
+      "uniprotAccs": [
+        "Q92736",
+        "A0A590UJF6",
+        "A0A590UJZ8",
+        "A0A590UK06",
+        "A0A590UKB7"
+      ]
+    },
+    {
+      "id": "ddb48",
+      "geneNames": [
+        "RYR3"
+      ],
+      "type": "gene_protein",
+      "x": 1097.0780051150894,
+      "y": 420.69292332723273,
+      "label": null,
+      "groupId": "f91d2",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000198838",
+      "uniprotAccs": [
+        "Q15413",
+        "A0A087X080",
+        "A0A0U1RR21",
+        "A0A0U1RR54",
+        "A0A0U1RRH1",
+        "A0A0X1KG73",
+        "A0A1B0GTF2",
+        "A0A1B0GTT7",
+        "A0A1B0GU27",
+        "A0A1B0GUB0",
+        "A0A1B0GVA9",
+        "A0A1B0GVS2"
+      ]
+    },
+    {
+      "id": "f3753",
+      "geneNames": null,
+      "type": "compound",
+      "x": 576.6669156836582,
+      "y": 367.0,
+      "label": "endocannabinoids",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:67197"
+    },
+    {
+      "id": "ee1c0",
+      "geneNames": null,
+      "type": "misc",
+      "x": 1049.872122762149,
+      "y": 251.9181585677747,
+      "label": "Pertussis toxin",
+      "groupId": "bd67c"
+    },
+    {
+      "id": "a2ea3",
+      "type": "group",
+      "components": [
+        "c1dbf"
+      ]
+    },
+    {
+      "id": "a3602",
+      "type": "group",
+      "components": [
+        "a6c5e",
+        "ba201"
+      ]
+    },
+    {
+      "id": "abf33",
+      "type": "group",
+      "components": [
+        "d722d",
+        "de925"
+      ]
+    },
+    {
+      "id": "ad481",
+      "type": "group",
+      "components": [
+        "d4aa9",
+        "d22c6"
+      ]
+    },
+    {
+      "id": "bcc43",
+      "type": "group",
+      "components": [
+        "b1304",
+        "b7013"
+      ]
+    },
+    {
+      "id": "bd67c",
+      "type": "group",
+      "components": [
+        "c7e6a",
+        "ee1c0"
+      ]
+    },
+    {
+      "id": "e200a",
+      "type": "group",
+      "components": [
+        "c32a7",
+        "f5bd2",
+        "a3822"
+      ]
+    },
+    {
+      "id": "f4f1f",
+      "type": "group",
+      "components": [
+        "b0440",
+        "f0ee2"
+      ]
+    },
+    {
+      "id": "f91d2",
+      "type": "group",
+      "components": [
+        "a3bb7",
+        "d7e98",
+        "ddb48"
+      ]
+    }
+  ]
+}

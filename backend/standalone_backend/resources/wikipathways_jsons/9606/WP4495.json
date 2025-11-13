@@ -1,0 +1,441 @@
+{
+  "pathway": {
+    "name": "WP4495",
+    "org": "Homo sapiens",
+    "title": "IL-10 anti-inflammatory signaling pathway "
+  },
+  "links": [
+    {
+      "id": "id240c331f",
+      "sourceId": "d7ac9",
+      "targetId": "d3143",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "id2529e526",
+      "sourceId": "d6031",
+      "targetId": "bfb74",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id2a8a799",
+      "sourceId": "b9101",
+      "targetId": "dfb97",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id3f27954d",
+      "sourceId": "ad5f7",
+      "targetId": "d4e00",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id44baffd2",
+      "sourceId": "fa567",
+      "targetId": "ideca6586e",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id89b220a1",
+      "sourceId": "ad5f7",
+      "targetId": "d5661",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id9b175f7c",
+      "sourceId": "c659a",
+      "targetId": "d6031",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "idd8062047",
+      "sourceId": "d4e00",
+      "targetId": "ea211",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id15260aef",
+      "sourceId": "d5661",
+      "targetId": "ea211",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id29c2a376",
+      "sourceId": "d8e16",
+      "targetId": "b2e83",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ideca6586e",
+      "sourceId": "b2e83",
+      "targetId": "ae557",
+      "types": [
+        "activation"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "0",
+      "geneNames": [
+        "BLVRA"
+      ],
+      "type": "gene_protein",
+      "x": 761.15,
+      "y": 324.9499999999997,
+      "label": null,
+      "groupId": "cf13f",
+      "referenceDatabase": "GeneID",
+      "referenceId": "644",
+      "uniprotAccs": [
+        "P53004",
+        "A0A140VJF4"
+      ]
+    },
+    {
+      "id": "1",
+      "geneNames": [
+        "BLVRB"
+      ],
+      "type": "gene_protein",
+      "x": 761.15,
+      "y": 344.94999999999976,
+      "label": null,
+      "groupId": "cf13f",
+      "referenceDatabase": "GeneID",
+      "referenceId": "645",
+      "uniprotAccs": [
+        "P30043",
+        "V9HWI1"
+      ]
+    },
+    {
+      "id": "2",
+      "geneNames": [
+        "IL10RA"
+      ],
+      "type": "gene_protein",
+      "x": 456.42857142857156,
+      "y": 211.19047619047626,
+      "label": null,
+      "groupId": "d7ac9",
+      "referenceDatabase": "GeneID",
+      "referenceId": "3587",
+      "uniprotAccs": [
+        "Q13651"
+      ]
+    },
+    {
+      "id": "3",
+      "geneNames": [
+        "IL10RB"
+      ],
+      "type": "gene_protein",
+      "x": 456.42857142857156,
+      "y": 231.19047619047626,
+      "label": null,
+      "groupId": "d7ac9",
+      "referenceDatabase": "GeneID",
+      "referenceId": "3588",
+      "uniprotAccs": [
+        "Q08334"
+      ]
+    },
+    {
+      "id": "4",
+      "geneNames": [
+        "IL1A"
+      ],
+      "type": "gene_protein",
+      "x": 650.0,
+      "y": 149.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "3552",
+      "uniprotAccs": [
+        "P01583"
+      ]
+    },
+    {
+      "id": "5",
+      "geneNames": [
+        "IL6"
+      ],
+      "type": "gene_protein",
+      "x": 650.0,
+      "y": 168.99999999999994,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "3569",
+      "uniprotAccs": [
+        "P05231",
+        "B4DNQ5",
+        "B4DVM1",
+        "B5MC21",
+        "Q75MH2"
+      ]
+    },
+    {
+      "id": "6",
+      "geneNames": [
+        "JAK1"
+      ],
+      "type": "gene_protein",
+      "x": 455.4761904761903,
+      "y": 261.6666666666665,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "3716",
+      "uniprotAccs": [
+        "P23458",
+        "A0A8V8TPQ9",
+        "Q6P669"
+      ]
+    },
+    {
+      "id": "7",
+      "geneNames": [
+        "STAT1"
+      ],
+      "type": "gene_protein",
+      "x": 455.4761904761903,
+      "y": 281.66666666666674,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "6772",
+      "uniprotAccs": [
+        "P42224"
+      ]
+    },
+    {
+      "id": "8",
+      "geneNames": [
+        "STAT2"
+      ],
+      "type": "gene_protein",
+      "x": 455.4761904761903,
+      "y": 301.6666666666667,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "6773",
+      "uniprotAccs": [
+        "P52630",
+        "R9QE65"
+      ]
+    },
+    {
+      "id": "ad5f7",
+      "geneNames": [
+        "STAT3"
+      ],
+      "type": "gene_protein",
+      "x": 455.4761904761903,
+      "y": 321.6666666666665,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "6774",
+      "uniprotAccs": [
+        "P40763",
+        "A0A7I2V395"
+      ]
+    },
+    {
+      "id": "ae557",
+      "geneNames": [
+        "TNF"
+      ],
+      "type": "gene_protein",
+      "x": 650.0,
+      "y": 188.9999999999999,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "7214",
+      "uniprotAccs": null
+    },
+    {
+      "id": "bfb74",
+      "geneNames": null,
+      "type": "compound",
+      "x": 845.1618003731343,
+      "y": 271.26436567164205,
+      "label": "Bilirubin",
+      "groupId": null,
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q104219"
+    },
+    {
+      "id": "c659a",
+      "geneNames": null,
+      "type": "compound",
+      "x": 695.9094682835819,
+      "y": 387.89076492537345,
+      "label": "Heme",
+      "groupId": null,
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q189621"
+    },
+    {
+      "id": "d3143",
+      "geneNames": [
+        "IL10"
+      ],
+      "type": "gene_protein",
+      "x": 456.32009918977315,
+      "y": 156.44050602697217,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "3586",
+      "uniprotAccs": [
+        "P22301",
+        "Q6FGW4"
+      ]
+    },
+    {
+      "id": "d5661",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 504.7639925373137,
+      "y": 422.8992537313435,
+      "label": "p38 MAPK pathway",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP400"
+    },
+    {
+      "id": "d6031",
+      "geneNames": null,
+      "type": "compound",
+      "x": 845.1618003731343,
+      "y": 387.8907649253734,
+      "label": "Biliverdin",
+      "groupId": null,
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q422964"
+    },
+    {
+      "id": "ea211",
+      "geneNames": [
+        "HMOX1"
+      ],
+      "type": "gene_protein",
+      "x": 424.99999999999994,
+      "y": 596.9047619047627,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "3162",
+      "uniprotAccs": [
+        "P09601",
+        "Q6FH11"
+      ]
+    },
+    {
+      "id": "fa567",
+      "geneNames": null,
+      "type": "compound",
+      "x": 771.9029850746268,
+      "y": 271.26436567164205,
+      "label": "CO",
+      "groupId": null,
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q2025"
+    },
+    {
+      "id": "dfb97",
+      "geneNames": [
+        "HMOX1"
+      ],
+      "type": "gene_protein",
+      "x": 765.0354570075527,
+      "y": 436.9402189123143,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "3162",
+      "uniprotAccs": [
+        "P09601",
+        "Q6FH11"
+      ]
+    },
+    {
+      "id": "b2e83",
+      "geneNames": null,
+      "type": "misc",
+      "x": 617.0238095238086,
+      "y": 557.1428571428569,
+      "label": "Inflammatory cytokine\ngenes",
+      "groupId": null
+    },
+    {
+      "id": "b9101",
+      "geneNames": null,
+      "type": "misc",
+      "x": 449.88095238095207,
+      "y": 638.095238095238,
+      "label": "DNA",
+      "groupId": null
+    },
+    {
+      "id": "d4e00",
+      "geneNames": null,
+      "type": "misc",
+      "x": 360.36880441542286,
+      "y": 420.81923973880623,
+      "label": "JAK/STAT induced\ngenes",
+      "groupId": null
+    },
+    {
+      "id": "d8e16",
+      "geneNames": null,
+      "type": "misc",
+      "x": 583.0238095238087,
+      "y": 96.89285714285708,
+      "label": "LPS induced pathway",
+      "groupId": null
+    },
+    {
+      "id": "cf13f",
+      "type": "group",
+      "components": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "id": "d7ac9",
+      "type": "group",
+      "components": [
+        "2",
+        "3"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,278 @@
+{
+  "pathway": {
+    "name": "WP1265",
+    "org": "Mus musculus",
+    "title": "Polyol pathway"
+  },
+  "links": [
+    {
+      "id": "a2c0b",
+      "sourceId": "e285c",
+      "targetId": "bd923",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "a82a0",
+      "sourceId": "f6cd9",
+      "targetId": "d4c82",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "b21bb",
+      "sourceId": "e285c",
+      "targetId": "c05e7",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "b31eb",
+      "sourceId": "a4027",
+      "targetId": "a02f1",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "c1b0c",
+      "sourceId": "a4027",
+      "targetId": "b822b",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "cc6fe",
+      "sourceId": "b6834",
+      "targetId": "b21bb",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "d2d24",
+      "sourceId": "f61f1",
+      "targetId": "f7c71",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "dc056",
+      "sourceId": "a9883",
+      "targetId": "f6dda",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "f6dce",
+      "sourceId": "c43b6",
+      "targetId": "b31eb",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "f6dda",
+      "sourceId": "b29e5",
+      "targetId": "e285c",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "f7c71",
+      "sourceId": "a02f1",
+      "targetId": "b29e5",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "fc0ff",
+      "sourceId": "c05e7",
+      "targetId": "f6cd9",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ff7ae",
+      "sourceId": "bd923",
+      "targetId": "f6cd9",
+      "types": [
+        "activation"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "a02f1",
+      "geneNames": null,
+      "type": "compound",
+      "x": 287.0,
+      "y": 97.0,
+      "label": "Sorbitol",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000247"
+    },
+    {
+      "id": "a4027",
+      "geneNames": null,
+      "type": "compound",
+      "x": 491.0,
+      "y": 97.0,
+      "label": "D-Glucose",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000122"
+    },
+    {
+      "id": "a9883",
+      "geneNames": [
+        "Khk"
+      ],
+      "type": "gene_protein",
+      "x": 376.0,
+      "y": 227.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000029162",
+      "uniprotAccs": [
+        "A0A0J9YTU1",
+        "A0A0J9YU79",
+        "A0A0J9YUK6",
+        "E9Q1Q9"
+      ]
+    },
+    {
+      "id": "b29e5",
+      "geneNames": null,
+      "type": "compound",
+      "x": 287.98333333333335,
+      "y": 188.98333333333332,
+      "label": "D-Fructose",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000660"
+    },
+    {
+      "id": "b6834",
+      "geneNames": [
+        "Aldob"
+      ],
+      "type": "gene_protein",
+      "x": 464.0,
+      "y": 340.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000028307",
+      "uniprotAccs": [
+        "Q91Y97"
+      ]
+    },
+    {
+      "id": "bd923",
+      "geneNames": null,
+      "type": "compound",
+      "x": 202.0,
+      "y": 386.0,
+      "label": "Dihydroxyacetone phosphate",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0001473"
+    },
+    {
+      "id": "c05e7",
+      "geneNames": null,
+      "type": "compound",
+      "x": 370.0,
+      "y": 386.0,
+      "label": "Glyceraldehyde",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0001051"
+    },
+    {
+      "id": "c43b6",
+      "geneNames": [
+        "Akr1b3"
+      ],
+      "type": "gene_protein",
+      "x": 395.0,
+      "y": 43.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "11677",
+      "uniprotAccs": [
+        "P45376",
+        "Q3UDY1"
+      ]
+    },
+    {
+      "id": "e285c",
+      "geneNames": null,
+      "type": "compound",
+      "x": 287.0,
+      "y": 281.0,
+      "label": "Fructose 1-phosphate",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0001076"
+    },
+    {
+      "id": "f61f1",
+      "geneNames": [
+        "Sord"
+      ],
+      "type": "gene_protein",
+      "x": 372.0,
+      "y": 141.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000027227",
+      "uniprotAccs": [
+        "Q64442"
+      ]
+    },
+    {
+      "id": "f6cd9",
+      "geneNames": null,
+      "type": "compound",
+      "x": 287.0,
+      "y": 478.0,
+      "label": "D-Glyceraldehyde 3-phosphate",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0001112"
+    },
+    {
+      "id": "b822b",
+      "geneNames": null,
+      "type": "misc",
+      "x": 491.0,
+      "y": 183.0,
+      "label": "glycolysis",
+      "groupId": null
+    },
+    {
+      "id": "d4c82",
+      "geneNames": null,
+      "type": "misc",
+      "x": 525.0,
+      "y": 478.0,
+      "label": "glycolysis",
+      "groupId": null
+    }
+  ]
+}

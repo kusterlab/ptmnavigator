@@ -1,0 +1,360 @@
+{
+  "pathway": {
+    "name": "WP311",
+    "org": "Homo sapiens",
+    "title": "Ketone bodies synthesis and degradation"
+  },
+  "links": [
+    {
+      "id": "id2bdb32a8",
+      "sourceId": "a5c51",
+      "targetId": "c2a",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id2e74174",
+      "sourceId": "fb6",
+      "targetId": "id7bac8f23",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id362a1804",
+      "sourceId": "c52d6",
+      "targetId": "f67",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id421a8e64",
+      "sourceId": "eb9",
+      "targetId": "b5d",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id4c4edcf8",
+      "sourceId": "b54",
+      "targetId": "idf16a7733",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id4ce48e19",
+      "sourceId": "da020",
+      "targetId": "c2a",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id6e5ff3c3",
+      "sourceId": "e87",
+      "targetId": "id4ce48e19",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id6f87ea8e",
+      "sourceId": "b80e4",
+      "targetId": "b5d",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id7bac8f23",
+      "sourceId": "da020",
+      "targetId": "d87a2",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id7c70487b",
+      "sourceId": "dd3",
+      "targetId": "idcb3784e5",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id7eb20e0a",
+      "sourceId": "b54",
+      "targetId": "id421a8e64",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id835213b4",
+      "sourceId": "bcd",
+      "targetId": "id905ca266",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id905ca266",
+      "sourceId": "c2a",
+      "targetId": "b5d",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idb2ebbb1d",
+      "sourceId": "d9d89",
+      "targetId": "eb9",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idcb3784e5",
+      "sourceId": "idf7d52d39",
+      "targetId": "f67",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "idf16a7733",
+      "sourceId": "eb9",
+      "targetId": "da020",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idf7d52d39",
+      "sourceId": "c2a",
+      "targetId": "eb9",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idfda4d4c5",
+      "sourceId": "c2a",
+      "targetId": "b3056",
+      "types": [
+        "activation"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "a5c51",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 722.0,
+      "y": 574.5,
+      "label": "Pyruvate metabolism",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "b3056",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 520.5,
+      "y": 574.0,
+      "label": "Fatty Acid metabolism",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "b54",
+      "geneNames": [
+        "HMGCL"
+      ],
+      "type": "gene_protein",
+      "x": 463.0,
+      "y": 314.3333333333333,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "3155",
+      "uniprotAccs": [
+        "P35914"
+      ]
+    },
+    {
+      "id": "b5d",
+      "geneNames": null,
+      "type": "compound",
+      "x": 530.0,
+      "y": 208.66666666666666,
+      "label": "Acetyl-CoA",
+      "groupId": null,
+      "referenceDatabase": "CAS",
+      "referenceId": "72-89-9"
+    },
+    {
+      "id": "b80e4",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 530.0,
+      "y": 141.0,
+      "label": "Fatty Acid beta-oxidation",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP143"
+    },
+    {
+      "id": "bcd",
+      "geneNames": [
+        "ACAT1"
+      ],
+      "type": "gene_protein",
+      "x": 754.0,
+      "y": 360.6666666666667,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "38",
+      "uniprotAccs": [
+        "P24752",
+        "A0A140VJX1"
+      ]
+    },
+    {
+      "id": "c2a",
+      "geneNames": null,
+      "type": "compound",
+      "x": 520.0,
+      "y": 520.0,
+      "label": "Acetoacetyl-CoA",
+      "groupId": null,
+      "referenceDatabase": "CAS",
+      "referenceId": "1420-36-6"
+    },
+    {
+      "id": "c52d6",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 215.0,
+      "y": 423.0,
+      "label": "Glycolysis",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP534"
+    },
+    {
+      "id": "d87a2",
+      "geneNames": null,
+      "type": "compound",
+      "x": 256.5,
+      "y": 96.0,
+      "label": "3-Hydroxy-butyrate",
+      "groupId": null,
+      "referenceDatabase": "PubChem-compound",
+      "referenceId": "441"
+    },
+    {
+      "id": "d9d89",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 205.5,
+      "y": 330.0,
+      "label": "Sterol biosynthesis",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "da020",
+      "geneNames": null,
+      "type": "compound",
+      "x": 256.0,
+      "y": 208.0,
+      "label": "Acetoacetate",
+      "groupId": null,
+      "referenceDatabase": "PubChem-compound",
+      "referenceId": "6971017"
+    },
+    {
+      "id": "dd3",
+      "geneNames": [
+        "HMGCS2"
+      ],
+      "type": "gene_protein",
+      "x": 473.66666666666674,
+      "y": 414.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "3158",
+      "uniprotAccs": [
+        "P54868",
+        "A0A140VJL2"
+      ]
+    },
+    {
+      "id": "e87",
+      "geneNames": [
+        "OXCT1"
+      ],
+      "type": "gene_protein",
+      "x": 40.0,
+      "y": 397.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "5019",
+      "uniprotAccs": [
+        "P55809",
+        "A0A024R040"
+      ]
+    },
+    {
+      "id": "eb9",
+      "geneNames": null,
+      "type": "compound",
+      "x": 397.8333333333333,
+      "y": 367.0,
+      "label": "3-Hydroxy-3-methylglutaryl-CoA",
+      "groupId": null,
+      "referenceDatabase": "CAS",
+      "referenceId": "1553-55-5"
+    },
+    {
+      "id": "f67",
+      "geneNames": null,
+      "type": "compound",
+      "x": 309.0,
+      "y": 447.6666666666667,
+      "label": "Acetyl-CoA",
+      "groupId": null,
+      "referenceDatabase": "CAS",
+      "referenceId": "72-89-9"
+    },
+    {
+      "id": "fb6",
+      "geneNames": [
+        "BDH"
+      ],
+      "type": "gene_protein",
+      "x": 188.33333333333334,
+      "y": 160.33333333333334,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "622",
+      "uniprotAccs": [
+        "Q02338",
+        "A0A384MTY4"
+      ]
+    }
+  ]
+}

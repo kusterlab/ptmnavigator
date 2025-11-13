@@ -1,0 +1,423 @@
+{
+  "pathway": {
+    "name": "WP2140",
+    "org": "Mus musculus",
+    "title": "Serotonin and anxiety-related events"
+  },
+  "links": [
+    {
+      "id": "id74d515b9",
+      "sourceId": "f1ee8",
+      "targetId": "aa494",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id95666a2a",
+      "sourceId": "aa494",
+      "targetId": "e1ad8",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ida9ef1118",
+      "sourceId": "a7ab4",
+      "targetId": "c7fbb",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idc753cc83",
+      "sourceId": "d6b29",
+      "targetId": "a7ab4",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ide9f9b058",
+      "sourceId": "a5d9d",
+      "targetId": "aa494",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "cf288",
+      "sourceId": "f1ee8",
+      "targetId": "c7fbb",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "f9ee0",
+      "sourceId": "f1ee8",
+      "targetId": "ea395",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "f2c8a",
+      "sourceId": "a5d9d",
+      "targetId": "c7fbb",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "bf87f",
+      "sourceId": "a5d9d",
+      "targetId": "ea395",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "e8cc7",
+      "sourceId": "c7fbb",
+      "targetId": "e1ad8",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "b260f",
+      "sourceId": "ea395",
+      "targetId": "e1ad8",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ab144",
+      "sourceId": "aa494",
+      "targetId": "ed43c",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "b3c89",
+      "sourceId": "c7fbb",
+      "targetId": "ed43c",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "b70ca",
+      "sourceId": "ea395",
+      "targetId": "ed43c",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ecbb5",
+      "sourceId": "e1ad8",
+      "targetId": "fa82e",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "bc196",
+      "sourceId": "e1ad8",
+      "targetId": "e9264",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "c2c26",
+      "sourceId": "d3bbe",
+      "targetId": "c28d4",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "c1685",
+      "sourceId": "a7ab4",
+      "targetId": "aa494",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "e35bb",
+      "sourceId": "e1ad8",
+      "targetId": "d3ed4",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "e85b5",
+      "sourceId": "e1ad8",
+      "targetId": "b3324",
+      "types": [
+        "activation"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "aa494",
+      "geneNames": [
+        "Serotonin Receptor Htr2a\n"
+      ],
+      "type": "gene_protein",
+      "x": 272.88320895522384,
+      "y": 128.61389925373135,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000034997",
+      "uniprotAccs": [
+        "P35363"
+      ]
+    },
+    {
+      "id": "e1ad8",
+      "geneNames": [
+        "Arc"
+      ],
+      "type": "gene_protein",
+      "x": 513.25,
+      "y": 215.25,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000022602",
+      "uniprotAccs": [
+        "Q9WV31"
+      ]
+    },
+    {
+      "id": "f1ee8",
+      "geneNames": null,
+      "type": "compound",
+      "x": 43.25,
+      "y": 99.75,
+      "label": "Serotonin",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000259"
+    },
+    {
+      "id": "a5d9d",
+      "geneNames": null,
+      "type": "compound",
+      "x": 64.25,
+      "y": 388.75,
+      "label": "ketanserin",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:6123"
+    },
+    {
+      "id": "c7fbb",
+      "geneNames": [
+        "Serotonin Receptor Htr2c"
+      ],
+      "type": "gene_protein",
+      "x": 272.88320895522384,
+      "y": 204.11389925373135,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000041380",
+      "uniprotAccs": [
+        "P34968",
+        "B1ATN4",
+        "S4R2T0"
+      ]
+    },
+    {
+      "id": "ea395",
+      "geneNames": [
+        "Serotonin Receptor Htr1a"
+      ],
+      "type": "gene_protein",
+      "x": 272.88320895522384,
+      "y": 285.11389925373135,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000021721",
+      "uniprotAccs": [
+        "Q64264"
+      ]
+    },
+    {
+      "id": "ed43c",
+      "geneNames": [
+        "C-Fos"
+      ],
+      "type": "gene_protein",
+      "x": 512.25,
+      "y": 116.25,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000021250",
+      "uniprotAccs": [
+        "P01101"
+      ]
+    },
+    {
+      "id": "d3ed4",
+      "geneNames": [
+        "Plek"
+      ],
+      "type": "gene_protein",
+      "x": 671.25,
+      "y": 147.25,
+      "label": null,
+      "groupId": "d3bbe",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000020120",
+      "uniprotAccs": [
+        "Q9JHK5",
+        "Q5F270",
+        "Q8CAG6"
+      ]
+    },
+    {
+      "id": "b3324",
+      "geneNames": [
+        "Ppp3ca"
+      ],
+      "type": "gene_protein",
+      "x": 671.25,
+      "y": 118.25,
+      "label": null,
+      "groupId": "d3bbe",
+      "referenceDatabase": "MGI",
+      "referenceId": "MGI:107164"
+    },
+    {
+      "id": "fa82e",
+      "geneNames": [
+        "Prkcb1"
+      ],
+      "type": "gene_protein",
+      "x": 671.25,
+      "y": 89.25,
+      "label": null,
+      "groupId": "d3bbe",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000052889",
+      "uniprotAccs": [
+        "P68404"
+      ]
+    },
+    {
+      "id": "e4d81",
+      "geneNames": [
+        "Plcd4"
+      ],
+      "type": "gene_protein",
+      "x": 673.25,
+      "y": 328.25,
+      "label": null,
+      "groupId": "e9264",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000026173",
+      "uniprotAccs": [
+        "Q8K3R3",
+        "D6RGN2"
+      ]
+    },
+    {
+      "id": "b5126",
+      "geneNames": [
+        "Grin2d"
+      ],
+      "type": "gene_protein",
+      "x": 673.25,
+      "y": 299.25,
+      "label": null,
+      "groupId": "e9264",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000002771",
+      "uniprotAccs": [
+        "Q03391",
+        "A0A1B0GRF9"
+      ]
+    },
+    {
+      "id": "f8382",
+      "geneNames": [
+        "Nlgn1"
+      ],
+      "type": "gene_protein",
+      "x": 673.25,
+      "y": 270.25,
+      "label": null,
+      "groupId": "e9264",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000063887",
+      "uniprotAccs": [
+        "Q99K10",
+        "E9QK34"
+      ]
+    },
+    {
+      "id": "a7ab4",
+      "geneNames": [
+        "Crhr1"
+      ],
+      "type": "gene_protein",
+      "x": 272.88320895522384,
+      "y": 399.26395594541157,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000018634",
+      "uniprotAccs": [
+        "P35347"
+      ]
+    },
+    {
+      "id": "d6b29",
+      "geneNames": [
+        "CRF_MOUSE"
+      ],
+      "type": "gene_protein",
+      "x": 99.49384843737097,
+      "y": 454.14876901748204,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "Q8CIT0",
+      "uniprotAccs": [
+        "Q8CIT0"
+      ]
+    },
+    {
+      "id": "d3bbe",
+      "type": "group",
+      "components": [
+        "d3ed4",
+        "b3324",
+        "fa82e"
+      ]
+    },
+    {
+      "id": "e9264",
+      "type": "group",
+      "components": [
+        "e4d81",
+        "b5126",
+        "f8382"
+      ]
+    }
+  ]
+}

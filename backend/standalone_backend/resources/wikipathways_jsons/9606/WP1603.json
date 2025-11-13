@@ -1,0 +1,313 @@
+{
+  "pathway": {
+    "name": "WP1603",
+    "org": "Homo sapiens",
+    "title": "Nicotine effect on chromaffin cells"
+  },
+  "links": [
+    {
+      "id": "a9a04",
+      "sourceId": "a155b",
+      "targetId": "e4b6d",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "aedf2",
+      "sourceId": "e2572",
+      "targetId": "d2028",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "af4c9",
+      "sourceId": "a42c5",
+      "targetId": "d4e65",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "b81fe",
+      "sourceId": "d2028",
+      "targetId": "a970d",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "c0eae",
+      "sourceId": "f7b46",
+      "targetId": "e2572",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "c0ef4",
+      "sourceId": "a2bc2",
+      "targetId": "b40f9",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "cda15",
+      "sourceId": "b33f3",
+      "targetId": "a42c5",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "d4e65",
+      "sourceId": "ace5a",
+      "targetId": "a155b",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "d5bc7",
+      "sourceId": "e4b6d",
+      "targetId": "e426a",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "e426a",
+      "sourceId": "b74f6",
+      "targetId": "f7b46",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "f655f",
+      "sourceId": "a42c5",
+      "targetId": "c0ef4",
+      "types": [
+        "catalysis"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "a155b",
+      "geneNames": null,
+      "type": "compound",
+      "x": 184.0,
+      "y": 264.0,
+      "label": "Na+",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000588"
+    },
+    {
+      "id": "a2bc2",
+      "geneNames": null,
+      "type": "compound",
+      "x": 184.0,
+      "y": 300.0,
+      "label": "K+",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000586"
+    },
+    {
+      "id": "ace5a",
+      "geneNames": null,
+      "type": "compound",
+      "x": 83.5,
+      "y": 263.0,
+      "label": "Na+",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000588"
+    },
+    {
+      "id": "b33f3",
+      "geneNames": null,
+      "type": "compound",
+      "x": 53.5,
+      "y": 182.0,
+      "label": "Nicotine",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0001934"
+    },
+    {
+      "id": "b40f9",
+      "geneNames": null,
+      "type": "compound",
+      "x": 83.5,
+      "y": 300.0,
+      "label": "K+",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000586"
+    },
+    {
+      "id": "b74f6",
+      "geneNames": null,
+      "type": "compound",
+      "x": 415.0,
+      "y": 67.0,
+      "label": "Ca++",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000464"
+    },
+    {
+      "id": "d193d",
+      "geneNames": [
+        "CHRNB4"
+      ],
+      "type": "gene_protein",
+      "x": 137.5,
+      "y": 233.0,
+      "label": null,
+      "groupId": "a42c5",
+      "referenceDatabase": "GeneID",
+      "referenceId": "1143",
+      "uniprotAccs": [
+        "P30926"
+      ]
+    },
+    {
+      "id": "d2028",
+      "geneNames": null,
+      "type": "compound",
+      "x": 631.0,
+      "y": 361.0,
+      "label": "Epinephrine",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000068"
+    },
+    {
+      "id": "e2572",
+      "geneNames": null,
+      "type": "compound",
+      "x": 415.0,
+      "y": 361.0,
+      "label": "Epinephrine",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000068"
+    },
+    {
+      "id": "f41e1",
+      "geneNames": [
+        "CACNA1G"
+      ],
+      "type": "gene_protein",
+      "x": 338.5,
+      "y": 129.0,
+      "label": null,
+      "groupId": "e4b6d",
+      "referenceDatabase": "GeneID",
+      "referenceId": "8913",
+      "uniprotAccs": [
+        "O43497"
+      ]
+    },
+    {
+      "id": "f79c3",
+      "geneNames": [
+        "CACNA1C"
+      ],
+      "type": "gene_protein",
+      "x": 338.5,
+      "y": 149.0,
+      "label": null,
+      "groupId": "e4b6d",
+      "referenceDatabase": "GeneID",
+      "referenceId": "775",
+      "uniprotAccs": [
+        "Q13936",
+        "A0A0A0MR67",
+        "A0A0A0MSA1",
+        "A0A804HI37",
+        "A0A804HIJ8",
+        "A0A804HJB6",
+        "A0A804HKC4",
+        "E9PDI6",
+        "F5H522",
+        "Q59GU3",
+        "Q5V9X9"
+      ]
+    },
+    {
+      "id": "f7a09",
+      "geneNames": [
+        "CHRNA3"
+      ],
+      "type": "gene_protein",
+      "x": 137.5,
+      "y": 213.0,
+      "label": null,
+      "groupId": "a42c5",
+      "referenceDatabase": "GeneID",
+      "referenceId": "1136",
+      "uniprotAccs": [
+        "P32297"
+      ]
+    },
+    {
+      "id": "f7b46",
+      "geneNames": null,
+      "type": "compound",
+      "x": 415.0,
+      "y": 226.0,
+      "label": "Ca++",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000464"
+    },
+    {
+      "id": "a970d",
+      "geneNames": null,
+      "type": "misc",
+      "x": 631.0,
+      "y": 437.5,
+      "label": "Increased heart rate\nIncreased blood pressure\nRaise glucose level",
+      "groupId": null
+    },
+    {
+      "id": "da6d5",
+      "geneNames": null,
+      "type": "misc",
+      "x": 247.5,
+      "y": 170.0,
+      "label": "Membrane\ndepolarization",
+      "groupId": "aec77"
+    },
+    {
+      "id": "a42c5",
+      "type": "group",
+      "components": [
+        "d193d",
+        "f7a09"
+      ]
+    },
+    {
+      "id": "aec77",
+      "type": "group",
+      "components": [
+        "da6d5"
+      ]
+    },
+    {
+      "id": "e4b6d",
+      "type": "group",
+      "components": [
+        "f41e1",
+        "f79c3"
+      ]
+    }
+  ]
+}

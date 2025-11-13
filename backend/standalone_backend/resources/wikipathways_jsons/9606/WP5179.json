@@ -1,0 +1,757 @@
+{
+  "pathway": {
+    "name": "WP5179",
+    "org": "Homo sapiens",
+    "title": "Biosynthesis and turnover of 1-deoxy-sphingoid bases"
+  },
+  "links": [
+    {
+      "id": "id29b2fda4",
+      "sourceId": "c7e7e",
+      "targetId": "id3a16b702",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "ida6fe3002",
+      "sourceId": "id3a16b702",
+      "targetId": "bf274",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id20407cc8",
+      "sourceId": "d96d3",
+      "targetId": "fc36c",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id2092b06c",
+      "sourceId": "b379f",
+      "targetId": "d1b17",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id3a16b702",
+      "sourceId": "cc8ac",
+      "targetId": "e111d",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id497cc30a",
+      "sourceId": "b5005",
+      "targetId": "idd80cfc2d",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id56eedd2c",
+      "sourceId": "d1b17",
+      "targetId": "b2b98",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "idd80cfc2d",
+      "sourceId": "b379f",
+      "targetId": "d62cb",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "iddde29758",
+      "sourceId": "d1b17",
+      "targetId": "ca07b",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "ide2d717c8",
+      "sourceId": "cc8ac",
+      "targetId": "d1b17",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "ide3aeae6d",
+      "sourceId": "c8a0a",
+      "targetId": "id5f939074",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id411f22f0",
+      "sourceId": "d9b0b",
+      "targetId": "feec2",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id8917977d",
+      "sourceId": "b6e02",
+      "targetId": "id6e712221",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "ide2d620d0",
+      "sourceId": "c8135",
+      "targetId": "b379f",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id321e8798",
+      "sourceId": "e111d",
+      "targetId": "cc8ac",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id6e712221",
+      "sourceId": "feec2",
+      "targetId": "cc8ac",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id5f939074",
+      "sourceId": "e111d",
+      "targetId": "c8135",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "idfaaaa995",
+      "sourceId": "a7d35",
+      "targetId": "id321e8798",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "idbde7823d",
+      "sourceId": "fca05",
+      "targetId": "id411f22f0",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id78f208d8",
+      "sourceId": "d0e4b",
+      "targetId": "id321e8798",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "ida2deb717",
+      "sourceId": "b6ac6",
+      "targetId": "ide2d620d0",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id5e042c5d",
+      "sourceId": "deb01",
+      "targetId": "id411f22f0",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id5e060465",
+      "sourceId": "aaf55",
+      "targetId": "id3a16b702",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id332d952",
+      "sourceId": "fc36c",
+      "targetId": "id3a16b702",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "c8064",
+      "sourceId": "cc8ac",
+      "targetId": "b379f",
+      "types": [
+        "conversion"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "c8a0a",
+      "geneNames": [
+        "desaturases \n"
+      ],
+      "type": "gene_protein",
+      "x": 304.3134334331548,
+      "y": 546.1558562139231,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "a8ed2",
+      "geneNames": [
+        "CYP4A"
+      ],
+      "type": "gene_protein",
+      "x": 709.4836745120352,
+      "y": 794.79791357374,
+      "label": null,
+      "groupId": "b5005",
+      "referenceDatabase": "EC",
+      "referenceId": "1.14.14.80",
+      "uniprotAccs": [
+        "Q02928",
+        "Q9HBI6",
+        "Q6ZWL3",
+        "Q7Z449",
+        "Q5TCH4"
+      ]
+    },
+    {
+      "id": "abd39",
+      "geneNames": null,
+      "type": "compound",
+      "x": 206.01418914218561,
+      "y": 416.5628777639076,
+      "label": "CoA (26:1)",
+      "groupId": "fc36c",
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "b2b98",
+      "geneNames": null,
+      "type": "compound",
+      "x": 992.299152575185,
+      "y": 610.4204567513988,
+      "label": "1-deoxysphinganine-2OH",
+      "groupId": null,
+      "referenceDatabase": "InChIKey",
+      "referenceId": "AADNOUNRPCOGMI-BFWZDYSYSA-N"
+    },
+    {
+      "id": "b379f",
+      "geneNames": null,
+      "type": "compound",
+      "x": 483.4633691780436,
+      "y": 708.836451449286,
+      "label": "1-deoxysphingosine",
+      "groupId": null,
+      "referenceDatabase": "CAS",
+      "referenceId": "193222-34-3"
+    },
+    {
+      "id": "c8135",
+      "geneNames": null,
+      "type": "compound",
+      "x": 483.46336917804354,
+      "y": 610.4204567513987,
+      "label": "1-deoxyceramide\n",
+      "groupId": null,
+      "referenceDatabase": "LIPID MAPS",
+      "referenceId": "LMSP0206"
+    },
+    {
+      "id": "ca07b",
+      "geneNames": null,
+      "type": "compound",
+      "x": 992.299152575185,
+      "y": 490.6285097098308,
+      "label": "1-deoxysphingosine-OH",
+      "groupId": null,
+      "referenceDatabase": "InChIKey",
+      "referenceId": "KSKFOMCZXQEJBA-PXKIYYGHSA-N"
+    },
+    {
+      "id": "d1b17",
+      "geneNames": null,
+      "type": "compound",
+      "x": 743.5978379763175,
+      "y": 610.4204567513987,
+      "label": "1-deoxysphinganine-OH",
+      "groupId": null,
+      "referenceDatabase": "InChIKey",
+      "referenceId": "BJWFMCNWESUWNO-PXKIYYGHSA-N"
+    },
+    {
+      "id": "d62cb",
+      "geneNames": null,
+      "type": "compound",
+      "x": 992.299152575185,
+      "y": 708.836451449286,
+      "label": "1-deoxysphingadiene",
+      "groupId": null,
+      "referenceDatabase": "InChIKey",
+      "referenceId": "KSKFOMCZXQEJBA-PXKIYYGHSA-N"
+    },
+    {
+      "id": "d96d3",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 160.70576174513266,
+      "y": 280.9872699982613,
+      "label": "sphingolipid metabolism \npathway",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP4344"
+    },
+    {
+      "id": "f4497",
+      "geneNames": [
+        "CYP4F"
+      ],
+      "type": "gene_protein",
+      "x": 619.4836745120352,
+      "y": 794.79791357374,
+      "label": null,
+      "groupId": "b5005",
+      "referenceDatabase": "EC",
+      "referenceId": "1.14.14.94",
+      "uniprotAccs": [
+        "P78329",
+        "Q08477"
+      ]
+    },
+    {
+      "id": "feec2",
+      "geneNames": null,
+      "type": "compound",
+      "x": 483.46336917804376,
+      "y": 191.98055893074115,
+      "label": "1-deoxy-3-ketosphinganine",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "67176"
+    },
+    {
+      "id": "d9b0b",
+      "geneNames": null,
+      "type": "compound",
+      "x": 483.46336917804365,
+      "y": 97.86880995592436,
+      "label": "Palmitoyl-CoA",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:15525"
+    },
+    {
+      "id": "cc7f6",
+      "geneNames": null,
+      "type": "compound",
+      "x": 206.01418914218564,
+      "y": 366.56287776390764,
+      "label": "CoA (22:0)",
+      "groupId": "fc36c",
+      "referenceDatabase": "LIPID MAPS",
+      "referenceId": "LMFA07050289"
+    },
+    {
+      "id": "addb1",
+      "geneNames": null,
+      "type": "compound",
+      "x": 116.01418914218571,
+      "y": 391.56287776390764,
+      "label": "CoA (24:0)\n",
+      "groupId": "fc36c",
+      "referenceDatabase": "LIPID MAPS",
+      "referenceId": "LMFA07050372"
+    },
+    {
+      "id": "b6e02",
+      "geneNames": [
+        "KDSR"
+      ],
+      "type": "gene_protein",
+      "x": 304.31343343315484,
+      "y": 244.55082820292932,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000119537",
+      "uniprotAccs": [
+        "Q06136",
+        "A0A2R8Y7U3",
+        "A0A2R8YF70",
+        "K7EQS7",
+        "K7ERC8"
+      ]
+    },
+    {
+      "id": "fca05",
+      "geneNames": null,
+      "type": "compound",
+      "x": 592.9784318653959,
+      "y": 116.95277942157327,
+      "label": "L-alanine",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:16977"
+    },
+    {
+      "id": "a091e",
+      "geneNames": null,
+      "type": "compound",
+      "x": 116.01418914218571,
+      "y": 341.5628777639077,
+      "label": "CoA (16:0)",
+      "groupId": "fc36c",
+      "referenceDatabase": "LIPID MAPS",
+      "referenceId": "LMFA07050360"
+    },
+    {
+      "id": "bc2af",
+      "geneNames": [
+        "SGPP1"
+      ],
+      "type": "gene_protein",
+      "x": 678.570139225935,
+      "y": 406.5507545438434,
+      "label": null,
+      "groupId": "a7d35",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000126821",
+      "uniprotAccs": [
+        "Q9BX95"
+      ]
+    },
+    {
+      "id": "b6ac6",
+      "geneNames": [
+        "ASAH1"
+      ],
+      "type": "gene_protein",
+      "x": 304.31343343315484,
+      "y": 654.595775577207,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000104763",
+      "uniprotAccs": [
+        "Q13510",
+        "A0A1B0GTA6",
+        "A0A1B0GTD4",
+        "A0A1B0GTM3",
+        "A0A1B0GTP7",
+        "A0A1B0GTQ7",
+        "A0A1B0GTX9",
+        "A0A1B0GTZ5",
+        "A0A1B0GU06",
+        "A0A1B0GU62",
+        "A0A1B0GU70",
+        "A0A1B0GUA4",
+        "A0A1B0GUB3",
+        "A0A1B0GUE3",
+        "A0A1B0GUG1",
+        "A0A1B0GUH5",
+        "A0A1B0GUJ2",
+        "A0A1B0GUJ3",
+        "A0A1B0GUP1",
+        "A0A1B0GUQ5",
+        "A0A1B0GUW4",
+        "A0A1B0GV06",
+        "A0A1B0GV88",
+        "A0A1B0GV95",
+        "A0A1B0GVA3",
+        "A0A1B0GVA8",
+        "A0A1B0GVC9",
+        "A0A1B0GVE7",
+        "A0A1B0GVG2",
+        "A0A1B0GVJ1",
+        "A0A1B0GVL2",
+        "A0A1B0GVY5",
+        "A0A1B0GW30",
+        "A0A1B0GW48",
+        "A0A1B0GW66",
+        "A0A1B0GW68",
+        "A0A1B0GWC9",
+        "E7EMM4"
+      ]
+    },
+    {
+      "id": "d9cb2",
+      "geneNames": null,
+      "type": "compound",
+      "x": 206.01418914218564,
+      "y": 341.5628777639077,
+      "label": "CoA (18:0)",
+      "groupId": "fc36c",
+      "referenceDatabase": "LIPID MAPS",
+      "referenceId": "LMFA07050369"
+    },
+    {
+      "id": "cc8ac",
+      "geneNames": null,
+      "type": "compound",
+      "x": 483.46336917804365,
+      "y": 320.9683979638939,
+      "label": "1-deoxysphinganine",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:67106"
+    },
+    {
+      "id": "c7e7e",
+      "geneNames": null,
+      "type": "compound",
+      "x": 383.23851336399383,
+      "y": 366.92413180680484,
+      "label": "ATP",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:30616"
+    },
+    {
+      "id": "f3a08",
+      "geneNames": [
+        "SPTLC2"
+      ],
+      "type": "gene_protein",
+      "x": 304.31343343315484,
+      "y": 143.29644249370656,
+      "label": null,
+      "groupId": "deb01",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000100596",
+      "uniprotAccs": [
+        "O15270",
+        "H0YJ96",
+        "H0YJV2"
+      ]
+    },
+    {
+      "id": "d0e4b",
+      "geneNames": null,
+      "type": "compound",
+      "x": 596.2668124028874,
+      "y": 451.6529798026619,
+      "label": "H2O",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:15377"
+    },
+    {
+      "id": "ba911",
+      "geneNames": [
+        "SPHK2"
+      ],
+      "type": "gene_protein",
+      "x": 304.31343343315484,
+      "y": 431.7091030011932,
+      "label": null,
+      "groupId": "aaf55",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000063176",
+      "uniprotAccs": [
+        "Q9NRA0",
+        "A0A075B7A1",
+        "E7ET12",
+        "E9PCV4",
+        "M0QXX5",
+        "M0QZP3",
+        "M0R0E9",
+        "M0R344"
+      ]
+    },
+    {
+      "id": "db30d",
+      "geneNames": [
+        "SPTLC1"
+      ],
+      "type": "gene_protein",
+      "x": 304.31343343315484,
+      "y": 117.88809403635611,
+      "label": null,
+      "groupId": "deb01",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000090054",
+      "uniprotAccs": [
+        "O15269",
+        "A0A2R8Y4S0",
+        "A0A2R8Y6A2",
+        "A0A2R8Y763",
+        "A0A8I5KUM4",
+        "A0A8I5KWE0",
+        "A0A8I5QJP4",
+        "A0A8I5QKQ8"
+      ]
+    },
+    {
+      "id": "cdc6f",
+      "geneNames": null,
+      "type": "compound",
+      "x": 206.01418914218561,
+      "y": 391.5628777639076,
+      "label": "CoA (24:1)",
+      "groupId": "fc36c",
+      "referenceDatabase": "LIPID MAPS",
+      "referenceId": "LMFA07050098"
+    },
+    {
+      "id": "c2a93",
+      "geneNames": [
+        "SPHK1"
+      ],
+      "type": "gene_protein",
+      "x": 304.31343343315484,
+      "y": 406.5507545438434,
+      "label": null,
+      "groupId": "aaf55",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000176170",
+      "uniprotAccs": [
+        "Q9NYA1",
+        "K7EJ32",
+        "K7EMA4"
+      ]
+    },
+    {
+      "id": "e111d",
+      "geneNames": null,
+      "type": "compound",
+      "x": 483.4633691780437,
+      "y": 490.6285097098307,
+      "label": "1-deoxy-dihydroceramide",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:67111"
+    },
+    {
+      "id": "bf274",
+      "geneNames": null,
+      "type": "compound",
+      "x": 383.23851336399383,
+      "y": 451.65297980266195,
+      "label": "ADP",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:456216"
+    },
+    {
+      "id": "fb2b7",
+      "geneNames": [
+        "SGPP2"
+      ],
+      "type": "gene_protein",
+      "x": 678.5701392259351,
+      "y": 431.7091030011932,
+      "label": null,
+      "groupId": "a7d35",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000163082",
+      "uniprotAccs": [
+        "Q8IWX5"
+      ]
+    },
+    {
+      "id": "e53bd",
+      "geneNames": null,
+      "type": "compound",
+      "x": 116.0141891421857,
+      "y": 366.56287776390764,
+      "label": "CoA (20:0)",
+      "groupId": "fc36c",
+      "referenceDatabase": "ChEBI",
+      "referenceId": "15527"
+    },
+    {
+      "id": "a4428",
+      "geneNames": null,
+      "type": "compound",
+      "x": 116.01418914218573,
+      "y": 416.56287776390764,
+      "label": "CoA (26:0)",
+      "groupId": "fc36c",
+      "referenceDatabase": "LIPID MAPS",
+      "referenceId": "LMFA07050327"
+    },
+    {
+      "id": "bbce4",
+      "geneNames": null,
+      "type": "misc",
+      "x": 670.0687534299533,
+      "y": 760.4729443844935,
+      "label": "CYP4A/F family ",
+      "groupId": "b5005"
+    },
+    {
+      "id": "a7d35",
+      "type": "group",
+      "components": [
+        "bc2af",
+        "fb2b7"
+      ]
+    },
+    {
+      "id": "aaf55",
+      "type": "group",
+      "components": [
+        "ba911",
+        "c2a93"
+      ]
+    },
+    {
+      "id": "b5005",
+      "type": "group",
+      "components": [
+        "a8ed2",
+        "f4497",
+        "bbce4"
+      ]
+    },
+    {
+      "id": "deb01",
+      "type": "group",
+      "components": [
+        "f3a08",
+        "db30d"
+      ]
+    },
+    {
+      "id": "fc36c",
+      "type": "group",
+      "components": [
+        "abd39",
+        "cc7f6",
+        "addb1",
+        "a091e",
+        "d9cb2",
+        "cdc6f",
+        "e53bd",
+        "a4428"
+      ]
+    }
+  ]
+}

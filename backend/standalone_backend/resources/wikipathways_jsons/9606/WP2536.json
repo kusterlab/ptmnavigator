@@ -1,0 +1,100 @@
+{
+  "pathway": {
+    "name": "WP2536",
+    "org": "Homo sapiens",
+    "title": "Colchicine metabolic pathway"
+  },
+  "links": [
+    {
+      "id": "id2b3f4a18",
+      "sourceId": "c6ebc",
+      "targetId": "d4a9d",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "iddb8622d1",
+      "sourceId": "ff780",
+      "targetId": "id2b3f4a18",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": 0,
+      "sourceId": "c6ebc",
+      "targetId": "ff780",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "b7125",
+      "sourceId": "c6ebc",
+      "targetId": "d406b",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "fbf4e",
+      "sourceId": "ff780",
+      "targetId": "b7125",
+      "types": [
+        "catalysis"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "c6ebc",
+      "geneNames": null,
+      "type": "compound",
+      "x": 145.0,
+      "y": 111.0,
+      "label": "Colchicine",
+      "groupId": null,
+      "referenceDatabase": "Chemspider",
+      "referenceId": "5933"
+    },
+    {
+      "id": "d4a9d",
+      "geneNames": null,
+      "type": "compound",
+      "x": 310.0,
+      "y": 111.0,
+      "label": "3DMC",
+      "groupId": null,
+      "referenceDatabase": "Chemspider",
+      "referenceId": "264748"
+    },
+    {
+      "id": "d406b",
+      "geneNames": null,
+      "type": "compound",
+      "x": 145.0,
+      "y": 246.0,
+      "label": "2DMC",
+      "groupId": null,
+      "referenceDatabase": "Chemspider",
+      "referenceId": "22210"
+    },
+    {
+      "id": "ff780",
+      "geneNames": [
+        "CYP3A4"
+      ],
+      "type": "gene_protein",
+      "x": 211.0,
+      "y": 192.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P08684",
+      "uniprotAccs": [
+        "P08684"
+      ]
+    }
+  ]
+}

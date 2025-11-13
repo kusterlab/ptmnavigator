@@ -1,0 +1,334 @@
+{
+  "pathway": {
+    "name": "WP3980",
+    "org": "Homo sapiens",
+    "title": "Protein alkylation leading to liver fibrosis"
+  },
+  "links": [
+    {
+      "id": "id12fed14f",
+      "sourceId": "ff3e0",
+      "targetId": "fff95",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id13142ef5",
+      "sourceId": "c4106",
+      "targetId": "c3f0a",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id1af8ee40",
+      "sourceId": "ee9ff",
+      "targetId": "c10d4",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "id30c1f8d5",
+      "sourceId": "c10d4",
+      "targetId": "c4106",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id3224fe42",
+      "sourceId": "b8c94",
+      "targetId": "c3f0a",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "id40b52e8b",
+      "sourceId": "e6fc0",
+      "targetId": "d5644",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id49247177",
+      "sourceId": "f101f",
+      "targetId": "d5644",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id4ff32e8c",
+      "sourceId": "ca260",
+      "targetId": "d5644",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id4ff76459",
+      "sourceId": "c10d4",
+      "targetId": "ff3e0",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id52dfc1b5",
+      "sourceId": "c2756",
+      "targetId": "d5644",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id6a2e251a",
+      "sourceId": "ae8fd",
+      "targetId": "fff95",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "id752a201a",
+      "sourceId": "c3f0a",
+      "targetId": "ff3e0",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id8d271c5d",
+      "sourceId": "d6cd8",
+      "targetId": "c10d4",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "id94850177",
+      "sourceId": "fff95",
+      "targetId": "ed90c",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idb57b616c",
+      "sourceId": "d5644",
+      "targetId": "c10d4",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idcadcba35",
+      "sourceId": "feb8b",
+      "targetId": "d5644",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idffcd131a",
+      "sourceId": "ffe79",
+      "targetId": "c10d4",
+      "types": [
+        "undefined"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "ae8fd",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 241.5,
+      "y": 644.0,
+      "label": "Collagen biosynthesis and modifying enzymes",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP2725"
+    },
+    {
+      "id": "c10d4",
+      "geneNames": null,
+      "type": "misc",
+      "x": 241.5,
+      "y": 260.0,
+      "label": "KE55: Cell injury/death",
+      "groupId": null,
+      "referenceDatabase": "AOP-Wiki KE",
+      "referenceId": "55"
+    },
+    {
+      "id": "c2756",
+      "geneNames": null,
+      "type": "compound",
+      "x": 382.525179028133,
+      "y": 85.0450000000004,
+      "label": "thioacetamide",
+      "groupId": null,
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q416253"
+    },
+    {
+      "id": "c3f0a",
+      "geneNames": null,
+      "type": "misc",
+      "x": 241.5,
+      "y": 469.0,
+      "label": "KE276: TGFbeta1 expression up regulation",
+      "groupId": null,
+      "referenceDatabase": "AOP-Wiki KE",
+      "referenceId": "276"
+    },
+    {
+      "id": "c4106",
+      "geneNames": null,
+      "type": "misc",
+      "x": 241.5,
+      "y": 406.0,
+      "label": "KE134: Increased activation and recruitment of Kupffer Cells",
+      "groupId": null,
+      "referenceDatabase": "AOP-Wiki KE",
+      "referenceId": "134"
+    },
+    {
+      "id": "ca260",
+      "geneNames": null,
+      "type": "compound",
+      "x": 83.3525447570332,
+      "y": 85.04500000000039,
+      "label": "Dimethylnitrosamine",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:35807"
+    },
+    {
+      "id": "d5644",
+      "geneNames": null,
+      "type": "misc",
+      "x": 241.5,
+      "y": 199.0,
+      "label": "KE244: Protein alkylation",
+      "groupId": null,
+      "referenceDatabase": "AOP-Wiki KE",
+      "referenceId": "244"
+    },
+    {
+      "id": "d6cd8",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 241.5,
+      "y": 335.0,
+      "label": "Apoptosis Modulation and Signaling",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP1772"
+    },
+    {
+      "id": "e6fc0",
+      "geneNames": null,
+      "type": "compound",
+      "x": 475.08272378516625,
+      "y": 85.0450000000004,
+      "label": "allyl alcohol",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:16605"
+    },
+    {
+      "id": "ed90c",
+      "geneNames": null,
+      "type": "misc",
+      "x": 241.5,
+      "y": 724.0,
+      "label": "KE344: Liver Fibrosis",
+      "groupId": null,
+      "referenceDatabase": "AOP-Wiki KE",
+      "referenceId": "344"
+    },
+    {
+      "id": "ee9ff",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 241.5,
+      "y": 310.0,
+      "label": "TNF alpha Signaline Pathway",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP231"
+    },
+    {
+      "id": "f101f",
+      "geneNames": null,
+      "type": "compound",
+      "x": 197.4100895140664,
+      "y": 85.04500000000039,
+      "label": "retinol",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:50211"
+    },
+    {
+      "id": "feb8b",
+      "geneNames": null,
+      "type": "compound",
+      "x": 289.96763427109966,
+      "y": 85.0450000000004,
+      "label": "CCl4",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:27385"
+    },
+    {
+      "id": "ff3e0",
+      "geneNames": null,
+      "type": "misc",
+      "x": 241.5,
+      "y": 562.0,
+      "label": "KE265: Stellate cell activation",
+      "groupId": null,
+      "referenceDatabase": "AOP-Wiki KE",
+      "referenceId": "265"
+    },
+    {
+      "id": "ffe79",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 241.5,
+      "y": 285.0,
+      "label": "Apoptosis",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP254"
+    },
+    {
+      "id": "fff95",
+      "geneNames": null,
+      "type": "misc",
+      "x": 241.5,
+      "y": 619.0,
+      "label": "KE68: Collagen accumulation",
+      "groupId": null,
+      "referenceDatabase": "AOP-Wiki KE",
+      "referenceId": "68"
+    },
+    {
+      "id": "b8c94",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 241.5,
+      "y": 494.0,
+      "label": "TGF-beta signaling pathway",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP366"
+    }
+  ]
+}

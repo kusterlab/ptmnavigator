@@ -1,0 +1,227 @@
+{
+  "pathway": {
+    "name": "WP5089",
+    "org": "Homo sapiens",
+    "title": "Kinin-Kallikrein pathway"
+  },
+  "links": [
+    {
+      "id": "idd1bf26b3",
+      "sourceId": "f8635",
+      "targetId": "adebb",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "db29a",
+      "sourceId": "adebb",
+      "targetId": "d1722",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "bdf86",
+      "sourceId": "d1722",
+      "targetId": "d3094",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "dd74a",
+      "sourceId": "d3094",
+      "targetId": "fef22",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "f8ac4",
+      "sourceId": "fef22",
+      "targetId": "cef5a",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "e54d3",
+      "sourceId": "c1870",
+      "targetId": "dd74a",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "feb45",
+      "sourceId": "d3094",
+      "targetId": "ef929",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idf707377b",
+      "sourceId": "cd368",
+      "targetId": "f8635",
+      "types": [
+        "inhibition"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "cd368",
+      "geneNames": [
+        "SERPING1"
+      ],
+      "type": "gene_protein",
+      "x": 179.00037536284623,
+      "y": 78.46096400043777,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000149131",
+      "uniprotAccs": [
+        "P05155",
+        "A0A087WUD9",
+        "A0A7I2V2D2",
+        "A0A7I2V2X2",
+        "A0A7I2V4I9",
+        "A0A7I2V5R3",
+        "B5MCB9",
+        "C9JZJ9",
+        "E9PGN7",
+        "E9PK97",
+        "H0YCA1",
+        "H9KV48"
+      ]
+    },
+    {
+      "id": "d1722",
+      "geneNames": [
+        "KLKB1"
+      ],
+      "type": "gene_protein",
+      "x": 179.00037536284623,
+      "y": 256.9561742006614,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000164344",
+      "uniprotAccs": [
+        "P03952",
+        "C9J075",
+        "C9JCT1",
+        "E9PBC5"
+      ]
+    },
+    {
+      "id": "f8635",
+      "geneNames": [
+        "Coagulation factor XII"
+      ],
+      "type": "gene_protein",
+      "x": 179.00037536284623,
+      "y": 137.25,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P00748",
+      "uniprotAccs": [
+        "P00748"
+      ]
+    },
+    {
+      "id": "d3094",
+      "geneNames": [
+        "Bradykinin"
+      ],
+      "type": "gene_protein",
+      "x": 179.00037536284623,
+      "y": 317.83054818188543,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "RefSeq_Protein",
+      "referenceId": "9606",
+      "uniprotAccs": null
+    },
+    {
+      "id": "c1870",
+      "geneNames": [
+        "CPN1"
+      ],
+      "type": "gene_protein",
+      "x": 86.80935682238118,
+      "y": 354.0931071573682,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000120054",
+      "uniprotAccs": [
+        "P15169",
+        "B1AP58"
+      ]
+    },
+    {
+      "id": "fef22",
+      "geneNames": null,
+      "type": "compound",
+      "x": 114.0711353340173,
+      "y": 404.92519778933126,
+      "label": "des-arg(9) bradykinin",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "133068"
+    },
+    {
+      "id": "cef5a",
+      "geneNames": [
+        "BDKRB1"
+      ],
+      "type": "gene_protein",
+      "x": 114.0711353340173,
+      "y": 467.63775958054987,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "G3V4Y2",
+      "uniprotAccs": [
+        "G3V4Y2"
+      ]
+    },
+    {
+      "id": "ef929",
+      "geneNames": [
+        "BDKRB2"
+      ],
+      "type": "gene_protein",
+      "x": 259.8606090182268,
+      "y": 467.1114437910759,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "624",
+      "uniprotAccs": [
+        "P30411"
+      ]
+    },
+    {
+      "id": "adebb",
+      "geneNames": [
+        "Kininogen-1"
+      ],
+      "type": "gene_protein",
+      "x": 179.00037536284623,
+      "y": 197.25,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P01042",
+      "uniprotAccs": [
+        "P01042"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,694 @@
+{
+  "pathway": {
+    "name": "WP5152",
+    "org": "Homo sapiens",
+    "title": "Iron-sulfur cluster biogenesis"
+  },
+  "links": [
+    {
+      "id": "id17f19817",
+      "sourceId": "e8a00",
+      "targetId": "id94d7dc11",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id28582303",
+      "sourceId": "a0ba3",
+      "targetId": "id7c379fa",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id2c2836bd",
+      "sourceId": "cad3d",
+      "targetId": "a4e62",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id3c49a356",
+      "sourceId": "c84d8",
+      "targetId": "id682c3b8f",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id40f6ae50",
+      "sourceId": "e277a",
+      "targetId": "fa46c",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id44bbb696",
+      "sourceId": "ba60e",
+      "targetId": "id49d02e61",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id49d02e61",
+      "sourceId": "c2fca",
+      "targetId": "f5768",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id682c3b8f",
+      "sourceId": "cad3d",
+      "targetId": "ac907",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id797d8426",
+      "sourceId": "db810",
+      "targetId": "f81bd",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id7c379fa",
+      "sourceId": "f5768",
+      "targetId": "b3241",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id852efdbc",
+      "sourceId": "d93ea",
+      "targetId": "f5768",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id94d7dc11",
+      "sourceId": "de7f7",
+      "targetId": "e277a",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id9d27ef9d",
+      "sourceId": "f5768",
+      "targetId": "fdb66",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idaa528363",
+      "sourceId": "a2b36",
+      "targetId": "id9d27ef9d",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "idccfed601",
+      "sourceId": "b59cd",
+      "targetId": "id797d8426",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "ide5ad7929",
+      "sourceId": "f92d0",
+      "targetId": "idef08d567",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "idef08d567",
+      "sourceId": "a4e62",
+      "targetId": "ac907",
+      "types": [
+        "activation"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "b59cd",
+      "geneNames": [
+        "NFS1"
+      ],
+      "type": "gene_protein",
+      "x": 217.5,
+      "y": 162.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "9054",
+      "uniprotAccs": [
+        "Q9Y697",
+        "Q53FP3"
+      ]
+    },
+    {
+      "id": "c2d63",
+      "geneNames": [
+        "LYRM4"
+      ],
+      "type": "gene_protein",
+      "x": 217.5,
+      "y": 137.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "57128",
+      "uniprotAccs": [
+        "Q9HD34",
+        "C9JRX8",
+        "C9JY28",
+        "F5H189"
+      ]
+    },
+    {
+      "id": "c2fca",
+      "geneNames": null,
+      "type": "compound",
+      "x": 140.5,
+      "y": 423.0,
+      "label": "e-",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:10545"
+    },
+    {
+      "id": "da641",
+      "geneNames": [
+        "ISCU"
+      ],
+      "type": "gene_protein",
+      "x": 303.0,
+      "y": 203.0,
+      "label": null,
+      "groupId": "d93ea",
+      "referenceDatabase": "GeneID",
+      "referenceId": "23479",
+      "uniprotAccs": [
+        "Q9H1K1",
+        "B3KQ30",
+        "B4DNC9"
+      ]
+    },
+    {
+      "id": "db810",
+      "geneNames": null,
+      "type": "compound",
+      "x": 170.0,
+      "y": 210.0,
+      "label": "L-cysteine",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:17561"
+    },
+    {
+      "id": "e4800",
+      "geneNames": null,
+      "type": "compound",
+      "x": 109.5,
+      "y": 305.0,
+      "label": "Fe",
+      "groupId": "de7f7",
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:18248"
+    },
+    {
+      "id": "e8a00",
+      "geneNames": [
+        "FXN"
+      ],
+      "type": "gene_protein",
+      "x": 179.5,
+      "y": 256.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "2395",
+      "uniprotAccs": [
+        "Q16595",
+        "A0A0S2Z3G4"
+      ]
+    },
+    {
+      "id": "f5768",
+      "geneNames": null,
+      "type": "compound",
+      "x": 288.5,
+      "y": 422.0,
+      "label": "[4Fe-4S] cluster",
+      "groupId": "fa46c",
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:49883"
+    },
+    {
+      "id": "f81bd",
+      "geneNames": null,
+      "type": "compound",
+      "x": 252.0,
+      "y": 210.0,
+      "label": "S",
+      "groupId": "d93ea",
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:26833"
+    },
+    {
+      "id": "a38a8",
+      "geneNames": [
+        "FDX1"
+      ],
+      "type": "gene_protein",
+      "x": 194.5,
+      "y": 357.0,
+      "label": null,
+      "groupId": "ba60e",
+      "referenceDatabase": "GeneID",
+      "referenceId": "2230",
+      "uniprotAccs": [
+        "P10109"
+      ]
+    },
+    {
+      "id": "fc22c",
+      "geneNames": [
+        "FDXR"
+      ],
+      "type": "gene_protein",
+      "x": 194.5,
+      "y": 385.0,
+      "label": null,
+      "groupId": "ba60e",
+      "referenceDatabase": "GeneID",
+      "referenceId": "2232",
+      "uniprotAccs": [
+        "P22570",
+        "A0A0A0MSZ4",
+        "A0A0A0MT64",
+        "A0A0A0MTN9",
+        "A0A0A0MTR6",
+        "A0A0C4DFN8",
+        "A0A0C4DGN7"
+      ]
+    },
+    {
+      "id": "a2b36",
+      "geneNames": [
+        "ABCB7"
+      ],
+      "type": "gene_protein",
+      "x": 443.0,
+      "y": 381.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "22",
+      "uniprotAccs": [
+        "O75027",
+        "A0A087WW65",
+        "A0A0S2Z2Z3"
+      ]
+    },
+    {
+      "id": "a0950",
+      "geneNames": [
+        "HSPA9"
+      ],
+      "type": "gene_protein",
+      "x": 211.0,
+      "y": 492.0,
+      "label": null,
+      "groupId": "a0ba3",
+      "referenceDatabase": "GeneID",
+      "referenceId": "3313",
+      "uniprotAccs": [
+        "P38646",
+        "A0A384P5G6"
+      ]
+    },
+    {
+      "id": "b3cb0",
+      "geneNames": [
+        "HSCB"
+      ],
+      "type": "gene_protein",
+      "x": 215.0,
+      "y": 521.0,
+      "label": null,
+      "groupId": "a0ba3",
+      "referenceDatabase": "GeneID",
+      "referenceId": "150274",
+      "uniprotAccs": [
+        "Q8IWL3",
+        "A0A384NYJ4",
+        "B0QYH2"
+      ]
+    },
+    {
+      "id": "bea79",
+      "geneNames": [
+        "GLRX5"
+      ],
+      "type": "gene_protein",
+      "x": 213.0,
+      "y": 463.0,
+      "label": null,
+      "groupId": "a0ba3",
+      "referenceDatabase": "GeneID",
+      "referenceId": "51218",
+      "uniprotAccs": [
+        "Q86SX6",
+        "A0A384MDT9"
+      ]
+    },
+    {
+      "id": "d2228",
+      "geneNames": [
+        "NUBP2"
+      ],
+      "type": "gene_protein",
+      "x": 587.0,
+      "y": 449.0,
+      "label": null,
+      "groupId": "a4e62",
+      "referenceDatabase": "GeneID",
+      "referenceId": "10101",
+      "uniprotAccs": [
+        "Q9Y5Y2",
+        "B7Z6P0",
+        "H3BQR2"
+      ]
+    },
+    {
+      "id": "a353c",
+      "geneNames": [
+        "NUBP1"
+      ],
+      "type": "gene_protein",
+      "x": 588.0,
+      "y": 398.0,
+      "label": null,
+      "groupId": "a4e62",
+      "referenceDatabase": "GeneID",
+      "referenceId": "4682",
+      "uniprotAccs": [
+        "P53384"
+      ]
+    },
+    {
+      "id": "b68ae",
+      "geneNames": [
+        "NARF"
+      ],
+      "type": "gene_protein",
+      "x": 691.0,
+      "y": 469.0,
+      "label": null,
+      "groupId": "f92d0",
+      "referenceDatabase": "GeneID",
+      "referenceId": "26502",
+      "uniprotAccs": [
+        "Q9UHQ1"
+      ]
+    },
+    {
+      "id": "f1e93",
+      "geneNames": [
+        "CIAO1"
+      ],
+      "type": "gene_protein",
+      "x": 730.0,
+      "y": 497.0,
+      "label": null,
+      "groupId": "f92d0",
+      "referenceDatabase": "GeneID",
+      "referenceId": "4682",
+      "uniprotAccs": [
+        "P53384"
+      ]
+    },
+    {
+      "id": "db83c",
+      "geneNames": [
+        "CIAO2B"
+      ],
+      "type": "gene_protein",
+      "x": 763.0,
+      "y": 464.0,
+      "label": null,
+      "groupId": "f92d0",
+      "referenceDatabase": "GeneID",
+      "referenceId": "51647",
+      "uniprotAccs": [
+        "Q9Y3D0"
+      ]
+    },
+    {
+      "id": "a1e00",
+      "geneNames": [
+        "FXN"
+      ],
+      "type": "gene_protein",
+      "x": 718.5,
+      "y": 194.0,
+      "label": null,
+      "groupId": "c84d8",
+      "referenceDatabase": "GeneID",
+      "referenceId": "2395",
+      "uniprotAccs": [
+        "Q16595",
+        "A0A0S2Z3G4"
+      ]
+    },
+    {
+      "id": "a4f16",
+      "geneNames": [
+        "NFU1"
+      ],
+      "type": "gene_protein",
+      "x": 718.0,
+      "y": 165.0,
+      "label": null,
+      "groupId": "c84d8",
+      "referenceDatabase": "GeneID",
+      "referenceId": "27247",
+      "uniprotAccs": [
+        "Q9UMS0"
+      ]
+    },
+    {
+      "id": "a1aac",
+      "geneNames": [
+        "NFS1"
+      ],
+      "type": "gene_protein",
+      "x": 587.5,
+      "y": 182.0,
+      "label": null,
+      "groupId": "cad3d",
+      "referenceDatabase": "GeneID",
+      "referenceId": "9054",
+      "uniprotAccs": [
+        "Q9Y697",
+        "Q53FP3"
+      ]
+    },
+    {
+      "id": "e28c3",
+      "geneNames": [
+        "ISCU"
+      ],
+      "type": "gene_protein",
+      "x": 588.0,
+      "y": 209.0,
+      "label": null,
+      "groupId": "cad3d",
+      "referenceDatabase": "GeneID",
+      "referenceId": "23479",
+      "uniprotAccs": [
+        "Q9H1K1",
+        "B3KQ30",
+        "B4DNC9"
+      ]
+    },
+    {
+      "id": "bdf76",
+      "geneNames": null,
+      "type": "compound",
+      "x": 237.5,
+      "y": 279.0,
+      "label": "Fe",
+      "groupId": "e277a",
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:18248"
+    },
+    {
+      "id": "a68cb",
+      "geneNames": null,
+      "type": "compound",
+      "x": 255.0,
+      "y": 304.0,
+      "label": "Fe",
+      "groupId": "e277a",
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:18248"
+    },
+    {
+      "id": "ae878",
+      "geneNames": null,
+      "type": "compound",
+      "x": 122.5,
+      "y": 275.0,
+      "label": "Fe",
+      "groupId": "de7f7",
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:18248"
+    },
+    {
+      "id": "fdb66",
+      "geneNames": null,
+      "type": "compound",
+      "x": 586.0,
+      "y": 424.0,
+      "label": "[4Fe-4S] cluster",
+      "groupId": "a4e62",
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:49883"
+    },
+    {
+      "id": "a9d77",
+      "geneNames": [
+        "ISCU"
+      ],
+      "type": "gene_protein",
+      "x": 288.5,
+      "y": 397.0,
+      "label": null,
+      "groupId": "fa46c",
+      "referenceDatabase": "GeneID",
+      "referenceId": "23479",
+      "uniprotAccs": [
+        "Q9H1K1",
+        "B3KQ30",
+        "B4DNC9"
+      ]
+    },
+    {
+      "id": "b3241",
+      "geneNames": null,
+      "type": "misc",
+      "x": 289.0,
+      "y": 591.0,
+      "label": "Mitochondrial \nFe-S proteins",
+      "groupId": null
+    },
+    {
+      "id": "ac907",
+      "geneNames": null,
+      "type": "misc",
+      "x": 806.0,
+      "y": 321.25,
+      "label": "Cytosolic\nFe-S proteins",
+      "groupId": null
+    },
+    {
+      "id": "a0ba3",
+      "type": "group",
+      "components": [
+        "a0950",
+        "b3cb0",
+        "bea79"
+      ]
+    },
+    {
+      "id": "a4e62",
+      "type": "group",
+      "components": [
+        "d2228",
+        "a353c",
+        "fdb66"
+      ]
+    },
+    {
+      "id": "ba60e",
+      "type": "group",
+      "components": [
+        "a38a8",
+        "fc22c"
+      ]
+    },
+    {
+      "id": "c84d8",
+      "type": "group",
+      "components": [
+        "a1e00",
+        "a4f16"
+      ]
+    },
+    {
+      "id": "cad3d",
+      "type": "group",
+      "components": [
+        "a1aac",
+        "e28c3"
+      ]
+    },
+    {
+      "id": "d93ea",
+      "type": "group",
+      "components": [
+        "da641",
+        "f81bd"
+      ]
+    },
+    {
+      "id": "de7f7",
+      "type": "group",
+      "components": [
+        "e4800",
+        "ae878"
+      ]
+    },
+    {
+      "id": "e277a",
+      "type": "group",
+      "components": [
+        "bdf76",
+        "a68cb"
+      ]
+    },
+    {
+      "id": "f92d0",
+      "type": "group",
+      "components": [
+        "b68ae",
+        "f1e93",
+        "db83c"
+      ]
+    },
+    {
+      "id": "fa46c",
+      "type": "group",
+      "components": [
+        "f5768",
+        "a9d77"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,262 @@
+{
+  "pathway": {
+    "name": "WP2491",
+    "org": "Homo sapiens",
+    "title": "Diclofenac metabolic pathway"
+  },
+  "links": [
+    {
+      "id": "id101e6313",
+      "sourceId": "e8252",
+      "targetId": "dd575",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id8770e4e5",
+      "sourceId": "f35cf",
+      "targetId": "id101e6313",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id8da001ed",
+      "sourceId": "e8252",
+      "targetId": "d0dce",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "ide4de82d6",
+      "sourceId": "f35cf",
+      "targetId": "id8da001ed",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "idf27d9fd4",
+      "sourceId": "e8252",
+      "targetId": "c0ffe",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "idfdcd0f07",
+      "sourceId": "bc661",
+      "targetId": "idf27d9fd4",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id5236f80d",
+      "sourceId": "b0c84",
+      "targetId": "idf27d9fd4",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id206a96dc",
+      "sourceId": "c0ffe",
+      "targetId": "b876b",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "idf950b039",
+      "sourceId": "c0ffe",
+      "targetId": "fed6d",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id913aca5b",
+      "sourceId": "cdda7",
+      "targetId": "idf950b039",
+      "types": [
+        "catalysis"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "e8252",
+      "geneNames": null,
+      "type": "compound",
+      "x": 289.19315954771645,
+      "y": 224.11050289701976,
+      "label": "diclofenac",
+      "groupId": null,
+      "referenceDatabase": "PubChem-compound",
+      "referenceId": "3033"
+    },
+    {
+      "id": "dd575",
+      "geneNames": null,
+      "type": "compound",
+      "x": 290.19315954771633,
+      "y": 327.11050289701967,
+      "label": "3'-Hydroxydiclofenac",
+      "groupId": null,
+      "referenceDatabase": "PubChem-compound",
+      "referenceId": "112230"
+    },
+    {
+      "id": "f35cf",
+      "geneNames": [
+        "CYP2C9"
+      ],
+      "type": "gene_protein",
+      "x": 375.51468072317084,
+      "y": 273.1105028970198,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "Q6IRV8",
+      "uniprotAccs": [
+        "Q6IRV8"
+      ]
+    },
+    {
+      "id": "d0dce",
+      "geneNames": null,
+      "type": "compound",
+      "x": 497.2640324949946,
+      "y": 223.72675181663948,
+      "label": "4'-hydroxydiclofenac",
+      "groupId": null,
+      "referenceDatabase": "PubChem-compound",
+      "referenceId": "116545"
+    },
+    {
+      "id": "c0ffe",
+      "geneNames": null,
+      "type": "compound",
+      "x": 289.3988639556678,
+      "y": 131.246198661929,
+      "label": "5-hydroxydiclofenac",
+      "groupId": null,
+      "referenceDatabase": "PubChem-compound",
+      "referenceId": "3052566"
+    },
+    {
+      "id": "bc661",
+      "geneNames": [
+        "CYP2B6"
+      ],
+      "type": "gene_protein",
+      "x": 377.83494893439774,
+      "y": 180.713200190832,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P20813",
+      "uniprotAccs": [
+        "P20813"
+      ]
+    },
+    {
+      "id": "c820a",
+      "geneNames": [
+        "CYP2C8"
+      ],
+      "type": "gene_protein",
+      "x": 161.18779588192785,
+      "y": 162.4968468901054,
+      "label": null,
+      "groupId": "b0c84",
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P10632",
+      "uniprotAccs": [
+        "P10632"
+      ]
+    },
+    {
+      "id": "b876b",
+      "geneNames": null,
+      "type": "compound",
+      "x": 493.0041152263367,
+      "y": 131.6872427983539,
+      "label": "Metabolite",
+      "groupId": null,
+      "referenceDatabase": "PubChem-compound",
+      "referenceId": "10065052"
+    },
+    {
+      "id": "fed6d",
+      "geneNames": null,
+      "type": "compound",
+      "x": 288.641975308642,
+      "y": 39.50617283950618,
+      "label": "4',5-Dihydroxydiclofenac",
+      "groupId": null,
+      "referenceDatabase": "PubChem-compound",
+      "referenceId": "3052567"
+    },
+    {
+      "id": "d1021",
+      "geneNames": [
+        "CYP2C18"
+      ],
+      "type": "gene_protein",
+      "x": 161.0826361517942,
+      "y": 181.62726170075516,
+      "label": null,
+      "groupId": "b0c84",
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P33260",
+      "uniprotAccs": [
+        "P33260"
+      ]
+    },
+    {
+      "id": "e7aad",
+      "geneNames": [
+        "CYP2C19"
+      ],
+      "type": "gene_protein",
+      "x": 161.2104117884486,
+      "y": 201.3434356575383,
+      "label": null,
+      "groupId": "b0c84",
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P33261",
+      "uniprotAccs": [
+        "P33261"
+      ]
+    },
+    {
+      "id": "cdda7",
+      "geneNames": [
+        "CYP2C9"
+      ],
+      "type": "gene_protein",
+      "x": 378.781450992011,
+      "y": 85.36340595214881,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "Q6IRV8",
+      "uniprotAccs": [
+        "Q6IRV8"
+      ]
+    },
+    {
+      "id": "b0c84",
+      "type": "group",
+      "components": [
+        "c820a",
+        "d1021",
+        "e7aad"
+      ]
+    }
+  ]
+}

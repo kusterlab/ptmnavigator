@@ -1,0 +1,973 @@
+{
+  "pathway": {
+    "name": "WP5238",
+    "org": "Homo sapiens",
+    "title": "Cholestasis"
+  },
+  "links": [
+    {
+      "id": "id1d2fb18",
+      "sourceId": "a845e",
+      "targetId": "db0da",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "id24e980e7",
+      "sourceId": "a8b34",
+      "targetId": "aae9f",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "id258f6cd7",
+      "sourceId": "d3676",
+      "targetId": "b711c",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "id537f4c4b",
+      "sourceId": "cf371",
+      "targetId": "a8b34",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "id76fff28",
+      "sourceId": "cfb06",
+      "targetId": "f640f",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "id83af68c7",
+      "sourceId": "a8b34",
+      "targetId": "cfb06",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id899ce9da",
+      "sourceId": "c9652",
+      "targetId": "c2a1c",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id9958a7c6",
+      "sourceId": "a8b34",
+      "targetId": "d3676",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "idaa6e7faf",
+      "sourceId": "be98e",
+      "targetId": "ide2ea9234",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "idad0831a4",
+      "sourceId": "d3676",
+      "targetId": "f640f",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "id782853ee",
+      "sourceId": "a845e",
+      "targetId": "c9cd8",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "id204a15ff",
+      "sourceId": "c2a1c",
+      "targetId": "bd54c",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "idd2189850",
+      "sourceId": "a650e",
+      "targetId": "idb7710197",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "idb7710197",
+      "sourceId": "da98f",
+      "targetId": "aae9f",
+      "types": [
+        "transcription/translation"
+      ]
+    },
+    {
+      "id": "ide2ea9234",
+      "sourceId": "aa0fa",
+      "targetId": "c2a1c",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id8151f3d9",
+      "sourceId": "a845e",
+      "targetId": "fe4e9",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ide326c688",
+      "sourceId": "a845e",
+      "targetId": "be83c",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "id3a2e6132",
+      "sourceId": "a2d1f",
+      "targetId": "a5725",
+      "types": [
+        "transcription/translation"
+      ]
+    },
+    {
+      "id": "id5d79c693",
+      "sourceId": "e5822",
+      "targetId": "a8b34",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "id760d1edb",
+      "sourceId": "ba201",
+      "targetId": "id3a2e6132",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "id89c04a33",
+      "sourceId": "bd54c",
+      "targetId": "a845e",
+      "types": [
+        "stimulation"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "c7820",
+      "geneNames": null,
+      "type": "compound",
+      "x": 121.17641833882962,
+      "y": 335.06879328842246,
+      "label": "Cations",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:25697"
+    },
+    {
+      "id": "c2a1c",
+      "geneNames": null,
+      "type": "compound",
+      "x": 468.27936096718526,
+      "y": 247.43839953943558,
+      "label": "Cholesterol",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:16113"
+    },
+    {
+      "id": "c4f17",
+      "geneNames": null,
+      "type": "compound",
+      "x": 126.19582206191768,
+      "y": 198.5453110910732,
+      "label": "Na+",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:26708"
+    },
+    {
+      "id": "ce7a0",
+      "geneNames": null,
+      "type": "compound",
+      "x": 241.36154810887558,
+      "y": 289.38888513009465,
+      "label": "Ba",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:22868"
+    },
+    {
+      "id": "beb1a",
+      "geneNames": [
+        "ABCG5"
+      ],
+      "type": "gene_protein",
+      "x": 566.0635964912282,
+      "y": 333.2936899382676,
+      "label": null,
+      "groupId": "db0da",
+      "referenceDatabase": "Uniprot",
+      "referenceId": "Q9H222",
+      "uniprotAccs": [
+        "Q9H222"
+      ]
+    },
+    {
+      "id": "cfb06",
+      "geneNames": [
+        "NR1I3"
+      ],
+      "type": "gene_protein",
+      "x": 987.0858348968105,
+      "y": 299.93761726078856,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000143257",
+      "uniprotAccs": [
+        "Q14994",
+        "B7Z8R7",
+        "C0H5Y2",
+        "D6REZ7",
+        "E9PCF2",
+        "Q6GZ69",
+        "Q6GZ70",
+        "Q6GZ72",
+        "Q6GZ81"
+      ]
+    },
+    {
+      "id": "d3676",
+      "geneNames": null,
+      "type": "compound",
+      "x": 1005.9228395061725,
+      "y": 425.67592592592604,
+      "label": "PPAR-a",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:70782"
+    },
+    {
+      "id": "e96f9",
+      "geneNames": null,
+      "type": "compound",
+      "x": 810.2184917226525,
+      "y": 370.629542891355,
+      "label": "Phospholipids",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:16247"
+    },
+    {
+      "id": "fcba1",
+      "geneNames": [
+        "ABCG8"
+      ],
+      "type": "gene_protein",
+      "x": 566.0635964912282,
+      "y": 353.0741516790764,
+      "label": null,
+      "groupId": "db0da",
+      "referenceDatabase": "Uniprot",
+      "referenceId": "Q9H221",
+      "uniprotAccs": [
+        "Q9H221"
+      ]
+    },
+    {
+      "id": "fe4e9",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 258.0,
+      "y": 493.7500000000001,
+      "label": "Regulation of BA synthesis \nand transport",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP5176"
+    },
+    {
+      "id": "a5725",
+      "geneNames": [
+        "ABCB11"
+      ],
+      "type": "gene_protein",
+      "x": 580.493871307332,
+      "y": 392.5508591826724,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "O95342",
+      "uniprotAccs": [
+        "O95342"
+      ]
+    },
+    {
+      "id": "dabfd",
+      "geneNames": null,
+      "type": "misc",
+      "x": 647.5658161198859,
+      "y": 327.4261846901574,
+      "label": "Bile canaliculus",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "a845e",
+      "geneNames": [
+        "NR1H4"
+      ],
+      "type": "gene_protein",
+      "x": 392.76524614254225,
+      "y": 311.3977013996606,
+      "label": null,
+      "groupId": "ba201",
+      "referenceDatabase": "Uniprot",
+      "referenceId": "Q96RI1",
+      "uniprotAccs": [
+        "Q96RI1"
+      ]
+    },
+    {
+      "id": "f2d37",
+      "geneNames": [
+        "Tight junction"
+      ],
+      "type": "gene_protein",
+      "x": 649.6666666666663,
+      "y": 473.99999999999926,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q1053832"
+    },
+    {
+      "id": "f586b",
+      "geneNames": null,
+      "type": "compound",
+      "x": 511.68172590370466,
+      "y": 113.73064191134127,
+      "label": "HDL",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:39025"
+    },
+    {
+      "id": "c9652",
+      "geneNames": null,
+      "type": "compound",
+      "x": 468.6240644789871,
+      "y": 205.27677029360962,
+      "label": "Cholesteryl esters",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:17002"
+    },
+    {
+      "id": "be83c",
+      "geneNames": [
+        "ABCC2"
+      ],
+      "type": "gene_protein",
+      "x": 571.6666666666663,
+      "y": 293.49999999999955,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "Q92887",
+      "uniprotAccs": [
+        "Q92887"
+      ]
+    },
+    {
+      "id": "aa0fa",
+      "geneNames": null,
+      "type": "compound",
+      "x": 349.2030800230287,
+      "y": 200.67112838226822,
+      "label": "Acetyl CoA",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "15351"
+    },
+    {
+      "id": "fd859",
+      "geneNames": [
+        "mEH"
+      ],
+      "type": "gene_protein",
+      "x": 182.75000000000006,
+      "y": 204.7428973793783,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P07099",
+      "uniprotAccs": [
+        "P07099"
+      ]
+    },
+    {
+      "id": "c7750",
+      "geneNames": null,
+      "type": "compound",
+      "x": 418.6380556313067,
+      "y": 113.73064191134128,
+      "label": "LDL",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:39026"
+    },
+    {
+      "id": "b2274",
+      "geneNames": [
+        "OATPs"
+      ],
+      "type": "gene_protein",
+      "x": 184.62037037037027,
+      "y": 249.04499460273374,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P46721",
+      "uniprotAccs": [
+        "P46721"
+      ]
+    },
+    {
+      "id": "c6870",
+      "geneNames": null,
+      "type": "compound",
+      "x": 248.17200180342604,
+      "y": 238.02772768259706,
+      "label": "HCO3(-)",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:17544"
+    },
+    {
+      "id": "be98e",
+      "geneNames": [
+        "HMGCR"
+      ],
+      "type": "gene_protein",
+      "x": 346.5491851293195,
+      "y": 228.10041987403775,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P04035",
+      "uniprotAccs": [
+        "P04035"
+      ]
+    },
+    {
+      "id": "f4a24",
+      "geneNames": [
+        "TJP2"
+      ],
+      "type": "gene_protein",
+      "x": 652.6666666666663,
+      "y": 245.24999999999997,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "Q9UDY2",
+      "uniprotAccs": [
+        "Q9UDY2"
+      ]
+    },
+    {
+      "id": "d5170",
+      "geneNames": null,
+      "type": "compound",
+      "x": 250.69998518386342,
+      "y": 249.9203059133907,
+      "label": "GSH",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:16856"
+    },
+    {
+      "id": "bd54c",
+      "geneNames": null,
+      "type": "compound",
+      "x": 318.0833333333334,
+      "y": 264.45370370370324,
+      "label": "Bile acid",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "3098"
+    },
+    {
+      "id": "aae9f",
+      "geneNames": [
+        "ABCB4"
+      ],
+      "type": "gene_protein",
+      "x": 723.9269987123541,
+      "y": 365.6160947282849,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P21439",
+      "uniprotAccs": [
+        "P21439"
+      ]
+    },
+    {
+      "id": "fc9b1",
+      "geneNames": [
+        "RXRA"
+      ],
+      "type": "gene_protein",
+      "x": 392.84240663636933,
+      "y": 340.953256955216,
+      "label": null,
+      "groupId": "ba201",
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P19793",
+      "uniprotAccs": [
+        "P19793"
+      ]
+    },
+    {
+      "id": "cf371",
+      "geneNames": [
+        "ATP8B1"
+      ],
+      "type": "gene_protein",
+      "x": 726.3349214556553,
+      "y": 286.8706357413695,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "O43520",
+      "uniprotAccs": [
+        "O43520"
+      ]
+    },
+    {
+      "id": "c2ae5",
+      "geneNames": [
+        "NTCP"
+      ],
+      "type": "gene_protein",
+      "x": 184.06247221995446,
+      "y": 292.0889483041697,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "Q14973",
+      "uniprotAccs": [
+        "Q14973"
+      ]
+    },
+    {
+      "id": "a3c4c",
+      "geneNames": [
+        "OCT1"
+      ],
+      "type": "gene_protein",
+      "x": 183.84530709989963,
+      "y": 332.07396295389174,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "O15245",
+      "uniprotAccs": [
+        "O15245"
+      ]
+    },
+    {
+      "id": "b711c",
+      "geneNames": [
+        "MRP3"
+      ],
+      "type": "gene_protein",
+      "x": 1114.750000000001,
+      "y": 232.74289737937804,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "O15438",
+      "uniprotAccs": [
+        "O15438"
+      ]
+    },
+    {
+      "id": "f640f",
+      "geneNames": [
+        "MRP4"
+      ],
+      "type": "gene_protein",
+      "x": 1115.750000000001,
+      "y": 307.74289737937755,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "O15439",
+      "uniprotAccs": [
+        "O15439"
+      ]
+    },
+    {
+      "id": "ff0d4",
+      "geneNames": [
+        "LDLR"
+      ],
+      "type": "gene_protein",
+      "x": 413.2503170504913,
+      "y": 159.17226620720135,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P01130",
+      "uniprotAccs": [
+        "P01130"
+      ]
+    },
+    {
+      "id": "b19c1",
+      "geneNames": [
+        "SR-B1"
+      ],
+      "type": "gene_protein",
+      "x": 479.0994351382931,
+      "y": 158.24289737937823,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "Q8WTV0",
+      "uniprotAccs": [
+        "Q8WTV0"
+      ]
+    },
+    {
+      "id": "a8b34",
+      "geneNames": [
+        "NR1H4"
+      ],
+      "type": "gene_protein",
+      "x": 890.0,
+      "y": 281.3621013133214,
+      "label": null,
+      "groupId": "a650e",
+      "referenceDatabase": "Uniprot",
+      "referenceId": "Q96RI1",
+      "uniprotAccs": [
+        "Q96RI1"
+      ]
+    },
+    {
+      "id": "e5822",
+      "geneNames": null,
+      "type": "compound",
+      "x": 889.0833333333317,
+      "y": 219.69197762490376,
+      "label": "Bile acid",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "3098"
+    },
+    {
+      "id": "c2c56",
+      "geneNames": [
+        "RXRA"
+      ],
+      "type": "gene_protein",
+      "x": 889.154320987654,
+      "y": 311.27568156023455,
+      "label": null,
+      "groupId": "a650e",
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P19793",
+      "uniprotAccs": [
+        "P19793"
+      ]
+    },
+    {
+      "id": "ccfde",
+      "geneNames": [
+        "TJP2"
+      ],
+      "type": "gene_protein",
+      "x": 650.2482869810556,
+      "y": 429.24999999999955,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "Q9UDY2",
+      "uniprotAccs": [
+        "Q9UDY2"
+      ]
+    },
+    {
+      "id": "a2d1f",
+      "geneNames": [
+        "ABCB11"
+      ],
+      "type": "gene_protein",
+      "x": 274.5589027675726,
+      "y": 396.1311535635561,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "O95342",
+      "uniprotAccs": [
+        "O95342"
+      ]
+    },
+    {
+      "id": "da98f",
+      "geneNames": [
+        "ABCB4"
+      ],
+      "type": "gene_protein",
+      "x": 928.639729906431,
+      "y": 361.4249019390535,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P21439",
+      "uniprotAccs": [
+        "P21439"
+      ]
+    },
+    {
+      "id": "dc2de",
+      "geneNames": [
+        "Tight junction"
+      ],
+      "type": "gene_protein",
+      "x": 649.6666666666663,
+      "y": 206.99999999999926,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q1053832"
+    },
+    {
+      "id": "d9385",
+      "geneNames": null,
+      "type": "compound",
+      "x": 129.71582269043466,
+      "y": 304.3483080336114,
+      "label": "Ba",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:22868"
+    },
+    {
+      "id": "c4f98",
+      "geneNames": null,
+      "type": "compound",
+      "x": 130.6986901385862,
+      "y": 236.80096808771387,
+      "label": "Ba",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:22868"
+    },
+    {
+      "id": "f2435",
+      "geneNames": null,
+      "type": "compound",
+      "x": 123.11528166248145,
+      "y": 210.73243788031974,
+      "label": "Ba",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:22868"
+    },
+    {
+      "id": "dd4cd",
+      "geneNames": null,
+      "type": "compound",
+      "x": 130.78554253080853,
+      "y": 290.1503606853025,
+      "label": "Na+",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:26708"
+    },
+    {
+      "id": "cffd1",
+      "geneNames": null,
+      "type": "compound",
+      "x": 243.1299969942893,
+      "y": 197.35504959422911,
+      "label": "Na+",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:26708"
+    },
+    {
+      "id": "ef434",
+      "geneNames": null,
+      "type": "compound",
+      "x": 240.6265530781713,
+      "y": 258.3609320191837,
+      "label": "Ba",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:22868"
+    },
+    {
+      "id": "f4673",
+      "geneNames": null,
+      "type": "compound",
+      "x": 241.32087228466375,
+      "y": 210.81359207328632,
+      "label": "Ba",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:22868"
+    },
+    {
+      "id": "fcff5",
+      "geneNames": null,
+      "type": "compound",
+      "x": 232.28918792689518,
+      "y": 317.8893709267222,
+      "label": "GSH",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:16856"
+    },
+    {
+      "id": "b469a",
+      "geneNames": null,
+      "type": "compound",
+      "x": 245.93530326960388,
+      "y": 338.61788427244846,
+      "label": "HCO3(-)",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:17544"
+    },
+    {
+      "id": "efb3f",
+      "geneNames": null,
+      "type": "compound",
+      "x": 253.4065378839267,
+      "y": 322.7017685656777,
+      "label": "Ba",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:22868"
+    },
+    {
+      "id": "f8c7f",
+      "geneNames": null,
+      "type": "compound",
+      "x": 513.5430945068861,
+      "y": 290.0199412796357,
+      "label": "Ba",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:22868"
+    },
+    {
+      "id": "c1b47",
+      "geneNames": null,
+      "type": "compound",
+      "x": 501.9112956551103,
+      "y": 380.1484769634528,
+      "label": "Ba",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:22868"
+    },
+    {
+      "id": "c36bb",
+      "geneNames": null,
+      "type": "compound",
+      "x": 1050.975856612344,
+      "y": 230.9312206531276,
+      "label": "Ba",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:22868"
+    },
+    {
+      "id": "c2c13",
+      "geneNames": null,
+      "type": "compound",
+      "x": 1039.3658988808036,
+      "y": 288.6798813625229,
+      "label": "Ba",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:22868"
+    },
+    {
+      "id": "cf1fb",
+      "geneNames": null,
+      "type": "compound",
+      "x": 787.5666550034985,
+      "y": 318.0075227431781,
+      "label": "Phospholipids",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:16247"
+    },
+    {
+      "id": "e2b15",
+      "geneNames": null,
+      "type": "compound",
+      "x": 503.6587301587295,
+      "y": 343.1507936507937,
+      "label": "Chol",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:16113"
+    },
+    {
+      "id": "a650e",
+      "type": "group",
+      "components": [
+        "a8b34",
+        "c2c56"
+      ]
+    },
+    {
+      "id": "ba201",
+      "type": "group",
+      "components": [
+        "a845e",
+        "fc9b1"
+      ]
+    },
+    {
+      "id": "db0da",
+      "type": "group",
+      "components": [
+        "beb1a",
+        "fcba1"
+      ]
+    }
+  ]
+}

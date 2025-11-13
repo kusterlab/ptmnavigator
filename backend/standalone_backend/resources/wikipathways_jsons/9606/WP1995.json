@@ -1,0 +1,520 @@
+{
+  "pathway": {
+    "name": "WP1995",
+    "org": "Homo sapiens",
+    "title": "Effects of nitric oxide"
+  },
+  "links": [
+    {
+      "id": "d7db9",
+      "sourceId": "fd200",
+      "targetId": "e6a6f",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "d0d0c",
+      "sourceId": "ee1d5",
+      "targetId": "c9c59",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "b4801",
+      "sourceId": "ab531",
+      "targetId": "c73c8",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "e8135",
+      "sourceId": "dd448",
+      "targetId": "c9c59",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "a41bc",
+      "sourceId": "df4a1",
+      "targetId": "c9c59",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "f1164",
+      "sourceId": "c8bca",
+      "targetId": "c90a4",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "a4b2e",
+      "sourceId": "c73c8",
+      "targetId": "dfea3",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "de7f9",
+      "sourceId": "b51a2",
+      "targetId": "c5e9c",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "edf03",
+      "sourceId": "e2aba",
+      "targetId": "d04b0",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "c0355",
+      "sourceId": "ba00a",
+      "targetId": "b51a2",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "d0093",
+      "sourceId": "c73c8",
+      "targetId": "d511b",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "d840a",
+      "sourceId": "ba00a",
+      "targetId": "e2aba",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "ea116",
+      "sourceId": "ba00a",
+      "targetId": "fc60c",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "f5bca",
+      "sourceId": "d2ad2",
+      "targetId": "c90a4",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "a7d33",
+      "sourceId": "d1bc8",
+      "targetId": "bea5d",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "b4936",
+      "sourceId": "ab531",
+      "targetId": "c90a4",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "c90a4",
+      "sourceId": "e23d1",
+      "targetId": "ba00a",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "e3420",
+      "sourceId": "fc60c",
+      "targetId": "f59f5",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "c62d6",
+      "sourceId": "b51a2",
+      "targetId": "d1bc8",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "c73c8",
+      "sourceId": "db722",
+      "targetId": "ba00a",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "c0397",
+      "sourceId": "fd200",
+      "targetId": "e23d1",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "d1927",
+      "sourceId": "c7014",
+      "targetId": "c73c8",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "cd50f",
+      "sourceId": "df4a1",
+      "targetId": "c90a4",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "c9c59",
+      "sourceId": "e6a6f",
+      "targetId": "e23d1",
+      "types": [
+        "conversion"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "b43d0",
+      "geneNames": [
+        "NOS3 (endothelial)"
+      ],
+      "type": "gene_protein",
+      "x": 205.5,
+      "y": 125.0,
+      "label": null,
+      "groupId": "c7014",
+      "referenceDatabase": "GeneID",
+      "referenceId": "4846",
+      "uniprotAccs": [
+        "P29474",
+        "A0S0A6"
+      ]
+    },
+    {
+      "id": "ba00a",
+      "geneNames": null,
+      "type": "compound",
+      "x": 424.0,
+      "y": 162.0,
+      "label": "Nitric oxide",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0003378"
+    },
+    {
+      "id": "ee1d5",
+      "geneNames": [
+        "AOX1"
+      ],
+      "type": "gene_protein",
+      "x": 728.6451612903226,
+      "y": 229.4277894478414,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000138356",
+      "uniprotAccs": [
+        "Q06278",
+        "C9J244",
+        "H7BXF7",
+        "H7C3Q1"
+      ]
+    },
+    {
+      "id": "c8bca",
+      "geneNames": [
+        "Deoxy-hemoglobin"
+      ],
+      "type": "gene_protein",
+      "x": 620.4394917218366,
+      "y": 68.61514257834338,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000206172",
+      "uniprotAccs": [
+        "P69905",
+        "G3V1N2"
+      ]
+    },
+    {
+      "id": "d2ad2",
+      "geneNames": [
+        "Deoxy-myoglobin"
+      ],
+      "type": "gene_protein",
+      "x": 515.5322580645161,
+      "y": 98.06451612903224,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "4151",
+      "uniprotAccs": [
+        "P02144",
+        "A0A1K0FU49"
+      ]
+    },
+    {
+      "id": "e6a6f",
+      "geneNames": null,
+      "type": "compound",
+      "x": 818.0,
+      "y": 162.0,
+      "label": "Nitrate",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0002878"
+    },
+    {
+      "id": "e8e2f",
+      "geneNames": [
+        "NOS1 (neuronal)"
+      ],
+      "type": "gene_protein",
+      "x": 205.5,
+      "y": 85.0,
+      "label": null,
+      "groupId": "c7014",
+      "referenceDatabase": "GeneID",
+      "referenceId": "4842",
+      "uniprotAccs": [
+        "P29475",
+        "A0PJJ7",
+        "B3VK56",
+        "B4DG68"
+      ]
+    },
+    {
+      "id": "df4a1",
+      "geneNames": [
+        "COX1"
+      ],
+      "type": "gene_protein",
+      "x": 616.6451612903226,
+      "y": 229.4277894478414,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "4512",
+      "uniprotAccs": [
+        "P00395",
+        "U5YWV7"
+      ]
+    },
+    {
+      "id": "b72c8",
+      "geneNames": [
+        "NOS2 (inducible)"
+      ],
+      "type": "gene_protein",
+      "x": 205.5,
+      "y": 105.0,
+      "label": null,
+      "groupId": "c7014",
+      "referenceDatabase": "GeneID",
+      "referenceId": "4843",
+      "uniprotAccs": [
+        "P35228"
+      ]
+    },
+    {
+      "id": "dfea3",
+      "geneNames": null,
+      "type": "compound",
+      "x": 285.0,
+      "y": 204.0,
+      "label": "Citrulline",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000904"
+    },
+    {
+      "id": "dd448",
+      "geneNames": null,
+      "type": "compound",
+      "x": 842.7096774193544,
+      "y": 229.4277894478414,
+      "label": "VItamin C",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000044"
+    },
+    {
+      "id": "e23d1",
+      "geneNames": null,
+      "type": "compound",
+      "x": 613.0,
+      "y": 162.0,
+      "label": "Nitrite",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0002786"
+    },
+    {
+      "id": "e2aba",
+      "geneNames": [
+        "XDH"
+      ],
+      "type": "gene_protein",
+      "x": 207.8333870967741,
+      "y": 359.10064516129023,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000158125",
+      "uniprotAccs": [
+        "P47989"
+      ]
+    },
+    {
+      "id": "db722",
+      "geneNames": null,
+      "type": "compound",
+      "x": 61.0,
+      "y": 161.0,
+      "label": "L-Arginine",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000517"
+    },
+    {
+      "id": "d511b",
+      "geneNames": null,
+      "type": "compound",
+      "x": 61.0,
+      "y": 204.0,
+      "label": "Oxygen",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0001377"
+    },
+    {
+      "id": "ab531",
+      "geneNames": null,
+      "type": "misc",
+      "x": 417.9583333333326,
+      "y": 56.84190952590171,
+      "label": "Hypoxia",
+      "groupId": null,
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q105688"
+    },
+    {
+      "id": "d04b0",
+      "geneNames": null,
+      "type": "misc",
+      "x": 207.8333870967741,
+      "y": 424.10064516129023,
+      "label": "Increased\nmitochondrial\nefficiency",
+      "groupId": null
+    },
+    {
+      "id": "bea5d",
+      "geneNames": null,
+      "type": "misc",
+      "x": 423.99999999999994,
+      "y": 549.5,
+      "label": "Reduced risk of\ncardiovascular disease",
+      "groupId": null
+    },
+    {
+      "id": "b51a2",
+      "geneNames": null,
+      "type": "misc",
+      "x": 424.0,
+      "y": 314.5,
+      "label": "cGMP\nsignaling",
+      "groupId": null
+    },
+    {
+      "id": "d1bc8",
+      "geneNames": null,
+      "type": "misc",
+      "x": 423.99999999999994,
+      "y": 469.0,
+      "label": "Vasodilation",
+      "groupId": null
+    },
+    {
+      "id": "c5e9c",
+      "geneNames": null,
+      "type": "misc",
+      "x": 494.435564516129,
+      "y": 417.77201612903224,
+      "label": "Anti-inflammatory\neffects",
+      "groupId": null
+    },
+    {
+      "id": "adc2d",
+      "geneNames": null,
+      "type": "misc",
+      "x": 205.5,
+      "y": 63.0,
+      "label": "NOS family",
+      "groupId": "c7014"
+    },
+    {
+      "id": "f59f5",
+      "geneNames": null,
+      "type": "misc",
+      "x": 579.2453225806457,
+      "y": 532.734274193549,
+      "label": "Increased risk\nof carcinogenesis",
+      "groupId": null
+    },
+    {
+      "id": "fc60c",
+      "geneNames": null,
+      "type": "misc",
+      "x": 579.2453225806457,
+      "y": 365.7342741935484,
+      "label": "Formation of\nnitrosylating\nspecies",
+      "groupId": null
+    },
+    {
+      "id": "fd200",
+      "geneNames": null,
+      "type": "misc",
+      "x": 735.0,
+      "y": 58.0,
+      "label": "Diet",
+      "groupId": null
+    },
+    {
+      "id": "c7014",
+      "type": "group",
+      "components": [
+        "b43d0",
+        "e8e2f",
+        "b72c8",
+        "adc2d"
+      ]
+    }
+  ]
+}

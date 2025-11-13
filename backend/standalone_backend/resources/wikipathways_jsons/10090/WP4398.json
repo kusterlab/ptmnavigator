@@ -1,0 +1,206 @@
+{
+  "pathway": {
+    "name": "WP4398",
+    "org": "Mus musculus",
+    "title": "PDGFR-alpha and STMN1 cooperate to exacerbate cytotoxic effects of vinblastine"
+  },
+  "links": [
+    {
+      "id": "b9dd8",
+      "sourceId": "c7585",
+      "targetId": "c24ec",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "cd132",
+      "sourceId": "dc648",
+      "targetId": "c7585",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "f277a",
+      "sourceId": "dc648",
+      "targetId": "a27a5",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "cd429",
+      "sourceId": "da045",
+      "targetId": "f277a",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "f8dd0",
+      "sourceId": "e06fe",
+      "targetId": "dc648",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "ac6d1",
+      "sourceId": "f4370",
+      "targetId": "f277a",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "db915",
+      "sourceId": "f4370",
+      "targetId": "cbea0",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "e7230",
+      "sourceId": "a5747",
+      "targetId": "db915",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "a7355",
+      "sourceId": "c7585",
+      "targetId": "fbfd0",
+      "types": [
+        "activation"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "a5747",
+      "geneNames": [
+        "Pdgfra"
+      ],
+      "type": "gene_protein",
+      "x": 778.5,
+      "y": 258.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000029231",
+      "uniprotAccs": [
+        "P26618",
+        "A0A0J9YUD9",
+        "A0A0J9YV49",
+        "A0A0J9YV87",
+        "A0A0J9YVF3"
+      ]
+    },
+    {
+      "id": "da045",
+      "geneNames": null,
+      "type": "compound",
+      "x": 381.0,
+      "y": 257.0,
+      "label": "Vinblastine",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:27375"
+    },
+    {
+      "id": "e06fe",
+      "geneNames": [
+        "Stmn1"
+      ],
+      "type": "gene_protein",
+      "x": 673.0,
+      "y": 320.0,
+      "label": null,
+      "groupId": "cbea0",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000028832",
+      "uniprotAccs": [
+        "P54227",
+        "D3Z1Z8",
+        "D3Z5N2"
+      ]
+    },
+    {
+      "id": "f4370",
+      "geneNames": [
+        "Stmn1"
+      ],
+      "type": "gene_protein",
+      "x": 683.0,
+      "y": 207.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000028832",
+      "states": [
+        "P",
+        "P"
+      ],
+      "uniprotAccs": [
+        "P54227",
+        "D3Z1Z8",
+        "D3Z5N2"
+      ]
+    },
+    {
+      "id": "a27a5",
+      "geneNames": null,
+      "type": "misc",
+      "x": 451.5,
+      "y": 155.0,
+      "label": "Polymerization",
+      "groupId": null
+    },
+    {
+      "id": "c7585",
+      "geneNames": null,
+      "type": "misc",
+      "x": 159.0,
+      "y": 320.0,
+      "label": "Spindle assembly checkpoint\n(SAC)",
+      "groupId": null
+    },
+    {
+      "id": "c24ec",
+      "geneNames": null,
+      "type": "misc",
+      "x": 224.5,
+      "y": 227.0,
+      "label": "Mitotic slippage",
+      "groupId": null
+    },
+    {
+      "id": "fbfd0",
+      "geneNames": null,
+      "type": "misc",
+      "x": 93.5,
+      "y": 227.0,
+      "label": "Apoptosis",
+      "groupId": null
+    },
+    {
+      "id": "dc648",
+      "geneNames": null,
+      "type": "misc",
+      "x": 451.5,
+      "y": 320.0,
+      "label": "Depolymerization",
+      "groupId": null
+    },
+    {
+      "id": "cbea0",
+      "type": "group",
+      "components": [
+        "e06fe"
+      ]
+    }
+  ]
+}

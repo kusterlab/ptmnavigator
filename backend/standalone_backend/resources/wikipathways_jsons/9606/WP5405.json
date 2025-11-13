@@ -1,0 +1,132 @@
+{
+  "pathway": {
+    "name": "WP5405",
+    "org": "Homo sapiens",
+    "title": "13q12 or CRYL1 copy number variation "
+  },
+  "links": [
+    {
+      "id": "id7a599d82",
+      "sourceId": "df3a3",
+      "targetId": "idc33a099b",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id87e7c9a8",
+      "sourceId": "c42dd",
+      "targetId": "df3a3",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "idc33a099b",
+      "sourceId": "f5d3b",
+      "targetId": "bad7a",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "df7b1",
+      "sourceId": "a4adc",
+      "targetId": "df3a3",
+      "types": [
+        "inhibition"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "a2cad",
+      "geneNames": null,
+      "type": "compound",
+      "x": 132.13697256250435,
+      "y": 303.9732430689883,
+      "label": "NAD+",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:15846"
+    },
+    {
+      "id": "a4adc",
+      "geneNames": null,
+      "type": "compound",
+      "x": 282.5999355254679,
+      "y": 97.26028010602477,
+      "label": "Cibacron blue",
+      "groupId": null,
+      "referenceDatabase": "PubChem-compound",
+      "referenceId": "172469"
+    },
+    {
+      "id": "bad7a",
+      "geneNames": null,
+      "type": "compound",
+      "x": 321.4425281180585,
+      "y": 278.97324306898776,
+      "label": "3-dehydro-L-gulonate",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "57655"
+    },
+    {
+      "id": "c42dd",
+      "geneNames": null,
+      "type": "compound",
+      "x": 151.42560355326322,
+      "y": 97.79756787735505,
+      "label": "Malonate",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:38083"
+    },
+    {
+      "id": "df3a3",
+      "geneNames": [
+        "CRYL1"
+      ],
+      "type": "gene_protein",
+      "x": 216.6277133032458,
+      "y": 172.4917615875058,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000165475",
+      "uniprotAccs": [
+        "Q9Y2S2",
+        "A0A087WW38",
+        "A0A2R8Y4K2",
+        "A0A2R8Y5S5",
+        "A0A2R8Y699",
+        "A0A2R8Y7B4",
+        "A0A2R8YCZ4",
+        "A0A2R8YFQ7"
+      ]
+    },
+    {
+      "id": "f45a4",
+      "geneNames": null,
+      "type": "compound",
+      "x": 321.4425281180607,
+      "y": 303.973243068988,
+      "label": "NADH",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:16908"
+    },
+    {
+      "id": "f5d3b",
+      "geneNames": null,
+      "type": "compound",
+      "x": 132.13697256250435,
+      "y": 278.9732430689882,
+      "label": "L-gulonate",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "13115"
+    }
+  ]
+}

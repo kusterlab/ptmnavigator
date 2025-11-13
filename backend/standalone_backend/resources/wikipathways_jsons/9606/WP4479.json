@@ -1,0 +1,314 @@
+{
+  "pathway": {
+    "name": "WP4479",
+    "org": "Homo sapiens",
+    "title": "Supression of HMGB1 mediated inflammation by THBD"
+  },
+  "links": [
+    {
+      "id": "id2e3f1cf4",
+      "sourceId": "f026f",
+      "targetId": "bb95f",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id4d20087a",
+      "sourceId": "e3639",
+      "targetId": "f026f",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id72f8083f",
+      "sourceId": "c51dc",
+      "targetId": "d904b",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "iddd935b8b",
+      "sourceId": "bb95f",
+      "targetId": "c51dc",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ide89c7fe1",
+      "sourceId": "c51dc",
+      "targetId": "fb0cd",
+      "types": [
+        "activation"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "ce275",
+      "geneNames": [
+        "IkKA"
+      ],
+      "type": "gene_protein",
+      "x": 443.8709381663107,
+      "y": 405.27822248947814,
+      "label": null,
+      "groupId": "bb95f",
+      "referenceDatabase": "GeneID",
+      "referenceId": "1147",
+      "uniprotAccs": [
+        "O15111"
+      ]
+    },
+    {
+      "id": "c10e8",
+      "geneNames": [
+        "IkKB"
+      ],
+      "type": "gene_protein",
+      "x": 443.8709381663107,
+      "y": 385.27822248947814,
+      "label": null,
+      "groupId": "bb95f",
+      "referenceDatabase": "GeneID",
+      "referenceId": "3551",
+      "uniprotAccs": [
+        "O14920"
+      ]
+    },
+    {
+      "id": "a60c7",
+      "geneNames": [
+        "IkKG"
+      ],
+      "type": "gene_protein",
+      "x": 443.8709381663107,
+      "y": 365.27822248947814,
+      "label": null,
+      "groupId": "bb95f",
+      "referenceDatabase": "GeneID",
+      "referenceId": "8517",
+      "uniprotAccs": [
+        "Q9Y6K9",
+        "A0A087X1B1"
+      ]
+    },
+    {
+      "id": "a3c3f",
+      "geneNames": [
+        "IkBA"
+      ],
+      "type": "gene_protein",
+      "x": 442.53760483297737,
+      "y": 487.22761194029994,
+      "label": null,
+      "groupId": "c51dc",
+      "referenceDatabase": "GeneID",
+      "referenceId": "4792",
+      "uniprotAccs": [
+        "P25963"
+      ]
+    },
+    {
+      "id": "b81de",
+      "geneNames": [
+        "RELA"
+      ],
+      "type": "gene_protein",
+      "x": 442.53760483297737,
+      "y": 527.2276119402999,
+      "label": null,
+      "groupId": "c51dc",
+      "referenceDatabase": "GeneID",
+      "referenceId": "5970",
+      "uniprotAccs": [
+        "Q04206",
+        "A0A087X0W8"
+      ]
+    },
+    {
+      "id": "b00d8",
+      "geneNames": [
+        "THBD"
+      ],
+      "type": "gene_protein",
+      "x": 601.2312601714101,
+      "y": 227.270747593471,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "7056",
+      "uniprotAccs": [
+        "P07204"
+      ]
+    },
+    {
+      "id": "e3639",
+      "geneNames": [
+        "HMGB1"
+      ],
+      "type": "gene_protein",
+      "x": 491.58522388059737,
+      "y": 163.78199898854504,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "3146",
+      "uniprotAccs": [
+        "P09429"
+      ]
+    },
+    {
+      "id": "f026f",
+      "geneNames": [
+        "RAGE"
+      ],
+      "type": "gene_protein",
+      "x": 443.8709381663107,
+      "y": 291.0146865912015,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "177",
+      "uniprotAccs": [
+        "Q15109",
+        "A0A1U9X785",
+        "B4DNX3"
+      ]
+    },
+    {
+      "id": "f9148",
+      "geneNames": [
+        "NFKB1"
+      ],
+      "type": "gene_protein",
+      "x": 442.53760483297737,
+      "y": 507.22761194029994,
+      "label": null,
+      "groupId": "c51dc",
+      "referenceDatabase": "GeneID",
+      "referenceId": "4790",
+      "uniprotAccs": [
+        "P19838"
+      ]
+    },
+    {
+      "id": "e8044",
+      "geneNames": [
+        "HMGB1"
+      ],
+      "type": "gene_protein",
+      "x": 221.24196864488965,
+      "y": 113.00733749153792,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "3146",
+      "uniprotAccs": [
+        "P09429"
+      ]
+    },
+    {
+      "id": "ebff9",
+      "geneNames": [
+        "THBD"
+      ],
+      "type": "gene_protein",
+      "x": 203.0839710049521,
+      "y": 158.23332771413786,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "7056",
+      "uniprotAccs": [
+        "P07204"
+      ]
+    },
+    {
+      "id": "fafbd",
+      "geneNames": [
+        "HMGB1"
+      ],
+      "type": "gene_protein",
+      "x": 294.36262710753107,
+      "y": 218.98532501692435,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "3146",
+      "uniprotAccs": [
+        "P09429"
+      ]
+    },
+    {
+      "id": "d904b",
+      "geneNames": [
+        "IkBA"
+      ],
+      "type": "gene_protein",
+      "x": 364.83955223880633,
+      "y": 641.4060945273642,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "4792",
+      "uniprotAccs": [
+        "P25963"
+      ]
+    },
+    {
+      "id": "b837f",
+      "geneNames": [
+        "RELA"
+      ],
+      "type": "gene_protein",
+      "x": 559.8733884150682,
+      "y": 654.0132658137842,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "5970",
+      "uniprotAccs": [
+        "Q04206",
+        "A0A087X0W8"
+      ]
+    },
+    {
+      "id": "fb0cd",
+      "geneNames": [
+        "NFKB1"
+      ],
+      "type": "gene_protein",
+      "x": 559.8733884150682,
+      "y": 634.0132658137842,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "4790",
+      "uniprotAccs": [
+        "P19838"
+      ]
+    },
+    {
+      "id": "bb95f",
+      "type": "group",
+      "components": [
+        "ce275",
+        "c10e8",
+        "a60c7"
+      ]
+    },
+    {
+      "id": "c51dc",
+      "type": "group",
+      "components": [
+        "a3c3f",
+        "b81de",
+        "f9148"
+      ]
+    }
+  ]
+}

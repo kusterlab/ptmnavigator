@@ -1,0 +1,559 @@
+{
+  "pathway": {
+    "name": "WP5336",
+    "org": "Homo sapiens",
+    "title": "Induction of autophagy and toll-like receptor signaling pathways by graphene oxide "
+  },
+  "links": [
+    {
+      "id": "id262c0d77",
+      "sourceId": "b9621",
+      "targetId": "a769b",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "idbc5a645",
+      "sourceId": "a769b",
+      "targetId": "dd1fe",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "b2b19",
+      "sourceId": "bfcd1",
+      "targetId": "d8385",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "e393c",
+      "sourceId": "dd1fe",
+      "targetId": "db738",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "e8a3d",
+      "sourceId": "dd1fe",
+      "targetId": "f1ff2",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "e5579",
+      "sourceId": "a769b",
+      "targetId": "fb6c2",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ea554",
+      "sourceId": "fb6c2",
+      "targetId": "f1ff2",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "c15ef",
+      "sourceId": "db738",
+      "targetId": "c33fa",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "f0299",
+      "sourceId": "db738",
+      "targetId": "a6fcc",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "bcdd2",
+      "sourceId": "dbc8c",
+      "targetId": "e2b7b",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "c25a0",
+      "sourceId": "dbc8c",
+      "targetId": "d344d",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "e7700",
+      "sourceId": "a324d",
+      "targetId": "ac267",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "cc465",
+      "sourceId": "a324d",
+      "targetId": "dbc8c",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "d1f80",
+      "sourceId": "d8385",
+      "targetId": "a324d",
+      "types": [
+        "activation"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "b9621",
+      "geneNames": null,
+      "type": "compound",
+      "x": 208.80349794238973,
+      "y": 57.48662551440316,
+      "label": "GO",
+      "groupId": null,
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q95981922"
+    },
+    {
+      "id": "daadc",
+      "geneNames": [
+        "IFN-beta"
+      ],
+      "type": "gene_protein",
+      "x": 140.8744855967078,
+      "y": 460.9053497942385,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P01574",
+      "uniprotAccs": [
+        "P01574"
+      ]
+    },
+    {
+      "id": "f1ff2",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 231.43724279835487,
+      "y": 340.49074074074133,
+      "label": "autophagy",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP4923"
+    },
+    {
+      "id": "bfcd1",
+      "geneNames": null,
+      "type": "compound",
+      "x": 623.7417695473273,
+      "y": 63.24794238683135,
+      "label": "GO",
+      "groupId": null,
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q95981922"
+    },
+    {
+      "id": "c33fa",
+      "geneNames": [
+        "IFN-gamma"
+      ],
+      "type": "gene_protein",
+      "x": 358.4979423868315,
+      "y": 460.9053497942385,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P01579",
+      "uniprotAccs": [
+        "P01579"
+      ]
+    },
+    {
+      "id": "a6fcc",
+      "geneNames": [
+        "TNF-alpha"
+      ],
+      "type": "gene_protein",
+      "x": 267.2016460905347,
+      "y": 460.9053497942385,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P01375",
+      "uniprotAccs": [
+        "P01375"
+      ]
+    },
+    {
+      "id": "db738",
+      "geneNames": [
+        "NF-kappaB"
+      ],
+      "type": "gene_protein",
+      "x": 358.4979423868315,
+      "y": 350.8641975308633,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P19838",
+      "states": [
+        ""
+      ],
+      "uniprotAccs": [
+        "P19838"
+      ]
+    },
+    {
+      "id": "df6fa",
+      "geneNames": [
+        "TRAF6"
+      ],
+      "type": "gene_protein",
+      "x": 330.76131687242906,
+      "y": 266.21399176954577,
+      "label": null,
+      "groupId": "dd1fe",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000175104",
+      "uniprotAccs": [
+        "Q9Y4K3"
+      ]
+    },
+    {
+      "id": "d5ff8",
+      "geneNames": [
+        "MYD88"
+      ],
+      "type": "gene_protein",
+      "x": 306.1934156378596,
+      "y": 241.6460905349781,
+      "label": null,
+      "groupId": "dd1fe",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000172936",
+      "uniprotAccs": [
+        "Q99836",
+        "A0A0A0MSI9",
+        "A0A3B3ITY3",
+        "A0A3F2YP85",
+        "A0A494C0J8",
+        "A0A8V8TP38"
+      ]
+    },
+    {
+      "id": "a769b",
+      "geneNames": [
+        "TLR4"
+      ],
+      "type": "gene_protein",
+      "x": 208.80349794238975,
+      "y": 147.11934156378425,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000136869",
+      "uniprotAccs": [
+        "O00206",
+        "A0A2R8Y7P4"
+      ]
+    },
+    {
+      "id": "fb6c2",
+      "geneNames": [
+        "TRIF"
+      ],
+      "type": "gene_protein",
+      "x": 131.13168724279632,
+      "y": 266.58436213991615,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "f1401",
+      "geneNames": [
+        "IRF3"
+      ],
+      "type": "gene_protein",
+      "x": 109.85596707818712,
+      "y": 358.8888888888873,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000126456",
+      "uniprotAccs": [
+        "Q14653",
+        "M0QX56",
+        "M0QXC8",
+        "M0QYT9",
+        "M0QYX3",
+        "M0QZB7",
+        "M0QZB8",
+        "M0R007",
+        "M0R0R8",
+        "M0R0X9",
+        "M0R205",
+        "M0R3C2",
+        "M0R3E9",
+        "M0R3H7"
+      ]
+    },
+    {
+      "id": "ac267",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 661.1903292181073,
+      "y": 349.66769547325174,
+      "label": "autophagy",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP4923"
+    },
+    {
+      "id": "dbc8c",
+      "geneNames": [
+        "NF-kappaB"
+      ],
+      "type": "gene_protein",
+      "x": 785.9053497942377,
+      "y": 341.1111111111103,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P19838",
+      "states": [
+        ""
+      ],
+      "uniprotAccs": [
+        "P19838"
+      ]
+    },
+    {
+      "id": "f55d4",
+      "geneNames": [
+        "TRAF6"
+      ],
+      "type": "gene_protein",
+      "x": 725.1234567901215,
+      "y": 268.80658436213855,
+      "label": null,
+      "groupId": "a324d",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000175104",
+      "uniprotAccs": [
+        "Q9Y4K3"
+      ]
+    },
+    {
+      "id": "bb8d2",
+      "geneNames": [
+        "MYD88"
+      ],
+      "type": "gene_protein",
+      "x": 700.5555555555519,
+      "y": 244.2386831275709,
+      "label": null,
+      "groupId": "a324d",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000172936",
+      "uniprotAccs": [
+        "Q99836",
+        "A0A0A0MSI9",
+        "A0A3B3ITY3",
+        "A0A3F2YP85",
+        "A0A494C0J8",
+        "A0A8V8TP38"
+      ]
+    },
+    {
+      "id": "c833c",
+      "geneNames": [
+        "IRF3"
+      ],
+      "type": "gene_protein",
+      "x": 536.316872427982,
+      "y": 349.1358024691341,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000126456",
+      "uniprotAccs": [
+        "Q14653",
+        "M0QX56",
+        "M0QXC8",
+        "M0QYT9",
+        "M0QYX3",
+        "M0QZB7",
+        "M0QZB8",
+        "M0R007",
+        "M0R0R8",
+        "M0R0X9",
+        "M0R205",
+        "M0R3C2",
+        "M0R3E9",
+        "M0R3H7"
+      ]
+    },
+    {
+      "id": "bf3b8",
+      "geneNames": [
+        "IFN-beta"
+      ],
+      "type": "gene_protein",
+      "x": 525.3600823045226,
+      "y": 460.9053497942385,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P01574",
+      "uniprotAccs": [
+        "P01574"
+      ]
+    },
+    {
+      "id": "e2b7b",
+      "geneNames": [
+        "IFN-gamma"
+      ],
+      "type": "gene_protein",
+      "x": 771.7901234567883,
+      "y": 460.9053497942385,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P01579",
+      "uniprotAccs": [
+        "P01579"
+      ]
+    },
+    {
+      "id": "d344d",
+      "geneNames": [
+        "TNF-alpha"
+      ],
+      "type": "gene_protein",
+      "x": 687.9012345678976,
+      "y": 460.9053497942385,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P01375",
+      "uniprotAccs": [
+        "P01375"
+      ]
+    },
+    {
+      "id": "d8385",
+      "geneNames": [
+        "TLR9"
+      ],
+      "type": "gene_protein",
+      "x": 623.7417695473273,
+      "y": 193.16563786008248,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000239732",
+      "uniprotAccs": [
+        "Q9NR96"
+      ]
+    },
+    {
+      "id": "bae64",
+      "geneNames": [
+        "Beclin1"
+      ],
+      "type": "gene_protein",
+      "x": 201.19341563785898,
+      "y": 302.098765432097,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "Q14457",
+      "uniprotAccs": [
+        "Q14457"
+      ]
+    },
+    {
+      "id": "cbd05",
+      "geneNames": [
+        "LC3"
+      ],
+      "type": "gene_protein",
+      "x": 268.8065843621387,
+      "y": 303.8683127572,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "Q9H492",
+      "uniprotAccs": [
+        "Q9H492"
+      ]
+    },
+    {
+      "id": "c381e",
+      "geneNames": [
+        "Beclin1"
+      ],
+      "type": "gene_protein",
+      "x": 599.6707818930045,
+      "y": 307.1604938271588,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "Q14457",
+      "uniprotAccs": [
+        "Q14457"
+      ]
+    },
+    {
+      "id": "fdd03",
+      "geneNames": [
+        "LC3"
+      ],
+      "type": "gene_protein",
+      "x": 661.3991769547322,
+      "y": 305.637860082303,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "Q9H492",
+      "uniprotAccs": [
+        "Q9H492"
+      ]
+    },
+    {
+      "id": "a324d",
+      "type": "group",
+      "components": [
+        "f55d4",
+        "bb8d2"
+      ]
+    },
+    {
+      "id": "dd1fe",
+      "type": "group",
+      "components": [
+        "df6fa",
+        "d5ff8"
+      ]
+    }
+  ]
+}

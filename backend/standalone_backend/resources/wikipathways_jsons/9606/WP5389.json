@@ -1,0 +1,285 @@
+{
+  "pathway": {
+    "name": "WP5389",
+    "org": "Homo sapiens",
+    "title": "DNA adduct formation leading to kidney failure"
+  },
+  "links": [
+    {
+      "id": "id177ac4c9",
+      "sourceId": "ab673",
+      "targetId": "b435a",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id2450368e",
+      "sourceId": "e1400",
+      "targetId": "ab673",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id34efa72e",
+      "sourceId": "e1400",
+      "targetId": "f59ac",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "id3fc23057",
+      "sourceId": "bd13a",
+      "targetId": "acfe1",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "id6f2c7797",
+      "sourceId": "bd13a",
+      "targetId": "a78b6",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "id816f1449",
+      "sourceId": "a78b6",
+      "targetId": "e1400",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id9febbcbe",
+      "sourceId": "d83e9",
+      "targetId": "ab673",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "ida30181d2",
+      "sourceId": "dae60",
+      "targetId": "ab673",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "idab1f90ed",
+      "sourceId": "e1400",
+      "targetId": "e2fd0",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "idb105d354",
+      "sourceId": "d1882",
+      "targetId": "acfe1",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "idba61c592",
+      "sourceId": "acfe1",
+      "targetId": "a78b6",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idd7be7969",
+      "sourceId": "b435a",
+      "targetId": "c6349",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "iddee0ddb8",
+      "sourceId": "b435a",
+      "targetId": "d8138",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "ide0701a94",
+      "sourceId": "d1882",
+      "targetId": "a78b6",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "idf7c3b35a",
+      "sourceId": "a4b86",
+      "targetId": "ab673",
+      "types": [
+        "undefined"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "acfe1",
+      "geneNames": null,
+      "type": "misc",
+      "x": 391.0,
+      "y": 100.0,
+      "label": "DNA adduct formation",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "d1882",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 590.5,
+      "y": 119.14297658862893,
+      "label": "DNA damage response",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP707"
+    },
+    {
+      "id": "a78b6",
+      "geneNames": null,
+      "type": "misc",
+      "x": 391.0,
+      "y": 166.0,
+      "label": "DNA damage",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "e1400",
+      "geneNames": null,
+      "type": "misc",
+      "x": 391.0,
+      "y": 219.0,
+      "label": "Cell death",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "ab673",
+      "geneNames": null,
+      "type": "misc",
+      "x": 391.0,
+      "y": 326.0,
+      "label": "Inflammation",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "b435a",
+      "geneNames": null,
+      "type": "misc",
+      "x": 391.0,
+      "y": 455.0,
+      "label": "Fibrosis",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "c6349",
+      "geneNames": null,
+      "type": "misc",
+      "x": 391.0,
+      "y": 535.0,
+      "label": "Kidney failure",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "bd13a",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 590.5,
+      "y": 144.64297658862893,
+      "label": "DNA repair pathways",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP4946"
+    },
+    {
+      "id": "f59ac",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 391.0,
+      "y": 244.25,
+      "label": "Apoptosis",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP254"
+    },
+    {
+      "id": "e2fd0",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 391.0,
+      "y": 269.75,
+      "label": "Apoptosis modulation and signaling",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP1772"
+    },
+    {
+      "id": "d8138",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 391.0,
+      "y": 480.25,
+      "label": "Collagen biosynthesis and modifying enzymes",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP2725"
+    },
+    {
+      "id": "a4b86",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 391.0,
+      "y": 402.25,
+      "label": "Overview of proinflammatory and profibrotic mediators",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP5095"
+    },
+    {
+      "id": "d83e9",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 391.0,
+      "y": 351.25,
+      "label": "Type II interferon signaling",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP619"
+    },
+    {
+      "id": "dae60",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 391.0,
+      "y": 376.75,
+      "label": "TNF-alpha signaling pathway",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP231"
+    }
+  ]
+}

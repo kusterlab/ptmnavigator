@@ -1,0 +1,463 @@
+{
+  "pathway": {
+    "name": "WP1247",
+    "org": "Mus musculus",
+    "title": "Methylation"
+  },
+  "links": [
+    {
+      "id": "adaf6",
+      "sourceId": "c42b1",
+      "targetId": "f256f",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "b64f1",
+      "sourceId": "b851d",
+      "targetId": "bb08a",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ba6a0",
+      "sourceId": "c2177",
+      "targetId": "edd31",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "bd427",
+      "sourceId": "c1cd9",
+      "targetId": "e5936",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "bf945",
+      "sourceId": "b851d",
+      "targetId": "a2f53",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "c439a",
+      "sourceId": "da24b",
+      "targetId": "efa0c",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "d0992",
+      "sourceId": "e66ac",
+      "targetId": "bf945",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "d3d66",
+      "sourceId": "e46f4",
+      "targetId": "da24b",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "de091",
+      "sourceId": "ecc0e",
+      "targetId": "b4f09",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "e414a",
+      "sourceId": "ca713",
+      "targetId": "e67ac",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "e5936",
+      "sourceId": "b851d",
+      "targetId": "b682b",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "e9001",
+      "sourceId": "e46f4",
+      "targetId": "c42b1",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "eaed1",
+      "sourceId": "fed14",
+      "targetId": "b64f1",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "edd31",
+      "sourceId": "e46f4",
+      "targetId": "ecc0e",
+      "types": [
+        "activation"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "a2f53",
+      "geneNames": null,
+      "type": "compound",
+      "x": 815.0,
+      "y": 269.0,
+      "label": "N-methylated substrate",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "a630a",
+      "geneNames": [
+        "Mat1a"
+      ],
+      "type": "gene_protein",
+      "x": 234.0,
+      "y": 94.0,
+      "label": null,
+      "groupId": "c2177",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000037798",
+      "uniprotAccs": [
+        "Q91X83",
+        "A0A286YCQ9"
+      ]
+    },
+    {
+      "id": "afc8a",
+      "geneNames": [
+        "Mat2a"
+      ],
+      "type": "gene_protein",
+      "x": 234.0,
+      "y": 114.0,
+      "label": null,
+      "groupId": "c2177",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000053907",
+      "uniprotAccs": [
+        "Q3THS6",
+        "A0A0U1RNK6",
+        "A0A0U1RNT6",
+        "A0A0U1RPH4",
+        "A0A0U1RQ95",
+        "A0A0U1RQB0"
+      ]
+    },
+    {
+      "id": "b1bb4",
+      "geneNames": null,
+      "type": "compound",
+      "x": 303.0,
+      "y": 167.0,
+      "label": "Phosphate",
+      "groupId": "f40a7",
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0001429"
+    },
+    {
+      "id": "b4f09",
+      "geneNames": null,
+      "type": "compound",
+      "x": 684.0,
+      "y": 89.0,
+      "label": "S-Adenosylhomocysteine",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000939"
+    },
+    {
+      "id": "b682b",
+      "geneNames": null,
+      "type": "compound",
+      "x": 818.0,
+      "y": 393.0,
+      "label": "S-methylated substrate",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "b851d",
+      "geneNames": null,
+      "type": "compound",
+      "x": 308.0,
+      "y": 269.0,
+      "label": "Substrate",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "bb08a",
+      "geneNames": null,
+      "type": "compound",
+      "x": 811.0,
+      "y": 124.0,
+      "label": "O-methylated substrate",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "c1cd9",
+      "geneNames": [
+        "Tpmt"
+      ],
+      "type": "gene_protein",
+      "x": 566.0,
+      "y": 355.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000021376",
+      "uniprotAccs": [
+        "A0A0R4J018",
+        "A0A286YCA5",
+        "D3YWK6",
+        "D3Z0R1",
+        "D3Z217",
+        "D3Z380",
+        "D6RIK3"
+      ]
+    },
+    {
+      "id": "c42b1",
+      "geneNames": null,
+      "type": "compound",
+      "x": 453.0,
+      "y": 226.0,
+      "label": "S-Adenosylmethionine",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0001185"
+    },
+    {
+      "id": "ca713",
+      "geneNames": null,
+      "type": "compound",
+      "x": 167.0,
+      "y": 177.0,
+      "label": "ATP",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000538"
+    },
+    {
+      "id": "cd317",
+      "geneNames": [
+        "Pnmt"
+      ],
+      "type": "gene_protein",
+      "x": 567.0,
+      "y": 168.0,
+      "label": null,
+      "groupId": "e66ac",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000038216",
+      "uniprotAccs": [
+        "P40935"
+      ]
+    },
+    {
+      "id": "d262e",
+      "geneNames": [
+        "Mat2b"
+      ],
+      "type": "gene_protein",
+      "x": 234.0,
+      "y": 134.0,
+      "label": null,
+      "groupId": "c2177",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000042032",
+      "uniprotAccs": [
+        "Q99LB6",
+        "E0CYU5"
+      ]
+    },
+    {
+      "id": "da24b",
+      "geneNames": null,
+      "type": "compound",
+      "x": 451.0,
+      "y": 359.0,
+      "label": "S-Adenosylmethionine",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0001185"
+    },
+    {
+      "id": "df035",
+      "geneNames": [
+        "Hnmt"
+      ],
+      "type": "gene_protein",
+      "x": 567.0,
+      "y": 208.0,
+      "label": null,
+      "groupId": "e66ac",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000026986",
+      "uniprotAccs": [
+        "Q91VF2"
+      ]
+    },
+    {
+      "id": "e11e3",
+      "geneNames": [
+        "Inmt"
+      ],
+      "type": "gene_protein",
+      "x": 567.0,
+      "y": 188.0,
+      "label": null,
+      "groupId": "e66ac",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000003477",
+      "uniprotAccs": [
+        "P40936"
+      ]
+    },
+    {
+      "id": "e46f4",
+      "geneNames": null,
+      "type": "compound",
+      "x": 129.0,
+      "y": 226.0,
+      "label": "L-Methionine",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000696"
+    },
+    {
+      "id": "e60eb",
+      "geneNames": [
+        "Nnmt"
+      ],
+      "type": "gene_protein",
+      "x": 567.0,
+      "y": 228.0,
+      "label": null,
+      "groupId": "e66ac",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000032271",
+      "uniprotAccs": [
+        "O55239",
+        "D3YX59"
+      ]
+    },
+    {
+      "id": "e67ac",
+      "geneNames": null,
+      "type": "compound",
+      "x": 303.0,
+      "y": 187.0,
+      "label": "Phosphate",
+      "groupId": "f40a7",
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0001429"
+    },
+    {
+      "id": "ecc0e",
+      "geneNames": null,
+      "type": "compound",
+      "x": 449.0,
+      "y": 88.0,
+      "label": "S-Adenosylmethionine",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0001185"
+    },
+    {
+      "id": "efa0c",
+      "geneNames": null,
+      "type": "compound",
+      "x": 686.0,
+      "y": 360.0,
+      "label": "S-Adenosylhomocysteine",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000939"
+    },
+    {
+      "id": "f256f",
+      "geneNames": null,
+      "type": "compound",
+      "x": 688.0,
+      "y": 227.0,
+      "label": "S-Adenosylhomocysteine",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000939"
+    },
+    {
+      "id": "fed14",
+      "geneNames": [
+        "Comt1"
+      ],
+      "type": "gene_protein",
+      "x": 565.0,
+      "y": 81.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000000326",
+      "uniprotAccs": [
+        "O88587",
+        "D3Z227"
+      ]
+    },
+    {
+      "id": "f40a7",
+      "type": "group",
+      "components": [
+        "b1bb4",
+        "e67ac"
+      ]
+    },
+    {
+      "id": "c2177",
+      "type": "group",
+      "components": [
+        "a630a",
+        "afc8a",
+        "d262e"
+      ]
+    },
+    {
+      "id": "e66ac",
+      "type": "group",
+      "components": [
+        "cd317",
+        "df035",
+        "e11e3",
+        "e60eb"
+      ]
+    }
+  ]
+}

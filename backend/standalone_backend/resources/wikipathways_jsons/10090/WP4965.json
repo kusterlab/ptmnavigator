@@ -1,0 +1,259 @@
+{
+  "pathway": {
+    "name": "WP4965",
+    "org": "Mus musculus",
+    "title": "Deregulation of renin-angiotensin system by SARS-CoV infection"
+  },
+  "links": [
+    {
+      "id": "idbe2626c9",
+      "sourceId": "f86f8",
+      "targetId": "id3c85f717",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "idc0a82d8",
+      "sourceId": "ad44a",
+      "targetId": "bab13",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "idf8eda287",
+      "sourceId": "c8f71",
+      "targetId": "a6535",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "idc4c8fdab",
+      "sourceId": "b3515",
+      "targetId": "ad44a",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id69cfbf",
+      "sourceId": "ebb43",
+      "targetId": "idc0a82d8",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id1fae067f",
+      "sourceId": "c9c43",
+      "targetId": "f86f8",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id3c85f717",
+      "sourceId": "bab13",
+      "targetId": "f34cf",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "idaa16182f",
+      "sourceId": "e2b6c",
+      "targetId": "a6535",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id7289f3b9",
+      "sourceId": "f86f8",
+      "targetId": "a2a1e",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "idcc7fc0b6",
+      "sourceId": "bab13",
+      "targetId": "e2b6c",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "idfa0e6009",
+      "sourceId": "bab13",
+      "targetId": "c8f71",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "a2a1e",
+      "sourceId": "ad44a",
+      "targetId": "e166c",
+      "types": [
+        "conversion"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "bab13",
+      "geneNames": null,
+      "type": "compound",
+      "x": 375.6202950887491,
+      "y": 214.22646879006402,
+      "label": "Angiotensin II",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0001035"
+    },
+    {
+      "id": "ad44a",
+      "geneNames": null,
+      "type": "compound",
+      "x": 375.7281778168576,
+      "y": 101.12585604328825,
+      "label": "Angiotensin I",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0061196"
+    },
+    {
+      "id": "f34cf",
+      "geneNames": null,
+      "type": "compound",
+      "x": 375.74378632689843,
+      "y": 310.58223909195294,
+      "label": "Angiotensin-(1-7)",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:55438"
+    },
+    {
+      "id": "b3515",
+      "geneNames": null,
+      "type": "compound",
+      "x": 375.24560741333266,
+      "y": 45.151679058227046,
+      "label": "Angiotensinogen",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:2720"
+    },
+    {
+      "id": "a6535",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 517.0616181570333,
+      "y": 473.2506285427131,
+      "label": "Lung injury",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP5035"
+    },
+    {
+      "id": "e2b6c",
+      "geneNames": [
+        "Agtr1a"
+      ],
+      "type": "gene_protein",
+      "x": 469.40434329332106,
+      "y": 384.18586842293337,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000049115",
+      "uniprotAccs": [
+        "P29754",
+        "A0A1Y7VIT7",
+        "A0A1Y7VJY2",
+        "A0A1Y7VL16",
+        "A0A1Y7VMR7"
+      ]
+    },
+    {
+      "id": "f86f8",
+      "geneNames": [
+        "Ace2"
+      ],
+      "type": "gene_protein",
+      "x": 289.8640346741565,
+      "y": 383.18586842293337,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000015405",
+      "uniprotAccs": [
+        "Q8R0I0",
+        "F6X479"
+      ]
+    },
+    {
+      "id": "ebb43",
+      "geneNames": [
+        "Ace"
+      ],
+      "type": "gene_protein",
+      "x": 652.6441567549916,
+      "y": 384.18586842293337,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000020681",
+      "uniprotAccs": [
+        "P09470",
+        "F6QCP8"
+      ]
+    },
+    {
+      "id": "c8f71",
+      "geneNames": [
+        "Agtr2"
+      ],
+      "type": "gene_protein",
+      "x": 563.6382653441445,
+      "y": 384.18586842293337,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000068122",
+      "uniprotAccs": [
+        "P35374"
+      ]
+    },
+    {
+      "id": "e166c",
+      "geneNames": null,
+      "type": "compound",
+      "x": 194.88691369684614,
+      "y": 101.12585604328825,
+      "label": "Angiotensin-(1-9)",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:80128"
+    },
+    {
+      "id": "a4797",
+      "geneNames": null,
+      "type": "misc",
+      "x": 100.66707209987737,
+      "y": 322.2997769198663,
+      "label": "SARS-CoV",
+      "groupId": "df627"
+    },
+    {
+      "id": "df627",
+      "type": "group",
+      "components": [
+        "a4797"
+      ]
+    }
+  ]
+}

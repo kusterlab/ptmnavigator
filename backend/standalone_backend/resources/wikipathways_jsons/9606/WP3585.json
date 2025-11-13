@@ -1,0 +1,503 @@
+{
+  "pathway": {
+    "name": "WP3585",
+    "org": "Homo sapiens",
+    "title": "Cytosine methylation"
+  },
+  "links": [
+    {
+      "id": "id19009f48",
+      "sourceId": "ef1fd",
+      "targetId": "b0add",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id1e0cf8c7",
+      "sourceId": "a01e0",
+      "targetId": "daef4",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id2c0d9e6",
+      "sourceId": "a1fa3",
+      "targetId": "id5819f0cc",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id5819f0cc",
+      "sourceId": "e11d8",
+      "targetId": "id1e0cf8c7",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id5cd53fdf",
+      "sourceId": "cd90f",
+      "targetId": "e11d8",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id89eecb49",
+      "sourceId": "a1fa3",
+      "targetId": "daef4",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "id8e1688ba",
+      "sourceId": "cf952",
+      "targetId": "idf6756e83",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id901dab74",
+      "sourceId": "ac7f0",
+      "targetId": "a1fa3",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id9408df48",
+      "sourceId": "e11d8",
+      "targetId": "d7d66",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "idaf97ace4",
+      "sourceId": "d767d",
+      "targetId": "a1930",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "idbba37046",
+      "sourceId": "ac7f0",
+      "targetId": "e11d8",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "idbe44f2d8",
+      "sourceId": "e11d8",
+      "targetId": "ac5d2",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "idbf2895c3",
+      "sourceId": "aeb63",
+      "targetId": "daef4",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "idca20e727",
+      "sourceId": "ef1fd",
+      "targetId": "e9e1d",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "idea2d39c6",
+      "sourceId": "f1fca",
+      "targetId": "e11d8",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "idf6756e83",
+      "sourceId": "b583d",
+      "targetId": "b28eb",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "idfc085eff",
+      "sourceId": "b28eb",
+      "targetId": "e11d8",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "ac5d2",
+      "sourceId": "daef4",
+      "targetId": "f3207",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "d7d66",
+      "sourceId": "f3207",
+      "targetId": "ce948",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "b0add",
+      "sourceId": "ce948",
+      "targetId": "f53b5",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "a1930",
+      "sourceId": "f53b5",
+      "targetId": "a01e0",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "e9e1d",
+      "sourceId": "f3207",
+      "targetId": "f53b5",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "bc94b",
+      "sourceId": "b583d",
+      "targetId": "f1fca",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "fcb4f",
+      "sourceId": "e85e2",
+      "targetId": "bc94b",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "f2323",
+      "sourceId": "a1fa3",
+      "targetId": "a01e0",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "b605e",
+      "sourceId": "a1fa3",
+      "targetId": "idbe44f2d8",
+      "types": [
+        "inhibition"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "a01e0",
+      "geneNames": null,
+      "type": "compound",
+      "x": 444.0,
+      "y": 90.0,
+      "label": "5-methylcytosine",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0002894"
+    },
+    {
+      "id": "a1fa3",
+      "geneNames": [
+        "MECP2"
+      ],
+      "type": "gene_protein",
+      "x": 445.0,
+      "y": 199.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P51608",
+      "uniprotAccs": [
+        "P51608"
+      ]
+    },
+    {
+      "id": "ac7f0",
+      "geneNames": null,
+      "type": "compound",
+      "x": 238.0,
+      "y": 234.0,
+      "label": "ethanol",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:16236"
+    },
+    {
+      "id": "aeb63",
+      "geneNames": [
+        "MBD3"
+      ],
+      "type": "gene_protein",
+      "x": 825.0,
+      "y": 169.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "O95983",
+      "uniprotAccs": [
+        "O95983"
+      ]
+    },
+    {
+      "id": "b28eb",
+      "geneNames": null,
+      "type": "compound",
+      "x": 671.0,
+      "y": 332.0,
+      "label": "a-ketoglutarate",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:16810"
+    },
+    {
+      "id": "b583d",
+      "geneNames": null,
+      "type": "compound",
+      "x": 985.0,
+      "y": 346.0,
+      "label": "isocitrate",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:36453"
+    },
+    {
+      "id": "cd90f",
+      "geneNames": [
+        "hsa-mir-29a"
+      ],
+      "type": "gene_protein",
+      "x": 318.0,
+      "y": 337.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "miRBase mature sequence",
+      "referenceId": "MIMAT0000086"
+    },
+    {
+      "id": "ce948",
+      "geneNames": null,
+      "type": "compound",
+      "x": 98.5,
+      "y": 565.0,
+      "label": "5-carboxylcytosine",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:76793"
+    },
+    {
+      "id": "cf952",
+      "geneNames": [
+        "IDH1"
+      ],
+      "type": "gene_protein",
+      "x": 985.0,
+      "y": 296.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "O75874",
+      "uniprotAccs": [
+        "O75874"
+      ]
+    },
+    {
+      "id": "d3205",
+      "geneNames": [
+        "TET2"
+      ],
+      "type": "gene_protein",
+      "x": 445.0,
+      "y": 359.25,
+      "label": null,
+      "groupId": "e11d8",
+      "referenceDatabase": "Uniprot",
+      "referenceId": "Q6N021",
+      "uniprotAccs": [
+        "Q6N021"
+      ]
+    },
+    {
+      "id": "d767d",
+      "geneNames": [
+        "DNMT1"
+      ],
+      "type": "gene_protein",
+      "x": 188.0,
+      "y": 105.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P26358",
+      "uniprotAccs": [
+        "P26358"
+      ]
+    },
+    {
+      "id": "dab22",
+      "geneNames": [
+        "TET3"
+      ],
+      "type": "gene_protein",
+      "x": 445.0,
+      "y": 378.0,
+      "label": null,
+      "groupId": "e11d8",
+      "referenceDatabase": "Uniprot",
+      "referenceId": "K9JJH7",
+      "uniprotAccs": [
+        "K9JJH7"
+      ]
+    },
+    {
+      "id": "e351f",
+      "geneNames": [
+        "TET1"
+      ],
+      "type": "gene_protein",
+      "x": 445.0,
+      "y": 339.0,
+      "label": null,
+      "groupId": "e11d8",
+      "referenceDatabase": "Uniprot",
+      "referenceId": "Q8NFU7",
+      "uniprotAccs": [
+        "Q8NFU7"
+      ]
+    },
+    {
+      "id": "ebe19",
+      "geneNames": [
+        "TDG"
+      ],
+      "type": "gene_protein",
+      "x": 233.5,
+      "y": 490.0,
+      "label": null,
+      "groupId": "ef1fd",
+      "referenceDatabase": "Uniprot",
+      "referenceId": "Q13569",
+      "uniprotAccs": [
+        "Q13569"
+      ]
+    },
+    {
+      "id": "ed791",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 230.5,
+      "y": 510.0,
+      "label": "base excision repair",
+      "groupId": "ef1fd",
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP3399"
+    },
+    {
+      "id": "f1fca",
+      "geneNames": null,
+      "type": "compound",
+      "x": 671.0,
+      "y": 360.75,
+      "label": "2-hydroxyglutarate",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:11596"
+    },
+    {
+      "id": "f3207",
+      "geneNames": null,
+      "type": "compound",
+      "x": 795.0,
+      "y": 565.0,
+      "label": "5-formylcytosine",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:76794"
+    },
+    {
+      "id": "daef4",
+      "geneNames": null,
+      "type": "compound",
+      "x": 795.0,
+      "y": 215.0,
+      "label": "5-hydroxymethylcytosine",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:76792"
+    },
+    {
+      "id": "f53b5",
+      "geneNames": null,
+      "type": "compound",
+      "x": 98.5,
+      "y": 215.0,
+      "label": "cytosine",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:16040"
+    },
+    {
+      "id": "e85e2",
+      "geneNames": [
+        "IDH2"
+      ],
+      "type": "gene_protein",
+      "x": 985.0,
+      "y": 395.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P48735",
+      "uniprotAccs": [
+        "P48735"
+      ]
+    },
+    {
+      "id": "e11d8",
+      "type": "group",
+      "components": [
+        "d3205",
+        "dab22",
+        "e351f"
+      ]
+    },
+    {
+      "id": "ef1fd",
+      "type": "group",
+      "components": [
+        "ebe19",
+        "ed791"
+      ]
+    }
+  ]
+}

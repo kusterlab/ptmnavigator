@@ -1,0 +1,1051 @@
+{
+  "pathway": {
+    "name": "WP5027",
+    "org": "Homo sapiens",
+    "title": "nsp1 from SARS-CoV-2 inhibits translation initiation in the host cell"
+  },
+  "links": [
+    {
+      "id": "id8da43876",
+      "sourceId": "ca957",
+      "targetId": "dc35b",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "id2d00e6ed",
+      "sourceId": "c825d",
+      "targetId": "c3638",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "id19d08a66",
+      "sourceId": "b733e",
+      "targetId": "dfc42",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id4b83f12a",
+      "sourceId": "bbec1",
+      "targetId": "dc35b",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "id8b1ce7b7",
+      "sourceId": "db339",
+      "targetId": "dc35b",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "id78120f40",
+      "sourceId": "dc35b",
+      "targetId": "c3638",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "idb76f4fdf",
+      "sourceId": "c3638",
+      "targetId": "b733e",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id573935d6",
+      "sourceId": "fea09",
+      "targetId": "dc35b",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "idad839e9d",
+      "sourceId": "e6110",
+      "targetId": "efe7f",
+      "types": [
+        "inhibition"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "e2998",
+      "geneNames": [
+        "Eukaryotic translation initiation\nfactor 3 complex\n"
+      ],
+      "type": "gene_protein",
+      "x": 789.9688159214406,
+      "y": 277.3253017256292,
+      "label": null,
+      "groupId": "c3638",
+      "referenceDatabase": "Complex Portal",
+      "referenceId": "CPX-6036"
+    },
+    {
+      "id": "c8d87",
+      "geneNames": [
+        "EIF3B"
+      ],
+      "type": "gene_protein",
+      "x": 790.5213053281778,
+      "y": 338.46546169266156,
+      "label": null,
+      "groupId": "c3638",
+      "referenceDatabase": "GeneID",
+      "referenceId": "8662",
+      "uniprotAccs": [
+        "P55884"
+      ]
+    },
+    {
+      "id": "f6a15",
+      "geneNames": [
+        "EIF3H"
+      ],
+      "type": "gene_protein",
+      "x": 850.5213053281778,
+      "y": 358.4654616926616,
+      "label": null,
+      "groupId": "c3638",
+      "referenceDatabase": "GeneID",
+      "referenceId": "8667",
+      "uniprotAccs": [
+        "O15372",
+        "Q6IB98"
+      ]
+    },
+    {
+      "id": "bb488",
+      "geneNames": [
+        "EIF3I"
+      ],
+      "type": "gene_protein",
+      "x": 850.5213053281777,
+      "y": 378.4654616926617,
+      "label": null,
+      "groupId": "c3638",
+      "referenceDatabase": "GeneID",
+      "referenceId": "8668",
+      "uniprotAccs": [
+        "Q13347",
+        "Q5U0F4"
+      ]
+    },
+    {
+      "id": "e267f",
+      "geneNames": [
+        "EIF3G"
+      ],
+      "type": "gene_protein",
+      "x": 850.5213053281777,
+      "y": 338.46546169266156,
+      "label": null,
+      "groupId": "c3638",
+      "referenceDatabase": "GeneID",
+      "referenceId": "8666",
+      "uniprotAccs": [
+        "O75821"
+      ]
+    },
+    {
+      "id": "ee2ad",
+      "geneNames": [
+        "EIF3D"
+      ],
+      "type": "gene_protein",
+      "x": 790.5213053281778,
+      "y": 378.4654616926617,
+      "label": null,
+      "groupId": "c3638",
+      "referenceDatabase": "GeneID",
+      "referenceId": "8664",
+      "uniprotAccs": [
+        "O15371"
+      ]
+    },
+    {
+      "id": "a413c",
+      "geneNames": [
+        "EIF3J"
+      ],
+      "type": "gene_protein",
+      "x": 850.5213053281778,
+      "y": 398.4654616926618,
+      "label": null,
+      "groupId": "c3638",
+      "referenceDatabase": "GeneID",
+      "referenceId": "8669",
+      "uniprotAccs": [
+        "O75822"
+      ]
+    },
+    {
+      "id": "b787e",
+      "geneNames": [
+        "EIF3E"
+      ],
+      "type": "gene_protein",
+      "x": 790.5213053281778,
+      "y": 398.4654616926618,
+      "label": null,
+      "groupId": "c3638",
+      "referenceDatabase": "GeneID",
+      "referenceId": "3646",
+      "uniprotAccs": [
+        "P60228"
+      ]
+    },
+    {
+      "id": "d73f5",
+      "geneNames": [
+        "EIF3C"
+      ],
+      "type": "gene_protein",
+      "x": 790.521305328178,
+      "y": 358.4654616926616,
+      "label": null,
+      "groupId": "c3638",
+      "referenceDatabase": "GeneID",
+      "referenceId": "8663",
+      "uniprotAccs": [
+        "Q99613"
+      ]
+    },
+    {
+      "id": "d8dac",
+      "geneNames": [
+        "EIF3A"
+      ],
+      "type": "gene_protein",
+      "x": 790.5213053281778,
+      "y": 318.4654616926615,
+      "label": null,
+      "groupId": "c3638",
+      "referenceDatabase": "GeneID",
+      "referenceId": "8661",
+      "uniprotAccs": [
+        "Q14152"
+      ]
+    },
+    {
+      "id": "ce516",
+      "geneNames": [
+        "EIF3F"
+      ],
+      "type": "gene_protein",
+      "x": 850.5213053281778,
+      "y": 318.46546169266156,
+      "label": null,
+      "groupId": "c3638",
+      "referenceDatabase": "GeneID",
+      "referenceId": "8665",
+      "uniprotAccs": [
+        "O00303"
+      ]
+    },
+    {
+      "id": "df993",
+      "geneNames": [
+        "40S cytosolic small \nribosomal subunit"
+      ],
+      "type": "gene_protein",
+      "x": 658.916294912997,
+      "y": 464.550091641596,
+      "label": null,
+      "groupId": "c3638",
+      "referenceDatabase": "Complex Portal",
+      "referenceId": "CPX-5223"
+    },
+    {
+      "id": "ba5cd",
+      "geneNames": [
+        "Eukaryotic translation initiation\nfactor 3 complex\n"
+      ],
+      "type": "gene_protein",
+      "x": 425.69537815126176,
+      "y": 117.39705882352953,
+      "label": null,
+      "groupId": "bbec1",
+      "referenceDatabase": "Complex Portal",
+      "referenceId": "CPX-6036"
+    },
+    {
+      "id": "c97c9",
+      "geneNames": [
+        "Ternary complex"
+      ],
+      "type": "gene_protein",
+      "x": 402.06092436974575,
+      "y": 652.0609243697478,
+      "label": null,
+      "groupId": "c825d",
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "dc35b",
+      "geneNames": [
+        "40S cytosolic small \nribosomal subunit"
+      ],
+      "type": "gene_protein",
+      "x": 232.6680672268907,
+      "y": 386.5546218487395,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Complex Portal",
+      "referenceId": "CPX-5223"
+    },
+    {
+      "id": "dea7c",
+      "geneNames": null,
+      "type": "misc",
+      "x": 672.9450053171319,
+      "y": 953.5645353734208,
+      "label": "43S Pre-initiation \nComplex",
+      "groupId": "b733e",
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "e6110",
+      "geneNames": [
+        "nsp1"
+      ],
+      "type": "gene_protein",
+      "x": 486.2478675580071,
+      "y": 322.76505900038535,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q90038952"
+    },
+    {
+      "id": "d1c45",
+      "geneNames": null,
+      "type": "compound",
+      "x": 402.6611762903335,
+      "y": 548.6621393862457,
+      "label": "met-tRNAi",
+      "groupId": "c825d",
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:13145"
+    },
+    {
+      "id": "f3d5e",
+      "geneNames": [
+        "EIF3B"
+      ],
+      "type": "gene_protein",
+      "x": 426.2478675580079,
+      "y": 177.486798622495,
+      "label": null,
+      "groupId": "bbec1",
+      "referenceDatabase": "GeneID",
+      "referenceId": "8662",
+      "uniprotAccs": [
+        "P55884"
+      ]
+    },
+    {
+      "id": "d7c5e",
+      "geneNames": [
+        "EIF3H"
+      ],
+      "type": "gene_protein",
+      "x": 486.24786755800704,
+      "y": 197.48679862249497,
+      "label": null,
+      "groupId": "bbec1",
+      "referenceDatabase": "GeneID",
+      "referenceId": "8667",
+      "uniprotAccs": [
+        "O15372",
+        "Q6IB98"
+      ]
+    },
+    {
+      "id": "d9b72",
+      "geneNames": [
+        "EIF2S2"
+      ],
+      "type": "gene_protein",
+      "x": 400.9499296411259,
+      "y": 597.205211768259,
+      "label": null,
+      "groupId": "c825d",
+      "referenceDatabase": "GeneID",
+      "referenceId": "8894",
+      "uniprotAccs": [
+        "P20042",
+        "Q6IBR8"
+      ]
+    },
+    {
+      "id": "b1123",
+      "geneNames": [
+        "EIF2S3"
+      ],
+      "type": "gene_protein",
+      "x": 400.9499296411259,
+      "y": 617.205211768259,
+      "label": null,
+      "groupId": "c825d",
+      "referenceDatabase": "GeneID",
+      "referenceId": "1968",
+      "uniprotAccs": [
+        "P41091"
+      ]
+    },
+    {
+      "id": "e4095",
+      "geneNames": [
+        "EIF3I"
+      ],
+      "type": "gene_protein",
+      "x": 486.2478675580071,
+      "y": 217.4867986224951,
+      "label": null,
+      "groupId": "bbec1",
+      "referenceDatabase": "GeneID",
+      "referenceId": "8668",
+      "uniprotAccs": [
+        "Q13347",
+        "Q5U0F4"
+      ]
+    },
+    {
+      "id": "f653e",
+      "geneNames": [
+        "EIF5"
+      ],
+      "type": "gene_protein",
+      "x": 741.6596472321002,
+      "y": 434.6530531471476,
+      "label": null,
+      "groupId": "c3638",
+      "referenceDatabase": "GeneID",
+      "referenceId": "1983",
+      "uniprotAccs": [
+        "P55010"
+      ]
+    },
+    {
+      "id": "f60cb",
+      "geneNames": [
+        "EIF3G"
+      ],
+      "type": "gene_protein",
+      "x": 486.24786755800784,
+      "y": 177.486798622495,
+      "label": null,
+      "groupId": "bbec1",
+      "referenceDatabase": "GeneID",
+      "referenceId": "8666",
+      "uniprotAccs": [
+        "O75821"
+      ]
+    },
+    {
+      "id": "ad713",
+      "geneNames": [
+        "EIF3D"
+      ],
+      "type": "gene_protein",
+      "x": 426.2478675580071,
+      "y": 217.48679862249506,
+      "label": null,
+      "groupId": "bbec1",
+      "referenceDatabase": "GeneID",
+      "referenceId": "8664",
+      "uniprotAccs": [
+        "O15371"
+      ]
+    },
+    {
+      "id": "e219c",
+      "geneNames": [
+        "EIF2S1"
+      ],
+      "type": "gene_protein",
+      "x": 400.9499296411259,
+      "y": 581.0481399843214,
+      "label": null,
+      "groupId": "c825d",
+      "referenceDatabase": "GeneID",
+      "referenceId": "1965",
+      "uniprotAccs": [
+        "P05198",
+        "Q53XC0"
+      ]
+    },
+    {
+      "id": "efe7f",
+      "geneNames": [
+        "EIF3J"
+      ],
+      "type": "gene_protein",
+      "x": 486.2478675580071,
+      "y": 237.48679862249517,
+      "label": null,
+      "groupId": "bbec1",
+      "referenceDatabase": "GeneID",
+      "referenceId": "8669",
+      "uniprotAccs": [
+        "O75822"
+      ]
+    },
+    {
+      "id": "ec570",
+      "geneNames": [
+        "EIF3E"
+      ],
+      "type": "gene_protein",
+      "x": 426.2478675580071,
+      "y": 237.48679862249517,
+      "label": null,
+      "groupId": "bbec1",
+      "referenceDatabase": "GeneID",
+      "referenceId": "3646",
+      "uniprotAccs": [
+        "P60228"
+      ]
+    },
+    {
+      "id": "f2395",
+      "geneNames": [
+        "EIF3C"
+      ],
+      "type": "gene_protein",
+      "x": 426.2478675580071,
+      "y": 197.48679862249497,
+      "label": null,
+      "groupId": "bbec1",
+      "referenceDatabase": "GeneID",
+      "referenceId": "8663",
+      "uniprotAccs": [
+        "Q99613"
+      ]
+    },
+    {
+      "id": "dfc2c",
+      "geneNames": [
+        "EIF3A"
+      ],
+      "type": "gene_protein",
+      "x": 426.24786755800716,
+      "y": 158.5372187905621,
+      "label": null,
+      "groupId": "bbec1",
+      "referenceDatabase": "GeneID",
+      "referenceId": "8661",
+      "uniprotAccs": [
+        "Q14152"
+      ]
+    },
+    {
+      "id": "dac70",
+      "geneNames": [
+        "EIF3F"
+      ],
+      "type": "gene_protein",
+      "x": 486.24786755800716,
+      "y": 158.5372187905621,
+      "label": null,
+      "groupId": "bbec1",
+      "referenceDatabase": "GeneID",
+      "referenceId": "8665",
+      "uniprotAccs": [
+        "O00303"
+      ]
+    },
+    {
+      "id": "c747d",
+      "geneNames": [
+        "EIF1A"
+      ],
+      "type": "gene_protein",
+      "x": 607.4003554556956,
+      "y": 432.0575851091834,
+      "label": null,
+      "groupId": "c3638",
+      "referenceDatabase": "GeneID",
+      "referenceId": "1964",
+      "uniprotAccs": [
+        "P47813"
+      ]
+    },
+    {
+      "id": "e78ce",
+      "geneNames": [
+        "EIF1"
+      ],
+      "type": "gene_protein",
+      "x": 675.4140863979673,
+      "y": 433.8896774054929,
+      "label": null,
+      "groupId": "c3638",
+      "referenceDatabase": "GeneID",
+      "referenceId": "10209",
+      "uniprotAccs": [
+        "P41567",
+        "Q6IAV3"
+      ]
+    },
+    {
+      "id": "db339",
+      "geneNames": [
+        "EIF5"
+      ],
+      "type": "gene_protein",
+      "x": 203.55494561311087,
+      "y": 251.04614474900472,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "1983",
+      "uniprotAccs": [
+        "P55010"
+      ]
+    },
+    {
+      "id": "ca957",
+      "geneNames": [
+        "EIF1A"
+      ],
+      "type": "gene_protein",
+      "x": 283.8478926426751,
+      "y": 250.89120516122603,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "1964",
+      "uniprotAccs": [
+        "P47813"
+      ]
+    },
+    {
+      "id": "fea09",
+      "geneNames": [
+        "EIF1"
+      ],
+      "type": "gene_protein",
+      "x": 121.33359147658018,
+      "y": 252.04392122943102,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "10209",
+      "uniprotAccs": [
+        "P41567",
+        "Q6IAV3"
+      ]
+    },
+    {
+      "id": "efc00",
+      "geneNames": [
+        "Eukaryotic translation initiation\nfactor 3 complex\n"
+      ],
+      "type": "gene_protein",
+      "x": 773.331335620001,
+      "y": 660.8774919403317,
+      "label": null,
+      "groupId": "b733e",
+      "referenceDatabase": "Complex Portal",
+      "referenceId": "CPX-6036"
+    },
+    {
+      "id": "de38c",
+      "geneNames": [
+        "EIF3B"
+      ],
+      "type": "gene_protein",
+      "x": 773.8838250267344,
+      "y": 722.0176519073634,
+      "label": null,
+      "groupId": "b733e",
+      "referenceDatabase": "GeneID",
+      "referenceId": "8662",
+      "uniprotAccs": [
+        "P55884"
+      ]
+    },
+    {
+      "id": "e3723",
+      "geneNames": [
+        "EIF3H"
+      ],
+      "type": "gene_protein",
+      "x": 833.8838250267344,
+      "y": 742.0176519073634,
+      "label": null,
+      "groupId": "b733e",
+      "referenceDatabase": "GeneID",
+      "referenceId": "8667",
+      "uniprotAccs": [
+        "O15372",
+        "Q6IB98"
+      ]
+    },
+    {
+      "id": "ae83c",
+      "geneNames": [
+        "EIF3I"
+      ],
+      "type": "gene_protein",
+      "x": 833.8838250267345,
+      "y": 762.0176519073633,
+      "label": null,
+      "groupId": "b733e",
+      "referenceDatabase": "GeneID",
+      "referenceId": "8668",
+      "uniprotAccs": [
+        "Q13347",
+        "Q5U0F4"
+      ]
+    },
+    {
+      "id": "e303e",
+      "geneNames": [
+        "EIF3G"
+      ],
+      "type": "gene_protein",
+      "x": 833.8838250267344,
+      "y": 722.0176519073634,
+      "label": null,
+      "groupId": "b733e",
+      "referenceDatabase": "GeneID",
+      "referenceId": "8666",
+      "uniprotAccs": [
+        "O75821"
+      ]
+    },
+    {
+      "id": "eb78e",
+      "geneNames": [
+        "EIF3D"
+      ],
+      "type": "gene_protein",
+      "x": 773.8838250267345,
+      "y": 762.0176519073634,
+      "label": null,
+      "groupId": "b733e",
+      "referenceDatabase": "GeneID",
+      "referenceId": "8664",
+      "uniprotAccs": [
+        "O15371"
+      ]
+    },
+    {
+      "id": "b0411",
+      "geneNames": [
+        "EIF3J"
+      ],
+      "type": "gene_protein",
+      "x": 833.8838250267345,
+      "y": 782.0176519073634,
+      "label": null,
+      "groupId": "b733e",
+      "referenceDatabase": "GeneID",
+      "referenceId": "8669",
+      "uniprotAccs": [
+        "O75822"
+      ]
+    },
+    {
+      "id": "db7eb",
+      "geneNames": [
+        "EIF3E"
+      ],
+      "type": "gene_protein",
+      "x": 773.8838250267345,
+      "y": 782.0176519073634,
+      "label": null,
+      "groupId": "b733e",
+      "referenceDatabase": "GeneID",
+      "referenceId": "3646",
+      "uniprotAccs": [
+        "P60228"
+      ]
+    },
+    {
+      "id": "b48a0",
+      "geneNames": [
+        "EIF3C"
+      ],
+      "type": "gene_protein",
+      "x": 773.8838250267344,
+      "y": 742.0176519073634,
+      "label": null,
+      "groupId": "b733e",
+      "referenceDatabase": "GeneID",
+      "referenceId": "8663",
+      "uniprotAccs": [
+        "Q99613"
+      ]
+    },
+    {
+      "id": "b462b",
+      "geneNames": [
+        "EIF3A"
+      ],
+      "type": "gene_protein",
+      "x": 773.8838250267344,
+      "y": 702.0176519073633,
+      "label": null,
+      "groupId": "b733e",
+      "referenceDatabase": "GeneID",
+      "referenceId": "8661",
+      "uniprotAccs": [
+        "Q14152"
+      ]
+    },
+    {
+      "id": "c3726",
+      "geneNames": [
+        "EIF3F"
+      ],
+      "type": "gene_protein",
+      "x": 833.8838250267344,
+      "y": 702.0176519073634,
+      "label": null,
+      "groupId": "b733e",
+      "referenceDatabase": "GeneID",
+      "referenceId": "8665",
+      "uniprotAccs": [
+        "O00303"
+      ]
+    },
+    {
+      "id": "eb85c",
+      "geneNames": [
+        "40S cytosolic small \nribosomal subunit"
+      ],
+      "type": "gene_protein",
+      "x": 642.2788146115483,
+      "y": 848.1022818562983,
+      "label": null,
+      "groupId": "b733e",
+      "referenceDatabase": "Complex Portal",
+      "referenceId": "CPX-5223"
+    },
+    {
+      "id": "e66ea",
+      "geneNames": [
+        "EIF5"
+      ],
+      "type": "gene_protein",
+      "x": 725.0221669306565,
+      "y": 818.2052433618497,
+      "label": null,
+      "groupId": "b733e",
+      "referenceDatabase": "GeneID",
+      "referenceId": "1983",
+      "uniprotAccs": [
+        "P55010"
+      ]
+    },
+    {
+      "id": "ea644",
+      "geneNames": [
+        "EIF1A"
+      ],
+      "type": "gene_protein",
+      "x": 591.865410986666,
+      "y": 815.6097753238856,
+      "label": null,
+      "groupId": "b733e",
+      "referenceDatabase": "GeneID",
+      "referenceId": "1964",
+      "uniprotAccs": [
+        "P47813"
+      ]
+    },
+    {
+      "id": "e393f",
+      "geneNames": [
+        "EIF1"
+      ],
+      "type": "gene_protein",
+      "x": 659.8791419289374,
+      "y": 817.441867620195,
+      "label": null,
+      "groupId": "b733e",
+      "referenceDatabase": "GeneID",
+      "referenceId": "10209",
+      "uniprotAccs": [
+        "P41567",
+        "Q6IAV3"
+      ]
+    },
+    {
+      "id": "d2c3b",
+      "geneNames": [
+        "Ternary complex"
+      ],
+      "type": "gene_protein",
+      "x": 843.3816891036397,
+      "y": 931.519304529637,
+      "label": null,
+      "groupId": "b733e",
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "ba070",
+      "geneNames": null,
+      "type": "compound",
+      "x": 843.9819410242284,
+      "y": 829.3355863748104,
+      "label": "met-tRNAi",
+      "groupId": "b733e",
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:13145"
+    },
+    {
+      "id": "c0e9b",
+      "geneNames": [
+        "EIF2S2"
+      ],
+      "type": "gene_protein",
+      "x": 842.2706943750206,
+      "y": 876.6635919281481,
+      "label": null,
+      "groupId": "b733e",
+      "referenceDatabase": "GeneID",
+      "referenceId": "8894",
+      "uniprotAccs": [
+        "P20042",
+        "Q6IBR8"
+      ]
+    },
+    {
+      "id": "d733f",
+      "geneNames": [
+        "EIF2S3"
+      ],
+      "type": "gene_protein",
+      "x": 842.2706943750206,
+      "y": 896.663591928148,
+      "label": null,
+      "groupId": "b733e",
+      "referenceDatabase": "GeneID",
+      "referenceId": "1968",
+      "uniprotAccs": [
+        "P41091"
+      ]
+    },
+    {
+      "id": "bef0c",
+      "geneNames": [
+        "EIF2S1"
+      ],
+      "type": "gene_protein",
+      "x": 842.2706943750206,
+      "y": 860.5065201442105,
+      "label": null,
+      "groupId": "b733e",
+      "referenceDatabase": "GeneID",
+      "referenceId": "1965",
+      "uniprotAccs": [
+        "P05198",
+        "Q53XC0"
+      ]
+    },
+    {
+      "id": "dfc42",
+      "geneNames": null,
+      "type": "misc",
+      "x": 1087.2796170084478,
+      "y": 806.5151759533748,
+      "label": "Load mRNA and start translation",
+      "groupId": null
+    },
+    {
+      "id": "b733e",
+      "type": "group",
+      "components": [
+        "dea7c",
+        "efc00",
+        "de38c",
+        "e3723",
+        "ae83c",
+        "e303e",
+        "eb78e",
+        "b0411",
+        "db7eb",
+        "b48a0",
+        "b462b",
+        "c3726",
+        "eb85c",
+        "e66ea",
+        "ea644",
+        "e393f",
+        "d2c3b",
+        "ba070",
+        "c0e9b",
+        "d733f",
+        "bef0c"
+      ]
+    },
+    {
+      "id": "bbec1",
+      "type": "group",
+      "components": [
+        "ba5cd",
+        "f3d5e",
+        "d7c5e",
+        "e4095",
+        "f60cb",
+        "ad713",
+        "efe7f",
+        "ec570",
+        "f2395",
+        "dfc2c",
+        "dac70"
+      ]
+    },
+    {
+      "id": "c825d",
+      "type": "group",
+      "components": [
+        "c97c9",
+        "d1c45",
+        "d9b72",
+        "b1123",
+        "e219c"
+      ]
+    },
+    {
+      "id": "c3638",
+      "type": "group",
+      "components": [
+        "e2998",
+        "c8d87",
+        "f6a15",
+        "bb488",
+        "e267f",
+        "ee2ad",
+        "a413c",
+        "b787e",
+        "d73f5",
+        "d8dac",
+        "ce516",
+        "df993",
+        "f653e",
+        "c747d",
+        "e78ce"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,608 @@
+{
+  "pathway": {
+    "name": "WP699",
+    "org": "Homo sapiens",
+    "title": "Aflatoxin B1 metabolism"
+  },
+  "links": [
+    {
+      "id": "a0ddb",
+      "sourceId": "c62a4",
+      "targetId": "c8ae1",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "a0fce",
+      "sourceId": "d35ce",
+      "targetId": "d4505",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "a9ec0",
+      "sourceId": "df622",
+      "targetId": "ebd78",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ab5fb",
+      "sourceId": "d7dec",
+      "targetId": "bcf85",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ae829",
+      "sourceId": "e2f80",
+      "targetId": "e8dd5",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "b30fd",
+      "sourceId": "e42c7",
+      "targetId": "a12e7",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "b5af9",
+      "sourceId": "f7dca",
+      "targetId": "a9ec0",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "badb2",
+      "sourceId": "a12e7",
+      "targetId": "d1240",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "bb58c",
+      "sourceId": "e99d8",
+      "targetId": "ca368",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "bcf85",
+      "sourceId": "df622",
+      "targetId": "a238f",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "c0f6f",
+      "sourceId": "ca92d",
+      "targetId": "f316a",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "c5b41",
+      "sourceId": "c48fb",
+      "targetId": "fcfc8",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "c8ae1",
+      "sourceId": "e2f80",
+      "targetId": "c3289",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ca368",
+      "sourceId": "e3b9e",
+      "targetId": "e85a1",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ccbaa",
+      "sourceId": "d4505",
+      "targetId": "fb5f1",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "cfb30",
+      "sourceId": "d4505",
+      "targetId": "e42c7",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "d2ea3",
+      "sourceId": "df622",
+      "targetId": "e2f80",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "d407b",
+      "sourceId": "a440e",
+      "targetId": "ccbaa",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "dccb8",
+      "sourceId": "fb5f1",
+      "targetId": "ebc2f",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "dea95",
+      "sourceId": "bf33d",
+      "targetId": "d2ea3",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "f1e7e",
+      "sourceId": "ebc2f",
+      "targetId": "d1240",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "f316a",
+      "sourceId": "df622",
+      "targetId": "e3b9e",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "f6ba5",
+      "sourceId": "a440e",
+      "targetId": "cfb30",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "fcfc8",
+      "sourceId": "e2f80",
+      "targetId": "d35ce",
+      "types": [
+        "activation"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "a12e7",
+      "geneNames": null,
+      "type": "compound",
+      "x": 430.5,
+      "y": 589.0,
+      "label": "Aflatoxin B1 C8-monoalcohol",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "a238f",
+      "geneNames": null,
+      "type": "compound",
+      "x": 229.0,
+      "y": 250.0,
+      "label": "Aflatoxin-endo-B1-8,9-epoxide",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "a5f5e",
+      "geneNames": [
+        "AKR7A2"
+      ],
+      "type": "gene_protein",
+      "x": 291.0,
+      "y": 473.0,
+      "label": null,
+      "groupId": "a440e",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000053371",
+      "uniprotAccs": [
+        "O43488",
+        "H3BLU7",
+        "H7C4Q7",
+        "H7C5H7"
+      ]
+    },
+    {
+      "id": "a6499",
+      "geneNames": [
+        "CYP1A2"
+      ],
+      "type": "gene_protein",
+      "x": 437.0,
+      "y": 175.0,
+      "label": null,
+      "groupId": "bf33d",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000140505",
+      "uniprotAccs": [
+        "P05177"
+      ]
+    },
+    {
+      "id": "ae411",
+      "geneNames": [
+        "AKR7A3"
+      ],
+      "type": "gene_protein",
+      "x": 291.0,
+      "y": 493.0,
+      "label": null,
+      "groupId": "a440e",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000162482",
+      "uniprotAccs": [
+        "O95154"
+      ]
+    },
+    {
+      "id": "b6f29",
+      "geneNames": [
+        "GSTT1"
+      ],
+      "type": "gene_protein",
+      "x": 577.0,
+      "y": 185.0,
+      "label": null,
+      "groupId": "c62a4",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000277656",
+      "uniprotAccs": [
+        "P30711",
+        "A0A0G2JMS2",
+        "A0A0G2JQD2",
+        "A0A0G2JQD8",
+        "A0A0G2JQM0",
+        "A0A0G2JRG0",
+        "A0A0G2JRJ5",
+        "A0A0G2JRN4",
+        "A0A0G2JRQ5",
+        "A0A1B0GXB6"
+      ]
+    },
+    {
+      "id": "b8659",
+      "geneNames": [
+        "GSTM1"
+      ],
+      "type": "gene_protein",
+      "x": 577.0,
+      "y": 205.0,
+      "label": null,
+      "groupId": "c62a4",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000134184",
+      "uniprotAccs": [
+        "P09488",
+        "B9ZVX7",
+        "E7EWW9",
+        "H3BQT3",
+        "H3BRM6"
+      ]
+    },
+    {
+      "id": "c2cd3",
+      "geneNames": [
+        "CYP2A13"
+      ],
+      "type": "gene_protein",
+      "x": 437.0,
+      "y": 215.0,
+      "label": null,
+      "groupId": "bf33d",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000197838",
+      "uniprotAccs": [
+        "Q16696"
+      ]
+    },
+    {
+      "id": "c3289",
+      "geneNames": null,
+      "type": "compound",
+      "x": 726.5,
+      "y": 250.0,
+      "label": "Aflatoxin B1 exo-8,9-epoxide-GSH",
+      "groupId": null,
+      "referenceDatabase": "PubChem-compound",
+      "referenceId": "5486953"
+    },
+    {
+      "id": "c48fb",
+      "geneNames": [
+        "EPHX1"
+      ],
+      "type": "gene_protein",
+      "x": 211.0,
+      "y": 308.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000143819",
+      "uniprotAccs": [
+        "P07099",
+        "B1AQP8"
+      ]
+    },
+    {
+      "id": "ca92d",
+      "geneNames": [
+        "CYP1A2"
+      ],
+      "type": "gene_protein",
+      "x": 408.0,
+      "y": 75.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000140505",
+      "uniprotAccs": [
+        "P05177"
+      ]
+    },
+    {
+      "id": "d1240",
+      "geneNames": null,
+      "type": "compound",
+      "x": 285.0,
+      "y": 645.0,
+      "label": "Aflatoxin B1-6,8-dialcohol",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "d35ce",
+      "geneNames": null,
+      "type": "compound",
+      "x": 290.5,
+      "y": 339.0,
+      "label": "Aflatoxin B1 8,9-dihydrodiol",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:53106"
+    },
+    {
+      "id": "d4505",
+      "geneNames": null,
+      "type": "compound",
+      "x": 288.7244897959184,
+      "y": 405.1734693877551,
+      "label": "Aflatoxin B1 dialdehyde",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:53107"
+    },
+    {
+      "id": "d7dec",
+      "geneNames": [
+        "CYP1A2"
+      ],
+      "type": "gene_protein",
+      "x": 150.0,
+      "y": 194.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000140505",
+      "uniprotAccs": [
+        "P05177"
+      ]
+    },
+    {
+      "id": "df622",
+      "geneNames": null,
+      "type": "compound",
+      "x": 320.0,
+      "y": 142.0,
+      "label": "aflatoxin B1",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0006552"
+    },
+    {
+      "id": "e2f80",
+      "geneNames": null,
+      "type": "compound",
+      "x": 406.5,
+      "y": 250.0,
+      "label": "Aflatoxin B1 exo-8,9-epoxide",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0006558"
+    },
+    {
+      "id": "e3b9e",
+      "geneNames": null,
+      "type": "compound",
+      "x": 502.0,
+      "y": 142.0,
+      "label": "Aflatoxin M1",
+      "groupId": null,
+      "referenceDatabase": "PubChem-compound",
+      "referenceId": "15558498"
+    },
+    {
+      "id": "e42c7",
+      "geneNames": null,
+      "type": "compound",
+      "x": 429.9999999999999,
+      "y": 535.3061224489797,
+      "label": "Aflatoxin B1 C8-monoaldehyde",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "e85a1",
+      "geneNames": null,
+      "type": "compound",
+      "x": 663.5,
+      "y": 142.0,
+      "label": "Aflatoxin M1 epoxide",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "e99d8",
+      "geneNames": [
+        "CYP2A13"
+      ],
+      "type": "gene_protein",
+      "x": 572.0,
+      "y": 78.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000197838",
+      "uniprotAccs": [
+        "Q16696"
+      ]
+    },
+    {
+      "id": "ebc2f",
+      "geneNames": null,
+      "type": "compound",
+      "x": 151.5,
+      "y": 589.0,
+      "label": "Aflatoxin B1 C6-monoalcohol",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "ebd78",
+      "geneNames": null,
+      "type": "compound",
+      "x": 157.0,
+      "y": 142.0,
+      "label": "Aflatoxin Q1",
+      "groupId": null,
+      "referenceDatabase": "PubChem-compound",
+      "referenceId": "104757"
+    },
+    {
+      "id": "f7dca",
+      "geneNames": [
+        "CYP3A4"
+      ],
+      "type": "gene_protein",
+      "x": 239.0,
+      "y": 72.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000160868",
+      "uniprotAccs": [
+        "P08684",
+        "A0A494C0W7",
+        "A0A499FJM4",
+        "C9JBD2",
+        "E7EVM8"
+      ]
+    },
+    {
+      "id": "fb5f1",
+      "geneNames": null,
+      "type": "compound",
+      "x": 151.0,
+      "y": 523.0,
+      "label": "Aflatoxin B1 C6-monoaldehyde",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "fc4a1",
+      "geneNames": [
+        "CYP3A4"
+      ],
+      "type": "gene_protein",
+      "x": 437.0,
+      "y": 195.0,
+      "label": null,
+      "groupId": "bf33d",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000160868",
+      "uniprotAccs": [
+        "P08684",
+        "A0A494C0W7",
+        "A0A499FJM4",
+        "C9JBD2",
+        "E7EVM8"
+      ]
+    },
+    {
+      "id": "e8dd5",
+      "geneNames": null,
+      "type": "misc",
+      "x": 406.0,
+      "y": 321.0,
+      "label": "DNA adducts",
+      "groupId": null
+    },
+    {
+      "id": "a440e",
+      "type": "group",
+      "components": [
+        "a5f5e",
+        "ae411"
+      ]
+    },
+    {
+      "id": "bf33d",
+      "type": "group",
+      "components": [
+        "a6499",
+        "c2cd3",
+        "fc4a1"
+      ]
+    },
+    {
+      "id": "c62a4",
+      "type": "group",
+      "components": [
+        "b6f29",
+        "b8659"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,684 @@
+{
+  "pathway": {
+    "name": "WP5343",
+    "org": "Homo sapiens",
+    "title": "Abnormal calcium handling and its effects on muscle contraction in DMD"
+  },
+  "links": [
+    {
+      "id": "id9f7bc24e",
+      "sourceId": "a3d33",
+      "targetId": "c068f",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "ideb2ffd75",
+      "sourceId": "f1785",
+      "targetId": "a3d33",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "f71f2",
+      "sourceId": "e34ed",
+      "targetId": "dfc5f",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "edf7a",
+      "sourceId": "fc9be",
+      "targetId": "dea40",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "a1082",
+      "sourceId": "e4fce",
+      "targetId": "c0094",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "c0d57",
+      "sourceId": "dfc5f",
+      "targetId": "a535f",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "ea771",
+      "sourceId": "fe789",
+      "targetId": "dea40",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "e9e4a",
+      "sourceId": "a902c",
+      "targetId": "f0972",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "c2feb",
+      "sourceId": "dea40",
+      "targetId": "e733c",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "c03b7",
+      "sourceId": "adfb5",
+      "targetId": "dea40",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "a368f",
+      "sourceId": "ae6fc",
+      "targetId": "bd126",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "c4cf5",
+      "sourceId": "dfc5f",
+      "targetId": "fe789",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "e073f",
+      "sourceId": "c068f",
+      "targetId": "a902c",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "d648e",
+      "sourceId": "f9d21",
+      "targetId": "e34ed",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "e5ddd",
+      "sourceId": "dfc5f",
+      "targetId": "ac258",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "f9e37",
+      "sourceId": "e733c",
+      "targetId": "c0094",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "c9086",
+      "sourceId": "f1785",
+      "targetId": "c068f",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "cef74",
+      "sourceId": "f0972",
+      "targetId": "c9cd4",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "f0cd6",
+      "sourceId": "ac258",
+      "targetId": "fc9be",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "d6fed",
+      "sourceId": "e9043",
+      "targetId": "dea40",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "b7273",
+      "sourceId": "f1785",
+      "targetId": "f9d21",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "eae9f",
+      "sourceId": "f3a49",
+      "targetId": "a902c",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "eb128",
+      "sourceId": "ac258",
+      "targetId": "e9043",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "e5319",
+      "sourceId": "b08f7",
+      "targetId": "f1785",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "f0332",
+      "sourceId": "ac258",
+      "targetId": "adfb5",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ad8d8",
+      "sourceId": "ac258",
+      "targetId": "f4022",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "f37ab",
+      "sourceId": "f4022",
+      "targetId": "dea40",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "c1ec7",
+      "sourceId": "c3367",
+      "targetId": "e34ed",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "b7e6f",
+      "sourceId": "bd126",
+      "targetId": "dea40",
+      "types": [
+        "conversion"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "e9043",
+      "geneNames": null,
+      "type": "compound",
+      "x": 1219.5060577394431,
+      "y": 702.578604724493,
+      "label": "leukotrienes",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:25029"
+    },
+    {
+      "id": "ac258",
+      "geneNames": [
+        "Phospholipase A2"
+      ],
+      "type": "gene_protein",
+      "x": 1282.524925663983,
+      "y": 629.3647682465049,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneCards",
+      "referenceId": "PLA2G4B",
+      "uniprotAccs": [
+        "P0C869"
+      ]
+    },
+    {
+      "id": "f4022",
+      "geneNames": null,
+      "type": "compound",
+      "x": 1329.5477244061087,
+      "y": 700.5786047244917,
+      "label": "lysophospholipids",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:16961"
+    },
+    {
+      "id": "fc9be",
+      "geneNames": null,
+      "type": "compound",
+      "x": 1446.339391072779,
+      "y": 699.6619380578248,
+      "label": "Platelet activating \nfactor",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:44811"
+    },
+    {
+      "id": "f3a49",
+      "geneNames": [
+        "CASQ 1"
+      ],
+      "type": "gene_protein",
+      "x": 369.96380421831793,
+      "y": 1004.4180280500851,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneCards",
+      "referenceId": "CASQ1",
+      "uniprotAccs": [
+        "P31415"
+      ]
+    },
+    {
+      "id": "bb734",
+      "geneNames": null,
+      "type": "compound",
+      "x": 716.8393910727783,
+      "y": 1003.9119380578264,
+      "label": "IP3R",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:131186"
+    },
+    {
+      "id": "fbf66",
+      "geneNames": [
+        "Dystrobrevin alpha"
+      ],
+      "type": "gene_protein",
+      "x": 889.4166174269459,
+      "y": 321.47784003699365,
+      "label": null,
+      "groupId": "f9d21",
+      "referenceDatabase": "GeneCards",
+      "referenceId": "DTNA",
+      "uniprotAccs": [
+        "Q9Y4J8"
+      ]
+    },
+    {
+      "id": "fe789",
+      "geneNames": [
+        "Calpain 3"
+      ],
+      "type": "gene_protein",
+      "x": 1021.1915923306481,
+      "y": 820.3647682465057,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneCards",
+      "referenceId": "CAPN3",
+      "uniprotAccs": [
+        "P20807"
+      ]
+    },
+    {
+      "id": "ba731",
+      "geneNames": [
+        "SERCA 1"
+      ],
+      "type": "gene_protein",
+      "x": 730.5835225281788,
+      "y": 896.9250703036071,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneCards",
+      "referenceId": "ATP2A1",
+      "uniprotAccs": [
+        "O14983"
+      ]
+    },
+    {
+      "id": "b08f7",
+      "geneNames": null,
+      "type": "misc",
+      "x": 505.42859295071753,
+      "y": 100.03547556175772,
+      "label": "Mutation in DMD gene",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "f6914",
+      "geneNames": [
+        "Syntrophin beta-1"
+      ],
+      "type": "gene_protein",
+      "x": 889.4166174269459,
+      "y": 293.39964566199353,
+      "label": null,
+      "groupId": "f9d21",
+      "referenceDatabase": "GeneCards",
+      "referenceId": "SNTB1",
+      "uniprotAccs": [
+        "Q13884"
+      ]
+    },
+    {
+      "id": "f1785",
+      "geneNames": null,
+      "type": "misc",
+      "x": 505.4285929507163,
+      "y": 203.06557793601738,
+      "label": "Absence of Dystrophin",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "e4fce",
+      "geneNames": [
+        "Troponin C"
+      ],
+      "type": "gene_protein",
+      "x": 779.7928246019937,
+      "y": 1125.260546063263,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneCards",
+      "referenceId": "TNNC2",
+      "uniprotAccs": [
+        "P02585"
+      ]
+    },
+    {
+      "id": "dea40",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 1303.672724406111,
+      "y": 822.5786047244935,
+      "label": "Inflammatory pathways\n",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "e4953",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 130.17272440611222,
+      "y": 199.91193805782692,
+      "label": "Pathway",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "cea25",
+      "geneNames": [
+        "alpha sarcoglycan"
+      ],
+      "type": "gene_protein",
+      "x": 889.4166174269459,
+      "y": 206.61249941199347,
+      "label": null,
+      "groupId": "f9d21",
+      "referenceDatabase": "GeneCards",
+      "referenceId": "SGCA",
+      "uniprotAccs": [
+        "Q16586"
+      ]
+    },
+    {
+      "id": "c068f",
+      "geneNames": [
+        "RyR 1"
+      ],
+      "type": "gene_protein",
+      "x": 505.4285929507163,
+      "y": 825.3391681047754,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneCards",
+      "referenceId": "RYR1",
+      "uniprotAccs": [
+        "P21817"
+      ]
+    },
+    {
+      "id": "a3d33",
+      "geneNames": [
+        "Triadin"
+      ],
+      "type": "gene_protein",
+      "x": 621.2195788662092,
+      "y": 823.1341681047754,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneCards",
+      "referenceId": "TRDN",
+      "uniprotAccs": [
+        "Q13061"
+      ]
+    },
+    {
+      "id": "bd126",
+      "geneNames": null,
+      "type": "misc",
+      "x": 1164.4896258145616,
+      "y": 940.2404437570483,
+      "label": "ROS production",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "c3367",
+      "geneNames": null,
+      "type": "compound",
+      "x": 781.4683383302595,
+      "y": 442.1551172519597,
+      "label": "Ca2+",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:29108"
+    },
+    {
+      "id": "e34ed",
+      "geneNames": [
+        "Voltage gated \nCa2+ channel"
+      ],
+      "type": "gene_protein",
+      "x": 889.4166174269459,
+      "y": 544.6033418238975,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneCards",
+      "referenceId": "CACNG1",
+      "uniprotAccs": [
+        "Q06432"
+      ]
+    },
+    {
+      "id": "c3770",
+      "geneNames": [
+        "Sarcospan"
+      ],
+      "type": "gene_protein",
+      "x": 889.4166174269457,
+      "y": 235.07883456824356,
+      "label": null,
+      "groupId": "f9d21",
+      "referenceDatabase": "GeneCards",
+      "referenceId": "SSPN",
+      "uniprotAccs": [
+        "Q14714"
+      ]
+    },
+    {
+      "id": "adfb5",
+      "geneNames": null,
+      "type": "compound",
+      "x": 1116.8393910727798,
+      "y": 702.5786047244928,
+      "label": "prostaglandins",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:26333"
+    },
+    {
+      "id": "abf59",
+      "geneNames": [
+        "Dystrophin"
+      ],
+      "type": "gene_protein",
+      "x": 889.4166174269459,
+      "y": 179.8105865994935,
+      "label": null,
+      "groupId": "f9d21",
+      "referenceDatabase": "GeneCards",
+      "referenceId": "DMD",
+      "uniprotAccs": [
+        "P11532"
+      ]
+    },
+    {
+      "id": "e733c",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 1306.1727244061142,
+      "y": 1005.2452713911599,
+      "label": "Myopathy\n",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "f54b2",
+      "geneNames": [
+        "Dystroglycan 1"
+      ],
+      "type": "gene_protein",
+      "x": 889.4166174269459,
+      "y": 264.0451697244937,
+      "label": null,
+      "groupId": "f9d21",
+      "referenceDatabase": "GeneCards",
+      "referenceId": "DAG1",
+      "uniprotAccs": [
+        "Q14118"
+      ]
+    },
+    {
+      "id": "dfc5f",
+      "geneNames": null,
+      "type": "compound",
+      "x": 889.9676278810507,
+      "y": 629.3609461284658,
+      "label": "Ca2+",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:29108"
+    },
+    {
+      "id": "fdb97",
+      "geneNames": null,
+      "type": "compound",
+      "x": 839.2242068748633,
+      "y": 899.5917369702753,
+      "label": "Ca2+",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:29108"
+    },
+    {
+      "id": "a902c",
+      "geneNames": null,
+      "type": "compound",
+      "x": 483.0176341049024,
+      "y": 1004.4180280500856,
+      "label": "Ca2+",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:29108"
+    },
+    {
+      "id": "c9cd4",
+      "geneNames": null,
+      "type": "compound",
+      "x": 779.7928246019937,
+      "y": 1095.1935115135768,
+      "label": "Ca2+",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:29108"
+    },
+    {
+      "id": "ae6fc",
+      "geneNames": null,
+      "type": "compound",
+      "x": 943.6456065837474,
+      "y": 1004.9454553326701,
+      "label": "Ca2+",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:29108"
+    },
+    {
+      "id": "f0972",
+      "geneNames": null,
+      "type": "misc",
+      "x": 482.79282460200193,
+      "y": 1094.9952713911598,
+      "label": "Alteration in \nCa2+ handling",
+      "groupId": null
+    },
+    {
+      "id": "c0094",
+      "geneNames": null,
+      "type": "misc",
+      "x": 566.4990154859255,
+      "y": 1287.856773738566,
+      "label": "Reduced force generation \nduring muscle contraction",
+      "groupId": null
+    },
+    {
+      "id": "f9d21",
+      "type": "group",
+      "components": [
+        "fbf66",
+        "f6914",
+        "cea25",
+        "c3770",
+        "abf59",
+        "f54b2"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,260 @@
+{
+  "pathway": {
+    "name": "WP5274",
+    "org": "Homo sapiens",
+    "title": "Farnesyl to CoQ10 metabolism"
+  },
+  "links": [
+    {
+      "id": "id4c9a697a",
+      "sourceId": "aee93",
+      "targetId": "f0627",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id62cdbd26",
+      "sourceId": "eb585",
+      "targetId": "bb060",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id8e250093",
+      "sourceId": "bb9d5",
+      "targetId": "a89e0",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id9bc3f515",
+      "sourceId": "c8213",
+      "targetId": "ida3ca3fa6",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "ida1367212",
+      "sourceId": "id8e250093",
+      "targetId": "af83c",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "ida3ca3fa6",
+      "sourceId": "b26a9",
+      "targetId": "af83c",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "idbc75dd2b",
+      "sourceId": "a89e0",
+      "targetId": "c7efb",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "idd869d17f",
+      "sourceId": "a1c3b",
+      "targetId": "b26a9",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "a9eab",
+      "sourceId": "f0627",
+      "targetId": "eb585",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "d9a81",
+      "sourceId": "bb060",
+      "targetId": "bb9d5",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "e24d0",
+      "sourceId": "c7efb",
+      "targetId": "b1836",
+      "types": [
+        "activation"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "a1c3b",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 674.1292134831467,
+      "y": 184.32908383751058,
+      "label": "Mevalonate \npathway",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP4190"
+    },
+    {
+      "id": "a89e0",
+      "geneNames": null,
+      "type": "compound",
+      "x": 470.181503889369,
+      "y": 459.80985306827984,
+      "label": "Decaprenyl-4OH-benzoate",
+      "groupId": null,
+      "referenceDatabase": "PubChem-compound",
+      "referenceId": "6454686"
+    },
+    {
+      "id": "aee93",
+      "geneNames": null,
+      "type": "compound",
+      "x": 246.3267070008643,
+      "y": 104.58081244598098,
+      "label": "tyrosine",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:18186"
+    },
+    {
+      "id": "af83c",
+      "geneNames": null,
+      "type": "compound",
+      "x": 674.129213483146,
+      "y": 363.5004321521174,
+      "label": "Decarprenyl-PP",
+      "groupId": null,
+      "referenceDatabase": "PubChem-compound",
+      "referenceId": "46173330"
+    },
+    {
+      "id": "b1836",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 471.04580812445977,
+      "y": 644.7709593777009,
+      "label": "Riboflavin and CoQ \nmetabolism",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP5037"
+    },
+    {
+      "id": "b26a9",
+      "geneNames": null,
+      "type": "compound",
+      "x": 674.1292134831461,
+      "y": 287.8133102852199,
+      "label": "Farnesyl-PP",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "175763"
+    },
+    {
+      "id": "bb060",
+      "geneNames": null,
+      "type": "compound",
+      "x": 246.3267070008643,
+      "y": 287.8133102852199,
+      "label": "4OH-Cinnamate",
+      "groupId": null,
+      "referenceDatabase": "PubChem-compound",
+      "referenceId": "637542"
+    },
+    {
+      "id": "c7efb",
+      "geneNames": null,
+      "type": "compound",
+      "x": 470.181503889369,
+      "y": 570.4407951598964,
+      "label": "CoQ10",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:46245"
+    },
+    {
+      "id": "c8213",
+      "geneNames": [
+        "Trans-prenyl transferase"
+      ],
+      "type": "gene_protein",
+      "x": 543.2433016421796,
+      "y": 321.52117545375916,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "EC",
+      "referenceId": "2.5.1.-",
+      "uniprotAccs": [
+        "O95749",
+        "Q96H96",
+        "Q9Y4U1",
+        "P14324",
+        "Q9NR45",
+        "P49354",
+        "Q99735",
+        "Q9Y5Z9",
+        "Q03013",
+        "O43813",
+        "P37268",
+        "O00116",
+        "P10620",
+        "P49356",
+        "Q86SQ9",
+        "Q9BZG8",
+        "O60760",
+        "P08263",
+        "P09210",
+        "P28161",
+        "P52788",
+        "Q92696",
+        "P09211",
+        "P21266",
+        "P31153"
+      ]
+    },
+    {
+      "id": "eb585",
+      "geneNames": null,
+      "type": "compound",
+      "x": 246.3267070008643,
+      "y": 220.39757994814178,
+      "label": "4OH-phenyllactate",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000755"
+    },
+    {
+      "id": "f0627",
+      "geneNames": null,
+      "type": "compound",
+      "x": 246.3267070008643,
+      "y": 158.16767502160766,
+      "label": "4OH-phenylpyruvate",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:15999"
+    },
+    {
+      "id": "bb9d5",
+      "geneNames": null,
+      "type": "compound",
+      "x": 246.32670700086427,
+      "y": 363.5004321521174,
+      "label": "4OH-benzoate",
+      "groupId": null,
+      "referenceDatabase": "PubChem-compound",
+      "referenceId": "135"
+    }
+  ]
+}

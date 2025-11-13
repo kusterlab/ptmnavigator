@@ -1,0 +1,416 @@
+{
+  "pathway": {
+    "name": "WP2868",
+    "org": "Homo sapiens",
+    "title": "TCA cycle nutrient use and invasiveness of ovarian cancer"
+  },
+  "links": [
+    {
+      "id": "id20dcdc6a",
+      "sourceId": "cc42b",
+      "targetId": "a2a4a",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id5e1188a0",
+      "sourceId": "c1502",
+      "targetId": "d632b",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id882e8822",
+      "sourceId": "cf7ed",
+      "targetId": "f133c",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id96ef6249",
+      "sourceId": "ed313",
+      "targetId": "cc42b",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ida1fffb24",
+      "sourceId": "cf7ed",
+      "targetId": "ade37",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idcc5e48b2",
+      "sourceId": "d04eb",
+      "targetId": "ce657",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "f830a",
+      "sourceId": "a2a4a",
+      "targetId": "c1502",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "da63f",
+      "sourceId": "a2a4a",
+      "targetId": "b15f8",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "b15f8",
+      "sourceId": "d632b",
+      "targetId": "c34c9",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ed5aa",
+      "sourceId": "ade37",
+      "targetId": "dd827",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "bd041",
+      "sourceId": "e0064",
+      "targetId": "ed313",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "a83a5",
+      "sourceId": "f133c",
+      "targetId": "a3dd3",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "b2bf0",
+      "sourceId": "dd827",
+      "targetId": "f133c",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "eee04",
+      "sourceId": "fd7c3",
+      "targetId": "cda95",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "f64fd",
+      "sourceId": "cda95",
+      "targetId": "b0e72",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "c4cb0",
+      "sourceId": "b0e72",
+      "targetId": "a3dd3",
+      "types": [
+        "activation"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "a2a4a",
+      "geneNames": [
+        "STAT3"
+      ],
+      "type": "gene_protein",
+      "x": 78.0,
+      "y": 378.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "6774",
+      "states": [
+        "P"
+      ],
+      "uniprotAccs": [
+        "P40763",
+        "A0A7I2V395"
+      ]
+    },
+    {
+      "id": "c34c9",
+      "geneNames": null,
+      "type": "compound",
+      "x": 195.0,
+      "y": 378.0,
+      "label": "Lactate",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000190"
+    },
+    {
+      "id": "c3e6f",
+      "geneNames": [
+        "ERK1"
+      ],
+      "type": "gene_protein",
+      "x": 495.0,
+      "y": 296.25,
+      "label": null,
+      "groupId": "ade37",
+      "referenceDatabase": "GeneID",
+      "referenceId": "5595",
+      "uniprotAccs": [
+        "P27361",
+        "L7RXH5",
+        "Q9BWJ1"
+      ]
+    },
+    {
+      "id": "cc42b",
+      "geneNames": [
+        "JAK1"
+      ],
+      "type": "gene_protein",
+      "x": 78.0,
+      "y": 323.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "3716",
+      "uniprotAccs": [
+        "P23458",
+        "A0A8V8TPQ9",
+        "Q6P669"
+      ]
+    },
+    {
+      "id": "cf7ed",
+      "geneNames": null,
+      "type": "compound",
+      "x": 495.0,
+      "y": 202.0,
+      "label": "D-Glutamine",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0003423"
+    },
+    {
+      "id": "d3a8b",
+      "geneNames": [
+        "ERK2"
+      ],
+      "type": "gene_protein",
+      "x": 495.0,
+      "y": 276.25,
+      "label": null,
+      "groupId": "ade37",
+      "referenceDatabase": "GeneID",
+      "referenceId": "5594",
+      "uniprotAccs": [
+        "P28482",
+        "Q1HBJ4",
+        "Q499G7"
+      ]
+    },
+    {
+      "id": "d632b",
+      "geneNames": null,
+      "type": "compound",
+      "x": 195.0,
+      "y": 464.0,
+      "label": "Pyruvate",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000243"
+    },
+    {
+      "id": "e0064",
+      "geneNames": null,
+      "type": "compound",
+      "x": 78.0,
+      "y": 205.0,
+      "label": "Glucose",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000122"
+    },
+    {
+      "id": "ed313",
+      "geneNames": [
+        "EGFR"
+      ],
+      "type": "gene_protein",
+      "x": 78.0,
+      "y": 266.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "1956",
+      "uniprotAccs": [
+        "P00533",
+        "B7Z2I3",
+        "C9JYS6",
+        "E7BSV0",
+        "F2YGG7",
+        "Q504U8"
+      ]
+    },
+    {
+      "id": "f133c",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 496.0,
+      "y": 473.0,
+      "label": "TCA cycle",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP78"
+    },
+    {
+      "id": "c1502",
+      "geneNames": null,
+      "type": "compound",
+      "x": 78.0,
+      "y": 464.0,
+      "label": "Glucose",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000122"
+    },
+    {
+      "id": "dd827",
+      "geneNames": [
+        "STAT3"
+      ],
+      "type": "gene_protein",
+      "x": 495.0,
+      "y": 354.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "6774",
+      "states": [
+        "P"
+      ],
+      "uniprotAccs": [
+        "P40763",
+        "A0A7I2V395"
+      ]
+    },
+    {
+      "id": "fd7c3",
+      "geneNames": null,
+      "type": "compound",
+      "x": 315.0,
+      "y": 202.0,
+      "label": "Glucose",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000122"
+    },
+    {
+      "id": "cda95",
+      "geneNames": [
+        "EGFR"
+      ],
+      "type": "gene_protein",
+      "x": 315.0,
+      "y": 265.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "1956",
+      "uniprotAccs": [
+        "P00533",
+        "B7Z2I3",
+        "C9JYS6",
+        "E7BSV0",
+        "F2YGG7",
+        "Q504U8"
+      ]
+    },
+    {
+      "id": "b0e72",
+      "geneNames": [
+        "JAK1"
+      ],
+      "type": "gene_protein",
+      "x": 315.0,
+      "y": 329.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "3716",
+      "uniprotAccs": [
+        "P23458",
+        "A0A8V8TPQ9",
+        "Q6P669"
+      ]
+    },
+    {
+      "id": "a3dd3",
+      "geneNames": [
+        "STAT3"
+      ],
+      "type": "gene_protein",
+      "x": 315.0,
+      "y": 382.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "6774",
+      "states": [
+        "P"
+      ],
+      "uniprotAccs": [
+        "P40763",
+        "A0A7I2V395"
+      ]
+    },
+    {
+      "id": "d04eb",
+      "geneNames": null,
+      "type": "misc",
+      "x": 110.5,
+      "y": 162.0,
+      "label": "Low-invasive ovarian cancer",
+      "groupId": null
+    },
+    {
+      "id": "ce657",
+      "geneNames": null,
+      "type": "misc",
+      "x": 409.5,
+      "y": 162.0,
+      "label": "High-invasive ovarian cancer",
+      "groupId": null
+    },
+    {
+      "id": "ade37",
+      "type": "group",
+      "components": [
+        "c3e6f",
+        "d3a8b"
+      ]
+    }
+  ]
+}

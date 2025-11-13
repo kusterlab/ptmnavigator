@@ -1,0 +1,583 @@
+{
+  "pathway": {
+    "name": "WP5133",
+    "org": "Homo sapiens",
+    "title": "Non-classical role of vitamin D"
+  },
+  "links": [
+    {
+      "id": "id1f1dc8a3",
+      "sourceId": "dba94",
+      "targetId": "d0017",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "id27558b8f",
+      "sourceId": "ec2ea",
+      "targetId": "b6557",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "id3daf0281",
+      "sourceId": "dba94",
+      "targetId": "b6557",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id3e08f39",
+      "sourceId": "b70b0",
+      "targetId": "a1790",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "id48331265",
+      "sourceId": "ac92f",
+      "targetId": "d414a",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id53aefa5c",
+      "sourceId": "fa45e",
+      "targetId": "cf765",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "id548b6ab2",
+      "sourceId": "d414a",
+      "targetId": "idbb55587",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "id5a128648",
+      "sourceId": "d414a",
+      "targetId": "a300f",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "id5ccfb732",
+      "sourceId": "e5ceb",
+      "targetId": "idd51b8712",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id6e472ad6",
+      "sourceId": "c9f22",
+      "targetId": "idac429ec",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id865f394b",
+      "sourceId": "dba94",
+      "targetId": "bf73a",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "id8e566d1e",
+      "sourceId": "e935e",
+      "targetId": "id96120839",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id96120839",
+      "sourceId": "b6557",
+      "targetId": "dba94",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id97daad93",
+      "sourceId": "ba70a",
+      "targetId": "dcb4b",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "ida6b72457",
+      "sourceId": "bf73a",
+      "targetId": "c9bd7",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "idac429ec",
+      "sourceId": "bac0d",
+      "targetId": "b5fb4",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "idadb1744e",
+      "sourceId": "dba94",
+      "targetId": "ba70a",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "idba0916a",
+      "sourceId": "b8b94",
+      "targetId": "bac0d",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "idbb55587",
+      "sourceId": "a1790",
+      "targetId": "b6557",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "idbf5a9cab",
+      "sourceId": "d0302",
+      "targetId": "id3daf0281",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "idd103f83c",
+      "sourceId": "cf765",
+      "targetId": "d0302",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "idd51b8712",
+      "sourceId": "b5fb4",
+      "targetId": "b708b",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "idded1f3a",
+      "sourceId": "d0017",
+      "targetId": "a5202",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "ec2ec",
+      "sourceId": "a32e2",
+      "targetId": "d0302",
+      "types": [
+        "inhibition"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "a1790",
+      "geneNames": [
+        "Angiotensinogen"
+      ],
+      "type": "gene_protein",
+      "x": 257.0,
+      "y": 188.75,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P01019",
+      "uniprotAccs": [
+        "P01019"
+      ]
+    },
+    {
+      "id": "a5202",
+      "geneNames": null,
+      "type": "compound",
+      "x": 259.0,
+      "y": 509.0,
+      "label": "aldosterone",
+      "groupId": null,
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q184564"
+    },
+    {
+      "id": "ac92f",
+      "geneNames": null,
+      "type": "compound",
+      "x": 554.1355932203389,
+      "y": 216.75,
+      "label": "1,25-dihydroxycholecalciferol",
+      "groupId": "b708b",
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:17823"
+    },
+    {
+      "id": "ad27a",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 528.1186440677968,
+      "y": 477.45762711864415,
+      "label": "cytokines and inflammation",
+      "groupId": "dcb4b",
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP530"
+    },
+    {
+      "id": "b2235",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 548.0,
+      "y": 310.25,
+      "label": "Vasodilation",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP4580"
+    },
+    {
+      "id": "b3b49",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 519.2542372881358,
+      "y": 454.32203389830545,
+      "label": "ROS production",
+      "groupId": "dcb4b",
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP4969"
+    },
+    {
+      "id": "b5eea",
+      "geneNames": null,
+      "type": "compound",
+      "x": 551.5,
+      "y": 247.25,
+      "label": "vitamin D receptor \nagonists",
+      "groupId": "b708b",
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:139503"
+    },
+    {
+      "id": "b5fb4",
+      "geneNames": null,
+      "type": "compound",
+      "x": 556.5084745762712,
+      "y": 111.75,
+      "label": "25-hydroxycholecalciferol",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:17933"
+    },
+    {
+      "id": "b6557",
+      "geneNames": null,
+      "type": "compound",
+      "x": 257.0,
+      "y": 264.0,
+      "label": "angiotensin I",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:2718"
+    },
+    {
+      "id": "b8b94",
+      "geneNames": null,
+      "type": "compound",
+      "x": 153.72033898305082,
+      "y": 110.5,
+      "label": "7-Dehydrocholesterol",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:17759"
+    },
+    {
+      "id": "b9bc7",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 98.35593220338981,
+      "y": 213.50847457627114,
+      "label": "Apoptosis",
+      "groupId": "ec2ea",
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP254"
+    },
+    {
+      "id": "ba70a",
+      "geneNames": [
+        "Type-1 \nangiotensin II \nreceptor"
+      ],
+      "type": "gene_protein",
+      "x": 409.0,
+      "y": 389.25,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P30556",
+      "uniprotAccs": [
+        "P30556"
+      ]
+    },
+    {
+      "id": "bac0d",
+      "geneNames": null,
+      "type": "compound",
+      "x": 350.0,
+      "y": 111.0,
+      "label": "Cholecalciferol",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:28940"
+    },
+    {
+      "id": "bf73a",
+      "geneNames": [
+        "Type-2 \nangiotensin II \nreceptor"
+      ],
+      "type": "gene_protein",
+      "x": 408.0,
+      "y": 311.25,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P50052",
+      "uniprotAccs": [
+        "P50052"
+      ]
+    },
+    {
+      "id": "c9f22",
+      "geneNames": [
+        "25-hydroxylase"
+      ],
+      "type": "gene_protein",
+      "x": 428.1525423728814,
+      "y": 70.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "E9PS56",
+      "uniprotAccs": [
+        "E9PS56"
+      ]
+    },
+    {
+      "id": "cf765",
+      "geneNames": null,
+      "type": "compound",
+      "x": 147.5,
+      "y": 417.0,
+      "label": "1,25-dihydroxycholecalciferol",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:17823"
+    },
+    {
+      "id": "d0017",
+      "geneNames": [
+        "Renal Type-1 \nangiotensin II \nreceptor"
+      ],
+      "type": "gene_protein",
+      "x": 258.0,
+      "y": 430.25,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P30556",
+      "uniprotAccs": [
+        "P30556"
+      ]
+    },
+    {
+      "id": "d0302",
+      "geneNames": [
+        "ACE2"
+      ],
+      "type": "gene_protein",
+      "x": 159.0,
+      "y": 311.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "Q9BYF1",
+      "uniprotAccs": [
+        "Q9BYF1"
+      ]
+    },
+    {
+      "id": "d414a",
+      "geneNames": [
+        "Renin"
+      ],
+      "type": "gene_protein",
+      "x": 400.0,
+      "y": 223.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P00797",
+      "uniprotAccs": [
+        "P00797"
+      ]
+    },
+    {
+      "id": "d5e1b",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 96.74576271186447,
+      "y": 264.55932203389807,
+      "label": "Fibrosis",
+      "groupId": "ec2ea",
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP3624"
+    },
+    {
+      "id": "dba94",
+      "geneNames": null,
+      "type": "compound",
+      "x": 258.0,
+      "y": 348.0,
+      "label": "Angiotensin II",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB01035"
+    },
+    {
+      "id": "e5ceb",
+      "geneNames": [
+        "1-alpha-\nhydroxylase "
+      ],
+      "type": "gene_protein",
+      "x": 609.5,
+      "y": 154.75,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "V9GYP0",
+      "uniprotAccs": [
+        "V9GYP0"
+      ]
+    },
+    {
+      "id": "e935e",
+      "geneNames": [
+        "ACE"
+      ],
+      "type": "gene_protein",
+      "x": 301.5,
+      "y": 300.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "A0A0A0MSN4",
+      "uniprotAccs": [
+        "A0A0A0MSN4"
+      ]
+    },
+    {
+      "id": "ee219",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 98.0,
+      "y": 238.3559322033899,
+      "label": "Inflammation",
+      "groupId": "ec2ea",
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP4479"
+    },
+    {
+      "id": "a300f",
+      "geneNames": null,
+      "type": "misc",
+      "x": 525.0,
+      "y": 152.0,
+      "label": "Kidney",
+      "groupId": null
+    },
+    {
+      "id": "b70b0",
+      "geneNames": null,
+      "type": "misc",
+      "x": 416.5,
+      "y": 121.0,
+      "label": "Liver",
+      "groupId": null
+    },
+    {
+      "id": "c9bd7",
+      "geneNames": null,
+      "type": "misc",
+      "x": 556.8305084745764,
+      "y": 341.3771186440674,
+      "label": "& anti-proliferation",
+      "groupId": null
+    },
+    {
+      "id": "f1e1f",
+      "geneNames": null,
+      "type": "misc",
+      "x": 515.2542372881358,
+      "y": 508.98305084745743,
+      "label": "Increase in Na, K retention, \nIncrease vasoconstriction",
+      "groupId": "dcb4b"
+    },
+    {
+      "id": "fa45e",
+      "geneNames": null,
+      "type": "misc",
+      "x": 148.0,
+      "y": 486.75,
+      "label": "Strong\nImmunity",
+      "groupId": null
+    },
+    {
+      "id": "b708b",
+      "type": "group",
+      "components": [
+        "ac92f",
+        "b5eea"
+      ]
+    },
+    {
+      "id": "dcb4b",
+      "type": "group",
+      "components": [
+        "ad27a",
+        "b3b49",
+        "f1e1f"
+      ]
+    },
+    {
+      "id": "ec2ea",
+      "type": "group",
+      "components": [
+        "b9bc7",
+        "d5e1b",
+        "ee219"
+      ]
+    }
+  ]
+}

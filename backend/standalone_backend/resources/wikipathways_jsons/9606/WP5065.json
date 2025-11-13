@@ -1,0 +1,316 @@
+{
+  "pathway": {
+    "name": "WP5065",
+    "org": "Homo sapiens",
+    "title": "SARS-CoV-2 altering angiogenesis via NRP1"
+  },
+  "links": [
+    {
+      "id": "id19622e55",
+      "sourceId": "c363c",
+      "targetId": "id3790eadf",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id30105322",
+      "sourceId": "b32ee",
+      "targetId": "d17ac",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id34540c1c",
+      "sourceId": "a43e4",
+      "targetId": "f84bf",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "id3790eadf",
+      "sourceId": "b9e81",
+      "targetId": "e0e95",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "id43cd660f",
+      "sourceId": "ecd5d",
+      "targetId": "b9e81",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "id4e2d6c6e",
+      "sourceId": "e0e95",
+      "targetId": "f5b86",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "id9a9099b7",
+      "sourceId": "c363c",
+      "targetId": "id43cd660f",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "ida9ef11ca",
+      "sourceId": "c363c",
+      "targetId": "b9e81",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "idb065e73b",
+      "sourceId": "ab236",
+      "targetId": "idcb5a79c6",
+      "types": [
+        "cleavage"
+      ]
+    },
+    {
+      "id": "idc047fb67",
+      "sourceId": "b32ee",
+      "targetId": "a43e4",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "idcb5a79c6",
+      "sourceId": "b32ee",
+      "targetId": "c363c",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "idf5f63b5b",
+      "sourceId": "ab236",
+      "targetId": "idc047fb67",
+      "types": [
+        "cleavage"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "a43e4",
+      "geneNames": [
+        "S2"
+      ],
+      "type": "gene_protein",
+      "x": 487.7175000000002,
+      "y": 316.8730357142857,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q106020384"
+    },
+    {
+      "id": "ab236",
+      "geneNames": [
+        "FURIN"
+      ],
+      "type": "gene_protein",
+      "x": 608.4774999999989,
+      "y": 220.67250000000033,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000140564",
+      "uniprotAccs": [
+        "P09958",
+        "A0A7P0T8P1",
+        "A0A7P0T8U2",
+        "A0A7P0T9X7",
+        "H0YNB5"
+      ]
+    },
+    {
+      "id": "b32ee",
+      "geneNames": [
+        "Surface glycoprotein S"
+      ],
+      "type": "gene_protein",
+      "x": 366.5812499999997,
+      "y": 149.75375000000034,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P0DTC2",
+      "uniprotAccs": [
+        "P0DTC2"
+      ]
+    },
+    {
+      "id": "b9e81",
+      "geneNames": [
+        "NRP1"
+      ],
+      "type": "gene_protein",
+      "x": 534.1249999999998,
+      "y": 374.45750000000055,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000099250",
+      "uniprotAccs": [
+        "O14786",
+        "E7EX60",
+        "E9PEP6",
+        "H0Y4A0",
+        "H0Y4N6",
+        "H0Y7Z2",
+        "Q5JWQ2",
+        "Q5JWQ4",
+        "Q5JWQ6",
+        "Q5T7F0",
+        "V9GYL7"
+      ]
+    },
+    {
+      "id": "be74d",
+      "geneNames": [
+        "KDR"
+      ],
+      "type": "gene_protein",
+      "x": 534.1249999999998,
+      "y": 510.9575000000004,
+      "label": null,
+      "groupId": "e0e95",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000128052",
+      "uniprotAccs": [
+        "P35968"
+      ]
+    },
+    {
+      "id": "c363c",
+      "geneNames": [
+        "S1"
+      ],
+      "type": "gene_protein",
+      "x": 380.5575,
+      "y": 374.4575000000006,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q106020256"
+    },
+    {
+      "id": "d17ac",
+      "geneNames": [
+        "ACE2"
+      ],
+      "type": "gene_protein",
+      "x": 533.0224999999998,
+      "y": 148.65125000000032,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000130234",
+      "uniprotAccs": [
+        "Q9BYF1",
+        "A0A7I2V2E9",
+        "A0A7I2V3N4",
+        "A0A7I2V3X6",
+        "A0A7I2V4H0",
+        "A0A7I2V5W5"
+      ]
+    },
+    {
+      "id": "ecd5d",
+      "geneNames": [
+        "VEGFA"
+      ],
+      "type": "gene_protein",
+      "x": 359.57047563805,
+      "y": 483.31406032482613,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000112715",
+      "uniprotAccs": [
+        "P15692",
+        "A0A0A0MR43",
+        "A0A0A0MRQ4",
+        "A0A0A0MSH5",
+        "A0A0A0MSH7",
+        "A0A0A0MSI7",
+        "A0A0A0MTB2",
+        "A0A5F9ZH41",
+        "A2A2V4",
+        "H0YBI8",
+        "H0YBZ0",
+        "H3BLW8",
+        "J3KPA4"
+      ]
+    },
+    {
+      "id": "f5b86",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 705.1812499999999,
+      "y": 498.70000000000084,
+      "label": "Angiogenesis",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP1993"
+    },
+    {
+      "id": "f84bf",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 705.1812499999997,
+      "y": 315.49607142857144,
+      "label": "Membrane fusion",
+      "groupId": null,
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q6556360"
+    },
+    {
+      "id": "c92a9",
+      "geneNames": [
+        "NRP1"
+      ],
+      "type": "gene_protein",
+      "x": 534.1249999999998,
+      "y": 485.95750000000055,
+      "label": null,
+      "groupId": "e0e95",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000099250",
+      "uniprotAccs": [
+        "O14786",
+        "E7EX60",
+        "E9PEP6",
+        "H0Y4A0",
+        "H0Y4N6",
+        "H0Y7Z2",
+        "Q5JWQ2",
+        "Q5JWQ4",
+        "Q5JWQ6",
+        "Q5T7F0",
+        "V9GYL7"
+      ]
+    },
+    {
+      "id": "e0e95",
+      "type": "group",
+      "components": [
+        "be74d",
+        "c92a9"
+      ]
+    }
+  ]
+}

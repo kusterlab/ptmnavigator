@@ -1,0 +1,319 @@
+{
+  "pathway": {
+    "name": "WP1455",
+    "org": "Homo sapiens",
+    "title": "Serotonin transporter activity"
+  },
+  "links": [
+    {
+      "id": "id12e26589",
+      "sourceId": "aad29",
+      "targetId": "b9e35",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "id1daa7d07",
+      "sourceId": "d5012",
+      "targetId": "b9e35",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "id324bc54e",
+      "sourceId": "b9e35",
+      "targetId": "b6412",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "id5ba1af8d",
+      "sourceId": "d321e",
+      "targetId": "bcccd",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id6328f1c",
+      "sourceId": "f09f6",
+      "targetId": "b9e35",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id6c15f063",
+      "sourceId": "bcccd",
+      "targetId": "b9e35",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "id71bf00f3",
+      "sourceId": "b9e35",
+      "targetId": "e3155",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "id82495ffb",
+      "sourceId": "id5ba1af8d",
+      "targetId": "e8cb4",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id82813149",
+      "sourceId": "bc3ee",
+      "targetId": "b9e35",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "ida5487402",
+      "sourceId": "d5f26",
+      "targetId": "b9e35",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "idfdcadf51",
+      "sourceId": "cd997",
+      "targetId": "fcac9",
+      "types": [
+        "binding/association"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "aad29",
+      "geneNames": [
+        "SCAMP2"
+      ],
+      "type": "gene_protein",
+      "x": 270.0,
+      "y": 95.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "10066",
+      "uniprotAccs": [
+        "O15127",
+        "A0A140VK92",
+        "A8K769"
+      ]
+    },
+    {
+      "id": "b6412",
+      "geneNames": [
+        "Hic-5"
+      ],
+      "type": "gene_protein",
+      "x": 108.48333333333333,
+      "y": 285.98333333333335,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "7041",
+      "uniprotAccs": [
+        "O43294"
+      ]
+    },
+    {
+      "id": "b9e35",
+      "geneNames": [
+        "SLC6A4"
+      ],
+      "type": "gene_protein",
+      "x": 161.0,
+      "y": 179.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "6532",
+      "uniprotAccs": [
+        "P31645",
+        "B2R7Y7"
+      ]
+    },
+    {
+      "id": "bc3ee",
+      "geneNames": [
+        "ITGB3"
+      ],
+      "type": "gene_protein",
+      "x": 56.0,
+      "y": 226.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "3690",
+      "uniprotAccs": [
+        "P05106"
+      ]
+    },
+    {
+      "id": "bcccd",
+      "geneNames": null,
+      "type": "compound",
+      "x": 205.0,
+      "y": 35.0,
+      "label": "Serotonin",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000259"
+    },
+    {
+      "id": "cd997",
+      "geneNames": [
+        "IL1B"
+      ],
+      "type": "gene_protein",
+      "x": 455.0,
+      "y": 188.48333333333332,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "3553",
+      "uniprotAccs": [
+        "P01584"
+      ]
+    },
+    {
+      "id": "d321e",
+      "geneNames": null,
+      "type": "compound",
+      "x": 535.0,
+      "y": 35.0,
+      "label": "L-Tryptophan",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000929"
+    },
+    {
+      "id": "d5012",
+      "geneNames": [
+        "PP2A"
+      ],
+      "type": "gene_protein",
+      "x": 240.0,
+      "y": 313.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "5516",
+      "uniprotAccs": [
+        "P62714",
+        "A0A140VJS0"
+      ]
+    },
+    {
+      "id": "d5f26",
+      "geneNames": [
+        "Syntaxin 1A"
+      ],
+      "type": "gene_protein",
+      "x": 269.0,
+      "y": 216.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "6804",
+      "uniprotAccs": [
+        "Q16623",
+        "Q75ME0"
+      ]
+    },
+    {
+      "id": "db27f",
+      "geneNames": [
+        "MAOA"
+      ],
+      "type": "gene_protein",
+      "x": 455.0,
+      "y": 155.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "4128",
+      "uniprotAccs": [
+        "P21397",
+        "Q49A63",
+        "Q53YE7"
+      ]
+    },
+    {
+      "id": "e3155",
+      "geneNames": [
+        "nNOS"
+      ],
+      "type": "gene_protein",
+      "x": 61.483333333333334,
+      "y": 86.98333333333333,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "4842",
+      "uniprotAccs": [
+        "P29475",
+        "A0PJJ7",
+        "B3VK56",
+        "B4DG68"
+      ]
+    },
+    {
+      "id": "e8cb4",
+      "geneNames": [
+        "TPH2"
+      ],
+      "type": "gene_protein",
+      "x": 395.0,
+      "y": 95.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "121278",
+      "uniprotAccs": [
+        "Q8IWU9"
+      ]
+    },
+    {
+      "id": "f09f6",
+      "geneNames": null,
+      "type": "compound",
+      "x": 105.0,
+      "y": 45.0,
+      "label": "Citalopram",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0005038"
+    },
+    {
+      "id": "fcac9",
+      "geneNames": [
+        "IL1R1"
+      ],
+      "type": "gene_protein",
+      "x": 456.0504201680672,
+      "y": 277.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "3554",
+      "uniprotAccs": [
+        "P14778",
+        "B8ZZW4"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,418 @@
+{
+  "pathway": {
+    "name": "WP3873",
+    "org": "Homo sapiens",
+    "title": "RIOK1 and RIOK2 in EGFR- and PI3K-mediated tumorigenesis"
+  },
+  "links": [
+    {
+      "id": "id152e6947",
+      "sourceId": "ab72b",
+      "targetId": "idc19baba2",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id4400bdd4",
+      "sourceId": "da76f",
+      "targetId": "da5e9",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id52dc738c",
+      "sourceId": "ebc1a",
+      "targetId": "c682c",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id9219860e",
+      "sourceId": "c682c",
+      "targetId": "d7179",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ida627931d",
+      "sourceId": "ebc1a",
+      "targetId": "da76f",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "idc19baba2",
+      "sourceId": "be039",
+      "targetId": "d1b9d",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "iddc457610",
+      "sourceId": "c682c",
+      "targetId": "e2003",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ide387a056",
+      "sourceId": "e2003",
+      "targetId": "d1b9d",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idf93408d9",
+      "sourceId": "c682c",
+      "targetId": "d54d8",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idfb6cd76e",
+      "sourceId": "e9ac6",
+      "targetId": "ebc1a",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "c918b",
+      "sourceId": "d54d8",
+      "targetId": "c44b0",
+      "types": [
+        "activation"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "ab72b",
+      "geneNames": [
+        "PTEN"
+      ],
+      "type": "gene_protein",
+      "x": 292.0,
+      "y": 168.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneCards",
+      "referenceId": "PTEN",
+      "uniprotAccs": [
+        "P60484"
+      ]
+    },
+    {
+      "id": "ae9ff",
+      "geneNames": [
+        "RIOK1"
+      ],
+      "type": "gene_protein",
+      "x": 167.0,
+      "y": 330.0,
+      "label": null,
+      "groupId": "c682c",
+      "referenceDatabase": "GeneCards",
+      "referenceId": "RIOK1",
+      "uniprotAccs": [
+        "Q9BRS2"
+      ]
+    },
+    {
+      "id": "be039",
+      "geneNames": [
+        "PIK3CA"
+      ],
+      "type": "gene_protein",
+      "x": 241.0,
+      "y": 107.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneCards",
+      "referenceId": "PIK3CA",
+      "uniprotAccs": [
+        "P42336"
+      ]
+    },
+    {
+      "id": "d1b9d",
+      "geneNames": [
+        "AKT1"
+      ],
+      "type": "gene_protein",
+      "x": 167.0,
+      "y": 189.0,
+      "label": null,
+      "groupId": "ebc1a",
+      "referenceDatabase": "GeneCards",
+      "referenceId": "AKT1",
+      "uniprotAccs": [
+        "P31749"
+      ]
+    },
+    {
+      "id": "d54d8",
+      "geneNames": [
+        "RPL11"
+      ],
+      "type": "gene_protein",
+      "x": 382.0,
+      "y": 339.66131191432396,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneCards",
+      "referenceId": "RPL11",
+      "uniprotAccs": [
+        "P62913"
+      ]
+    },
+    {
+      "id": "da76f",
+      "geneNames": [
+        "FOXO3"
+      ],
+      "type": "gene_protein",
+      "x": 61.125,
+      "y": 338.75,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneCards",
+      "referenceId": "FOXO3",
+      "uniprotAccs": [
+        "O43524"
+      ]
+    },
+    {
+      "id": "de52e",
+      "geneNames": [
+        "RIOK2"
+      ],
+      "type": "gene_protein",
+      "x": 167.0,
+      "y": 350.0,
+      "label": null,
+      "groupId": "c682c",
+      "referenceDatabase": "GeneCards",
+      "referenceId": "RIOK2",
+      "uniprotAccs": [
+        "Q9BVS4"
+      ]
+    },
+    {
+      "id": "e9ac6",
+      "geneNames": [
+        "EGFR"
+      ],
+      "type": "gene_protein",
+      "x": 95.0,
+      "y": 108.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000146648",
+      "uniprotAccs": [
+        "P00533",
+        "A0A8V8TPW8",
+        "C9JYS6",
+        "Q504U8"
+      ]
+    },
+    {
+      "id": "fb13d",
+      "geneNames": [
+        "MTOR"
+      ],
+      "type": "gene_protein",
+      "x": 270.0,
+      "y": 239.0,
+      "label": null,
+      "groupId": "e2003",
+      "referenceDatabase": "GeneCards",
+      "referenceId": "MTOR",
+      "uniprotAccs": [
+        "P42345"
+      ]
+    },
+    {
+      "id": "c0083",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 382.0,
+      "y": 506.0,
+      "label": "Cell Cycle Arrest",
+      "groupId": "da5e9",
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP31"
+    },
+    {
+      "id": "dc9d0",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 382.0,
+      "y": 486.0,
+      "label": "Apoptosis",
+      "groupId": "da5e9",
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP31"
+    },
+    {
+      "id": "c44b0",
+      "geneNames": [
+        "TP53"
+      ],
+      "type": "gene_protein",
+      "x": 382.0,
+      "y": 416.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneCards",
+      "referenceId": "TP53",
+      "uniprotAccs": [
+        "P04637"
+      ]
+    },
+    {
+      "id": "f1dd6",
+      "geneNames": [
+        "AKT2"
+      ],
+      "type": "gene_protein",
+      "x": 167.0,
+      "y": 209.0,
+      "label": null,
+      "groupId": "ebc1a",
+      "referenceDatabase": "GeneCards",
+      "referenceId": "AKT2",
+      "uniprotAccs": [
+        "P31751"
+      ]
+    },
+    {
+      "id": "fbaaf",
+      "geneNames": [
+        "AKT3"
+      ],
+      "type": "gene_protein",
+      "x": 167.0,
+      "y": 229.0,
+      "label": null,
+      "groupId": "ebc1a",
+      "referenceDatabase": "GeneCards",
+      "referenceId": "AKT3",
+      "uniprotAccs": [
+        "Q9Y243"
+      ]
+    },
+    {
+      "id": "ab447",
+      "geneNames": [
+        "RICTOR"
+      ],
+      "type": "gene_protein",
+      "x": 270.0,
+      "y": 259.0,
+      "label": null,
+      "groupId": "e2003",
+      "referenceDatabase": "GeneCards",
+      "referenceId": "RICTOR",
+      "uniprotAccs": [
+        "Q6R327"
+      ]
+    },
+    {
+      "id": "ccaa4",
+      "geneNames": [
+        "MLST8"
+      ],
+      "type": "gene_protein",
+      "x": 350.0,
+      "y": 239.0,
+      "label": null,
+      "groupId": "e2003",
+      "referenceDatabase": "GeneCards",
+      "referenceId": "MLST8",
+      "uniprotAccs": [
+        "Q9BVC4"
+      ]
+    },
+    {
+      "id": "dd7f7",
+      "geneNames": [
+        "MAPKAP1"
+      ],
+      "type": "gene_protein",
+      "x": 350.0,
+      "y": 259.0,
+      "label": null,
+      "groupId": "e2003",
+      "referenceDatabase": "GeneCards",
+      "referenceId": "MAPKAP1",
+      "uniprotAccs": [
+        "Q9BPZ7"
+      ]
+    },
+    {
+      "id": "d9565",
+      "geneNames": null,
+      "type": "misc",
+      "x": 382.0,
+      "y": 527.0,
+      "label": "Chemosensitivity",
+      "groupId": "da5e9"
+    },
+    {
+      "id": "d7179",
+      "geneNames": null,
+      "type": "misc",
+      "x": 167.0,
+      "y": 456.0,
+      "label": "Tumorigenesis",
+      "groupId": null
+    },
+    {
+      "id": "c682c",
+      "type": "group",
+      "components": [
+        "ae9ff",
+        "de52e"
+      ]
+    },
+    {
+      "id": "da5e9",
+      "type": "group",
+      "components": [
+        "c0083",
+        "dc9d0",
+        "d9565"
+      ]
+    },
+    {
+      "id": "e2003",
+      "type": "group",
+      "components": [
+        "fb13d",
+        "ab447",
+        "ccaa4",
+        "dd7f7"
+      ]
+    },
+    {
+      "id": "ebc1a",
+      "type": "group",
+      "components": [
+        "d1b9d",
+        "f1dd6",
+        "fbaaf"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,447 @@
+{
+  "pathway": {
+    "name": "WP4240",
+    "org": "Homo sapiens",
+    "title": "Regulation of sister chromatid separation at the metaphase-anaphase transition"
+  },
+  "links": [
+    {
+      "id": "id399c0f7f",
+      "sourceId": "d2042",
+      "targetId": "fcb47",
+      "types": [
+        "modification"
+      ]
+    },
+    {
+      "id": "id43df681c",
+      "sourceId": "cc4a3",
+      "targetId": "a36d6",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id73072d11",
+      "sourceId": "b18ae",
+      "targetId": "idcbcc0cf5",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id7b1ab357",
+      "sourceId": "be752",
+      "targetId": "fece8",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idcbcc0cf5",
+      "sourceId": "c70e8",
+      "targetId": "cc4a3",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idf0666743",
+      "sourceId": "d3a9c",
+      "targetId": "d2042",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idf95bd9a0",
+      "sourceId": "b18ae",
+      "targetId": "idf0666743",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "idfa797d66",
+      "sourceId": "ed2e2",
+      "targetId": "b18ae",
+      "types": [
+        "inhibition"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "a6d12",
+      "geneNames": [
+        "MAD1L1"
+      ],
+      "type": "gene_protein",
+      "x": 150.12885154061624,
+      "y": 195.33613445378148,
+      "label": null,
+      "groupId": "ed2e2",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000002822",
+      "uniprotAccs": [
+        "Q9Y6D9",
+        "C9J9H5",
+        "C9JIR0",
+        "C9JJ38",
+        "C9JKI7",
+        "C9JX80"
+      ]
+    },
+    {
+      "id": "c4e29",
+      "geneNames": [
+        "ESPL1"
+      ],
+      "type": "gene_protein",
+      "x": 417.5,
+      "y": 261.33333333333337,
+      "label": null,
+      "groupId": "c70e8",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000135476",
+      "uniprotAccs": [
+        "Q14674",
+        "H3BM31",
+        "H3BRX7"
+      ]
+    },
+    {
+      "id": "e552f",
+      "geneNames": [
+        "CDC20"
+      ],
+      "type": "gene_protein",
+      "x": 196.0,
+      "y": 345.0,
+      "label": null,
+      "groupId": "b18ae",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000117399",
+      "uniprotAccs": [
+        "Q12834"
+      ]
+    },
+    {
+      "id": "ea8de",
+      "geneNames": [
+        "SMC1A"
+      ],
+      "type": "gene_protein",
+      "x": 675.0,
+      "y": 281.0,
+      "label": null,
+      "groupId": "be752",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000072501",
+      "uniprotAccs": [
+        "Q14683",
+        "A0A6Q8PHC3",
+        "G8JLG1",
+        "V9GY57",
+        "V9GYN9"
+      ]
+    },
+    {
+      "id": "d5230",
+      "geneNames": [
+        "MAD2L1"
+      ],
+      "type": "gene_protein",
+      "x": 150.12885154061624,
+      "y": 220.33613445378148,
+      "label": null,
+      "groupId": "ed2e2",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000164109",
+      "uniprotAccs": [
+        "Q13257",
+        "D6RJE3"
+      ]
+    },
+    {
+      "id": "eb9e2",
+      "geneNames": [
+        "BUB1"
+      ],
+      "type": "gene_protein",
+      "x": 214.38655462184872,
+      "y": 195.33613445378148,
+      "label": null,
+      "groupId": "ed2e2",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000169679",
+      "uniprotAccs": [
+        "O43683",
+        "A0A590UJ99",
+        "A0A590UK50",
+        "C9IYH4",
+        "C9JQA4",
+        "C9JRC7"
+      ]
+    },
+    {
+      "id": "e8e62",
+      "geneNames": [
+        "BUB1B"
+      ],
+      "type": "gene_protein",
+      "x": 214.38655462184872,
+      "y": 220.33613445378148,
+      "label": null,
+      "groupId": "ed2e2",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000156970",
+      "uniprotAccs": [
+        "O60566",
+        "H0YMK5",
+        "H0YN44"
+      ]
+    },
+    {
+      "id": "e4f22",
+      "geneNames": [
+        "BUB3"
+      ],
+      "type": "gene_protein",
+      "x": 214.38655462184883,
+      "y": 245.33613445378148,
+      "label": null,
+      "groupId": "ed2e2",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000154473",
+      "uniprotAccs": [
+        "O43684",
+        "J3QSX4",
+        "J3QT28"
+      ]
+    },
+    {
+      "id": "faec9",
+      "geneNames": [
+        "CENPE"
+      ],
+      "type": "gene_protein",
+      "x": 150.12885154061624,
+      "y": 245.33613445378148,
+      "label": null,
+      "groupId": "ed2e2",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000138778",
+      "uniprotAccs": [
+        "Q02224",
+        "A0A5F9ZH24",
+        "D6RHK2"
+      ]
+    },
+    {
+      "id": "b3e8b",
+      "geneNames": [
+        "APC"
+      ],
+      "type": "gene_protein",
+      "x": 168.0,
+      "y": 370.0,
+      "label": null,
+      "groupId": "b18ae",
+      "referenceDatabase": "GeneID",
+      "referenceId": "324",
+      "uniprotAccs": [
+        "P25054",
+        "Q4LE70"
+      ]
+    },
+    {
+      "id": "f4452",
+      "geneNames": [
+        "PTTG1"
+      ],
+      "type": "gene_protein",
+      "x": 417.5,
+      "y": 287.0,
+      "label": null,
+      "groupId": "c70e8",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000164611",
+      "uniprotAccs": [
+        "O95997",
+        "E5RJR4"
+      ]
+    },
+    {
+      "id": "d2042",
+      "geneNames": [
+        "ESPL1"
+      ],
+      "type": "gene_protein",
+      "x": 671.5,
+      "y": 403.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000135476",
+      "uniprotAccs": [
+        "Q14674",
+        "H3BM31",
+        "H3BRX7"
+      ]
+    },
+    {
+      "id": "cc4a3",
+      "geneNames": [
+        "PTTG1"
+      ],
+      "type": "gene_protein",
+      "x": 434.0,
+      "y": 441.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000164611",
+      "states": [
+        "Ub"
+      ],
+      "uniprotAccs": [
+        "O95997",
+        "E5RJR4"
+      ]
+    },
+    {
+      "id": "d2924",
+      "geneNames": [
+        "SMC3"
+      ],
+      "type": "gene_protein",
+      "x": 675.0,
+      "y": 306.0,
+      "label": null,
+      "groupId": "be752",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000108055",
+      "uniprotAccs": [
+        "Q9UQE7"
+      ]
+    },
+    {
+      "id": "fcb47",
+      "geneNames": [
+        "RAD21"
+      ],
+      "type": "gene_protein",
+      "x": 737.0,
+      "y": 306.0,
+      "label": null,
+      "groupId": "be752",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000164754",
+      "uniprotAccs": [
+        "O60216",
+        "A0A8I5KWV3",
+        "E5RFV8",
+        "E5RG18",
+        "E5RIN7",
+        "E5RJK5",
+        "E5RJW1"
+      ]
+    },
+    {
+      "id": "a83ee",
+      "geneNames": [
+        "STAG1"
+      ],
+      "type": "gene_protein",
+      "x": 737.0,
+      "y": 281.0,
+      "label": null,
+      "groupId": "be752",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000118007",
+      "uniprotAccs": [
+        "Q8WVM7",
+        "C9JJQ0",
+        "F8WCB3",
+        "F8WF82",
+        "H7C595",
+        "Q68DW7"
+      ]
+    },
+    {
+      "id": "d3a9c",
+      "geneNames": [
+        "ESPL1"
+      ],
+      "type": "gene_protein",
+      "x": 493.5,
+      "y": 403.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000135476",
+      "uniprotAccs": [
+        "Q14674",
+        "H3BM31",
+        "H3BRX7"
+      ]
+    },
+    {
+      "id": "a36d6",
+      "geneNames": null,
+      "type": "misc",
+      "x": 434.0,
+      "y": 531.25,
+      "label": "Ubiquitin-mediated\ndegradation",
+      "groupId": null
+    },
+    {
+      "id": "fece8",
+      "geneNames": null,
+      "type": "misc",
+      "x": 706.0,
+      "y": 198.75,
+      "label": "Separation of \nsister chromatids",
+      "groupId": null
+    },
+    {
+      "id": "b18ae",
+      "type": "group",
+      "components": [
+        "e552f",
+        "b3e8b"
+      ]
+    },
+    {
+      "id": "be752",
+      "type": "group",
+      "components": [
+        "ea8de",
+        "d2924",
+        "fcb47",
+        "a83ee"
+      ]
+    },
+    {
+      "id": "c70e8",
+      "type": "group",
+      "components": [
+        "c4e29",
+        "f4452"
+      ]
+    },
+    {
+      "id": "ed2e2",
+      "type": "group",
+      "components": [
+        "a6d12",
+        "d5230",
+        "eb9e2",
+        "e8e62",
+        "e4f22",
+        "faec9"
+      ]
+    }
+  ]
+}

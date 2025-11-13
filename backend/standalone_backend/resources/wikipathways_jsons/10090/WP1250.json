@@ -1,0 +1,486 @@
+{
+  "pathway": {
+    "name": "WP1250",
+    "org": "Mus musculus",
+    "title": "Arachidonate epoxygenase / epoxide hydrolase"
+  },
+  "links": [
+    {
+      "id": "aa119",
+      "sourceId": "e8f29",
+      "targetId": "acb71",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ade26",
+      "sourceId": "aa119",
+      "targetId": "d31e1",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "b8708",
+      "sourceId": "cccad",
+      "targetId": "dfe44",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "bab8a",
+      "sourceId": "f4058",
+      "targetId": "d2df9",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "c48e6",
+      "sourceId": "ca8a2",
+      "targetId": "d9b22",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "c8864",
+      "sourceId": "bc1ef",
+      "targetId": "f01bc",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ca8a2",
+      "sourceId": "c9b45",
+      "targetId": "a945f",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "cba10",
+      "sourceId": "fc673",
+      "targetId": "b6681",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "cccad",
+      "sourceId": "d8196",
+      "targetId": "c9b45",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "d0268",
+      "sourceId": "ff9e1",
+      "targetId": "e8f29",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "db474",
+      "sourceId": "d6b43",
+      "targetId": "e7065",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "dd8c5",
+      "sourceId": "aa04d",
+      "targetId": "d0268",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "e27d2",
+      "sourceId": "c8864",
+      "targetId": "badaa",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "ec492",
+      "sourceId": "db474",
+      "targetId": "aa0ff",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "edaa6",
+      "sourceId": "d8b30",
+      "targetId": "b5129",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "f0208",
+      "sourceId": "edaa6",
+      "targetId": "c176d",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "f4058",
+      "sourceId": "e8f29",
+      "targetId": "a1bc4",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "fc673",
+      "sourceId": "d8196",
+      "targetId": "c40e2",
+      "types": [
+        "activation"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "a1bc4",
+      "geneNames": null,
+      "type": "compound",
+      "x": 362.0,
+      "y": 439.0,
+      "label": "Glutathionyl-HETrEs",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "a8a52",
+      "geneNames": [
+        "CYP2C9"
+      ],
+      "type": "gene_protein",
+      "x": 511.0,
+      "y": 184.49166666666667,
+      "label": null,
+      "groupId": "aa04d",
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "a945f",
+      "geneNames": null,
+      "type": "compound",
+      "x": 167.0,
+      "y": 196.0,
+      "label": "5,6-DiH-PGF1a",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "aa0ff",
+      "geneNames": [
+        "Ephx2"
+      ],
+      "type": "gene_protein",
+      "x": 293.0,
+      "y": 324.5,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "13850",
+      "uniprotAccs": [
+        "P34914",
+        "A8JYK8",
+        "Q3UQ71"
+      ]
+    },
+    {
+      "id": "acb71",
+      "geneNames": null,
+      "type": "compound",
+      "x": 490.75,
+      "y": 439.0,
+      "label": "Phosphotidyl-EpETrEs",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "b5129",
+      "geneNames": null,
+      "type": "compound",
+      "x": 664.0,
+      "y": 266.0,
+      "label": "11,12-DiHETrE",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0002314"
+    },
+    {
+      "id": "b6681",
+      "geneNames": [
+        "Cox5a"
+      ],
+      "type": "gene_protein",
+      "x": 317.0,
+      "y": 243.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "12858",
+      "uniprotAccs": [
+        "P12787"
+      ]
+    },
+    {
+      "id": "badaa",
+      "geneNames": [
+        "Ephx2"
+      ],
+      "type": "gene_protein",
+      "x": 543.75,
+      "y": 324.5,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "13850",
+      "uniprotAccs": [
+        "P34914",
+        "A8JYK8",
+        "Q3UQ71"
+      ]
+    },
+    {
+      "id": "bc1ef",
+      "geneNames": null,
+      "type": "compound",
+      "x": 465.0,
+      "y": 297.0,
+      "label": "14(15)-EpETrE",
+      "groupId": "e8f29",
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0004264"
+    },
+    {
+      "id": "c176d",
+      "geneNames": [
+        "Ephx2"
+      ],
+      "type": "gene_protein",
+      "x": 543.0,
+      "y": 285.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "13850",
+      "uniprotAccs": [
+        "P34914",
+        "A8JYK8",
+        "Q3UQ71"
+      ]
+    },
+    {
+      "id": "c40e2",
+      "geneNames": null,
+      "type": "compound",
+      "x": 327.0,
+      "y": 195.0,
+      "label": "5(6)-Epoxy-PGE1",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "c993a",
+      "geneNames": [
+        "CYP2C8"
+      ],
+      "type": "gene_protein",
+      "x": 511.0,
+      "y": 167.48333333333332,
+      "label": null,
+      "groupId": "aa04d",
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "c9b45",
+      "geneNames": null,
+      "type": "compound",
+      "x": 168.0,
+      "y": 266.0,
+      "label": "5,6-DiHETrE",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0002343"
+    },
+    {
+      "id": "d2df9",
+      "geneNames": [
+        "GST3"
+      ],
+      "type": "gene_protein",
+      "x": 344.5,
+      "y": 360.5,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "d31e1",
+      "geneNames": [
+        "Catalyst"
+      ],
+      "type": "gene_protein",
+      "x": 488.5,
+      "y": 360.5,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "d6b43",
+      "geneNames": null,
+      "type": "compound",
+      "x": 373.0,
+      "y": 297.0,
+      "label": "8(9)-EpETrE",
+      "groupId": "e8f29",
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0002232"
+    },
+    {
+      "id": "d8196",
+      "geneNames": null,
+      "type": "compound",
+      "x": 371.0,
+      "y": 277.0,
+      "label": "5(6)-EpETrE",
+      "groupId": "e8f29",
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0002190"
+    },
+    {
+      "id": "d8b30",
+      "geneNames": null,
+      "type": "compound",
+      "x": 465.25,
+      "y": 277.0,
+      "label": "11(12)-EpETrE",
+      "groupId": "e8f29",
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0010409"
+    },
+    {
+      "id": "d9b22",
+      "geneNames": [
+        "Cox8a"
+      ],
+      "type": "gene_protein",
+      "x": 138.25,
+      "y": 236.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "12868",
+      "uniprotAccs": [
+        "Q64445"
+      ]
+    },
+    {
+      "id": "de5f5",
+      "geneNames": [
+        "CYP2J2"
+      ],
+      "type": "gene_protein",
+      "x": 511.0,
+      "y": 147.48333333333332,
+      "label": null,
+      "groupId": "aa04d",
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "dfe44",
+      "geneNames": [
+        "Ephx2"
+      ],
+      "type": "gene_protein",
+      "x": 291.25,
+      "y": 284.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "13850",
+      "uniprotAccs": [
+        "P34914",
+        "A8JYK8",
+        "Q3UQ71"
+      ]
+    },
+    {
+      "id": "e7065",
+      "geneNames": null,
+      "type": "compound",
+      "x": 169.0,
+      "y": 307.0,
+      "label": "8,9-DiHETrE",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0002311"
+    },
+    {
+      "id": "f01bc",
+      "geneNames": null,
+      "type": "compound",
+      "x": 666.0,
+      "y": 308.0,
+      "label": "14,15-DiHETrE",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0002265"
+    },
+    {
+      "id": "ff9e1",
+      "geneNames": null,
+      "type": "compound",
+      "x": 420.5,
+      "y": 94.0,
+      "label": "Arachidonic acid",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0001043"
+    },
+    {
+      "id": "aa04d",
+      "type": "group",
+      "components": [
+        "a8a52",
+        "c993a",
+        "de5f5"
+      ]
+    },
+    {
+      "id": "e8f29",
+      "type": "group",
+      "components": [
+        "bc1ef",
+        "d6b43",
+        "d8196",
+        "d8b30"
+      ]
+    }
+  ]
+}

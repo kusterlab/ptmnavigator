@@ -1,0 +1,518 @@
+{
+  "pathway": {
+    "name": "WP694",
+    "org": "Homo sapiens",
+    "title": "Arylamine metabolism"
+  },
+  "links": [
+    {
+      "id": "a5212",
+      "sourceId": "cbb69",
+      "targetId": "e147e",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "aa81f",
+      "sourceId": "e147e",
+      "targetId": "e55d1",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "ac2d4",
+      "sourceId": "b7000",
+      "targetId": "f2392",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "be768",
+      "sourceId": "bb0f4",
+      "targetId": "d9c79",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "c4a29",
+      "sourceId": "e147e",
+      "targetId": "d0f9e",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "c7852",
+      "sourceId": "e147e",
+      "targetId": "ebb60",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "c9255",
+      "sourceId": "e147e",
+      "targetId": "cbb69",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "cc844",
+      "sourceId": "bb0f4",
+      "targetId": "aa81f",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "d2c5c",
+      "sourceId": "e55d1",
+      "targetId": "d06f5",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "d6849",
+      "sourceId": "e55d1",
+      "targetId": "f7f51",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "d9890",
+      "sourceId": "c6a15",
+      "targetId": "c9255",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "d9c79",
+      "sourceId": "cbb69",
+      "targetId": "f2ba4",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "d9f02",
+      "sourceId": "f9488",
+      "targetId": "fdeab",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "e2b93",
+      "sourceId": "b6ddb",
+      "targetId": "d6849",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "e2ba7",
+      "sourceId": "d06f5",
+      "targetId": "f5dde",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "eb018",
+      "sourceId": "b7000",
+      "targetId": "d2c5c",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "efcb8",
+      "sourceId": "d1bbc",
+      "targetId": "a5212",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "f2392",
+      "sourceId": "f2ba4",
+      "targetId": "d06f5",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "fcec7",
+      "sourceId": "f035a",
+      "targetId": "c7852",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "fdeab",
+      "sourceId": "f2ba4",
+      "targetId": "e55d1",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id49484ed3",
+      "sourceId": "c9255",
+      "targetId": "d5a3e",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "idb81bc2b4",
+      "sourceId": "c9255",
+      "targetId": "f2bcc",
+      "types": [
+        "conversion"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "a042b",
+      "geneNames": [
+        "UGT1A9"
+      ],
+      "type": "gene_protein",
+      "x": 170.0,
+      "y": 154.0,
+      "label": null,
+      "groupId": "f035a",
+      "referenceDatabase": "GeneID",
+      "referenceId": "54600",
+      "uniprotAccs": [
+        "O60656",
+        "Q5DSZ5"
+      ]
+    },
+    {
+      "id": "a1f59",
+      "geneNames": [
+        "UGT1A4"
+      ],
+      "type": "gene_protein",
+      "x": 170.0,
+      "y": 134.0,
+      "label": null,
+      "groupId": "f035a",
+      "referenceDatabase": "GeneID",
+      "referenceId": "54657",
+      "uniprotAccs": [
+        "P22310"
+      ]
+    },
+    {
+      "id": "bb0f4",
+      "geneNames": [
+        "CYP1A2"
+      ],
+      "type": "gene_protein",
+      "x": 369.5003882623485,
+      "y": 323.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000140505",
+      "uniprotAccs": [
+        "P05177"
+      ]
+    },
+    {
+      "id": "c0e47",
+      "geneNames": [
+        "NAT1"
+      ],
+      "type": "gene_protein",
+      "x": 371.95814555881554,
+      "y": 84.64516129032258,
+      "label": null,
+      "groupId": "c6a15",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000171428",
+      "uniprotAccs": [
+        "P18440",
+        "F5H5R8"
+      ]
+    },
+    {
+      "id": "c3d82",
+      "geneNames": [
+        "SULT1A2"
+      ],
+      "type": "gene_protein",
+      "x": 154.05089975921123,
+      "y": 370.203599036845,
+      "label": null,
+      "groupId": "b6ddb",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000197165",
+      "uniprotAccs": [
+        "P50226",
+        "E9PKR8",
+        "E9PKW4",
+        "E9PM76"
+      ]
+    },
+    {
+      "id": "c541c",
+      "geneNames": [
+        "NAT1"
+      ],
+      "type": "gene_protein",
+      "x": 369.50038826234857,
+      "y": 470.0,
+      "label": null,
+      "groupId": "b7000",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000171428",
+      "uniprotAccs": [
+        "P18440",
+        "F5H5R8"
+      ]
+    },
+    {
+      "id": "cbb69",
+      "geneNames": null,
+      "type": "compound",
+      "x": 521.5,
+      "y": 206.0,
+      "label": "N-Acetylarylamine",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0001250"
+    },
+    {
+      "id": "d06f5",
+      "geneNames": null,
+      "type": "compound",
+      "x": 369.50038826234857,
+      "y": 528.0,
+      "label": "O-acetylarylamine",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "d0f9e",
+      "geneNames": null,
+      "type": "compound",
+      "x": 75.5,
+      "y": 254.0,
+      "label": "N-aryl sulfamic acid",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "d1bbc",
+      "geneNames": [
+        "Deacetylase"
+      ],
+      "type": "gene_protein",
+      "x": 371.95814555881554,
+      "y": 277.6451612903225,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "d55e5",
+      "geneNames": [
+        "NAT2"
+      ],
+      "type": "gene_protein",
+      "x": 369.50038826234857,
+      "y": 490.0,
+      "label": null,
+      "groupId": "b7000",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000156006",
+      "uniprotAccs": [
+        "P11245",
+        "E7EWF9"
+      ]
+    },
+    {
+      "id": "d5a3e",
+      "geneNames": null,
+      "type": "compound",
+      "x": 279.0,
+      "y": 126.0,
+      "label": "Acetyl-CoA",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0001206"
+    },
+    {
+      "id": "d94ce",
+      "geneNames": [
+        "SULT1A1"
+      ],
+      "type": "gene_protein",
+      "x": 154.05089975921123,
+      "y": 350.203599036845,
+      "label": null,
+      "groupId": "b6ddb",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000196502",
+      "uniprotAccs": [
+        "P50225",
+        "H3BQX5",
+        "H3BRY5"
+      ]
+    },
+    {
+      "id": "e147e",
+      "geneNames": null,
+      "type": "compound",
+      "x": 239.0,
+      "y": 201.0,
+      "label": "Arylamine",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:50471"
+    },
+    {
+      "id": "e55d1",
+      "geneNames": null,
+      "type": "compound",
+      "x": 239.0,
+      "y": 427.0,
+      "label": "an N-hydroxyarylamine",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:13792"
+    },
+    {
+      "id": "ebb60",
+      "geneNames": null,
+      "type": "compound",
+      "x": 73.5,
+      "y": 201.0,
+      "label": "Arylamine N-glucuronide",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "f2ba4",
+      "geneNames": null,
+      "type": "compound",
+      "x": 521.0,
+      "y": 427.0,
+      "label": "N-hydroxy-N-acetylamine",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "f2bcc",
+      "geneNames": null,
+      "type": "compound",
+      "x": 462.0,
+      "y": 129.0,
+      "label": "Coenzyme A",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0001423"
+    },
+    {
+      "id": "f7f51",
+      "geneNames": null,
+      "type": "compound",
+      "x": 62.0,
+      "y": 427.0,
+      "label": "Arylamine N,O-sulfate",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "f9488",
+      "geneNames": [
+        "Deacetylase"
+      ],
+      "type": "gene_protein",
+      "x": 371.31600171093726,
+      "y": 390.8156134485887,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "fc98b",
+      "geneNames": [
+        "NAT2"
+      ],
+      "type": "gene_protein",
+      "x": 371.95814555881554,
+      "y": 104.64516129032258,
+      "label": null,
+      "groupId": "c6a15",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000156006",
+      "uniprotAccs": [
+        "P11245",
+        "E7EWF9"
+      ]
+    },
+    {
+      "id": "f5dde",
+      "geneNames": null,
+      "type": "misc",
+      "x": 369.50038826234857,
+      "y": 586.0,
+      "label": "DNA adducts",
+      "groupId": null
+    },
+    {
+      "id": "b6ddb",
+      "type": "group",
+      "components": [
+        "c3d82",
+        "d94ce"
+      ]
+    },
+    {
+      "id": "b7000",
+      "type": "group",
+      "components": [
+        "c541c",
+        "d55e5"
+      ]
+    },
+    {
+      "id": "c6a15",
+      "type": "group",
+      "components": [
+        "c0e47",
+        "fc98b"
+      ]
+    },
+    {
+      "id": "f035a",
+      "type": "group",
+      "components": [
+        "a042b",
+        "a1f59"
+      ]
+    }
+  ]
+}

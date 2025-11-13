@@ -1,0 +1,737 @@
+{
+  "pathway": {
+    "name": "WP4265",
+    "org": "Mus musculus",
+    "title": "Ethanol metabolism resulting in production of ROS by CYP2E1"
+  },
+  "links": [
+    {
+      "id": "id12b892e9",
+      "sourceId": "ac004",
+      "targetId": "id2ee38568",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id27bb48bb",
+      "sourceId": "c389b",
+      "targetId": "id5caec415",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id2ee38568",
+      "sourceId": "afeb5",
+      "targetId": "ad039",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id414e31f8",
+      "sourceId": "afe26",
+      "targetId": "fb1a6",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id5caec415",
+      "sourceId": "ac972",
+      "targetId": "dcecc",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id776544f3",
+      "sourceId": "b8192",
+      "targetId": "fdbee",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id7e4ce422",
+      "sourceId": "fb1a6",
+      "targetId": "ac972",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id80de374b",
+      "sourceId": "id2ee38568",
+      "targetId": "ac972",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id878cd052",
+      "sourceId": "dcecc",
+      "targetId": "a7834",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id913a690c",
+      "sourceId": "f499d",
+      "targetId": "id12b892e9",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "idb847e43a",
+      "sourceId": "ac972",
+      "targetId": "badec",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idbbf60a39",
+      "sourceId": "c2a25",
+      "targetId": "id878cd052",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "idcd4d4dc8",
+      "sourceId": "f8955",
+      "targetId": "iddf9c1449",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "iddf9c1449",
+      "sourceId": "f3dd3",
+      "targetId": "fb70a",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ide66fd914",
+      "sourceId": "e2f05",
+      "targetId": "idfa21067f",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "idf0a0abbd",
+      "sourceId": "fb70a",
+      "targetId": "f6d0f",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idfa21067f",
+      "sourceId": "a7834",
+      "targetId": "b8192",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idfcaf8cd8",
+      "sourceId": "ac972",
+      "targetId": "f3dd3",
+      "types": [
+        "activation"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "a17b6",
+      "geneNames": null,
+      "type": "compound",
+      "x": 647.4533386230469,
+      "y": 385.24749087737763,
+      "label": "staurosporine",
+      "groupId": "c2a25",
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:57491"
+    },
+    {
+      "id": "a3724",
+      "geneNames": null,
+      "type": "compound",
+      "x": 1067.3270700152334,
+      "y": 452.86548555010415,
+      "label": "Fluoride",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:17051"
+    },
+    {
+      "id": "a7834",
+      "geneNames": [
+        "Mapk8"
+      ],
+      "type": "gene_protein",
+      "x": 491.48550000000085,
+      "y": 453.1330237115038,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000021936",
+      "uniprotAccs": [
+        "Q91Y86",
+        "A0A2I3BPL3",
+        "A6P3E4",
+        "D3Z1Z4",
+        "G3X8U9",
+        "Q7TSJ7"
+      ]
+    },
+    {
+      "id": "ab638",
+      "geneNames": null,
+      "type": "compound",
+      "x": 917.5695260011572,
+      "y": 349.30736691304,
+      "label": "Enflurane",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0014373"
+    },
+    {
+      "id": "ac004",
+      "geneNames": [
+        "Cyp2e1"
+      ],
+      "type": "gene_protein",
+      "x": 491.48550000000074,
+      "y": 103.98160387724471,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000025479",
+      "uniprotAccs": [
+        "Q05421",
+        "A0A1B0GSV7",
+        "Q0PGA1"
+      ]
+    },
+    {
+      "id": "ad039",
+      "geneNames": null,
+      "type": "compound",
+      "x": 647.4533386230469,
+      "y": 225.73190320007348,
+      "label": "acetaldehyde",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:15343"
+    },
+    {
+      "id": "afeb5",
+      "geneNames": null,
+      "type": "compound",
+      "x": 333.0858154296875,
+      "y": 223.07653704601094,
+      "label": "ethanol",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:16236"
+    },
+    {
+      "id": "b51e0",
+      "geneNames": null,
+      "type": "compound",
+      "x": 917.5695260011572,
+      "y": 419.4454759218136,
+      "label": "Halothane",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:5615"
+    },
+    {
+      "id": "b8192",
+      "geneNames": [
+        "Sp1"
+      ],
+      "type": "gene_protein",
+      "x": 491.48550000000085,
+      "y": 519.5640362115039,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000001280",
+      "states": [
+        "P"
+      ],
+      "uniprotAccs": [
+        "O89090",
+        "A0A979HLR9",
+        "E9Q0S7",
+        "E9Q113",
+        "E9Q2V3",
+        "G3X8Q0"
+      ]
+    },
+    {
+      "id": "b8398",
+      "geneNames": [
+        "Map2k2"
+      ],
+      "type": "gene_protein",
+      "x": 333.0858154296875,
+      "y": 456.1778658773775,
+      "label": null,
+      "groupId": "f3dd3",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000035027",
+      "uniprotAccs": [
+        "Q63932",
+        "A0A1W2P769",
+        "A0A1W2P7V9",
+        "D3Z446",
+        "M0QWN2",
+        "Q91YS7"
+      ]
+    },
+    {
+      "id": "badec",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 178.20056249999993,
+      "y": 298.205375,
+      "label": "Oxidative Stress (Mus musculus)",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP412"
+    },
+    {
+      "id": "c389b",
+      "geneNames": null,
+      "type": "compound",
+      "x": 647.4533386230469,
+      "y": 333.19622837737745,
+      "label": "Vitamin C",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:38290"
+    },
+    {
+      "id": "c403d",
+      "geneNames": null,
+      "type": "compound",
+      "x": 647.4533386230469,
+      "y": 153.08579712737813,
+      "label": "Diallyl sulfide",
+      "groupId": "f499d",
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:4489"
+    },
+    {
+      "id": "c8be1",
+      "geneNames": null,
+      "type": "compound",
+      "x": 917.5695260011568,
+      "y": 453.35690542620097,
+      "label": "Sevoflurane",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:9130"
+    },
+    {
+      "id": "c970c",
+      "geneNames": null,
+      "type": "compound",
+      "x": 1067.327070015233,
+      "y": 522.2348558198455,
+      "label": "6-Hydroxychlorzoxazone",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0060998"
+    },
+    {
+      "id": "cb104",
+      "geneNames": null,
+      "type": "compound",
+      "x": 917.5695260011568,
+      "y": 384.20626916523315,
+      "label": "Isoflurane",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:6015"
+    },
+    {
+      "id": "d02d5",
+      "geneNames": null,
+      "type": "compound",
+      "x": 1067.3270700152334,
+      "y": 315.60026753255676,
+      "label": "NAPQI",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:29132"
+    },
+    {
+      "id": "d5e7e",
+      "geneNames": [
+        "Maff"
+      ],
+      "type": "gene_protein",
+      "x": 379.6125271548908,
+      "y": 659.288699107246,
+      "label": null,
+      "groupId": "f6d0f",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000042622",
+      "uniprotAccs": [
+        "O54791",
+        "A0A2R8VHY0"
+      ]
+    },
+    {
+      "id": "daf7a",
+      "geneNames": [
+        "Mafg"
+      ],
+      "type": "gene_protein",
+      "x": 379.6125271548908,
+      "y": 609.2886991072461,
+      "label": null,
+      "groupId": "f6d0f",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000051510",
+      "uniprotAccs": [
+        "O54790"
+      ]
+    },
+    {
+      "id": "dcecc",
+      "geneNames": [
+        "Protein kinase C"
+      ],
+      "type": "gene_protein",
+      "x": 491.4855000000008,
+      "y": 370.2108737115037,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "Q1MX41",
+      "uniprotAccs": [
+        "Q1MX41"
+      ]
+    },
+    {
+      "id": "dee66",
+      "geneNames": null,
+      "type": "compound",
+      "x": 917.5695260011568,
+      "y": 486.68952243058766,
+      "label": "Methoxyflurane",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:6843"
+    },
+    {
+      "id": "e48c6",
+      "geneNames": [
+        "Map2k1"
+      ],
+      "type": "gene_protein",
+      "x": 333.0858154296875,
+      "y": 433.0832471273775,
+      "label": null,
+      "groupId": "f3dd3",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000004936",
+      "uniprotAccs": [
+        "P31938"
+      ]
+    },
+    {
+      "id": "e8cd1",
+      "geneNames": null,
+      "type": "compound",
+      "x": 917.5695260011572,
+      "y": 315.7515006793181,
+      "label": "Acetaminophen",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:46195"
+    },
+    {
+      "id": "ebb77",
+      "geneNames": null,
+      "type": "compound",
+      "x": 917.5695260011568,
+      "y": 520.6009519349748,
+      "label": "Chlorzoxazone",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:3655"
+    },
+    {
+      "id": "f8955",
+      "geneNames": null,
+      "type": "compound",
+      "x": 223.68986413054898,
+      "y": 492.6430533773775,
+      "label": "U0126",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:90693"
+    },
+    {
+      "id": "f90d5",
+      "geneNames": [
+        "Mafk"
+      ],
+      "type": "gene_protein",
+      "x": 379.6125271548908,
+      "y": 634.288699107246,
+      "label": null,
+      "groupId": "f6d0f",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000018143",
+      "uniprotAccs": [
+        "Q61827"
+      ]
+    },
+    {
+      "id": "f9f21",
+      "geneNames": null,
+      "type": "compound",
+      "x": 1067.327070015233,
+      "y": 385.5340464174258,
+      "label": "Trifluoroacetic acid",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:45892"
+    },
+    {
+      "id": "fb70a",
+      "geneNames": [
+        "Nfe2l2"
+      ],
+      "type": "gene_protein",
+      "x": 333.0858154296875,
+      "y": 527.8927346273775,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000015839",
+      "uniprotAccs": [
+        "Q60795"
+      ]
+    },
+    {
+      "id": "fdbee",
+      "geneNames": [
+        "Sp1"
+      ],
+      "type": "gene_protein",
+      "x": 491.48550000000085,
+      "y": 597.7567063795727,
+      "label": null,
+      "groupId": "afe26",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000001280",
+      "uniprotAccs": [
+        "O89090",
+        "A0A979HLR9",
+        "E9Q0S7",
+        "E9Q113",
+        "E9Q2V3",
+        "G3X8Q0"
+      ]
+    },
+    {
+      "id": "beac2",
+      "geneNames": [
+        "Cyp2e1"
+      ],
+      "type": "gene_protein",
+      "x": 581.6464127910699,
+      "y": 622.1807614441302,
+      "label": null,
+      "groupId": "afe26",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000025479",
+      "uniprotAccs": [
+        "Q05421",
+        "A0A1B0GSV7",
+        "Q0PGA1"
+      ]
+    },
+    {
+      "id": "fb1a6",
+      "geneNames": [
+        "Cyp2e1"
+      ],
+      "type": "gene_protein",
+      "x": 749.5122321188004,
+      "y": 625.332021948332,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000025479",
+      "uniprotAccs": [
+        "Q05421",
+        "A0A1B0GSV7",
+        "Q0PGA1"
+      ]
+    },
+    {
+      "id": "dc63f",
+      "geneNames": [
+        "Nfe2l2"
+      ],
+      "type": "gene_protein",
+      "x": 284.3689007013494,
+      "y": 608.5078596273783,
+      "label": null,
+      "groupId": "f6d0f",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000015839",
+      "uniprotAccs": [
+        "Q60795"
+      ]
+    },
+    {
+      "id": "fa135",
+      "geneNames": null,
+      "type": "compound",
+      "x": 1067.3270700152334,
+      "y": 418.8616810457171,
+      "label": "Fluoride",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:17051"
+    },
+    {
+      "id": "bf980",
+      "geneNames": null,
+      "type": "compound",
+      "x": 1067.3270700152334,
+      "y": 487.4375945588781,
+      "label": "Fluoride",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:17051"
+    },
+    {
+      "id": "ac972",
+      "geneNames": null,
+      "type": "misc",
+      "x": 491.4855000000008,
+      "y": 298.46893749999975,
+      "label": "ROS",
+      "groupId": null
+    },
+    {
+      "id": "ad123",
+      "geneNames": null,
+      "type": "misc",
+      "x": 491.48550000000085,
+      "y": 622.7567063795727,
+      "label": "Promoter",
+      "groupId": "afe26"
+    },
+    {
+      "id": "c6699",
+      "geneNames": null,
+      "type": "misc",
+      "x": 284.3689007013494,
+      "y": 633.8864631477452,
+      "label": "ARE",
+      "groupId": "f6d0f"
+    },
+    {
+      "id": "e2f05",
+      "geneNames": null,
+      "type": "misc",
+      "x": 647.4533386230469,
+      "y": 483.572,
+      "label": "SP600125",
+      "groupId": null
+    },
+    {
+      "id": "e4ea1",
+      "geneNames": null,
+      "type": "misc",
+      "x": 647.4533386230469,
+      "y": 410.24749087737763,
+      "label": "PKC\u03b6 siRNA",
+      "groupId": "c2a25"
+    },
+    {
+      "id": "f69cd",
+      "geneNames": null,
+      "type": "misc",
+      "x": 647.4533386230469,
+      "y": 178.85923743519305,
+      "label": "siRNA",
+      "groupId": "f499d"
+    },
+    {
+      "id": "fdd8e",
+      "geneNames": null,
+      "type": "misc",
+      "x": 647.4533386230469,
+      "y": 435.24749087737763,
+      "label": "PPSI",
+      "groupId": "c2a25"
+    },
+    {
+      "id": "f6d0f",
+      "type": "group",
+      "components": [
+        "d5e7e",
+        "daf7a",
+        "f90d5",
+        "dc63f",
+        "c6699"
+      ]
+    },
+    {
+      "id": "afe26",
+      "type": "group",
+      "components": [
+        "fdbee",
+        "beac2",
+        "ad123"
+      ]
+    },
+    {
+      "id": "f499d",
+      "type": "group",
+      "components": [
+        "c403d",
+        "f69cd"
+      ]
+    },
+    {
+      "id": "f3dd3",
+      "type": "group",
+      "components": [
+        "b8398",
+        "e48c6"
+      ]
+    },
+    {
+      "id": "c2a25",
+      "type": "group",
+      "components": [
+        "a17b6",
+        "e4ea1",
+        "fdd8e"
+      ]
+    }
+  ]
+}

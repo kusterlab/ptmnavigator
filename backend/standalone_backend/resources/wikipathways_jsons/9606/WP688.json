@@ -1,0 +1,442 @@
+{
+  "pathway": {
+    "name": "WP688",
+    "org": "Homo sapiens",
+    "title": "Catalytic cycle of mammalian flavin-containing monooxygenases (FMOs)"
+  },
+  "links": [
+    {
+      "id": "aa08d",
+      "sourceId": "f55ab",
+      "targetId": "ef2a1",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "adb30",
+      "sourceId": "aeefa",
+      "targetId": "db893",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "b441b",
+      "sourceId": "f55ab",
+      "targetId": "dec02",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "c568d",
+      "sourceId": "f55ab",
+      "targetId": "cf266",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "c9995",
+      "sourceId": "f55ab",
+      "targetId": "c9af4",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "c9af4",
+      "sourceId": "ff029",
+      "targetId": "a4794",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "cf266",
+      "sourceId": "e9ba0",
+      "targetId": "ff029",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "cfb95",
+      "sourceId": "ff029",
+      "targetId": "fd4b8",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "d3a6f",
+      "sourceId": "c61ae",
+      "targetId": "aeefa",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "dcfea",
+      "sourceId": "c61ae",
+      "targetId": "a2816",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "dec02",
+      "sourceId": "aeefa",
+      "targetId": "e9ba0",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "e2048",
+      "sourceId": "a4794",
+      "targetId": "ce06a",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "e6555",
+      "sourceId": "e38d2",
+      "targetId": "ba408",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ea758",
+      "sourceId": "f55ab",
+      "targetId": "d3a6f",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ef2a1",
+      "sourceId": "a4794",
+      "targetId": "c61ae",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "f3c9f",
+      "sourceId": "e61bc",
+      "targetId": "ff029",
+      "types": [
+        "undefined"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "a2816",
+      "geneNames": null,
+      "type": "compound",
+      "x": 613.0,
+      "y": 318.0,
+      "label": "H2O",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0002111"
+    },
+    {
+      "id": "ab5ef",
+      "geneNames": null,
+      "type": "compound",
+      "x": 533.0,
+      "y": 275.0,
+      "label": "NADP+",
+      "groupId": "c61ae",
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000217"
+    },
+    {
+      "id": "c3226",
+      "geneNames": [
+        "FMO2"
+      ],
+      "type": "gene_protein",
+      "x": 387.01666666666654,
+      "y": 296.51666666666665,
+      "label": null,
+      "groupId": "f55ab",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000094963",
+      "uniprotAccs": [
+        "Q99518",
+        "A0A0D9SFZ0",
+        "A0A0D9SG76"
+      ]
+    },
+    {
+      "id": "cd240",
+      "geneNames": null,
+      "type": "compound",
+      "x": 247.0,
+      "y": 270.0,
+      "label": "NADP+",
+      "groupId": "a4794",
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000217"
+    },
+    {
+      "id": "ce06a",
+      "geneNames": null,
+      "type": "compound",
+      "x": 126.0,
+      "y": 315.0,
+      "label": "O2",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0001377"
+    },
+    {
+      "id": "d053e",
+      "geneNames": null,
+      "type": "compound",
+      "x": 533.0,
+      "y": 255.0,
+      "label": "FAD-OH",
+      "groupId": "c61ae",
+      "referenceDatabase": "PubChem-compound",
+      "referenceId": "4369241"
+    },
+    {
+      "id": "d2064",
+      "geneNames": null,
+      "type": "compound",
+      "x": 247.0,
+      "y": 382.0,
+      "label": "NADP+",
+      "groupId": "ff029",
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000217"
+    },
+    {
+      "id": "d527b",
+      "geneNames": [
+        "FMO3"
+      ],
+      "type": "gene_protein",
+      "x": 387.01666666666665,
+      "y": 320.55,
+      "label": null,
+      "groupId": "f55ab",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000007933",
+      "uniprotAccs": [
+        "P31513",
+        "V9GYP3",
+        "V9GZ60"
+      ]
+    },
+    {
+      "id": "db893",
+      "geneNames": null,
+      "type": "compound",
+      "x": 611.9833333333333,
+      "y": 437.48333333333335,
+      "label": "NADP+",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000217"
+    },
+    {
+      "id": "dc92d",
+      "geneNames": null,
+      "type": "compound",
+      "x": 533.0,
+      "y": 388.0,
+      "label": "NADP+",
+      "groupId": "aeefa",
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000217"
+    },
+    {
+      "id": "e61bc",
+      "geneNames": null,
+      "type": "compound",
+      "x": 144.0,
+      "y": 442.0,
+      "label": "NADPH",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000221"
+    },
+    {
+      "id": "e9ba0",
+      "geneNames": null,
+      "type": "compound",
+      "x": 384.0,
+      "y": 463.0,
+      "label": "FAD",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0001248"
+    },
+    {
+      "id": "f0943",
+      "geneNames": null,
+      "type": "compound",
+      "x": 533.0,
+      "y": 368.0,
+      "label": "FAD",
+      "groupId": "aeefa",
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0001248"
+    },
+    {
+      "id": "f4048",
+      "geneNames": null,
+      "type": "compound",
+      "x": 247.0,
+      "y": 362.0,
+      "label": "FADH2",
+      "groupId": "ff029",
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:17877"
+    },
+    {
+      "id": "fa807",
+      "geneNames": null,
+      "type": "compound",
+      "x": 247.0,
+      "y": 250.0,
+      "label": "FAD-OOH",
+      "groupId": "a4794",
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "fb003",
+      "geneNames": [
+        "FMO1"
+      ],
+      "type": "gene_protein",
+      "x": 387.01666666666665,
+      "y": 273.48333333333335,
+      "label": null,
+      "groupId": "f55ab",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000010932",
+      "uniprotAccs": [
+        "Q01740",
+        "A0A1W2PNR8"
+      ]
+    },
+    {
+      "id": "fd4b8",
+      "geneNames": null,
+      "type": "compound",
+      "x": 145.0,
+      "y": 489.0,
+      "label": "H+",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:15378"
+    },
+    {
+      "id": "ff415",
+      "geneNames": [
+        "FMO5"
+      ],
+      "type": "gene_protein",
+      "x": 387.01666666666665,
+      "y": 368.61666666666645,
+      "label": null,
+      "groupId": "f55ab",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000131781",
+      "uniprotAccs": [
+        "P49326",
+        "E9PJF3",
+        "E9PP51",
+        "E9PQ84"
+      ]
+    },
+    {
+      "id": "ffa70",
+      "geneNames": [
+        "FMO4"
+      ],
+      "type": "gene_protein",
+      "x": 387.01666666666665,
+      "y": 344.5833333333332,
+      "label": null,
+      "groupId": "f55ab",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000076258",
+      "uniprotAccs": [
+        "P31512"
+      ]
+    },
+    {
+      "id": "ba408",
+      "geneNames": null,
+      "type": "misc",
+      "x": 540.0,
+      "y": 177.0,
+      "label": "Substrate-O",
+      "groupId": null
+    },
+    {
+      "id": "e38d2",
+      "geneNames": null,
+      "type": "misc",
+      "x": 240.0,
+      "y": 180.0,
+      "label": "Substrate",
+      "groupId": null
+    },
+    {
+      "id": "a4794",
+      "type": "group",
+      "components": [
+        "cd240",
+        "fa807"
+      ]
+    },
+    {
+      "id": "aeefa",
+      "type": "group",
+      "components": [
+        "dc92d",
+        "f0943"
+      ]
+    },
+    {
+      "id": "c61ae",
+      "type": "group",
+      "components": [
+        "ab5ef",
+        "d053e"
+      ]
+    },
+    {
+      "id": "f55ab",
+      "type": "group",
+      "components": [
+        "c3226",
+        "d527b",
+        "fb003",
+        "ff415",
+        "ffa70"
+      ]
+    },
+    {
+      "id": "ff029",
+      "type": "group",
+      "components": [
+        "d2064",
+        "f4048"
+      ]
+    }
+  ]
+}

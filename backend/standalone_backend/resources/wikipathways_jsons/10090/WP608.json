@@ -1,0 +1,161 @@
+{
+  "pathway": {
+    "name": "WP608",
+    "org": "Mus musculus",
+    "title": "miR-1 in cardiac development"
+  },
+  "links": [
+    {
+      "id": "b555f",
+      "sourceId": "a267a",
+      "targetId": "e352b",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "d0a62",
+      "sourceId": "a267a",
+      "targetId": "f3a5a",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "df4ac",
+      "sourceId": "f3a5a",
+      "targetId": "fd757",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "c5eb9",
+      "sourceId": "e352b",
+      "targetId": "d7557",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "df705",
+      "sourceId": "d7557",
+      "targetId": "e1558",
+      "types": [
+        "activation"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "bdc06",
+      "geneNames": [
+        "mmu-mir-1-1"
+      ],
+      "type": "gene_protein",
+      "x": 254.0,
+      "y": 87.0,
+      "label": null,
+      "groupId": "a267a",
+      "referenceDatabase": "miRBase Sequence",
+      "referenceId": "MI0000139"
+    },
+    {
+      "id": "a18de",
+      "geneNames": [
+        "mmu-mir-1-2"
+      ],
+      "type": "gene_protein",
+      "x": 254.0,
+      "y": 109.0,
+      "label": null,
+      "groupId": "a267a",
+      "referenceDatabase": "miRBase Sequence",
+      "referenceId": "MI0000652"
+    },
+    {
+      "id": "f3a5a",
+      "geneNames": [
+        "Hand2"
+      ],
+      "type": "gene_protein",
+      "x": 193.0,
+      "y": 197.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "15111",
+      "uniprotAccs": [
+        "Q61039"
+      ]
+    },
+    {
+      "id": "e352b",
+      "geneNames": [
+        "Irx5"
+      ],
+      "type": "gene_protein",
+      "x": 325.0,
+      "y": 197.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "54352",
+      "uniprotAccs": [
+        "Q9JKQ4"
+      ]
+    },
+    {
+      "id": "d7557",
+      "geneNames": [
+        "Kcnd2"
+      ],
+      "type": "gene_protein",
+      "x": 325.0,
+      "y": 286.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "16508",
+      "uniprotAccs": [
+        "Q9Z0V2"
+      ]
+    },
+    {
+      "id": "b566a",
+      "geneNames": null,
+      "type": "misc",
+      "x": 254.0,
+      "y": 65.0,
+      "label": "miR-1",
+      "groupId": "a267a"
+    },
+    {
+      "id": "e1558",
+      "geneNames": null,
+      "type": "misc",
+      "x": 493.0,
+      "y": 286.0,
+      "label": "Electric conduction",
+      "groupId": null
+    },
+    {
+      "id": "fd757",
+      "geneNames": null,
+      "type": "misc",
+      "x": 193.5,
+      "y": 289.0,
+      "label": "Heart morphogenesis",
+      "groupId": null
+    },
+    {
+      "id": "a267a",
+      "type": "group",
+      "components": [
+        "bdc06",
+        "a18de",
+        "b566a"
+      ]
+    }
+  ]
+}

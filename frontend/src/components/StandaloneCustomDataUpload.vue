@@ -2,6 +2,8 @@
   <v-container
       class="grey lighten-3 pa-4"
       fluid
+      style="max-width: 1500px"
+
   >
     <v-row>
       <v-spacer/>
@@ -32,7 +34,7 @@
     <v-row>
       <v-col cols="12">
         <v-card elevation="0">
-          <v-card-title>Data Upload</v-card-title>
+          <v-card-title><h3>Data Upload</h3></v-card-title>
           <v-tabs
               v-model="activeTab"
               fixed-tabs

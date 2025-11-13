@@ -2189,10 +2189,11 @@ export default {
     redirectToCustomDataUpload () {
       const customDataUploadComponent = this.backendApi.getCustomDataUploadComponent();
       if(customDataUploadComponent) {
+        //TODO: Check if this prop is still required. Maybe setting the router in main.js/emulatedRouter has solved this and you can use $router now.
         if (this.ptmNavigatorRouter)
             //I am not mutating here, push is not doing what eslint thinks it is doing to this object
             // eslint-disable-next-line vue/no-mutating-props
-          this.ptmNavigatorRouter.push({name: customDataUploadComponent})
+          this.ptmNavigatorRouter.push({name: customDataUploadComponent, props:{backendApi: this.backendApi}})
       }else{
         console.log('No router defined, cannot redirect to custom data upload component')
       }

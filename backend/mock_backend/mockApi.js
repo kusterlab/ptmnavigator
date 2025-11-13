@@ -468,7 +468,31 @@ const mockApi = {
         // return null;
         return 'DataUpload';
 
+    },
+
+    async uploadDataset(formData, params) {
+        console.log(`Should upload: 
+        Form Data: ${JSON.stringify(formData)}
+        Params: ${JSON.stringify(params)}`)
+        return {
+            data: {
+                datasetId: 1,
+                message: 'Successfully mocked a dataset upload!'
+            }
+        }
+    },
+
+    async performUserDatasetEnrichment(params) {
+        console.log('Should perform enrichment with the following input parameters:')
+        console.log(JSON.stringify(params))
+    },
+
+    async deleteDataset(uuid, datasetId) {
+        console.log(`Should delete dataset for user id: ${uuid} and datasetId: ${datasetId}`)
+        return {data: {message: 'Successfully mocked a dataset deletion'}}
     }
+
+
 }
 
 export default mockApi

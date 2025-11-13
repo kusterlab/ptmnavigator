@@ -97,5 +97,13 @@ def get_proteins_by_gene_name():
         return Response(res_df.to_json(orient='records'), mimetype='application/json')
 
 
+@app.route('/api/get_organisms', methods=['GET'])
+def get_organisms():
+    with get_db_connection() as conn:
+        res_df = pd.read_sql_query(f"SELECT * FROM ORGANISM",
+                                   conn)
+        return Response(res_df.to_json(orient='records'), mimetype='application/json')
+
+
 if __name__ == '__main__':
     app.run(debug=os.getenv("PRODUCTION", '0') != '1', host='0.0.0.0', port=int(os.getenv("PORT", '3000')))

@@ -1558,10 +1558,14 @@ export default {
     },
 
     async getOrganisms() {
+      console.log('Trying to get organisms!!!')
       const organismResponse = await this.backendApi.getOrganisms()
+      console.log(`organismResponse: ${JSON.stringify(organismResponse)}`)
+      //TODO: Now you need to figure out where this gets converted (in the backend or on the api)
       this.organismList = organismResponse.map(datum => {
         return {organismName: datum.name, taxcode: datum.taxcode}
       })
+      console.log(`organismList: ${JSON.stringify(this.organismList)}`)
       //Initially select the first organism in the list
       this.selectedOrganism = this.organismList[0]
       this.previouslySelectedOrganism = this.selectedOrganism

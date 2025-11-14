@@ -2,6 +2,7 @@ from pathlib import Path
 import tomllib
 import os
 import sys
+import datetime
 from contextlib import contextmanager
 import sqlite3
 import uuid
@@ -84,7 +85,6 @@ def get_status() -> flask.wrappers.Response:
     return jsonify(status=200, version=get_version())
 
 
-# Get proteins by gene name
 @app.route('/api/get_proteins_by_gene_name', methods=['GET'])
 def get_proteins_by_gene_name():
     input_gene_name = request.args.get('gene_name')
@@ -100,9 +100,39 @@ def get_proteins_by_gene_name():
 @app.route('/api/get_organisms', methods=['GET'])
 def get_organisms():
     with get_db_connection() as conn:
-        res_df = pd.read_sql_query(f"SELECT * FROM ORGANISM",
+        res_df = pd.read_sql_query(f"SELECT "
+                                   f"NAME as name, "
+                                   f"TAXCODE as taxcode "
+                                   f"FROM ORGANISM",
                                    conn)
         return Response(res_df.to_json(orient='records'), mimetype='application/json')
+
+
+@app.route('/api/refresh_session', methods=['GET'])
+def refresh_session():
+    session_id = request.args.get('uuid')
+    with get_db_connection() as conn:
+        conn.execute('UPDATE USER SET LAST_ACCESSION_DATE = ? WHERE SESSION_ID = ?',
+                     [datetime.datetime.now().isoformat(), session_id])
+    return jsonify(status=200)
+
+
+@app.route('/api/get_user_dataset_list', methods=['GET'])
+def get_user_dataset_list():
+    session_id = request.args.get('uuid')
+    with get_db_connection() as conn:
+        res_df = pd.read_sql_query(
+            "SELECT UD.DATASET_ID AS datasetId, "
+            "UD.NAME AS datasetName, "
+            "UD.DATASET_TYPE AS datasetType, "
+            "UD.OMICS as omics, "
+            "UD.TAXCODE as taxcode "
+            "FROM USER_DATASET UD "
+            "JOIN USER U on UD.USER_ID = U.USER_ID "
+            "WHERE U.SESSION_ID = ?",
+            conn,
+            params=[session_id])
+    return Response(res_df.to_json(orient='records'), mimetype='application/json')
 
 
 if __name__ == '__main__':

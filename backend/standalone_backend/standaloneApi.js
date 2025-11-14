@@ -20,28 +20,34 @@ const standaloneApi = {
     },
 
     async refreshSessionId(uuid) {
-
+        //TODO: ProteomicsDB returns the uuid here, I find that weird but maybe I have to for compatibility
+        await axios.get(`${host}/api/refresh_session`,
+            {params: {uuid}})
     },
 
     async getUserDatasetList(uuid) {
-
+        return (await axios.get(
+                `${host}/api/get_user_dataset_list`,
+                {params: {uuid}})
+        ).data
     },
 
     async loadUserDatasets(sessionId, userDatasets) {
-
+//TODO LATER
     },
 
     async getInternalProjects() {
+        //TODO LATER
         return [];
 
     },
 
     async getInternalDatasetsForProject(projectId) {
-
+//TODO LATER
     },
 
     async loadInternalDatasets(selectedDatasets) {
-
+//TODO LATER
     },
 
     async getCanonicalPathwayList(taxcode) {

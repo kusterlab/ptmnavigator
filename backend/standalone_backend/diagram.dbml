@@ -95,6 +95,10 @@ Table MODIFIED_SITE {
  POSITION integer [not null]
  RESIDUE text [not null]
  SITE_IDENTIFIER text //Composed of e.g. Uniprot + Residue + Position - only if otherwise not performant, else remove
+
+ indexes {
+ SITE_IDENTIFIER
+ }
 }
 
 Table ENZYME_SUBSTRATE_RELATIONSHIP{
@@ -148,7 +152,8 @@ Table USER_DATASET {
 Table USER_QUANTIFICATION_DATA {
   USER_DATUM_ID INTEGER [primary key]
   DATASET_ID INTEGER [not null, ref: > USER_DATASET.DATASET_ID]
-  REGULATION TEXT [not null, note: 'One of: up/down/-'] //Could instead do up/down/not/nan or allow NULL
+  EXPERIMENT text
+  REGULATION TEXT
   USER_CURVE_ID INTEGER
   PROTEIN_ID INTEGER
   PEPTIDE_ID INTEGER //Null if site level

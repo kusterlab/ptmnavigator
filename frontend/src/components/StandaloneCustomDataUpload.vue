@@ -755,20 +755,16 @@ export default {
       //Create form for request
       const formData = new FormData()
       formData.append('tomlFile', this.tomlFile)
-      formData.append('peptideCsvFile', this.inputCsvFile)
+      formData.append('csvFile', this.inputCsvFile)
       const params = {
-        //TODO: Does the standalone backend really need all this?
+        uuid: this.uuid,
         uploadType: uploadType,
-        csvFileName: this.inputCsvFile.name,
-        tomlFileName: this.currentDatasetType.type === 'Curve' ? this.tomlFile.name : null,
         datasetName: this.datasetName,
         datasetType: this.currentDatasetType.type,
         omics: (uploadType === 'proteinData') ? 'Protein' : (this.isPhospho ? 'Phosphorylation' : 'Other'),
         hasFoldChangeColumn: (this.hasFoldChangeColumn || this.currentDatasetType.type === 'FoldChange') ? 1 : 0,
         foldChangeDataFoldChangeScale: this.currentDatasetType.needsToml ? null : this.foldChangeDataFoldChangeScale,
-        csvFileSeparator: this.csvFileSeparator,
-        taxcode: this.selectedOrganism.value,
-        uuid: this.uuid
+        taxcode: this.selectedOrganism.value
       }
 
 
@@ -803,9 +799,6 @@ export default {
 
     goToPTMNavigator() {
       this.$router.push({name: 'PTMNavigator', props: {backendApi: this.backendApi, ptmNavigatorRouter: this.$router}})
-    },
-    async performUserDatasetEnrichment() {
-
     },
     async loadOrganisms() {
       const organismResponse = await this.backendApi.getOrganisms()

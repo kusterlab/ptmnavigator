@@ -51,6 +51,15 @@ const standaloneApi = {
     },
 
     async getCanonicalPathwayList(taxcode) {
+//TODO Soon but not now
+        if (taxcode !== 9606) {
+            console.log('Mock Backend only has Taxcode 9606 (Homo sapiens)')
+        }
+        return [{
+            name: "WP422",
+            title: "MAPK cascade",
+            link: "WP422.json"
+        }]
 
     },
 
@@ -88,6 +97,19 @@ const standaloneApi = {
     },
 
     async uploadDataset(formData, params) {
+        const response = await axios.put(`${host}/api/upload_dataset`,
+            formData,
+            {params})
+
+        console.log(response)
+        //TODO: Return value must look like this:
+        //          {
+        //             data: {
+        //                 datasetId: 1,
+        //                 message: 'Success!'
+        //             }
+        //         }
+        return response;
     },
 
     async performUserDatasetEnrichment(params) {

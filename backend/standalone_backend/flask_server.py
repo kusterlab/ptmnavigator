@@ -13,6 +13,8 @@ from flask import Flask, request, jsonify, make_response, Response
 import flask.wrappers
 from flask_cors import CORS
 
+from scripts import datasetUpload
+
 DB_FILE = Path('sqlite_backend.db')
 
 
@@ -133,6 +135,41 @@ def get_user_dataset_list():
             conn,
             params=[session_id])
     return Response(res_df.to_json(orient='records'), mimetype='application/json')
+
+
+@app.route('/api/upload_dataset', methods=['PUT'])
+def upload_dataset():
+    """Request looks like this on client side
+      const formData = new FormData()
+      formData.append('tomlFile', this.tomlFile)
+      formData.append('csvFile', this.inputCsvFile)
+      const params = {
+        uuid: this.uuid,
+        uploadType: uploadType, #proteinData or peptideData REDUNDANT, REMOVE. Can be determined from omics
+        datasetName: this.datasetName,
+        datasetType: this.currentDatasetType.type, #FoldChange or Curve
+        omics: (uploadType === 'proteinData') ? 'Protein' : (this.isPhospho ? 'Phosphorylation' : 'Other'),
+        hasFoldChangeColumn: (this.hasFoldChangeColumn || this.currentDatasetType.type === 'FoldChange') ? 1 : 0,
+        foldChangeDataFoldChangeScale: this.currentDatasetType.needsToml ? null : this.foldChangeDataFoldChangeScale,
+        taxcode: this.selectedOrganism.value
+      }
+
+axios.put(`${host}/api/upload_dataset`,
+            formData,
+            {params})
+    """
+
+    # form = dict(request.form)
+    # files = dict(request.files)
+    # # parameters = dict(request.parameters)
+    # if request.files['csvFile']:
+    #     input_csv = pd.read_csv(request.files['csvFile'], sep='\t')
+    #     print(input_csv)
+    # if request.files['tomlFile']:
+    #     input_toml = tomllib.load(request.files['tomlFile'])
+    #     print(input_toml)
+    datasetUpload.main(request)
+    return dict(status=200)
 
 
 if __name__ == '__main__':

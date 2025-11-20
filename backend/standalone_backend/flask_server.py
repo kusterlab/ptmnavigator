@@ -3,9 +3,6 @@ import tomllib
 import os
 import sys
 import datetime
-from contextlib import contextmanager
-import sqlite3
-import uuid
 import logging
 
 import pandas as pd
@@ -13,23 +10,7 @@ from flask import Flask, request, jsonify, make_response, Response
 import flask.wrappers
 from flask_cors import CORS
 
-from scripts import datasetUpload
-
-DB_FILE = Path('sqlite_backend.db')
-
-
-@contextmanager
-def get_db_connection():
-    conn = sqlite3.connect(DB_FILE)
-    try:
-        yield conn
-        conn.commit()
-    except Exception:
-        conn.rollback()
-        raise
-    finally:
-        conn.close()
-
+from scripts import datasetUpload, db_utils
 
 def get_version() -> str:
     """Get version of the project from pyproject file"""
@@ -92,7 +73,7 @@ def get_proteins_by_gene_name():
     input_gene_name = request.args.get('gene_name')
     if not input_gene_name:
         return Response("Error: No gene_name supplied", 400)
-    with get_db_connection() as conn:
+    with db_utils.get_db_connection() as conn:
         res_df = pd.read_sql_query(f"SELECT * FROM PROTEIN P WHERE P.GENE_NAME = ?",
                                    conn,
                                    params=[input_gene_name])
@@ -101,7 +82,7 @@ def get_proteins_by_gene_name():
 
 @app.route('/api/get_organisms', methods=['GET'])
 def get_organisms():
-    with get_db_connection() as conn:
+    with db_utils.get_db_connection() as conn:
         res_df = pd.read_sql_query(f"SELECT "
                                    f"NAME as name, "
                                    f"TAXCODE as taxcode "
@@ -112,17 +93,17 @@ def get_organisms():
 
 @app.route('/api/refresh_session', methods=['GET'])
 def refresh_session():
-    session_id = request.args.get('uuid')
-    with get_db_connection() as conn:
+    session_id = db_utils.create_session_id_if_not_exists(request.args.get('uuid'))
+    with db_utils.get_db_connection() as conn:
         conn.execute('UPDATE USER SET LAST_ACCESSION_DATE = ? WHERE SESSION_ID = ?',
                      [datetime.datetime.now().isoformat(), session_id])
-    return jsonify(status=200)
+    return jsonify(session_id=session_id)
 
 
 @app.route('/api/get_user_dataset_list', methods=['GET'])
 def get_user_dataset_list():
     session_id = request.args.get('uuid')
-    with get_db_connection() as conn:
+    with db_utils.get_db_connection() as conn:
         res_df = pd.read_sql_query(
             "SELECT UD.DATASET_ID AS datasetId, "
             "UD.NAME AS datasetName, "
@@ -139,37 +120,7 @@ def get_user_dataset_list():
 
 @app.route('/api/upload_dataset', methods=['PUT'])
 def upload_dataset():
-    """Request looks like this on client side
-      const formData = new FormData()
-      formData.append('tomlFile', this.tomlFile)
-      formData.append('csvFile', this.inputCsvFile)
-      const params = {
-        uuid: this.uuid,
-        uploadType: uploadType, #proteinData or peptideData REDUNDANT, REMOVE. Can be determined from omics
-        datasetName: this.datasetName,
-        datasetType: this.currentDatasetType.type, #FoldChange or Curve
-        omics: (uploadType === 'proteinData') ? 'Protein' : (this.isPhospho ? 'Phosphorylation' : 'Other'),
-        hasFoldChangeColumn: (this.hasFoldChangeColumn || this.currentDatasetType.type === 'FoldChange') ? 1 : 0,
-        foldChangeDataFoldChangeScale: this.currentDatasetType.needsToml ? null : this.foldChangeDataFoldChangeScale,
-        taxcode: this.selectedOrganism.value
-      }
-
-axios.put(`${host}/api/upload_dataset`,
-            formData,
-            {params})
-    """
-
-    # form = dict(request.form)
-    # files = dict(request.files)
-    # # parameters = dict(request.parameters)
-    # if request.files['csvFile']:
-    #     input_csv = pd.read_csv(request.files['csvFile'], sep='\t')
-    #     print(input_csv)
-    # if request.files['tomlFile']:
-    #     input_toml = tomllib.load(request.files['tomlFile'])
-    #     print(input_toml)
-    datasetUpload.main(request)
-    return dict(status=200)
+    return datasetUpload.main(request)
 
 
 if __name__ == '__main__':

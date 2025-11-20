@@ -20,9 +20,8 @@ const standaloneApi = {
     },
 
     async refreshSessionId(uuid) {
-        //TODO: ProteomicsDB returns the uuid here, I find that weird but maybe I have to for compatibility
-        await axios.get(`${host}/api/refresh_session`,
-            {params: {uuid}})
+        return (await axios.get(`${host}/api/refresh_session`,
+            {params: {uuid}})).data
     },
 
     async getUserDatasetList(uuid) {
@@ -102,13 +101,6 @@ const standaloneApi = {
             {params})
 
         console.log(response)
-        //TODO: Return value must look like this:
-        //          {
-        //             data: {
-        //                 datasetId: 1,
-        //                 message: 'Success!'
-        //             }
-        //         }
         return response;
     },
 

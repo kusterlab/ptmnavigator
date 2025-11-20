@@ -141,17 +141,19 @@ Table USER {
 Table USER_DATASET {
   DATASET_ID integer [primary key]
   NAME text [not null]
-  USER_ID integer [not null, ref: > USER.USER_ID]
+  USER_ID integer [not null]
   DATASET_TYPE text [not null, note: 'One of: FoldChange/Curve']
   OMICS text [not null, note: 'One of: Phosphorylation/Protein/Other']
   TAXCODE integer [not null, ref: > ORGANISM.TAXCODE]
 }
 
+Ref: USER_DATASET.USER_ID > USER.USER_ID [delete: cascade]
+
 
 //TODO: Lowercase integer and text
 Table USER_QUANTIFICATION_DATA {
   USER_DATUM_ID INTEGER [primary key]
-  DATASET_ID INTEGER [not null, ref: > USER_DATASET.DATASET_ID]
+  DATASET_ID INTEGER [not null]
   EXPERIMENT text
   REGULATION TEXT
   USER_CURVE_ID INTEGER
@@ -164,33 +166,44 @@ Table USER_QUANTIFICATION_DATA {
 
 }
 
+Ref: USER_QUANTIFICATION_DATA.DATASET_ID > USER_DATASET.DATASET_ID [delete: cascade]
+
 
 Table USER_DATUM_DETAIL {
-  USER_DATUM_ID INTEGER [not null, ref: > USER_QUANTIFICATION_DATA.USER_DATUM_ID]
+  USER_DATUM_ID INTEGER [not null]
   KEY TEXT [not null]
   VALUE TEXT
 }
 
+Ref: USER_DATUM_DETAIL.USER_DATUM_ID > USER_QUANTIFICATION_DATA.USER_DATUM_ID [delete: cascade]
+
+
 
 Table USER_CURVE_DATA {
-  USER_CURVE_ID integer [not null, ref: > USER_QUANTIFICATION_DATA.USER_CURVE_ID] //Not sure if this ref works since USER_CURVE_ID is not a primary key (is it a candidate key tho?)
+  USER_CURVE_ID integer [not null, ] 
   FACTOR_NAME text [not null] //E.g. dose, temperature, time
   FACTOR_VALUE real [not null]
   FACTOR_UNIT text [not null] //E.g. nM, h
   RESPONSE_VALUE real [not null]
 }
 
+Ref: USER_CURVE_DATA.USER_CURVE_ID > USER_QUANTIFICATION_DATA.USER_CURVE_ID [delete: cascade] //Not sure if this ref works since USER_CURVE_ID is not a primary key (is it a candidate key tho?)
+
 
 Table USER_DATASET_ENRICHMENT_RESULT {
-  DATASET_ID integer [not null, ref: > USER_DATASET.DATASET_ID] //TODO: No need to put UUID_ID here, but via joins you should still make sure the user has the correct uuid_id 
+  DATASET_ID integer [not null] //TODO: No need to put UUID_ID here, but via joins you should still make sure the user has the correct uuid_id 
   ENRICHMENT_TYPE_ID integer [not null, ref: > ENRICHMENT_TYPE.ENRICHMENT_TYPE_ID]
   ENRICHMENT_JSON blob [not null]
 }
 
+Ref: USER_DATASET_ENRICHMENT_RESULT.DATASET_ID > USER_DATASET.DATASET_ID [delete: cascade]
+
 Table USER_CUSTOM_PATHWAY{
   CUSTOM_PATHWAY_ID integer [primary key]
-  USER_ID integer [not null, ref: > USER.USER_ID]
+  USER_ID integer [not null]
   PATHWAY_NAME text
   PATHWAY_JSON blob [not null]
 }
+
+Ref: USER_CUSTOM_PATHWAY.USER_ID > USER.USER_ID [delete: cascade]
 

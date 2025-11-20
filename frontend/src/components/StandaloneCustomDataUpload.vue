@@ -109,23 +109,6 @@
                     </v-radio-group>
 
                     <!-- File related stuff -->
-                    <v-radio-group
-                        v-model="csvFileSeparator"
-                        row
-                        mandatory
-                        class="mb-n6"
-                    >
-                      <v-radio value="tab">
-                        <template #label>
-                          <span style="font-size: 14px">Tab Separated Values</span>
-                        </template>
-                      </v-radio>
-                      <v-radio value="comma">
-                        <template #label>
-                          <span style="font-size: 14px">Comma Separated Values</span>
-                        </template>
-                      </v-radio>
-                    </v-radio-group>
                     <v-file-input
                         v-model="inputCsvFile"
                         class="ma-2"
@@ -169,25 +152,6 @@
                           </template>
                         </v-checkbox>
                         <div
-                            v-if="currentDatasetType.type === 'Curve'"
-                        >
-                          <h4>Does your Curve File contain a 'Fold Change' column?</h4>
-                          <p>If not, the intensity ratio between the highest dose and the control is interpreted as Fold
-                            Change.</p>
-                          <v-switch
-                              v-model="hasFoldChangeColumn"
-                              class="mt-n3"
-                              style="font-size: 8pt"
-                          >
-                            <template #label>
-                              <span style="font-size: 14px">{{ hasFoldChangeColumn ? 'Yes' : 'No' }}</span>
-                            </template>
-                          </v-switch>
-                          Fold Changes from curve files are expected to be log-transformed already (that's what
-                          CurveCurator outputs).
-                        </div>
-                        <div
-                            v-else
                         >
                           <h4>Does your data have raw or log-transformed fold changes?</h4>
                           <p>
@@ -202,17 +166,16 @@
                               mandatory
                               class="mt-n3"
                           >
-                            <v-radio value="raw">
-                              <template #label>
-                                <span style="font-size: 14px">Raw Fold Changes</span>
-                              </template>
-                            </v-radio>
                             <v-radio value="log">
                               <template #label>
                                 <span style="font-size: 14px">Log Fold Changes</span>
                               </template>
                             </v-radio>
-
+                            <v-radio value="raw">
+                              <template #label>
+                                <span style="font-size: 14px">Raw Fold Changes</span>
+                              </template>
+                            </v-radio>
                             <v-radio value="none">
                               <template #label>
                                 <span style="font-size: 14px">No Fold Changes</span>
@@ -321,23 +284,6 @@
                     />
 
                     <!-- File related stuff -->
-                    <v-radio-group
-                        v-model="csvFileSeparator"
-                        row
-                        mandatory
-                        class="mb-n6"
-                    >
-                      <v-radio value="tab">
-                        <template #label>
-                          <span style="font-size: 14px">Tab Separated Values</span>
-                        </template>
-                      </v-radio>
-                      <v-radio value="comma">
-                        <template #label>
-                          <span style="font-size: 14px">Comma Separated Values</span>
-                        </template>
-                      </v-radio>
-                    </v-radio-group>
                     <v-file-input
                         v-model="inputCsvFile"
                         class="ma-2"
@@ -380,25 +326,6 @@
                           </template>
                         </v-checkbox>
                         <div
-                            v-if="currentDatasetType.type === 'Curve'"
-                        >
-                          <h4>Does your Curve File contain a 'Fold Change' column?</h4>
-                          <p>If not, the intensity ratio between the highest dose and the control is interpreted as Fold
-                            Change.</p>
-                          <v-switch
-                              v-model="hasFoldChangeColumn"
-                              class="mt-n3"
-                              style="font-size: 8pt"
-                          >
-                            <template #label>
-                              <span style="font-size: 14px">{{ hasFoldChangeColumn ? 'Yes' : 'No' }}</span>
-                            </template>
-                          </v-switch>
-                          Fold Changes from curve files are expected to be log-transformed already (that's what
-                          CurveCurator outputs).
-                        </div>
-                        <div
-                            v-else
                         >
                           <h4>Does your data have raw or log-transformed fold changes?</h4>
                           <p>
@@ -668,7 +595,6 @@ export default {
       selectedOrganism: undefined,
       defaultTaxcode: 9606, //Homo sapiens as default organism
       inputCsvFile: null,
-      csvFileSeparator: null,
       fileUploadRules: [
         (value) => typeof value !== 'undefined' || 'Please choose a file.',
         (value) =>
@@ -677,7 +603,6 @@ export default {
       ],
       tomlFile: null,
       enrichmentFilterRegulated: false,
-      hasFoldChangeColumn: false,
       foldChangeDataFoldChangeScale: null,
       isUploading: false,
 
@@ -710,17 +635,14 @@ export default {
     }
   },
   computed: {
-    defaultUUID() {
-      return this.backendApi.getDefaultSessionId()
-    },
   },
   watch: {
     uuid: {
       immediate: true,
       async handler(newUUID, oldUUID) {
         // Validate the UUID
-        if (newUUID && newUUID !== oldUUID && newUUID.length === 32) {
-          const sessionIdResponse = await this.backendApi.refreshSessionId(newUUID)
+        if (newUUID !== oldUUID && newUUID.length === 32) {
+          const sessionIdResponse = (await this.backendApi.refreshSessionId(newUUID)).session_id
           if (sessionIdResponse !== newUUID) {
             this.uuid = sessionIdResponse
             return
@@ -729,28 +651,23 @@ export default {
 
           const d = new Date()
           d.setTime(d.getTime() + 14 * 24 * 60 * 60 * 1000)
-          // Only set the cookie if it is not the one for the default dataset
-          if (newUUID !== this.defaultUUID) {
-            this.$cookie.set('analyticsUploadSessionID', newUUID, {expires: d})
-          }
+          this.$cookie.set('analyticsUploadSessionID', newUUID, {expires: d})
           this.userDatasets = userDatasetListResponse
         }
       }
     }
-
   },
   methods: {
 
     async submit(uploadType) {
       //Validate
-      if (!this.$refs[uploadType+'Form'].validate()) {
-        console.log(`Validation failed for: ${uploadType}`)
+      if (!this.$refs[uploadType + 'Form'].validate()) {
+        console.error(`Validation failed for: ${uploadType}`)
       }
-      console.log(`Successfully validated: ${uploadType}`)
 
-      if (this.uuid === this.defaultUUID) {
-        console.log('TODO: UUID is default UUID, generate a new one and update cookie.')
-      }
+      //Refresh UUID, automatically create a new one if the user does not have one yet
+      this.uuid = (await this.backendApi.refreshSessionId(this.uuid)).session_id
+
 
       //Create form for request
       const formData = new FormData()
@@ -762,7 +679,6 @@ export default {
         datasetName: this.datasetName,
         datasetType: this.currentDatasetType.type,
         omics: (uploadType === 'proteinData') ? 'Protein' : (this.isPhospho ? 'Phosphorylation' : 'Other'),
-        hasFoldChangeColumn: (this.hasFoldChangeColumn || this.currentDatasetType.type === 'FoldChange') ? 1 : 0,
         foldChangeDataFoldChangeScale: this.currentDatasetType.needsToml ? null : this.foldChangeDataFoldChangeScale,
         taxcode: this.selectedOrganism.value
       }
@@ -815,11 +731,7 @@ export default {
   },
   mounted() {
     this.loadOrganisms()
-    this.uuid = this.$cookie.get('analyticsUploadSessionID') || this.defaultUUID
-    if (this.uuid.length > 0) {
-      console.log('TODO: Implement refresh session id')
-    }
-
+    this.uuid = this.$cookie.get('analyticsUploadSessionID') || ''
   }
 
 }

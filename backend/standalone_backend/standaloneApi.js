@@ -33,7 +33,7 @@ const standaloneApi = {
     },
 
     async loadUserDatasets(sessionId, userDatasets) {
-//TODO LATER
+        //TODO LATER
     },
 
     async getInternalProjects() {
@@ -51,23 +51,27 @@ const standaloneApi = {
     },
 
     async getCanonicalPathwayList(taxcode) {
-//TODO Soon but not now
-        if (taxcode !== 9606) {
-            console.log('Mock Backend only has Taxcode 9606 (Homo sapiens)')
-        }
-        return [{
-            name: "WP422",
-            title: "MAPK cascade",
-            link: "WP422.json"
-        }]
+        return (await axios.get(
+                `${host}/api/get_canonical_pathway_list`,
+                {params: {taxcode}})
+        ).data
 
     },
 
     async getCustomPathwayList(uuid) {
-
+//TODO LATER
     },
 
-    async getPathwaySkeleton(taxcode, canonicalPathwayLink) {
+    // async getPathwaySkeleton(taxcode, canonicalPathwayLink) {
+    async getPathwaySkeleton(canonicalPathwayId) {
+        //TODO: Change PTMNavigator so it sends an ID instead of a link
+        // then the PrDB Backend needs to have a mapping from id to link or so.
+        // Or rather send an additional query that converts the ID into a link
+        // But it shouldn't be too hard to make PrDB send an ID as well and then construct the link
+        return (await axios.get(
+                `${host}/api/get_pathway_skeleton`,
+                {params: {pathwayId: canonicalPathwayId}})
+        ).data
 
     },
 
@@ -76,6 +80,10 @@ const standaloneApi = {
     },
 
     async getFilteredPathwayIds(searchStrings, taxcode) {
+        return (await axios.get(
+                `${host}/api/get_filtered_pathway_names`,
+                {params: {searchStrings, taxcode}})
+        ).data
     },
 
     async getEnrichmentTypes() {

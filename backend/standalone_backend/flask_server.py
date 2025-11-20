@@ -7,6 +7,7 @@ from contextlib import contextmanager
 import sqlite3
 import uuid
 import logging
+import json
 
 import pandas as pd
 from flask import Flask, request, jsonify, make_response, Response
@@ -168,8 +169,60 @@ axios.put(`${host}/api/upload_dataset`,
     # if request.files['tomlFile']:
     #     input_toml = tomllib.load(request.files['tomlFile'])
     #     print(input_toml)
-    datasetUpload.main(request)
+    # datasetUpload.main(request)
     return dict(status=200)
+
+
+@app.route('/api/get_canonical_pathway_list', methods=['GET'])
+def get_canonical_pathway_list():
+    taxcode = request.args.get('taxcode')
+    with get_db_connection() as conn:
+        res_df = pd.read_sql_query(
+            "SELECT "
+            "P.PATHWAY_NAME AS name, "
+            "P.TITLE as title "
+            "FROM PATHWAY P WHERE P.TAXCODE = ?",
+            conn,
+            params=[taxcode])
+    return Response(res_df.to_json(orient='records'), mimetype='application/json')
+
+
+@app.route('/api/get_pathway_skeleton', methods=['GET'])
+def get_pathway_skeleton():
+    # TODO: For all of these guys: Errors if the parameters are missing
+    pathway_id = request.args.get('pathwayId')
+    with get_db_connection() as conn:
+        pathway_json = conn.execute('SELECT PATHWAY_JSON FROM PATHWAY WHERE PATHWAY_ID = ?',
+                                    [pathway_id]
+                                    ).fetchall()[0][0]
+    return Response(pathway_json, mimetype='application/json')
+
+
+@app.route('/api/get_filtered_pathway_names', methods=['GET'])
+def get_filtered_pathway_names():
+    # Accept a list of gene names and/or uniprot ids as search strings
+    # Return the pathways that contain ALL of these
+    searchStrings = request.args.get('searchStrings')
+    taxcode = request.args.get('taxcode')
+    result_sets = []
+    for searchString in searchStrings.split(';'):
+        with get_db_connection() as conn:
+            result_raw = conn.execute("""
+            SELECT DISTINCT PW.PATHWAY_NAME
+            FROM PROTEIN PR
+            JOIN PATHWAY_TO_PROTEIN PTP ON PR.PROTEIN_ID = PTP.PROTEIN_ID
+            JOIN PATHWAY PW ON PTP.PATHWAY_ID = PW.PATHWAY_ID
+              WHERE (
+                        LOWER(PR.UNIPROT_ACC) LIKE '%' || LOWER(?) || '%'
+                    OR
+                        LOWER(PR.GENE_NAME) LIKE '%' || LOWER(?) || '%'
+                    )
+                    AND PW.N_GENES > 0
+                    AND PW.TAXCODE = ?
+            """, [searchString, searchString, taxcode]).fetchall()
+            result_sets.append({entry[0] for entry in result_raw})
+    filtered_pathway_ids = set.intersection(*result_sets)
+    return Response(json.dumps(list(filtered_pathway_ids)), mimetype='application/json')
 
 
 if __name__ == '__main__':

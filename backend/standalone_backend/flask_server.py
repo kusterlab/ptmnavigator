@@ -11,7 +11,8 @@ from flask import Flask, request, jsonify, make_response, Response
 import flask.wrappers
 from flask_cors import CORS
 
-from scripts import datasetUpload, db_utils, constants
+from scripts import datasetUpload, db_utils, constants, datasetRetrieval
+
 
 def get_version() -> str:
     """Get version of the project from pyproject file"""
@@ -189,111 +190,9 @@ def get_curve_data():
     curve_ids = request.args.get('curveIDs')
     # There are no non-user curves currently, so this parameter is irrelevant
     # is_user_data_mode = request.args.get('isUserDataMode')
-    curve_id_list = curve_ids.split(';')
-    with db_utils.get_db_connection() as conn:
-        data_points_result = pd.read_sql_query(
-            f"SELECT * FROM USER_CURVE_DATA WHERE USER_CURVE_ID IN ({','.join(['?'] * len(curve_id_list))})",
-            conn,
-            params=curve_id_list)
-        curve_details_result = pd.read_sql_query(
-            f"""
-            SELECT UQD.USER_CURVE_ID, UDD.KEY, UDD.VALUE, MS.SITE_IDENTIFIER
-            FROM USER_DATUM_DETAIL UDD
-            JOIN USER_QUANTIFICATION_DATA UQD ON UDD.USER_DATUM_ID = UQD.USER_DATUM_ID
-            LEFT JOIN MODIFIED_SITE MS ON MS.MODIFIED_SITE_ID = UDD.VALUE AND UDD.KEY = 'MODIFIED_SITE_ID'
-            WHERE UQD.USER_CURVE_ID IN ({','.join(['?'] * len(curve_id_list))})
-            """,
-            conn,
-            params=curve_id_list)
 
-        curve_metadata_result = pd.read_sql_query(
-            f"""
-            SELECT UQD.USER_CURVE_ID, UQD.MODIFIED_SEQUENCE, UQD.EXPERIMENT, P.GENE_NAME, P.UNIPROT_ACC
-            FROM USER_QUANTIFICATION_DATA UQD
-            JOIN PROTEIN P ON P.PROTEIN_ID = UQD.PROTEIN_ID
-            WHERE UQD.USER_CURVE_ID IN ({','.join(['?'] * len(curve_id_list))})
-            """,
-            conn,
-            params=curve_id_list)
-
-    # Check if Factor name and unit are unique, if not, abort
-    if len(data_points_result['FACTOR_NAME'].unique()) > 1:
-        db_utils.throw_error('The requested curves have different factors. Please only load a single factor at a time!')
-    else:
-        curves_factor = data_points_result['FACTOR_NAME'].iloc[0]
-    if len(data_points_result['FACTOR_UNIT'].unique()) > 1:
-        db_utils.throw_error('The requested curves have different units. Please only load a single unit at a time!')
-    else:
-        curves_unit = data_points_result['FACTOR_UNIT'].iloc[0]
-    datapoints_dictlist = data_points_result.groupby('USER_CURVE_ID').apply(
-        lambda x: {'id': x.name, 'dataPoints': x[['FACTOR_VALUE', 'RESPONSE_VALUE']].values.tolist()},
-        include_groups=False).tolist()
-    details_dict = curve_details_result.groupby('USER_CURVE_ID').apply(
-        lambda x: {key: value for key, value in x[['KEY', 'VALUE']].values}, include_groups=False)
-    curve_metadata_result.set_index('USER_CURVE_ID', inplace=True)
-    for datapoints_dict in datapoints_dictlist:
-        curve_id = datapoints_dict['id']
-        datapoints_dict['formula'] = constants.curve_formula
-        datapoints_dict['escapeCharacter'] = constants.escape_character
-        datapoints_dict['curveParameters'] = {}
-        if 'pEC50' in details_dict[curve_id]:
-            datapoints_dict['curveParameters']['E'] = 10 ** -float(details_dict[curve_id]['pEC50'])
-        if 'Slope' in details_dict[curve_id]:
-            datapoints_dict['curveParameters']['B'] = details_dict[curve_id]['Slope']
-        if 'Back' in details_dict[curve_id]:
-            datapoints_dict['curveParameters']['D'] = details_dict[curve_id]['Back']
-        if 'Front' in details_dict[curve_id]:
-            datapoints_dict['curveParameters']['C'] = details_dict[curve_id]['Front']
-
-        curve_name = None  # Depending on dataset type, can be Sequence, Site Identifier, Gene Name, or Uniprot
-        if pd.notna(curve_metadata_result.loc[curve_id]['MODIFIED_SEQUENCE']):
-            curve_name = curve_metadata_result.loc[curve_id]['MODIFIED_SEQUENCE']
-            # Add placeholder for the protein
-            curve_name += ' @ {}'
-        elif 'MODIFIED_SITE_ID' in details_dict[curve_id]:
-            curve_name = curve_details_result[
-                (curve_details_result['USER_CURVE_ID'] == curve_id) & (
-                        curve_details_result['KEY'] == 'MODIFIED_SITE_ID')][
-                'SITE_IDENTIFIER'].iloc[0]
-            # Add placeholder for the protein
-            curve_name += ' @ {}'
-        else:
-            curve_name = '{}'
-
-        if pd.notna(curve_metadata_result.loc[curve_id]['GENE_NAME']):
-            curve_name = curve_name.format(curve_metadata_result.loc[curve_id]['GENE_NAME'])
-        else:
-            curve_name = curve_name.format(curve_metadata_result.loc[curve_id]['UNIPROT_ACC'])
-
-        experiment_name = curve_metadata_result.loc[curve_id]['EXPERIMENT']
-        datapoints_dict['legendText'] = f"{curve_name} ({experiment_name})"
-        datapoints_dict['tooltipTextHTML'] = f"<pre style='text-align: left'><b>{datapoints_dict['legendText']}</b><br>"
-
-        if details_dict[curve_id].get('pEC50'):
-            ec50 = 10 ** -float(details_dict[curve_id].get('pEC50'))
-            ec50_formatted = '{:.2e}'.format(ec50)
-            datapoints_dict['tooltipTextHTML'] += f"<br>EC50:           {ec50_formatted}<br>"
-        if details_dict[curve_id].get('Fold Change'):
-            fc = float(details_dict[curve_id].get('Fold Change'))
-            fc_formatted = '{:.3f}'.format(fc)
-            datapoints_dict['tooltipTextHTML'] += f"Fold Change:    {fc_formatted}<br>"
-        if details_dict[curve_id].get('R2'):
-            r2 = float(details_dict[curve_id].get('R2'))
-            r2_formatted = '{:.2f}'.format(r2)
-            datapoints_dict['tooltipTextHTML'] += f"R2:             {r2_formatted}<br>"
-        datapoints_dict['tooltipTextHTML'] += '</pre>'
-
-        datapoints_dict['xAxisLabel'] = f"{curves_factor} [{curves_unit}]"
-        datapoints_dict['yAxisLabel'] = constants.curve_generic_yaxis_label
-        if 'pEC50' in details_dict[curve_id]:
-            datapoints_dict['curveHighlights'] = [10 ** -float(details_dict[curve_id].get('pEC50'))]
-            # TODO: The code below often failes with 'Result too large', and error bars are not so important here.
-            # if 'pEC50_Error' in details_dict[curve_id]:
-            #     datapoints_dict['curveHighlightErrorBarEndpoints'] = [
-            #         # TODO: Maybe divide error by 2
-            #         [10 ** -(float(details_dict[curve_id]['pEC50']) - float(details_dict[curve_id]['pEC50_Error'])),
-            #          10 ** -(float(details_dict[curve_id]['pEC50']) + float(details_dict[curve_id]['pEC50_Error']))]]
-    return Response(json.dumps(datapoints_dictlist), mimetype='application/json')
+    response_dict = datasetRetrieval.get_curve_data(curve_ids.split(';'))
+    return Response(json.dumps(response_dict), mimetype='application/json')
 
 
 

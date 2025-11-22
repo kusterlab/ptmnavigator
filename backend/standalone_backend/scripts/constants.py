@@ -27,7 +27,8 @@ additional_expected_colnames_curve_map = {
     'Fold Change': ['curvefoldchange'],
     'Regulation': ['curveregulation'],
     'Curve q-Value': ['curveq_value', 'curveqvalue'],
-    'Relevance Score': ['curverelevancescore', 'relevancescore']
+    'Relevance Score': ['curverelevancescore', 'relevancescore'],
+    'R2': ['curver2', 'curve_r2', 'r2']
 }
 
 # Blacklist of columns that appear in decryptM/CurveCurator files but should not be imported as Datum Details
@@ -44,6 +45,6 @@ curve_columns_not_imported = {'N duplicates', 'Score', 'Raw 1', 'Raw 2', 'Raw 3'
 required_arguments_for_upload = ['uuid', 'datasetType', 'taxcode', 'omics', 'datasetName',
                                  'foldChangeDataFoldChangeScale']
 
-essential_columns_for_upload = []
-#If decryptM: pEC50, Slope, Front, Back, Fold Change
-
+curve_formula = "return $C$ + ($D$ -$C$) / (1 + Math.exp($B$* (Math.log(x) - Math.log($E$))));"
+escape_character = ("$")
+curve_generic_yaxis_label = 'Relative Response'

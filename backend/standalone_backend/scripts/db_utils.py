@@ -3,6 +3,7 @@ from contextlib import contextmanager
 import sqlite3
 import uuid
 import datetime
+import flask
 
 DB_FILE = Path('sqlite_backend.db')
 
@@ -45,3 +46,8 @@ def retrieve_user_id(session_id):
     session_id = create_session_id_if_not_exists(session_id)
     user_id = get_user_id_from_uuid(session_id)
     return user_id
+
+
+def throw_error(message, code=400):
+    print(f"Error: {message}")
+    flask.abort(code, description=message)

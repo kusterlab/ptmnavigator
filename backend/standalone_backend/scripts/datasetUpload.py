@@ -13,26 +13,22 @@ from typing import Literal
 from . import constants, db_utils
 
 
-# TODO: Type hints!
-
-def throw_error(message, code=400):
-    print(f"Error: {message}")
-    flask.abort(code, description=message)
+# TODO: Type hints
 
 
 def check_essential_columns(input_columns, datasetOmics, datasetType):
     # Regulation always needs to be in there
     if 'Regulation' not in input_columns:
-        throw_error("'Regulation' column is missing!")
+        db_utils.throw_error("'Regulation' column is missing!")
     if 'Gene Names' not in input_columns and 'Uniprot' not in input_columns:
-        throw_error("Either 'Gene Names' or 'Uniprot' must be present!")
+        db_utils.throw_error("Either 'Gene Names' or 'Uniprot' must be present!")
     if datasetOmics in constants.ptm_omics:
         if 'Modified sequence' not in input_columns and 'Psite' not in input_columns:
-            throw_error("Either 'Modified sequence' or 'Psite' must be present for PTM Datasets!")
+            db_utils.throw_error("Either 'Modified sequence' or 'Psite' must be present for PTM Datasets!")
     if datasetType == 'Curve':
         for curvecol in ['pEC50', 'Slope', 'Front', 'Back', 'Fold Change']:
             if curvecol not in input_columns:
-                throw_error(f"'{curvecol}' must be present for Curve Datasets!")
+                db_utils.throw_error(f"'{curvecol}' must be present for Curve Datasets!")
 
 
 def insert_to_user_dataset_table(args, user_id):
@@ -70,7 +66,7 @@ def clean_regulation(raw_regulation_val):
     if res != -1:
         return res
     else:
-        throw_error(f'Unrecognized regulation category: {raw_regulation_val}')
+        db_utils.throw_error(f'Unrecognized regulation category: {raw_regulation_val}')
         return
 
 
@@ -242,7 +238,7 @@ def find_and_log_transform_fold_changes(df):
         if col.lower().replace(' ', '') in ['foldchange', 'fc']:
             return np.log2(df[col])
     else:
-        throw_error('Trying to log-transform fold change column but could not find it!')
+        db_utils.throw_error('Trying to log-transform fold change column but could not find it!')
 
 
 def construct_modsite_df(df):
@@ -296,7 +292,7 @@ def create_curve_dfs(input_df, tomlfile):
             factor_col_prefix = " ".join(col.split()[:-1])
             break
     else:
-        throw_error('Failed to process curve data. Could not find ratio columns.')
+        db_utils.throw_error('Failed to process curve data. Could not find ratio columns.')
     column_to_factor = {f"{factor_col_prefix} {exp}": "%.3g" % (fact * float(toml_data['dose_scale']))
                         for exp, fact in zip(toml_data['experiments'], toml_data['doses'])}
     curve_data_df = input_df[column_to_factor.keys()
@@ -365,7 +361,7 @@ def insert_quant(quant_df, dataset_type, db_connection):
 def check_required_arguments(request_arguments):
     for arg in constants.required_arguments_for_upload:
         if arg not in request_arguments:
-            throw_error(f'Argument missing from request: "{arg}"')
+            db_utils.throw_error(f'Argument missing from request: "{arg}"')
 
 
 def main(put_request: werkzeug.Request):
@@ -447,7 +443,7 @@ def main(put_request: werkzeug.Request):
     if put_request.args.get('omics') in constants.ptm_omics:
         modsite_df.index += next_user_datum_id
     if put_request.args.get('datasetType') == 'Curve':
-        input_csv_df['USER_CURVE_ID'] = input_csv_df.index + next_user_curve_id
+        input_csv_df['USER_CURVE_ID'] = range(next_user_curve_id, next_user_curve_id + len(input_csv_df))
         curve_details_df.index += next_user_datum_id
         curve_data_df.index += next_user_curve_id
 

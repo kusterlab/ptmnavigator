@@ -10,7 +10,7 @@ const standaloneApi = {
 
     async getOrganisms() {
         return (await axios.get(
-            `${host}/api/get_organisms`)
+                `${host}/api/get_organisms`)
         ).data
     },
 
@@ -32,21 +32,25 @@ const standaloneApi = {
     },
 
     async loadUserDatasets(sessionId, userDatasets) {
-        //TODO LATER
+        return (await axios.get(
+                `${host}/api/get_user_datasets`,
+                {params: {sessionId, userDatasets}})
+        ).data
+
     },
 
     async getInternalProjects() {
-        //TODO LATER
+        //No internal datasets right now
         return [];
 
     },
 
     async getInternalDatasetsForProject(projectId) {
-//TODO LATER
+        //No internal datasets right now
     },
 
     async loadInternalDatasets(selectedDatasets) {
-//TODO LATER
+        //No internal datasets right now
     },
 
     async getCanonicalPathwayList(taxcode) {
@@ -75,7 +79,7 @@ const standaloneApi = {
     },
 
     async storeCustomPathway(skeleton, uuid, customPathwayName, currentlyEditedPathwayId) {
-
+//TODO Later
     },
 
     async getFilteredPathwayIds(searchStrings, taxcode) {
@@ -86,6 +90,7 @@ const standaloneApi = {
     },
 
     async getEnrichmentTypes() {
+        //TODO
     },
 
     async loadUserEnrichmentResults(sessionId, userDatasetIds, enrichmentTypeId) {
@@ -96,6 +101,10 @@ const standaloneApi = {
     },
 
     async loadCurveData(curveIDs, isUserDataMode) {
+        return (await axios.get(
+                `${host}/api/get_curve_data`,
+                {params: {curveIDs, isUserDataMode}}) //isUserDataMode is always true right now I think
+        ).data
     },
 
     getCustomDataUploadComponent() {

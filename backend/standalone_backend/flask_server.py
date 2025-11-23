@@ -181,9 +181,8 @@ def get_filtered_pathway_names():
 def get_user_datasets():
     session_id = request.args.get('sessionId')
     user_dataset_ids = request.args.get('userDatasets')
-    user_dataset_ids.split(';')
-    # TODO Implement
-
+    response_raw = datasetRetrieval.get_user_datasets(session_id, user_dataset_ids.split(';'))
+    return Response(json.dumps(response_raw), mimetype='application/json')
 
 @app.route('/api/get_curve_data', methods=['GET'])
 def get_curve_data():

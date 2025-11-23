@@ -2,15 +2,85 @@ from . import db_utils, constants
 import pandas as pd
 
 
-def get_curve_data(curve_id_list: [str]):
-    data_points_result, curve_details_result, curve_metadata_result = load_curve_information_from_database(
-        curve_id_list)
-    curves_factor, curves_unit = get_curves_factor_and_unit(data_points_result)
-    datapoints_dictlist = create_datapoints_dictlist(data_points_result)
-    details_dict = create_details_dict(curve_details_result)
-    curve_metadata_result.set_index('USER_CURVE_ID', inplace=True)
-    return combine_results(datapoints_dictlist, details_dict, curve_metadata_result, curve_details_result,
-                           curves_factor, curves_unit)
+def load_user_data_from_database(session_id, dataset_id_list):
+    with db_utils.get_db_connection() as conn:
+        meta_data_result = pd.read_sql_query(
+            f"""
+           SELECT UD.DATASET_ID, UD.NAME, UD.DATASET_TYPE, UD.OMICS, UD.TAXCODE
+            FROM USER_DATASET UD
+            JOIN USER U ON U.USER_ID = UD.USER_ID
+            WHERE U.SESSION_ID = ? 
+            AND UD.DATASET_ID IN ({','.join(['?'] * len(dataset_id_list))})""",
+            conn,
+            params=[session_id] + dataset_id_list)
+
+        quan_data_result = pd.read_sql_query(
+            f"""
+            SELECT UQD.*, P.GENE_NAME, P.UNIPROT_ACC FROM USER_QUANTIFICATION_DATA UQD
+            JOIN USER_DATASET UD ON UD.DATASET_ID = UQD.DATASET_ID
+            JOIN USER U ON UD.USER_ID = U.USER_ID
+            JOIN PROTEIN P ON P.PROTEIN_ID = UQD.PROTEIN_ID
+            WHERE U.SESSION_ID = ? 
+            AND UD.DATASET_ID IN ({','.join(['?'] * len(dataset_id_list))})""",
+            conn,
+            params=[session_id] + dataset_id_list)
+
+        detail_data_result = pd.read_sql_query(
+            f"""
+            SELECT UDD.*, MS.RESIDUE || MS.POSITION AS MODIFIED_RESIDUE
+            FROM USER_DATUM_DETAIL UDD
+            JOIN USER_QUANTIFICATION_DATA UQD on UDD.USER_DATUM_ID = UQD.USER_DATUM_ID
+            JOIN USER_DATASET UD ON UD.DATASET_ID = UQD.DATASET_ID
+            JOIN USER U ON UD.USER_ID = U.USER_ID
+            LEFT JOIN MODIFIED_SITE MS ON MS.MODIFIED_SITE_ID = UDD.VALUE AND UDD.KEY = 'MODIFIED_SITE_ID'
+            WHERE U.SESSION_ID = ? 
+            AND UD.DATASET_ID IN ({','.join(['?'] * len(dataset_id_list))})""",
+            conn,
+            params=[session_id] + dataset_id_list)
+
+    return meta_data_result, quan_data_result, detail_data_result
+
+
+def create_quan_data_detail_dicts(detail_data_result):
+    # Add the site identifiers as details, if they exist
+    site_identifier_series = detail_data_result[
+        (detail_data_result['KEY'] == 'MODIFIED_SITE_ID') & (pd.notna(detail_data_result['MODIFIED_RESIDUE']))
+        ].groupby('USER_DATUM_ID')['MODIFIED_RESIDUE'].agg(lambda identifiers: ', '.join(identifiers))
+
+    detail_data_result = pd.concat(
+        [detail_data_result, pd.DataFrame({'KEY': 'Site(s)', 'VALUE': site_identifier_series}).reset_index()])
+
+    # Now turn all details into dictionaries
+    return detail_data_result.groupby('USER_DATUM_ID').apply(
+        lambda x: {key: value for key, value in x[['KEY', 'VALUE']].values
+                   if key not in constants.quan_details_not_imported}, include_groups=False)
+
+
+def construct_quan_data_dict_list(quan_and_details_df, is_ptm_level, is_curve_data):
+    quan_and_details_df = quan_and_details_df[constants.quan_columns_imported].rename(
+        {
+            'REGULATION': 'regulation',
+            'GENE_NAME': 'geneNames',
+            'UNIPROT_ACC': 'uniprotAccs',
+            'DETAILS': 'details',
+        }, axis=1)
+
+    if is_curve_data:
+        quan_and_details_df['hiddenDetails'] = quan_and_details_df.apply(
+            lambda row: {'Curve ID': row['USER_CURVE_ID']},
+            axis=1)
+    # Always drop the column now, because it also exists for non-curve data (but it's always NA)
+    quan_and_details_df.drop('USER_CURVE_ID', axis=1, inplace=True)
+
+    # Move experiment name and modified sequence (if exists) into details
+    quan_and_details_df['details'] = quan_and_details_df.apply(
+        lambda row: row['details'] |
+                    {'Experiment Name': row['EXPERIMENT']} |
+                    ({'Modified Sequence': row['MODIFIED_SEQUENCE']} if pd.notna(row['MODIFIED_SEQUENCE']) else {}),
+        axis=1)
+    quan_and_details_df.drop(['EXPERIMENT', 'MODIFIED_SEQUENCE'], axis=1, inplace=True)
+
+    return quan_and_details_df.to_dict(orient='records')
 
 
 def combine_results(datapoints_dictlist, details_dict, curve_metadata_result, curve_details_result,
@@ -110,12 +180,12 @@ def insert_curve_highlights(details_dict_of_curve, datapoints_dict):
         #          10 ** -(float(details_dict_of_curve['pEC50']) + float(details_dict_of_curve['pEC50_Error']))]]
 
 
-def create_details_dict(curve_details_result):
+def create_curve_details_dict(curve_details_result):
     return curve_details_result.groupby('USER_CURVE_ID').apply(
         lambda x: {key: value for key, value in x[['KEY', 'VALUE']].values}, include_groups=False)
 
 
-def create_datapoints_dictlist(data_points_result):
+def create_curve_datapoints_dictlist(data_points_result):
     return data_points_result.groupby('USER_CURVE_ID').apply(
         lambda x: {'id': x.name, 'dataPoints': x[['FACTOR_VALUE', 'RESPONSE_VALUE']].values.tolist()},
         include_groups=False).tolist()
@@ -161,3 +231,56 @@ def load_curve_information_from_database(curve_id_list):
             conn,
             params=curve_id_list)
     return data_points_result, curve_details_result, curve_metadata_result
+
+
+def get_user_datasets(session_id, dataset_id_list):
+    ptm_input_list = []
+    protein_input_list = []
+
+    meta_data_result, quan_data_result, detail_data_result = load_user_data_from_database(
+        session_id, dataset_id_list
+    )
+    if meta_data_result.empty:
+        print(f'No data retrieved. '
+              f'Datasets {dataset_id_list} either do not exist or they do not match the session id {session_id}.')
+        return {
+            "ptmInputList": ptm_input_list,
+            "proteinInputList": protein_input_list
+        }
+
+    quan_data_result.set_index('USER_DATUM_ID', inplace=True)
+    detail_dicts = create_quan_data_detail_dicts(detail_data_result)
+
+    # Join the details dicts as a column into the main data frame
+    quan_and_details = quan_data_result.merge(detail_dicts.rename('DETAILS'), left_index=True, right_index=True)
+
+    # Iterate over datasets and then decide on the fly whether to add to ptm or to protein list
+    for index, rowdict in meta_data_result.iterrows():
+        if rowdict['OMICS'] in constants.ptm_omics:
+            ptm_input_list += construct_quan_data_dict_list(
+                quan_and_details[quan_and_details['DATASET_ID'] == rowdict['DATASET_ID']].copy(),
+                True,
+                rowdict['DATASET_TYPE'] == 'Curve'
+            )
+        else:
+            protein_input_list += construct_quan_data_dict_list(
+                quan_and_details[quan_and_details['DATASET_ID'] == rowdict['DATASET_ID']].copy(),
+                False,
+                rowdict['DATASET_TYPE'] == 'Curve'
+            )
+
+    return {
+        "ptmInputList": ptm_input_list,
+        "proteinInputList": protein_input_list
+    }
+
+
+def get_curve_data(curve_id_list: [str]):
+    data_points_result, curve_details_result, curve_metadata_result = load_curve_information_from_database(
+        curve_id_list)
+    curves_factor, curves_unit = get_curves_factor_and_unit(data_points_result)
+    datapoints_dictlist = create_curve_datapoints_dictlist(data_points_result)
+    details_dict = create_curve_details_dict(curve_details_result)
+    curve_metadata_result.set_index('USER_CURVE_ID', inplace=True)
+    return combine_results(datapoints_dictlist, details_dict, curve_metadata_result, curve_details_result,
+                           curves_factor, curves_unit)

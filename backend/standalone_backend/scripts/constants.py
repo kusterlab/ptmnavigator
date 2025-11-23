@@ -48,3 +48,7 @@ required_arguments_for_upload = ['uuid', 'datasetType', 'taxcode', 'omics', 'dat
 curve_formula = "return $C$ + ($D$ -$C$) / (1 + Math.exp($B$* (Math.log(x) - Math.log($E$))));"
 escape_character = ("$")
 curve_generic_yaxis_label = 'Relative Response'
+
+quan_details_not_imported = ['MODIFIED_SITE_ID']
+quan_columns_imported = ['GENE_NAME', 'UNIPROT_ACC', 'REGULATION', 'EXPERIMENT', 'MODIFIED_SEQUENCE', 'DETAILS',
+                         'USER_CURVE_ID']

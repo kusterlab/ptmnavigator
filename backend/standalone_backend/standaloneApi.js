@@ -90,7 +90,8 @@ const standaloneApi = {
     },
 
     async getEnrichmentTypes() {
-        //TODO
+        return (await axios.get(
+            `${host}/api/get_enrichment_types`)).data
     },
 
     async loadUserEnrichmentResults(sessionId, userDatasetIds, enrichmentTypeId) {

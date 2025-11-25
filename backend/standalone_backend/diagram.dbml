@@ -35,6 +35,7 @@ Table ENRICHMENT_TYPE{
  REFERENCE text
  SHORT text [not null] 
  ENRICHMENT_CLASS text [not null]
+ ADDITIONAL_INFO blob
 }
 
 Table ENRICHMENT_TYPE_TO_OMIC{
@@ -180,7 +181,7 @@ Ref: USER_DATUM_DETAIL.USER_DATUM_ID > USER_QUANTIFICATION_DATA.USER_DATUM_ID [d
 
 
 Table USER_CURVE_DATA {
-  USER_CURVE_ID integer [not null, ] 
+  USER_CURVE_ID integer [not null] 
   FACTOR_NAME text [not null] //E.g. dose, temperature, time
   FACTOR_VALUE real [not null]
   FACTOR_UNIT text [not null] //E.g. nM, h

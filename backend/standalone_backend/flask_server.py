@@ -194,6 +194,27 @@ def get_curve_data():
     return Response(json.dumps(response_dict), mimetype='application/json')
 
 
+@app.route('/api/get_enrichment_types', methods=['GET'])
+def get_enrichment_types():
+    with db_utils.get_db_connection() as conn:
+        res_df = pd.read_sql_query("""
+            SELECT ET.NAME as name,
+                   ET.SHORT as short,
+                   ET.ENRICHMENT_TYPE_ID as enrichmentTypeId,
+                   ET.ENRICHMENT_CLASS as enrichmentClass,
+                   ET.DESCRIPTION as tooltipHtml,
+                   ET.ADDITIONAL_INFO as additionalInfoRaw,
+                   group_concat(O.NAME, ';') AS applicableOmics  FROM ENRICHMENT_TYPE ET
+            JOIN ENRICHMENT_TYPE_TO_OMIC ETTO on ET.ENRICHMENT_TYPE_ID = ETTO.ENRICHMENT_TYPE_ID
+            JOIN OMIC O ON ETTO.OMIC_ID = O.OMIC_ID
+            GROUP BY ET.ENRICHMENT_TYPE_ID;
+        """,
+                                   conn)
+    res_df['applicableOmics'] = res_df['applicableOmics'].apply(lambda s: s.split(';'))
+    additional_info_columns = res_df['additionalInfoRaw'].apply(lambda infodict: pd.Series(json.loads(infodict)))
+    res_df_joined = pd.concat([res_df.drop('additionalInfoRaw', axis=1), additional_info_columns], axis=1)
+    return Response(res_df_joined.to_json(orient='records'), mimetype='application/json')
+
 
 if __name__ == '__main__':
     app.run(debug=os.getenv("PRODUCTION", '0') != '1', host='0.0.0.0', port=int(os.getenv("PORT", '3000')))

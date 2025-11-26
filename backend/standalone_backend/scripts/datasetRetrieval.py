@@ -27,7 +27,7 @@ def load_user_data_from_database(session_id, dataset_id_list):
 
         detail_data_result = pd.read_sql_query(
             f"""
-            SELECT UDD.*, MS.RESIDUE || MS.POSITION AS MODIFIED_RESIDUE
+            SELECT UDD.*, MS.SITE_IDENTIFIER
             FROM USER_DATUM_DETAIL UDD
             JOIN USER_QUANTIFICATION_DATA UQD on UDD.USER_DATUM_ID = UQD.USER_DATUM_ID
             JOIN USER_DATASET UD ON UD.DATASET_ID = UQD.DATASET_ID
@@ -44,11 +44,11 @@ def load_user_data_from_database(session_id, dataset_id_list):
 def create_quan_data_detail_dicts(detail_data_result):
     # Add the site identifiers as details, if they exist
     site_identifier_series = detail_data_result[
-        (detail_data_result['KEY'] == 'MODIFIED_SITE_ID') & (pd.notna(detail_data_result['MODIFIED_RESIDUE']))
-        ].groupby('USER_DATUM_ID')['MODIFIED_RESIDUE'].agg(lambda identifiers: ', '.join(identifiers))
+        (detail_data_result['KEY'] == 'MODIFIED_SITE_ID') & (pd.notna(detail_data_result['SITE_IDENTIFIER']))
+        ].groupby('USER_DATUM_ID')['SITE_IDENTIFIER'].agg(list)#.agg(lambda identifiers: ', '.join(identifiers))
 
     detail_data_result = pd.concat(
-        [detail_data_result, pd.DataFrame({'KEY': 'Site(s)', 'VALUE': site_identifier_series}).reset_index()])
+        [detail_data_result, pd.DataFrame({'KEY': 'Modified Site(s)', 'VALUE': site_identifier_series}).reset_index()])
 
     # Now turn all details into dictionaries
     return detail_data_result.groupby('USER_DATUM_ID').apply(
@@ -271,7 +271,8 @@ def get_user_datasets(session_id, dataset_id_list):
 
     return {
         "ptmInputList": ptm_input_list,
-        "proteinInputList": protein_input_list
+        "proteinInputList": protein_input_list,
+        "datasetInfo": meta_data_result.to_dict(orient='records')
     }
 
 

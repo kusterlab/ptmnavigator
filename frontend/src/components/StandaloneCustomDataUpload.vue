@@ -706,8 +706,9 @@ export default {
         this.uploadedDatasetMessage = response.data.message
         this.uploadSnackbar = true
       } catch (error) {
+        console.log(error)
         this.isUploading = false
-        this.uploadError = error.response ? error.response.data : error
+        this.uploadErrorMessage = error.response ? error.response.data : error
         this.uploadSnackbar = false
         this.uploadErrorSnackbar = true
       }

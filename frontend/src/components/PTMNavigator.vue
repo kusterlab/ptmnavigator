@@ -1508,8 +1508,9 @@ export default {
       }
     },
     selectedCurveIDs: {
-      handler(newVal) {
-        this.getCurveData(newVal);
+      handler(selectedCurveIds) {
+        if (selectedCurveIds && selectedCurveIds.length > 0)
+          this.getCurveData(selectedCurveIds);
       }
     }
   },

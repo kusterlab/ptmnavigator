@@ -74,7 +74,7 @@ def get_status() -> flask.wrappers.Response:
 def get_proteins_by_gene_name():
     input_gene_name = request.args.get('gene_name')
     if not input_gene_name:
-        return Response("Error: No gene_name supplied", 400)
+        db_utils.throw_error("No gene_name supplied")
     with db_utils.get_db_connection() as conn:
         res_df = pd.read_sql_query(f"SELECT * FROM PROTEIN P WHERE P.GENE_NAME = ?",
                                    conn,
@@ -123,6 +123,42 @@ def get_user_dataset_list():
 @app.route('/api/upload_dataset', methods=['PUT'])
 def upload_dataset():
     return datasetUpload.main(request)
+
+
+@app.route('/api/store_user_enrichment_result', methods=['PUT'])
+def store_user_enrichment_result():
+    enrichment_type_name = request.args.get('enrichmentType')
+    with db_utils.get_db_connection() as conn:
+        response = conn.execute('SELECT ENRICHMENT_TYPE_ID FROM ENRICHMENT_TYPE WHERE NAME = ?',
+                                [enrichment_type_name]
+                                ).fetchall()
+    if len(response) > 0:
+        enrichment_type_id = response[0][0]
+    else:
+        db_utils.throw_error(f"Could not find an enrichment type id for: {enrichment_type_name}")
+    with db_utils.get_db_connection() as conn:
+        conn.execute(
+            'INSERT INTO USER_DATASET_ENRICHMENT_RESULT(DATASET_ID, ENRICHMENT_TYPE_ID, ENRICHMENT_JSON) VALUES (?,?,?)',
+            [request.args.get('datasetId'), enrichment_type_id, json.dumps(request.json['data'])])
+    return jsonify(status=200)
+
+
+@app.route('/api/store_custom_pathway', methods=['PUT'])
+def store_custom_pathway():
+    # Get the user ID from the UUID
+    user_id = db_utils.get_user_id_from_uuid(request.args.get('uuid'))
+    # Get or create pathway ID
+    custom_pathway_id = request.args.get('customPathwayId')
+    if not custom_pathway_id:
+        with db_utils.get_db_connection() as conn:
+            custom_pathway_id = conn.execute(
+                'SELECT MAX(CUSTOM_PATHWAY_ID)+1 FROM USER_CUSTOM_PATHWAY').fetchall()[0][0] or 1
+    # Insert
+    with db_utils.get_db_connection() as conn:
+        conn.execute(
+            'INSERT INTO USER_CUSTOM_PATHWAY (CUSTOM_PATHWAY_ID, USER_ID, PATHWAY_NAME, PATHWAY_JSON) VALUES (?,?,?,?)',
+            [custom_pathway_id, user_id, request.args.get('customPathwayName'), request.args.get('skeleton')])
+    return jsonify(status=200)
 
 
 @app.route('/api/get_canonical_pathway_list', methods=['GET'])
@@ -180,7 +216,8 @@ def get_filtered_pathway_names():
 @app.route('/api/get_user_datasets', methods=['GET'])
 def get_user_datasets():
     session_id = request.args.get('sessionId')
-    user_dataset_ids = request.args.get('userDatasets')
+    user_dataset_ids = request.args.get('datasetIds')
+
     response_raw = datasetRetrieval.get_user_datasets(session_id, user_dataset_ids.split(';'))
     return Response(json.dumps(response_raw), mimetype='application/json')
 

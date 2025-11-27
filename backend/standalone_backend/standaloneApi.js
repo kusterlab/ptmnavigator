@@ -355,7 +355,7 @@ const standaloneApi = {
         return peptideData
             .filter(datum => {
                 // Throw out rows without valid values
-                if (!(datum.details["Modified Sequence"]?.length > 0)) {
+                if (!(datum.details["Modified Sequence"]?.length > 0) || !datum.details["Modified Site(s)"]) {
                     return false
                 }
 
@@ -390,7 +390,7 @@ const standaloneApi = {
         return siteData
             .filter(datum => {
                 // Throw out rows without valid values
-                if (!datum.uniprotAccs) {
+                if (!datum.details["Modified Site(s)"]) {
                     return false
                 }
 

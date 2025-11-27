@@ -408,6 +408,11 @@ def main(put_request: werkzeug.Request):
     # Log-transform the fold changes, if requested
     if put_request.args.get('foldChangeDataFoldChangeScale') == 'raw':
         input_csv_df['Log Fold Change'] = find_and_log_transform_fold_changes(input_csv_df)
+    # Else we trust that they are log transformed already and rename the column:
+    input_csv_df.rename({'Fold Change': 'Log Fold Change'}, axis=1, inplace=True)
+    # And make sure this column is part of the details
+    if 'Log Fold Change' not in detail_columns:
+        detail_columns.append('Log Fold Change')
 
     # Create the table row for the dataset, which gives us the dataset id that we can use for the other tables
     dataset_id = insert_to_user_dataset_table(put_request.args, db_utils.retrieve_user_id(put_request.args.get('uuid')))

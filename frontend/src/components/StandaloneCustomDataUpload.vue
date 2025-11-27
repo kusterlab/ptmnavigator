@@ -156,8 +156,6 @@
                           <h4>Does your data have raw or log-transformed fold changes?</h4>
                           <p>
                             If they are raw, ProteomicsDB will log-transform them for you.
-                            If you select "Raw Fold Changes", the values will be log-transformed even if your column is
-                            named 'Log Fold Change'.
                           </p>
                           <v-radio-group
                               v-model="foldChangeDataFoldChangeScale"

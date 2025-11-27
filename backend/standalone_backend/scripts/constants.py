@@ -24,8 +24,8 @@ additional_expected_colnames_curve_map = {
     'Slope': ['slope', 'curveslope'],
     'Front': ['front', 'curvefront'],
     'Back': ['back', 'curveback'],
-    'Fold Change': ['curvefoldchange'],
-    'Regulation': ['curveregulation'],
+    'Fold Change': ['foldchange', 'fc', 'logfc', 'curvefoldchange'],
+    'Regulation': ['regulation', 'curveregulation'],
     'Curve q-Value': ['curveq_value', 'curveqvalue'],
     'Relevance Score': ['curverelevancescore', 'relevancescore'],
     'R2': ['curver2', 'curve_r2', 'r2']

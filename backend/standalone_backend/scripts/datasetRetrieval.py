@@ -45,7 +45,7 @@ def create_quan_data_detail_dicts(detail_data_result):
     # Add the site identifiers as details, if they exist
     site_identifier_series = detail_data_result[
         (detail_data_result['KEY'] == 'MODIFIED_SITE_ID') & (pd.notna(detail_data_result['SITE_IDENTIFIER']))
-        ].groupby('USER_DATUM_ID')['SITE_IDENTIFIER'].agg(list)#.agg(lambda identifiers: ', '.join(identifiers))
+        ].groupby('USER_DATUM_ID')['SITE_IDENTIFIER'].agg(list)  # .agg(lambda identifiers: ', '.join(identifiers))
 
     detail_data_result = pd.concat(
         [detail_data_result, pd.DataFrame({'KEY': 'Modified Site(s)', 'VALUE': site_identifier_series}).reset_index()])

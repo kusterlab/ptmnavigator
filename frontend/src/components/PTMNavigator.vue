@@ -568,7 +568,7 @@
                     v-if="ptmInputList.length > 0 || proteinInputList.length > 0"
                     ref="kinaseActivityThresholder"
                     :enrichment-response="enrichmentResponse"
-                    :all-kinase-activity-methods="enrichmentTypes.filter(et => et.enrichmentClass === 'KinaseActivity')"
+                    :all-kinase-activity-methods="enrichmentTypes.filter(et => et.enrichmentClass === 'KinaseActivity' && et.short !== 'kea3')"
                     :selected-dataset="selectedDatasetForEnrichment"
                     @kinase-activities-filtered="perturbedNodes = $event"
                 />
@@ -906,7 +906,7 @@
                     data-grid-ref-name="pathwayenrichmenttables"
                     :datasets="isUserDataMode ? selectedUserDatasets : selectedInternalDatasets"
                     :enrichment-response="enrichmentResponse"
-                    :enrichment-types="enrichmentTypes"
+                    :enrichment-types="enrichmentTypes.filter(t => t.short !== 'kea3')"
                     :enrichment-statuses="enrichmentStatuses"
                     @enrichment-selected-dataset-changed="updateSelectedDatasetForSorting"
                 />
@@ -2314,7 +2314,7 @@ export default {
               this.selectedInternalProject.projectId, this.selectedDatasetForEnrichment.datasetId)
 
           this.enrichmentResponse = this.formatInternalDatabaseEnrichmentResponse(
-            experimentEnrichmentResponseRaw[this.selectedDatasetForEnrichment.datasetId])
+              experimentEnrichmentResponseRaw[this.selectedDatasetForEnrichment.datasetId])
           // Try to sort pathways, if gcr is among the retrieved enrichments
           this.getGCRSortedPathwayList()
         }

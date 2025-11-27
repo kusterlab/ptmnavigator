@@ -38,6 +38,9 @@ def load_user_data_from_database(session_id, dataset_id_list):
             conn,
             params=[session_id] + dataset_id_list)
 
+    # Turn every numeric detail into an actual number
+    detail_data_result['VALUE'] = detail_data_result['VALUE'].apply(
+        lambda val: round(float(val),3) if val and val.replace('.', '', 1).isdigit() else val)
     return meta_data_result, quan_data_result, detail_data_result
 
 
@@ -79,6 +82,10 @@ def construct_quan_data_dict_list(quan_and_details_df, is_ptm_level, is_curve_da
                     ({'Modified Sequence': row['MODIFIED_SEQUENCE']} if pd.notna(row['MODIFIED_SEQUENCE']) else {}),
         axis=1)
     quan_and_details_df.drop(['EXPERIMENT', 'MODIFIED_SEQUENCE'], axis=1, inplace=True)
+
+    # Make geneName and uniprotAcc a list, because that is what the frontend expects
+    quan_and_details_df['geneNames'] = quan_and_details_df['geneNames'].apply(lambda s: [s] if s else None)
+    quan_and_details_df['uniprotAccs'] = quan_and_details_df['uniprotAccs'].apply(lambda s: [s] if s else None)
 
     return quan_and_details_df.to_dict(orient='records')
 
@@ -162,11 +169,11 @@ def insert_curve_parameters(details_dict_of_curve, datapoints_dict):
     if 'pEC50' in details_dict_of_curve:
         datapoints_dict['curveParameters']['E'] = 10 ** -float(details_dict_of_curve['pEC50'])
     if 'Slope' in details_dict_of_curve:
-        datapoints_dict['curveParameters']['B'] = details_dict_of_curve['Slope']
+        datapoints_dict['curveParameters']['B'] = float(details_dict_of_curve['Slope'])
     if 'Back' in details_dict_of_curve:
-        datapoints_dict['curveParameters']['D'] = details_dict_of_curve['Back']
+        datapoints_dict['curveParameters']['C'] = float(details_dict_of_curve['Back'])
     if 'Front' in details_dict_of_curve:
-        datapoints_dict['curveParameters']['C'] = details_dict_of_curve['Front']
+        datapoints_dict['curveParameters']['D'] = float(details_dict_of_curve['Front'])
 
 
 def insert_curve_highlights(details_dict_of_curve, datapoints_dict):
@@ -207,7 +214,9 @@ def get_curves_factor_and_unit(data_points_result):
 def load_curve_information_from_database(curve_id_list):
     with db_utils.get_db_connection() as conn:
         data_points_result = pd.read_sql_query(
-            f"SELECT * FROM USER_CURVE_DATA WHERE USER_CURVE_ID IN ({','.join(['?'] * len(curve_id_list))})",
+            f"SELECT * FROM USER_CURVE_DATA "
+            f"WHERE USER_CURVE_ID IN ({','.join(['?'] * len(curve_id_list))}) "
+            f"AND FACTOR_VALUE != 0",
             conn,
             params=curve_id_list)
         curve_details_result = pd.read_sql_query(

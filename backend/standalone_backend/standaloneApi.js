@@ -79,6 +79,7 @@ const standaloneApi = {
     },
 
     async storeCustomPathway(skeleton, uuid, customPathwayName, customPathwayId) {
+        console.log(`Storing with ${uuid}`)
         await axios.put(`${host}/api/store_custom_pathway`,
             null,//Not sure if I need this
             {skeleton, uuid, customPathwayName, customPathwayId})
@@ -92,8 +93,27 @@ const standaloneApi = {
     },
 
     async getEnrichmentTypes() {
-        return (await axios.get(
+        const enrichmentTypes = (await axios.get(
             `${host}/api/get_enrichment_types`)).data
+        //Add individual enrichment types for KEA3 Mean and Top Rank
+        //They do not get an enrichment type id because their results are not individually stored
+        const kea3Index = enrichmentTypes.findIndex(et => et.name === 'KEA3')
+        enrichmentTypes.push(
+            {
+                ...enrichmentTypes[kea3Index],
+                "name": "KEA3 - Mean Rank",
+                "short": "kea3_mean",
+                'enrichmentTypeId': undefined
+            },
+            {
+                ...enrichmentTypes[kea3Index],
+                "name": "KEA3 - Top Rank",
+                "short": "kea3_top",
+                'enrichmentTypeId': undefined
+            })
+        //Remove original KEA3
+        // enrichmentTypes.splice(kea3Index, 1)
+        return enrichmentTypes
     },
 
     async loadUserEnrichmentResults(sessionId, userDatasetIdList, enrichmentTypeId) {
@@ -112,6 +132,8 @@ const standaloneApi = {
     },
 
     async loadCurveData(curveIDs, isUserDataMode) {
+        //Backend expects the curveIDs as a ;-separated list
+        curveIDs = curveIDs.join(';')
         return (await axios.get(
                 `${host}/api/get_curve_data`,
                 {params: {curveIDs, isUserDataMode}}) //isUserDataMode is always true right now I think

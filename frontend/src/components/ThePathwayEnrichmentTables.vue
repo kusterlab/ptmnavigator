@@ -373,8 +373,8 @@ export default {
     onExporting: function () {
       const tabName = (this.peaVsKaiTab === 'pea') ? this.pathwayEnrichmentTab : this.kinaseActivityTab
       downloadUtils.downloadDxDataGridCSV(
-                `Enrichment-${tabName}.csv`,
-                this.$refs[`${this.dataGridRefName}-${tabName}`]
+          `Enrichment-${tabName}.csv`,
+          this.$refs[`${this.dataGridRefName}-${tabName}`]
       )
     }
   }

@@ -266,7 +266,6 @@ def get_user_enrichment_results():
             AND U.SESSION_ID = ?
             AND UDER.ENRICHMENT_TYPE_ID = ?;
             """, conn, params=[user_dataset_id, session_id, enrichment_type_id])
-    print(res_df)
     return Response(json.dumps(
         {user_dataset_id: [
             {'enrichmentType': res_df.iloc[0].enrichmentType, 'enrichmentJSON': res_df.iloc[0].enrichmentJSON}]

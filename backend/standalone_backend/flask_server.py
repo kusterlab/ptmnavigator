@@ -158,8 +158,12 @@ def store_custom_pathway():
     # Insert
     with db_utils.get_db_connection() as conn:
         conn.execute(
-            'INSERT INTO USER_CUSTOM_PATHWAY (CUSTOM_PATHWAY_ID, USER_ID, PATHWAY_NAME, PATHWAY_JSON) VALUES (?,?,?,?)',
-            [custom_pathway_id, user_id, request.args.get('customPathwayName'), request.args.get('skeleton')])
+            'INSERT INTO USER_CUSTOM_PATHWAY (CUSTOM_PATHWAY_ID, USER_ID, PATHWAY_NAME, PATHWAY_JSON) VALUES (?,?,?,?) '
+            'ON CONFLICT(CUSTOM_PATHWAY_ID) '
+            'DO UPDATE SET '
+            ' PATHWAY_NAME = excluded.PATHWAY_NAME, '
+            ' PATHWAY_JSON = excluded.PATHWAY_JSON;',
+            [custom_pathway_id, user_id, request.args.get('customPathwayName'), request.json['data']])
     return jsonify(status=200)
 
 
@@ -185,7 +189,7 @@ def get_custom_pathway_list():
             "SELECT "
             "CUSTOM_PATHWAY_ID AS pathwayId, "
             "PATHWAY_NAME AS pathwayName, "
-            "PATHWAY_JSON AS pathwayJson "
+            "PATHWAY_JSON AS pathwayJSON "
             "FROM USER_CUSTOM_PATHWAY UCP JOIN USER U on U.USER_ID = UCP.USER_ID "
             "WHERE U.SESSION_ID = ?",
             conn,

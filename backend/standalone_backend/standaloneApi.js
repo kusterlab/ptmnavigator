@@ -81,8 +81,8 @@ const standaloneApi = {
     async storeCustomPathway(skeleton, uuid, customPathwayName, customPathwayId) {
         console.log(`Storing with ${uuid}`)
         await axios.put(`${host}/api/store_custom_pathway`,
-            null,//Not sure if I need this
-            {skeleton, uuid, customPathwayName, customPathwayId})
+            {data: skeleton},
+            {params: { uuid, customPathwayName, customPathwayId}})
     },
 
     async getFilteredPathwayIds(searchStrings, taxcode) {

@@ -32,7 +32,8 @@ const standaloneApi = {
         ).data
     },
 
-    async loadUserDatasets(sessionId, datasetIds) {
+    async loadUserDatasets(sessionId, userDatasets) {
+        const datasetIds = userDatasets.map(dataset => dataset.datasetId).join(';')
         return (await axios.get(
                 `${host}/api/get_user_datasets`,
                 {params: {sessionId, datasetIds}})
@@ -63,18 +64,16 @@ const standaloneApi = {
     },
 
     async getCustomPathwayList(uuid) {
-//TODO LATER
+        return (await axios.get(
+                `${host}/api/get_custom_pathway_list`,
+                {params: {uuid}})
+        ).data
     },
 
-    // async getPathwaySkeleton(taxcode, canonicalPathwayLink) {
-    async getPathwaySkeleton(canonicalPathwayId) {
-        //TODO: Change PTMNavigator so it sends an ID instead of a link
-        // then the PrDB Backend needs to have a mapping from id to link or so.
-        // Or rather send an additional query that converts the ID into a link
-        // But it shouldn't be too hard to make PrDB send an ID as well and then construct the link
+    async getPathwaySkeleton(canonicalPathwayName) {
         return (await axios.get(
                 `${host}/api/get_pathway_skeleton`,
-                {params: {pathwayId: canonicalPathwayId}})
+                {params: {pathwayName: canonicalPathwayName}})
         ).data
 
     },
@@ -97,10 +96,18 @@ const standaloneApi = {
             `${host}/api/get_enrichment_types`)).data
     },
 
-    async loadUserEnrichmentResults(sessionId, userDatasetIds, enrichmentTypeId) {
+    async loadUserEnrichmentResults(sessionId, userDatasetIdList, enrichmentTypeId) {
+        //userDatasetIdList always has only one element
+        const userDatasetId = userDatasetIdList[0]
+
+        return (await axios.get(
+                `${host}/api/get_user_enrichment_results`,
+                {params: {sessionId, userDatasetId, enrichmentTypeId}})
+        ).data
     },
 
     async loadInternalDatabaseEnrichmentResults(projectId, experimentDesignIds) {
+        //Only user data for now
 
     },
 

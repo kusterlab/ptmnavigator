@@ -1,3 +1,5 @@
+# TODO: For all endpoints: Errors if a parameter is missing (generic method that receives all 'get's)
+# TODO: Type Hints
 from pathlib import Path
 import tomllib
 import os
@@ -175,13 +177,28 @@ def get_canonical_pathway_list():
     return Response(res_df.to_json(orient='records'), mimetype='application/json')
 
 
+@app.route('/api/get_custom_pathway_list', methods=['GET'])
+def get_custom_pathway_list():
+    session_id = request.args.get('uuid')
+    with db_utils.get_db_connection() as conn:
+        res_df = pd.read_sql_query(
+            "SELECT "
+            "CUSTOM_PATHWAY_ID AS pathwayId, "
+            "PATHWAY_NAME AS pathwayName, "
+            "PATHWAY_JSON AS pathwayJson "
+            "FROM USER_CUSTOM_PATHWAY UCP JOIN USER U on U.USER_ID = UCP.USER_ID "
+            "WHERE U.SESSION_ID = ?",
+            conn,
+            params=[session_id])
+    return Response(res_df.to_json(orient='records'), mimetype='application/json')
+
+
 @app.route('/api/get_pathway_skeleton', methods=['GET'])
 def get_pathway_skeleton():
-    # TODO: For all of these guys: Errors if the parameters are missing
-    pathway_id = request.args.get('pathwayId')
+    pathway_name = request.args.get('pathwayName')
     with db_utils.get_db_connection() as conn:
-        pathway_json = conn.execute('SELECT PATHWAY_JSON FROM PATHWAY WHERE PATHWAY_ID = ?',
-                                    [pathway_id]
+        pathway_json = conn.execute('SELECT PATHWAY_JSON FROM PATHWAY WHERE PATHWAY_NAME = ?',
+                                    [pathway_name]
                                     ).fetchall()[0][0]
     return Response(pathway_json, mimetype='application/json')
 
@@ -221,6 +238,7 @@ def get_user_datasets():
     response_raw = datasetRetrieval.get_user_datasets(session_id, user_dataset_ids.split(';'))
     return Response(json.dumps(response_raw), mimetype='application/json')
 
+
 @app.route('/api/get_curve_data', methods=['GET'])
 def get_curve_data():
     curve_ids = request.args.get('curveIDs')
@@ -229,6 +247,32 @@ def get_curve_data():
 
     response_dict = datasetRetrieval.get_curve_data(curve_ids.split(';'))
     return Response(json.dumps(response_dict), mimetype='application/json')
+
+
+@app.route('/api/get_user_enrichment_results', methods=['GET'])
+def get_user_enrichment_results():
+    session_id = request.args.get('sessionId')
+    user_dataset_id = request.args.get('userDatasetId')
+    enrichment_type_id = request.args.get('enrichmentTypeId')
+    with db_utils.get_db_connection() as conn:
+        res_df = pd.read_sql_query("""
+            SELECT ET.NAME              AS enrichmentType,
+                   UDER.ENRICHMENT_JSON AS enrichmentJSON
+            FROM USER_DATASET_ENRICHMENT_RESULT UDER
+                     JOIN ENRICHMENT_TYPE ET on UDER.ENRICHMENT_TYPE_ID = ET.ENRICHMENT_TYPE_ID
+                     JOIN USER_DATASET UD ON UDER.DATASET_ID = UD.DATASET_ID
+                    JOIN USER U ON UD.USER_ID = U.USER_ID
+            WHERE UD.DATASET_ID = ?
+            AND U.SESSION_ID = ?
+            AND UDER.ENRICHMENT_TYPE_ID = ?;
+            """, conn, params=[user_dataset_id, session_id, enrichment_type_id])
+    print(res_df)
+    return Response(json.dumps(
+        {user_dataset_id: [
+            {'enrichmentType': res_df.iloc[0].enrichmentType, 'enrichmentJSON': res_df.iloc[0].enrichmentJSON}]
+         }
+    ), mimetype='application/json')
+    # return Response(json.dumps({user_dataset_id: res_df.to_json(orient='records')}), mimetype='application/json')
 
 
 @app.route('/api/get_enrichment_types', methods=['GET'])

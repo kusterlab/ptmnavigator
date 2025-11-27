@@ -1397,7 +1397,7 @@ export default {
       }
     },
     canonicalPathwayLink() {
-      return this.selectedCanonicalPathway.link.startsWith('wikipathways')
+      return this.selectedCanonicalPathway.pathwayId.startsWith('WP')
           ? `https://www.wikipathways.org/index.php/Pathway:${this.selectedCanonicalPathway.pathwayId}`
           : `https://www.kegg.jp/pathway/${this.selectedCanonicalPathway.pathwayId}`
     },
@@ -1443,8 +1443,7 @@ export default {
         if (newUUID && newUUID !== oldUUID && newUUID.length === 32) {
           const sessionIdResponse = await this.backendApi.refreshSessionId(newUUID)
             if (sessionIdResponse !== newUUID) {
-              this.uuid = sessionIdResponse
-              return
+              this.uuid = sessionIdResponse.session_id
             }
             const userDatasetListResponse = await this.backendApi.getUserDatasetList(newUUID)
 
@@ -1608,7 +1607,6 @@ export default {
           pathwayName: `${pw.title} (${pw.name})`,
           pathwayTitle: pw.title,
           pathwayId: pw.name,
-          link: pw.link
         }
       })
       this.canonicalPathwayListFiltered = this.canonicalPathwayList
@@ -1802,8 +1800,7 @@ export default {
       }
       this.selectedCurveIDs = []
 
-      const pathwaySkeletonResponse = await this.backendApi.getPathwaySkeleton(
-        this.selectedOrganism.taxcode, this.selectedCanonicalPathway.link)
+      const pathwaySkeletonResponse = await this.backendApi.getPathwaySkeleton(this.selectedCanonicalPathway.pathwayId)
       this.constructPathwaySkeleton(pathwaySkeletonResponse)
 
       // If we have data loaded already, collapse the pathway menu now

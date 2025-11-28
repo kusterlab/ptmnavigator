@@ -1,0 +1,33 @@
+services:
+  backend:
+    build:
+      context: ./backend/standalone_backend
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    volumes:
+      - sqlite_data:/app/data
+    environment:
+      - FLASK_APP=flask_server.py
+      - DATABASE_PATH=/app/data/sqlite_backend.db
+    networks:
+      - app-network
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - "8080:80"
+    depends_on:
+      - backend
+    networks:
+      - app-network
+
+volumes:
+  sqlite_data:
+    driver: local
+
+networks:
+  app-network:
+    driver: bridge

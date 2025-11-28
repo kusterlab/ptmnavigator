@@ -1,4 +1,4 @@
-IMAGE ?= ptmnavigator_sqlite_backend
+IMAGE ?= ptmnavigator_frontend
 
 
 INTERACTIVE := $(shell [ -t 0 ] && echo 1)

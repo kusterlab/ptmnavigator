@@ -26,4 +26,4 @@ EXPOSE 3000
 
 
 RUN chmod 775 /app/gunicorn.sh
-ENTRYPOINT ['/app/gunicorn.sh']
+ENTRYPOINT '/app/gunicorn.sh'

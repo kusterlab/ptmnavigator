@@ -1,3 +1,8 @@
+/* eslint-disable */
+/* Needed to do this bc there are some non-implemented endpoints which have to be there to pass the API validation,
+but since they are empty eslint would complain about unused parameters
+ */
+
 import axios from 'axios'
 
 const host = 'http://localhost:3000' //TODO: Get from somewhere
@@ -157,7 +162,7 @@ const standaloneApi = {
     },
 
     async performUserDatasetEnrichment(params) {
-        const userProteomicsData = await this.loadUserDatasets(params.uuid, params.datasetId)
+        const userProteomicsData = await this.loadUserDatasets(params.uuid, [{datasetId: params.datasetId}])
         //We only called loadUserDatasets with one datasetId, so we can assume that userProteomicsData also only contains one dataset
         const datasetInfo = userProteomicsData.datasetInfo[0]
         const isPhospho = datasetInfo['OMICS'] === 'Phosphorylation';

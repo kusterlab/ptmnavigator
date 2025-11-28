@@ -28,7 +28,7 @@ if (typeof window !== 'undefined' && window.Vue) {
   window.Vue.use(PTMNavigatorPlugin);
 }
 
-if (process.env.NODE_ENV === 'development' && document.querySelector('#app')) {
+if ( (process.env.NODE_ENV === 'development' || process.env.NODE_ENV === 'production') && document.querySelector('#app')) {
   new Vue({
     vuetify,
     render: h => h(App),

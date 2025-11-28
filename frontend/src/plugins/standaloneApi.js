@@ -168,6 +168,23 @@ const standaloneApi = {
         const isPhospho = datasetInfo['OMICS'] === 'Phosphorylation';
         const isPeptide = userProteomicsData['ptmInputList'].filter(datum => datum.details["Modified Sequence"]?.length > 0).length > 0
 
+
+        //All Uniprot and Gene Name entries are singleton lists, for compatibility reasons
+        //Extract those lists here to make the processing easier
+        userProteomicsData.ptmInputList = userProteomicsData.ptmInputList.map(datum => {
+            return {...datum,
+                geneNames: datum['geneNames']?.length>0 ? datum['geneNames'][0] : null,
+                uniprotAccs: datum['uniprotAccs']?.length>0 ? datum['uniprotAccs'][0] : null,
+            }
+        })
+
+        userProteomicsData.proteinInputList = userProteomicsData.proteinInputList.map(datum => {
+            return {...datum,
+                geneNames: datum['geneNames']?.length>0 ? datum['geneNames'][0] : null,
+                uniprotAccs: datum['uniprotAccs']?.length>0 ? datum['uniprotAccs'][0] : null,
+            }
+        })
+
         // Generate a queue of promised requests, then resolve them all
         const requestQueue = []
         if (isPhospho) {

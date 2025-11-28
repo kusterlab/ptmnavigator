@@ -59,7 +59,7 @@ def create_quan_data_detail_dicts(detail_data_result):
                    if key not in constants.quan_details_not_imported}, include_groups=False)
 
 
-def construct_quan_data_dict_list(quan_and_details_df, is_ptm_level, is_curve_data):
+def construct_quan_data_dict_list(quan_and_details_df, is_curve_data):
     quan_and_details_df = quan_and_details_df[constants.quan_columns_imported].rename(
         {
             'REGULATION': 'regulation',
@@ -268,13 +268,11 @@ def get_user_datasets(session_id, dataset_id_list):
         if rowdict['OMICS'] in constants.ptm_omics:
             ptm_input_list += construct_quan_data_dict_list(
                 quan_and_details[quan_and_details['DATASET_ID'] == rowdict['DATASET_ID']].copy(),
-                True,
                 rowdict['DATASET_TYPE'] == 'Curve'
             )
         else:
             protein_input_list += construct_quan_data_dict_list(
                 quan_and_details[quan_and_details['DATASET_ID'] == rowdict['DATASET_ID']].copy(),
-                False,
                 rowdict['DATASET_TYPE'] == 'Curve'
             )
 

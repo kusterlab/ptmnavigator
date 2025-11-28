@@ -19,6 +19,7 @@ COPY scripts /app/scripts
 COPY resources /app/resources
 RUN poetry install
 
+RUN mkdir /app/data
 RUN poetry run python -u init_sqlite_backend.py
 
 # Expose Flask port

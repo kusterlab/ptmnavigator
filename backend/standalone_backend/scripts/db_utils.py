@@ -5,7 +5,7 @@ import uuid
 import datetime
 import flask
 
-DB_FILE = Path('sqlite_backend.db')
+DB_FILE = Path('data/sqlite_backend.db')
 
 
 @contextmanager

@@ -6,6 +6,8 @@ import json
 import pandas as pd
 from dbml_sqlite import toSQLite
 
+DB_FILE = Path('data/sqlite_backend.db')
+
 ISOFORM_REGEX = re.compile(r' Isoform of ([A-Z0-9]+),')
 GENE_NAME_REGEX = re.compile(r'GN=([A-Z0-9]+)')
 
@@ -417,7 +419,7 @@ def extract_modified_sites(modified_sites, current_modified_site_id, protein_seq
 
 if __name__ == '__main__':
     print('Initializing the SQLite Backend...')
-    db_connection = sqlite3.connect('sqlite_backend.db')
+    db_connection = sqlite3.connect(DB_FILE)
     create_database_schema(db_connection)
     populate_small_static_tables(db_connection)
     process_reference_proteomes(db_connection)

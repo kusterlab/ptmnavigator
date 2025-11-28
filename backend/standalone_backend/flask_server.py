@@ -270,11 +270,14 @@ def get_user_enrichment_results():
             AND U.SESSION_ID = ?
             AND UDER.ENRICHMENT_TYPE_ID = ?;
             """, conn, params=[user_dataset_id, session_id, enrichment_type_id])
-    return Response(json.dumps(
-        {user_dataset_id: [
-            {'enrichmentType': res_df.iloc[0].enrichmentType, 'enrichmentJSON': res_df.iloc[0].enrichmentJSON}]
-         }
-    ), mimetype='application/json')
+    if res_df.empty:
+        return Response({})
+    else:
+        return Response(json.dumps(
+            {user_dataset_id: [
+                {'enrichmentType': res_df.iloc[0].enrichmentType, 'enrichmentJSON': res_df.iloc[0].enrichmentJSON}]
+            }
+        ), mimetype='application/json')
     # return Response(json.dumps({user_dataset_id: res_df.to_json(orient='records')}), mimetype='application/json')
 
 

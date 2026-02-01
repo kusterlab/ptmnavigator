@@ -14,7 +14,7 @@ build:
 	docker build -f Dockerfile -t $(IMAGE) . || (exit 1)
 
 jump:
-	$(DOCKER_CMD) --entrypoint /bin/bash \
+	$(DOCKER_CMD) --entrypoint sh \
 		$(IMAGE)
 
 serve:

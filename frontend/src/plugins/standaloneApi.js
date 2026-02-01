@@ -5,7 +5,7 @@ but since they are empty eslint would complain about unused parameters
 
 import axios from 'axios'
 
-const host = 'http://localhost:3000' //TODO: Get from somewhere
+const host = `http://localhost:${process.env.VUE_APP_BACKEND_PORT}`
 
 const standaloneApi = {
 
@@ -87,7 +87,7 @@ const standaloneApi = {
         console.log(`Storing with ${uuid}`)
         await axios.put(`${host}/api/store_custom_pathway`,
             {data: skeleton},
-            {params: { uuid, customPathwayName, customPathwayId}})
+            {params: {uuid, customPathwayName, customPathwayId}})
     },
 
     async getFilteredPathwayIds(searchStrings, taxcode) {
@@ -172,16 +172,18 @@ const standaloneApi = {
         //All Uniprot and Gene Name entries are singleton lists, for compatibility reasons
         //Extract those lists here to make the processing easier
         userProteomicsData.ptmInputList = userProteomicsData.ptmInputList.map(datum => {
-            return {...datum,
-                geneNames: datum['geneNames']?.length>0 ? datum['geneNames'][0] : null,
-                uniprotAccs: datum['uniprotAccs']?.length>0 ? datum['uniprotAccs'][0] : null,
+            return {
+                ...datum,
+                geneNames: datum['geneNames']?.length > 0 ? datum['geneNames'][0] : null,
+                uniprotAccs: datum['uniprotAccs']?.length > 0 ? datum['uniprotAccs'][0] : null,
             }
         })
 
         userProteomicsData.proteinInputList = userProteomicsData.proteinInputList.map(datum => {
-            return {...datum,
-                geneNames: datum['geneNames']?.length>0 ? datum['geneNames'][0] : null,
-                uniprotAccs: datum['uniprotAccs']?.length>0 ? datum['uniprotAccs'][0] : null,
+            return {
+                ...datum,
+                geneNames: datum['geneNames']?.length > 0 ? datum['geneNames'][0] : null,
+                uniprotAccs: datum['uniprotAccs']?.length > 0 ? datum['uniprotAccs'][0] : null,
             }
         })
 

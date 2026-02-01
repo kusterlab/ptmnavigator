@@ -13,7 +13,8 @@ COPY public ./public
 COPY babel.config.js vue.config.js jsconfig.json ./
 
 ARG NODE_ENV=production
-
+ARG VUE_APP_BACKEND_PORT
+ENV VUE_APP_BACKEND_PORT=$VUE_APP_BACKEND_PORT
 RUN npm run build:app
 
 FROM nginx:alpine

@@ -1,1 +1,3 @@
-poetry run gunicorn flask_server:app  --threads 1 -b 0.0.0.0:3000 --timeout 4000
+PORT="${BACKEND_PORT:-4040}"
+echo $PORT
+poetry run gunicorn flask_server:app  --threads 1 -b 0.0.0.0:$PORT --timeout 4000

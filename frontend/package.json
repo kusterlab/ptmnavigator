@@ -1,7 +1,7 @@
 {
   "name": "ptmnavigator",
   "author": "Julian Müller",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "main": "dist/ptmnavigator.common.js",
   "module": "dist/ptmnavigator.esm.js",
   "unpkg": "dist/ptmnavigator.umd.min.js",
@@ -11,7 +11,7 @@
   ],
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build --target lib --name ptmnavigator src/main.js",
+    "build": "VUE_APP_MODE=library vue-cli-service build --target lib --name ptmnavigator src/main.js",
     "build:app": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },

@@ -11,7 +11,10 @@ import 'devextreme/dist/css/dx.material.blue.light.compact.css'
 
 
 Vue.use(vueCookie)
-Vue.use(emulatedRouter)
+// Only use emulated router in standalone mode
+if (process.env.VUE_APP_MODE !== 'library') {
+  Vue.use(emulatedRouter);
+}
 
 Vue.config.productionTip = false
 

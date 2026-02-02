@@ -5,8 +5,8 @@ but since they are empty eslint would complain about unused parameters
 
 import axios from 'axios'
 
-const backend_port = process.env.VUE_APP_BACKEND_PORT || 4040 //Default in gunicorn.sh if not running via docker
-const host = `http://localhost:${backend_port}`
+const backendPort = process.env.VUE_APP_BACKEND_PORT || 4040 //Default in gunicorn.sh if not running via docker
+const host = `http://localhost:${backendPort}`
 
 const standaloneApi = {
 
@@ -309,9 +309,7 @@ const standaloneApi = {
 
     //TODO: All of these are helper functions to preprocess the enrichment input. Could be outsourced into a separate file
     async sendEnrichmentServerRequest(sessionId, datasetName, enrichmentInput, endpoint, organism) {
-        //TODO: This constant needs to be somewhere more prominent.
-        const enrichmentServerUrl = 'https://enrichment.kusterlab.org/main_enrichment-server/'
-        // const enrichmentServerUrl = 'http://10.152.171.50:4321/'
+        const enrichmentServerUrl = process.env.VUE_APP_ENRICHMENT_SERVER_URL || 'https://enrichment.kusterlab.org/main_enrichment-server/'
         const formData = new FormData()
         formData.append('data', JSON.stringify(enrichmentInput))
         const response = await axios.post(`${enrichmentServerUrl}${endpoint}`,

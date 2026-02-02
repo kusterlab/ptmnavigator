@@ -22,6 +22,7 @@ services:
       dockerfile: Dockerfile
       args:
         VUE_APP_BACKEND_PORT: $BACKEND_PORT
+        VUE_APP_ENRICHMENT_SERVER_URL: $ENRICHMENT_SERVER_URL
     ports:
       - "8080:80"
     depends_on:

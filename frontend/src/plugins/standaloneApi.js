@@ -5,7 +5,8 @@ but since they are empty eslint would complain about unused parameters
 
 import axios from 'axios'
 
-const host = `http://localhost:${process.env.VUE_APP_BACKEND_PORT}`
+const backend_port = process.env.VUE_APP_BACKEND_PORT || 4040 //Default in gunicorn.sh if not running via docker
+const host = `http://localhost:${backend_port}`
 
 const standaloneApi = {
 

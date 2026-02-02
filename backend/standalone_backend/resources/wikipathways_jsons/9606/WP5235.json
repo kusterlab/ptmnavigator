@@ -1,0 +1,311 @@
+{
+  "pathway": {
+    "name": "WP5235",
+    "org": "Homo sapiens",
+    "title": "Estradiol regulation in porto-sinusoidal vascular disease"
+  },
+  "links": [
+    {
+      "id": "id208fbda7",
+      "sourceId": "d18c5",
+      "targetId": "be6d4",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "id565763e2",
+      "sourceId": "f0914",
+      "targetId": "be6d4",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id5fc07f3f",
+      "sourceId": "e04f4",
+      "targetId": "ea371",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "id6435f0ab",
+      "sourceId": "f8b8f",
+      "targetId": "e04f4",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "id9486b09d",
+      "sourceId": "e70a4",
+      "targetId": "c427e",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idbca2ebbf",
+      "sourceId": "c427e",
+      "targetId": "bdffa",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ideb9160ff",
+      "sourceId": "fc6c6",
+      "targetId": "a3bab",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idebd4385f",
+      "sourceId": "e6040",
+      "targetId": "d18c5",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "idf969b858",
+      "sourceId": "de4dc",
+      "targetId": "be6d4",
+      "types": [
+        "transcription/translation"
+      ]
+    },
+    {
+      "id": "idfb857ccd",
+      "sourceId": "fcc8b",
+      "targetId": "a6e49",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "a2ec9",
+      "sourceId": "bdffa",
+      "targetId": "d8fb4",
+      "types": [
+        "activation"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "c427e",
+      "geneNames": null,
+      "type": "misc",
+      "x": 591.9583333333334,
+      "y": 928.4768518518526,
+      "label": "Endothelial Hyperpolarization",
+      "groupId": null,
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q66026601"
+    },
+    {
+      "id": "de4dc",
+      "geneNames": [
+        "KCNN3"
+      ],
+      "type": "gene_protein",
+      "x": 676.1217158384246,
+      "y": 414.9367448471932,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000143603",
+      "uniprotAccs": [
+        "Q9UGI6",
+        "A0A087WYJ0"
+      ]
+    },
+    {
+      "id": "e04f4",
+      "geneNames": [
+        "ER1"
+      ],
+      "type": "gene_protein",
+      "x": 849.4014794176903,
+      "y": 457.7421126349012,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P03372",
+      "uniprotAccs": [
+        "P03372"
+      ]
+    },
+    {
+      "id": "e6040",
+      "geneNames": null,
+      "type": "compound",
+      "x": 966.9098596028374,
+      "y": 591.2971903253724,
+      "label": "Ca2+",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:29108"
+    },
+    {
+      "id": "ea371",
+      "geneNames": [
+        "SP1"
+      ],
+      "type": "gene_protein",
+      "x": 769.2359568077362,
+      "y": 457.7805999047316,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P08047",
+      "uniprotAccs": [
+        "P08047"
+      ]
+    },
+    {
+      "id": "f0914",
+      "geneNames": null,
+      "type": "compound",
+      "x": 966.3046290708409,
+      "y": 758.246434511678,
+      "label": "Apamin",
+      "groupId": null,
+      "referenceDatabase": "PubChem-compound",
+      "referenceId": "16133797"
+    },
+    {
+      "id": "f8b8f",
+      "geneNames": null,
+      "type": "compound",
+      "x": 849.8595646215391,
+      "y": 384.04550035768176,
+      "label": "Estradiol",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:16469"
+    },
+    {
+      "id": "fc6c6",
+      "geneNames": null,
+      "type": "compound",
+      "x": 864.3754471817066,
+      "y": 600.952380952381,
+      "label": "K+",
+      "groupId": "e70a4",
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:26216"
+    },
+    {
+      "id": "fcc8b",
+      "geneNames": [
+        "SP3"
+      ],
+      "type": "gene_protein",
+      "x": 715.6683527158369,
+      "y": 498.9261606842787,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "Q02447",
+      "uniprotAccs": [
+        "Q02447"
+      ]
+    },
+    {
+      "id": "be6d4",
+      "geneNames": [
+        "SK3 channel"
+      ],
+      "type": "gene_protein",
+      "x": 864.3754471817066,
+      "y": 689.439050360971,
+      "label": null,
+      "groupId": "cd4e4",
+      "referenceDatabase": "Uniprot",
+      "referenceId": "Q9UGI6",
+      "uniprotAccs": [
+        "Q9UGI6"
+      ]
+    },
+    {
+      "id": "d18c5",
+      "geneNames": [
+        "CALM1"
+      ],
+      "type": "gene_protein",
+      "x": 874.8516376578971,
+      "y": 663.724764646685,
+      "label": null,
+      "groupId": "cd4e4",
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P0DP23",
+      "uniprotAccs": [
+        "P0DP23"
+      ]
+    },
+    {
+      "id": "a3bab",
+      "geneNames": null,
+      "type": "compound",
+      "x": 864.3754471817065,
+      "y": 758.5714285714282,
+      "label": "K+",
+      "groupId": "e70a4",
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:26216"
+    },
+    {
+      "id": "bdffa",
+      "geneNames": null,
+      "type": "misc",
+      "x": 945.3379629629626,
+      "y": 928.4768518518528,
+      "label": "Endothelial Derived Hyperpolarization (EDH) of Vascular Smooth Muscle cells",
+      "groupId": null,
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q1355864"
+    },
+    {
+      "id": "d8fb4",
+      "geneNames": null,
+      "type": "misc",
+      "x": 1261.1018518518513,
+      "y": 928.4768518518528,
+      "label": "Vascular Dilation",
+      "groupId": null,
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q61080966"
+    },
+    {
+      "id": "f8b32",
+      "geneNames": null,
+      "type": "misc",
+      "x": 1442.7638888888891,
+      "y": 928.4768518518528,
+      "label": "Lowering Blood Pressure",
+      "groupId": null,
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q69904902"
+    },
+    {
+      "id": "cd4e4",
+      "type": "group",
+      "components": [
+        "be6d4",
+        "d18c5"
+      ]
+    },
+    {
+      "id": "e70a4",
+      "type": "group",
+      "components": [
+        "fc6c6",
+        "a3bab"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,450 @@
+{
+  "pathway": {
+    "name": "WP3979",
+    "org": "Mus musculus",
+    "title": "mir-193a and MVP in colon cancer metastasis"
+  },
+  "links": [
+    {
+      "id": "id170787cc",
+      "sourceId": "dc565",
+      "targetId": "e4c14",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id4faa8d46",
+      "sourceId": "ff2e4",
+      "targetId": "b2d0d",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id70bb0f6a",
+      "sourceId": "c84c7",
+      "targetId": "e63a0",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id730b2a25",
+      "sourceId": "cec1d",
+      "targetId": "id170787cc",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id75dfba9f",
+      "sourceId": "e3ee7",
+      "targetId": "cec1d",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id9e5febf3",
+      "sourceId": "cec1d",
+      "targetId": "bcfcf",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idb3b0829",
+      "sourceId": "bd971",
+      "targetId": "c84c7",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idb9121eb1",
+      "sourceId": "b2d0d",
+      "targetId": "e7ac7",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "f1caa",
+      "sourceId": "dc565",
+      "targetId": "cec1d",
+      "types": [
+        "activation"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "b536e",
+      "geneNames": [
+        "G3bp1"
+      ],
+      "type": "gene_protein",
+      "x": 454.0,
+      "y": 500.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000018583",
+      "uniprotAccs": [
+        "P97855"
+      ]
+    },
+    {
+      "id": "c4642",
+      "geneNames": [
+        "mir193a"
+      ],
+      "type": "gene_protein",
+      "x": 377.0,
+      "y": 342.9746416758544,
+      "label": null,
+      "groupId": "cec1d",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000065395",
+      "uniprotAccs": null
+    },
+    {
+      "id": "e4c14",
+      "geneNames": [
+        "Caprin1"
+      ],
+      "type": "gene_protein",
+      "x": 272.0,
+      "y": 500.0,
+      "label": null,
+      "groupId": "ff2e4",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000027184",
+      "uniprotAccs": [
+        "Q60865",
+        "A2BH47",
+        "F6YLI0",
+        "F6YP03"
+      ]
+    },
+    {
+      "id": "b0fa7",
+      "geneNames": [
+        "Mvp"
+      ],
+      "type": "gene_protein",
+      "x": 377.0,
+      "y": 367.9746416758544,
+      "label": null,
+      "groupId": "cec1d",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000030681",
+      "uniprotAccs": [
+        "D3Z2N7",
+        "E9Q3X0"
+      ]
+    },
+    {
+      "id": "a853e",
+      "geneNames": [
+        "Myc"
+      ],
+      "type": "gene_protein",
+      "x": 454.0,
+      "y": 475.0,
+      "label": null,
+      "groupId": "b2d0d",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000022346",
+      "uniprotAccs": [
+        "P01108",
+        "A0A991B922",
+        "A0A991CU09",
+        "E0CZD1"
+      ]
+    },
+    {
+      "id": "a2134",
+      "geneNames": [
+        "Ccnd1"
+      ],
+      "type": "gene_protein",
+      "x": 454.0,
+      "y": 525.0,
+      "label": null,
+      "groupId": "b2d0d",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000070348",
+      "uniprotAccs": [
+        "P25322"
+      ]
+    },
+    {
+      "id": "e4c84",
+      "geneNames": [
+        "Ccnd2"
+      ],
+      "type": "gene_protein",
+      "x": 512.0,
+      "y": 500.0,
+      "label": null,
+      "groupId": "b2d0d",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000000184",
+      "uniprotAccs": [
+        "P30280",
+        "A0A0J9YU51",
+        "Q9D8L9"
+      ]
+    },
+    {
+      "id": "b2cbd",
+      "geneNames": [
+        "mir193a"
+      ],
+      "type": "gene_protein",
+      "x": 572.0,
+      "y": 90.0,
+      "label": null,
+      "groupId": "c84c7",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000065395",
+      "uniprotAccs": null
+    },
+    {
+      "id": "fb94f",
+      "geneNames": [
+        "Mvp"
+      ],
+      "type": "gene_protein",
+      "x": 572.0,
+      "y": 115.0,
+      "label": null,
+      "groupId": "c84c7",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000030681",
+      "uniprotAccs": [
+        "D3Z2N7",
+        "E9Q3X0"
+      ]
+    },
+    {
+      "id": "dc565",
+      "geneNames": [
+        "mir193a"
+      ],
+      "type": "gene_protein",
+      "x": 257.0,
+      "y": 285.56449834619616,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000065395",
+      "uniprotAccs": null
+    },
+    {
+      "id": "eba4e",
+      "geneNames": [
+        "mir193a"
+      ],
+      "type": "gene_protein",
+      "x": 552.7949283351709,
+      "y": 253.9746416758544,
+      "label": null,
+      "groupId": "c13c5",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000065395",
+      "uniprotAccs": null
+    },
+    {
+      "id": "d2f66",
+      "geneNames": [
+        "Mvp"
+      ],
+      "type": "gene_protein",
+      "x": 552.7949283351709,
+      "y": 278.9746416758544,
+      "label": null,
+      "groupId": "c13c5",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000030681",
+      "uniprotAccs": [
+        "D3Z2N7",
+        "E9Q3X0"
+      ]
+    },
+    {
+      "id": "feda0",
+      "geneNames": [
+        "mir193a"
+      ],
+      "type": "gene_protein",
+      "x": 621.7949283351709,
+      "y": 324.9746416758544,
+      "label": null,
+      "groupId": "ba1fe",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000065395",
+      "uniprotAccs": null
+    },
+    {
+      "id": "d1867",
+      "geneNames": [
+        "Mvp"
+      ],
+      "type": "gene_protein",
+      "x": 621.7949283351709,
+      "y": 349.9746416758544,
+      "label": null,
+      "groupId": "ba1fe",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000030681",
+      "uniprotAccs": [
+        "D3Z2N7",
+        "E9Q3X0"
+      ]
+    },
+    {
+      "id": "d91b0",
+      "geneNames": [
+        "mir193a"
+      ],
+      "type": "gene_protein",
+      "x": 521.7949283351709,
+      "y": 342.9746416758544,
+      "label": null,
+      "groupId": "bcfcf",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000065395",
+      "uniprotAccs": null
+    },
+    {
+      "id": "b6b40",
+      "geneNames": [
+        "Mvp"
+      ],
+      "type": "gene_protein",
+      "x": 521.7949283351709,
+      "y": 367.9746416758544,
+      "label": null,
+      "groupId": "bcfcf",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000030681",
+      "uniprotAccs": [
+        "D3Z2N7",
+        "E9Q3X0"
+      ]
+    },
+    {
+      "id": "e700b",
+      "geneNames": [
+        "Caprin1"
+      ],
+      "type": "gene_protein",
+      "x": 512.0,
+      "y": 475.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000027184",
+      "uniprotAccs": [
+        "Q60865",
+        "A2BH47",
+        "F6YLI0",
+        "F6YP03"
+      ]
+    },
+    {
+      "id": "e3ee7",
+      "geneNames": [
+        "Mvp"
+      ],
+      "type": "gene_protein",
+      "x": 377.0,
+      "y": 252.9746416758544,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000030681",
+      "uniprotAccs": [
+        "D3Z2N7",
+        "E9Q3X0"
+      ]
+    },
+    {
+      "id": "e63a0",
+      "geneNames": null,
+      "type": "misc",
+      "x": 774.5005512679161,
+      "y": 101.02425578831321,
+      "label": "Metastasis",
+      "groupId": null
+    },
+    {
+      "id": "e7ac7",
+      "geneNames": null,
+      "type": "misc",
+      "x": 678.5,
+      "y": 500.75,
+      "label": "Cell cycle progression",
+      "groupId": null
+    },
+    {
+      "id": "ba1fe",
+      "type": "group",
+      "components": [
+        "feda0",
+        "d1867"
+      ]
+    },
+    {
+      "id": "ff2e4",
+      "type": "group",
+      "components": [
+        "e4c14"
+      ]
+    },
+    {
+      "id": "bcfcf",
+      "type": "group",
+      "components": [
+        "d91b0",
+        "b6b40"
+      ]
+    },
+    {
+      "id": "c84c7",
+      "type": "group",
+      "components": [
+        "b2cbd",
+        "fb94f"
+      ]
+    },
+    {
+      "id": "c13c5",
+      "type": "group",
+      "components": [
+        "eba4e",
+        "d2f66"
+      ]
+    },
+    {
+      "id": "b2d0d",
+      "type": "group",
+      "components": [
+        "a853e",
+        "a2134",
+        "e4c84"
+      ]
+    },
+    {
+      "id": "cec1d",
+      "type": "group",
+      "components": [
+        "c4642",
+        "b0fa7"
+      ]
+    }
+  ]
+}

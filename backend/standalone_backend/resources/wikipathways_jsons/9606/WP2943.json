@@ -1,0 +1,170 @@
+{
+  "pathway": {
+    "name": "WP2943",
+    "org": "Homo sapiens",
+    "title": "Hypoxia-mediated EMT and stemness"
+  },
+  "links": [
+    {
+      "id": "id3fdb2042",
+      "sourceId": "aaa80",
+      "targetId": "e9cdc",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id285ee7f2",
+      "sourceId": "aba38",
+      "targetId": "a5e3d",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id67b13f5d",
+      "sourceId": "a5e3d",
+      "targetId": "id3fdb2042",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id7136e97e",
+      "sourceId": "d3b0f",
+      "targetId": "d0b22",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id604fcd2c",
+      "sourceId": "d0b22",
+      "targetId": "f052c",
+      "types": [
+        "activation"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "a5e3d",
+      "geneNames": [
+        "DICER1"
+      ],
+      "type": "gene_protein",
+      "x": 308.00000000000006,
+      "y": 170.66666666666654,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "23405",
+      "uniprotAccs": [
+        "Q9UPY3"
+      ]
+    },
+    {
+      "id": "e8574",
+      "geneNames": [
+        "hsa-miR-200a-3p"
+      ],
+      "type": "gene_protein",
+      "x": 450.6666666666666,
+      "y": 257.3333333333337,
+      "label": null,
+      "groupId": "d3b0f",
+      "referenceDatabase": "miRBase mature sequence",
+      "referenceId": "MIMAT0000682"
+    },
+    {
+      "id": "d0147",
+      "geneNames": [
+        "hsa-miR-200b-3p"
+      ],
+      "type": "gene_protein",
+      "x": 450.6666666666666,
+      "y": 277.33333333333405,
+      "label": null,
+      "groupId": "d3b0f",
+      "referenceDatabase": "miRBase mature sequence",
+      "referenceId": "MIMAT0000318"
+    },
+    {
+      "id": "c13ed",
+      "geneNames": [
+        "hsa-miR-200c-3p"
+      ],
+      "type": "gene_protein",
+      "x": 450.6666666666666,
+      "y": 297.333333333334,
+      "label": null,
+      "groupId": "d3b0f",
+      "referenceDatabase": "miRBase mature sequence",
+      "referenceId": "MIMAT0000617"
+    },
+    {
+      "id": "d0b22",
+      "geneNames": [
+        "ZEB1"
+      ],
+      "type": "gene_protein",
+      "x": 450.6666666666666,
+      "y": 374.66666666666686,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "6935",
+      "uniprotAccs": [
+        "P37275",
+        "B2RBI8",
+        "B4DGU2"
+      ]
+    },
+    {
+      "id": "aba38",
+      "geneNames": null,
+      "type": "misc",
+      "x": 308.00000000000006,
+      "y": 103.99999999999997,
+      "label": "Hypoxia",
+      "groupId": null
+    },
+    {
+      "id": "f052c",
+      "geneNames": null,
+      "type": "misc",
+      "x": 450.6666666666666,
+      "y": 445.33333333333223,
+      "label": "Epithelial-Mesenchymal Transition (EMT) / Stemness",
+      "groupId": null
+    },
+    {
+      "id": "aaa80",
+      "geneNames": null,
+      "type": "misc",
+      "x": 205.33333333333331,
+      "y": 228.00000000000003,
+      "label": "Pre-miRNA",
+      "groupId": null
+    },
+    {
+      "id": "e9cdc",
+      "geneNames": null,
+      "type": "misc",
+      "x": 450.6666666666665,
+      "y": 228.00000000000003,
+      "label": "Mature miRNA",
+      "groupId": "d3b0f"
+    },
+    {
+      "id": "d3b0f",
+      "type": "group",
+      "components": [
+        "e8574",
+        "d0147",
+        "c13ed",
+        "e9cdc"
+      ]
+    }
+  ]
+}

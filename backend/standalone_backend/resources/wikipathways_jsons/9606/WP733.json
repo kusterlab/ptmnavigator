@@ -1,0 +1,130 @@
+{
+  "pathway": {
+    "name": "WP733",
+    "org": "Homo sapiens",
+    "title": "Serotonin receptor 2 and STAT3 signaling"
+  },
+  "links": [
+    {
+      "id": "b5b37",
+      "sourceId": "cafea",
+      "targetId": "cacda",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "ba2f3",
+      "sourceId": "afa00",
+      "targetId": "cafea",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "be6b0",
+      "sourceId": "d4a3b",
+      "targetId": "afa00",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "d2154",
+      "sourceId": "afa00",
+      "targetId": "cacda",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "fe91c",
+      "sourceId": "cacda",
+      "targetId": "ce8ce",
+      "types": [
+        "stimulation"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "afa00",
+      "geneNames": [
+        "HTR2A"
+      ],
+      "type": "gene_protein",
+      "x": 88.0,
+      "y": 119.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "3356",
+      "uniprotAccs": [
+        "P28223"
+      ]
+    },
+    {
+      "id": "cacda",
+      "geneNames": [
+        "JAK2"
+      ],
+      "type": "gene_protein",
+      "x": 89.0,
+      "y": 192.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "3717",
+      "uniprotAccs": [
+        "O60674",
+        "A8K910",
+        "B4DYV1"
+      ]
+    },
+    {
+      "id": "cafea",
+      "geneNames": [
+        "GNAQ"
+      ],
+      "type": "gene_protein",
+      "x": 166.0,
+      "y": 156.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "2776",
+      "uniprotAccs": [
+        "P50148",
+        "A0A024R240"
+      ]
+    },
+    {
+      "id": "ce8ce",
+      "geneNames": [
+        "STAT3"
+      ],
+      "type": "gene_protein",
+      "x": 89.0,
+      "y": 246.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "6774",
+      "uniprotAccs": [
+        "P40763",
+        "A0A7I2V395"
+      ]
+    },
+    {
+      "id": "d4a3b",
+      "geneNames": null,
+      "type": "compound",
+      "x": 88.0,
+      "y": 70.0,
+      "label": "Serotonin",
+      "groupId": null,
+      "referenceDatabase": "CAS",
+      "referenceId": "50-67-9"
+    }
+  ]
+}

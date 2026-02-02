@@ -1,0 +1,315 @@
+{
+  "pathway": {
+    "name": "WP5091",
+    "org": "Homo sapiens",
+    "title": "Frustrated phagocytosis leading to malignant pleural mesothelioma"
+  },
+  "links": [
+    {
+      "id": "id20c5ad2a",
+      "sourceId": "bd023",
+      "targetId": "ea09b",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id46d57cdd",
+      "sourceId": "e9f1c",
+      "targetId": "a6b44",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id4a5e94cc",
+      "sourceId": "e4d43",
+      "targetId": "bd023",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id65987fe0",
+      "sourceId": "a1070",
+      "targetId": "e9f1c",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id764f5383",
+      "sourceId": "ff0ad",
+      "targetId": "e6d5c",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "id801c833f",
+      "sourceId": "db430",
+      "targetId": "ea09b",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "id88726a4e",
+      "sourceId": "da5e4",
+      "targetId": "a1070",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "id9ca1710f",
+      "sourceId": "badca",
+      "targetId": "a1070",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "idb5fc7851",
+      "sourceId": "db430",
+      "targetId": "bd023",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "idbc2c67c3",
+      "sourceId": "f0093",
+      "targetId": "e6d5c",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "idc9c6419b",
+      "sourceId": "e6d5c",
+      "targetId": "a1070",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idd3555bde",
+      "sourceId": "e19c3",
+      "targetId": "a6b44",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "idd647b9e5",
+      "sourceId": "ee242",
+      "targetId": "ace2c",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "idd752e958",
+      "sourceId": "d9c97",
+      "targetId": "a6b44",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "ideb015692",
+      "sourceId": "a6b44",
+      "targetId": "ace2c",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "f97a3",
+      "sourceId": "ea09b",
+      "targetId": "e6d5c",
+      "types": [
+        "activation"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "badca",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 205.84676000097772,
+      "y": 563.2824228925655,
+      "label": "DNA damage response ",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP707"
+    },
+    {
+      "id": "bd023",
+      "geneNames": null,
+      "type": "misc",
+      "x": 207.64370519414933,
+      "y": 136.75,
+      "label": "Increased secretion of proinflammatory mediators",
+      "groupId": null,
+      "referenceDatabase": "AOP-Wiki KE",
+      "referenceId": "1496"
+    },
+    {
+      "id": "da5e4",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 207.64370519414933,
+      "y": 528.9565778788589,
+      "label": "DNA repair pathways",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP4946"
+    },
+    {
+      "id": "db430",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 394.3284538933144,
+      "y": 204.10055182453115,
+      "label": "Overview of proinflammatory \nand profibrotic mediators",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP5095"
+    },
+    {
+      "id": "e19c3",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 206.48496931416076,
+      "y": 768.998076600074,
+      "label": "Cell cycle checkpoints ",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP1775"
+    },
+    {
+      "id": "e4d43",
+      "geneNames": null,
+      "type": "misc",
+      "x": 207.64370519414933,
+      "y": 60.35844387298428,
+      "label": "Frustrated phagocytosis",
+      "groupId": null,
+      "referenceDatabase": "AOP-Wiki KE",
+      "referenceId": "1668"
+    },
+    {
+      "id": "e6d5c",
+      "geneNames": null,
+      "type": "misc",
+      "x": 207.64370519414933,
+      "y": 362.91993663127363,
+      "label": "Increased reactive oxygen species",
+      "groupId": null,
+      "referenceDatabase": "AOP-Wiki KE",
+      "referenceId": "1115"
+    },
+    {
+      "id": "f0093",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 207.64370519414933,
+      "y": 395.98066119143846,
+      "label": "Oxidative damage response ",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP3941"
+    },
+    {
+      "id": "ff0ad",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 206.5,
+      "y": 428.25,
+      "label": "NRF2 pathway",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP2884"
+    },
+    {
+      "id": "ea09b",
+      "geneNames": null,
+      "type": "misc",
+      "x": 207.64370519414933,
+      "y": 280.00909621545884,
+      "label": "Increased recruitment of inflammatory cells ",
+      "groupId": null,
+      "referenceDatabase": "AOP-Wiki KE",
+      "referenceId": "1497"
+    },
+    {
+      "id": "e9f1c",
+      "geneNames": null,
+      "type": "misc",
+      "x": 207.64370519414933,
+      "y": 636.2882746546927,
+      "label": "Genomic instability",
+      "groupId": null,
+      "referenceDatabase": "AOP-Wiki KE",
+      "referenceId": "1896"
+    },
+    {
+      "id": "a6b44",
+      "geneNames": null,
+      "type": "misc",
+      "x": 207.6437051941494,
+      "y": 708.8050565402363,
+      "label": "Mesothelial cell proliferation",
+      "groupId": null,
+      "referenceDatabase": "AOP-Wiki KE",
+      "referenceId": "870"
+    },
+    {
+      "id": "ace2c",
+      "geneNames": null,
+      "type": "misc",
+      "x": 207.32623343417217,
+      "y": 830.548739643823,
+      "label": "Mesothelioma",
+      "groupId": null,
+      "referenceDatabase": "AOP-Wiki KE",
+      "referenceId": "1090"
+    },
+    {
+      "id": "a1070",
+      "geneNames": null,
+      "type": "misc",
+      "x": 207.64370519414933,
+      "y": 495.435800116182,
+      "label": "Increased DNA damage and mutation",
+      "groupId": null,
+      "referenceDatabase": "AOP-Wiki KE",
+      "referenceId": "1669"
+    },
+    {
+      "id": "d9c97",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 205.84676000097772,
+      "y": 737.4358493940628,
+      "label": "Cell Cycle",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP179"
+    },
+    {
+      "id": "ee242",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 210.8024410741379,
+      "y": 858.3734445821751,
+      "label": "Malignant Pleural Mesothelioma",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP5087"
+    }
+  ]
+}

@@ -1,0 +1,486 @@
+{
+  "pathway": {
+    "name": "WP5076",
+    "org": "Homo sapiens",
+    "title": "Soluble ACE2-mediated cell entry of SARS-CoV-2"
+  },
+  "links": [
+    {
+      "id": "id5e025fa9",
+      "sourceId": "f39b1",
+      "targetId": "f3ca4",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "id5f19df3b",
+      "sourceId": "adc3a",
+      "targetId": "af1c2",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "id6f724aae",
+      "sourceId": "a97b4",
+      "targetId": "c7481",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id7040e5c9",
+      "sourceId": "e6ff7",
+      "targetId": "faf44",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id80abc9b3",
+      "sourceId": "faf44",
+      "targetId": "id6f724aae",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id9a5d06ea",
+      "sourceId": "c7481",
+      "targetId": "fcbf8",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ida9d4e59b",
+      "sourceId": "c1962",
+      "targetId": "b6ae4",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idab71275d",
+      "sourceId": "fec48",
+      "targetId": "iddf79e4e8",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idadc90074",
+      "sourceId": "e3dda",
+      "targetId": "efa1d",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "idbda85ec8",
+      "sourceId": "e6625",
+      "targetId": "f9994",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "idc8983763",
+      "sourceId": "e3b14",
+      "targetId": "b5377",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "iddf79e4e8",
+      "sourceId": "e3dda",
+      "targetId": "c1962",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ide4497430",
+      "sourceId": "faf44",
+      "targetId": "iddf79e4e8",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ide74f1465",
+      "sourceId": "fcbf8",
+      "targetId": "d878a",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idea3369fd",
+      "sourceId": "fc900",
+      "targetId": "id7040e5c9",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "ideab72c9e",
+      "sourceId": "b6ae4",
+      "targetId": "bb08d",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idf2233645",
+      "sourceId": "d6ca7",
+      "targetId": "b12bd",
+      "types": [
+        "undefined"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "d63a3",
+      "geneNames": null,
+      "type": "compound",
+      "x": 774.5,
+      "y": 237.0,
+      "label": "Vasopressin",
+      "groupId": "c1962",
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB01980"
+    },
+    {
+      "id": "faf44",
+      "geneNames": [
+        "sACE2"
+      ],
+      "type": "gene_protein",
+      "x": 566.0,
+      "y": 86.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000130234",
+      "uniprotAccs": [
+        "Q9BYF1",
+        "A0A7I2V2E9",
+        "A0A7I2V3N4",
+        "A0A7I2V3X6",
+        "A0A7I2V4H0",
+        "A0A7I2V5W5"
+      ]
+    },
+    {
+      "id": "fc900",
+      "geneNames": [
+        "ADAM17"
+      ],
+      "type": "gene_protein",
+      "x": 476.5,
+      "y": 353.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000151694",
+      "uniprotAccs": [
+        "P78536",
+        "A0A3B3ISQ1",
+        "A0A3B3IST4",
+        "A0A3B3ITB5",
+        "A0A3B3ITW9",
+        "A0A8V8TN27",
+        "A0A8V8TNK2",
+        "A0A8V8TNK7",
+        "A0A8V8TPG8",
+        "A0A8V8TPV7",
+        "A6H8L4",
+        "A8K1B4"
+      ]
+    },
+    {
+      "id": "fcbf8",
+      "geneNames": [
+        "AGTR1"
+      ],
+      "type": "gene_protein",
+      "x": 346.0,
+      "y": 354.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000144891",
+      "uniprotAccs": [
+        "P30556",
+        "A0A0A0MSE3",
+        "D3DNG8"
+      ]
+    },
+    {
+      "id": "b6ae4",
+      "geneNames": [
+        "AVPR1B"
+      ],
+      "type": "gene_protein",
+      "x": 739.0,
+      "y": 356.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000198049",
+      "uniprotAccs": [
+        "P47901"
+      ]
+    },
+    {
+      "id": "e6ff7",
+      "geneNames": [
+        "ACE2"
+      ],
+      "type": "gene_protein",
+      "x": 566.0,
+      "y": 353.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000130234",
+      "uniprotAccs": [
+        "Q9BYF1",
+        "A0A7I2V2E9",
+        "A0A7I2V3N4",
+        "A0A7I2V3X6",
+        "A0A7I2V4H0",
+        "A0A7I2V5W5"
+      ]
+    },
+    {
+      "id": "e3dda",
+      "geneNames": [
+        "S1"
+      ],
+      "type": "gene_protein",
+      "x": 740.5820895522386,
+      "y": 93.07462686567158,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q106020256"
+    },
+    {
+      "id": "e6625",
+      "geneNames": [
+        "S1"
+      ],
+      "type": "gene_protein",
+      "x": 346.5820895522386,
+      "y": 90.07462686567158,
+      "label": null,
+      "groupId": "a97b4",
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q106020256"
+    },
+    {
+      "id": "b70c4",
+      "geneNames": [
+        "sACE2"
+      ],
+      "type": "gene_protein",
+      "x": 713.3999978266224,
+      "y": 274.0,
+      "label": null,
+      "groupId": "c1962",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000130234",
+      "uniprotAccs": [
+        "Q9BYF1",
+        "A0A7I2V2E9",
+        "A0A7I2V3N4",
+        "A0A7I2V3X6",
+        "A0A7I2V4H0",
+        "A0A7I2V5W5"
+      ]
+    },
+    {
+      "id": "e3b14",
+      "geneNames": [
+        "S1"
+      ],
+      "type": "gene_protein",
+      "x": 713.3999978266224,
+      "y": 247.07462686567158,
+      "label": null,
+      "groupId": "c1962",
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q106020256"
+    },
+    {
+      "id": "fec48",
+      "geneNames": null,
+      "type": "compound",
+      "x": 820.5,
+      "y": 125.0,
+      "label": "Vasopressin",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB01980"
+    },
+    {
+      "id": "d6ca7",
+      "geneNames": [
+        "S1"
+      ],
+      "type": "gene_protein",
+      "x": 346.5820895522386,
+      "y": 247.07462686567158,
+      "label": null,
+      "groupId": "c7481",
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q106020256"
+    },
+    {
+      "id": "d5a00",
+      "geneNames": [
+        "sACE2"
+      ],
+      "type": "gene_protein",
+      "x": 345.0,
+      "y": 273.0,
+      "label": null,
+      "groupId": "c7481",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000130234",
+      "uniprotAccs": [
+        "Q9BYF1",
+        "A0A7I2V2E9",
+        "A0A7I2V3N4",
+        "A0A7I2V3X6",
+        "A0A7I2V4H0",
+        "A0A7I2V5W5"
+      ]
+    },
+    {
+      "id": "f39b1",
+      "geneNames": [
+        "S1"
+      ],
+      "type": "gene_protein",
+      "x": 344.5820895522386,
+      "y": 513.0746268656716,
+      "label": null,
+      "groupId": "d878a",
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q106020256"
+    },
+    {
+      "id": "e16f6",
+      "geneNames": [
+        "sACE2"
+      ],
+      "type": "gene_protein",
+      "x": 343.0,
+      "y": 539.0,
+      "label": null,
+      "groupId": "d878a",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000130234",
+      "uniprotAccs": [
+        "Q9BYF1",
+        "A0A7I2V2E9",
+        "A0A7I2V3N4",
+        "A0A7I2V3X6",
+        "A0A7I2V4H0",
+        "A0A7I2V5W5"
+      ]
+    },
+    {
+      "id": "c696f",
+      "geneNames": null,
+      "type": "compound",
+      "x": 782.5,
+      "y": 513.0,
+      "label": "Vasopressin",
+      "groupId": "bb08d",
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB01980"
+    },
+    {
+      "id": "a86a2",
+      "geneNames": [
+        "sACE2"
+      ],
+      "type": "gene_protein",
+      "x": 721.3999978266224,
+      "y": 550.0,
+      "label": null,
+      "groupId": "bb08d",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000130234",
+      "uniprotAccs": [
+        "Q9BYF1",
+        "A0A7I2V2E9",
+        "A0A7I2V3N4",
+        "A0A7I2V3X6",
+        "A0A7I2V4H0",
+        "A0A7I2V5W5"
+      ]
+    },
+    {
+      "id": "adc3a",
+      "geneNames": [
+        "S1"
+      ],
+      "type": "gene_protein",
+      "x": 721.3999978266224,
+      "y": 523.0746268656716,
+      "label": null,
+      "groupId": "bb08d",
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q106020256"
+    },
+    {
+      "id": "a97b4",
+      "type": "group",
+      "components": [
+        "e6625"
+      ]
+    },
+    {
+      "id": "bb08d",
+      "type": "group",
+      "components": [
+        "c696f",
+        "a86a2",
+        "adc3a"
+      ]
+    },
+    {
+      "id": "c1962",
+      "type": "group",
+      "components": [
+        "d63a3",
+        "b70c4",
+        "e3b14"
+      ]
+    },
+    {
+      "id": "c7481",
+      "type": "group",
+      "components": [
+        "d6ca7",
+        "d5a00"
+      ]
+    },
+    {
+      "id": "d878a",
+      "type": "group",
+      "components": [
+        "f39b1",
+        "e16f6"
+      ]
+    }
+  ]
+}

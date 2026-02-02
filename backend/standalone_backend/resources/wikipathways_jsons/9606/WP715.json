@@ -1,0 +1,186 @@
+{
+  "pathway": {
+    "name": "WP715",
+    "org": "Homo sapiens",
+    "title": "Amino acid conjugation"
+  },
+  "links": [
+    {
+      "id": "a9d87",
+      "sourceId": "bb44a",
+      "targetId": "d91ed",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "bbbac",
+      "sourceId": "ef007",
+      "targetId": "b56c0",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "cb47e",
+      "sourceId": "c34c7",
+      "targetId": "ef007",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "d91ed",
+      "sourceId": "e0361",
+      "targetId": "c34c7",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "e4497",
+      "sourceId": "db47d",
+      "targetId": "bbbac",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "e1a2e",
+      "sourceId": "d91ed",
+      "targetId": "c24a4",
+      "types": [
+        "conversion"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "b09fb",
+      "geneNames": null,
+      "type": "compound",
+      "x": 271.0,
+      "y": 279.0,
+      "label": "Glycine",
+      "groupId": "db47d",
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000123"
+    },
+    {
+      "id": "b56c0",
+      "geneNames": null,
+      "type": "compound",
+      "x": 164.0,
+      "y": 358.0,
+      "label": "carboxyl amino acid conjugate",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "b836b",
+      "geneNames": null,
+      "type": "compound",
+      "x": 298.0,
+      "y": 162.0,
+      "label": "Phosphate",
+      "groupId": "c24a4",
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0001429"
+    },
+    {
+      "id": "b8600",
+      "geneNames": null,
+      "type": "compound",
+      "x": 298.0,
+      "y": 142.0,
+      "label": "Phosphate",
+      "groupId": "c24a4",
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0001429"
+    },
+    {
+      "id": "bb44a",
+      "geneNames": null,
+      "type": "compound",
+      "x": 296.0,
+      "y": 92.0,
+      "label": "ATP",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000538"
+    },
+    {
+      "id": "c34c7",
+      "geneNames": null,
+      "type": "compound",
+      "x": 164.74166666666667,
+      "y": 187.98333333333332,
+      "label": "carboxylic acid AMP ester",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "cb1fb",
+      "geneNames": null,
+      "type": "compound",
+      "x": 271.0,
+      "y": 319.0,
+      "label": "L-Glutamine",
+      "groupId": "db47d",
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000641"
+    },
+    {
+      "id": "e0361",
+      "geneNames": null,
+      "type": "compound",
+      "x": 164.48333333333332,
+      "y": 69.98333333333333,
+      "label": "carboxylic acid",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:33575"
+    },
+    {
+      "id": "ef007",
+      "geneNames": null,
+      "type": "compound",
+      "x": 164.0,
+      "y": 279.0,
+      "label": "carboxyl CoA",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "f36a5",
+      "geneNames": null,
+      "type": "compound",
+      "x": 271.0,
+      "y": 299.0,
+      "label": "Taurine",
+      "groupId": "db47d",
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000251"
+    },
+    {
+      "id": "c24a4",
+      "type": "group",
+      "components": [
+        "b836b",
+        "b8600"
+      ]
+    },
+    {
+      "id": "db47d",
+      "type": "group",
+      "components": [
+        "b09fb",
+        "cb1fb",
+        "f36a5"
+      ]
+    }
+  ]
+}

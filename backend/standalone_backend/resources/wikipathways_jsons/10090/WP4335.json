@@ -1,0 +1,491 @@
+{
+  "pathway": {
+    "name": "WP4335",
+    "org": "Mus musculus",
+    "title": "Eicosanoid lipid synthesis map"
+  },
+  "links": [
+    {
+      "id": "id5ed5f452",
+      "sourceId": "e7d74",
+      "targetId": "idd6637579",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id78fe73b6",
+      "sourceId": "fa4c6",
+      "targetId": "a4609",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id79e71df4",
+      "sourceId": "fd80c",
+      "targetId": "fa4c6",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id7ce738f8",
+      "sourceId": "ab16b",
+      "targetId": "bfe2d",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "idd6637579",
+      "sourceId": "f947a",
+      "targetId": "ca499",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "ae8cf",
+      "sourceId": "c4adc",
+      "targetId": "bdd19",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "bdd19",
+      "sourceId": "ca499",
+      "targetId": "aad9b",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "cb98c",
+      "sourceId": "c3583",
+      "targetId": "e2028",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "e2028",
+      "sourceId": "aad9b",
+      "targetId": "fd80c",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "eef65",
+      "sourceId": "bd354",
+      "targetId": "dcea1",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "dcea1",
+      "sourceId": "fd80c",
+      "targetId": "c03ab",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "c9007",
+      "sourceId": "fd80c",
+      "targetId": "bec49",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "ce8f6",
+      "sourceId": "a4609",
+      "targetId": "b0655",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "b37b6",
+      "sourceId": "fa4c6",
+      "targetId": "b856b",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "e00b5",
+      "sourceId": "c8f6f",
+      "targetId": "id79e71df4",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "bfe2d",
+      "sourceId": "ca499",
+      "targetId": "f4615",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "c6ec2",
+      "sourceId": "ca499",
+      "targetId": "b9a9a",
+      "types": [
+        "conversion"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "ead9e",
+      "geneNames": [
+        "Pla2g5"
+      ],
+      "type": "gene_protein",
+      "x": 355.32211240310073,
+      "y": 71.1721124031008,
+      "label": null,
+      "groupId": "e7d74",
+      "referenceDatabase": "GeneID",
+      "referenceId": "18784",
+      "uniprotAccs": [
+        "P97391",
+        "Q6GTW1"
+      ]
+    },
+    {
+      "id": "f947a",
+      "geneNames": null,
+      "type": "compound",
+      "x": 210.975,
+      "y": 60.62,
+      "label": "GP",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:37739"
+    },
+    {
+      "id": "ca499",
+      "geneNames": null,
+      "type": "compound",
+      "x": 210.975,
+      "y": 176.62,
+      "label": "AA",
+      "groupId": null,
+      "referenceDatabase": "LIPID MAPS",
+      "referenceId": "LMFA01030001"
+    },
+    {
+      "id": "f5256",
+      "geneNames": [
+        "Pla2g6"
+      ],
+      "type": "gene_protein",
+      "x": 355.32211240310073,
+      "y": 96.17211240310084,
+      "label": null,
+      "groupId": "e7d74",
+      "referenceDatabase": "GeneID",
+      "referenceId": "53357",
+      "uniprotAccs": [
+        "P97819",
+        "Q3U613",
+        "Q3UN31"
+      ]
+    },
+    {
+      "id": "c8c88",
+      "geneNames": [
+        "Pla2g4a"
+      ],
+      "type": "gene_protein",
+      "x": 355.32211240310073,
+      "y": 121.17211240310081,
+      "label": null,
+      "groupId": "e7d74",
+      "referenceDatabase": "GeneID",
+      "referenceId": "18783",
+      "uniprotAccs": [
+        "P47713",
+        "Q3UMQ1",
+        "Q9DBX5"
+      ]
+    },
+    {
+      "id": "b5aec",
+      "geneNames": [
+        "Pla2g4b"
+      ],
+      "type": "gene_protein",
+      "x": 355.32211240310073,
+      "y": 146.17211240310078,
+      "label": null,
+      "groupId": "e7d74",
+      "referenceDatabase": "GeneID",
+      "referenceId": "211429",
+      "uniprotAccs": [
+        "P0C871",
+        "B7ZCM8",
+        "Q06G06"
+      ]
+    },
+    {
+      "id": "f78bf",
+      "geneNames": [
+        "Ptgs1"
+      ],
+      "type": "gene_protein",
+      "x": 356.87249999999995,
+      "y": 224.59499999999986,
+      "label": null,
+      "groupId": "c4adc",
+      "referenceDatabase": "GeneID",
+      "referenceId": "74451",
+      "uniprotAccs": [
+        "Q8BHF7",
+        "B9EKS7"
+      ]
+    },
+    {
+      "id": "c6172",
+      "geneNames": [
+        "Ptgs2"
+      ],
+      "type": "gene_protein",
+      "x": 356.87249999999995,
+      "y": 249.5949999999999,
+      "label": null,
+      "groupId": "c4adc",
+      "referenceDatabase": "GeneID",
+      "referenceId": "19225",
+      "uniprotAccs": [
+        "Q05769"
+      ]
+    },
+    {
+      "id": "dd013",
+      "geneNames": [
+        "Ptgs1"
+      ],
+      "type": "gene_protein",
+      "x": 356.87249999999995,
+      "y": 357.33750000000003,
+      "label": null,
+      "groupId": "c3583",
+      "referenceDatabase": "GeneID",
+      "referenceId": "74451",
+      "uniprotAccs": [
+        "Q8BHF7",
+        "B9EKS7"
+      ]
+    },
+    {
+      "id": "afcdc",
+      "geneNames": [
+        "Ptgs2"
+      ],
+      "type": "gene_protein",
+      "x": 356.87249999999995,
+      "y": 382.33750000000003,
+      "label": null,
+      "groupId": "c3583",
+      "referenceDatabase": "GeneID",
+      "referenceId": "19225",
+      "uniprotAccs": [
+        "Q05769"
+      ]
+    },
+    {
+      "id": "aad9b",
+      "geneNames": null,
+      "type": "compound",
+      "x": 210.975,
+      "y": 308.62000000000006,
+      "label": "PGG2",
+      "groupId": null,
+      "referenceDatabase": "LIPID MAPS",
+      "referenceId": "LMFA03010009"
+    },
+    {
+      "id": "fd80c",
+      "geneNames": null,
+      "type": "compound",
+      "x": 210.975,
+      "y": 455.62,
+      "label": "PGH2",
+      "groupId": null,
+      "referenceDatabase": "LIPID MAPS",
+      "referenceId": "LMFA03010010"
+    },
+    {
+      "id": "c03ab",
+      "geneNames": null,
+      "type": "compound",
+      "x": 210.97499999999997,
+      "y": 575.2665187499998,
+      "label": "PGE2",
+      "groupId": null,
+      "referenceDatabase": "LIPID MAPS",
+      "referenceId": "LMFA03010003"
+    },
+    {
+      "id": "bd354",
+      "geneNames": [
+        "Ptges"
+      ],
+      "type": "gene_protein",
+      "x": 358.42288759689916,
+      "y": 506.59095009689895,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "64292",
+      "uniprotAccs": [
+        "Q9JM51",
+        "Q8BNP8"
+      ]
+    },
+    {
+      "id": "bec49",
+      "geneNames": null,
+      "type": "compound",
+      "x": 87.32975624999995,
+      "y": 575.2665187499998,
+      "label": "PGF2a",
+      "groupId": null,
+      "referenceDatabase": "LIPID MAPS",
+      "referenceId": "LMFA03010002"
+    },
+    {
+      "id": "fa4c6",
+      "geneNames": null,
+      "type": "compound",
+      "x": 478.975,
+      "y": 508.82155038759686,
+      "label": "PGD2",
+      "groupId": null,
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q419750"
+    },
+    {
+      "id": "a4609",
+      "geneNames": null,
+      "type": "compound",
+      "x": 478.975,
+      "y": 575.2665187499998,
+      "label": "PGJ2",
+      "groupId": null,
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q27088353"
+    },
+    {
+      "id": "b0655",
+      "geneNames": null,
+      "type": "compound",
+      "x": 478.975,
+      "y": 637.62,
+      "label": "15-deoxy-PGJ2",
+      "groupId": null,
+      "referenceDatabase": "PubChem-compound",
+      "referenceId": "5311211"
+    },
+    {
+      "id": "b856b",
+      "geneNames": null,
+      "type": "compound",
+      "x": 673.9875,
+      "y": 575.2665187499998,
+      "label": "15-deoxy-PGD2",
+      "groupId": null,
+      "referenceDatabase": "PubChem-compound",
+      "referenceId": "5283052"
+    },
+    {
+      "id": "c8f6f",
+      "geneNames": [
+        "Ptgds"
+      ],
+      "type": "gene_protein",
+      "x": 478.87249999999995,
+      "y": 381.04056249999974,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "O09114",
+      "uniprotAccs": [
+        "O09114"
+      ]
+    },
+    {
+      "id": "f4615",
+      "geneNames": null,
+      "type": "compound",
+      "x": 579.975,
+      "y": 176.62,
+      "label": "5-HETE",
+      "groupId": null,
+      "referenceDatabase": "CAS",
+      "referenceId": "70608-72-9"
+    },
+    {
+      "id": "b9a9a",
+      "geneNames": null,
+      "type": "compound",
+      "x": 579.975,
+      "y": 237.62,
+      "label": "11-HETE",
+      "groupId": null,
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q27140010"
+    },
+    {
+      "id": "ab16b",
+      "geneNames": [
+        "Alox5"
+      ],
+      "type": "gene_protein",
+      "x": 579.975,
+      "y": 108.59499999999986,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "11689",
+      "uniprotAccs": [
+        "P48999"
+      ]
+    },
+    {
+      "id": "c3583",
+      "type": "group",
+      "components": [
+        "dd013",
+        "afcdc"
+      ]
+    },
+    {
+      "id": "c4adc",
+      "type": "group",
+      "components": [
+        "f78bf",
+        "c6172"
+      ]
+    },
+    {
+      "id": "e7d74",
+      "type": "group",
+      "components": [
+        "ead9e",
+        "f5256",
+        "c8c88",
+        "b5aec"
+      ]
+    }
+  ]
+}

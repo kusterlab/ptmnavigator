@@ -1,0 +1,328 @@
+{
+  "pathway": {
+    "name": "WP5428",
+    "org": "Homo sapiens",
+    "title": "FGFR4 p.G388R signaling pathway"
+  },
+  "links": [
+    {
+      "id": "id103ac82b",
+      "sourceId": "c0bb9",
+      "targetId": "bd269",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id1c10ba75",
+      "sourceId": "c6ad9",
+      "targetId": "d30f9",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id2196a4aa",
+      "sourceId": "c73af",
+      "targetId": "a0784",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "idd092eedf",
+      "sourceId": "af57a",
+      "targetId": "c15ac",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id3fe4d585",
+      "sourceId": "c2008",
+      "targetId": "c73af",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "d8594",
+      "sourceId": "ee0eb",
+      "targetId": "c8326",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "e69af",
+      "sourceId": "c6ad9",
+      "targetId": "ee0eb",
+      "types": [
+        "undefined"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "c0bb9",
+      "geneNames": [
+        "IL10"
+      ],
+      "type": "gene_protein",
+      "x": 1359.9949888641436,
+      "y": 279.8168151447663,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P22301",
+      "uniprotAccs": [
+        "P22301"
+      ]
+    },
+    {
+      "id": "c73af",
+      "geneNames": [
+        "STAT3"
+      ],
+      "type": "gene_protein",
+      "x": 242.24806680676332,
+      "y": 164.80776573681027,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P40763",
+      "states": [
+        ""
+      ],
+      "uniprotAccs": [
+        "P40763"
+      ]
+    },
+    {
+      "id": "c15ac",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 587.1361716931924,
+      "y": 369.52576372189606,
+      "label": "Cell Cycle Progression",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP179"
+    },
+    {
+      "id": "c2008",
+      "geneNames": [
+        "STAT3"
+      ],
+      "type": "gene_protein",
+      "x": 338.91404778593255,
+      "y": 350.04901637996085,
+      "label": null,
+      "groupId": "af57a",
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P40763",
+      "states": [
+        ""
+      ],
+      "uniprotAccs": [
+        "P40763"
+      ]
+    },
+    {
+      "id": "a0784",
+      "geneNames": [
+        "STAT3"
+      ],
+      "type": "gene_protein",
+      "x": 175.93314759238945,
+      "y": 251.81371566079585,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P40763",
+      "uniprotAccs": [
+        "P40763"
+      ]
+    },
+    {
+      "id": "dc77e",
+      "geneNames": [
+        "CD334"
+      ],
+      "type": "gene_protein",
+      "x": 298.33333333333013,
+      "y": 137.16698077647956,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P22455",
+      "uniprotAccs": [
+        "P22455"
+      ]
+    },
+    {
+      "id": "ee0eb",
+      "geneNames": [
+        "STAT3"
+      ],
+      "type": "gene_protein",
+      "x": 914.9346339709432,
+      "y": 171.82269110994477,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P40763",
+      "states": [
+        ""
+      ],
+      "uniprotAccs": [
+        "P40763"
+      ]
+    },
+    {
+      "id": "f4b1f",
+      "geneNames": [
+        "CD334"
+      ],
+      "type": "gene_protein",
+      "x": 971.0199004975099,
+      "y": 144.18190614961443,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P22455",
+      "uniprotAccs": [
+        "P22455"
+      ]
+    },
+    {
+      "id": "c8326",
+      "geneNames": [
+        "STAT3"
+      ],
+      "type": "gene_protein",
+      "x": 892.7357083003924,
+      "y": 252.0688020190119,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P40763",
+      "uniprotAccs": [
+        "P40763"
+      ]
+    },
+    {
+      "id": "d30f9",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 960.6000864934022,
+      "y": 402.4387666372852,
+      "label": "Proliferation",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP179"
+    },
+    {
+      "id": "dda73",
+      "geneNames": [
+        "IL10"
+      ],
+      "type": "gene_protein",
+      "x": 1125.027888883757,
+      "y": 309.4703688581724,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000136634",
+      "uniprotAccs": [
+        "P22301",
+        "A0A286YEX3",
+        "A0A590UK12"
+      ]
+    },
+    {
+      "id": "a73f6",
+      "geneNames": [
+        "STAT3"
+      ],
+      "type": "gene_protein",
+      "x": 1110.9904096727407,
+      "y": 249.28700360973082,
+      "label": null,
+      "groupId": "c6ad9",
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P40763",
+      "states": [
+        ""
+      ],
+      "uniprotAccs": [
+        "P40763"
+      ]
+    },
+    {
+      "id": "ed5bf",
+      "geneNames": [
+        "STAT3"
+      ],
+      "type": "gene_protein",
+      "x": 1099.4604050918858,
+      "y": 277.15232655980003,
+      "label": null,
+      "groupId": "c6ad9",
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P40763",
+      "states": [
+        ""
+      ],
+      "uniprotAccs": [
+        "P40763"
+      ]
+    },
+    {
+      "id": "d68d9",
+      "geneNames": [
+        "STAT3"
+      ],
+      "type": "gene_protein",
+      "x": 328.1828001417552,
+      "y": 377.38787804599997,
+      "label": null,
+      "groupId": "af57a",
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P40763",
+      "states": [
+        ""
+      ],
+      "uniprotAccs": [
+        "P40763"
+      ]
+    },
+    {
+      "id": "bd269",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 1512.1415138659272,
+      "y": 279.8168151447663,
+      "label": "Proliferation",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP179"
+    },
+    {
+      "id": "af57a",
+      "type": "group",
+      "components": [
+        "c2008",
+        "d68d9"
+      ]
+    },
+    {
+      "id": "c6ad9",
+      "type": "group",
+      "components": [
+        "a73f6",
+        "ed5bf"
+      ]
+    }
+  ]
+}

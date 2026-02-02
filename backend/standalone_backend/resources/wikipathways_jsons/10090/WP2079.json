@@ -1,0 +1,130 @@
+{
+  "pathway": {
+    "name": "WP2079",
+    "org": "Mus musculus",
+    "title": "Serotonin receptor 2 and STAT3 signaling"
+  },
+  "links": [
+    {
+      "id": "b5b37",
+      "sourceId": "cafea",
+      "targetId": "cacda",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "ba2f3",
+      "sourceId": "afa00",
+      "targetId": "cafea",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "be6b0",
+      "sourceId": "d4a3b",
+      "targetId": "afa00",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "d2154",
+      "sourceId": "cacda",
+      "targetId": "afa00",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "fe91c",
+      "sourceId": "cacda",
+      "targetId": "ce8ce",
+      "types": [
+        "stimulation"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "afa00",
+      "geneNames": [
+        "Htr2a"
+      ],
+      "type": "gene_protein",
+      "x": 182.45808520384793,
+      "y": 175.54191479615207,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000034997",
+      "uniprotAccs": [
+        "P35363"
+      ]
+    },
+    {
+      "id": "cacda",
+      "geneNames": [
+        "Jak2"
+      ],
+      "type": "gene_protein",
+      "x": 182.45808520384793,
+      "y": 335.54191479615207,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000024789",
+      "uniprotAccs": [
+        "Q62120",
+        "A0A494BBB9"
+      ]
+    },
+    {
+      "id": "cafea",
+      "geneNames": [
+        "Gnaq"
+      ],
+      "type": "gene_protein",
+      "x": 283.45808520384793,
+      "y": 253.54191479615207,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "14682",
+      "uniprotAccs": [
+        "P21279",
+        "Q3UHH5"
+      ]
+    },
+    {
+      "id": "ce8ce",
+      "geneNames": [
+        "Stat3"
+      ],
+      "type": "gene_protein",
+      "x": 180.45808520384793,
+      "y": 442.54191479615207,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "20848",
+      "uniprotAccs": [
+        "P42227",
+        "Q3ULI4",
+        "Q6GU23"
+      ]
+    },
+    {
+      "id": "d4a3b",
+      "geneNames": null,
+      "type": "compound",
+      "x": 183.0,
+      "y": 89.0,
+      "label": "serotonin",
+      "groupId": null,
+      "referenceDatabase": "CAS",
+      "referenceId": "50-67-9"
+    }
+  ]
+}

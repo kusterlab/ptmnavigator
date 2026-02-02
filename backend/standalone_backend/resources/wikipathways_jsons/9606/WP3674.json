@@ -1,0 +1,276 @@
+{
+  "pathway": {
+    "name": "WP3674",
+    "org": "Homo sapiens",
+    "title": "Tgif disruption of Shh signaling"
+  },
+  "links": [
+    {
+      "id": "id3f39f41c",
+      "sourceId": "c3e23",
+      "targetId": "ef408",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id5ab67169",
+      "sourceId": "a9cec",
+      "targetId": "c21c6",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id6c165d74",
+      "sourceId": "a9cec",
+      "targetId": "faed2",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id7096a13",
+      "sourceId": "ff9de",
+      "targetId": "cc33e",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id7435f341",
+      "sourceId": "faed2",
+      "targetId": "id5ab67169",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "ida408347a",
+      "sourceId": "cc33e",
+      "targetId": "c3e23",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ida6a23148",
+      "sourceId": "faed2",
+      "targetId": "c3e23",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "ideb6c0667",
+      "sourceId": "cc33e",
+      "targetId": "a9cec",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "idf811be72",
+      "sourceId": "cc33e",
+      "targetId": "faed2",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idfb402b17",
+      "sourceId": "be9ac",
+      "targetId": "cc33e",
+      "types": [
+        "inhibition"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "a7ab6",
+      "geneNames": [
+        "TGIF2"
+      ],
+      "type": "gene_protein",
+      "x": 70.95247782298411,
+      "y": 146.90118195508708,
+      "label": null,
+      "groupId": "be9ac",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000118707",
+      "uniprotAccs": [
+        "Q9GZN2",
+        "H0YKN5",
+        "U3KQ25",
+        "U3KQB5",
+        "U3KQS0"
+      ]
+    },
+    {
+      "id": "a9cec",
+      "geneNames": [
+        "SHH"
+      ],
+      "type": "gene_protein",
+      "x": 152.45312256830977,
+      "y": 218.45372869912313,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000164690",
+      "uniprotAccs": [
+        "Q15465",
+        "C9JC48",
+        "F8WB84",
+        "F8WEH4"
+      ]
+    },
+    {
+      "id": "c21c6",
+      "geneNames": [
+        "NKX2-1"
+      ],
+      "type": "gene_protein",
+      "x": 152.45312256830977,
+      "y": 302.8089833735279,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000136352",
+      "uniprotAccs": [
+        "P43699",
+        "A0A7P0P5T6"
+      ]
+    },
+    {
+      "id": "c3e23",
+      "geneNames": [
+        "FGF8"
+      ],
+      "type": "gene_protein",
+      "x": 333.92636563729803,
+      "y": 218.45372869912313,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000107831",
+      "uniprotAccs": [
+        "P55075",
+        "A0A087X1S5",
+        "R4GMQ3"
+      ]
+    },
+    {
+      "id": "cc33e",
+      "geneNames": [
+        "SMAD2"
+      ],
+      "type": "gene_protein",
+      "x": 182.95247782298324,
+      "y": 156.9011819550872,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000175387",
+      "uniprotAccs": [
+        "Q15796",
+        "B7Z5N5",
+        "K7EJX0",
+        "K7EL92",
+        "K7ERC7",
+        "K7ESI8"
+      ]
+    },
+    {
+      "id": "ef408",
+      "geneNames": [
+        "FOXG1"
+      ],
+      "type": "gene_protein",
+      "x": 333.9263656372981,
+      "y": 293.9011819550881,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000176165",
+      "uniprotAccs": [
+        "P55316"
+      ]
+    },
+    {
+      "id": "f6157",
+      "geneNames": [
+        "TGIF1"
+      ],
+      "type": "gene_protein",
+      "x": 70.95247782298411,
+      "y": 166.90118195508708,
+      "label": null,
+      "groupId": "be9ac",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000177426",
+      "uniprotAccs": [
+        "Q15583",
+        "F8VUY0",
+        "F8VVS9",
+        "F8VW34",
+        "F8VWK5",
+        "F8VX54",
+        "F8VXG3",
+        "F8VYL4",
+        "F8VZH2",
+        "F8W1J9",
+        "J3KS32"
+      ]
+    },
+    {
+      "id": "faed2",
+      "geneNames": [
+        "GLI3"
+      ],
+      "type": "gene_protein",
+      "x": 244.26305609284336,
+      "y": 218.45372869912313,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000106571",
+      "uniprotAccs": [
+        "P10071",
+        "A0A2R8Y6R3",
+        "A0A2R8Y723",
+        "A0A2R8YGX0",
+        "A0A7I2V3B8",
+        "A0A7I2V4V2",
+        "A0A7I2V4X9",
+        "F8WEV4"
+      ]
+    },
+    {
+      "id": "ff9de",
+      "geneNames": [
+        "NODAL"
+      ],
+      "type": "gene_protein",
+      "x": 182.95247782298324,
+      "y": 91.9011819550878,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000156574",
+      "uniprotAccs": [
+        "Q96S42",
+        "H7C0E4"
+      ]
+    },
+    {
+      "id": "be9ac",
+      "type": "group",
+      "components": [
+        "a7ab6",
+        "f6157"
+      ]
+    }
+  ]
+}

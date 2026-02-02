@@ -1,0 +1,358 @@
+{
+  "pathway": {
+    "name": "WP3408",
+    "org": "Homo sapiens",
+    "title": "Evolocumab mechanism to reduce LDL cholesterol"
+  },
+  "links": [
+    {
+      "id": "id16f07fa9",
+      "sourceId": "b3120",
+      "targetId": "b27bc",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "id5b0e1b0",
+      "sourceId": "idf9d82346",
+      "targetId": "c2f49",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id63132f7",
+      "sourceId": "e93fb",
+      "targetId": "c2f49",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id81b28f13",
+      "sourceId": "e17dd",
+      "targetId": "d062f",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "id84447d2e",
+      "sourceId": "d062f",
+      "targetId": "bc284",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id88a1bbd8",
+      "sourceId": "ffd3e",
+      "targetId": "c6f4a",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id9b84540a",
+      "sourceId": "f97b1",
+      "targetId": "d062f",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "idad364b72",
+      "sourceId": "c6f4a",
+      "targetId": "ee943",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "idb9079b5c",
+      "sourceId": "b7c27",
+      "targetId": "d9851",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "idc67b8522",
+      "sourceId": "bc284",
+      "targetId": "f97b1",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "idef1ebe04",
+      "sourceId": "bc284",
+      "targetId": "b7c27",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "idf9d82346",
+      "sourceId": "ffd3e",
+      "targetId": "d062f",
+      "types": [
+        "conversion"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "c2f49",
+      "geneNames": [
+        "PCSK9"
+      ],
+      "type": "gene_protein",
+      "x": 219.0,
+      "y": 112.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000169174",
+      "uniprotAccs": [
+        "Q8NBP7",
+        "A0A669KAY4",
+        "A0A669KB81",
+        "A0A669KBG0",
+        "A0AA34QVH0"
+      ]
+    },
+    {
+      "id": "d062f",
+      "geneNames": [
+        "LDLR"
+      ],
+      "type": "gene_protein",
+      "x": 319.0,
+      "y": 158.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000130164",
+      "uniprotAccs": [
+        "P01130",
+        "H0YM92",
+        "H0YMD1",
+        "H0YMQ3",
+        "J3KMZ9"
+      ]
+    },
+    {
+      "id": "e17dd",
+      "geneNames": null,
+      "type": "compound",
+      "x": 319.0,
+      "y": 76.0,
+      "label": "LDL-C",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:47774"
+    },
+    {
+      "id": "e93fb",
+      "geneNames": null,
+      "type": "compound",
+      "x": 219.0,
+      "y": 67.0,
+      "label": "Evolocumab",
+      "groupId": null,
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q15623825"
+    },
+    {
+      "id": "b152d",
+      "geneNames": [
+        "PCSK9"
+      ],
+      "type": "gene_protein",
+      "x": 104.0,
+      "y": 168.0,
+      "label": null,
+      "groupId": "ffd3e",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000169174",
+      "uniprotAccs": [
+        "Q8NBP7",
+        "A0A669KAY4",
+        "A0A669KB81",
+        "A0A669KBG0",
+        "A0AA34QVH0"
+      ]
+    },
+    {
+      "id": "b27bc",
+      "geneNames": [
+        "LDLR"
+      ],
+      "type": "gene_protein",
+      "x": 104.0,
+      "y": 148.0,
+      "label": null,
+      "groupId": "ffd3e",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000130164",
+      "uniprotAccs": [
+        "P01130",
+        "H0YM92",
+        "H0YMD1",
+        "H0YMQ3",
+        "J3KMZ9"
+      ]
+    },
+    {
+      "id": "b3120",
+      "geneNames": null,
+      "type": "compound",
+      "x": 103.0,
+      "y": 76.0,
+      "label": "LDL-C",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:47774"
+    },
+    {
+      "id": "a3c40",
+      "geneNames": [
+        "PCSK9"
+      ],
+      "type": "gene_protein",
+      "x": 104.0,
+      "y": 284.0,
+      "label": null,
+      "groupId": "c6f4a",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000169174",
+      "uniprotAccs": [
+        "Q8NBP7",
+        "A0A669KAY4",
+        "A0A669KB81",
+        "A0A669KBG0",
+        "A0AA34QVH0"
+      ]
+    },
+    {
+      "id": "be154",
+      "geneNames": [
+        "LDLR"
+      ],
+      "type": "gene_protein",
+      "x": 104.0,
+      "y": 264.0,
+      "label": null,
+      "groupId": "c6f4a",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000130164",
+      "uniprotAccs": [
+        "P01130",
+        "H0YM92",
+        "H0YMD1",
+        "H0YMQ3",
+        "J3KMZ9"
+      ]
+    },
+    {
+      "id": "abfed",
+      "geneNames": null,
+      "type": "compound",
+      "x": 104.0,
+      "y": 244.0,
+      "label": "LDL-C",
+      "groupId": "c6f4a",
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:47774"
+    },
+    {
+      "id": "d8784",
+      "geneNames": [
+        "LDLR"
+      ],
+      "type": "gene_protein",
+      "x": 320.0,
+      "y": 245.0,
+      "label": null,
+      "groupId": "bc284",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000130164",
+      "uniprotAccs": [
+        "P01130",
+        "H0YM92",
+        "H0YMD1",
+        "H0YMQ3",
+        "J3KMZ9"
+      ]
+    },
+    {
+      "id": "be1bb",
+      "geneNames": null,
+      "type": "compound",
+      "x": 320.0,
+      "y": 225.0,
+      "label": "LDL-C",
+      "groupId": "bc284",
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:47774"
+    },
+    {
+      "id": "f97b1",
+      "geneNames": [
+        "LDLR"
+      ],
+      "type": "gene_protein",
+      "x": 365.0,
+      "y": 332.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000130164",
+      "uniprotAccs": [
+        "P01130",
+        "H0YM92",
+        "H0YMD1",
+        "H0YMQ3",
+        "J3KMZ9"
+      ]
+    },
+    {
+      "id": "b7c27",
+      "geneNames": null,
+      "type": "compound",
+      "x": 269.0,
+      "y": 332.0,
+      "label": "LDL-C",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:47774"
+    },
+    {
+      "id": "bc284",
+      "type": "group",
+      "components": [
+        "d8784",
+        "be1bb"
+      ]
+    },
+    {
+      "id": "c6f4a",
+      "type": "group",
+      "components": [
+        "a3c40",
+        "be154",
+        "abfed"
+      ]
+    },
+    {
+      "id": "ffd3e",
+      "type": "group",
+      "components": [
+        "b152d",
+        "b27bc"
+      ]
+    }
+  ]
+}

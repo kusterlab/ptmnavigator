@@ -1,0 +1,184 @@
+{
+  "pathway": {
+    "name": "WP5431",
+    "org": "Homo sapiens",
+    "title": "FLT3 p.Gln640SerfsTer8 signaling pathway"
+  },
+  "links": [],
+  "nodes": [
+    {
+      "id": "d2faf",
+      "geneNames": [
+        "CCR5"
+      ],
+      "type": "gene_protein",
+      "x": 923.559523809524,
+      "y": 159.04761904761904,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P51681",
+      "uniprotAccs": [
+        "P51681"
+      ]
+    },
+    {
+      "id": "dfb39",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 947.6190476190488,
+      "y": 655.4642857142865,
+      "label": "Cell Cycle Progression",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP179"
+    },
+    {
+      "id": "edc65",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 969.0476190476189,
+      "y": 120.95238095238068,
+      "label": "Chemotaxis to Mucosal &/or Inflammed Tissues",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "f7a60",
+      "geneNames": [
+        "STAT3"
+      ],
+      "type": "gene_protein",
+      "x": 367.32929991356957,
+      "y": 201.1328867761452,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P40763",
+      "uniprotAccs": [
+        "P40763"
+      ]
+    },
+    {
+      "id": "f0bd7",
+      "geneNames": [
+        "FLT3"
+      ],
+      "type": "gene_protein",
+      "x": 427.1484442523768,
+      "y": 155.75691443388078,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P36888",
+      "uniprotAccs": [
+        "P36888"
+      ]
+    },
+    {
+      "id": "ea910",
+      "geneNames": [
+        "STAT3"
+      ],
+      "type": "gene_protein",
+      "x": 276.2057044079515,
+      "y": 421.1588159031975,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P40763",
+      "uniprotAccs": [
+        "P40763"
+      ]
+    },
+    {
+      "id": "e87d3",
+      "geneNames": [
+        "STAT3"
+      ],
+      "type": "gene_protein",
+      "x": 602.9127052722532,
+      "y": 459.3472342264474,
+      "label": null,
+      "groupId": "b86db",
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P40763",
+      "uniprotAccs": [
+        "P40763"
+      ]
+    },
+    {
+      "id": "b8ae2",
+      "geneNames": [
+        "STAT3"
+      ],
+      "type": "gene_protein",
+      "x": 602.5410544511636,
+      "y": 497.0049697493522,
+      "label": null,
+      "groupId": "b86db",
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P40763",
+      "uniprotAccs": [
+        "P40763"
+      ]
+    },
+    {
+      "id": "c34b1",
+      "geneNames": [
+        "CCR6"
+      ],
+      "type": "gene_protein",
+      "x": 1053.5595238095236,
+      "y": 158.57142857142838,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P51684",
+      "uniprotAccs": [
+        "P51684"
+      ]
+    },
+    {
+      "id": "a5867",
+      "geneNames": [
+        "CCR5"
+      ],
+      "type": "gene_protein",
+      "x": 944.9880952380955,
+      "y": 369.04761904761904,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P51681",
+      "uniprotAccs": [
+        "P51681"
+      ]
+    },
+    {
+      "id": "a7661",
+      "geneNames": [
+        "CCR6"
+      ],
+      "type": "gene_protein",
+      "x": 1008.3214285714281,
+      "y": 427.6190476190483,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P51684",
+      "uniprotAccs": [
+        "P51684"
+      ]
+    },
+    {
+      "id": "b86db",
+      "type": "group",
+      "components": [
+        "e87d3",
+        "b8ae2"
+      ]
+    }
+  ]
+}

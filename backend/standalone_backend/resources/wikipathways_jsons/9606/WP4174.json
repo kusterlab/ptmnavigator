@@ -1,0 +1,312 @@
+{
+  "pathway": {
+    "name": "WP4174",
+    "org": "Homo sapiens",
+    "title": "Metabolism of tetrahydrocannabinol (THC)"
+  },
+  "links": [
+    {
+      "id": "id196d9f7a",
+      "sourceId": "e4c4e",
+      "targetId": "idfafd6241",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id1f00e0ee",
+      "sourceId": "fee3c",
+      "targetId": "idfafd6241",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id236012c2",
+      "sourceId": "a11f5",
+      "targetId": "a2381",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id4639873f",
+      "sourceId": "a5d14",
+      "targetId": "a2381",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id5b0c861e",
+      "sourceId": "fdc56",
+      "targetId": "c4bfe",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id65d83807",
+      "sourceId": "c4507",
+      "targetId": "id8095906a",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id6d1c38bc",
+      "sourceId": "a5d14",
+      "targetId": "a271f",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id7ee22824",
+      "sourceId": "c2368",
+      "targetId": "a915a",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id8095906a",
+      "sourceId": "c4bfe",
+      "targetId": "a5d14",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id90c5ccea",
+      "sourceId": "c2368",
+      "targetId": "a271f",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idaf0dc943",
+      "sourceId": "a2381",
+      "targetId": "a271f",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idbd24a453",
+      "sourceId": "e61d5",
+      "targetId": "id5b0c861e",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "idc9c2ad51",
+      "sourceId": "fdc56",
+      "targetId": "a11f5",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "idd1dea2cd",
+      "sourceId": "ba988",
+      "targetId": "idc9c2ad51",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "idfafd6241",
+      "sourceId": "a5d14",
+      "targetId": "c2368",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "deb90",
+      "sourceId": "e54c0",
+      "targetId": "id8095906a",
+      "types": [
+        "catalysis"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "a11f5",
+      "geneNames": null,
+      "type": "compound",
+      "x": 365.2043354655322,
+      "y": 339.75564430472474,
+      "label": "8-Hydroxy-delta-9-THC",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0060910"
+    },
+    {
+      "id": "a2381",
+      "geneNames": null,
+      "type": "compound",
+      "x": 556.4074074074084,
+      "y": 339.7556443047247,
+      "label": "8,11-dihydroxy-delta-9-THC",
+      "groupId": null,
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q55971997"
+    },
+    {
+      "id": "a5d14",
+      "geneNames": null,
+      "type": "compound",
+      "x": 556.4074074074069,
+      "y": 161.12839231213394,
+      "label": "11-oxo-THC",
+      "groupId": null,
+      "referenceDatabase": "PubChem-compound",
+      "referenceId": "124158"
+    },
+    {
+      "id": "a915a",
+      "geneNames": null,
+      "type": "compound",
+      "x": 921.2968748747481,
+      "y": 219.12212271965737,
+      "label": "THC-COOH-glucuronide",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "ba988",
+      "geneNames": [
+        "P450 3A"
+      ],
+      "type": "gene_protein",
+      "x": 264.5607954398749,
+      "y": 295.00687127805764,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P08684",
+      "uniprotAccs": [
+        "P08684"
+      ]
+    },
+    {
+      "id": "c2368",
+      "geneNames": null,
+      "type": "compound",
+      "x": 735.756368139858,
+      "y": 161.12839231213394,
+      "label": "11-nor-9-carboxy-THC",
+      "groupId": null,
+      "referenceDatabase": "PubChem-compound",
+      "referenceId": "107885"
+    },
+    {
+      "id": "c4507",
+      "geneNames": [
+        "ADH"
+      ],
+      "type": "gene_protein",
+      "x": 488.0,
+      "y": 104.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "EC",
+      "referenceId": "1.1.1.1",
+      "uniprotAccs": [
+        "P11766",
+        "P07327",
+        "P00326",
+        "P28332",
+        "P40394"
+      ]
+    },
+    {
+      "id": "c4bfe",
+      "geneNames": null,
+      "type": "compound",
+      "x": 365.20433546553244,
+      "y": 161.12839231213394,
+      "label": "11-hydroxy-THC",
+      "groupId": null,
+      "referenceDatabase": "PubChem-compound",
+      "referenceId": "37482"
+    },
+    {
+      "id": "e61d5",
+      "geneNames": [
+        "CYP2C9"
+      ],
+      "type": "gene_protein",
+      "x": 264.5607954398749,
+      "y": 213.07392507443103,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000138109",
+      "uniprotAccs": [
+        "P11712",
+        "A0A2R8YF67"
+      ]
+    },
+    {
+      "id": "fdc56",
+      "geneNames": null,
+      "type": "compound",
+      "x": 365.20433546553244,
+      "y": 261.54939587775414,
+      "label": "THC",
+      "groupId": null,
+      "referenceDatabase": "PubChem-compound",
+      "referenceId": "16078"
+    },
+    {
+      "id": "fee3c",
+      "geneNames": [
+        "P450 2C9"
+      ],
+      "type": "gene_protein",
+      "x": 592.0598845598844,
+      "y": 104.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P11712",
+      "uniprotAccs": [
+        "P11712"
+      ]
+    },
+    {
+      "id": "a271f",
+      "geneNames": null,
+      "type": "misc",
+      "x": 735.7563681398578,
+      "y": 339.75564430472474,
+      "label": "Conjugation",
+      "groupId": null
+    },
+    {
+      "id": "e4c4e",
+      "geneNames": null,
+      "type": "misc",
+      "x": 678.9696969696963,
+      "y": 104.0,
+      "label": "MALDO",
+      "groupId": null
+    },
+    {
+      "id": "e54c0",
+      "geneNames": null,
+      "type": "misc",
+      "x": 384.0,
+      "y": 104.0,
+      "label": "MALCO",
+      "groupId": null
+    }
+  ]
+}

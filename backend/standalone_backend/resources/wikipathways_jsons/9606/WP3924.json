@@ -1,0 +1,227 @@
+{
+  "pathway": {
+    "name": "WP3924",
+    "org": "Homo sapiens",
+    "title": "Hfe effect on hepcidin production"
+  },
+  "links": [
+    {
+      "id": "id1256c2dc",
+      "sourceId": "a6a6b",
+      "targetId": "ddb43",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id8fa290ea",
+      "sourceId": "ec820",
+      "targetId": "ddb43",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id9c9df73",
+      "sourceId": "ddb43",
+      "targetId": "e377b",
+      "types": [
+        "transcription/translation"
+      ]
+    },
+    {
+      "id": "idd1c2659f",
+      "sourceId": "c3bc3",
+      "targetId": "ddb43",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "ide62e7672",
+      "sourceId": "c714c",
+      "targetId": "id9c9df73",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idf9ab670b",
+      "sourceId": "a4845",
+      "targetId": "c3bc3",
+      "types": [
+        "inhibition"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "a4845",
+      "geneNames": [
+        "HFE"
+      ],
+      "type": "gene_protein",
+      "x": 63.78303091001911,
+      "y": 138.30555555555554,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000010704",
+      "uniprotAccs": [
+        "Q30201",
+        "F8W7W8",
+        "H7C4K4",
+        "Q6B0J5"
+      ]
+    },
+    {
+      "id": "c3bc3",
+      "geneNames": [
+        "TMPRSS6"
+      ],
+      "type": "gene_protein",
+      "x": 193.42592592592598,
+      "y": 138.30555555555554,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000187045",
+      "uniprotAccs": [
+        "Q8IU80",
+        "B0QYB3",
+        "B0QYB6",
+        "X6REP5"
+      ]
+    },
+    {
+      "id": "ddb43",
+      "geneNames": [
+        "HFE2"
+      ],
+      "type": "gene_protein",
+      "x": 323.92592592592587,
+      "y": 138.30555555555554,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000168509",
+      "uniprotAccs": [
+        "Q6ZVN8",
+        "A0A0U1RR55",
+        "F8W6J7"
+      ]
+    },
+    {
+      "id": "e8a48",
+      "geneNames": [
+        "HAMP"
+      ],
+      "type": "gene_protein",
+      "x": 323.9259259259259,
+      "y": 255.78911865205592,
+      "label": null,
+      "groupId": "e377b",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000105697",
+      "uniprotAccs": [
+        "P81172"
+      ]
+    },
+    {
+      "id": "ec820",
+      "geneNames": [
+        "BMP6"
+      ],
+      "type": "gene_protein",
+      "x": 323.92592592592587,
+      "y": 60.3055555555556,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000153162",
+      "uniprotAccs": [
+        "P22004"
+      ]
+    },
+    {
+      "id": "effd0",
+      "geneNames": [
+        "SMAD7"
+      ],
+      "type": "gene_protein",
+      "x": 323.9259259259259,
+      "y": 275.7891186520563,
+      "label": null,
+      "groupId": "e377b",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000101665",
+      "uniprotAccs": [
+        "O15105",
+        "K7EKF0"
+      ]
+    },
+    {
+      "id": "f6fe9",
+      "geneNames": [
+        "ID1"
+      ],
+      "type": "gene_protein",
+      "x": 323.9259259259259,
+      "y": 235.78911865205592,
+      "label": null,
+      "groupId": "e377b",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000125968",
+      "uniprotAccs": [
+        "P41134"
+      ]
+    },
+    {
+      "id": "a6a6b",
+      "geneNames": [
+        "HFE"
+      ],
+      "type": "gene_protein",
+      "x": 467.38748478064497,
+      "y": 138.30555555555554,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000010704",
+      "uniprotAccs": [
+        "Q30201",
+        "F8W7W8",
+        "H7C4K4",
+        "Q6B0J5"
+      ]
+    },
+    {
+      "id": "c714c",
+      "geneNames": [
+        "HFE"
+      ],
+      "type": "gene_protein",
+      "x": 469.38748478064497,
+      "y": 184.24511016849297,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000010704",
+      "uniprotAccs": [
+        "Q30201",
+        "F8W7W8",
+        "H7C4K4",
+        "Q6B0J5"
+      ]
+    },
+    {
+      "id": "e377b",
+      "type": "group",
+      "components": [
+        "e8a48",
+        "effd0",
+        "f6fe9"
+      ]
+    }
+  ]
+}

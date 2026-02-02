@@ -1,0 +1,234 @@
+{
+  "pathway": {
+    "name": "WP2276",
+    "org": "Homo sapiens",
+    "title": "Glial cell differentiation"
+  },
+  "links": [
+    {
+      "id": "idfb49e1db",
+      "sourceId": "c4f8f",
+      "targetId": "ea962",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id52963094",
+      "sourceId": "ec4c8",
+      "targetId": "f9eff",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id6d85230c",
+      "sourceId": "d67cb",
+      "targetId": "c4f8f",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id7d16b712",
+      "sourceId": "a4018",
+      "targetId": "ea962",
+      "types": [
+        "inhibition"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "ec4c8",
+      "geneNames": [
+        "GAP43"
+      ],
+      "type": "gene_protein",
+      "x": 199.0,
+      "y": 53.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000172020",
+      "uniprotAccs": [
+        "P17677"
+      ]
+    },
+    {
+      "id": "fa5dc",
+      "geneNames": [
+        "MBP"
+      ],
+      "type": "gene_protein",
+      "x": 711.0,
+      "y": 72.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000197971",
+      "uniprotAccs": [
+        "P02686",
+        "A8MZH3",
+        "C9J6H1",
+        "E9PJ72",
+        "E9PKX9",
+        "E9PLQ9",
+        "E9PLU9",
+        "E9PMR5",
+        "E9PNZ1",
+        "E9PQE7",
+        "E9PSE2",
+        "F5H7N4",
+        "F8WEU6",
+        "H0YEA2",
+        "H0YF02",
+        "H7BYR8",
+        "J3KS94",
+        "J3KT01",
+        "J3KT34",
+        "J3QKL5",
+        "J3QKN5",
+        "J3QL64",
+        "J3QQK6"
+      ]
+    },
+    {
+      "id": "a3e3b",
+      "geneNames": [
+        "PLP1"
+      ],
+      "type": "gene_protein",
+      "x": 711.0,
+      "y": 92.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000123560",
+      "uniprotAccs": [
+        "P60201",
+        "B1B1G1",
+        "B1B1G2",
+        "B1B1G3",
+        "B1B1G4",
+        "B1B1G6"
+      ]
+    },
+    {
+      "id": "fe21e",
+      "geneNames": [
+        "MAG"
+      ],
+      "type": "gene_protein",
+      "x": 711.0,
+      "y": 112.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000105695",
+      "uniprotAccs": [
+        "P20916",
+        "M0QZU4",
+        "M0R3B9",
+        "M0R3I4"
+      ]
+    },
+    {
+      "id": "bff4c",
+      "geneNames": [
+        "CNP"
+      ],
+      "type": "gene_protein",
+      "x": 711.0,
+      "y": 132.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000173786",
+      "uniprotAccs": [
+        "P09543",
+        "C9K0L8",
+        "K7EN66",
+        "K7EQ27",
+        "K7ERC4",
+        "K7ERZ0"
+      ]
+    },
+    {
+      "id": "c4f8f",
+      "geneNames": [
+        "TPPP"
+      ],
+      "type": "gene_protein",
+      "x": 382.0,
+      "y": 224.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000171368",
+      "uniprotAccs": [
+        "O94811"
+      ]
+    },
+    {
+      "id": "d67cb",
+      "geneNames": [
+        "miR-206"
+      ],
+      "type": "gene_protein",
+      "x": 382.0,
+      "y": 294.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000207604",
+      "uniprotAccs": null
+    },
+    {
+      "id": "f5f1b",
+      "geneNames": [
+        "MSN"
+      ],
+      "type": "gene_protein",
+      "x": 724.25,
+      "y": 221.75,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000147065",
+      "uniprotAccs": [
+        "P26038",
+        "A0A8V8TKQ0",
+        "A0A8V8TKR9",
+        "V9GZ54"
+      ]
+    },
+    {
+      "id": "a4018",
+      "geneNames": null,
+      "type": "misc",
+      "x": 381.0,
+      "y": 105.0,
+      "label": "Hypoxia",
+      "groupId": null
+    },
+    {
+      "id": "f9eff",
+      "geneNames": null,
+      "type": "misc",
+      "x": 199.0,
+      "y": 111.0,
+      "label": "Neural Stem Cell",
+      "groupId": null
+    },
+    {
+      "id": "ea962",
+      "geneNames": null,
+      "type": "misc",
+      "x": 382.0,
+      "y": 156.0,
+      "label": "Glial Cell Differentiation",
+      "groupId": null
+    }
+  ]
+}

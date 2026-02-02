@@ -1,0 +1,387 @@
+{
+  "pathway": {
+    "name": "WP454",
+    "org": "Mus musculus",
+    "title": "Osteoclast signaling"
+  },
+  "links": [
+    {
+      "id": "id3fd94031",
+      "sourceId": "e2f",
+      "targetId": "f27",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id44b86944",
+      "sourceId": "fbe",
+      "targetId": "d0b",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idbfc8ac31",
+      "sourceId": "c68",
+      "targetId": "f00",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idc834f577",
+      "sourceId": "cf3",
+      "targetId": "fbe",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idcf531fec",
+      "sourceId": "b5e",
+      "targetId": "c68",
+      "types": [
+        "inhibition"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "acd",
+      "geneNames": null,
+      "type": "compound",
+      "x": 186.0,
+      "y": 367.0,
+      "label": "H+",
+      "groupId": null,
+      "referenceDatabase": "PubChem-compound",
+      "referenceId": "1038"
+    },
+    {
+      "id": "b5e",
+      "geneNames": [
+        "OPG"
+      ],
+      "type": "gene_protein",
+      "x": 836.0,
+      "y": 192.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "18383",
+      "uniprotAccs": [
+        "O08712",
+        "Q3UK97"
+      ]
+    },
+    {
+      "id": "c0f",
+      "geneNames": null,
+      "type": "compound",
+      "x": 308.0,
+      "y": 367.0,
+      "label": "Pi",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "c12",
+      "geneNames": [
+        "PDGFB"
+      ],
+      "type": "gene_protein",
+      "x": 589.0,
+      "y": 102.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "18591",
+      "uniprotAccs": [
+        "P31240",
+        "A0A0R4IZW4"
+      ]
+    },
+    {
+      "id": "c3d",
+      "geneNames": [
+        "TRPV"
+      ],
+      "type": "gene_protein",
+      "x": 127.5,
+      "y": 317.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "194352",
+      "uniprotAccs": [
+        "P69744"
+      ]
+    },
+    {
+      "id": "c68",
+      "geneNames": [
+        "RANK ligand"
+      ],
+      "type": "gene_protein",
+      "x": 732.0,
+      "y": 130.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "21943",
+      "uniprotAccs": [
+        "O35235"
+      ]
+    },
+    {
+      "id": "c9d",
+      "geneNames": null,
+      "type": "compound",
+      "x": 567.0,
+      "y": 367.0,
+      "label": "H+",
+      "groupId": null,
+      "referenceDatabase": "PubChem-compound",
+      "referenceId": "1038"
+    },
+    {
+      "id": "cf3",
+      "geneNames": null,
+      "type": "compound",
+      "x": 271.0,
+      "y": 66.0,
+      "label": "H+",
+      "groupId": null,
+      "referenceDatabase": "PubChem-compound",
+      "referenceId": "1038"
+    },
+    {
+      "id": "d2e",
+      "geneNames": [
+        "TRAP"
+      ],
+      "type": "gene_protein",
+      "x": 481.0,
+      "y": 367.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "11433",
+      "uniprotAccs": [
+        "Q05117"
+      ]
+    },
+    {
+      "id": "e09",
+      "geneNames": [
+        "PDGFB"
+      ],
+      "type": "gene_protein",
+      "x": 589.0,
+      "y": 82.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "18591",
+      "uniprotAccs": [
+        "P31240",
+        "A0A0R4IZW4"
+      ]
+    },
+    {
+      "id": "e2f",
+      "geneNames": [
+        "IFN-b"
+      ],
+      "type": "gene_protein",
+      "x": 90.0,
+      "y": 113.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "15977",
+      "uniprotAccs": [
+        "P01575",
+        "Q0VE17"
+      ]
+    },
+    {
+      "id": "e45",
+      "geneNames": null,
+      "type": "compound",
+      "x": 156.0,
+      "y": 246.0,
+      "label": "Ca2+",
+      "groupId": null,
+      "referenceDatabase": "PubChem-compound",
+      "referenceId": "271"
+    },
+    {
+      "id": "e85",
+      "geneNames": null,
+      "type": "compound",
+      "x": 394.0,
+      "y": 367.0,
+      "label": "Ca2+",
+      "groupId": null,
+      "referenceDatabase": "PubChem-compound",
+      "referenceId": "271"
+    },
+    {
+      "id": "ea3",
+      "geneNames": [
+        "Na+/H+ transporter"
+      ],
+      "type": "gene_protein",
+      "x": 246.5,
+      "y": 318.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "20544",
+      "uniprotAccs": [
+        "Q61165",
+        "Q3UDC9"
+      ]
+    },
+    {
+      "id": "edf",
+      "geneNames": [
+        "H+ ATPase"
+      ],
+      "type": "gene_protein",
+      "x": 568.0,
+      "y": 317.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "66290",
+      "uniprotAccs": [
+        "Q9CR51",
+        "Q5HZY7"
+      ]
+    },
+    {
+      "id": "ef6",
+      "geneNames": null,
+      "type": "compound",
+      "x": 297.0,
+      "y": 247.0,
+      "label": "Na+",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000588"
+    },
+    {
+      "id": "f00",
+      "geneNames": [
+        "RANK"
+      ],
+      "type": "gene_protein",
+      "x": 689.0,
+      "y": 225.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "21934",
+      "uniprotAccs": [
+        "O35305"
+      ]
+    },
+    {
+      "id": "f27",
+      "geneNames": [
+        "Type 1 interferon receptor"
+      ],
+      "type": "gene_protein",
+      "x": 172.5,
+      "y": 182.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "15975",
+      "uniprotAccs": [
+        "P33896"
+      ]
+    },
+    {
+      "id": "f56",
+      "geneNames": [
+        "b3 integrin"
+      ],
+      "type": "gene_protein",
+      "x": 738.0,
+      "y": 317.5,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "16416",
+      "uniprotAccs": [
+        "O54890"
+      ]
+    },
+    {
+      "id": "f78",
+      "geneNames": [
+        "Cathepsin K"
+      ],
+      "type": "gene_protein",
+      "x": 653.0,
+      "y": 367.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "13038",
+      "uniprotAccs": [
+        "P55097",
+        "Q545T0"
+      ]
+    },
+    {
+      "id": "fbe",
+      "geneNames": [
+        "OGR1"
+      ],
+      "type": "gene_protein",
+      "x": 320.0,
+      "y": 133.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "238377",
+      "uniprotAccs": [
+        "Q8BFQ3"
+      ]
+    },
+    {
+      "id": "fc5",
+      "geneNames": [
+        "Osteopontin"
+      ],
+      "type": "gene_protein",
+      "x": 738.0,
+      "y": 337.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "20750",
+      "uniprotAccs": [
+        "P10923",
+        "F8WIP8",
+        "Q3UBR1",
+        "Q547B5"
+      ]
+    },
+    {
+      "id": "d0b",
+      "geneNames": null,
+      "type": "misc",
+      "x": 393.0,
+      "y": 197.0,
+      "label": "Osteoclast activation",
+      "groupId": null
+    }
+  ]
+}

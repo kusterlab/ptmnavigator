@@ -1,0 +1,1092 @@
+{
+  "pathway": {
+    "name": "WP496",
+    "org": "Homo sapiens",
+    "title": "Steroid biosynthesis"
+  },
+  "links": [
+    {
+      "id": "a4f06",
+      "sourceId": "fc9",
+      "targetId": "e7c",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "aae23",
+      "sourceId": "e7c",
+      "targetId": "d5886",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "b3d37",
+      "sourceId": "d5886",
+      "targetId": "a627a",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "b77c2",
+      "sourceId": "eba07",
+      "targetId": "f787e",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "b8f52",
+      "sourceId": "a97",
+      "targetId": "cec42",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "bb139",
+      "sourceId": "eba07",
+      "targetId": "fe0",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "c641d",
+      "sourceId": "c1f",
+      "targetId": "b37e5",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "d6842",
+      "sourceId": "d5886",
+      "targetId": "eba07",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "e1660",
+      "sourceId": "e5c",
+      "targetId": "a8e",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "f0ce4",
+      "sourceId": "a627a",
+      "targetId": "fe0",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "f1fce",
+      "sourceId": "c1f",
+      "targetId": "a8e",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "f2073",
+      "sourceId": "c1f",
+      "targetId": "fe0",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "f744e",
+      "sourceId": "e7c",
+      "targetId": "a97",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "f8a58",
+      "sourceId": "a97",
+      "targetId": "eba07",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "fc704",
+      "sourceId": "a627a",
+      "targetId": "aa58a",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "fec22",
+      "sourceId": "fe0",
+      "targetId": "e5c",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ffb15",
+      "sourceId": "aa58a",
+      "targetId": "c1f",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id1342dce3",
+      "sourceId": "abc1b",
+      "targetId": "f1fce",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id33db230f",
+      "sourceId": "d04",
+      "targetId": "aae23",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id346a22b5",
+      "sourceId": "bc942",
+      "targetId": "f0ce4",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id3bc05b12",
+      "sourceId": "f69",
+      "targetId": "b3d37",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id51330f20",
+      "sourceId": "b50",
+      "targetId": "bb139",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id5aa4f2d7",
+      "sourceId": "c55ed",
+      "targetId": "ffb15",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id920fa45c",
+      "sourceId": "af573",
+      "targetId": "e1660",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id9b26dd4a",
+      "sourceId": "b9d",
+      "targetId": "c641d",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "ida4b47c0d",
+      "sourceId": "b7840",
+      "targetId": "f744e",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "idb00e663e",
+      "sourceId": "c68",
+      "targetId": "f8a58",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "idb26dca1",
+      "sourceId": "a55",
+      "targetId": "fec22",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "idf30caa85",
+      "sourceId": "a81c8",
+      "targetId": "d6842",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "idf9e079de",
+      "sourceId": "e4d",
+      "targetId": "f2073",
+      "types": [
+        "catalysis"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "a47",
+      "geneNames": [
+        "HSD17B4"
+      ],
+      "type": "gene_protein",
+      "x": 1165.6666666666663,
+      "y": 413.66666666666674,
+      "label": null,
+      "groupId": "af573",
+      "referenceDatabase": "GeneID",
+      "referenceId": "3295",
+      "uniprotAccs": [
+        "P51659",
+        "A0A0S2Z4J1",
+        "B2R659",
+        "B3KSP2"
+      ]
+    },
+    {
+      "id": "a4d",
+      "geneNames": [
+        "HSD3B1"
+      ],
+      "type": "gene_protein",
+      "x": 464.0,
+      "y": 184.0,
+      "label": null,
+      "groupId": "a81c8",
+      "referenceDatabase": "GeneID",
+      "referenceId": "3283",
+      "uniprotAccs": [
+        "P14060"
+      ]
+    },
+    {
+      "id": "a55",
+      "geneNames": [
+        "Steroid-19-Hydroxylase"
+      ],
+      "type": "gene_protein",
+      "x": 842.0,
+      "y": 407.3333333333333,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000120054",
+      "uniprotAccs": [
+        "P15169",
+        "B1AP58"
+      ]
+    },
+    {
+      "id": "a5f",
+      "geneNames": [
+        "HSD17B2"
+      ],
+      "type": "gene_protein",
+      "x": 1075.6666666666663,
+      "y": 430.33333333333326,
+      "label": null,
+      "groupId": "af573",
+      "referenceDatabase": "GeneID",
+      "referenceId": "3294",
+      "uniprotAccs": [
+        "P37059"
+      ]
+    },
+    {
+      "id": "a627a",
+      "geneNames": null,
+      "type": "compound",
+      "x": 259.5,
+      "y": 376.0,
+      "label": "dehydroepiandrosterone",
+      "groupId": null,
+      "referenceDatabase": "CAS",
+      "referenceId": "53-43-0"
+    },
+    {
+      "id": "a8e",
+      "geneNames": null,
+      "type": "compound",
+      "x": 990.0000000000001,
+      "y": 486.0,
+      "label": "Estradiol",
+      "groupId": null,
+      "referenceDatabase": "CAS",
+      "referenceId": "57-91-0"
+    },
+    {
+      "id": "a97",
+      "geneNames": null,
+      "type": "compound",
+      "x": 644.3333333333331,
+      "y": 159.0,
+      "label": "Progesterone",
+      "groupId": null,
+      "referenceDatabase": "CAS",
+      "referenceId": "57-83-0"
+    },
+    {
+      "id": "a9d",
+      "geneNames": [
+        "HSD3B1"
+      ],
+      "type": "gene_protein",
+      "x": 485.0,
+      "y": 451.33333333333326,
+      "label": null,
+      "groupId": "bc942",
+      "referenceDatabase": "GeneID",
+      "referenceId": "3283",
+      "uniprotAccs": [
+        "P14060"
+      ]
+    },
+    {
+      "id": "aa58a",
+      "geneNames": null,
+      "type": "compound",
+      "x": 259.0,
+      "y": 486.0,
+      "label": "Androstenediol",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0005849"
+    },
+    {
+      "id": "ab1",
+      "geneNames": [
+        "HSD3B1"
+      ],
+      "type": "gene_protein",
+      "x": 460.0,
+      "y": 102.0,
+      "label": null,
+      "groupId": "b7840",
+      "referenceDatabase": "GeneID",
+      "referenceId": "3283",
+      "uniprotAccs": [
+        "P14060"
+      ]
+    },
+    {
+      "id": "b37e5",
+      "geneNames": null,
+      "type": "compound",
+      "x": 644.0,
+      "y": 598.0,
+      "label": "Dihydrotestosterone",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0002961"
+    },
+    {
+      "id": "b50",
+      "geneNames": [
+        "Hydroxyprogesterone aldolase"
+      ],
+      "type": "gene_protein",
+      "x": 767.6666666666666,
+      "y": 322.3333333333333,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "EC",
+      "referenceId": "4.1.2.30",
+      "uniprotAccs": []
+    },
+    {
+      "id": "b64",
+      "geneNames": [
+        "HSD3B1"
+      ],
+      "type": "gene_protein",
+      "x": 460.0,
+      "y": 82.0,
+      "label": null,
+      "groupId": "b7840",
+      "referenceDatabase": "GeneID",
+      "referenceId": "3283",
+      "uniprotAccs": [
+        "P14060"
+      ]
+    },
+    {
+      "id": "b6a",
+      "geneNames": [
+        "HSD3B1"
+      ],
+      "type": "gene_protein",
+      "x": 393.3333333333333,
+      "y": 122.0,
+      "label": null,
+      "groupId": "b7840",
+      "referenceDatabase": "GeneID",
+      "referenceId": "3283",
+      "uniprotAccs": [
+        "P14060"
+      ]
+    },
+    {
+      "id": "b9d",
+      "geneNames": [
+        "F13B"
+      ],
+      "type": "gene_protein",
+      "x": 589.3333333333333,
+      "y": 545.3333333333333,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "2165",
+      "uniprotAccs": [
+        "P05160"
+      ]
+    },
+    {
+      "id": "bce",
+      "geneNames": [
+        "HSD3B2"
+      ],
+      "type": "gene_protein",
+      "x": 396.3333333333333,
+      "y": 540.3333333333333,
+      "label": null,
+      "groupId": "c55ed",
+      "referenceDatabase": "GeneID",
+      "referenceId": "3284",
+      "uniprotAccs": [
+        "P26439"
+      ]
+    },
+    {
+      "id": "c11",
+      "geneNames": [
+        "HSD3B1"
+      ],
+      "type": "gene_protein",
+      "x": 485.0,
+      "y": 431.33333333333326,
+      "label": null,
+      "groupId": "bc942",
+      "referenceDatabase": "GeneID",
+      "referenceId": "3283",
+      "uniprotAccs": [
+        "P14060"
+      ]
+    },
+    {
+      "id": "c1f",
+      "geneNames": null,
+      "type": "compound",
+      "x": 644.3333333333331,
+      "y": 486.66666666666674,
+      "label": "Testosterone",
+      "groupId": null,
+      "referenceDatabase": "CAS",
+      "referenceId": "58-22-0"
+    },
+    {
+      "id": "c4f",
+      "geneNames": [
+        "HSD3B1"
+      ],
+      "type": "gene_protein",
+      "x": 418.3333333333333,
+      "y": 411.33333333333326,
+      "label": null,
+      "groupId": "bc942",
+      "referenceDatabase": "GeneID",
+      "referenceId": "3283",
+      "uniprotAccs": [
+        "P14060"
+      ]
+    },
+    {
+      "id": "c68",
+      "geneNames": [
+        "CYP17A1"
+      ],
+      "type": "gene_protein",
+      "x": 707.6666666666669,
+      "y": 209.66666666666663,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "1586",
+      "uniprotAccs": [
+        "P05093",
+        "Q1HB44"
+      ]
+    },
+    {
+      "id": "c90",
+      "geneNames": [
+        "HSD3B1"
+      ],
+      "type": "gene_protein",
+      "x": 463.0,
+      "y": 560.3333333333333,
+      "label": null,
+      "groupId": "c55ed",
+      "referenceDatabase": "GeneID",
+      "referenceId": "3283",
+      "uniprotAccs": [
+        "P14060"
+      ]
+    },
+    {
+      "id": "ceb",
+      "geneNames": [
+        "HSD3B1"
+      ],
+      "type": "gene_protein",
+      "x": 464.0,
+      "y": 204.0,
+      "label": null,
+      "groupId": "a81c8",
+      "referenceDatabase": "GeneID",
+      "referenceId": "3283",
+      "uniprotAccs": [
+        "P14060"
+      ]
+    },
+    {
+      "id": "cec42",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 937.9190093708166,
+      "y": 159.0,
+      "label": "Mineralocortocoid Synthesis",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP4523"
+    },
+    {
+      "id": "d04",
+      "geneNames": [
+        "CYP17A1"
+      ],
+      "type": "gene_protein",
+      "x": 323.6666666666667,
+      "y": 200.66666666666663,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "1586",
+      "uniprotAccs": [
+        "P05093",
+        "Q1HB44"
+      ]
+    },
+    {
+      "id": "d0d",
+      "geneNames": [
+        "HSD3B1"
+      ],
+      "type": "gene_protein",
+      "x": 397.3333333333333,
+      "y": 224.0,
+      "label": null,
+      "groupId": "a81c8",
+      "referenceDatabase": "GeneID",
+      "referenceId": "3283",
+      "uniprotAccs": [
+        "P14060"
+      ]
+    },
+    {
+      "id": "d18",
+      "geneNames": [
+        "HSD3B1"
+      ],
+      "type": "gene_protein",
+      "x": 463.0,
+      "y": 520.3333333333333,
+      "label": null,
+      "groupId": "c55ed",
+      "referenceDatabase": "GeneID",
+      "referenceId": "3283",
+      "uniprotAccs": [
+        "P14060"
+      ]
+    },
+    {
+      "id": "d1c",
+      "geneNames": [
+        "HSD3B2"
+      ],
+      "type": "gene_protein",
+      "x": 393.3333333333333,
+      "y": 102.0,
+      "label": null,
+      "groupId": "b7840",
+      "referenceDatabase": "GeneID",
+      "referenceId": "3284",
+      "uniprotAccs": [
+        "P26439"
+      ]
+    },
+    {
+      "id": "d38",
+      "geneNames": [
+        "HSD3B2"
+      ],
+      "type": "gene_protein",
+      "x": 397.3333333333333,
+      "y": 204.0,
+      "label": null,
+      "groupId": "a81c8",
+      "referenceDatabase": "GeneID",
+      "referenceId": "3284",
+      "uniprotAccs": [
+        "P26439"
+      ]
+    },
+    {
+      "id": "d3c",
+      "geneNames": [
+        "HSD17B1"
+      ],
+      "type": "gene_protein",
+      "x": 1075.6666666666663,
+      "y": 410.33333333333326,
+      "label": null,
+      "groupId": "af573",
+      "referenceDatabase": "GeneID",
+      "referenceId": "3292",
+      "uniprotAccs": [
+        "P14061",
+        "A0A0A0MQS7"
+      ]
+    },
+    {
+      "id": "d5886",
+      "geneNames": null,
+      "type": "compound",
+      "x": 259.5,
+      "y": 258.0,
+      "label": "17-alpha-OH-Pregnenolone",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000363"
+    },
+    {
+      "id": "d86",
+      "geneNames": [
+        "HSD3B1"
+      ],
+      "type": "gene_protein",
+      "x": 418.3333333333333,
+      "y": 451.33333333333326,
+      "label": null,
+      "groupId": "bc942",
+      "referenceDatabase": "GeneID",
+      "referenceId": "3283",
+      "uniprotAccs": [
+        "P14060"
+      ]
+    },
+    {
+      "id": "dad",
+      "geneNames": [
+        "HSD3B1"
+      ],
+      "type": "gene_protein",
+      "x": 460.0,
+      "y": 122.0,
+      "label": null,
+      "groupId": "b7840",
+      "referenceDatabase": "GeneID",
+      "referenceId": "3283",
+      "uniprotAccs": [
+        "P14060"
+      ]
+    },
+    {
+      "id": "dc0",
+      "geneNames": [
+        "HSD17B3"
+      ],
+      "type": "gene_protein",
+      "x": 1075.6666666666663,
+      "y": 450.33333333333326,
+      "label": null,
+      "groupId": "af573",
+      "referenceDatabase": "GeneID",
+      "referenceId": "3293",
+      "uniprotAccs": [
+        "P37058",
+        "Q6FH62"
+      ]
+    },
+    {
+      "id": "dcb",
+      "geneNames": [
+        "HSD3B1"
+      ],
+      "type": "gene_protein",
+      "x": 463.0,
+      "y": 540.3333333333333,
+      "label": null,
+      "groupId": "c55ed",
+      "referenceDatabase": "GeneID",
+      "referenceId": "3283",
+      "uniprotAccs": [
+        "P14060"
+      ]
+    },
+    {
+      "id": "e0d",
+      "geneNames": [
+        "HSD3B1"
+      ],
+      "type": "gene_protein",
+      "x": 393.3333333333333,
+      "y": 82.0,
+      "label": null,
+      "groupId": "b7840",
+      "referenceDatabase": "GeneID",
+      "referenceId": "3283",
+      "uniprotAccs": [
+        "P14060"
+      ]
+    },
+    {
+      "id": "e35",
+      "geneNames": [
+        "HSD3B1"
+      ],
+      "type": "gene_protein",
+      "x": 485.0,
+      "y": 411.33333333333326,
+      "label": null,
+      "groupId": "bc942",
+      "referenceDatabase": "GeneID",
+      "referenceId": "3283",
+      "uniprotAccs": [
+        "P14060"
+      ]
+    },
+    {
+      "id": "e4d",
+      "geneNames": [
+        "HSD3B1"
+      ],
+      "type": "gene_protein",
+      "x": 714.6666666666667,
+      "y": 426.66666666666674,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "3283",
+      "uniprotAccs": [
+        "P14060"
+      ]
+    },
+    {
+      "id": "e5c",
+      "geneNames": null,
+      "type": "compound",
+      "x": 990.0,
+      "y": 373.3333333333333,
+      "label": "Estrone",
+      "groupId": null,
+      "referenceDatabase": "CAS",
+      "referenceId": "53-16-7"
+    },
+    {
+      "id": "e69",
+      "geneNames": [
+        "HSD17B7"
+      ],
+      "type": "gene_protein",
+      "x": 1165.6666666666663,
+      "y": 433.66666666666674,
+      "label": null,
+      "groupId": "af573",
+      "referenceDatabase": "GeneID",
+      "referenceId": "51478",
+      "uniprotAccs": [
+        "P56937",
+        "Q9H9C0"
+      ]
+    },
+    {
+      "id": "e7c",
+      "geneNames": null,
+      "type": "compound",
+      "x": 260.0,
+      "y": 159.0,
+      "label": "Pregnenolone",
+      "groupId": null,
+      "referenceDatabase": "CAS",
+      "referenceId": "145-13-1"
+    },
+    {
+      "id": "eba07",
+      "geneNames": null,
+      "type": "compound",
+      "x": 644.3333333333334,
+      "y": 258.0,
+      "label": "17-alpha-OH-Progesterone",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000374"
+    },
+    {
+      "id": "ef5",
+      "geneNames": [
+        "HSD3B1"
+      ],
+      "type": "gene_protein",
+      "x": 396.3333333333333,
+      "y": 560.3333333333333,
+      "label": null,
+      "groupId": "c55ed",
+      "referenceDatabase": "GeneID",
+      "referenceId": "3283",
+      "uniprotAccs": [
+        "P14060"
+      ]
+    },
+    {
+      "id": "f07",
+      "geneNames": [
+        "HSD3B1"
+      ],
+      "type": "gene_protein",
+      "x": 397.3333333333333,
+      "y": 184.0,
+      "label": null,
+      "groupId": "a81c8",
+      "referenceDatabase": "GeneID",
+      "referenceId": "3283",
+      "uniprotAccs": [
+        "P14060"
+      ]
+    },
+    {
+      "id": "f52",
+      "geneNames": [
+        "HSD3B2"
+      ],
+      "type": "gene_protein",
+      "x": 418.3333333333333,
+      "y": 431.33333333333326,
+      "label": null,
+      "groupId": "bc942",
+      "referenceDatabase": "GeneID",
+      "referenceId": "3284",
+      "uniprotAccs": [
+        "P26439"
+      ]
+    },
+    {
+      "id": "f69",
+      "geneNames": [
+        "Hydroxyprogesterone aldolase"
+      ],
+      "type": "gene_protein",
+      "x": 367.33333333333337,
+      "y": 316.6666666666667,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "EC",
+      "referenceId": "4.1.2.30",
+      "uniprotAccs": []
+    },
+    {
+      "id": "f787e",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 926.5,
+      "y": 258.00000000000006,
+      "label": "Glucocortocoid Synthesis",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP4523"
+    },
+    {
+      "id": "fb1",
+      "geneNames": [
+        "HSD3B1"
+      ],
+      "type": "gene_protein",
+      "x": 464.0,
+      "y": 224.0,
+      "label": null,
+      "groupId": "a81c8",
+      "referenceDatabase": "GeneID",
+      "referenceId": "3283",
+      "uniprotAccs": [
+        "P14060"
+      ]
+    },
+    {
+      "id": "fb9",
+      "geneNames": [
+        "HSD3B1"
+      ],
+      "type": "gene_protein",
+      "x": 396.3333333333333,
+      "y": 520.3333333333333,
+      "label": null,
+      "groupId": "c55ed",
+      "referenceDatabase": "GeneID",
+      "referenceId": "3283",
+      "uniprotAccs": [
+        "P14060"
+      ]
+    },
+    {
+      "id": "fc9",
+      "geneNames": null,
+      "type": "compound",
+      "x": 260.3333333333333,
+      "y": 66.66666666666669,
+      "label": "Cholesterol",
+      "groupId": null,
+      "referenceDatabase": "CAS",
+      "referenceId": "57-88-5"
+    },
+    {
+      "id": "fe0",
+      "geneNames": null,
+      "type": "compound",
+      "x": 644.3333333333334,
+      "y": 376.3333333333333,
+      "label": "Androstenedione",
+      "groupId": null,
+      "referenceDatabase": "CAS",
+      "referenceId": "63-05-8"
+    },
+    {
+      "id": "abc1b",
+      "geneNames": [
+        "Steroid-19-Hydroxylase"
+      ],
+      "type": "gene_protein",
+      "x": 799.4789915966385,
+      "y": 524.4761904761903,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000120054",
+      "uniprotAccs": [
+        "P15169",
+        "B1AP58"
+      ]
+    },
+    {
+      "id": "c3b",
+      "geneNames": null,
+      "type": "misc",
+      "x": 381.6666666666667,
+      "y": 411.33333333333326,
+      "label": "*",
+      "groupId": "bc942"
+    },
+    {
+      "id": "d9d",
+      "geneNames": null,
+      "type": "misc",
+      "x": 1029.0,
+      "y": 413.66666666666674,
+      "label": "**",
+      "groupId": "af573"
+    },
+    {
+      "id": "eb8",
+      "geneNames": null,
+      "type": "misc",
+      "x": 359.6666666666667,
+      "y": 523.6666666666667,
+      "label": "*",
+      "groupId": "c55ed"
+    },
+    {
+      "id": "a81c8",
+      "type": "group",
+      "components": [
+        "a4d",
+        "ceb",
+        "d0d",
+        "d38",
+        "f07",
+        "fb1"
+      ]
+    },
+    {
+      "id": "af573",
+      "type": "group",
+      "components": [
+        "a47",
+        "a5f",
+        "d3c",
+        "dc0",
+        "e69",
+        "d9d"
+      ]
+    },
+    {
+      "id": "b7840",
+      "type": "group",
+      "components": [
+        "ab1",
+        "b64",
+        "b6a",
+        "d1c",
+        "dad",
+        "e0d"
+      ]
+    },
+    {
+      "id": "bc942",
+      "type": "group",
+      "components": [
+        "a9d",
+        "c11",
+        "c4f",
+        "d86",
+        "e35",
+        "f52",
+        "c3b"
+      ]
+    },
+    {
+      "id": "c55ed",
+      "type": "group",
+      "components": [
+        "bce",
+        "c90",
+        "d18",
+        "dcb",
+        "ef5",
+        "fb9",
+        "eb8"
+      ]
+    }
+  ]
+}

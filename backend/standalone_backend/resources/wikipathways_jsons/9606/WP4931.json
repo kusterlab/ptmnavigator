@@ -1,0 +1,246 @@
+{
+  "pathway": {
+    "name": "WP4931",
+    "org": "Homo sapiens",
+    "title": "Direct reversal repair"
+  },
+  "links": [
+    {
+      "id": 0,
+      "sourceId": "e2eea",
+      "targetId": "c8045",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": 1,
+      "sourceId": "fa5ac",
+      "targetId": null,
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "b603e",
+      "sourceId": "d487f",
+      "targetId": "af20a",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "af20a",
+      "sourceId": "ffdfd",
+      "targetId": "c8045",
+      "types": [
+        "conversion"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "bb208",
+      "geneNames": [
+        "ALKBH2"
+      ],
+      "type": "gene_protein",
+      "x": 203.5,
+      "y": 256.0,
+      "label": null,
+      "groupId": "fa5ac",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000189046",
+      "uniprotAccs": [
+        "Q6NS38",
+        "F5GZZ0",
+        "F5H5X2",
+        "S4R3T5"
+      ]
+    },
+    {
+      "id": "bccc3",
+      "geneNames": [
+        "ALKBH3"
+      ],
+      "type": "gene_protein",
+      "x": 203.5,
+      "y": 231.0,
+      "label": null,
+      "groupId": "fa5ac",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000166199",
+      "uniprotAccs": [
+        "Q96Q83",
+        "E9PN35",
+        "E9PRD0",
+        "E9PRJ2",
+        "E9PSA5",
+        "H0YDH4"
+      ]
+    },
+    {
+      "id": "d487f",
+      "geneNames": [
+        "MGMT"
+      ],
+      "type": "gene_protein",
+      "x": 570.5,
+      "y": 240.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000170430",
+      "uniprotAccs": [
+        "P16455",
+        "B4DEE8"
+      ]
+    },
+    {
+      "id": "adab8",
+      "geneNames": null,
+      "type": "misc",
+      "x": 155.5,
+      "y": 141.62976406533573,
+      "label": "5'",
+      "groupId": "e2eea"
+    },
+    {
+      "id": "ad804",
+      "geneNames": null,
+      "type": "misc",
+      "x": 331.5,
+      "y": 160.0,
+      "label": "5'",
+      "groupId": "e2eea"
+    },
+    {
+      "id": "e6970",
+      "geneNames": null,
+      "type": "misc",
+      "x": 330.5,
+      "y": 141.62976406533573,
+      "label": "3'",
+      "groupId": "e2eea"
+    },
+    {
+      "id": "fc974",
+      "geneNames": null,
+      "type": "misc",
+      "x": 156.5,
+      "y": 160.0,
+      "label": "3'",
+      "groupId": "e2eea"
+    },
+    {
+      "id": "d50c6",
+      "geneNames": null,
+      "type": "misc",
+      "x": 475.5,
+      "y": 138.62976406533573,
+      "label": "5'",
+      "groupId": "ffdfd"
+    },
+    {
+      "id": "e7deb",
+      "geneNames": null,
+      "type": "misc",
+      "x": 651.5,
+      "y": 157.0,
+      "label": "5'",
+      "groupId": "ffdfd"
+    },
+    {
+      "id": "d1790",
+      "geneNames": null,
+      "type": "misc",
+      "x": 650.5,
+      "y": 138.62976406533573,
+      "label": "3'",
+      "groupId": "ffdfd"
+    },
+    {
+      "id": "cd49a",
+      "geneNames": null,
+      "type": "misc",
+      "x": 476.5,
+      "y": 157.0,
+      "label": "3'",
+      "groupId": "ffdfd"
+    },
+    {
+      "id": "f3a9c",
+      "geneNames": null,
+      "type": "misc",
+      "x": 313.9410163339385,
+      "y": 330.47368421052715,
+      "label": "5'",
+      "groupId": "c8045"
+    },
+    {
+      "id": "b2a93",
+      "geneNames": null,
+      "type": "misc",
+      "x": 489.0335753176023,
+      "y": 347.93647912885854,
+      "label": "5'",
+      "groupId": "c8045"
+    },
+    {
+      "id": "a6ee5",
+      "geneNames": null,
+      "type": "misc",
+      "x": 488.0335753176023,
+      "y": 329.56624319419325,
+      "label": "3'",
+      "groupId": "c8045"
+    },
+    {
+      "id": "e1458",
+      "geneNames": null,
+      "type": "misc",
+      "x": 314.0335753176046,
+      "y": 347.93647912885854,
+      "label": "3'",
+      "groupId": "c8045"
+    },
+    {
+      "id": "fa5ac",
+      "type": "group",
+      "components": [
+        "bb208",
+        "bccc3"
+      ]
+    },
+    {
+      "id": "e2eea",
+      "type": "group",
+      "components": [
+        "adab8",
+        "ad804",
+        "e6970",
+        "fc974"
+      ]
+    },
+    {
+      "id": "ffdfd",
+      "type": "group",
+      "components": [
+        "d50c6",
+        "e7deb",
+        "d1790",
+        "cd49a"
+      ]
+    },
+    {
+      "id": "c8045",
+      "type": "group",
+      "components": [
+        "f3a9c",
+        "b2a93",
+        "a6ee5",
+        "e1458"
+      ]
+    }
+  ]
+}

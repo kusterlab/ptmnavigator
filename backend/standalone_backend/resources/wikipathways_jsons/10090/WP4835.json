@@ -1,0 +1,440 @@
+{
+  "pathway": {
+    "name": "WP4835",
+    "org": "Mus musculus",
+    "title": "Peroxiredoxin 2 induced ovarian failure"
+  },
+  "links": [
+    {
+      "id": "id10124fd4",
+      "sourceId": "d23ce",
+      "targetId": "f4449",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "id1418adc4",
+      "sourceId": "d8428",
+      "targetId": "ebcbc",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id2cbd58c0",
+      "sourceId": "cc2ba",
+      "targetId": "b083e",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "id2e6105e0",
+      "sourceId": "adf8b",
+      "targetId": "fe0fc",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "id3f71da5c",
+      "sourceId": "eb976",
+      "targetId": "a6f19",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id44d52bb5",
+      "sourceId": "cc2ba",
+      "targetId": "d8428",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "id4adee89e",
+      "sourceId": "fe0fc",
+      "targetId": "c024c",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "id54382d09",
+      "sourceId": "cd5d4",
+      "targetId": "ea72e",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id54a1040f",
+      "sourceId": "c4211",
+      "targetId": "cc2ba",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "id5d551692",
+      "sourceId": "cd5d4",
+      "targetId": "adf8b",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "id5deb3406",
+      "sourceId": "c024c",
+      "targetId": "d8a87",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "id634a73f",
+      "sourceId": "a6f19",
+      "targetId": "cd5d4",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "id6fea2213",
+      "sourceId": "ebcbc",
+      "targetId": "d8a87",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "id747654a0",
+      "sourceId": "b1fd6",
+      "targetId": "a6f19",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "id7b48ef25",
+      "sourceId": "f4449",
+      "targetId": "d8a87",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "id833ac72",
+      "sourceId": "cd5d4",
+      "targetId": "f41fa",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "id84d71cc8",
+      "sourceId": "b083e",
+      "targetId": "ebcbc",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "ida46367e5",
+      "sourceId": "d8a87",
+      "targetId": "e3dd9",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "idaf9273b6",
+      "sourceId": "f41fa",
+      "targetId": "a1f8e",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "idb838ec6d",
+      "sourceId": "c024c",
+      "targetId": "e3dd9",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "idc2d6981b",
+      "sourceId": "ebcbc",
+      "targetId": "e3dd9",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "idceab5a06",
+      "sourceId": "a1f8e",
+      "targetId": "d23ce",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "ide447ff4a",
+      "sourceId": "eb976",
+      "targetId": "cd5d4",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "ideeb25a8a",
+      "sourceId": "ea72e",
+      "targetId": "c4211",
+      "types": [
+        "binding/association"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "a1f8e",
+      "geneNames": [
+        "Cytochrome c"
+      ],
+      "type": "gene_protein",
+      "x": 634.0003662109375,
+      "y": 266.6666666666667,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P62897",
+      "uniprotAccs": [
+        "P62897"
+      ]
+    },
+    {
+      "id": "a6f19",
+      "geneNames": null,
+      "type": "compound",
+      "x": 634.0,
+      "y": 48.00000000000001,
+      "label": "Reactive oxygen species ",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:26523"
+    },
+    {
+      "id": "b083e",
+      "geneNames": null,
+      "type": "compound",
+      "x": 302.5,
+      "y": 435.44361877441406,
+      "label": "Estradiol-17beta",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:16469"
+    },
+    {
+      "id": "c4211",
+      "geneNames": [
+        "CYP11A1"
+      ],
+      "type": "gene_protein",
+      "x": 199.37115097045898,
+      "y": 273.75,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "Q9QZ82",
+      "uniprotAccs": [
+        "Q9QZ82"
+      ]
+    },
+    {
+      "id": "cc2ba",
+      "geneNames": [
+        "3Beta-HSD"
+      ],
+      "type": "gene_protein",
+      "x": 199.37115097045898,
+      "y": 353.25,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "E9PXG7",
+      "uniprotAccs": [
+        "E9PXG7"
+      ]
+    },
+    {
+      "id": "cd5d4",
+      "geneNames": [
+        "JNK"
+      ],
+      "type": "gene_protein",
+      "x": 634.0003662109375,
+      "y": 121.75000000000006,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSP00000023291",
+      "uniprotAccs": null
+    },
+    {
+      "id": "d23ce",
+      "geneNames": [
+        "Caspase-3"
+      ],
+      "type": "gene_protein",
+      "x": 634.0003662109375,
+      "y": 325.33333333333326,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "A0A1B0GRX1",
+      "uniprotAccs": [
+        "A0A1B0GRX1"
+      ]
+    },
+    {
+      "id": "d8428",
+      "geneNames": null,
+      "type": "compound",
+      "x": 95.37115097045898,
+      "y": 435.44361877441406,
+      "label": "Progesterone",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:17026"
+    },
+    {
+      "id": "ea72e",
+      "geneNames": [
+        "StAR "
+      ],
+      "type": "gene_protein",
+      "x": 199.37115097045898,
+      "y": 187.25,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P51557",
+      "uniprotAccs": [
+        "P51557"
+      ]
+    },
+    {
+      "id": "eb976",
+      "geneNames": [
+        "Peroxiredoxin-2"
+      ],
+      "type": "gene_protein",
+      "x": 199.37115097045898,
+      "y": 93.33333333333333,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "Q61171",
+      "uniprotAccs": [
+        "Q61171"
+      ]
+    },
+    {
+      "id": "f41fa",
+      "geneNames": [
+        "Bax"
+      ],
+      "type": "gene_protein",
+      "x": 634.0003662109375,
+      "y": 209.66666666666666,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000003873",
+      "uniprotAccs": [
+        "Q07813",
+        "A0A1B0GS13",
+        "A0A1B0GT35",
+        "A0A1B0GT81",
+        "A0A1B0GTA4"
+      ]
+    },
+    {
+      "id": "f4449",
+      "geneNames": null,
+      "type": "compound",
+      "x": 634.0003662109375,
+      "y": 382.66666666666634,
+      "label": "PARP",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:62913"
+    },
+    {
+      "id": "adf8b",
+      "geneNames": null,
+      "type": "misc",
+      "x": 996.8504638671875,
+      "y": 199.0,
+      "label": "The number of follicles and Corpora lutea declines",
+      "groupId": null
+    },
+    {
+      "id": "b1fd6",
+      "geneNames": null,
+      "type": "misc",
+      "x": 917.0,
+      "y": 48.0,
+      "label": "Aging",
+      "groupId": null
+    },
+    {
+      "id": "c024c",
+      "geneNames": null,
+      "type": "misc",
+      "x": 995.8504638671875,
+      "y": 509.07273864746094,
+      "label": "Ovarian structural degeneration",
+      "groupId": null
+    },
+    {
+      "id": "d8a87",
+      "geneNames": null,
+      "type": "misc",
+      "x": 633.0003662109375,
+      "y": 509.07273864746094,
+      "label": "Apoptosis",
+      "groupId": null
+    },
+    {
+      "id": "e3dd9",
+      "geneNames": null,
+      "type": "misc",
+      "x": 634.0003662109375,
+      "y": 569.0,
+      "label": "Ovarian failure",
+      "groupId": null
+    },
+    {
+      "id": "ebcbc",
+      "geneNames": null,
+      "type": "misc",
+      "x": 302.5,
+      "y": 509.07273864746094,
+      "label": "Ovarian functional degeneration",
+      "groupId": null
+    },
+    {
+      "id": "fe0fc",
+      "geneNames": null,
+      "type": "misc",
+      "x": 996.8504638671875,
+      "y": 331.25,
+      "label": "Size of ovaries decline",
+      "groupId": null
+    }
+  ]
+}

@@ -1,0 +1,632 @@
+{
+  "pathway": {
+    "name": "WP4947",
+    "org": "Homo sapiens",
+    "title": "Nitric oxide metabolism in cystic fibrosis"
+  },
+  "links": [
+    {
+      "id": "id1010a2a2",
+      "sourceId": "d86a5",
+      "targetId": "id11389bc9",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id111017fe",
+      "sourceId": "f4267",
+      "targetId": "fccbc",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id11389bc9",
+      "sourceId": "a26fb",
+      "targetId": "e4879",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id39ee2464",
+      "sourceId": "d6985",
+      "targetId": "ida9a8bbf9",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id4efe0f40",
+      "sourceId": "fccbc",
+      "targetId": "e50c1",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id57f227f0",
+      "sourceId": "ec6e2",
+      "targetId": "iddba9e754",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id6385fa7",
+      "sourceId": "cbd81",
+      "targetId": "fccbc",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id6b4c1920",
+      "sourceId": "c6d8f",
+      "targetId": "idaa339317",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id7a0fbf44",
+      "sourceId": "d6985",
+      "targetId": "id867fa452",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id7c6f7691",
+      "sourceId": "b32f9",
+      "targetId": "idea628d3c",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id7e608d1",
+      "sourceId": "b32f9",
+      "targetId": "id4efe0f40",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id867fa452",
+      "sourceId": "bbed3",
+      "targetId": "bf2cd",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id9e93057f",
+      "sourceId": "e1984",
+      "targetId": "fccbc",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ida9a8bbf9",
+      "sourceId": "bbed3",
+      "targetId": "f4267",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "idaa339317",
+      "sourceId": "bf2cd",
+      "targetId": "e1984",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "idb2389d79",
+      "sourceId": "e4879",
+      "targetId": "ffe00",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idb5968796",
+      "sourceId": "e50c1",
+      "targetId": "b32f9",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "idc596c41b",
+      "sourceId": "e4879",
+      "targetId": "e50c1",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "idcd696043",
+      "sourceId": "e50c1",
+      "targetId": "e4879",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "iddba9e754",
+      "sourceId": "f4b60",
+      "targetId": "bbed3",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "idea628d3c",
+      "sourceId": "e50c1",
+      "targetId": "fccbc",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idf6477123",
+      "sourceId": "e50c1",
+      "targetId": "cbd81",
+      "types": [
+        "conversion"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "a30ed",
+      "geneNames": [
+        "NOS1 "
+      ],
+      "type": "gene_protein",
+      "x": 63.0,
+      "y": 111.0,
+      "label": null,
+      "groupId": "d86a5",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000089250",
+      "uniprotAccs": [
+        "P29475"
+      ]
+    },
+    {
+      "id": "e8906",
+      "geneNames": [
+        "DDAH1"
+      ],
+      "type": "gene_protein",
+      "x": 323.0,
+      "y": 354.0,
+      "label": null,
+      "groupId": "c6d8f",
+      "referenceDatabase": "GeneID",
+      "referenceId": "23576",
+      "uniprotAccs": [
+        "O94760",
+        "B2R644",
+        "B4DGT0",
+        "B4DYP1",
+        "B4E3V1"
+      ]
+    },
+    {
+      "id": "d541c",
+      "geneNames": [
+        "DDAH2"
+      ],
+      "type": "gene_protein",
+      "x": 323.0,
+      "y": 374.0,
+      "label": null,
+      "groupId": "c6d8f",
+      "referenceDatabase": "GeneID",
+      "referenceId": "23564",
+      "uniprotAccs": [
+        "O95865",
+        "V9HW53"
+      ]
+    },
+    {
+      "id": "c76a3",
+      "geneNames": [
+        "PRMT1"
+      ],
+      "type": "gene_protein",
+      "x": 697.0,
+      "y": 74.0,
+      "label": null,
+      "groupId": "ec6e2",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000126457",
+      "uniprotAccs": [
+        "Q99873",
+        "E9PIE2",
+        "E9PIX6",
+        "E9PKG1",
+        "E9PMW9",
+        "E9PMZ2",
+        "E9PNR9",
+        "E9PQ98",
+        "H0YDE4"
+      ]
+    },
+    {
+      "id": "cabab",
+      "geneNames": [
+        "PRMT2"
+      ],
+      "type": "gene_protein",
+      "x": 697.0,
+      "y": 94.0,
+      "label": null,
+      "groupId": "ec6e2",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000160310",
+      "uniprotAccs": [
+        "P55345",
+        "A8MXR3",
+        "H7C2H9"
+      ]
+    },
+    {
+      "id": "c2191",
+      "geneNames": [
+        "PRMT3"
+      ],
+      "type": "gene_protein",
+      "x": 697.0,
+      "y": 114.0,
+      "label": null,
+      "groupId": "ec6e2",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000185238",
+      "uniprotAccs": [
+        "O60678",
+        "E9PLF6",
+        "E9PRB4"
+      ]
+    },
+    {
+      "id": "db7cf",
+      "geneNames": [
+        "CARM1"
+      ],
+      "type": "gene_protein",
+      "x": 697.0,
+      "y": 134.0,
+      "label": null,
+      "groupId": "ec6e2",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000142453",
+      "uniprotAccs": [
+        "Q86X55",
+        "A0AA34QVH5",
+        "K7EIQ8",
+        "K7EK20",
+        "K7EPK1",
+        "K7EQA8",
+        "K7EQB9",
+        "K7ERM3"
+      ]
+    },
+    {
+      "id": "f46e6",
+      "geneNames": [
+        "PRMT5"
+      ],
+      "type": "gene_protein",
+      "x": 697.0,
+      "y": 154.0,
+      "label": null,
+      "groupId": "ec6e2",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000100462",
+      "uniprotAccs": [
+        "O14744",
+        "C9JSX3",
+        "G3V2F5",
+        "G3V2L6",
+        "G3V2X6",
+        "G3V3A3",
+        "G3V507",
+        "G3V580",
+        "G3V5L5",
+        "G3V5T6",
+        "H0YJ77",
+        "H0YJD3",
+        "H0YJX6",
+        "H0YJY6",
+        "H7BZ44"
+      ]
+    },
+    {
+      "id": "ee5a8",
+      "geneNames": [
+        "PRMT6"
+      ],
+      "type": "gene_protein",
+      "x": 697.0,
+      "y": 174.0,
+      "label": null,
+      "groupId": "ec6e2",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000198890",
+      "uniprotAccs": [
+        "Q96LA8",
+        "A0A3B3ITK4"
+      ]
+    },
+    {
+      "id": "abb42",
+      "geneNames": [
+        "PRMT7"
+      ],
+      "type": "gene_protein",
+      "x": 697.0,
+      "y": 194.0,
+      "label": null,
+      "groupId": "ec6e2",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000132600",
+      "uniprotAccs": [
+        "Q9NVM4",
+        "A0A6Q8PFP4",
+        "A0A8I5KPP4",
+        "A0A8I5KPT4",
+        "A0A8I5KQA6",
+        "A0A8I5KRA7",
+        "A0A8I5KRU8",
+        "A0A8I5KRV0",
+        "A0A8I5KRW2",
+        "A0A8I5KWG5",
+        "A0A8I5KXS9",
+        "A0A8I5KYD6",
+        "A0A8I5KZ05",
+        "A0A8I5KZ92",
+        "A0A8I5QKQ0",
+        "A0A8I5QKZ3",
+        "H3BNC0",
+        "H3BPZ8",
+        "H3BRD3",
+        "H3BSS9"
+      ]
+    },
+    {
+      "id": "c7cc2",
+      "geneNames": [
+        "PRMT8"
+      ],
+      "type": "gene_protein",
+      "x": 697.0,
+      "y": 214.0,
+      "label": null,
+      "groupId": "ec6e2",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000111218",
+      "uniprotAccs": [
+        "Q9NR22"
+      ]
+    },
+    {
+      "id": "a26fb",
+      "geneNames": null,
+      "type": "compound",
+      "x": 184.0,
+      "y": 91.0,
+      "label": "L-Arginine",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "16467"
+    },
+    {
+      "id": "b32f9",
+      "geneNames": [
+        "Carboxyl anhydrase"
+      ],
+      "type": "gene_protein",
+      "x": 164.125,
+      "y": 398.75,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Pfam",
+      "referenceId": "PF00194"
+    },
+    {
+      "id": "bf2cd",
+      "geneNames": null,
+      "type": "compound",
+      "x": 411.625,
+      "y": 318.25,
+      "label": "N\u03c9,N\u03c9- dimethyl- L- arginine",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "17929"
+    },
+    {
+      "id": "c5e1f",
+      "geneNames": [
+        "NOS3"
+      ],
+      "type": "gene_protein",
+      "x": 63.0,
+      "y": 151.0,
+      "label": null,
+      "groupId": "d86a5",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000164867",
+      "uniprotAccs": [
+        "P29474",
+        "E7ESA7",
+        "H7C4V4"
+      ]
+    },
+    {
+      "id": "dceab",
+      "geneNames": [
+        "NOS2"
+      ],
+      "type": "gene_protein",
+      "x": 63.0,
+      "y": 131.0,
+      "label": null,
+      "groupId": "d86a5",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000007171",
+      "uniprotAccs": [
+        "P35228",
+        "A0A2R8YDS4",
+        "A0A8V8TKX9",
+        "A0A8V8TKZ7",
+        "A0A8V8TLB1",
+        "A0A8V8TMI7"
+      ]
+    },
+    {
+      "id": "f4b60",
+      "geneNames": null,
+      "type": "compound",
+      "x": 512.0,
+      "y": 105.0,
+      "label": "L-arginine residue",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "29952"
+    },
+    {
+      "id": "ffe00",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 63.0,
+      "y": 186.0,
+      "label": "NO-signaling",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP1850"
+    },
+    {
+      "id": "e4879",
+      "geneNames": null,
+      "type": "compound",
+      "x": 184.0,
+      "y": 186.0,
+      "label": "Nitric oxide",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "16480"
+    },
+    {
+      "id": "e50c1",
+      "geneNames": null,
+      "type": "compound",
+      "x": 184.0,
+      "y": 283.0,
+      "label": "Nitrogen dioxide",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "33101"
+    },
+    {
+      "id": "cbd81",
+      "geneNames": null,
+      "type": "compound",
+      "x": 63.0,
+      "y": 284.0,
+      "label": "Nitrooxidanyl",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "29329"
+    },
+    {
+      "id": "e1984",
+      "geneNames": null,
+      "type": "compound",
+      "x": 413.0,
+      "y": 414.0,
+      "label": "Dimethylamine",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "17170"
+    },
+    {
+      "id": "f4267",
+      "geneNames": null,
+      "type": "compound",
+      "x": 629.625,
+      "y": 320.25,
+      "label": "N\u03c9,N'\u03c9-dimethyl-L-arginine",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "25682"
+    },
+    {
+      "id": "bbed3",
+      "geneNames": null,
+      "type": "compound",
+      "x": 514.5,
+      "y": 198.0,
+      "label": "N\u03c9,N\u03c9-dimethyl-L-arginine residue",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "61896"
+    },
+    {
+      "id": "fccbc",
+      "geneNames": null,
+      "type": "misc",
+      "x": 414.5,
+      "y": 538.0,
+      "label": "Urinary excretion",
+      "groupId": null
+    },
+    {
+      "id": "d6985",
+      "geneNames": null,
+      "type": "misc",
+      "x": 701.0,
+      "y": 267.0,
+      "label": "Proteases",
+      "groupId": null
+    },
+    {
+      "id": "c6d8f",
+      "type": "group",
+      "components": [
+        "e8906",
+        "d541c"
+      ]
+    },
+    {
+      "id": "ec6e2",
+      "type": "group",
+      "components": [
+        "c76a3",
+        "cabab",
+        "c2191",
+        "db7cf",
+        "f46e6",
+        "ee5a8",
+        "abb42",
+        "c7cc2"
+      ]
+    },
+    {
+      "id": "d86a5",
+      "type": "group",
+      "components": [
+        "a30ed",
+        "c5e1f",
+        "dceab"
+      ]
+    }
+  ]
+}

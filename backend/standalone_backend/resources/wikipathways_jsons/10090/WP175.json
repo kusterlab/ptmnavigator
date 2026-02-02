@@ -1,0 +1,414 @@
+{
+  "pathway": {
+    "name": "WP175",
+    "org": "Mus musculus",
+    "title": "Acetylcholine synthesis"
+  },
+  "links": [
+    {
+      "id": "a2634",
+      "sourceId": "baec0",
+      "targetId": "ddaf4",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "a2ef2",
+      "sourceId": "dfde2",
+      "targetId": "dfe",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "a9da6",
+      "sourceId": "afe",
+      "targetId": "c1f99",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "adb08",
+      "sourceId": "c7056",
+      "targetId": "ca8",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "b558b",
+      "sourceId": "a69",
+      "targetId": "bfd1a",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "be454",
+      "sourceId": "e42",
+      "targetId": "dfe",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "bea09",
+      "sourceId": "dc39d",
+      "targetId": "a2ef2",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "bfd1a",
+      "sourceId": "ca8",
+      "targetId": "b909c",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "c1f99",
+      "sourceId": "cc9",
+      "targetId": "e42",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "c3c6b",
+      "sourceId": "ddaf4",
+      "targetId": "d6e",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "c7056",
+      "sourceId": "d2e",
+      "targetId": "f74",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "c8f4e",
+      "sourceId": "f01",
+      "targetId": "d02d4",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "cd893",
+      "sourceId": "ea5",
+      "targetId": "adb08",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "d02d4",
+      "sourceId": "dfe",
+      "targetId": "cc9",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "d3028",
+      "sourceId": "ca8",
+      "targetId": "f74",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "d82f8",
+      "sourceId": "e2a",
+      "targetId": "a2634",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "dd739",
+      "sourceId": "d6e",
+      "targetId": "f74",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "e532a",
+      "sourceId": "b909c",
+      "targetId": "baec0",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id72d786cb",
+      "sourceId": "c1f99",
+      "targetId": "d2e",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "idb5cd8b35",
+      "sourceId": "d02d4",
+      "targetId": "f74",
+      "types": [
+        "undefined"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "a69",
+      "geneNames": [
+        "Pcyt1a"
+      ],
+      "type": "gene_protein",
+      "x": 660.6666666666666,
+      "y": 198.36666666666667,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "13026",
+      "uniprotAccs": [
+        "P49586"
+      ]
+    },
+    {
+      "id": "a93",
+      "geneNames": [
+        "Pdha2"
+      ],
+      "type": "gene_protein",
+      "x": 188.47544409613377,
+      "y": 266.7,
+      "label": null,
+      "groupId": "dc39d",
+      "referenceDatabase": "GeneID",
+      "referenceId": "18598",
+      "uniprotAccs": [
+        "P35487"
+      ]
+    },
+    {
+      "id": "afe",
+      "geneNames": [
+        "Ache"
+      ],
+      "type": "gene_protein",
+      "x": 325.7095088819223,
+      "y": 515.0333333333333,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "11423",
+      "uniprotAccs": [
+        "P21836",
+        "Q543Z1"
+      ]
+    },
+    {
+      "id": "b909c",
+      "geneNames": null,
+      "type": "compound",
+      "x": 718.0,
+      "y": 89.0,
+      "label": "Cytidine diphosphate choline",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0001413"
+    },
+    {
+      "id": "ba5",
+      "geneNames": [
+        "Pdha1"
+      ],
+      "type": "gene_protein",
+      "x": 188.47544409613377,
+      "y": 246.7,
+      "label": null,
+      "groupId": "dc39d",
+      "referenceDatabase": "GeneID",
+      "referenceId": "18597",
+      "uniprotAccs": [
+        "P35486",
+        "Q3UFJ3"
+      ]
+    },
+    {
+      "id": "baec0",
+      "geneNames": null,
+      "type": "compound",
+      "x": 417.0,
+      "y": 89.0,
+      "label": "Phosphatidylethanolamine",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0011420"
+    },
+    {
+      "id": "ca8",
+      "geneNames": null,
+      "type": "compound",
+      "x": 717.75,
+      "y": 328.03333333333336,
+      "label": "Phosphorylcholine",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0001565"
+    },
+    {
+      "id": "cc9",
+      "geneNames": null,
+      "type": "compound",
+      "x": 252.91666666666666,
+      "y": 449.03333333333336,
+      "label": "Acetylcholine",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000895"
+    },
+    {
+      "id": "d2e",
+      "geneNames": null,
+      "type": "compound",
+      "x": 417.00000000000006,
+      "y": 583.2741076830006,
+      "label": "Choline",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000097"
+    },
+    {
+      "id": "d6e",
+      "geneNames": null,
+      "type": "compound",
+      "x": 417.0,
+      "y": 254.36666666666667,
+      "label": "Glycerophosphocholine",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000086"
+    },
+    {
+      "id": "ddaf4",
+      "geneNames": null,
+      "type": "compound",
+      "x": 417.0,
+      "y": 183.0,
+      "label": "Phosphatidylcholine",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000564"
+    },
+    {
+      "id": "dfde2",
+      "geneNames": null,
+      "type": "compound",
+      "x": 113.66666666666666,
+      "y": 205.0,
+      "label": "Pyruvate from Glycolysis",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000243"
+    },
+    {
+      "id": "dfe",
+      "geneNames": null,
+      "type": "compound",
+      "x": 113.66666666666666,
+      "y": 328.0333333333333,
+      "label": "Acetyl-CoA",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0001206"
+    },
+    {
+      "id": "e2a",
+      "geneNames": [
+        "Pemt"
+      ],
+      "type": "gene_protein",
+      "x": 469.6666666666667,
+      "y": 128.36666666666667,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "18618",
+      "uniprotAccs": [
+        "Q61907"
+      ]
+    },
+    {
+      "id": "e42",
+      "geneNames": null,
+      "type": "compound",
+      "x": 113.66666666666667,
+      "y": 583.2741076830007,
+      "label": "Acetate",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000042"
+    },
+    {
+      "id": "ea5",
+      "geneNames": [
+        "Chka"
+      ],
+      "type": "gene_protein",
+      "x": 569.5641308342521,
+      "y": 385.49492833517087,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "12660",
+      "uniprotAccs": [
+        "O54804"
+      ]
+    },
+    {
+      "id": "f01",
+      "geneNames": [
+        "Chat"
+      ],
+      "type": "gene_protein",
+      "x": 325.7095088819223,
+      "y": 393.3666666666667,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "12647",
+      "uniprotAccs": [
+        "Q8BQV2"
+      ]
+    },
+    {
+      "id": "f74",
+      "geneNames": null,
+      "type": "compound",
+      "x": 417.6666666666667,
+      "y": 328.03333333333336,
+      "label": "Choline",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000097"
+    },
+    {
+      "id": "dc39d",
+      "type": "group",
+      "components": [
+        "a93",
+        "ba5"
+      ]
+    }
+  ]
+}

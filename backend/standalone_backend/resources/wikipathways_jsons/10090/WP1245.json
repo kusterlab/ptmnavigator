@@ -1,0 +1,592 @@
+{
+  "pathway": {
+    "name": "WP1245",
+    "org": "Mus musculus",
+    "title": "Transcriptional activation by Nfe2l2 in response to phytochemicals"
+  },
+  "links": [
+    {
+      "id": "b2be9",
+      "sourceId": "a62fe",
+      "targetId": "d3b16",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "b7518",
+      "sourceId": "dea4c",
+      "targetId": "d3b16",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "b8a8f",
+      "sourceId": "d6759",
+      "targetId": "d4c77",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "bcfe7",
+      "sourceId": "d3b16",
+      "targetId": "b68db",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "bd859",
+      "sourceId": "c9ebb",
+      "targetId": "b3620",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "bff9c",
+      "sourceId": "dea4c",
+      "targetId": "c9ebb",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "c1cbf",
+      "sourceId": "cf595",
+      "targetId": "be345",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "c4827",
+      "sourceId": "cf595",
+      "targetId": "d3b16",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "c8e6f",
+      "sourceId": "a859f",
+      "targetId": "d3b16",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "cb4a3",
+      "sourceId": "d6759",
+      "targetId": "f553c",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "cf48f",
+      "sourceId": "d6759",
+      "targetId": "f5ed1",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "cf751",
+      "sourceId": "d6759",
+      "targetId": "dfa5a",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "d2864",
+      "sourceId": "ff3f4",
+      "targetId": "cf595",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "d3ea2",
+      "sourceId": "b06bd",
+      "targetId": "d3b16",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "dc948",
+      "sourceId": "b03a0",
+      "targetId": "cf595",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "f0473",
+      "sourceId": "b366d",
+      "targetId": "bcfe7",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "f19c4",
+      "sourceId": "d6759",
+      "targetId": "cecad",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "f3c7e",
+      "sourceId": "dbe12",
+      "targetId": "d3b16",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ff20b",
+      "sourceId": "d739f",
+      "targetId": "cf595",
+      "types": [
+        "inhibition"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "a62fe",
+      "geneNames": [
+        "Prkca"
+      ],
+      "type": "gene_protein",
+      "x": 327.0,
+      "y": 69.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "18750",
+      "uniprotAccs": [
+        "P20444",
+        "Q4VA93"
+      ]
+    },
+    {
+      "id": "a859f",
+      "geneNames": [
+        "Mapk8"
+      ],
+      "type": "gene_protein",
+      "x": 434.0,
+      "y": 69.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "26419",
+      "uniprotAccs": [
+        "Q91Y86",
+        "A6P3E4",
+        "G3X8U9",
+        "Q544A0",
+        "Q7TSJ7"
+      ]
+    },
+    {
+      "id": "b03a0",
+      "geneNames": null,
+      "type": "compound",
+      "x": 785.7084398976986,
+      "y": 218.55754475703324,
+      "label": "Sulforaphane",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0005792"
+    },
+    {
+      "id": "b06bd",
+      "geneNames": [
+        "Aimp2"
+      ],
+      "type": "gene_protein",
+      "x": 220.0,
+      "y": 69.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "231872",
+      "uniprotAccs": [
+        "Q8R010",
+        "Q8R3V2"
+      ]
+    },
+    {
+      "id": "b3620",
+      "geneNames": [
+        "Cebpb"
+      ],
+      "type": "gene_protein",
+      "x": 217.0,
+      "y": 499.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "12608",
+      "uniprotAccs": [
+        "P28033",
+        "Q3UPN9"
+      ]
+    },
+    {
+      "id": "b366d",
+      "geneNames": null,
+      "type": "compound",
+      "x": 461.0,
+      "y": 291.0,
+      "label": "6-HITC",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "b68db",
+      "geneNames": [
+        "Nfe2l2"
+      ],
+      "type": "gene_protein",
+      "x": 363.67981438515085,
+      "y": 486.19953596287706,
+      "label": null,
+      "groupId": "d6759",
+      "referenceDatabase": "GeneID",
+      "referenceId": "18024",
+      "uniprotAccs": [
+        "Q60795"
+      ]
+    },
+    {
+      "id": "be345",
+      "geneNames": [
+        "Keap1"
+      ],
+      "type": "gene_protein",
+      "x": 493.0,
+      "y": 188.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "50868",
+      "uniprotAccs": [
+        "Q9Z2X8"
+      ]
+    },
+    {
+      "id": "c9ebb",
+      "geneNames": [
+        "Cebpb"
+      ],
+      "type": "gene_protein",
+      "x": 108.0,
+      "y": 284.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "12608",
+      "uniprotAccs": [
+        "P28033",
+        "Q3UPN9"
+      ]
+    },
+    {
+      "id": "cecad",
+      "geneNames": [
+        "Gclc"
+      ],
+      "type": "gene_protein",
+      "x": 656.0,
+      "y": 558.0,
+      "label": null,
+      "groupId": "b8fb5",
+      "referenceDatabase": "GeneID",
+      "referenceId": "14629",
+      "uniprotAccs": [
+        "P97494",
+        "Q3TEF1",
+        "Q3UNA7"
+      ]
+    },
+    {
+      "id": "d3b16",
+      "geneNames": [
+        "Nfe2l2"
+      ],
+      "type": "gene_protein",
+      "x": 365.0,
+      "y": 216.0,
+      "label": null,
+      "groupId": "d9c0e",
+      "referenceDatabase": "GeneID",
+      "referenceId": "18024",
+      "uniprotAccs": [
+        "Q60795"
+      ]
+    },
+    {
+      "id": "d4c77",
+      "geneNames": [
+        "Hmox1"
+      ],
+      "type": "gene_protein",
+      "x": 656.0,
+      "y": 598.0,
+      "label": null,
+      "groupId": "b8fb5",
+      "referenceDatabase": "GeneID",
+      "referenceId": "15368",
+      "uniprotAccs": [
+        "P14901",
+        "Q3U5U6"
+      ]
+    },
+    {
+      "id": "d739f",
+      "geneNames": null,
+      "type": "compound",
+      "x": 785.7084398976987,
+      "y": 185.44245524296673,
+      "label": "Caffeic acid phenethyl ester",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "d79c3",
+      "geneNames": [
+        "Maf"
+      ],
+      "type": "gene_protein",
+      "x": 443.67981438515085,
+      "y": 486.19953596287706,
+      "label": null,
+      "groupId": "d6759",
+      "referenceDatabase": "GeneID",
+      "referenceId": "17132",
+      "uniprotAccs": [
+        "P54843"
+      ]
+    },
+    {
+      "id": "dbe12",
+      "geneNames": [
+        "Ephb2"
+      ],
+      "type": "gene_protein",
+      "x": 539.0,
+      "y": 69.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "13844",
+      "uniprotAccs": [
+        "P54763"
+      ]
+    },
+    {
+      "id": "dea4c",
+      "geneNames": [
+        "Pik3ca"
+      ],
+      "type": "gene_protein",
+      "x": 108.0,
+      "y": 69.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "18706",
+      "uniprotAccs": [
+        "P42337"
+      ]
+    },
+    {
+      "id": "dfa5a",
+      "geneNames": [
+        "Gsta2"
+      ],
+      "type": "gene_protein",
+      "x": 656.0,
+      "y": 518.0,
+      "label": null,
+      "groupId": "b8fb5",
+      "referenceDatabase": "GeneID",
+      "referenceId": "14858",
+      "uniprotAccs": [
+        "P10648"
+      ]
+    },
+    {
+      "id": "f553c",
+      "geneNames": [
+        "Nqo1"
+      ],
+      "type": "gene_protein",
+      "x": 656.0,
+      "y": 538.0,
+      "label": null,
+      "groupId": "b8fb5",
+      "referenceDatabase": "GeneID",
+      "referenceId": "18104",
+      "uniprotAccs": [
+        "Q64669",
+        "Q542Y0"
+      ]
+    },
+    {
+      "id": "f5ed1",
+      "geneNames": [
+        "Gclm"
+      ],
+      "type": "gene_protein",
+      "x": 656.0,
+      "y": 578.0,
+      "label": null,
+      "groupId": "b8fb5",
+      "referenceDatabase": "GeneID",
+      "referenceId": "14630",
+      "uniprotAccs": [
+        "O09172",
+        "Q4FJZ6"
+      ]
+    },
+    {
+      "id": "fbb3a",
+      "geneNames": [
+        "Nfe2l2"
+      ],
+      "type": "gene_protein",
+      "x": 618.0,
+      "y": 212.0,
+      "label": null,
+      "groupId": "cf595",
+      "referenceDatabase": "GeneID",
+      "referenceId": "18024",
+      "uniprotAccs": [
+        "Q60795"
+      ]
+    },
+    {
+      "id": "fdb18",
+      "geneNames": [
+        "Keap1"
+      ],
+      "type": "gene_protein",
+      "x": 618.0,
+      "y": 192.0,
+      "label": null,
+      "groupId": "cf595",
+      "referenceDatabase": "GeneID",
+      "referenceId": "50868",
+      "uniprotAccs": [
+        "Q9Z2X8"
+      ]
+    },
+    {
+      "id": "ff3f4",
+      "geneNames": null,
+      "type": "compound",
+      "x": 785.7084398976987,
+      "y": 122.0,
+      "label": "Curcumin",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0002269"
+    },
+    {
+      "id": "b2d27",
+      "geneNames": null,
+      "type": "misc",
+      "x": 338.67981438515085,
+      "y": 468.19953596287706,
+      "label": "S-P",
+      "groupId": "d6759"
+    },
+    {
+      "id": "bf455",
+      "geneNames": null,
+      "type": "misc",
+      "x": 340.0,
+      "y": 232.0,
+      "label": "S-P",
+      "groupId": "d9c0e"
+    },
+    {
+      "id": "dd206",
+      "geneNames": null,
+      "type": "misc",
+      "x": 384.67981438515085,
+      "y": 468.19953596287706,
+      "label": "T-P",
+      "groupId": "d6759"
+    },
+    {
+      "id": "edfb9",
+      "geneNames": null,
+      "type": "misc",
+      "x": 658.0,
+      "y": 496.0,
+      "label": "Phase II enzymes",
+      "groupId": "b8fb5"
+    },
+    {
+      "id": "f433f",
+      "geneNames": null,
+      "type": "misc",
+      "x": 386.0,
+      "y": 232.0,
+      "label": "T-P",
+      "groupId": "d9c0e"
+    },
+    {
+      "id": "b8fb5",
+      "type": "group",
+      "components": [
+        "cecad",
+        "d4c77",
+        "dfa5a",
+        "f553c",
+        "f5ed1",
+        "edfb9"
+      ]
+    },
+    {
+      "id": "d9c0e",
+      "type": "group",
+      "components": [
+        "d3b16",
+        "bf455",
+        "f433f"
+      ]
+    },
+    {
+      "id": "cf595",
+      "type": "group",
+      "components": [
+        "fbb3a",
+        "fdb18"
+      ]
+    },
+    {
+      "id": "d6759",
+      "type": "group",
+      "components": [
+        "b68db",
+        "d79c3",
+        "b2d27",
+        "dd206"
+      ]
+    }
+  ]
+}

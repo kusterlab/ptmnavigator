@@ -1,0 +1,484 @@
+{
+  "pathway": {
+    "name": "WP5052",
+    "org": "Homo sapiens",
+    "title": "Nephrogenesis"
+  },
+  "links": [
+    {
+      "id": "becf4",
+      "sourceId": "e4683",
+      "targetId": "fd9b7",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id6ee2c815",
+      "sourceId": "a9dc0",
+      "targetId": "d64ee",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "id8b764528",
+      "sourceId": "be206",
+      "targetId": "a9dc0",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "id91852554",
+      "sourceId": "de2fa",
+      "targetId": "d88f8",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "id9967100e",
+      "sourceId": "ca3c3",
+      "targetId": "be206",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "idc4e1b24c",
+      "sourceId": "e44e9",
+      "targetId": "be206",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "idf9fa01be",
+      "sourceId": "e8fdf",
+      "targetId": "ca3c3",
+      "types": [
+        "stimulation"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "e73ef",
+      "geneNames": [
+        "OSR1"
+      ],
+      "type": "gene_protein",
+      "x": 259.39300411522635,
+      "y": 137.72633744855978,
+      "label": null,
+      "groupId": "e8fdf",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000143867",
+      "uniprotAccs": [
+        "Q8TAX0"
+      ]
+    },
+    {
+      "id": "a0378",
+      "geneNames": [
+        "FGF20"
+      ],
+      "type": "gene_protein",
+      "x": 259.39300411522635,
+      "y": 157.7263374485596,
+      "label": null,
+      "groupId": "e8fdf",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000078579",
+      "uniprotAccs": [
+        "Q9NP95",
+        "H0YAT9"
+      ]
+    },
+    {
+      "id": "a3a27",
+      "geneNames": [
+        "GREB1L"
+      ],
+      "type": "gene_protein",
+      "x": 259.39300411522635,
+      "y": 177.72633744855935,
+      "label": null,
+      "groupId": "e8fdf",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000141449",
+      "uniprotAccs": [
+        "Q9C091",
+        "J3KRT4",
+        "J3QQW0",
+        "J3QR03"
+      ]
+    },
+    {
+      "id": "bc2a1",
+      "geneNames": [
+        "SIX2"
+      ],
+      "type": "gene_protein",
+      "x": 259.39300411522635,
+      "y": 197.72633744855943,
+      "label": null,
+      "groupId": "e8fdf",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000170577",
+      "uniprotAccs": [
+        "Q9NPC8"
+      ]
+    },
+    {
+      "id": "b93dd",
+      "geneNames": [
+        "BMP7"
+      ],
+      "type": "gene_protein",
+      "x": 259.39300411522635,
+      "y": 217.72633744855943,
+      "label": null,
+      "groupId": "e8fdf",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000101144",
+      "uniprotAccs": [
+        "P18075",
+        "B1AKZ9",
+        "B1AL00",
+        "H0Y4B5"
+      ]
+    },
+    {
+      "id": "be701",
+      "geneNames": [
+        "FOXD1"
+      ],
+      "type": "gene_protein",
+      "x": 429.76337448559644,
+      "y": 138.54938271604937,
+      "label": null,
+      "groupId": "de2fa",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000251493",
+      "uniprotAccs": [
+        "Q16676"
+      ]
+    },
+    {
+      "id": "b3bc3",
+      "geneNames": [
+        "TCF21"
+      ],
+      "type": "gene_protein",
+      "x": 429.76337448559644,
+      "y": 158.54938271604925,
+      "label": null,
+      "groupId": "de2fa",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000118526",
+      "uniprotAccs": [
+        "O43680"
+      ]
+    },
+    {
+      "id": "c34f0",
+      "geneNames": [
+        "MEIS1"
+      ],
+      "type": "gene_protein",
+      "x": 429.76337448559644,
+      "y": 178.54938271604928,
+      "label": null,
+      "groupId": "de2fa",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000143995",
+      "uniprotAccs": [
+        "O00470",
+        "E9PDC4",
+        "F5GYS8",
+        "H0YNY8",
+        "U3KPR8"
+      ]
+    },
+    {
+      "id": "e7743",
+      "geneNames": [
+        "ALDH1A2"
+      ],
+      "type": "gene_protein",
+      "x": 429.76337448559644,
+      "y": 198.54938271604928,
+      "label": null,
+      "groupId": "de2fa",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000128918",
+      "uniprotAccs": [
+        "O94788",
+        "A0A0G2JL97",
+        "E9PF31",
+        "H0YKL3",
+        "H0YMG7",
+        "H0YMT5",
+        "Q9UED3"
+      ]
+    },
+    {
+      "id": "dfe75",
+      "geneNames": [
+        "RSPO1"
+      ],
+      "type": "gene_protein",
+      "x": 259.23868312757196,
+      "y": 305.2880658436218,
+      "label": null,
+      "groupId": "ca3c3",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000169218",
+      "uniprotAccs": [
+        "Q2MKA7"
+      ]
+    },
+    {
+      "id": "d0edf",
+      "geneNames": [
+        "FGF8"
+      ],
+      "type": "gene_protein",
+      "x": 342.9320987654319,
+      "y": 449.90740740740716,
+      "label": null,
+      "groupId": "be206",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000107831",
+      "uniprotAccs": [
+        "P55075",
+        "A0A087X1S5",
+        "R4GMQ3"
+      ]
+    },
+    {
+      "id": "f0320",
+      "geneNames": [
+        "JAG1"
+      ],
+      "type": "gene_protein",
+      "x": 343.1893004115228,
+      "y": 531.008230452676,
+      "label": null,
+      "groupId": "a9dc0",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000101384",
+      "uniprotAccs": [
+        "P78504",
+        "A0A087WXH5",
+        "A0A087X1E8"
+      ]
+    },
+    {
+      "id": "fc94b",
+      "geneNames": [
+        "PAX2"
+      ],
+      "type": "gene_protein",
+      "x": 343.1893004115228,
+      "y": 551.0082304526759,
+      "label": null,
+      "groupId": "a9dc0",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000075891",
+      "uniprotAccs": [
+        "Q02962",
+        "A0A0A0MRH7",
+        "A0A7P0TAC9",
+        "A0A9L9PXU6",
+        "A0A9L9PYK3",
+        "G3V5S4",
+        "Q5SZP1"
+      ]
+    },
+    {
+      "id": "d88f8",
+      "geneNames": [
+        "RSPO3"
+      ],
+      "type": "gene_protein",
+      "x": 259.23868312757196,
+      "y": 325.2880658436218,
+      "label": null,
+      "groupId": "ca3c3",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000146374",
+      "uniprotAccs": [
+        "Q9BXY4"
+      ]
+    },
+    {
+      "id": "e44e9",
+      "geneNames": [
+        "WNT9B "
+      ],
+      "type": "gene_protein",
+      "x": 474.8765432098756,
+      "y": 322.201646090535,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000158955",
+      "uniprotAccs": [
+        "O14905",
+        "E7EPC3",
+        "I3L0L8"
+      ]
+    },
+    {
+      "id": "e4683",
+      "geneNames": [
+        "WNT4"
+      ],
+      "type": "gene_protein",
+      "x": 342.9320987654319,
+      "y": 429.90740740740716,
+      "label": null,
+      "groupId": "be206",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000162552",
+      "uniprotAccs": [
+        "P56705",
+        "B1AJZ6",
+        "H0Y663"
+      ]
+    },
+    {
+      "id": "f2c27",
+      "geneNames": [
+        "LHX1"
+      ],
+      "type": "gene_protein",
+      "x": 342.9320987654319,
+      "y": 469.9074074074071,
+      "label": null,
+      "groupId": "be206",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000274577",
+      "uniprotAccs": [
+        "P48742",
+        "A0A0J9YX49"
+      ]
+    },
+    {
+      "id": "fd9b7",
+      "geneNames": [
+        "WNT3A"
+      ],
+      "type": "gene_protein",
+      "x": 501.90476190476136,
+      "y": 431.42857142857144,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000154342",
+      "uniprotAccs": [
+        "P56704"
+      ]
+    },
+    {
+      "id": "d64ee",
+      "geneNames": [
+        "NOTCH2"
+      ],
+      "type": "gene_protein",
+      "x": 343.3127572016464,
+      "y": 642.4897119341579,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000134250",
+      "uniprotAccs": [
+        "Q04721",
+        "A0A1W2PQQ5",
+        "A0A494C049",
+        "A0A494C1F1",
+        "A0A494C1H8",
+        "A0A494C1U9"
+      ]
+    },
+    {
+      "id": "aac73",
+      "geneNames": null,
+      "type": "misc",
+      "x": 259.39300411522635,
+      "y": 115.22633744855985,
+      "label": "Nephron progenitor cell",
+      "groupId": "e8fdf"
+    },
+    {
+      "id": "bf832",
+      "geneNames": null,
+      "type": "misc",
+      "x": 429.7633744855958,
+      "y": 116.04938271604952,
+      "label": "Stromal progenitor",
+      "groupId": "de2fa"
+    },
+    {
+      "id": "d3458",
+      "geneNames": null,
+      "type": "misc",
+      "x": 342.93209876543193,
+      "y": 407.40740740740716,
+      "label": "Pretubular aggregate",
+      "groupId": "be206"
+    },
+    {
+      "id": "de2fa",
+      "type": "group",
+      "components": [
+        "be701",
+        "b3bc3",
+        "c34f0",
+        "e7743",
+        "bf832"
+      ]
+    },
+    {
+      "id": "e8fdf",
+      "type": "group",
+      "components": [
+        "e73ef",
+        "a0378",
+        "a3a27",
+        "bc2a1",
+        "b93dd",
+        "aac73"
+      ]
+    },
+    {
+      "id": "a9dc0",
+      "type": "group",
+      "components": [
+        "f0320",
+        "fc94b"
+      ]
+    },
+    {
+      "id": "ca3c3",
+      "type": "group",
+      "components": [
+        "dfe75",
+        "d88f8"
+      ]
+    },
+    {
+      "id": "be206",
+      "type": "group",
+      "components": [
+        "d0edf",
+        "e4683",
+        "f2c27",
+        "d3458"
+      ]
+    }
+  ]
+}

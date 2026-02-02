@@ -1,0 +1,320 @@
+{
+  "pathway": {
+    "name": "WP396",
+    "org": "Mus musculus",
+    "title": "ACE inhibitor pathway"
+  },
+  "links": [
+    {
+      "id": "id167474c3",
+      "sourceId": "ad07f",
+      "targetId": "df7",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id2067a77f",
+      "sourceId": "fa1",
+      "targetId": "f33",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id243257fc",
+      "sourceId": "daf",
+      "targetId": "id2067a77f",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id4760d27a",
+      "sourceId": "b67",
+      "targetId": "ad07f",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id61316c2a",
+      "sourceId": "f39",
+      "targetId": "a36",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id8a906e85",
+      "sourceId": "b32",
+      "targetId": "a51",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id99f492c6",
+      "sourceId": "f39",
+      "targetId": "c80",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "ida74b522d",
+      "sourceId": "fb4",
+      "targetId": "f67",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idac1fc574",
+      "sourceId": "a36",
+      "targetId": "idcb6c05c1",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idcb6c05c1",
+      "sourceId": "f33",
+      "targetId": "b67",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idd0d0680f",
+      "sourceId": "a51",
+      "targetId": "fb4",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idd754b0de",
+      "sourceId": "c80",
+      "targetId": "idd0d0680f",
+      "types": [
+        "activation"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "a36",
+      "geneNames": [
+        "Ace"
+      ],
+      "type": "gene_protein",
+      "x": 108.0,
+      "y": 299.6666666666667,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "11421",
+      "uniprotAccs": [
+        "P09470",
+        "Q3TU20"
+      ]
+    },
+    {
+      "id": "a51",
+      "geneNames": null,
+      "type": "compound",
+      "x": 456.6666666666667,
+      "y": 246.66666666666666,
+      "label": "Bradykinin",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0004246"
+    },
+    {
+      "id": "b32",
+      "geneNames": [
+        "Kng1"
+      ],
+      "type": "gene_protein",
+      "x": 466.6666666666667,
+      "y": 153.33333333333334,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "16644",
+      "uniprotAccs": [
+        "O08677",
+        "A0A0R4J038",
+        "D3YTY9"
+      ]
+    },
+    {
+      "id": "b67",
+      "geneNames": null,
+      "type": "compound",
+      "x": 106.33333333333333,
+      "y": 360.0,
+      "label": "Angiotensin II",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0001035"
+    },
+    {
+      "id": "be7",
+      "geneNames": [
+        "Agtr2"
+      ],
+      "type": "gene_protein",
+      "x": 106.33333333333333,
+      "y": 443.3333333333333,
+      "label": null,
+      "groupId": "ad07f",
+      "referenceDatabase": "GeneID",
+      "referenceId": "11609",
+      "uniprotAccs": [
+        "P35374",
+        "Q3US12"
+      ]
+    },
+    {
+      "id": "c80",
+      "geneNames": [
+        "Ace"
+      ],
+      "type": "gene_protein",
+      "x": 443.3333333333333,
+      "y": 332.6666666666667,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "11421",
+      "uniprotAccs": [
+        "P09470",
+        "Q3TU20"
+      ]
+    },
+    {
+      "id": "d6a",
+      "geneNames": [
+        "Agtr1"
+      ],
+      "type": "gene_protein",
+      "x": 106.33333333333333,
+      "y": 423.3333333333333,
+      "label": null,
+      "groupId": "ad07f",
+      "referenceDatabase": "GeneID",
+      "referenceId": "11607",
+      "uniprotAccs": [
+        "P29754"
+      ]
+    },
+    {
+      "id": "daf",
+      "geneNames": [
+        "Ren1"
+      ],
+      "type": "gene_protein",
+      "x": 130.66666666666666,
+      "y": 192.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "19701",
+      "uniprotAccs": [
+        "P06281"
+      ]
+    },
+    {
+      "id": "df7",
+      "geneNames": null,
+      "type": "compound",
+      "x": 153.33333333333334,
+      "y": 510.0,
+      "label": "Aldosterone",
+      "groupId": null,
+      "referenceDatabase": "KEGG Compound",
+      "referenceId": "C01780"
+    },
+    {
+      "id": "f33",
+      "geneNames": null,
+      "type": "compound",
+      "x": 106.0,
+      "y": 253.33333333333334,
+      "label": "Angiotensin I",
+      "groupId": null,
+      "referenceDatabase": "PubChem-compound",
+      "referenceId": "3081372"
+    },
+    {
+      "id": "f39",
+      "geneNames": null,
+      "type": "compound",
+      "x": 286.6666666666667,
+      "y": 206.66666666666666,
+      "label": "ACE Inhibitor",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:35457"
+    },
+    {
+      "id": "f67",
+      "geneNames": [
+        "Nos3"
+      ],
+      "type": "gene_protein",
+      "x": 370.0,
+      "y": 493.3333333333333,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "18127",
+      "uniprotAccs": [
+        "P70313",
+        "Q8C5P3"
+      ]
+    },
+    {
+      "id": "fa1",
+      "geneNames": [
+        "Agt"
+      ],
+      "type": "gene_protein",
+      "x": 156.66666666666666,
+      "y": 150.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "11606",
+      "uniprotAccs": [
+        "Q3UTR7"
+      ]
+    },
+    {
+      "id": "fb4",
+      "geneNames": [
+        "Bdkrb2"
+      ],
+      "type": "gene_protein",
+      "x": 422.3333333333333,
+      "y": 418.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "12062",
+      "uniprotAccs": [
+        "P32299"
+      ]
+    },
+    {
+      "id": "ad07f",
+      "type": "group",
+      "components": [
+        "be7",
+        "d6a"
+      ]
+    }
+  ]
+}

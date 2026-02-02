@@ -1,0 +1,433 @@
+{
+  "pathway": {
+    "name": "WP5399",
+    "org": "Homo sapiens",
+    "title": "NPHP1 deletion syndrome"
+  },
+  "links": [
+    {
+      "id": "id16050da1",
+      "sourceId": "edd80",
+      "targetId": "b71af",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "id1dcf06a3",
+      "sourceId": "edd80",
+      "targetId": "cff9e",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "id4370655b",
+      "sourceId": "edd80",
+      "targetId": "b81b6",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "id53309160",
+      "sourceId": "b71af",
+      "targetId": "b6027",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idc701e38a",
+      "sourceId": "c044d",
+      "targetId": "a3f3d",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "idd3ebe989",
+      "sourceId": "edd80",
+      "targetId": "idfa7404ed",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "idee66142c",
+      "sourceId": "cff9e",
+      "targetId": "c1f75",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idfa7404ed",
+      "sourceId": "c1427",
+      "targetId": "c044d",
+      "types": [
+        "conversion"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "b44f6",
+      "geneNames": [
+        "MAPK1"
+      ],
+      "type": "gene_protein",
+      "x": 510.32583754015604,
+      "y": 237.0238641578705,
+      "label": null,
+      "groupId": "a3f3d",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000100030",
+      "uniprotAccs": [
+        "P28482"
+      ]
+    },
+    {
+      "id": "b8839",
+      "geneNames": [
+        "RPGRIP1L"
+      ],
+      "type": "gene_protein",
+      "x": 222.46743468497988,
+      "y": 268.14279363076116,
+      "label": null,
+      "groupId": "b81b6",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000103494",
+      "uniprotAccs": [
+        "Q68CZ1",
+        "A0A087WX34",
+        "A0A7P0TB06",
+        "H3BPF5",
+        "H3BPS4",
+        "H3BS47",
+        "H3BV03",
+        "I3L1B5",
+        "I3L2P2",
+        "J3QLR9"
+      ]
+    },
+    {
+      "id": "bb440",
+      "geneNames": [
+        "BCAR1"
+      ],
+      "type": "gene_protein",
+      "x": 382.74437815511686,
+      "y": 203.9811840293712,
+      "label": null,
+      "groupId": "b71af",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000050820",
+      "uniprotAccs": [
+        "P56945",
+        "F5H855",
+        "H3BN62",
+        "H3BQJ7",
+        "H3BSB2",
+        "H3BSY4",
+        "H3BTB0",
+        "H3BTL5",
+        "H3BU42",
+        "H3BVF0"
+      ]
+    },
+    {
+      "id": "beccf",
+      "geneNames": [
+        "MAPK3"
+      ],
+      "type": "gene_protein",
+      "x": 510.32583754015604,
+      "y": 212.02386415787052,
+      "label": null,
+      "groupId": "a3f3d",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000102882",
+      "uniprotAccs": [
+        "P27361",
+        "A1QJE5",
+        "E9PBK7",
+        "E9PJF0",
+        "E9PQW4",
+        "E9PRH7",
+        "H0YDH9",
+        "H0YEX6"
+      ]
+    },
+    {
+      "id": "bf147",
+      "geneNames": [
+        "NPHP4"
+      ],
+      "type": "gene_protein",
+      "x": 222.46743468497988,
+      "y": 243.1427936307612,
+      "label": null,
+      "groupId": "b81b6",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000131697",
+      "uniprotAccs": [
+        "O75161",
+        "D6RA06",
+        "H0YA08"
+      ]
+    },
+    {
+      "id": "c42ad",
+      "geneNames": [
+        "FLNB"
+      ],
+      "type": "gene_protein",
+      "x": 382.74437815511686,
+      "y": 253.9811840293712,
+      "label": null,
+      "groupId": "b71af",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000136068",
+      "uniprotAccs": [
+        "O75369",
+        "A0A0C4DGA1",
+        "A0A804HJC2",
+        "A0A804HK76",
+        "A0A804HL72",
+        "E7EN95",
+        "H7C5L4"
+      ]
+    },
+    {
+      "id": "cfa80",
+      "geneNames": [
+        "FLNA"
+      ],
+      "type": "gene_protein",
+      "x": 382.74437815511686,
+      "y": 228.9811840293712,
+      "label": null,
+      "groupId": "b71af",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000196924",
+      "uniprotAccs": [
+        "P21333",
+        "A0A087WWY3",
+        "A0A669KBC6",
+        "A0A7I2V3E6",
+        "A0A7P0NMY4",
+        "F8WE98",
+        "H0Y5C6",
+        "H0Y5F3",
+        "H7C2E7",
+        "Q60FE5"
+      ]
+    },
+    {
+      "id": "cff9e",
+      "geneNames": [
+        "INVS"
+      ],
+      "type": "gene_protein",
+      "x": 72.96925195043596,
+      "y": 163.37769619091313,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000119509",
+      "uniprotAccs": [
+        "Q9Y283"
+      ]
+    },
+    {
+      "id": "da6d6",
+      "geneNames": [
+        "PTK2B"
+      ],
+      "type": "gene_protein",
+      "x": 382.7443781551169,
+      "y": 178.98118402937115,
+      "label": null,
+      "groupId": "b71af",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000120899",
+      "uniprotAccs": [
+        "Q14289",
+        "C9JHV9",
+        "E5RHL2",
+        "E5RJ77",
+        "E5RK84",
+        "H0YB74"
+      ]
+    },
+    {
+      "id": "e94be",
+      "geneNames": [
+        "FLNC"
+      ],
+      "type": "gene_protein",
+      "x": 382.74437815511686,
+      "y": 278.98118402937126,
+      "label": null,
+      "groupId": "b71af",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000128591",
+      "uniprotAccs": [
+        "Q14315"
+      ]
+    },
+    {
+      "id": "edd80",
+      "geneNames": [
+        "NPHP1"
+      ],
+      "type": "gene_protein",
+      "x": 223.49701698026618,
+      "y": 92.7030748049564,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000144061",
+      "uniprotAccs": [
+        "O15259",
+        "A0A6Q8PGI7",
+        "A0A6Q8PH10",
+        "A0A6Q8PHD4",
+        "A0A6Q8PHS3",
+        "C9J082",
+        "C9JNM7",
+        "H7C014",
+        "H7C2K4"
+      ]
+    },
+    {
+      "id": "ffaad",
+      "geneNames": null,
+      "type": "misc",
+      "x": 222.46743468497988,
+      "y": 218.1427936307612,
+      "label": "NPHP transition zone complex",
+      "groupId": "b81b6",
+      "referenceDatabase": "",
+      "referenceId": "CPX-2806"
+    },
+    {
+      "id": "fa410",
+      "geneNames": [
+        "NPHP1"
+      ],
+      "type": "gene_protein",
+      "x": 222.46743468497988,
+      "y": 293.1427936307615,
+      "label": null,
+      "groupId": "b81b6",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000144061",
+      "uniprotAccs": [
+        "O15259",
+        "A0A6Q8PGI7",
+        "A0A6Q8PH10",
+        "A0A6Q8PHD4",
+        "A0A6Q8PHS3",
+        "C9J082",
+        "C9JNM7",
+        "H7C014",
+        "H7C2K4"
+      ]
+    },
+    {
+      "id": "c044d",
+      "geneNames": [
+        "PTK2B"
+      ],
+      "type": "gene_protein",
+      "x": 510.2294630564479,
+      "y": 133.45112436897642,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000120899",
+      "states": [
+        ""
+      ],
+      "uniprotAccs": [
+        "Q14289",
+        "C9JHV9",
+        "E5RHL2",
+        "E5RJ77",
+        "E5RK84",
+        "H0YB74"
+      ]
+    },
+    {
+      "id": "c1427",
+      "geneNames": [
+        "PTK2B"
+      ],
+      "type": "gene_protein",
+      "x": 511.0509407985314,
+      "y": 64.97475906379049,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000120899",
+      "uniprotAccs": [
+        "Q14289",
+        "C9JHV9",
+        "E5RHL2",
+        "E5RJ77",
+        "E5RK84",
+        "H0YB74"
+      ]
+    },
+    {
+      "id": "b6027",
+      "geneNames": null,
+      "type": "misc",
+      "x": 382.7317576870124,
+      "y": 344.1945846718678,
+      "label": "Establish cell polarity",
+      "groupId": null
+    },
+    {
+      "id": "c1f75",
+      "geneNames": null,
+      "type": "misc",
+      "x": 72.95663148233135,
+      "y": 238.81654428636983,
+      "label": "primary cilia of \nrenal tubular cells",
+      "groupId": null
+    },
+    {
+      "id": "a3f3d",
+      "type": "group",
+      "components": [
+        "b44f6",
+        "beccf"
+      ]
+    },
+    {
+      "id": "b71af",
+      "type": "group",
+      "components": [
+        "bb440",
+        "c42ad",
+        "cfa80",
+        "da6d6",
+        "e94be"
+      ]
+    },
+    {
+      "id": "b81b6",
+      "type": "group",
+      "components": [
+        "b8839",
+        "bf147",
+        "ffaad",
+        "fa410"
+      ]
+    }
+  ]
+}

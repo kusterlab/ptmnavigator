@@ -1,0 +1,633 @@
+{
+  "pathway": {
+    "name": "WP3297",
+    "org": "Homo sapiens",
+    "title": "EV release from cardiac cells and their functional effects"
+  },
+  "links": [
+    {
+      "id": "id34017bd",
+      "sourceId": "f57c3",
+      "targetId": "df9bb",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id3fa83bc0",
+      "sourceId": "e111d",
+      "targetId": "a66b5",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id431e598e",
+      "sourceId": "b1382",
+      "targetId": "cd661",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id467d8a3",
+      "sourceId": "b1f65",
+      "targetId": "e47cf",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id7805c596",
+      "sourceId": "f57c3",
+      "targetId": "d5047",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idb87368f9",
+      "sourceId": "b1f65",
+      "targetId": "bd717",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ide1d26d18",
+      "sourceId": "fdb5f",
+      "targetId": "ff228",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idf24dfb94",
+      "sourceId": "ea7ea",
+      "targetId": "d4fa1",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id378bba00",
+      "sourceId": "afa5f",
+      "targetId": "c8f0a",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id669fb5e3",
+      "sourceId": "c8f0a",
+      "targetId": "d5372",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idb3912a04",
+      "sourceId": "a6ab0",
+      "targetId": "afbe9",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id23304253",
+      "sourceId": "ad00a",
+      "targetId": "c16a4",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idd539262",
+      "sourceId": "ff228",
+      "targetId": "ef37e",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id931b1306",
+      "sourceId": "c615f",
+      "targetId": "d4fa1",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id8dc821cd",
+      "sourceId": "d4fa1",
+      "targetId": "f363f",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id5b71f0f7",
+      "sourceId": "c16a4",
+      "targetId": "a6ab0",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id30aefcaf",
+      "sourceId": "ba43e",
+      "targetId": "afa5f",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idcf81ed9e",
+      "sourceId": "a0fef",
+      "targetId": "af87a",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idc1010c2e",
+      "sourceId": "d4fa1",
+      "targetId": "baa1e",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id274c462a",
+      "sourceId": "afa3f",
+      "targetId": "ba43e",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idc01508b1",
+      "sourceId": "f363f",
+      "targetId": "d6295",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "dfaa5",
+      "sourceId": "cd661",
+      "targetId": "ff986",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ce333",
+      "sourceId": "bd717",
+      "targetId": "e4935",
+      "types": [
+        "activation"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "aeae7",
+      "geneNames": null,
+      "type": "compound",
+      "x": 309.0,
+      "y": 126.0,
+      "label": "Homocysteine",
+      "groupId": "b1382",
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000742"
+    },
+    {
+      "id": "b2f10",
+      "geneNames": null,
+      "type": "compound",
+      "x": 309.0,
+      "y": 106.0,
+      "label": "Ox-LDL",
+      "groupId": "b1382",
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:60151"
+    },
+    {
+      "id": "c27e5",
+      "geneNames": [
+        "TNFalpha\nmRNA"
+      ],
+      "type": "gene_protein",
+      "x": 458.0,
+      "y": 784.5,
+      "label": null,
+      "groupId": "e111d",
+      "referenceDatabase": "GeneID",
+      "referenceId": "7124",
+      "uniprotAccs": [
+        "P01375",
+        "Q5STB3"
+      ]
+    },
+    {
+      "id": "c8f0a",
+      "geneNames": [
+        "ERBB4"
+      ],
+      "type": "gene_protein",
+      "x": 185.333333333333,
+      "y": 557.3333333333343,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000178568",
+      "uniprotAccs": [
+        "Q15303",
+        "E9PDR1",
+        "H3BLT0"
+      ]
+    },
+    {
+      "id": "bd93d",
+      "geneNames": [
+        "MIR126"
+      ],
+      "type": "gene_protein",
+      "x": 614.6666666666666,
+      "y": 284.3333333333333,
+      "label": null,
+      "groupId": "d046a",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000199161",
+      "uniprotAccs": null
+    },
+    {
+      "id": "ba43e",
+      "geneNames": [
+        "MIR146A"
+      ],
+      "type": "gene_protein",
+      "x": 128.3333333333336,
+      "y": 199.00000000000006,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000283733",
+      "uniprotAccs": null
+    },
+    {
+      "id": "c16a4",
+      "geneNames": [
+        "MIR150"
+      ],
+      "type": "gene_protein",
+      "x": 228.33333333333346,
+      "y": 62.33333333333335,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000207782",
+      "uniprotAccs": null
+    },
+    {
+      "id": "b0b42",
+      "geneNames": [
+        "MIR143"
+      ],
+      "type": "gene_protein",
+      "x": 896.0,
+      "y": 288.3333333333333,
+      "label": null,
+      "groupId": "f0e06",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000284182",
+      "uniprotAccs": null
+    },
+    {
+      "id": "fdb5f",
+      "geneNames": [
+        "KLF2"
+      ],
+      "type": "gene_protein",
+      "x": 826.3333333333343,
+      "y": 205.33333333333323,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000127528",
+      "uniprotAccs": [
+        "Q9Y5W3",
+        "K7EJ60"
+      ]
+    },
+    {
+      "id": "a0fef",
+      "geneNames": null,
+      "type": "compound",
+      "x": 70.66666666666609,
+      "y": 672.0000000000008,
+      "label": "Ethanol",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000108"
+    },
+    {
+      "id": "d6295",
+      "geneNames": [
+        "CXCL12"
+      ],
+      "type": "gene_protein",
+      "x": 467.6666666666669,
+      "y": 222.00000000000003,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000107562",
+      "uniprotAccs": [
+        "P48061"
+      ]
+    },
+    {
+      "id": "afa3f",
+      "geneNames": [
+        "Prolactin"
+      ],
+      "type": "gene_protein",
+      "x": 128.33333333333343,
+      "y": 131.33333333333343,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000172179",
+      "uniprotAccs": [
+        "P01236",
+        "A0A494C0Z0",
+        "A0A494C1P2",
+        "Q5I0G2"
+      ]
+    },
+    {
+      "id": "f363f",
+      "geneNames": [
+        "RGS16"
+      ],
+      "type": "gene_protein",
+      "x": 544.3333333333331,
+      "y": 193.5,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000143333",
+      "uniprotAccs": [
+        "O15492"
+      ]
+    },
+    {
+      "id": "a6ab0",
+      "geneNames": [
+        "C-Myb"
+      ],
+      "type": "gene_protein",
+      "x": 227.99999999999997,
+      "y": 205.3333333333333,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000118513",
+      "uniprotAccs": [
+        "P10242",
+        "A0A087WTI6",
+        "A0A0C4DG19",
+        "E9PIW4",
+        "E9PJ96",
+        "E9PJF1",
+        "E9PJT2",
+        "E9PKZ3",
+        "E9PLN0",
+        "E9PMQ0",
+        "E9PMZ0",
+        "E9PN43",
+        "E9PN92",
+        "E9PNH6",
+        "E9PP87",
+        "E9PPL8",
+        "E9PPR4",
+        "E9PQQ2",
+        "F8W8G5",
+        "H0YCN6",
+        "Q708E3",
+        "Q708E6"
+      ]
+    },
+    {
+      "id": "ae8d8",
+      "geneNames": [
+        "hsa-miR-146a-5p"
+      ],
+      "type": "gene_protein",
+      "x": 87.5,
+      "y": 331.33333333333326,
+      "label": null,
+      "groupId": "afa5f",
+      "referenceDatabase": "miRBase mature sequence",
+      "referenceId": "MIMAT0000449"
+    },
+    {
+      "id": "af87a",
+      "geneNames": null,
+      "type": "compound",
+      "x": 225.99999999999824,
+      "y": 638.0000000000007,
+      "label": "Ethanol",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000108"
+    },
+    {
+      "id": "f4341",
+      "geneNames": [
+        "hsa-miR-145-5p"
+      ],
+      "type": "gene_protein",
+      "x": 896.5,
+      "y": 309.3333333333333,
+      "label": null,
+      "groupId": "f0e06",
+      "referenceDatabase": "miRBase mature sequence",
+      "referenceId": "MIMAT0000437"
+    },
+    {
+      "id": "b9d4d",
+      "geneNames": null,
+      "type": "misc",
+      "x": 1076.0,
+      "y": 129.0,
+      "label": "HSP70",
+      "groupId": "acd9d"
+    },
+    {
+      "id": "ef37e",
+      "geneNames": null,
+      "type": "misc",
+      "x": 739.0,
+      "y": 352.0,
+      "label": "Multiple targets",
+      "groupId": null
+    },
+    {
+      "id": "c615f",
+      "geneNames": null,
+      "type": "misc",
+      "x": 671.5,
+      "y": 208.0,
+      "label": "Serum starvation",
+      "groupId": null
+    },
+    {
+      "id": "d5372",
+      "geneNames": null,
+      "type": "misc",
+      "x": 312.66666666666663,
+      "y": 557.3333333333335,
+      "label": "Decreased metabolic activity",
+      "groupId": null
+    },
+    {
+      "id": "f57c3",
+      "geneNames": null,
+      "type": "misc",
+      "x": 416.3333333333333,
+      "y": 606.666666666667,
+      "label": "Hypoxia",
+      "groupId": null
+    },
+    {
+      "id": "afbe9",
+      "geneNames": null,
+      "type": "misc",
+      "x": 276.0000000000001,
+      "y": 280.0000000000001,
+      "label": "Migration",
+      "groupId": null
+    },
+    {
+      "id": "ea7ea",
+      "geneNames": null,
+      "type": "misc",
+      "x": 661.5,
+      "y": 340.0,
+      "label": "Serum starvation",
+      "groupId": null
+    },
+    {
+      "id": "b66f2",
+      "geneNames": null,
+      "type": "misc",
+      "x": 978.5,
+      "y": 482.0,
+      "label": "DNA\nRNA",
+      "groupId": "a9c10"
+    },
+    {
+      "id": "a66b5",
+      "geneNames": null,
+      "type": "misc",
+      "x": 870.6666666666666,
+      "y": 698.666666666667,
+      "label": "Apoptosis",
+      "groupId": null
+    },
+    {
+      "id": "f8685",
+      "geneNames": null,
+      "type": "misc",
+      "x": 1073.0,
+      "y": 29.0,
+      "label": "CD63",
+      "groupId": "acd9d"
+    },
+    {
+      "id": "a895e",
+      "geneNames": null,
+      "type": "misc",
+      "x": 1078.0,
+      "y": 54.0,
+      "label": "HSP60",
+      "groupId": "acd9d"
+    },
+    {
+      "id": "bd4ae",
+      "geneNames": null,
+      "type": "misc",
+      "x": 1077.0,
+      "y": 80.0,
+      "label": "HSC70",
+      "groupId": "acd9d"
+    },
+    {
+      "id": "b2a97",
+      "geneNames": null,
+      "type": "misc",
+      "x": 1076.0,
+      "y": 104.0,
+      "label": "HSC90",
+      "groupId": "acd9d"
+    },
+    {
+      "id": "a9c10",
+      "type": "group",
+      "components": [
+        "b66f2"
+      ]
+    },
+    {
+      "id": "acd9d",
+      "type": "group",
+      "components": [
+        "b9d4d",
+        "f8685",
+        "a895e",
+        "bd4ae",
+        "b2a97"
+      ]
+    },
+    {
+      "id": "afa5f",
+      "type": "group",
+      "components": [
+        "ae8d8"
+      ]
+    },
+    {
+      "id": "b1382",
+      "type": "group",
+      "components": [
+        "aeae7",
+        "b2f10"
+      ]
+    },
+    {
+      "id": "d046a",
+      "type": "group",
+      "components": [
+        "bd93d"
+      ]
+    },
+    {
+      "id": "e111d",
+      "type": "group",
+      "components": [
+        "c27e5"
+      ]
+    },
+    {
+      "id": "f0e06",
+      "type": "group",
+      "components": [
+        "b0b42",
+        "f4341"
+      ]
+    }
+  ]
+}

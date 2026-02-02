@@ -1,0 +1,516 @@
+{
+  "pathway": {
+    "name": "WP4389",
+    "org": "Homo sapiens",
+    "title": "Bile acids synthesis and enterohepatic circulation "
+  },
+  "links": [
+    {
+      "id": "e4575",
+      "sourceId": "f54f0",
+      "targetId": "f997b",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id20c4881d",
+      "sourceId": "a9220",
+      "targetId": "f2aeb",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id29259dc9",
+      "sourceId": "d30fa",
+      "targetId": "ef30c",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id32001859",
+      "sourceId": "d8533",
+      "targetId": "e0e57",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id39d4d4b1",
+      "sourceId": "f2aeb",
+      "targetId": "d30fa",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id4277b65",
+      "sourceId": "f54f0",
+      "targetId": "f2aeb",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id4c64cfdb",
+      "sourceId": "fb374",
+      "targetId": "idccdd9e2e",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id52bc4826",
+      "sourceId": "a9220",
+      "targetId": "b8394",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id5c4dbb0f",
+      "sourceId": "a42f3",
+      "targetId": "f9d48",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "id65b55064",
+      "sourceId": "cd9ef",
+      "targetId": "id7aee9551",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id7aee9551",
+      "sourceId": "a1845",
+      "targetId": "f54f0",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id83d6f460",
+      "sourceId": "cbf70",
+      "targetId": "id20c4881d",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id87048896",
+      "sourceId": "ef30c",
+      "targetId": "id4277b65",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id9075c8dc",
+      "sourceId": "d61c8",
+      "targetId": "e4575",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "idbcdb6027",
+      "sourceId": "ef470",
+      "targetId": "f54f0",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idccdd9e2e",
+      "sourceId": "f2aeb",
+      "targetId": "a42f3",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idd736ccfc",
+      "sourceId": "f9d48",
+      "targetId": "a9220",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idd7ef0789",
+      "sourceId": "b8394",
+      "targetId": "d2720",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ide951a67",
+      "sourceId": "d2720",
+      "targetId": "d8533",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "idfec0e2d7",
+      "sourceId": "e0e57",
+      "targetId": "ef30c",
+      "types": [
+        "inhibition"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "a1845",
+      "geneNames": [
+        "LDL"
+      ],
+      "type": "gene_protein",
+      "x": 125.80433646812958,
+      "y": 125.05851619644727,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:39026"
+    },
+    {
+      "id": "a42f3",
+      "geneNames": null,
+      "type": "compound",
+      "x": 617.0509404388705,
+      "y": 476.75,
+      "label": "Bile Acid",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:3098"
+    },
+    {
+      "id": "a9220",
+      "geneNames": null,
+      "type": "compound",
+      "x": 413.25,
+      "y": 476.75,
+      "label": "Bile acid",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:3098"
+    },
+    {
+      "id": "b3596",
+      "geneNames": [
+        "MAPK1"
+      ],
+      "type": "gene_protein",
+      "x": 313.0,
+      "y": 224.0,
+      "label": null,
+      "groupId": "e0e57",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000100030",
+      "uniprotAccs": [
+        "P28482"
+      ]
+    },
+    {
+      "id": "b8394",
+      "geneNames": [
+        "FXR1"
+      ],
+      "type": "gene_protein",
+      "x": 414.25,
+      "y": 532.6935736677112,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000114416",
+      "uniprotAccs": [
+        "P51114",
+        "A0A8V8TM97",
+        "A0A8V8TMQ1",
+        "A0A8V8TNP6",
+        "B4DXZ6",
+        "C9IZ22",
+        "C9J5B4",
+        "C9JAJ4",
+        "C9JY20",
+        "C9JYQ6",
+        "C9JZE0",
+        "E7EU85",
+        "E9PFF5",
+        "H7C4S4"
+      ]
+    },
+    {
+      "id": "cbf70",
+      "geneNames": [
+        "NTCP"
+      ],
+      "type": "gene_protein",
+      "x": 310.60815047021947,
+      "y": 433.7155172413783,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "Q14973",
+      "uniprotAccs": [
+        "Q14973"
+      ]
+    },
+    {
+      "id": "cc25c",
+      "geneNames": [
+        "ABCG8"
+      ],
+      "type": "gene_protein",
+      "x": 614.0509404388705,
+      "y": 135.0937826541277,
+      "label": null,
+      "groupId": "d61c8",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000143921",
+      "uniprotAccs": [
+        "Q9H221",
+        "A0A2R8Y6M1"
+      ]
+    },
+    {
+      "id": "cd9ef",
+      "geneNames": [
+        "LDLR"
+      ],
+      "type": "gene_protein",
+      "x": 210.36520376175554,
+      "y": 126.57993730407543,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000130164",
+      "uniprotAccs": [
+        "P01130",
+        "H0YM92",
+        "H0YMD1",
+        "H0YMQ3",
+        "J3KMZ9"
+      ]
+    },
+    {
+      "id": "d8533",
+      "geneNames": [
+        "FGFR4"
+      ],
+      "type": "gene_protein",
+      "x": 206.39184952978073,
+      "y": 236.71786833855663,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P22455",
+      "uniprotAccs": [
+        "P22455"
+      ]
+    },
+    {
+      "id": "ef30c",
+      "geneNames": [
+        "CYP7A1"
+      ],
+      "type": "gene_protein",
+      "x": 400.48902821316557,
+      "y": 236.73902821316628,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000167910",
+      "uniprotAccs": [
+        "P22680"
+      ]
+    },
+    {
+      "id": "ef470",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 456.73275862068914,
+      "y": 62.18260188087774,
+      "label": "De Novo Synthesis\n",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP197"
+    },
+    {
+      "id": "f2aeb",
+      "geneNames": null,
+      "type": "compound",
+      "x": 456.7327586206891,
+      "y": 337.08699059561116,
+      "label": "Bile Acid",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:3098"
+    },
+    {
+      "id": "f54f0",
+      "geneNames": null,
+      "type": "compound",
+      "x": 456.7327586206891,
+      "y": 125.5,
+      "label": "Cholesterol",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:16113"
+    },
+    {
+      "id": "f9d48",
+      "geneNames": [
+        "ASBT\n"
+      ],
+      "type": "gene_protein",
+      "x": 518.7978056426333,
+      "y": 476.75,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "Q12908",
+      "uniprotAccs": [
+        "Q12908"
+      ]
+    },
+    {
+      "id": "fb374",
+      "geneNames": [
+        "ABCB11"
+      ],
+      "type": "gene_protein",
+      "x": 606.0509404388704,
+      "y": 337.2916666666666,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000073734",
+      "uniprotAccs": [
+        "O95342",
+        "A0A3B3IS78",
+        "A0A3B3ISD4",
+        "A0A3B3ITV9",
+        "H7C486"
+      ]
+    },
+    {
+      "id": "fed5f",
+      "geneNames": [
+        "ABCG5"
+      ],
+      "type": "gene_protein",
+      "x": 614.0509404388705,
+      "y": 110.09378265412772,
+      "label": null,
+      "groupId": "d61c8",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000138075",
+      "uniprotAccs": [
+        "Q9H222"
+      ]
+    },
+    {
+      "id": "d30fa",
+      "geneNames": [
+        "FXR1"
+      ],
+      "type": "gene_protein",
+      "x": 400.66575235109735,
+      "y": 302.86206896551687,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000114416",
+      "uniprotAccs": [
+        "P51114",
+        "A0A8V8TM97",
+        "A0A8V8TMQ1",
+        "A0A8V8TNP6",
+        "B4DXZ6",
+        "C9IZ22",
+        "C9J5B4",
+        "C9JAJ4",
+        "C9JY20",
+        "C9JYQ6",
+        "C9JZE0",
+        "E7EU85",
+        "E9PFF5",
+        "H7C4S4"
+      ]
+    },
+    {
+      "id": "f997b",
+      "geneNames": null,
+      "type": "compound",
+      "x": 745.7296238244518,
+      "y": 125.37748171368872,
+      "label": "LDL cholesterol",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:47774"
+    },
+    {
+      "id": "c3b3e",
+      "geneNames": [
+        "MAPK3"
+      ],
+      "type": "gene_protein",
+      "x": 313.0,
+      "y": 249.0,
+      "label": null,
+      "groupId": "e0e57",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000102882",
+      "uniprotAccs": [
+        "P27361",
+        "A1QJE5",
+        "E9PBK7",
+        "E9PJF0",
+        "E9PQW4",
+        "E9PRH7",
+        "H0YDH9",
+        "H0YEX6"
+      ]
+    },
+    {
+      "id": "d2720",
+      "geneNames": [
+        "FGF19"
+      ],
+      "type": "gene_protein",
+      "x": 119.87931034482787,
+      "y": 236.53918495297864,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000162344",
+      "uniprotAccs": [
+        "O95750"
+      ]
+    },
+    {
+      "id": "e0e57",
+      "type": "group",
+      "components": [
+        "b3596",
+        "c3b3e"
+      ]
+    },
+    {
+      "id": "d61c8",
+      "type": "group",
+      "components": [
+        "cc25c",
+        "fed5f"
+      ]
+    }
+  ]
+}

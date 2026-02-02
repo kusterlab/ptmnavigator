@@ -1,0 +1,718 @@
+{
+  "pathway": {
+    "name": "WP3630",
+    "org": "Homo sapiens",
+    "title": "NAD metabolism, sirtuins and aging"
+  },
+  "links": [
+    {
+      "id": "id1549585d",
+      "sourceId": "a1e1d",
+      "targetId": "d2ede",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id1947cd81",
+      "sourceId": "d538c",
+      "targetId": "d9a24",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "id3c940720",
+      "sourceId": "d2ede",
+      "targetId": "d9366",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id51a6de8f",
+      "sourceId": "f83b2",
+      "targetId": "d538c",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id647ea175",
+      "sourceId": "d9366",
+      "targetId": "b1532",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id68473c22",
+      "sourceId": "b74eb",
+      "targetId": "d2ede",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idb0edb154",
+      "sourceId": "d49ba",
+      "targetId": "f5a65",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idb53f1655",
+      "sourceId": "ccb75",
+      "targetId": "d538c",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idba629f1a",
+      "sourceId": "ef291",
+      "targetId": "b74eb",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idd9b01f7",
+      "sourceId": "bdb6e",
+      "targetId": "abfa0",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "iddb37003a",
+      "sourceId": "d9366",
+      "targetId": "a1e1d",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "ide61fe032",
+      "sourceId": "d538c",
+      "targetId": "fe4a5",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "ide7a6c22",
+      "sourceId": "e2d46",
+      "targetId": "d9366",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idedd953c8",
+      "sourceId": "b2746",
+      "targetId": "d2ede",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "idf1fbe4ee",
+      "sourceId": "b1532",
+      "targetId": "f5a65",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "a1de6",
+      "sourceId": "d538c",
+      "targetId": "a1e1d",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "b1f69",
+      "sourceId": "f5a65",
+      "targetId": "b74eb",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "e67d5",
+      "sourceId": "c0187",
+      "targetId": "b74eb",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "e2982",
+      "sourceId": "d367c",
+      "targetId": "a1e1d",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "ae3ab",
+      "sourceId": "d2ede",
+      "targetId": "bdb6e",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "e4cc8",
+      "sourceId": "d9366",
+      "targetId": "d538c",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "d0993",
+      "sourceId": "d9366",
+      "targetId": "aa34f",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "df457",
+      "sourceId": "bdb6e",
+      "targetId": "bdc90",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "a4271",
+      "sourceId": "d3b0f",
+      "targetId": "b74eb",
+      "types": [
+        "activation"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "a1e1d",
+      "geneNames": [
+        "PARP1"
+      ],
+      "type": "gene_protein",
+      "x": 382.36974789915905,
+      "y": 370.9339350970843,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000143799",
+      "uniprotAccs": [
+        "P09874",
+        "A0A7I2V384",
+        "A0A7I2V3E1",
+        "A0A7I2V5E9",
+        "A0A7I2V625"
+      ]
+    },
+    {
+      "id": "abfa0",
+      "geneNames": [
+        "TFAM"
+      ],
+      "type": "gene_protein",
+      "x": 654.4561718844092,
+      "y": 377.29576977048043,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000108064",
+      "uniprotAccs": [
+        "Q00059",
+        "H7BYN3"
+      ]
+    },
+    {
+      "id": "b1532",
+      "geneNames": [
+        "NFKB1"
+      ],
+      "type": "gene_protein",
+      "x": 654.4561718844093,
+      "y": 124.10032483783007,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000109320",
+      "uniprotAccs": [
+        "P19838",
+        "A0A494C157",
+        "A0A494C1E9",
+        "A0A8V8TLB2",
+        "D6RC45",
+        "D6RH30"
+      ]
+    },
+    {
+      "id": "b2746",
+      "geneNames": null,
+      "type": "compound",
+      "x": 230.00866438759806,
+      "y": 256.5546218487396,
+      "label": "Nicotinamide riboside",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000855"
+    },
+    {
+      "id": "b74eb",
+      "geneNames": [
+        "NAMPT"
+      ],
+      "type": "gene_protein",
+      "x": 382.1890756302514,
+      "y": 149.4789915966383,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000105835",
+      "uniprotAccs": [
+        "P43490",
+        "A0A0C4DFS8",
+        "A0A7P0T862",
+        "A0A7P0T895",
+        "A0A7P0T8D2",
+        "A0A7P0T8L3",
+        "A0A7P0T8R4",
+        "A0A7P0T8Z3",
+        "A0A7P0T931",
+        "A0A7P0T941",
+        "A0A7P0T973",
+        "A0A7P0T9F0",
+        "A0A7P0T9I9",
+        "A0A7P0TA73",
+        "A0A7P0TAI8",
+        "A0A7P0TAS5",
+        "A0A7P0TAZ2",
+        "A0A7P0TB17",
+        "A0A7P0TBB7",
+        "A0A7P0Z437",
+        "A0A7P0Z466",
+        "A0A7P0Z4L4",
+        "A0A7P0Z4N0",
+        "B7Z8W6",
+        "C9JF35",
+        "C9JG65"
+      ]
+    },
+    {
+      "id": "c0187",
+      "geneNames": [
+        "P7C3"
+      ],
+      "type": "gene_protein",
+      "x": 382.1890756302514,
+      "y": 99.60504201680672,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "ccb75",
+      "geneNames": null,
+      "type": "misc",
+      "x": 93.0,
+      "y": 338.0,
+      "label": "Cockayne syndrome",
+      "groupId": null,
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q914389"
+    },
+    {
+      "id": "d2ede",
+      "geneNames": null,
+      "type": "compound",
+      "x": 382.18907563025147,
+      "y": 256.5546218487396,
+      "label": "NAD",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000902"
+    },
+    {
+      "id": "e2d46",
+      "geneNames": null,
+      "type": "compound",
+      "x": 523.0,
+      "y": 172.50918644010656,
+      "label": "Resveratrol",
+      "groupId": null,
+      "referenceDatabase": "CAS",
+      "referenceId": "501-36-0"
+    },
+    {
+      "id": "ef291",
+      "geneNames": [
+        "FOXO1"
+      ],
+      "type": "gene_protein",
+      "x": 654.6579359417425,
+      "y": 161.85433227363805,
+      "label": null,
+      "groupId": "aa34f",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000150907",
+      "uniprotAccs": [
+        "Q12778"
+      ]
+    },
+    {
+      "id": "fc541",
+      "geneNames": [
+        "HIF1A"
+      ],
+      "type": "gene_protein",
+      "x": 654.4561718844093,
+      "y": 342.6244318754348,
+      "label": null,
+      "groupId": "bdc90",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000100644",
+      "uniprotAccs": [
+        "Q16665",
+        "A8MYV6"
+      ]
+    },
+    {
+      "id": "d9366",
+      "geneNames": [
+        "SIRT1"
+      ],
+      "type": "gene_protein",
+      "x": 508.1316751149351,
+      "y": 220.20381940351228,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000096717",
+      "uniprotAccs": [
+        "Q96EB6",
+        "B0QZ35",
+        "E9PC49"
+      ]
+    },
+    {
+      "id": "f3fd2",
+      "geneNames": [
+        "ROS1"
+      ],
+      "type": "gene_protein",
+      "x": 654.4561718844094,
+      "y": 319.5222274666173,
+      "label": null,
+      "groupId": "bdc90",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000047936",
+      "uniprotAccs": [
+        "P08922",
+        "H0Y3T9",
+        "Q5H8Y1"
+      ]
+    },
+    {
+      "id": "d3b0f",
+      "geneNames": [
+        "FOXO3"
+      ],
+      "type": "gene_protein",
+      "x": 654.6579359417424,
+      "y": 185.83830020950992,
+      "label": null,
+      "groupId": "aa34f",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000118689",
+      "uniprotAccs": [
+        "O43524"
+      ]
+    },
+    {
+      "id": "c0597",
+      "geneNames": [
+        "TFAM"
+      ],
+      "type": "gene_protein",
+      "x": 654.6579359417424,
+      "y": 210.22084681532618,
+      "label": null,
+      "groupId": "aa34f",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000108064",
+      "uniprotAccs": [
+        "Q00059",
+        "H7BYN3"
+      ]
+    },
+    {
+      "id": "fa463",
+      "geneNames": [
+        "TORC2"
+      ],
+      "type": "gene_protein",
+      "x": 654.6579359417424,
+      "y": 235.2128307832627,
+      "label": null,
+      "groupId": "aa34f",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000108064",
+      "uniprotAccs": [
+        "Q00059",
+        "H7BYN3"
+      ]
+    },
+    {
+      "id": "e570f",
+      "geneNames": [
+        "PPARG"
+      ],
+      "type": "gene_protein",
+      "x": 654.6579359417424,
+      "y": 259.20681875921457,
+      "label": null,
+      "groupId": "aa34f",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000132170",
+      "uniprotAccs": [
+        "P37231",
+        "A0A3P3ZKM0",
+        "A0A494C012",
+        "A0A494C0D9",
+        "A0A494C0T3",
+        "A0A499FIV4",
+        "A0A804HIG1",
+        "A0A804HJN2",
+        "A0A804HL89",
+        "A0A804HLH1",
+        "E7EU07",
+        "E7EUD1",
+        "E9PFV2",
+        "E9PFV3",
+        "E9PFX5",
+        "Q6L9M1"
+      ]
+    },
+    {
+      "id": "d367c",
+      "geneNames": null,
+      "type": "compound",
+      "x": 382.7352941176475,
+      "y": 486.7647058823536,
+      "label": "PARP inhibitors",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:83766"
+    },
+    {
+      "id": "bdb6e",
+      "geneNames": [
+        "SIRT3"
+      ],
+      "type": "gene_protein",
+      "x": 508.08325895488633,
+      "y": 349.1992893349725,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000142082",
+      "uniprotAccs": [
+        "Q9NTG7",
+        "B7WNN4",
+        "E9PIT6",
+        "E9PJS6",
+        "E9PK80",
+        "E9PM52",
+        "E9PM75",
+        "E9PN58",
+        "E9PNA0",
+        "E9PR48"
+      ]
+    },
+    {
+      "id": "d9a24",
+      "geneNames": null,
+      "type": "misc",
+      "x": 93.0,
+      "y": 371.0,
+      "label": "Xeroderma pigmentosum",
+      "groupId": null,
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q612693"
+    },
+    {
+      "id": "fe4a5",
+      "geneNames": null,
+      "type": "misc",
+      "x": 93.0,
+      "y": 404.0,
+      "label": "Ataxia telangiectasia",
+      "groupId": null,
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q387082"
+    },
+    {
+      "id": "d49ba",
+      "geneNames": null,
+      "type": "misc",
+      "x": 91.93277310924367,
+      "y": 149.53781512605022,
+      "label": "High-fat diet",
+      "groupId": null
+    },
+    {
+      "id": "e5fe5",
+      "geneNames": null,
+      "type": "misc",
+      "x": 773.5029133898058,
+      "y": 365.3673565618632,
+      "label": "Increased inflammation",
+      "groupId": "ac809"
+    },
+    {
+      "id": "f8e4b",
+      "geneNames": null,
+      "type": "misc",
+      "x": 779.1961907007301,
+      "y": 155.2833229484179,
+      "label": "Decreased insulin secretion",
+      "groupId": "ac809"
+    },
+    {
+      "id": "f5a65",
+      "geneNames": null,
+      "type": "misc",
+      "x": 232.2773109243704,
+      "y": 149.53781512605036,
+      "label": "Inflammation",
+      "groupId": null
+    },
+    {
+      "id": "d538c",
+      "geneNames": null,
+      "type": "misc",
+      "x": 263.57744059547673,
+      "y": 370.7910779542274,
+      "label": "DNA damage",
+      "groupId": null
+    },
+    {
+      "id": "f83b2",
+      "geneNames": null,
+      "type": "misc",
+      "x": 146.7787255182636,
+      "y": 297.05882352941245,
+      "label": "Aging",
+      "groupId": null
+    },
+    {
+      "id": "ad499",
+      "geneNames": null,
+      "type": "misc",
+      "x": 743.361015175173,
+      "y": 138.2332733806307,
+      "label": "Pancreas",
+      "groupId": "ac809"
+    },
+    {
+      "id": "c67fd",
+      "geneNames": null,
+      "type": "misc",
+      "x": 735.5038723180296,
+      "y": 203.90554228819377,
+      "label": "Brain",
+      "groupId": "ac809"
+    },
+    {
+      "id": "a6c43",
+      "geneNames": null,
+      "type": "misc",
+      "x": 764.4114353432403,
+      "y": 266.4265506915547,
+      "label": "Skeletal muscle",
+      "groupId": "ac809"
+    },
+    {
+      "id": "cc0c9",
+      "geneNames": null,
+      "type": "misc",
+      "x": 736.5963092928189,
+      "y": 333.1492397671853,
+      "label": "Liver",
+      "groupId": "ac809"
+    },
+    {
+      "id": "c9fc9",
+      "geneNames": null,
+      "type": "misc",
+      "x": 783.9440898603939,
+      "y": 219.9051716879137,
+      "label": "Decreased cognitive function",
+      "groupId": "ac809"
+    },
+    {
+      "id": "f838c",
+      "geneNames": null,
+      "type": "misc",
+      "x": 778.161120560449,
+      "y": 286.52702042740947,
+      "label": "Decreased mitochondrial\nfunction",
+      "groupId": "ac809"
+    },
+    {
+      "id": "ee4bb",
+      "geneNames": null,
+      "type": "misc",
+      "x": 785.0365268351838,
+      "y": 349.1488691669054,
+      "label": "Decreased insulin sensitivity ",
+      "groupId": "ac809"
+    },
+    {
+      "id": "aa34f",
+      "type": "group",
+      "components": [
+        "ef291",
+        "d3b0f",
+        "c0597",
+        "fa463",
+        "e570f"
+      ]
+    },
+    {
+      "id": "ac809",
+      "type": "group",
+      "components": [
+        "e5fe5",
+        "f8e4b",
+        "ad499",
+        "c67fd",
+        "a6c43",
+        "cc0c9",
+        "c9fc9",
+        "f838c",
+        "ee4bb"
+      ]
+    },
+    {
+      "id": "bdc90",
+      "type": "group",
+      "components": [
+        "fc541",
+        "f3fd2"
+      ]
+    }
+  ]
+}

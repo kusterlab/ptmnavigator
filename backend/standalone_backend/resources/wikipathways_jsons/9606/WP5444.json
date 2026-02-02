@@ -1,0 +1,586 @@
+{
+  "pathway": {
+    "name": "WP5444",
+    "org": "Homo sapiens",
+    "title": "Acetaminophen in analgesia and antipyresis"
+  },
+  "links": [
+    {
+      "id": "idcfe5d4f7",
+      "sourceId": "e5c1b",
+      "targetId": "d2c45",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id2120772c",
+      "sourceId": "a2b74",
+      "targetId": "aa22f",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "a8713",
+      "sourceId": "a2b74",
+      "targetId": "f812b",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "a4aec",
+      "sourceId": "aa22f",
+      "targetId": "b2ead",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "b582d",
+      "sourceId": "b2ead",
+      "targetId": "c4e80",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "c276f",
+      "sourceId": "c63d2",
+      "targetId": "a55e7",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "f7a75",
+      "sourceId": "f812b",
+      "targetId": "a55e7",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "c88d0",
+      "sourceId": "f812b",
+      "targetId": "ad26a",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "c71f7",
+      "sourceId": "ad26a",
+      "targetId": "aee30",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "e4436",
+      "sourceId": "b2ead",
+      "targetId": "f20e9",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "c5146",
+      "sourceId": "b2ead",
+      "targetId": "d61eb",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "c4a5f",
+      "sourceId": "aee30",
+      "targetId": "d61eb",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "b8ec3",
+      "sourceId": "f20e9",
+      "targetId": "faf49",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "b38cc",
+      "sourceId": "dfb2d",
+      "targetId": "bfdfe",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "cdb2a",
+      "sourceId": "b93e8",
+      "targetId": "ac53d",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "a45ee",
+      "sourceId": "d0720",
+      "targetId": "ac53d",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "bc7f8",
+      "sourceId": "ac53d",
+      "targetId": "eb9a1",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "e27c0",
+      "sourceId": "ac53d",
+      "targetId": "c5a85",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "f86d8",
+      "sourceId": "ac53d",
+      "targetId": "cda0d",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "b1748",
+      "sourceId": "dfb2d",
+      "targetId": "fcc8f",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "c7986",
+      "sourceId": "a2b74",
+      "targetId": "d7e30",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idfa43691a",
+      "sourceId": "a2b74",
+      "targetId": "c63d2",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "d0f36",
+      "sourceId": "a4123",
+      "targetId": "e1d8f",
+      "types": [
+        "activation"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "d2c45",
+      "geneNames": null,
+      "type": "compound",
+      "x": 255.0,
+      "y": 510.0,
+      "label": "GABA",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "16865"
+    },
+    {
+      "id": "e1d8f",
+      "geneNames": [
+        "HTR1A"
+      ],
+      "type": "gene_protein",
+      "x": 643.0,
+      "y": 510.0,
+      "label": null,
+      "groupId": "d67d5",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000178394",
+      "uniprotAccs": [
+        "P08908",
+        "D6RA34"
+      ]
+    },
+    {
+      "id": "a2b74",
+      "geneNames": null,
+      "type": "compound",
+      "x": 363.0,
+      "y": 83.0,
+      "label": "Acetaminophen",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "46195"
+    },
+    {
+      "id": "a55e7",
+      "geneNames": null,
+      "type": "misc",
+      "x": 74.0,
+      "y": 252.0,
+      "label": "Antipyresis",
+      "groupId": null,
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q582582"
+    },
+    {
+      "id": "c63d2",
+      "geneNames": [
+        "PTGS1"
+      ],
+      "type": "gene_protein",
+      "x": 74.0,
+      "y": 184.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000095303",
+      "uniprotAccs": [
+        "P23219",
+        "A0A087X296",
+        "A0A2R8Y6S0",
+        "A0A2R8YDM0",
+        "X6RJD6"
+      ]
+    },
+    {
+      "id": "b2ead",
+      "geneNames": null,
+      "type": "compound",
+      "x": 377.0,
+      "y": 242.0,
+      "label": "AM404",
+      "groupId": null,
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q4652517"
+    },
+    {
+      "id": "d61eb",
+      "geneNames": null,
+      "type": "compound",
+      "x": 255.0,
+      "y": 477.0,
+      "label": "CB1",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "73416"
+    },
+    {
+      "id": "d2832",
+      "geneNames": null,
+      "type": "compound",
+      "x": 644.0,
+      "y": 209.0,
+      "label": "1,4-benzoquinone",
+      "groupId": "d7e30",
+      "referenceDatabase": "ChEBI",
+      "referenceId": "16509"
+    },
+    {
+      "id": "f812b",
+      "geneNames": [
+        "PTGS2"
+      ],
+      "type": "gene_protein",
+      "x": 149.0,
+      "y": 186.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000073756",
+      "uniprotAccs": [
+        "P35354",
+        "A0A7P0T828",
+        "Q6ZYK7"
+      ]
+    },
+    {
+      "id": "aa22f",
+      "geneNames": [
+        "FAAH"
+      ],
+      "type": "gene_protein",
+      "x": 377.0,
+      "y": 179.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000117480",
+      "uniprotAccs": [
+        "O00519",
+        "A0A087WYA0"
+      ]
+    },
+    {
+      "id": "ad26a",
+      "geneNames": null,
+      "type": "misc",
+      "x": 143.5,
+      "y": 306.0,
+      "label": "Endocannabinoid\ndegradation",
+      "groupId": null,
+      "referenceDatabase": "Wikidata",
+      "referenceId": null
+    },
+    {
+      "id": "c4e80",
+      "geneNames": null,
+      "type": "misc",
+      "x": 284.0,
+      "y": 307.0,
+      "label": "Endocannabinoid\nreuptake",
+      "groupId": null,
+      "referenceDatabase": "Wikidata",
+      "referenceId": null
+    },
+    {
+      "id": "aee30",
+      "geneNames": null,
+      "type": "misc",
+      "x": 143.5,
+      "y": 391.0,
+      "label": "Endocannabinoid\nconcentration\n(anandimade and 2-AG)",
+      "groupId": null,
+      "referenceDatabase": "Wikidata",
+      "referenceId": null
+    },
+    {
+      "id": "ed6cf",
+      "geneNames": [
+        "TRPV1"
+      ],
+      "type": "gene_protein",
+      "x": 423.0,
+      "y": 334.0,
+      "label": null,
+      "groupId": "f20e9",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000196689",
+      "uniprotAccs": [
+        "Q8NER1",
+        "A0A3B3ISI9",
+        "E7EQ78",
+        "E7ESJ2",
+        "I3L1R6"
+      ]
+    },
+    {
+      "id": "ac156",
+      "geneNames": [
+        "CACNA1H"
+      ],
+      "type": "gene_protein",
+      "x": 424.0,
+      "y": 299.0,
+      "label": null,
+      "groupId": "f20e9",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000196557",
+      "uniprotAccs": [
+        "O95180",
+        "A0A1W2PQ19",
+        "A0A1W2PQW2",
+        "A0A1W2PR14",
+        "A0A1W2PS38",
+        "H3BMW6",
+        "H3BNT0",
+        "H3BUA8"
+      ]
+    },
+    {
+      "id": "dfb2d",
+      "geneNames": [
+        "TRPA1"
+      ],
+      "type": "gene_protein",
+      "x": 613.0,
+      "y": 294.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000104321",
+      "uniprotAccs": [
+        "O75762",
+        "H0YAW0"
+      ]
+    },
+    {
+      "id": "b93e8",
+      "geneNames": [
+        "KCNQ2"
+      ],
+      "type": "gene_protein",
+      "x": 727.0,
+      "y": 292.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000075043",
+      "uniprotAccs": [
+        "O43526",
+        "A0A0D9SEV1",
+        "A0A0D9SF10",
+        "A0A0D9SFE0",
+        "A0A0D9SG49",
+        "A0A0D9SGD4",
+        "A0A0D9SGG3",
+        "A0A0D9SGJ7",
+        "A0A0G2JH35",
+        "A0A1B0GUK1",
+        "A0A1B0GW14",
+        "A0A9L9PXL0",
+        "Q4VXP6"
+      ]
+    },
+    {
+      "id": "d0720",
+      "geneNames": [
+        "KCNQ3"
+      ],
+      "type": "gene_protein",
+      "x": 794.0,
+      "y": 292.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000184156",
+      "uniprotAccs": [
+        "O43525",
+        "A0A1W2PNZ2",
+        "A0A1W2PQ71",
+        "A0A1W2PRN8",
+        "E7ET42"
+      ]
+    },
+    {
+      "id": "faf49",
+      "geneNames": null,
+      "type": "misc",
+      "x": 424.0,
+      "y": 397.0,
+      "label": "Analgesia",
+      "groupId": null,
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q484785"
+    },
+    {
+      "id": "ac53d",
+      "geneNames": null,
+      "type": "misc",
+      "x": 761.0,
+      "y": 397.0,
+      "label": "Hyperpolarization",
+      "groupId": null,
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q1355864"
+    },
+    {
+      "id": "eb9a1",
+      "geneNames": null,
+      "type": "misc",
+      "x": 643.0,
+      "y": 542.0,
+      "label": "Analgesia",
+      "groupId": "d67d5",
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q484785"
+    },
+    {
+      "id": "bfdfe",
+      "geneNames": null,
+      "type": "misc",
+      "x": 643.0,
+      "y": 397.0,
+      "label": "Antipyresis",
+      "groupId": null,
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q582582"
+    },
+    {
+      "id": "cda0d",
+      "geneNames": null,
+      "type": "misc",
+      "x": 841.0,
+      "y": 488.0,
+      "label": "Blood pressure",
+      "groupId": null,
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q82642"
+    },
+    {
+      "id": "c5a85",
+      "geneNames": null,
+      "type": "misc",
+      "x": 850.0,
+      "y": 518.0,
+      "label": "Anticonvulsant effect",
+      "groupId": null,
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q576618"
+    },
+    {
+      "id": "fcc8f",
+      "geneNames": null,
+      "type": "misc",
+      "x": 548.0,
+      "y": 397.0,
+      "label": "Analgesia",
+      "groupId": null,
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q484785"
+    },
+    {
+      "id": "e857d",
+      "geneNames": null,
+      "type": "compound",
+      "x": 644.0,
+      "y": 177.0,
+      "label": "NAPQI",
+      "groupId": "d7e30",
+      "referenceDatabase": "ChEBI",
+      "referenceId": "29132"
+    },
+    {
+      "id": "d67d5",
+      "type": "group",
+      "components": [
+        "e1d8f",
+        "eb9a1"
+      ]
+    },
+    {
+      "id": "d7e30",
+      "type": "group",
+      "components": [
+        "d2832",
+        "e857d"
+      ]
+    },
+    {
+      "id": "f20e9",
+      "type": "group",
+      "components": [
+        "ed6cf",
+        "ac156"
+      ]
+    }
+  ]
+}

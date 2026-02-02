@@ -1,0 +1,585 @@
+{
+  "pathway": {
+    "name": "WP4317",
+    "org": "Homo sapiens",
+    "title": "Mitochondrial fatty acid synthesis pathway"
+  },
+  "links": [
+    {
+      "id": "bbfff",
+      "sourceId": "aac71",
+      "targetId": "b3f58",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "dcb14",
+      "sourceId": "d6c5f",
+      "targetId": "b3e3d",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "e0383",
+      "sourceId": "c45ef",
+      "targetId": "a5e0d",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "af42c",
+      "sourceId": "d6c5f",
+      "targetId": "fc0eb",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "c310c",
+      "sourceId": "e573d",
+      "targetId": "ab60a",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ac8af",
+      "sourceId": "c00e2",
+      "targetId": "f560d",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "b8ea1",
+      "sourceId": "de93f",
+      "targetId": "ac8af",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "a5f1f",
+      "sourceId": "d4a5f",
+      "targetId": "c00e2",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "d0537",
+      "sourceId": "d6c5f",
+      "targetId": "d4a5f",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "bb38c",
+      "sourceId": "a4dba",
+      "targetId": "e3104",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "d4814",
+      "sourceId": "f8134",
+      "targetId": "ac8af",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "b3f58",
+      "sourceId": "a1b2f",
+      "targetId": "d4575",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "d561a",
+      "sourceId": "b202f",
+      "targetId": "b89f0",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "a4dba",
+      "sourceId": "e4705",
+      "targetId": "c00e2",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "d4879",
+      "sourceId": "a2e4d",
+      "targetId": "a5f1f",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "aa23a",
+      "sourceId": "d1d04",
+      "targetId": "b3f58",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "b89f0",
+      "sourceId": "d4575",
+      "targetId": "e4705",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ed7e7",
+      "sourceId": "a2e4d",
+      "targetId": "a4dba",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "d5438",
+      "sourceId": "ca171",
+      "targetId": "e573d",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "cbc97",
+      "sourceId": "ac8af",
+      "targetId": "cbbcb",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "e573d",
+      "sourceId": "f560d",
+      "targetId": "bbc73",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "a5e0d",
+      "sourceId": "bbc73",
+      "targetId": "d6c5f",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "a55e8",
+      "sourceId": "d14d5",
+      "targetId": "a5e0d",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "db085",
+      "sourceId": "a5e0d",
+      "targetId": "a42a1",
+      "types": [
+        "activation"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "c45ef",
+      "geneNames": [
+        "MECR"
+      ],
+      "type": "gene_protein",
+      "x": 365.81209397308737,
+      "y": 718.8573443790817,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000116353",
+      "uniprotAccs": [
+        "Q9BV79",
+        "H3BM30"
+      ]
+    },
+    {
+      "id": "b876b",
+      "geneNames": null,
+      "type": "compound",
+      "x": 539.4674776492426,
+      "y": 477.71537450421596,
+      "label": "H\n",
+      "groupId": "f8134",
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:15378"
+    },
+    {
+      "id": "d4575",
+      "geneNames": null,
+      "type": "compound",
+      "x": 544.3526169774792,
+      "y": 253.7981198421843,
+      "label": "Malonyl-CoA",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0001175"
+    },
+    {
+      "id": "c00e2",
+      "geneNames": null,
+      "type": "compound",
+      "x": 450.0391970947221,
+      "y": 455.6277013232076,
+      "label": "3-Ketoacyl-ACP",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:57347"
+    },
+    {
+      "id": "de93f",
+      "geneNames": [
+        "HSD17B12"
+      ],
+      "type": "gene_protein",
+      "x": 357.2859063969603,
+      "y": 497.8323578734644,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000149084",
+      "uniprotAccs": [
+        "Q53GQ0",
+        "A0A1B0GU83",
+        "A0A1B0GV93",
+        "A0A1B0GVY6",
+        "A0A1B0GW27",
+        "A0A1B0GW85",
+        "E9PI21"
+      ]
+    },
+    {
+      "id": "e4705",
+      "geneNames": null,
+      "type": "compound",
+      "x": 544.3526169774792,
+      "y": 350.17216564371205,
+      "label": "Malonyl-ACP\n",
+      "groupId": null,
+      "referenceDatabase": "KEGG Compound",
+      "referenceId": "C01209"
+    },
+    {
+      "id": "ca171",
+      "geneNames": [
+        "HTD2 "
+      ],
+      "type": "gene_protein",
+      "x": 365.81209397308737,
+      "y": 607.6508478593603,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000255154",
+      "uniprotAccs": [
+        "P86397",
+        "A0A087WTC8",
+        "A0A087WUW1",
+        "A0A087WYB6"
+      ]
+    },
+    {
+      "id": "aac71",
+      "geneNames": [
+        "ACACA"
+      ],
+      "type": "gene_protein",
+      "x": 468.9430162025935,
+      "y": 202.73293992290945,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000278540",
+      "uniprotAccs": [
+        "Q13085",
+        "A0A087WVR6",
+        "A0A087WWN5",
+        "A0A087WYK6",
+        "A0A087WYS8",
+        "A0A087X0W4",
+        "A0A087X126",
+        "A0A087X2F8",
+        "A0A0C4DGT1",
+        "Q59FY4"
+      ]
+    },
+    {
+      "id": "b202f",
+      "geneNames": [
+        "MCAT"
+      ],
+      "type": "gene_protein",
+      "x": 467.12301686351134,
+      "y": 294.1552326429134,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000100294",
+      "uniprotAccs": [
+        "Q8IVS2",
+        "V9GYY6"
+      ]
+    },
+    {
+      "id": "a2e4d",
+      "geneNames": [
+        "KAS"
+      ],
+      "type": "gene_protein",
+      "x": 436.57775522598365,
+      "y": 370.7641525450411,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000151093",
+      "uniprotAccs": [
+        "Q9NWU1",
+        "C9J2G3",
+        "C9JQQ2",
+        "F8VNS3"
+      ]
+    },
+    {
+      "id": "fc0eb",
+      "geneNames": null,
+      "type": "compound",
+      "x": 373.1663890483991,
+      "y": 868.8086729751158,
+      "label": "Octanoyl-ACP\n",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:7725"
+    },
+    {
+      "id": "a1b2f",
+      "geneNames": null,
+      "type": "compound",
+      "x": 544.3526169774792,
+      "y": 152.97615516307928,
+      "label": "Acetyl-CoA",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0001206"
+    },
+    {
+      "id": "dff2c",
+      "geneNames": null,
+      "type": "compound",
+      "x": 615.3667212705001,
+      "y": 165.86050462915387,
+      "label": "ATP",
+      "groupId": "d1d04",
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000538"
+    },
+    {
+      "id": "af1ae",
+      "geneNames": null,
+      "type": "compound",
+      "x": 615.366721270536,
+      "y": 180.23150676135015,
+      "label": "CO2",
+      "groupId": "d1d04",
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0001967"
+    },
+    {
+      "id": "bb673",
+      "geneNames": null,
+      "type": "compound",
+      "x": 552.2588936969205,
+      "y": 408.54581419076226,
+      "label": "ATP",
+      "groupId": "e3104",
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000538"
+    },
+    {
+      "id": "f8ab1",
+      "geneNames": null,
+      "type": "compound",
+      "x": 552.2588936969739,
+      "y": 422.9168163229587,
+      "label": "CO2",
+      "groupId": "e3104",
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0001967"
+    },
+    {
+      "id": "f560d",
+      "geneNames": null,
+      "type": "compound",
+      "x": 450.0391970947221,
+      "y": 553.7947546874757,
+      "label": "3-Hydroxyacyl-ACP\n",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:57318"
+    },
+    {
+      "id": "bbc73",
+      "geneNames": null,
+      "type": "compound",
+      "x": 450.0391970947221,
+      "y": 670.5232929705364,
+      "label": "trans-2-Enoyl-ACP\n",
+      "groupId": null,
+      "referenceDatabase": "KEGG Compound",
+      "referenceId": "C05748"
+    },
+    {
+      "id": "d6c5f",
+      "geneNames": null,
+      "type": "compound",
+      "x": 450.039197094722,
+      "y": 781.4513672164759,
+      "label": "Acyl-ACP\n",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "b3e3d",
+      "geneNames": null,
+      "type": "compound",
+      "x": 582.343190724612,
+      "y": 867.8464318058104,
+      "label": "Medium/Long-chain fatty acids\n",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "d4a5f",
+      "geneNames": null,
+      "type": "compound",
+      "x": 272.6212901023041,
+      "y": 375.77089384369657,
+      "label": "Acetyl/Acyl-ACP\n",
+      "groupId": null,
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q59811305"
+    },
+    {
+      "id": "cbbcb",
+      "geneNames": null,
+      "type": "compound",
+      "x": 511.1709581937148,
+      "y": 518.5820965806754,
+      "label": "NADP",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000217"
+    },
+    {
+      "id": "e9074",
+      "geneNames": null,
+      "type": "compound",
+      "x": 539.4674776492426,
+      "y": 492.08637663641207,
+      "label": "NADPH",
+      "groupId": "f8134",
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000221"
+    },
+    {
+      "id": "ab60a",
+      "geneNames": null,
+      "type": "compound",
+      "x": 507.7795035696007,
+      "y": 635.4038724240924,
+      "label": "water",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0002111"
+    },
+    {
+      "id": "cc743",
+      "geneNames": null,
+      "type": "compound",
+      "x": 510.2337393763243,
+      "y": 708.5627735189249,
+      "label": "H\n",
+      "groupId": "d14d5",
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:15378"
+    },
+    {
+      "id": "a42a1",
+      "geneNames": null,
+      "type": "compound",
+      "x": 508.9352842631266,
+      "y": 745.8981138966855,
+      "label": "NADP",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000217"
+    },
+    {
+      "id": "f1046",
+      "geneNames": null,
+      "type": "compound",
+      "x": 510.23373937632437,
+      "y": 694.1917713867286,
+      "label": "NADPH",
+      "groupId": "d14d5",
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000221"
+    },
+    {
+      "id": "f8134",
+      "type": "group",
+      "components": [
+        "b876b",
+        "e9074"
+      ]
+    },
+    {
+      "id": "e3104",
+      "type": "group",
+      "components": [
+        "bb673",
+        "f8ab1"
+      ]
+    },
+    {
+      "id": "d1d04",
+      "type": "group",
+      "components": [
+        "dff2c",
+        "af1ae"
+      ]
+    },
+    {
+      "id": "d14d5",
+      "type": "group",
+      "components": [
+        "cc743",
+        "f1046"
+      ]
+    }
+  ]
+}

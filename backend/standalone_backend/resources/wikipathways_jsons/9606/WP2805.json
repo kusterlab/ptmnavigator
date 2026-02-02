@@ -1,0 +1,605 @@
+{
+  "pathway": {
+    "name": "WP2805",
+    "org": "Homo sapiens",
+    "title": "exRNA mechanism of action and biogenesis"
+  },
+  "links": [
+    {
+      "id": "id18234304",
+      "sourceId": "ac2cf",
+      "targetId": "b3ce0",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id291b2b45",
+      "sourceId": "e0098",
+      "targetId": "bdc2f",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id29dfe3d5",
+      "sourceId": "b1120",
+      "targetId": "dcbcb",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id40c6c87b",
+      "sourceId": "d5932",
+      "targetId": "id8cf2fab6",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id44ff4068",
+      "sourceId": "e605a",
+      "targetId": "ida34bc386",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id490137ae",
+      "sourceId": "af552",
+      "targetId": "id95f0cf26",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id82eab879",
+      "sourceId": "c2133",
+      "targetId": "e8da4",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id8cf2fab6",
+      "sourceId": "b52d7",
+      "targetId": "e0098",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id9592e63c",
+      "sourceId": "cd457",
+      "targetId": "ida34bc386",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id95f0cf26",
+      "sourceId": "cd139",
+      "targetId": "e8da4",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ida34bc386",
+      "sourceId": "b3ce0",
+      "targetId": "b52d7",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ida9d2afa2",
+      "sourceId": "e1268",
+      "targetId": "f4a98",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idadbb7246",
+      "sourceId": "e8da4",
+      "targetId": "e1268",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idc8e52fd8",
+      "sourceId": "af552",
+      "targetId": "id82eab879",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "iddc6dd27d",
+      "sourceId": "e8da4",
+      "targetId": "a038f",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idf9eadaf9",
+      "sourceId": "b8f2a",
+      "targetId": "id18234304",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "f0571",
+      "sourceId": "e8da4",
+      "targetId": "b1120",
+      "types": [
+        "activation"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "adc8c",
+      "geneNames": null,
+      "type": "compound",
+      "x": 1085.3333333333344,
+      "y": 500.7685185185188,
+      "label": "HDL",
+      "groupId": "b6a25",
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:39025"
+    },
+    {
+      "id": "af552",
+      "geneNames": [
+        "DICER1"
+      ],
+      "type": "gene_protein",
+      "x": 657.5295572868816,
+      "y": 451.7815427531896,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "23405",
+      "uniprotAccs": [
+        "Q9UPY3"
+      ]
+    },
+    {
+      "id": "b3ce0",
+      "geneNames": [
+        "pre-miRNA"
+      ],
+      "type": "gene_protein",
+      "x": 301.7960042060987,
+      "y": 386.78443743427965,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "c2133",
+      "geneNames": [
+        "dsRNA"
+      ],
+      "type": "gene_protein",
+      "x": 702.763406940063,
+      "y": 411.5331230283913,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "cd457",
+      "geneNames": [
+        "XPO5"
+      ],
+      "type": "gene_protein",
+      "x": 400.6898539967355,
+      "y": 428.1978695194996,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "57510",
+      "uniprotAccs": [
+        "Q9HAV4"
+      ]
+    },
+    {
+      "id": "d0d0c",
+      "geneNames": [
+        "Drosha"
+      ],
+      "type": "gene_protein",
+      "x": 268.1871713985285,
+      "y": 287.42586750788644,
+      "label": null,
+      "groupId": "b8f2a",
+      "referenceDatabase": "GeneID",
+      "referenceId": "29102",
+      "uniprotAccs": [
+        "Q9NRR4"
+      ]
+    },
+    {
+      "id": "d5932",
+      "geneNames": [
+        "ERI1"
+      ],
+      "type": "gene_protein",
+      "x": 526.8012618296534,
+      "y": 616.971608832808,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000104626",
+      "uniprotAccs": [
+        "Q8IV48",
+        "A0AA34QVV0",
+        "A0AA34QVX9",
+        "A0AA34QW13",
+        "E5RIV7",
+        "E5RJM3"
+      ]
+    },
+    {
+      "id": "e08b1",
+      "geneNames": [
+        "miRNA"
+      ],
+      "type": "gene_protein",
+      "x": 504.74027339642515,
+      "y": 560.4437434279711,
+      "label": null,
+      "groupId": "b52d7",
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "e0fdb",
+      "geneNames": [
+        "DGCR8"
+      ],
+      "type": "gene_protein",
+      "x": 268.1871713985285,
+      "y": 307.42586750788655,
+      "label": null,
+      "groupId": "b8f2a",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000128191",
+      "uniprotAccs": [
+        "Q8WYQ5",
+        "A0A994J4Y2",
+        "A0A994J7P0",
+        "C9JSD5"
+      ]
+    },
+    {
+      "id": "ed494",
+      "geneNames": [
+        "AGO2"
+      ],
+      "type": "gene_protein",
+      "x": 989.8333333333339,
+      "y": 571.0370370370371,
+      "label": null,
+      "groupId": "eedec",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000123908",
+      "uniprotAccs": [
+        "Q9UKV8",
+        "E5RGG9",
+        "E5RJY2"
+      ]
+    },
+    {
+      "id": "e605a",
+      "geneNames": [
+        "DICER1"
+      ],
+      "type": "gene_protein",
+      "x": 381.94444444444434,
+      "y": 489.6134755476429,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "23405",
+      "uniprotAccs": [
+        "Q9UPY3"
+      ]
+    },
+    {
+      "id": "ac2cf",
+      "geneNames": [
+        "pri-miRNA"
+      ],
+      "type": "gene_protein",
+      "x": 231.90851735015815,
+      "y": 224.02523659305987,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "e8da4",
+      "geneNames": [
+        "siRNA"
+      ],
+      "type": "gene_protein",
+      "x": 703.2996845425866,
+      "y": 544.6708727655104,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "ecb79",
+      "geneNames": [
+        "exo-siRNA"
+      ],
+      "type": "gene_protein",
+      "x": 414.84542586750786,
+      "y": 560.4437434279711,
+      "label": null,
+      "groupId": "b52d7",
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "b3c7f",
+      "geneNames": [
+        "exo-siRNA"
+      ],
+      "type": "gene_protein",
+      "x": 766.804416403786,
+      "y": 88.42797055730829,
+      "label": null,
+      "groupId": "e7b12",
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "c4cf4",
+      "geneNames": [
+        "siRNA"
+      ],
+      "type": "gene_protein",
+      "x": 926.3165089379614,
+      "y": 772.0042060988426,
+      "label": null,
+      "groupId": "daf05",
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "df39a",
+      "geneNames": [
+        "siRNA"
+      ],
+      "type": "gene_protein",
+      "x": 858.6498422712934,
+      "y": 475.33753943217675,
+      "label": null,
+      "groupId": "f8d72",
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "ba906",
+      "geneNames": [
+        "siRNA"
+      ],
+      "type": "gene_protein",
+      "x": 1036.316508937956,
+      "y": 414.33753943217647,
+      "label": null,
+      "groupId": "dcbcb",
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "ef25e",
+      "geneNames": [
+        "siRNA"
+      ],
+      "type": "gene_protein",
+      "x": 989.8333333333335,
+      "y": 593.537037037037,
+      "label": null,
+      "groupId": "eedec",
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "b285c",
+      "geneNames": [
+        "siRNA"
+      ],
+      "type": "gene_protein",
+      "x": 1012.3998422712866,
+      "y": 663.8838357284727,
+      "label": null,
+      "groupId": "c7c8d",
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "fea8b",
+      "geneNames": [
+        "siRNA"
+      ],
+      "type": "gene_protein",
+      "x": 1085.3333333333344,
+      "y": 523.2685185185189,
+      "label": null,
+      "groupId": "b6a25",
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "bdc2f",
+      "geneNames": null,
+      "type": "misc",
+      "x": 460.0715036803356,
+      "y": 756.2429022082027,
+      "label": "Translational repression\nor mRNA degradation",
+      "groupId": null
+    },
+    {
+      "id": "cd139",
+      "geneNames": null,
+      "type": "misc",
+      "x": 397.0,
+      "y": 295.0,
+      "label": "Viral miRNA",
+      "groupId": null
+    },
+    {
+      "id": "fbc51",
+      "geneNames": null,
+      "type": "misc",
+      "x": 909.2439537329074,
+      "y": 54.758149316508934,
+      "label": "RNA-induced silencing complex",
+      "groupId": "e7b12"
+    },
+    {
+      "id": "f4a98",
+      "geneNames": null,
+      "type": "misc",
+      "x": 703.5783385909576,
+      "y": 750.4700315457421,
+      "label": "mRNA cleavage\nand degradation",
+      "groupId": null
+    },
+    {
+      "id": "f9cda",
+      "geneNames": null,
+      "type": "misc",
+      "x": 506.32807570978036,
+      "y": 668.4931650893803,
+      "label": "RISC",
+      "groupId": "e0098"
+    },
+    {
+      "id": "dd747",
+      "geneNames": null,
+      "type": "misc",
+      "x": 749.0304942166155,
+      "y": 672.1629863301785,
+      "label": "RISC",
+      "groupId": "e1268"
+    },
+    {
+      "id": "ea30a",
+      "geneNames": null,
+      "type": "misc",
+      "x": 765.2166140904335,
+      "y": 55.03680336487969,
+      "label": "RISC",
+      "groupId": "e7b12"
+    },
+    {
+      "id": "bf2c3",
+      "geneNames": null,
+      "type": "misc",
+      "x": 913.1924290220893,
+      "y": 85.78864353312302,
+      "label": "Exogenous small interfering RNAs",
+      "groupId": "e7b12"
+    },
+    {
+      "id": "e7b12",
+      "type": "group",
+      "components": [
+        "b3c7f",
+        "fbc51",
+        "ea30a",
+        "bf2c3"
+      ]
+    },
+    {
+      "id": "daf05",
+      "type": "group",
+      "components": [
+        "c4cf4"
+      ]
+    },
+    {
+      "id": "eedec",
+      "type": "group",
+      "components": [
+        "ed494",
+        "ef25e"
+      ]
+    },
+    {
+      "id": "c7c8d",
+      "type": "group",
+      "components": [
+        "b285c"
+      ]
+    },
+    {
+      "id": "b6a25",
+      "type": "group",
+      "components": [
+        "adc8c",
+        "fea8b"
+      ]
+    },
+    {
+      "id": "dcbcb",
+      "type": "group",
+      "components": [
+        "ba906"
+      ]
+    },
+    {
+      "id": "e0098",
+      "type": "group",
+      "components": [
+        "f9cda"
+      ]
+    },
+    {
+      "id": "e1268",
+      "type": "group",
+      "components": [
+        "dd747"
+      ]
+    },
+    {
+      "id": "f8d72",
+      "type": "group",
+      "components": [
+        "df39a"
+      ]
+    },
+    {
+      "id": "b52d7",
+      "type": "group",
+      "components": [
+        "e08b1",
+        "ecb79"
+      ]
+    },
+    {
+      "id": "b8f2a",
+      "type": "group",
+      "components": [
+        "d0d0c",
+        "e0fdb"
+      ]
+    }
+  ]
+}

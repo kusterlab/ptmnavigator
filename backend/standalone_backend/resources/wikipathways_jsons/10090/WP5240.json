@@ -1,0 +1,127 @@
+{
+  "pathway": {
+    "name": "WP5240",
+    "org": "Mus musculus",
+    "title": "Lac-Phe pathway"
+  },
+  "links": [
+    {
+      "id": "c4815",
+      "sourceId": "f2148",
+      "targetId": "ecef7",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "c81b4",
+      "sourceId": "a5f82",
+      "targetId": "fc181",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "e173b",
+      "sourceId": "ecef7",
+      "targetId": "a4f78",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "ecef7",
+      "sourceId": "c484a",
+      "targetId": "fcf48",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "fc181",
+      "sourceId": "ef6b4",
+      "targetId": "fcf48",
+      "types": [
+        "undefined"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "a4f78",
+      "geneNames": null,
+      "type": "compound",
+      "x": 196.0,
+      "y": 237.0,
+      "label": "L-phenylalanine",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "58095"
+    },
+    {
+      "id": "a5f82",
+      "geneNames": [
+        "ABCC5"
+      ],
+      "type": "gene_protein",
+      "x": 507.6119402985062,
+      "y": 151.5067519545131,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "Q9R1X5",
+      "uniprotAccs": [
+        "Q9R1X5"
+      ]
+    },
+    {
+      "id": "c484a",
+      "geneNames": null,
+      "type": "compound",
+      "x": 196.0,
+      "y": 187.0,
+      "label": "(S)-lactate",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "16651"
+    },
+    {
+      "id": "ef6b4",
+      "geneNames": null,
+      "type": "compound",
+      "x": 637.1641791044772,
+      "y": 186.58137882018485,
+      "label": "Lac-Phe",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "167456"
+    },
+    {
+      "id": "f2148",
+      "geneNames": [
+        "CNDP2"
+      ],
+      "type": "gene_protein",
+      "x": 286.0,
+      "y": 137.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "Q9D1A2",
+      "uniprotAccs": [
+        "Q9D1A2"
+      ]
+    },
+    {
+      "id": "fcf48",
+      "geneNames": null,
+      "type": "compound",
+      "x": 376.0,
+      "y": 187.0,
+      "label": "Lac-Phe",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "167456"
+    }
+  ]
+}

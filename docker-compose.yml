@@ -1,0 +1,39 @@
+services:
+  backend:
+    env_file: ".env"
+    build:
+      context: ./backend/standalone_backend
+      dockerfile: Dockerfile
+    ports:
+      - "${BACKEND_PORT}:${BACKEND_PORT}"
+    volumes:
+      - sqlite_data:/app/data
+    environment:
+      - BACKEND_PORT=$BACKEND_PORT
+      - FLASK_APP=flask_server.py
+      - DATABASE_PATH=/app/data/sqlite_backend.db
+    networks:
+      - app-network
+
+  frontend:
+    env_file: ".env"
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+      args:
+        VUE_APP_BACKEND_PORT: $BACKEND_PORT
+        VUE_APP_ENRICHMENT_SERVER_URL: $ENRICHMENT_SERVER_URL
+    ports:
+      - "8080:80"
+    depends_on:
+      - backend
+    networks:
+      - app-network
+
+volumes:
+  sqlite_data:
+    driver: local
+
+networks:
+  app-network:
+    driver: bridge

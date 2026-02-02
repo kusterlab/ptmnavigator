@@ -1,0 +1,556 @@
+{
+  "pathway": {
+    "name": "WP1425",
+    "org": "Homo sapiens",
+    "title": "Bone morphogenic protein signaling and regulation"
+  },
+  "links": [
+    {
+      "id": "e077e",
+      "sourceId": "e2008",
+      "targetId": "cfe05",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "fc3a0",
+      "sourceId": "e2008",
+      "targetId": "b66d6",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ca0f6",
+      "sourceId": "f6220",
+      "targetId": "b6317",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "e10f7",
+      "sourceId": "e7a65",
+      "targetId": "a052c",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "b66b9",
+      "sourceId": "b2d62",
+      "targetId": "f6220",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "dd59d",
+      "sourceId": "b6317",
+      "targetId": "c77da",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "dc5cd",
+      "sourceId": "ad6b3",
+      "targetId": "b5c25",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "cabe8",
+      "sourceId": "b8501",
+      "targetId": "b6317",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "c8938",
+      "sourceId": "e3e90",
+      "targetId": "e45fb",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "f11bb",
+      "sourceId": "cc9e5",
+      "targetId": "e2008",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "b9257",
+      "sourceId": "c77da",
+      "targetId": "faf94",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "adcda",
+      "sourceId": "b2d62",
+      "targetId": "ad6b3",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id72cd8318",
+      "sourceId": "d80c7",
+      "targetId": "df7af",
+      "types": [
+        "transcription/translation"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "e2008",
+      "geneNames": [
+        "BMP2"
+      ],
+      "type": "gene_protein",
+      "x": 263.0,
+      "y": 42.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000125845",
+      "uniprotAccs": [
+        "P12643"
+      ]
+    },
+    {
+      "id": "cfe05",
+      "geneNames": [
+        "BMPR2"
+      ],
+      "type": "gene_protein",
+      "x": 218.0,
+      "y": 114.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "659",
+      "uniprotAccs": [
+        "Q13873"
+      ]
+    },
+    {
+      "id": "b66d6",
+      "geneNames": [
+        "BMPR1A"
+      ],
+      "type": "gene_protein",
+      "x": 308.0,
+      "y": 113.0,
+      "label": null,
+      "groupId": "b5c25",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000107779",
+      "uniprotAccs": [
+        "P36894",
+        "A0A087X0P8"
+      ]
+    },
+    {
+      "id": "ade09",
+      "geneNames": [
+        "SMURF1"
+      ],
+      "type": "gene_protein",
+      "x": 451.0,
+      "y": 146.81159420289856,
+      "label": null,
+      "groupId": "ad6b3",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000198742",
+      "uniprotAccs": [
+        "Q9HCE7"
+      ]
+    },
+    {
+      "id": "a18d8",
+      "geneNames": [
+        "SMAD6"
+      ],
+      "type": "gene_protein",
+      "x": 451.0,
+      "y": 166.81159420289856,
+      "label": null,
+      "groupId": "ad6b3",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000137834",
+      "uniprotAccs": [
+        "O43541",
+        "H0YK80",
+        "H0YM33"
+      ]
+    },
+    {
+      "id": "b6317",
+      "geneNames": [
+        "SMAD1"
+      ],
+      "type": "gene_protein",
+      "x": 411.0,
+      "y": 248.81159420289856,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000170365",
+      "uniprotAccs": [
+        "Q15797",
+        "A0A1D5RMR4",
+        "D6RAY1",
+        "D6RBH9",
+        "D6RD62",
+        "D6RDN7",
+        "D6REQ3"
+      ]
+    },
+    {
+      "id": "f6220",
+      "geneNames": [
+        "SMURF1"
+      ],
+      "type": "gene_protein",
+      "x": 465.0,
+      "y": 319.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000198742",
+      "uniprotAccs": [
+        "Q9HCE7"
+      ]
+    },
+    {
+      "id": "b20a8",
+      "geneNames": [
+        "TOB1"
+      ],
+      "type": "gene_protein",
+      "x": 355.0,
+      "y": 319.0,
+      "label": null,
+      "groupId": "b8501",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000141232",
+      "uniprotAccs": [
+        "P50616"
+      ]
+    },
+    {
+      "id": "faf94",
+      "geneNames": [
+        "SMAD1"
+      ],
+      "type": "gene_protein",
+      "x": 185.0,
+      "y": 279.0,
+      "label": null,
+      "groupId": "a9b99",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000170365",
+      "states": [
+        ""
+      ],
+      "uniprotAccs": [
+        "Q15797",
+        "A0A1D5RMR4",
+        "D6RAY1",
+        "D6RBH9",
+        "D6RD62",
+        "D6RDN7",
+        "D6REQ3"
+      ]
+    },
+    {
+      "id": "e3e90",
+      "geneNames": [
+        "SMAD1"
+      ],
+      "type": "gene_protein",
+      "x": 185.0,
+      "y": 319.0,
+      "label": null,
+      "groupId": "a9b99",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000170365",
+      "states": [
+        ""
+      ],
+      "uniprotAccs": [
+        "Q15797",
+        "A0A1D5RMR4",
+        "D6RAY1",
+        "D6RBH9",
+        "D6RD62",
+        "D6RDN7",
+        "D6REQ3"
+      ]
+    },
+    {
+      "id": "d9194",
+      "geneNames": [
+        "SMAD4"
+      ],
+      "type": "gene_protein",
+      "x": 185.0,
+      "y": 299.0,
+      "label": null,
+      "groupId": "a9b99",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000141646",
+      "uniprotAccs": [
+        "Q13485",
+        "A0A087WUF3",
+        "K7EIJ2",
+        "K7EIU8",
+        "K7EL15",
+        "K7EL18",
+        "K7ELK2",
+        "K7ENG1",
+        "K7ES96"
+      ]
+    },
+    {
+      "id": "e7a65",
+      "geneNames": [
+        "SMURF1"
+      ],
+      "type": "gene_protein",
+      "x": 217.0,
+      "y": 506.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000198742",
+      "uniprotAccs": [
+        "Q9HCE7"
+      ]
+    },
+    {
+      "id": "e45fb",
+      "geneNames": [
+        "SMAD1"
+      ],
+      "type": "gene_protein",
+      "x": 334.0,
+      "y": 486.0,
+      "label": null,
+      "groupId": "d80c7",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000170365",
+      "states": [
+        ""
+      ],
+      "uniprotAccs": [
+        "Q15797",
+        "A0A1D5RMR4",
+        "D6RAY1",
+        "D6RBH9",
+        "D6RD62",
+        "D6RDN7",
+        "D6REQ3"
+      ]
+    },
+    {
+      "id": "a052c",
+      "geneNames": [
+        "RUNX2"
+      ],
+      "type": "gene_protein",
+      "x": 334.0,
+      "y": 506.0,
+      "label": null,
+      "groupId": "d80c7",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000124813",
+      "uniprotAccs": [
+        "Q13950",
+        "A0A0D9SEN7",
+        "A0A2R8Y7Z3",
+        "I3L0L0",
+        "I3L354",
+        "I3L4L9"
+      ]
+    },
+    {
+      "id": "fad85",
+      "geneNames": [
+        "SMURF1"
+      ],
+      "type": "gene_protein",
+      "x": 471.0,
+      "y": 457.0,
+      "label": null,
+      "groupId": "b2d62",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000198742",
+      "uniprotAccs": [
+        "Q9HCE7"
+      ]
+    },
+    {
+      "id": "d6ace",
+      "geneNames": [
+        "SMAD6"
+      ],
+      "type": "gene_protein",
+      "x": 471.0,
+      "y": 437.0,
+      "label": null,
+      "groupId": "b2d62",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000137834",
+      "uniprotAccs": [
+        "O43541",
+        "H0YK80",
+        "H0YM33"
+      ]
+    },
+    {
+      "id": "fb2c3",
+      "geneNames": [
+        "BMPR1B"
+      ],
+      "type": "gene_protein",
+      "x": 308.0,
+      "y": 133.0,
+      "label": null,
+      "groupId": "b5c25",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000138696",
+      "uniprotAccs": [
+        "O00238",
+        "D6RGW8"
+      ]
+    },
+    {
+      "id": "e5831",
+      "geneNames": [
+        "TOB2"
+      ],
+      "type": "gene_protein",
+      "x": 355.0,
+      "y": 339.0,
+      "label": null,
+      "groupId": "b8501",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000183864",
+      "uniprotAccs": [
+        "Q14106",
+        "B0QXZ4"
+      ]
+    },
+    {
+      "id": "c77da",
+      "geneNames": [
+        "SMAD1"
+      ],
+      "type": "gene_protein",
+      "x": 307.0,
+      "y": 169.0,
+      "label": null,
+      "groupId": "b5c25",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000170365",
+      "states": [
+        ""
+      ],
+      "uniprotAccs": [
+        "Q15797",
+        "A0A1D5RMR4",
+        "D6RAY1",
+        "D6RBH9",
+        "D6RD62",
+        "D6RDN7",
+        "D6REQ3"
+      ]
+    },
+    {
+      "id": "cc9e5",
+      "geneNames": [
+        "NOG"
+      ],
+      "type": "gene_protein",
+      "x": 403.0,
+      "y": 42.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000183691",
+      "uniprotAccs": [
+        "Q13253"
+      ]
+    },
+    {
+      "id": "df7af",
+      "geneNames": null,
+      "type": "misc",
+      "x": 459.5,
+      "y": 512.7173913043478,
+      "label": "Target \ngenes",
+      "groupId": null
+    },
+    {
+      "id": "b2d62",
+      "type": "group",
+      "components": [
+        "fad85",
+        "d6ace"
+      ]
+    },
+    {
+      "id": "ad6b3",
+      "type": "group",
+      "components": [
+        "ade09",
+        "a18d8"
+      ]
+    },
+    {
+      "id": "a9b99",
+      "type": "group",
+      "components": [
+        "faf94",
+        "e3e90",
+        "d9194"
+      ]
+    },
+    {
+      "id": "b8501",
+      "type": "group",
+      "components": [
+        "b20a8",
+        "e5831"
+      ]
+    },
+    {
+      "id": "b5c25",
+      "type": "group",
+      "components": [
+        "b66d6",
+        "fb2c3",
+        "c77da"
+      ]
+    },
+    {
+      "id": "d80c7",
+      "type": "group",
+      "components": [
+        "e45fb",
+        "a052c"
+      ]
+    }
+  ]
+}

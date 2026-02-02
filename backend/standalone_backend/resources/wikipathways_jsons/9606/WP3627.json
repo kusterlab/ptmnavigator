@@ -1,0 +1,245 @@
+{
+  "pathway": {
+    "name": "WP3627",
+    "org": "Homo sapiens",
+    "title": "Gut-liver indole metabolism "
+  },
+  "links": [
+    {
+      "id": "id14d637fe",
+      "sourceId": "a1c11",
+      "targetId": "ebdc8",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id16a530d0",
+      "sourceId": "f7b19",
+      "targetId": "idd75cad3a",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id2a2a40f",
+      "sourceId": "dfda2",
+      "targetId": "a9db4",
+      "types": [
+        "translocation"
+      ]
+    },
+    {
+      "id": "id92cc91db",
+      "sourceId": "f2d0d",
+      "targetId": "dfda2",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id9d000f1a",
+      "sourceId": "dfda2",
+      "targetId": "aa46d",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "idbdf66e04",
+      "sourceId": "ebdc8",
+      "targetId": "e70f6",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idcad00256",
+      "sourceId": "c2d11",
+      "targetId": "id92cc91db",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "idd75cad3a",
+      "sourceId": "b2018",
+      "targetId": "a1c11",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "iddf31c619",
+      "sourceId": "aa46d",
+      "targetId": "ff98a",
+      "types": [
+        "translocation"
+      ]
+    },
+    {
+      "id": "iddfa826dd",
+      "sourceId": "a9db4",
+      "targetId": "b2018",
+      "types": [
+        "translocation"
+      ]
+    },
+    {
+      "id": "ide4680084",
+      "sourceId": "c8b7a",
+      "targetId": "id14d637fe",
+      "types": [
+        "catalysis"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "a1c11",
+      "geneNames": null,
+      "type": "compound",
+      "x": 801.0,
+      "y": 247.0,
+      "label": "indoxyl",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:17840"
+    },
+    {
+      "id": "aa46d",
+      "geneNames": null,
+      "type": "compound",
+      "x": 223.0,
+      "y": 329.0,
+      "label": "IPA",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:43580"
+    },
+    {
+      "id": "c2d11",
+      "geneNames": [
+        "tryptophanase"
+      ],
+      "type": "gene_protein",
+      "x": 199.0,
+      "y": 199.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "EC",
+      "referenceId": "4.1.99.1",
+      "uniprotAccs": []
+    },
+    {
+      "id": "c8b7a",
+      "geneNames": [
+        "sulfotransferase"
+      ],
+      "type": "gene_protein",
+      "x": 701.8609831029174,
+      "y": 305.6989247311828,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "dfda2",
+      "geneNames": null,
+      "type": "compound",
+      "x": 106.0,
+      "y": 279.0,
+      "label": "indole",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:16881"
+    },
+    {
+      "id": "f2d0d",
+      "geneNames": null,
+      "type": "compound",
+      "x": 106.0,
+      "y": 134.5,
+      "label": "dietary\ntryptophan",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:27897"
+    },
+    {
+      "id": "f7b19",
+      "geneNames": [
+        "CYP2E1"
+      ],
+      "type": "gene_protein",
+      "x": 691.0,
+      "y": 200.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000130649",
+      "uniprotAccs": [
+        "P05181",
+        "F5H694",
+        "H0Y593",
+        "H0Y7H4",
+        "H0YGV5"
+      ]
+    },
+    {
+      "id": "a9db4",
+      "geneNames": null,
+      "type": "compound",
+      "x": 461.0,
+      "y": 155.0,
+      "label": "indole",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:16881"
+    },
+    {
+      "id": "b2018",
+      "geneNames": null,
+      "type": "compound",
+      "x": 603.0,
+      "y": 248.0,
+      "label": "indole",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:16881"
+    },
+    {
+      "id": "ff98a",
+      "geneNames": null,
+      "type": "compound",
+      "x": 465.0,
+      "y": 328.0,
+      "label": "IPA",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:43580"
+    },
+    {
+      "id": "ebdc8",
+      "geneNames": null,
+      "type": "compound",
+      "x": 803.0,
+      "y": 374.0,
+      "label": "indoxyl sulfate",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:43355"
+    },
+    {
+      "id": "e70f6",
+      "geneNames": null,
+      "type": "compound",
+      "x": 463.0,
+      "y": 394.0,
+      "label": "indoxyl sulfate",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:43355"
+    }
+  ]
+}

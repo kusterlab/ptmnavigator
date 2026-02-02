@@ -1,0 +1,252 @@
+{
+  "pathway": {
+    "name": "WP4763",
+    "org": "Mus musculus",
+    "title": "Regulation of Pgc1a expression by a Gsk3b-Tfeb signaling axis in skeletal muscle"
+  },
+  "links": [
+    {
+      "id": "id12aa041b",
+      "sourceId": "aee77",
+      "targetId": "ec6e9",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "id24c52389",
+      "sourceId": "c88d8",
+      "targetId": "c8b5d",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "id3993a83",
+      "sourceId": "d295e",
+      "targetId": "aee77",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id4b875a32",
+      "sourceId": "d295e",
+      "targetId": "c88d8",
+      "types": [
+        "translocation"
+      ]
+    },
+    {
+      "id": "id6ca3ddf4",
+      "sourceId": "a1e8e",
+      "targetId": "b77f5",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "id966e285c",
+      "sourceId": "afa97",
+      "targetId": "c0b71",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "idc2c87159",
+      "sourceId": "aee77",
+      "targetId": "d295e",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "c0ef1",
+      "sourceId": "c0b71",
+      "targetId": "id3993a83",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "c8b5d",
+      "sourceId": "f7138",
+      "targetId": "a1e8e",
+      "types": [
+        "transcription/translation"
+      ]
+    },
+    {
+      "id": "d1092",
+      "sourceId": "id966e285c",
+      "targetId": "c0ef1",
+      "types": [
+        "inhibition"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "a42b5",
+      "geneNames": [
+        "14-3-3 \nprotein family"
+      ],
+      "type": "gene_protein",
+      "x": 214.52380952380963,
+      "y": 360.42218156750465,
+      "label": null,
+      "groupId": "ec6e9",
+      "referenceDatabase": "InterPro",
+      "referenceId": "IPR000308"
+    },
+    {
+      "id": "afa97",
+      "geneNames": null,
+      "type": "compound",
+      "x": 108.37112648123315,
+      "y": 125.0,
+      "label": "CHIR99021",
+      "groupId": null,
+      "referenceDatabase": "PubChem-compound",
+      "referenceId": "9956119"
+    },
+    {
+      "id": "b77f5",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 462.2001248821182,
+      "y": 369.3720508166966,
+      "label": "Mitochondrial biogenesis",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "c0b71",
+      "geneNames": [
+        "Gsk-3\u03b2"
+      ],
+      "type": "gene_protein",
+      "x": 108.37112648123315,
+      "y": 215.9911564732371,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "Q9WV60",
+      "uniprotAccs": [
+        "Q9WV60"
+      ]
+    },
+    {
+      "id": "aee77",
+      "geneNames": [
+        "Tfeb"
+      ],
+      "type": "gene_protein",
+      "x": 214.52380952380963,
+      "y": 265.4262687666943,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "Q9R210",
+      "states": [
+        "P"
+      ],
+      "uniprotAccs": [
+        "Q9R210"
+      ]
+    },
+    {
+      "id": "c88d8",
+      "geneNames": [
+        "Tfeb"
+      ],
+      "type": "gene_protein",
+      "x": 413.43685204057454,
+      "y": 148.24859476084453,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "Q9R210",
+      "uniprotAccs": [
+        "Q9R210"
+      ]
+    },
+    {
+      "id": "f7138",
+      "geneNames": [
+        "PPARGC1A \npromotor\n"
+      ],
+      "type": "gene_protein",
+      "x": 354.6681231244123,
+      "y": 238.6719804645278,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "19017",
+      "uniprotAccs": [
+        "O70343"
+      ]
+    },
+    {
+      "id": "a1e8e",
+      "geneNames": [
+        "Pgc-1\u03b1"
+      ],
+      "type": "gene_protein",
+      "x": 507.3726834326907,
+      "y": 238.6719804645279,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "O70343",
+      "uniprotAccs": [
+        "O70343"
+      ]
+    },
+    {
+      "id": "d295e",
+      "geneNames": [
+        "Tfeb"
+      ],
+      "type": "gene_protein",
+      "x": 214.52380952380963,
+      "y": 148.24859476084453,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "Q9R210",
+      "uniprotAccs": [
+        "Q9R210"
+      ]
+    },
+    {
+      "id": "b4ed2",
+      "geneNames": [
+        "Tfeb"
+      ],
+      "type": "gene_protein",
+      "x": 214.52380952380963,
+      "y": 331.9523809523812,
+      "label": null,
+      "groupId": "ec6e9",
+      "referenceDatabase": "Uniprot",
+      "referenceId": "Q9R210",
+      "states": [
+        "P"
+      ],
+      "uniprotAccs": [
+        "Q9R210"
+      ]
+    },
+    {
+      "id": "ec6e9",
+      "type": "group",
+      "components": [
+        "a42b5",
+        "b4ed2"
+      ]
+    }
+  ]
+}

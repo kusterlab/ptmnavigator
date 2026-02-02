@@ -1,0 +1,484 @@
+{
+  "pathway": {
+    "name": "WP2846",
+    "org": "Homo sapiens",
+    "title": "PCSK9-mediated LDL receptor degradation"
+  },
+  "links": [
+    {
+      "id": "id23f4c5bd",
+      "sourceId": "f3107",
+      "targetId": "d15a6",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id8a52bade",
+      "sourceId": "d15a6",
+      "targetId": "afe96",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id358430db",
+      "sourceId": "bb755",
+      "targetId": "afe96",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "ida5d1159e",
+      "sourceId": "afe96",
+      "targetId": "fa91e",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id91824619",
+      "sourceId": "afd4f",
+      "targetId": "a25fb",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id6f566d09",
+      "sourceId": "da660",
+      "targetId": "fa91e",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idb46cf816",
+      "sourceId": "a9a38",
+      "targetId": "fa91e",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idd67791b5",
+      "sourceId": "bb755",
+      "targetId": "d6270",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id99d51bc7",
+      "sourceId": "d15a6",
+      "targetId": "d07bd",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id4534dd2f",
+      "sourceId": "ba665",
+      "targetId": "d07bd",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idfe6a2ebb",
+      "sourceId": "c1c0d",
+      "targetId": "b0e63",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idfe8e51d8",
+      "sourceId": "b0e63",
+      "targetId": "b3aa9",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ide27a0618",
+      "sourceId": "f8f7d",
+      "targetId": "dd5d0",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idf0398611",
+      "sourceId": "dd5d0",
+      "targetId": "ba665",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id8116936d",
+      "sourceId": "d5252",
+      "targetId": "b0e63",
+      "types": [
+        "activation"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "d07bd",
+      "geneNames": [
+        "LDLR"
+      ],
+      "type": "gene_protein",
+      "x": 250.18711249999998,
+      "y": 288.72533749999985,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000130164",
+      "uniprotAccs": [
+        "P01130",
+        "H0YM92",
+        "H0YMD1",
+        "H0YMQ3",
+        "J3KMZ9"
+      ]
+    },
+    {
+      "id": "c1c0d",
+      "geneNames": [
+        "PCSK9"
+      ],
+      "type": "gene_protein",
+      "x": 731.7142624999983,
+      "y": 138.1134187500004,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000169174",
+      "uniprotAccs": [
+        "Q8NBP7",
+        "A0A669KAY4",
+        "A0A669KB81",
+        "A0A669KBG0",
+        "A0AA34QVH0"
+      ]
+    },
+    {
+      "id": "bb755",
+      "geneNames": [
+        "PCSK9"
+      ],
+      "type": "gene_protein",
+      "x": 287.0427499999996,
+      "y": 699.9846250000004,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000169174",
+      "uniprotAccs": [
+        "Q8NBP7",
+        "A0A669KAY4",
+        "A0A669KB81",
+        "A0A669KBG0",
+        "A0AA34QVH0"
+      ]
+    },
+    {
+      "id": "f3107",
+      "geneNames": [
+        "LDLR"
+      ],
+      "type": "gene_protein",
+      "x": 197.61812499999996,
+      "y": 626.638625,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000130164",
+      "uniprotAccs": [
+        "P01130",
+        "H0YM92",
+        "H0YMD1",
+        "H0YMQ3",
+        "J3KMZ9"
+      ]
+    },
+    {
+      "id": "f8f7d",
+      "geneNames": [
+        "LDLR"
+      ],
+      "type": "gene_protein",
+      "x": 505.5484999999996,
+      "y": 289.94084374999983,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000130164",
+      "uniprotAccs": [
+        "P01130",
+        "H0YM92",
+        "H0YMD1",
+        "H0YMQ3",
+        "J3KMZ9"
+      ]
+    },
+    {
+      "id": "d15a6",
+      "geneNames": [
+        "LDLR"
+      ],
+      "type": "gene_protein",
+      "x": 300.61812499999996,
+      "y": 532.638625,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000130164",
+      "uniprotAccs": [
+        "P01130",
+        "H0YM92",
+        "H0YMD1",
+        "H0YMQ3",
+        "J3KMZ9"
+      ]
+    },
+    {
+      "id": "ca036",
+      "geneNames": [
+        "PCSK9"
+      ],
+      "type": "gene_protein",
+      "x": 424.7317500000005,
+      "y": 619.7552499999995,
+      "label": null,
+      "groupId": "afe96",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000169174",
+      "uniprotAccs": [
+        "Q8NBP7",
+        "A0A669KAY4",
+        "A0A669KB81",
+        "A0A669KBG0",
+        "A0AA34QVH0"
+      ]
+    },
+    {
+      "id": "d84b7",
+      "geneNames": [
+        "LDLR"
+      ],
+      "type": "gene_protein",
+      "x": 424.7317500000005,
+      "y": 599.7552499999995,
+      "label": null,
+      "groupId": "afe96",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000130164",
+      "uniprotAccs": [
+        "P01130",
+        "H0YM92",
+        "H0YMD1",
+        "H0YMQ3",
+        "J3KMZ9"
+      ]
+    },
+    {
+      "id": "f615d",
+      "geneNames": [
+        "PCSK9"
+      ],
+      "type": "gene_protein",
+      "x": 761.702931249999,
+      "y": 592.0745562500002,
+      "label": null,
+      "groupId": "b3aa9",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000169174",
+      "uniprotAccs": [
+        "Q8NBP7",
+        "A0A669KAY4",
+        "A0A669KB81",
+        "A0A669KBG0",
+        "A0AA34QVH0"
+      ]
+    },
+    {
+      "id": "c93d4",
+      "geneNames": [
+        "LDLR"
+      ],
+      "type": "gene_protein",
+      "x": 761.7029312499985,
+      "y": 572.0745562500002,
+      "label": null,
+      "groupId": "b3aa9",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000130164",
+      "uniprotAccs": [
+        "P01130",
+        "H0YM92",
+        "H0YMD1",
+        "H0YMQ3",
+        "J3KMZ9"
+      ]
+    },
+    {
+      "id": "c9e2f",
+      "geneNames": [
+        "PCSK9"
+      ],
+      "type": "gene_protein",
+      "x": 718.2206562499997,
+      "y": 295.7669812500003,
+      "label": null,
+      "groupId": "b0e63",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000169174",
+      "uniprotAccs": [
+        "Q8NBP7",
+        "A0A669KAY4",
+        "A0A669KB81",
+        "A0A669KBG0",
+        "A0AA34QVH0"
+      ]
+    },
+    {
+      "id": "d9dfd",
+      "geneNames": [
+        "LDLR"
+      ],
+      "type": "gene_protein",
+      "x": 718.2206562499993,
+      "y": 275.76698125000013,
+      "label": null,
+      "groupId": "b0e63",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000130164",
+      "uniprotAccs": [
+        "P01130",
+        "H0YM92",
+        "H0YMD1",
+        "H0YMQ3",
+        "J3KMZ9"
+      ]
+    },
+    {
+      "id": "d6270",
+      "geneNames": [
+        "PCSK9"
+      ],
+      "type": "gene_protein",
+      "x": 228.9743999999993,
+      "y": 841.2593000000005,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000169174",
+      "uniprotAccs": [
+        "Q8NBP7",
+        "A0A669KAY4",
+        "A0A669KB81",
+        "A0A669KBG0",
+        "A0AA34QVH0"
+      ]
+    },
+    {
+      "id": "dd5d0",
+      "geneNames": [
+        "LDLR"
+      ],
+      "type": "gene_protein",
+      "x": 584.8323562499992,
+      "y": 403.25887499999885,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000130164",
+      "uniprotAccs": [
+        "P01130",
+        "H0YM92",
+        "H0YMD1",
+        "H0YMQ3",
+        "J3KMZ9"
+      ]
+    },
+    {
+      "id": "ba665",
+      "geneNames": [
+        "LDLR"
+      ],
+      "type": "gene_protein",
+      "x": 392.05704374999954,
+      "y": 404.0709125000009,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000130164",
+      "uniprotAccs": [
+        "P01130",
+        "H0YM92",
+        "H0YMD1",
+        "H0YMQ3",
+        "J3KMZ9"
+      ]
+    },
+    {
+      "id": "d5252",
+      "geneNames": [
+        "LDLR"
+      ],
+      "type": "gene_protein",
+      "x": 813.3475312499986,
+      "y": 186.8987624999997,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000130164",
+      "uniprotAccs": [
+        "P01130",
+        "H0YM92",
+        "H0YMD1",
+        "H0YMQ3",
+        "J3KMZ9"
+      ]
+    },
+    {
+      "id": "afd4f",
+      "geneNames": null,
+      "type": "misc",
+      "x": 440.0132624999986,
+      "y": 116.68860000000011,
+      "label": "LDL particles",
+      "groupId": null
+    },
+    {
+      "id": "afe96",
+      "type": "group",
+      "components": [
+        "ca036",
+        "d84b7"
+      ]
+    },
+    {
+      "id": "b3aa9",
+      "type": "group",
+      "components": [
+        "f615d",
+        "c93d4"
+      ]
+    },
+    {
+      "id": "b0e63",
+      "type": "group",
+      "components": [
+        "c9e2f",
+        "d9dfd"
+      ]
+    }
+  ]
+}

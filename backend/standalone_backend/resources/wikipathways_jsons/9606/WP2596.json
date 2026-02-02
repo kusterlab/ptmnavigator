@@ -1,0 +1,602 @@
+{
+  "pathway": {
+    "name": "WP2596",
+    "org": "Homo sapiens",
+    "title": "Gastric acid production"
+  },
+  "links": [
+    {
+      "id": "id245c0624",
+      "sourceId": "ab156",
+      "targetId": "fa55e",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id27dac7fb",
+      "sourceId": "bf4a6",
+      "targetId": "dba13",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "id3962ba71",
+      "sourceId": "f13f7",
+      "targetId": "id8c026057",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "id3aac3854",
+      "sourceId": "cb7c7",
+      "targetId": "ce856",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "id3c80a82c",
+      "sourceId": "bf4a6",
+      "targetId": "e4ec7",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id430572e6",
+      "sourceId": "f13f7",
+      "targetId": "ce856",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "id5df4cec6",
+      "sourceId": "ee344",
+      "targetId": "ce856",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "id5dfdab1c",
+      "sourceId": "bf4a6",
+      "targetId": "ab156",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "id6200976",
+      "sourceId": "f3a43",
+      "targetId": "idd916a1fd",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "id65449ded",
+      "sourceId": "bffa4",
+      "targetId": "ab156",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "id7ef1df06",
+      "sourceId": "ab156",
+      "targetId": "ef057",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id7f357ce6",
+      "sourceId": "ee344",
+      "targetId": "ab156",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "id8c026057",
+      "sourceId": "dba13",
+      "targetId": "cb7c7",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id9bc666aa",
+      "sourceId": "f3a43",
+      "targetId": "id3c80a82c",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "ida4d9e213",
+      "sourceId": "ee344",
+      "targetId": "id8c026057",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "idb4a7d6ac",
+      "sourceId": "f3e72",
+      "targetId": "bf4a6",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idbb60ff57",
+      "sourceId": "ce856",
+      "targetId": "bffa4",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idc2f415ea",
+      "sourceId": "cb7c7",
+      "targetId": "ab156",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "idd5eee542",
+      "sourceId": "f13f7",
+      "targetId": "ab156",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "idd63d2c63",
+      "sourceId": "c9391",
+      "targetId": "ab156",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "idd916a1fd",
+      "sourceId": "a7651",
+      "targetId": "c62fc",
+      "types": [
+        "activation"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "a0ba5",
+      "geneNames": [
+        "MUC6"
+      ],
+      "type": "gene_protein",
+      "x": 699.0,
+      "y": 578.0,
+      "label": null,
+      "groupId": "c62fc",
+      "referenceDatabase": "GeneID",
+      "referenceId": "4588",
+      "uniprotAccs": [
+        "Q6W4X9"
+      ]
+    },
+    {
+      "id": "a1093",
+      "geneNames": [
+        "Pepsin B"
+      ],
+      "type": "gene_protein",
+      "x": 746.0,
+      "y": 506.0,
+      "label": null,
+      "groupId": "e4ec7",
+      "referenceDatabase": "EC",
+      "referenceId": "3.4.23.2",
+      "uniprotAccs": []
+    },
+    {
+      "id": "a7651",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 754.5,
+      "y": 734.0,
+      "label": "Mucus and bicarbonate secretion",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP2600"
+    },
+    {
+      "id": "ab156",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 132.5,
+      "y": 212.0,
+      "label": "Parietal Cell production\n",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP2597"
+    },
+    {
+      "id": "b2c0c",
+      "geneNames": [
+        "PGA3"
+      ],
+      "type": "gene_protein",
+      "x": 876.5,
+      "y": 148.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "643834",
+      "uniprotAccs": [
+        "P0DJD8"
+      ]
+    },
+    {
+      "id": "bf4a6",
+      "geneNames": [
+        "pepsinogen"
+      ],
+      "type": "gene_protein",
+      "x": 745.0,
+      "y": 323.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "O95576",
+      "uniprotAccs": [
+        "O95576"
+      ]
+    },
+    {
+      "id": "bffa4",
+      "geneNames": null,
+      "type": "compound",
+      "x": 59.0,
+      "y": 480.0,
+      "label": "Histamine\n",
+      "groupId": null,
+      "referenceDatabase": "Chemspider",
+      "referenceId": "753"
+    },
+    {
+      "id": "c7d94",
+      "geneNames": [
+        "Secretin"
+      ],
+      "type": "gene_protein",
+      "x": 401.0,
+      "y": 201.0,
+      "label": null,
+      "groupId": "c9391",
+      "referenceDatabase": "GeneID",
+      "referenceId": "6343",
+      "uniprotAccs": [
+        "P09683"
+      ]
+    },
+    {
+      "id": "c95c0",
+      "geneNames": null,
+      "type": "compound",
+      "x": 790.5,
+      "y": 578.5,
+      "label": "Bicarbonate ions",
+      "groupId": "c62fc",
+      "referenceDatabase": "Chemspider",
+      "referenceId": "749"
+    },
+    {
+      "id": "cb7c7",
+      "geneNames": [
+        "Gastrin"
+      ],
+      "type": "gene_protein",
+      "x": 450.0,
+      "y": 480.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P01350",
+      "uniprotAccs": [
+        "P01350"
+      ]
+    },
+    {
+      "id": "ce856",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 156.5,
+      "y": 746.625,
+      "label": "Gastric Histamine release",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP2598"
+    },
+    {
+      "id": "d721d",
+      "geneNames": [
+        "CCK"
+      ],
+      "type": "gene_protein",
+      "x": 401.0,
+      "y": 250.0,
+      "label": null,
+      "groupId": "c9391",
+      "referenceDatabase": "GeneID",
+      "referenceId": "885",
+      "uniprotAccs": [
+        "P06307",
+        "Q6FG82"
+      ]
+    },
+    {
+      "id": "dec3a",
+      "geneNames": null,
+      "type": "compound",
+      "x": 436.0,
+      "y": 330.5,
+      "label": "potassium chloride",
+      "groupId": "fa55e",
+      "referenceDatabase": "Chemspider",
+      "referenceId": "4707"
+    },
+    {
+      "id": "e95c3",
+      "geneNames": null,
+      "type": "compound",
+      "x": 437.0,
+      "y": 382.0,
+      "label": "Sodium Chloride",
+      "groupId": "fa55e",
+      "referenceDatabase": "Chemspider",
+      "referenceId": "5044"
+    },
+    {
+      "id": "eba13",
+      "geneNames": [
+        "VIP"
+      ],
+      "type": "gene_protein",
+      "x": 401.0,
+      "y": 226.0,
+      "label": null,
+      "groupId": "c9391",
+      "referenceDatabase": "GeneID",
+      "referenceId": "7432",
+      "uniprotAccs": [
+        "P01282"
+      ]
+    },
+    {
+      "id": "ee344",
+      "geneNames": null,
+      "type": "compound",
+      "x": 168.5,
+      "y": 480.0,
+      "label": "Acetylcholine",
+      "groupId": null,
+      "referenceDatabase": "Chemspider",
+      "referenceId": "182"
+    },
+    {
+      "id": "ef057",
+      "geneNames": [
+        "Gastric Intrinsic Factor"
+      ],
+      "type": "gene_protein",
+      "x": 76.0,
+      "y": 89.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P27352",
+      "uniprotAccs": [
+        "P27352"
+      ]
+    },
+    {
+      "id": "f13f7",
+      "geneNames": [
+        "GRP"
+      ],
+      "type": "gene_protein",
+      "x": 308.0,
+      "y": 480.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "2922",
+      "uniprotAccs": [
+        "P07492",
+        "A0A140VJM7"
+      ]
+    },
+    {
+      "id": "f3a43",
+      "geneNames": null,
+      "type": "compound",
+      "x": 435.0,
+      "y": 357.0,
+      "label": "hydrochloric acid",
+      "groupId": "fa55e",
+      "referenceDatabase": "Chemspider",
+      "referenceId": "307"
+    },
+    {
+      "id": "b06e7",
+      "geneNames": [
+        "Pepsin C"
+      ],
+      "type": "gene_protein",
+      "x": 746.0,
+      "y": 528.0,
+      "label": null,
+      "groupId": "e4ec7",
+      "referenceDatabase": "EC",
+      "referenceId": "3.4.23.3",
+      "uniprotAccs": [
+        "P20142"
+      ]
+    },
+    {
+      "id": "e7ce5",
+      "geneNames": [
+        "PGA4"
+      ],
+      "type": "gene_protein",
+      "x": 876.5,
+      "y": 177.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "643847",
+      "uniprotAccs": [
+        "P0DJD7",
+        "A0A1S5UZ02",
+        "B7Z719"
+      ]
+    },
+    {
+      "id": "f3e72",
+      "geneNames": [
+        "pepsinogen"
+      ],
+      "type": "gene_protein",
+      "x": 745.0,
+      "y": 208.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "O95576",
+      "uniprotAccs": [
+        "O95576"
+      ]
+    },
+    {
+      "id": "d7789",
+      "geneNames": [
+        "PGA5"
+      ],
+      "type": "gene_protein",
+      "x": 876.5,
+      "y": 209.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "5222",
+      "uniprotAccs": [
+        "P0DJD9"
+      ]
+    },
+    {
+      "id": "a84cf",
+      "geneNames": [
+        "PGC"
+      ],
+      "type": "gene_protein",
+      "x": 876.5,
+      "y": 242.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "5225",
+      "uniprotAccs": [
+        "P20142"
+      ]
+    },
+    {
+      "id": "dba13",
+      "geneNames": [
+        "Gastrin"
+      ],
+      "type": "gene_protein",
+      "x": 450.0,
+      "y": 745.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P01350",
+      "uniprotAccs": [
+        "P01350"
+      ]
+    },
+    {
+      "id": "be433",
+      "geneNames": null,
+      "type": "misc",
+      "x": 129.0,
+      "y": 167.0,
+      "label": "Parietal cell",
+      "groupId": "f2ae0"
+    },
+    {
+      "id": "f30a2",
+      "geneNames": null,
+      "type": "misc",
+      "x": 449.0,
+      "y": 808.0,
+      "label": "G cell\n",
+      "groupId": "ced87"
+    },
+    {
+      "id": "c62fc",
+      "type": "group",
+      "components": [
+        "a0ba5",
+        "c95c0"
+      ]
+    },
+    {
+      "id": "c9391",
+      "type": "group",
+      "components": [
+        "c7d94",
+        "d721d",
+        "eba13"
+      ]
+    },
+    {
+      "id": "ced87",
+      "type": "group",
+      "components": [
+        "f30a2"
+      ]
+    },
+    {
+      "id": "e4ec7",
+      "type": "group",
+      "components": [
+        "a1093",
+        "b06e7"
+      ]
+    },
+    {
+      "id": "f2ae0",
+      "type": "group",
+      "components": [
+        "be433"
+      ]
+    },
+    {
+      "id": "fa55e",
+      "type": "group",
+      "components": [
+        "dec3a",
+        "e95c3",
+        "f3a43"
+      ]
+    }
+  ]
+}

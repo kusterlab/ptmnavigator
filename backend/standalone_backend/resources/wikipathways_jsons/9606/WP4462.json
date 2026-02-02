@@ -1,0 +1,705 @@
+{
+  "pathway": {
+    "name": "WP4462",
+    "org": "Homo sapiens",
+    "title": "Platelet-mediated interactions with vascular and circulating cells"
+  },
+  "links": [
+    {
+      "id": "b7bcd",
+      "sourceId": "e918b",
+      "targetId": "e3cf4",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ac61b",
+      "sourceId": "e088a",
+      "targetId": "ca461",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id125362b",
+      "sourceId": "db46a",
+      "targetId": "bf534",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id2ddb2250",
+      "sourceId": "c775f",
+      "targetId": "e4f88",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id3b03b924",
+      "sourceId": "bf534",
+      "targetId": "eb568",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id70050b68",
+      "sourceId": "c0374",
+      "targetId": "e3cf4",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id8bac0e03",
+      "sourceId": "f4649",
+      "targetId": "c0374",
+      "types": [
+        "transcription/translation"
+      ]
+    },
+    {
+      "id": "ida683a118",
+      "sourceId": "f4649",
+      "targetId": "e3b9d",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idad5d7955",
+      "sourceId": "bd3ad",
+      "targetId": "e918b",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idae2efb87",
+      "sourceId": "b7fa1",
+      "targetId": "c0470",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idc4b87e9c",
+      "sourceId": "eb568",
+      "targetId": "abbe3",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "idc778f3de",
+      "sourceId": "cea54",
+      "targetId": "ca461",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "idcae4214a",
+      "sourceId": "a8f68",
+      "targetId": "db46a",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "f0546",
+      "sourceId": "d96f8",
+      "targetId": "b6449",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "da1ab",
+      "sourceId": "a92b1",
+      "targetId": "b44f5",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ca461",
+      "sourceId": "db46a",
+      "targetId": "fb596",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "e3f6a",
+      "sourceId": "fb596",
+      "targetId": "aae03",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "af821",
+      "sourceId": "e9ecb",
+      "targetId": "ba960",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ac6ef",
+      "sourceId": "af821",
+      "targetId": "f1528",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "d4953",
+      "sourceId": "idcae4214a",
+      "targetId": "f1528",
+      "types": [
+        "conversion"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "b3aac",
+      "geneNames": [
+        "SELE"
+      ],
+      "type": "gene_protein",
+      "x": 732.0,
+      "y": 143.0,
+      "label": null,
+      "groupId": "c0374",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000007908",
+      "uniprotAccs": [
+        "P16581",
+        "Q5TI72",
+        "Q5TI73",
+        "Q5TI74",
+        "Q5TI75",
+        "V9GYI4"
+      ]
+    },
+    {
+      "id": "ba960",
+      "geneNames": [
+        "P-selectin"
+      ],
+      "type": "gene_protein",
+      "x": 430.0,
+      "y": 333.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P16109",
+      "uniprotAccs": [
+        "P16109"
+      ]
+    },
+    {
+      "id": "cdc58",
+      "geneNames": [
+        "TLR2"
+      ],
+      "type": "gene_protein",
+      "x": 495.5,
+      "y": 296.0,
+      "label": null,
+      "groupId": "c0470",
+      "referenceDatabase": "Uniprot",
+      "referenceId": "O60603",
+      "uniprotAccs": [
+        "O60603"
+      ]
+    },
+    {
+      "id": "fb596",
+      "geneNames": [
+        "IL1B"
+      ],
+      "type": "gene_protein",
+      "x": 667.0,
+      "y": 536.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000125538",
+      "uniprotAccs": [
+        "P01584",
+        "C9JSC2",
+        "C9JVK0",
+        "C9JWV2"
+      ]
+    },
+    {
+      "id": "b6449",
+      "geneNames": [
+        "CD40"
+      ],
+      "type": "gene_protein",
+      "x": 376.5,
+      "y": 373.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P25942",
+      "uniprotAccs": [
+        "P25942"
+      ]
+    },
+    {
+      "id": "b145d",
+      "geneNames": [
+        "TLR4"
+      ],
+      "type": "gene_protein",
+      "x": 495.5,
+      "y": 321.0,
+      "label": null,
+      "groupId": "c0470",
+      "referenceDatabase": "Uniprot",
+      "referenceId": "O00206",
+      "uniprotAccs": [
+        "O00206"
+      ]
+    },
+    {
+      "id": "fad18",
+      "geneNames": [
+        "TLR7"
+      ],
+      "type": "gene_protein",
+      "x": 495.5,
+      "y": 372.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "B2R9N9",
+      "uniprotAccs": [
+        "B2R9N9"
+      ]
+    },
+    {
+      "id": "f4649",
+      "geneNames": [
+        "CD40"
+      ],
+      "type": "gene_protein",
+      "x": 731.5,
+      "y": 330.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000101017",
+      "uniprotAccs": [
+        "P25942",
+        "A0A087X1D0",
+        "A0A8Q3SI60",
+        "A0A8Q3WKP3",
+        "A0A8Q3WKP7",
+        "H0YE23"
+      ]
+    },
+    {
+      "id": "bc301",
+      "geneNames": [
+        "VCAM1"
+      ],
+      "type": "gene_protein",
+      "x": 732.0,
+      "y": 168.0,
+      "label": null,
+      "groupId": "c0374",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000162692",
+      "uniprotAccs": [
+        "P19320",
+        "A0A3B3ISS8",
+        "E9PDD2"
+      ]
+    },
+    {
+      "id": "b1d0f",
+      "geneNames": [
+        "ICAM1"
+      ],
+      "type": "gene_protein",
+      "x": 732.0,
+      "y": 193.0,
+      "label": null,
+      "groupId": "c0374",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000090339",
+      "uniprotAccs": [
+        "P05362",
+        "E7ESS4",
+        "K7EKL8"
+      ]
+    },
+    {
+      "id": "eb84a",
+      "geneNames": [
+        "PF4"
+      ],
+      "type": "gene_protein",
+      "x": 299.0,
+      "y": 489.0,
+      "label": null,
+      "groupId": "bf534",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000163737",
+      "uniprotAccs": [
+        "P02776",
+        "A0A8I5QJ57"
+      ]
+    },
+    {
+      "id": "c3a75",
+      "geneNames": null,
+      "type": "compound",
+      "x": 299.0,
+      "y": 518.0,
+      "label": "Serotonin",
+      "groupId": "bf534",
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:28790"
+    },
+    {
+      "id": "a7ea3",
+      "geneNames": [
+        "CCL5"
+      ],
+      "type": "gene_protein",
+      "x": 299.0,
+      "y": 547.0,
+      "label": null,
+      "groupId": "bf534",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000271503",
+      "uniprotAccs": [
+        "P13501",
+        "A0A494C1Q1"
+      ]
+    },
+    {
+      "id": "d9587",
+      "geneNames": [
+        "TGFB1"
+      ],
+      "type": "gene_protein",
+      "x": 299.0,
+      "y": 576.0,
+      "label": null,
+      "groupId": "bf534",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000105329",
+      "uniprotAccs": [
+        "P01137",
+        "A0A499FJK2",
+        "A0A7I2V5Z9",
+        "A0A7I2YQL8"
+      ]
+    },
+    {
+      "id": "d96f8",
+      "geneNames": [
+        "CD40LG"
+      ],
+      "type": "gene_protein",
+      "x": 128.0,
+      "y": 286.0,
+      "label": null,
+      "groupId": "dd971",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000102245",
+      "uniprotAccs": [
+        "P29965",
+        "A0A8Q3WKP2",
+        "A0A8Q3WL88",
+        "Q3L8U2"
+      ]
+    },
+    {
+      "id": "a92b1",
+      "geneNames": [
+        "PSGL1"
+      ],
+      "type": "gene_protein",
+      "x": 732.5999999999998,
+      "y": 301.4000000000002,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "Q14242",
+      "uniprotAccs": [
+        "Q14242"
+      ]
+    },
+    {
+      "id": "b44f5",
+      "geneNames": [
+        "P-selectin"
+      ],
+      "type": "gene_protein",
+      "x": 568.0,
+      "y": 332.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P16109",
+      "uniprotAccs": [
+        "P16109"
+      ]
+    },
+    {
+      "id": "a8f68",
+      "geneNames": [
+        "PSGL1"
+      ],
+      "type": "gene_protein",
+      "x": 215.5,
+      "y": 133.0,
+      "label": null,
+      "groupId": "dd971",
+      "referenceDatabase": "Uniprot",
+      "referenceId": "Q14242",
+      "uniprotAccs": [
+        "Q14242"
+      ]
+    },
+    {
+      "id": "e9ecb",
+      "geneNames": [
+        "PSGL1"
+      ],
+      "type": "gene_protein",
+      "x": 186.0,
+      "y": 210.0,
+      "label": null,
+      "groupId": "dd971",
+      "referenceDatabase": "Uniprot",
+      "referenceId": "Q14242",
+      "uniprotAccs": [
+        "Q14242"
+      ]
+    },
+    {
+      "id": "e3b9d",
+      "geneNames": [
+        "CD40-L"
+      ],
+      "type": "gene_protein",
+      "x": 612.5,
+      "y": 368.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P29965",
+      "uniprotAccs": [
+        "P29965"
+      ]
+    },
+    {
+      "id": "e088a",
+      "geneNames": [
+        "TLR4"
+      ],
+      "type": "gene_protein",
+      "x": 584.5,
+      "y": 442.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "O00206",
+      "uniprotAccs": [
+        "O00206"
+      ]
+    },
+    {
+      "id": "d0c31",
+      "geneNames": [
+        "IL1B"
+      ],
+      "type": "gene_protein",
+      "x": 614.0,
+      "y": 228.0,
+      "label": null,
+      "groupId": "e918b",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000125538",
+      "uniprotAccs": [
+        "P01584",
+        "C9JSC2",
+        "C9JVK0",
+        "C9JWV2"
+      ]
+    },
+    {
+      "id": "aafdd",
+      "geneNames": [
+        "CCL2"
+      ],
+      "type": "gene_protein",
+      "x": 614.0,
+      "y": 253.0,
+      "label": null,
+      "groupId": "e918b",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000108691",
+      "uniprotAccs": [
+        "P13500",
+        "J3KRT7"
+      ]
+    },
+    {
+      "id": "a0454",
+      "geneNames": [
+        "TGFB2"
+      ],
+      "type": "gene_protein",
+      "x": 299.0,
+      "y": 604.0,
+      "label": null,
+      "groupId": "bf534",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000092969",
+      "uniprotAccs": [
+        "P61812"
+      ]
+    },
+    {
+      "id": "de71a",
+      "geneNames": [
+        "TGFB3"
+      ],
+      "type": "gene_protein",
+      "x": 299.0,
+      "y": 629.0,
+      "label": null,
+      "groupId": "bf534",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000119699",
+      "uniprotAccs": [
+        "P10600",
+        "A0A6Q8PGK5"
+      ]
+    },
+    {
+      "id": "aae03",
+      "geneNames": null,
+      "type": "misc",
+      "x": 830.117346938775,
+      "y": 536.25,
+      "label": "Increased \nendothelial\npermeability",
+      "groupId": null
+    },
+    {
+      "id": "abbe3",
+      "geneNames": null,
+      "type": "misc",
+      "x": 114.5,
+      "y": 720.75,
+      "label": "Activation, differentiation\nIgG production",
+      "groupId": null
+    },
+    {
+      "id": "b7fa1",
+      "geneNames": null,
+      "type": "misc",
+      "x": 495.5,
+      "y": 56.0,
+      "label": "Inflammatory Signals\nInfection",
+      "groupId": null
+    },
+    {
+      "id": "cea54",
+      "geneNames": null,
+      "type": "misc",
+      "x": 665.5,
+      "y": 495.0,
+      "label": "Dengue, flu, CMV",
+      "groupId": null
+    },
+    {
+      "id": "e3cf4",
+      "geneNames": null,
+      "type": "misc",
+      "x": 614.0,
+      "y": 168.0,
+      "label": "Recruitment of \nleukocytes",
+      "groupId": null
+    },
+    {
+      "id": "e4f88",
+      "geneNames": null,
+      "type": "misc",
+      "x": 96.0,
+      "y": 362.0,
+      "label": "DCs become \nantigen presenting cells",
+      "groupId": null
+    },
+    {
+      "id": "f1528",
+      "geneNames": null,
+      "type": "misc",
+      "x": 357.0,
+      "y": 109.25,
+      "label": "Formation of \nHeterotypic Aggregates (HAGs)",
+      "groupId": null
+    },
+    {
+      "id": "e918b",
+      "type": "group",
+      "components": [
+        "d0c31",
+        "aafdd"
+      ]
+    },
+    {
+      "id": "bf534",
+      "type": "group",
+      "components": [
+        "eb84a",
+        "c3a75",
+        "a7ea3",
+        "d9587",
+        "a0454",
+        "de71a"
+      ]
+    },
+    {
+      "id": "c0374",
+      "type": "group",
+      "components": [
+        "b3aac",
+        "bc301",
+        "b1d0f"
+      ]
+    },
+    {
+      "id": "c0470",
+      "type": "group",
+      "components": [
+        "cdc58",
+        "b145d"
+      ]
+    },
+    {
+      "id": "dd971",
+      "type": "group",
+      "components": [
+        "d96f8",
+        "a8f68",
+        "e9ecb"
+      ]
+    }
+  ]
+}

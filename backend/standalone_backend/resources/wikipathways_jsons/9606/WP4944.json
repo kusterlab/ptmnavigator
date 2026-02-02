@@ -1,0 +1,407 @@
+{
+  "pathway": {
+    "name": "WP4944",
+    "org": "Homo sapiens",
+    "title": "Mitochondrial complex I inhibition leading to chemical-induced Fanconi syndrome"
+  },
+  "links": [
+    {
+      "id": "id11cc7706",
+      "sourceId": "d19e6",
+      "targetId": "fc8d5",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "id391453a2",
+      "sourceId": "eb799",
+      "targetId": "ee286",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "id45956cf6",
+      "sourceId": "bafd5",
+      "targetId": "c4e99",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "id4a0511f1",
+      "sourceId": "a7af7",
+      "targetId": "ee286",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "id5f5a0663",
+      "sourceId": "f7e4c",
+      "targetId": "c4e99",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "id7d3d778",
+      "sourceId": "b6ccd",
+      "targetId": "ee286",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "id900b6636",
+      "sourceId": "c2dac",
+      "targetId": "eb799",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "ida5739b00",
+      "sourceId": "d19e6",
+      "targetId": "b805e",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "idc8a282c3",
+      "sourceId": "dbc60",
+      "targetId": "ef339",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "idd1787fcc",
+      "sourceId": "c430b",
+      "targetId": "cf3b1",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "ide1efb223",
+      "sourceId": "a361f",
+      "targetId": "b9447",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "idf8f5cf58",
+      "sourceId": "fc8d5",
+      "targetId": "b805e",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "dcd54",
+      "sourceId": "f827a",
+      "targetId": "fc8d5",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "d3d41",
+      "sourceId": "b805e",
+      "targetId": "a361f",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "c6488",
+      "sourceId": "cf3b1",
+      "targetId": "c4e99",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "fe99c",
+      "sourceId": "ee286",
+      "targetId": "ef339",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "d48cb",
+      "sourceId": "cf3b1",
+      "targetId": "ee286",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "e10db",
+      "sourceId": "c4e99",
+      "targetId": "ee286",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "c0b78",
+      "sourceId": "ef339",
+      "targetId": "b58b3",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "dc69c",
+      "sourceId": "e3fea",
+      "targetId": "fc8d5",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "e178a",
+      "sourceId": "c4e99",
+      "targetId": "ef339",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "d72a2",
+      "sourceId": "a361f",
+      "targetId": "cf3b1",
+      "types": [
+        "activation"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "fc8d5",
+      "geneNames": null,
+      "type": "misc",
+      "x": 372.0370370370377,
+      "y": 151.54532163742715,
+      "label": "KE888: Binding of inhibitor, \nNADH-ubiquinone oxidoreductase (complex I)",
+      "groupId": null,
+      "referenceDatabase": "AOP-Wiki KE",
+      "referenceId": "888"
+    },
+    {
+      "id": "b6ccd",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 555.2912658855596,
+      "y": 617.6908234579171,
+      "label": "Autophagy",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP4923"
+    },
+    {
+      "id": "a7af7",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 555.2912658855596,
+      "y": 592.6908234579171,
+      "label": "Necrosis",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP5022"
+    },
+    {
+      "id": "e3fea",
+      "geneNames": null,
+      "type": "compound",
+      "x": 320.0,
+      "y": 69.0,
+      "label": "Deguelin",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:4357"
+    },
+    {
+      "id": "dbc60",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 371.2533379774765,
+      "y": 843.9629629629634,
+      "label": "Decreased proximal tubule vectorial transport",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP4917"
+    },
+    {
+      "id": "b9447",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 372.0370370370377,
+      "y": 327.25,
+      "label": "Decreased mitochondrial oxidative phosphorylation",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP111"
+    },
+    {
+      "id": "eb799",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 555.2912658855596,
+      "y": 567.6908234579171,
+      "label": "Apoptosis",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP1772"
+    },
+    {
+      "id": "c2dac",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 555.2912658855597,
+      "y": 642.6908234579171,
+      "label": "Ferroptosis",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP4313"
+    },
+    {
+      "id": "d19e6",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 661.467738225858,
+      "y": 179.3763785673071,
+      "label": "Assembly of mitochondrial complex I",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP4324"
+    },
+    {
+      "id": "c430b",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 372.03703703703775,
+      "y": 428.0,
+      "label": "Oxidative stress response",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP3941"
+    },
+    {
+      "id": "bafd5",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 179.93858800773705,
+      "y": 566.4722222222213,
+      "label": "Impaired proteostasis",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP4918"
+    },
+    {
+      "id": "f7e4c",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 179.93858800773705,
+      "y": 591.4722222222211,
+      "label": "Unfolded Protein Response",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP4925"
+    },
+    {
+      "id": "f827a",
+      "geneNames": null,
+      "type": "misc",
+      "x": 434.0,
+      "y": 69.0,
+      "label": "Rotenone",
+      "groupId": null,
+      "referenceDatabase": "AOP-Wiki Stressor",
+      "referenceId": "50"
+    },
+    {
+      "id": "b805e",
+      "geneNames": null,
+      "type": "misc",
+      "x": 372.03703703703775,
+      "y": 207.7194621695533,
+      "label": "KE887: Inhibition, \nNADH-ubiquinone oxidoreductase (complex I)",
+      "groupId": null,
+      "referenceDatabase": "AOP-Wiki KE",
+      "referenceId": "887"
+    },
+    {
+      "id": "a361f",
+      "geneNames": null,
+      "type": "misc",
+      "x": 372.0370370370377,
+      "y": 301.75,
+      "label": "KE1477: Decrease, OXPHOS",
+      "groupId": null,
+      "referenceDatabase": "AOP-Wiki KE",
+      "referenceId": "1477"
+    },
+    {
+      "id": "cf3b1",
+      "geneNames": null,
+      "type": "misc",
+      "x": 372.03703703703775,
+      "y": 402.75,
+      "label": "KE1562: Decreased Na/K ATPase activity\n",
+      "groupId": null,
+      "referenceDatabase": "AOP-Wiki KE",
+      "referenceId": "1562"
+    },
+    {
+      "id": "ef339",
+      "geneNames": null,
+      "type": "misc",
+      "x": 371.25333797747646,
+      "y": 818.7129629629635,
+      "label": "KE1563: Decreased proximal tubular vectorial transport\n",
+      "groupId": null,
+      "referenceDatabase": "AOP-Wiki KE",
+      "referenceId": "1563"
+    },
+    {
+      "id": "b58b3",
+      "geneNames": null,
+      "type": "misc",
+      "x": 372.03703703703775,
+      "y": 973.388888888889,
+      "label": "KE1564: Chemical induced Fanconi syndrome\n",
+      "groupId": null,
+      "referenceDatabase": "AOP-Wiki KE",
+      "referenceId": "1564"
+    },
+    {
+      "id": "ee286",
+      "geneNames": null,
+      "type": "misc",
+      "x": 555.2912658855596,
+      "y": 542.4408234579171,
+      "label": "KE55: N/A, Cell injury/death\n",
+      "groupId": null,
+      "referenceDatabase": "AOP-Wiki KE",
+      "referenceId": "55"
+    },
+    {
+      "id": "c4e99",
+      "geneNames": null,
+      "type": "misc",
+      "x": 179.93858800773702,
+      "y": 541.2222222222213,
+      "label": "KE889: Impaired, Proteostasis\n",
+      "groupId": null,
+      "referenceDatabase": "AOP-Wiki KE",
+      "referenceId": "889"
+    }
+  ]
+}

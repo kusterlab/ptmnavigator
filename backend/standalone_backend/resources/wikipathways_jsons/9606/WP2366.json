@@ -1,0 +1,278 @@
+{
+  "pathway": {
+    "name": "WP2366",
+    "org": "Homo sapiens",
+    "title": "Butyrate-induced histone acetylation"
+  },
+  "links": [
+    {
+      "id": "ida4a53531",
+      "sourceId": "d424d",
+      "targetId": "d58d7",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "idb33be4fb",
+      "sourceId": "da500",
+      "targetId": "e3721",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id831c4ab3",
+      "sourceId": "e3721",
+      "targetId": "d6834",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idcd2be9d8",
+      "sourceId": "d58d7",
+      "targetId": "fe8cf",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id2d0a4b1d",
+      "sourceId": "e3721",
+      "targetId": "dae0d",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id5457525d",
+      "sourceId": "aeb78",
+      "targetId": "dae0d",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idc24c6072",
+      "sourceId": "f3fcc",
+      "targetId": "aeb78",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id81b34331",
+      "sourceId": "aeb78",
+      "targetId": "d424d",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id9804a251",
+      "sourceId": "fe8cf",
+      "targetId": "da500",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id6dc40e6d",
+      "sourceId": "bd0fe",
+      "targetId": "c395e",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idf3a20ce1",
+      "sourceId": "c395e",
+      "targetId": "b336d",
+      "types": [
+        "activation"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "f3fcc",
+      "geneNames": null,
+      "type": "compound",
+      "x": 322.0,
+      "y": 27.0,
+      "label": "Butyrate",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:17968"
+    },
+    {
+      "id": "d424d",
+      "geneNames": null,
+      "type": "compound",
+      "x": 323.0,
+      "y": 192.0,
+      "label": "Butyrate",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:17968"
+    },
+    {
+      "id": "aeb78",
+      "geneNames": null,
+      "type": "compound",
+      "x": 323.0,
+      "y": 106.0,
+      "label": "Butyrate",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:17968"
+    },
+    {
+      "id": "fe8cf",
+      "geneNames": null,
+      "type": "compound",
+      "x": 396.0,
+      "y": 316.0,
+      "label": "Citrate",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:35808"
+    },
+    {
+      "id": "da500",
+      "geneNames": null,
+      "type": "compound",
+      "x": 549.0,
+      "y": 316.0,
+      "label": "Citrate",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:35808"
+    },
+    {
+      "id": "d58d7",
+      "geneNames": null,
+      "type": "compound",
+      "x": 324.0,
+      "y": 250.0,
+      "label": "Acetyl CoA",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:15351"
+    },
+    {
+      "id": "bd0fe",
+      "geneNames": null,
+      "type": "compound",
+      "x": 550.0,
+      "y": 31.0,
+      "label": "Glucose",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:17634"
+    },
+    {
+      "id": "e3721",
+      "geneNames": null,
+      "type": "compound",
+      "x": 707.0,
+      "y": 316.0,
+      "label": "Acetyl CoA",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:15351"
+    },
+    {
+      "id": "d6834",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 708.0,
+      "y": 167.5,
+      "label": "Lipid\nbiosynthesis",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP357"
+    },
+    {
+      "id": "c395e",
+      "geneNames": [
+        "AKT"
+      ],
+      "type": "gene_protein",
+      "x": 551.0,
+      "y": 119.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P31749",
+      "uniprotAccs": [
+        "P31749"
+      ]
+    },
+    {
+      "id": "b336d",
+      "geneNames": [
+        "ACL"
+      ],
+      "type": "gene_protein",
+      "x": 550.0,
+      "y": 251.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P53396",
+      "uniprotAccs": [
+        "P53396"
+      ]
+    },
+    {
+      "id": "ac06e",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 314.0,
+      "y": 299.0,
+      "label": "TCA\ncycle",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP78"
+    },
+    {
+      "id": "dae0d",
+      "geneNames": [
+        "Acetylated Histone"
+      ],
+      "type": "gene_protein",
+      "x": 705.5,
+      "y": 463.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q36293"
+    },
+    {
+      "id": "c4bec",
+      "geneNames": [
+        "HDACs"
+      ],
+      "type": "gene_protein",
+      "x": 516.0,
+      "y": 502.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "InterPro",
+      "referenceId": "IPR000286"
+    },
+    {
+      "id": "d629b",
+      "geneNames": null,
+      "type": "compound",
+      "x": 388.0,
+      "y": 502.0,
+      "label": "Butyrate",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:17968"
+    }
+  ]
+}

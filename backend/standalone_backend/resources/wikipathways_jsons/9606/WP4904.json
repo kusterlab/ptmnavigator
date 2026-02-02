@@ -1,0 +1,475 @@
+{
+  "pathway": {
+    "name": "WP4904",
+    "org": "Homo sapiens",
+    "title": "LDLRAD4 and what we know about it"
+  },
+  "links": [
+    {
+      "id": "id3b8d16d5",
+      "sourceId": "f25b2",
+      "targetId": "f314c",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id4fe61d16",
+      "sourceId": "c276a",
+      "targetId": "c628c",
+      "types": [
+        "translocation"
+      ]
+    },
+    {
+      "id": "id5444d4cb",
+      "sourceId": "b0004",
+      "targetId": "ide33a2255",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id61a8eeaa",
+      "sourceId": "id6cc9fb0d",
+      "targetId": "bab41",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id694a53fa",
+      "sourceId": "f314c",
+      "targetId": "a5486",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "id6cc9fb0d",
+      "sourceId": "c276a",
+      "targetId": "e9bfd",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "id6fa109c9",
+      "sourceId": "e9bfd",
+      "targetId": "e1533",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "id71ecd0f3",
+      "sourceId": "b8756",
+      "targetId": "c276a",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "id7947a72f",
+      "sourceId": "e9bfd",
+      "targetId": "d98b8",
+      "types": [
+        "translocation"
+      ]
+    },
+    {
+      "id": "ide33a2255",
+      "sourceId": "e3254",
+      "targetId": "df78d",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idef60a322",
+      "sourceId": "e9bfd",
+      "targetId": "e3ffd",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "idf54d419",
+      "sourceId": "e9bfd",
+      "targetId": "ca96b",
+      "types": [
+        "translocation"
+      ]
+    },
+    {
+      "id": "idfb4f20fd",
+      "sourceId": "c9042",
+      "targetId": "e9bfd",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "idfdf4dec2",
+      "sourceId": "f25b2",
+      "targetId": "e9bfd",
+      "types": [
+        "undefined"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "a5486",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 86.31287970838414,
+      "y": 430.509113001215,
+      "label": "Autophagosome\nformation",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "e1533",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 226.45018226002384,
+      "y": 59.643074119076516,
+      "label": "Neurodevelopmental\ndisorders",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "e3ffd",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 80.81895504252736,
+      "y": 155.8080194410693,
+      "label": "Blood\npressure",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "b351b",
+      "geneNames": [
+        "PMEPA1"
+      ],
+      "type": "gene_protein",
+      "x": 224.6913730255162,
+      "y": 392.56379100850467,
+      "label": null,
+      "groupId": "b0004",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000124225",
+      "uniprotAccs": [
+        "Q969W9",
+        "A2A2F4",
+        "A2A2F5"
+      ]
+    },
+    {
+      "id": "b8756",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 504.98116646415497,
+      "y": 154.79434993924653,
+      "label": "Ebola virus\npathway in host",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP4217"
+    },
+    {
+      "id": "bab41",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 375.473268529769,
+      "y": 241.95777642770287,
+      "label": "TGF-B signaling\npathway",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP3874"
+    },
+    {
+      "id": "c276a",
+      "geneNames": [
+        "NEDD4"
+      ],
+      "type": "gene_protein",
+      "x": 375.47326852976903,
+      "y": 154.79434993924653,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000069869",
+      "uniprotAccs": [
+        "P46934",
+        "A0A3B3IUC1",
+        "H0Y8H4",
+        "H0Y8X6",
+        "H0Y9L1",
+        "H0YA37"
+      ]
+    },
+    {
+      "id": "c9042",
+      "geneNames": [
+        "LDLRAD4-AS1"
+      ],
+      "type": "gene_protein",
+      "x": 73.35176184690147,
+      "y": 225.06682867557717,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000267690",
+      "uniprotAccs": null
+    },
+    {
+      "id": "e9bfd",
+      "geneNames": [
+        "LDLRAD4"
+      ],
+      "type": "gene_protein",
+      "x": 227.07897934386324,
+      "y": 154.79434993924653,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000168675",
+      "uniprotAccs": [
+        "O15165",
+        "A0A7I2V2E6",
+        "A0A7I2V2Z9",
+        "A0A7I2V3Q9",
+        "A0A7I2V3W1",
+        "A0A7I2V3Z2",
+        "A0A7I2V575",
+        "A0A7I2YQI3",
+        "K7EJM9",
+        "K7EMG1"
+      ]
+    },
+    {
+      "id": "ee0af",
+      "geneNames": [
+        "SMAD2"
+      ],
+      "type": "gene_protein",
+      "x": 375.47326852976903,
+      "y": 299.2405832320776,
+      "label": null,
+      "groupId": "df78d",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000175387",
+      "uniprotAccs": [
+        "Q15796",
+        "B7Z5N5",
+        "K7EJX0",
+        "K7EL92",
+        "K7ERC7",
+        "K7ESI8"
+      ]
+    },
+    {
+      "id": "f25b2",
+      "geneNames": [
+        "hsa-miR-20a-5p"
+      ],
+      "type": "gene_protein",
+      "x": 86.31287970838414,
+      "y": 282.1749696233293,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "miRBase mature sequence",
+      "referenceId": "MIMAT0000075"
+    },
+    {
+      "id": "f314c",
+      "geneNames": [
+        "ATG16L1"
+      ],
+      "type": "gene_protein",
+      "x": 86.31287970838414,
+      "y": 357.5091130012148,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000085978",
+      "uniprotAccs": [
+        "Q676U5",
+        "C9J1B2",
+        "C9J8C6",
+        "C9JAY7",
+        "C9JK97",
+        "E7EVC7",
+        "F8WAF9"
+      ]
+    },
+    {
+      "id": "f673b",
+      "geneNames": [
+        "TGFBR2"
+      ],
+      "type": "gene_protein",
+      "x": 375.47326852976903,
+      "y": 425.60753341433735,
+      "label": null,
+      "groupId": "e3254",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000163513",
+      "uniprotAccs": [
+        "P37173"
+      ]
+    },
+    {
+      "id": "ca96b",
+      "geneNames": [
+        "LDLRAD4"
+      ],
+      "type": "gene_protein",
+      "x": 224.6913730255162,
+      "y": 367.5637910085047,
+      "label": null,
+      "groupId": "b0004",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000168675",
+      "uniprotAccs": [
+        "O15165",
+        "A0A7I2V2E6",
+        "A0A7I2V2Z9",
+        "A0A7I2V3Q9",
+        "A0A7I2V3W1",
+        "A0A7I2V3Z2",
+        "A0A7I2V575",
+        "A0A7I2YQI3",
+        "K7EJM9",
+        "K7EMG1"
+      ]
+    },
+    {
+      "id": "caffc",
+      "geneNames": [
+        "SMAD2"
+      ],
+      "type": "gene_protein",
+      "x": 375.47326852976903,
+      "y": 324.24058323207754,
+      "label": null,
+      "groupId": "df78d",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000175387",
+      "uniprotAccs": [
+        "Q15796",
+        "B7Z5N5",
+        "K7EJX0",
+        "K7EL92",
+        "K7ERC7",
+        "K7ESI8"
+      ]
+    },
+    {
+      "id": "ea248",
+      "geneNames": [
+        "TGFBR1"
+      ],
+      "type": "gene_protein",
+      "x": 375.47326852976903,
+      "y": 450.6075334143386,
+      "label": null,
+      "groupId": "e3254",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000106799",
+      "uniprotAccs": [
+        "P36897",
+        "A0A8V8TMI6",
+        "B4DY26",
+        "F8VRH6",
+        "F8VXZ5",
+        "F8W0K6",
+        "F8W1R9",
+        "H0YHS4"
+      ]
+    },
+    {
+      "id": "d98b8",
+      "geneNames": [
+        "LDLRAD4"
+      ],
+      "type": "gene_protein",
+      "x": 375.47326852976903,
+      "y": 68.9592799452708,
+      "label": null,
+      "groupId": "ea922",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000168675",
+      "uniprotAccs": [
+        "O15165",
+        "A0A7I2V2E6",
+        "A0A7I2V2Z9",
+        "A0A7I2V3Q9",
+        "A0A7I2V3W1",
+        "A0A7I2V3Z2",
+        "A0A7I2V575",
+        "A0A7I2YQI3",
+        "K7EJM9",
+        "K7EMG1"
+      ]
+    },
+    {
+      "id": "c628c",
+      "geneNames": [
+        "NEDD4"
+      ],
+      "type": "gene_protein",
+      "x": 375.47326852976903,
+      "y": 93.9592799452708,
+      "label": null,
+      "groupId": "ea922",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000069869",
+      "uniprotAccs": [
+        "P46934",
+        "A0A3B3IUC1",
+        "H0Y8H4",
+        "H0Y8X6",
+        "H0Y9L1",
+        "H0YA37"
+      ]
+    },
+    {
+      "id": "b0004",
+      "type": "group",
+      "components": [
+        "b351b",
+        "ca96b"
+      ]
+    },
+    {
+      "id": "df78d",
+      "type": "group",
+      "components": [
+        "ee0af",
+        "caffc"
+      ]
+    },
+    {
+      "id": "e3254",
+      "type": "group",
+      "components": [
+        "f673b",
+        "ea248"
+      ]
+    },
+    {
+      "id": "ea922",
+      "type": "group",
+      "components": [
+        "d98b8",
+        "c628c"
+      ]
+    }
+  ]
+}

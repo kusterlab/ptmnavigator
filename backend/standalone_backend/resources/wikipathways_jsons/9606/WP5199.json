@@ -1,0 +1,468 @@
+{
+  "pathway": {
+    "name": "WP5199",
+    "org": "Homo sapiens",
+    "title": "PtdIns(4,5)P2 in cytokinesis pathway"
+  },
+  "links": [
+    {
+      "id": "id190a3b7",
+      "sourceId": "f101d",
+      "targetId": "c45fe",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "id2007bced",
+      "sourceId": "d3f46",
+      "targetId": "b85dd",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "id2bbe3e4d",
+      "sourceId": "c45fe",
+      "targetId": "d6a1f",
+      "types": [
+        "transcription/translation"
+      ]
+    },
+    {
+      "id": "id324e253c",
+      "sourceId": "id9a8531b7",
+      "targetId": "f6020",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id51666eb8",
+      "sourceId": "f9e28",
+      "targetId": "id9a8531b7",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "id52c7f7eb",
+      "sourceId": "d3f46",
+      "targetId": "c71b3",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "id5d2c9ec3",
+      "sourceId": "e1ed5",
+      "targetId": "d6a1f",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "id7e1fe01e",
+      "sourceId": "b85dd",
+      "targetId": "c71b3",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "id80f3f00a",
+      "sourceId": "e1ed5",
+      "targetId": "c71b3",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "id8a798f6f",
+      "sourceId": "f9e28",
+      "targetId": "b09fe",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "id9573059",
+      "sourceId": "fcb0c",
+      "targetId": "id9a8531b7",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id9a8531b7",
+      "sourceId": "d6a1f",
+      "targetId": "fc28d",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "ida70d92c",
+      "sourceId": "b09fe",
+      "targetId": "b85dd",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "idbccb4eae",
+      "sourceId": "d3497",
+      "targetId": "d6a1f",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "idbebe2834",
+      "sourceId": "d3f46",
+      "targetId": "b09fe",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "idc20351cd",
+      "sourceId": "b09fe",
+      "targetId": "c71b3",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "idd293027c",
+      "sourceId": "c71b3",
+      "targetId": "d3497",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "idd38ade46",
+      "sourceId": "b09fe",
+      "targetId": "f9e28",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "idd491ecc7",
+      "sourceId": "e1ed5",
+      "targetId": "d3497",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "idd9a53403",
+      "sourceId": "c71b3",
+      "targetId": "d6a1f",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "iddf8dd1d0",
+      "sourceId": "da08d",
+      "targetId": "d6a1f",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idf0c46aff",
+      "sourceId": "b85dd",
+      "targetId": "c1209",
+      "types": [
+        "binding/association"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "b09fe",
+      "geneNames": [
+        "AFAP1"
+      ],
+      "type": "gene_protein",
+      "x": 700.0055098072789,
+      "y": 392.6362913233281,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "Q8N556",
+      "uniprotAccs": [
+        "Q8N556"
+      ]
+    },
+    {
+      "id": "b211d",
+      "geneNames": [
+        "KIF23"
+      ],
+      "type": "gene_protein",
+      "x": 364.0,
+      "y": 280.25,
+      "label": null,
+      "groupId": "e1ed5",
+      "referenceDatabase": "Uniprot",
+      "referenceId": "Q02241",
+      "uniprotAccs": [
+        "Q02241"
+      ]
+    },
+    {
+      "id": "b85dd",
+      "geneNames": [
+        "Septin-2"
+      ],
+      "type": "gene_protein",
+      "x": 459.5690335305719,
+      "y": 480.37457257332903,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "Q15019",
+      "uniprotAccs": [
+        "Q15019"
+      ]
+    },
+    {
+      "id": "c1209",
+      "geneNames": null,
+      "type": "compound",
+      "x": 459.5690335305719,
+      "y": 561.5281065088814,
+      "label": "PtdIns(4,5)P2",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:83419"
+    },
+    {
+      "id": "c1c4f",
+      "geneNames": [
+        "Ezrin\n"
+      ],
+      "type": "gene_protein",
+      "x": 700.0055098072789,
+      "y": 261.6127977949613,
+      "label": null,
+      "groupId": "f9e28",
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P15311",
+      "uniprotAccs": [
+        "P15311"
+      ]
+    },
+    {
+      "id": "c45fe",
+      "geneNames": [
+        "OCLR1"
+      ],
+      "type": "gene_protein",
+      "x": 459.5690335305719,
+      "y": 78.6497917175293,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "Q01968",
+      "uniprotAccs": [
+        "Q01968"
+      ]
+    },
+    {
+      "id": "c71b3",
+      "geneNames": [
+        "Anillin"
+      ],
+      "type": "gene_protein",
+      "x": 459.5690335305719,
+      "y": 392.6362913233281,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "Q9NQW6",
+      "uniprotAccs": [
+        "Q9NQW6"
+      ]
+    },
+    {
+      "id": "d3497",
+      "geneNames": [
+        "RhoA"
+      ],
+      "type": "gene_protein",
+      "x": 190.56903353057368,
+      "y": 293.56446057381714,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000067560",
+      "uniprotAccs": [
+        "P61586",
+        "A0A7I2V3G1",
+        "A0A7I2V5E6",
+        "A0A7I2YQV1",
+        "C9JNR4",
+        "C9JRM1",
+        "C9JX21"
+      ]
+    },
+    {
+      "id": "d3f46",
+      "geneNames": [
+        "MYL2"
+      ],
+      "type": "gene_protein",
+      "x": 700.0055098072789,
+      "y": 480.37457257332903,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "Q6IB42",
+      "uniprotAccs": [
+        "Q6IB42"
+      ]
+    },
+    {
+      "id": "d6a1f",
+      "geneNames": null,
+      "type": "compound",
+      "x": 459.5690335305719,
+      "y": 183.61179357029283,
+      "label": "PtdIns(4,5)P2",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:83419"
+    },
+    {
+      "id": "da08d",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 263.0,
+      "y": 142.25,
+      "label": "Phosphoinositides metabolism",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP4971"
+    },
+    {
+      "id": "e7c40",
+      "geneNames": [
+        "Radixin"
+      ],
+      "type": "gene_protein",
+      "x": 700.0055098072789,
+      "y": 281.6127977949613,
+      "label": null,
+      "groupId": "f9e28",
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P35241",
+      "uniprotAccs": [
+        "P35241"
+      ]
+    },
+    {
+      "id": "eba55",
+      "geneNames": [
+        "RACGAP1"
+      ],
+      "type": "gene_protein",
+      "x": 364.0,
+      "y": 307.0,
+      "label": null,
+      "groupId": "e1ed5",
+      "referenceDatabase": "Uniprot",
+      "referenceId": "Q9H0H5",
+      "uniprotAccs": [
+        "Q9H0H5"
+      ]
+    },
+    {
+      "id": "ef717",
+      "geneNames": [
+        "Moesin"
+      ],
+      "type": "gene_protein",
+      "x": 700.0055098072789,
+      "y": 301.6127977949613,
+      "label": null,
+      "groupId": "f9e28",
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P26038",
+      "uniprotAccs": [
+        "P26038"
+      ]
+    },
+    {
+      "id": "f101d",
+      "geneNames": [
+        "RAB35"
+      ],
+      "type": "gene_protein",
+      "x": 190.56903353057362,
+      "y": 78.6497917175293,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "Q15286",
+      "uniprotAccs": [
+        "Q15286"
+      ]
+    },
+    {
+      "id": "f6020",
+      "geneNames": null,
+      "type": "compound",
+      "x": 700.0055098072789,
+      "y": 136.61179357029283,
+      "label": "CDP-DAG",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:17962"
+    },
+    {
+      "id": "fc28d",
+      "geneNames": null,
+      "type": "compound",
+      "x": 749.0055098072789,
+      "y": 183.61179357029283,
+      "label": "PtdIns(3,4,5)P3",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:83416"
+    },
+    {
+      "id": "fcb0c",
+      "geneNames": null,
+      "type": "compound",
+      "x": 558.0278847629677,
+      "y": 136.61179357029283,
+      "label": "PCL",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:53200"
+    },
+    {
+      "id": "e1ed5",
+      "type": "group",
+      "components": [
+        "b211d",
+        "eba55"
+      ]
+    },
+    {
+      "id": "f9e28",
+      "type": "group",
+      "components": [
+        "c1c4f",
+        "e7c40",
+        "ef717"
+      ]
+    }
+  ]
+}

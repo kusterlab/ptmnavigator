@@ -1,0 +1,252 @@
+{
+  "pathway": {
+    "name": "WP4474",
+    "org": "Mus musculus",
+    "title": "Circulating monocytes and cardiac macrophages in diastolic dysfunction"
+  },
+  "links": [
+    {
+      "id": "fd995",
+      "sourceId": "faf9f",
+      "targetId": "f7d5a",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id20579a2a",
+      "sourceId": "cf996",
+      "targetId": "ff46a",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id491bcdcf",
+      "sourceId": "f4331",
+      "targetId": "id20579a2a",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id8dc22128",
+      "sourceId": "ecbdb",
+      "targetId": "d64ce",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id9bb7056c",
+      "sourceId": "d64ce",
+      "targetId": "f4331",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idc0a204e5",
+      "sourceId": "ad057",
+      "targetId": "af9a2",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "iddad3767a",
+      "sourceId": "d64ce",
+      "targetId": "e4474",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "ide8612604",
+      "sourceId": "e4474",
+      "targetId": "id20579a2a",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idedfc68b8",
+      "sourceId": "a1e2b",
+      "targetId": "d64ce",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idf9f9c3c3",
+      "sourceId": "f62eb",
+      "targetId": "ecbdb",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id83b2acf4",
+      "sourceId": "ef52f",
+      "targetId": "a1e2b",
+      "types": [
+        "activation"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "e8529",
+      "geneNames": [
+        "Ccl2"
+      ],
+      "type": "gene_protein",
+      "x": 279.0,
+      "y": 96.0,
+      "label": null,
+      "groupId": "a182b",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000035385",
+      "uniprotAccs": [
+        "P10148"
+      ]
+    },
+    {
+      "id": "f62eb",
+      "geneNames": [
+        "Il10"
+      ],
+      "type": "gene_protein",
+      "x": 314.0,
+      "y": 318.89075630252086,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000016529",
+      "uniprotAccs": [
+        "P18893"
+      ]
+    },
+    {
+      "id": "faf9f",
+      "geneNames": null,
+      "type": "compound",
+      "x": 425.5,
+      "y": 146.0,
+      "label": "ROS",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:26523"
+    },
+    {
+      "id": "e4474",
+      "geneNames": [
+        "Spp1"
+      ],
+      "type": "gene_protein",
+      "x": 437.5,
+      "y": 325.89075630252086,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000029304",
+      "uniprotAccs": [
+        "P10923",
+        "D3Z116",
+        "D3Z4N2",
+        "D3Z513",
+        "F8WIP8"
+      ]
+    },
+    {
+      "id": "a0e49",
+      "geneNames": null,
+      "type": "compound",
+      "x": 575.5,
+      "y": 213.0,
+      "label": "ROS",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:26523"
+    },
+    {
+      "id": "cbe4f",
+      "geneNames": null,
+      "type": "compound",
+      "x": 575.5,
+      "y": 509.0,
+      "label": "ROS",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:26523"
+    },
+    {
+      "id": "ecbdb",
+      "geneNames": [
+        "Il10"
+      ],
+      "type": "gene_protein",
+      "x": 366.0,
+      "y": 256.89075630252086,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000016529",
+      "uniprotAccs": [
+        "P18893"
+      ]
+    },
+    {
+      "id": "b7ea4",
+      "geneNames": [
+        "Ccr2"
+      ],
+      "type": "gene_protein",
+      "x": 301.0,
+      "y": 71.0,
+      "label": null,
+      "groupId": "a182b",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000049103",
+      "uniprotAccs": [
+        "P51683"
+      ]
+    },
+    {
+      "id": "af9a2",
+      "geneNames": null,
+      "type": "misc",
+      "x": 501.0,
+      "y": 603.0,
+      "label": "Left ventricular\ndiastolic dysfunction",
+      "groupId": null
+    },
+    {
+      "id": "f4331",
+      "geneNames": null,
+      "type": "misc",
+      "x": 284.94957983193274,
+      "y": 416.8907563025215,
+      "label": "Decreased \nproteases / MMPs",
+      "groupId": null
+    },
+    {
+      "id": "f7d5a",
+      "geneNames": null,
+      "type": "misc",
+      "x": 425.5,
+      "y": 90.25,
+      "label": "Adhesion\nmolecules",
+      "groupId": "a182b"
+    },
+    {
+      "id": "a182b",
+      "type": "group",
+      "components": [
+        "e8529",
+        "b7ea4",
+        "f7d5a"
+      ]
+    }
+  ]
+}

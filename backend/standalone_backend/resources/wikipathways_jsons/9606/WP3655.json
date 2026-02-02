@@ -1,0 +1,324 @@
+{
+  "pathway": {
+    "name": "WP3655",
+    "org": "Homo sapiens",
+    "title": "Hypothetical craniofacial development pathway"
+  },
+  "links": [
+    {
+      "id": "id10b46316",
+      "sourceId": "b2267",
+      "targetId": "id93d15a46",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id15b3d8a7",
+      "sourceId": "c0888",
+      "targetId": "a4e9f",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id2be573a9",
+      "sourceId": "b71c2",
+      "targetId": "b3278",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id4c803e5e",
+      "sourceId": "db5cc",
+      "targetId": "b71c2",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id67bb1346",
+      "sourceId": "e8c22",
+      "targetId": "a4e9f",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id69972f6c",
+      "sourceId": "e8c22",
+      "targetId": "b1d3c",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id6b85dc31",
+      "sourceId": "b8de4",
+      "targetId": "b1d3c",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id8c81ce6b",
+      "sourceId": "b9a7c",
+      "targetId": "b1d3c",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id93d15a46",
+      "sourceId": "b71c2",
+      "targetId": "db5cc",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "ida367b569",
+      "sourceId": "b1d3c",
+      "targetId": "a8d97",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idb4368bec",
+      "sourceId": "b1d3c",
+      "targetId": "b9a7c",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "idcddefa6b",
+      "sourceId": "a8d97",
+      "targetId": "id4c803e5e",
+      "types": [
+        "catalysis"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "a4e9f",
+      "geneNames": [
+        "RhoA"
+      ],
+      "type": "gene_protein",
+      "x": 225.0,
+      "y": 224.0,
+      "label": null,
+      "groupId": "db5cc",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000067560",
+      "uniprotAccs": [
+        "P61586",
+        "A0A7I2V3G1",
+        "A0A7I2V5E6",
+        "A0A7I2YQV1",
+        "C9JNR4",
+        "C9JRM1",
+        "C9JX21"
+      ]
+    },
+    {
+      "id": "a8d97",
+      "geneNames": [
+        "ARHGAP29"
+      ],
+      "type": "gene_protein",
+      "x": 354.0,
+      "y": 172.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000137962",
+      "uniprotAccs": [
+        "Q52LW3",
+        "F8VWZ8"
+      ]
+    },
+    {
+      "id": "b1d3c",
+      "geneNames": [
+        "IRF6"
+      ],
+      "type": "gene_protein",
+      "x": 354.0,
+      "y": 127.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000117595",
+      "uniprotAccs": [
+        "O14896",
+        "A0A2R8YHF3",
+        "A0A8Q3WL17",
+        "B1AJU4"
+      ]
+    },
+    {
+      "id": "b2267",
+      "geneNames": [
+        "GEF"
+      ],
+      "type": "gene_protein",
+      "x": 354.25,
+      "y": 299.75,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000275340",
+      "uniprotAccs": null
+    },
+    {
+      "id": "b3278",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 684.0,
+      "y": 234.5,
+      "label": "Cell Migration",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "b8de4",
+      "geneNames": [
+        "TFAP2A"
+      ],
+      "type": "gene_protein",
+      "x": 257.0,
+      "y": 75.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000137203",
+      "uniprotAccs": [
+        "P05549",
+        "A0A6E1XE14",
+        "C1K3N0",
+        "C9J6N8",
+        "C9JXZ2",
+        "F8WDC8",
+        "F8WEX2",
+        "H7C4N4",
+        "H7C5E5"
+      ]
+    },
+    {
+      "id": "b9a7c",
+      "geneNames": [
+        "TP63"
+      ],
+      "type": "gene_protein",
+      "x": 455.0,
+      "y": 73.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000073282",
+      "uniprotAccs": [
+        "Q9H3D4",
+        "C9JW72"
+      ]
+    },
+    {
+      "id": "c0888",
+      "geneNames": [
+        "WNT"
+      ],
+      "type": "gene_protein",
+      "x": 106.0,
+      "y": 184.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000125084",
+      "uniprotAccs": [
+        "P04628"
+      ]
+    },
+    {
+      "id": "d0426",
+      "geneNames": [
+        "RHOA"
+      ],
+      "type": "gene_protein",
+      "x": 481.0,
+      "y": 225.0,
+      "label": null,
+      "groupId": "b71c2",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000067560",
+      "uniprotAccs": [
+        "P61586",
+        "A0A7I2V3G1",
+        "A0A7I2V5E6",
+        "A0A7I2YQV1",
+        "C9JNR4",
+        "C9JRM1",
+        "C9JX21"
+      ]
+    },
+    {
+      "id": "d8cd5",
+      "geneNames": null,
+      "type": "compound",
+      "x": 225.0,
+      "y": 244.0,
+      "label": "GTP",
+      "groupId": "db5cc",
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0001440"
+    },
+    {
+      "id": "e8c22",
+      "geneNames": [
+        "TGFB3"
+      ],
+      "type": "gene_protein",
+      "x": 160.0,
+      "y": 151.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000119699",
+      "uniprotAccs": [
+        "P10600",
+        "A0A6Q8PGK5"
+      ]
+    },
+    {
+      "id": "e98ab",
+      "geneNames": null,
+      "type": "compound",
+      "x": 481.0,
+      "y": 245.0,
+      "label": "GDP",
+      "groupId": "b71c2",
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000960"
+    },
+    {
+      "id": "db5cc",
+      "type": "group",
+      "components": [
+        "a4e9f",
+        "d8cd5"
+      ]
+    },
+    {
+      "id": "b71c2",
+      "type": "group",
+      "components": [
+        "d0426",
+        "e98ab"
+      ]
+    }
+  ]
+}

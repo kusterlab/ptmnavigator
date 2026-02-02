@@ -1,0 +1,449 @@
+{
+  "pathway": {
+    "name": "WP3944",
+    "org": "Homo sapiens",
+    "title": "Serotonin and anxiety-related events"
+  },
+  "links": [
+    {
+      "id": "id74d515b9",
+      "sourceId": "f1ee8",
+      "targetId": "aa494",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id95666a2a",
+      "sourceId": "aa494",
+      "targetId": "e1ad8",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ida9ef1118",
+      "sourceId": "a7ab4",
+      "targetId": "c7fbb",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idc753cc83",
+      "sourceId": "d6b29",
+      "targetId": "a7ab4",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ide9f9b058",
+      "sourceId": "a5d9d",
+      "targetId": "aa494",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "cf288",
+      "sourceId": "f1ee8",
+      "targetId": "c7fbb",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "f9ee0",
+      "sourceId": "f1ee8",
+      "targetId": "ea395",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "f2c8a",
+      "sourceId": "a5d9d",
+      "targetId": "c7fbb",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "bf87f",
+      "sourceId": "a5d9d",
+      "targetId": "ea395",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "e8cc7",
+      "sourceId": "c7fbb",
+      "targetId": "e1ad8",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "b260f",
+      "sourceId": "ea395",
+      "targetId": "e1ad8",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ab144",
+      "sourceId": "aa494",
+      "targetId": "ed43c",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "b3c89",
+      "sourceId": "c7fbb",
+      "targetId": "ed43c",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "b70ca",
+      "sourceId": "ea395",
+      "targetId": "ed43c",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ecbb5",
+      "sourceId": "e1ad8",
+      "targetId": "fa82e",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "bc196",
+      "sourceId": "e1ad8",
+      "targetId": "e9264",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "c2c26",
+      "sourceId": "d3bbe",
+      "targetId": "c28d4",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "c1685",
+      "sourceId": "a7ab4",
+      "targetId": "aa494",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "e35bb",
+      "sourceId": "e1ad8",
+      "targetId": "d3ed4",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "e85b5",
+      "sourceId": "e1ad8",
+      "targetId": "b3324",
+      "types": [
+        "activation"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "aa494",
+      "geneNames": [
+        "HTR2A"
+      ],
+      "type": "gene_protein",
+      "x": 204.88320895522384,
+      "y": 124.61389925373135,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000102468",
+      "uniprotAccs": [
+        "P28223",
+        "A0A087WZJ9",
+        "A0A7P0PKG8"
+      ]
+    },
+    {
+      "id": "e1ad8",
+      "geneNames": [
+        "ARC"
+      ],
+      "type": "gene_protein",
+      "x": 336.25,
+      "y": 234.25,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000198576",
+      "uniprotAccs": [
+        "Q7LC44"
+      ]
+    },
+    {
+      "id": "f1ee8",
+      "geneNames": null,
+      "type": "compound",
+      "x": 49.25,
+      "y": 82.25,
+      "label": "Serotonin",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000259"
+    },
+    {
+      "id": "a5d9d",
+      "geneNames": null,
+      "type": "compound",
+      "x": 49.25,
+      "y": 301.64876901748204,
+      "label": "Ketanserin",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:6123"
+    },
+    {
+      "id": "c7fbb",
+      "geneNames": [
+        "HTR2C"
+      ],
+      "type": "gene_protein",
+      "x": 204.88320895522384,
+      "y": 185.11389925373135,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000147246",
+      "uniprotAccs": [
+        "P28335"
+      ]
+    },
+    {
+      "id": "ea395",
+      "geneNames": [
+        "HTR1A"
+      ],
+      "type": "gene_protein",
+      "x": 202.88320895522384,
+      "y": 247.11389925373135,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000178394",
+      "uniprotAccs": [
+        "P08908",
+        "D6RA34"
+      ]
+    },
+    {
+      "id": "ed43c",
+      "geneNames": [
+        "FOS"
+      ],
+      "type": "gene_protein",
+      "x": 335.25,
+      "y": 135.25,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000170345",
+      "uniprotAccs": [
+        "P01100",
+        "G3V289",
+        "G3V2V7",
+        "G3V5J9",
+        "G3V5N7",
+        "G3V5N9",
+        "H0YJM3"
+      ]
+    },
+    {
+      "id": "d3ed4",
+      "geneNames": [
+        "PLEK"
+      ],
+      "type": "gene_protein",
+      "x": 450.25,
+      "y": 174.25,
+      "label": null,
+      "groupId": "d3bbe",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000115956",
+      "uniprotAccs": [
+        "P08567"
+      ]
+    },
+    {
+      "id": "b3324",
+      "geneNames": [
+        "PPP3CA"
+      ],
+      "type": "gene_protein",
+      "x": 450.25,
+      "y": 154.25,
+      "label": null,
+      "groupId": "d3bbe",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000138814",
+      "uniprotAccs": [
+        "Q08209",
+        "E7ETC2",
+        "E9PK68",
+        "E9PPC8",
+        "H0YAB4"
+      ]
+    },
+    {
+      "id": "fa82e",
+      "geneNames": [
+        "PRKCB"
+      ],
+      "type": "gene_protein",
+      "x": 450.25,
+      "y": 134.25,
+      "label": null,
+      "groupId": "d3bbe",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000166501",
+      "uniprotAccs": [
+        "P05771",
+        "H3BV73",
+        "I3L148",
+        "I3L1Z0"
+      ]
+    },
+    {
+      "id": "e4d81",
+      "geneNames": [
+        "PLCD4"
+      ],
+      "type": "gene_protein",
+      "x": 451.25,
+      "y": 267.25,
+      "label": null,
+      "groupId": "e9264",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000115556",
+      "uniprotAccs": [
+        "Q9BRC7",
+        "C9JAE4",
+        "C9JEA7",
+        "F2Z3H8",
+        "H7C237",
+        "H7C281"
+      ]
+    },
+    {
+      "id": "b5126",
+      "geneNames": [
+        "GRIN2D"
+      ],
+      "type": "gene_protein",
+      "x": 451.25,
+      "y": 247.25,
+      "label": null,
+      "groupId": "e9264",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000105464",
+      "uniprotAccs": [
+        "O15399"
+      ]
+    },
+    {
+      "id": "f8382",
+      "geneNames": [
+        "NLGN1"
+      ],
+      "type": "gene_protein",
+      "x": 451.25,
+      "y": 227.25,
+      "label": null,
+      "groupId": "e9264",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000169760",
+      "uniprotAccs": [
+        "Q8N2Q7",
+        "A0A1D5RMP7",
+        "A0A8Q3SHM6",
+        "C9J4D3",
+        "C9JWG7"
+      ]
+    },
+    {
+      "id": "a7ab4",
+      "geneNames": [
+        "CRHR1"
+      ],
+      "type": "gene_protein",
+      "x": 206.88320895522384,
+      "y": 300.64876901748204,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000120088",
+      "uniprotAccs": [
+        "P34998",
+        "A0A994J7S2",
+        "A0A994J7T2",
+        "B3SXS2",
+        "J9JIC6",
+        "K9J956"
+      ]
+    },
+    {
+      "id": "d6b29",
+      "geneNames": [
+        "CRH"
+      ],
+      "type": "gene_protein",
+      "x": 122.99384843737096,
+      "y": 300.64876901748204,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000147571",
+      "uniprotAccs": [
+        "P06850"
+      ]
+    },
+    {
+      "id": "d3bbe",
+      "type": "group",
+      "components": [
+        "d3ed4",
+        "b3324",
+        "fa82e"
+      ]
+    },
+    {
+      "id": "e9264",
+      "type": "group",
+      "components": [
+        "e4d81",
+        "b5126",
+        "f8382"
+      ]
+    }
+  ]
+}

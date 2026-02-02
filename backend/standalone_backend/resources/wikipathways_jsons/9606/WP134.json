@@ -1,0 +1,579 @@
+{
+  "pathway": {
+    "name": "WP134",
+    "org": "Homo sapiens",
+    "title": "Pentose phosphate metabolism"
+  },
+  "links": [
+    {
+      "id": "d0690",
+      "sourceId": "f6ad3",
+      "targetId": "eebb9",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "b208e",
+      "sourceId": "d7dcb",
+      "targetId": "b8f1b",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "b34c5",
+      "sourceId": "b135d",
+      "targetId": "ada39",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "f7161",
+      "sourceId": "e6275",
+      "targetId": "ecb3b",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "a84fe",
+      "sourceId": "b0ec0",
+      "targetId": "a77bb",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "a8b93",
+      "sourceId": "a77bb",
+      "targetId": "c5b8d",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "fae91",
+      "sourceId": "a2f88",
+      "targetId": "a5dec",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "ae7c5",
+      "sourceId": "ecb3b",
+      "targetId": "a7562",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "d9910",
+      "sourceId": "b0ec0",
+      "targetId": "c46b6",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "ca813",
+      "sourceId": "a793b",
+      "targetId": "a84fe",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "b3e00",
+      "sourceId": "b1aba",
+      "targetId": "d9910",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "e13b9",
+      "sourceId": "c46b6",
+      "targetId": "ecb3b",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "b8f1b",
+      "sourceId": "ada39",
+      "targetId": "b0ec0",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "ae258",
+      "sourceId": "ad840",
+      "targetId": "d0690",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "a5dec",
+      "sourceId": "daa9a",
+      "targetId": "b135d",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "acfcd",
+      "sourceId": "db137",
+      "targetId": "b34c5",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "bd29e",
+      "sourceId": "f4a05",
+      "targetId": "f6ad3",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "aec8c",
+      "sourceId": "e926f",
+      "targetId": "e13b9",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "d86c2",
+      "sourceId": "a59da",
+      "targetId": "bd29e",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "e9777",
+      "sourceId": "e926f",
+      "targetId": "f7161",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "bdbac",
+      "sourceId": "a59da",
+      "targetId": "fb5d9",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "c1f78",
+      "sourceId": "fb79e",
+      "targetId": "daa9a",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "a968e",
+      "sourceId": "c2b9c",
+      "targetId": "daa9a",
+      "types": [
+        "activation"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "c2b9c",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 631.2037037037038,
+      "y": 41.7037037037037,
+      "label": "Phosphogluconate Pathway",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "a2f88",
+      "geneNames": [
+        "G6PD"
+      ],
+      "type": "gene_protein",
+      "x": 564.2037037037038,
+      "y": 129.7037037037037,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "2539",
+      "uniprotAccs": [
+        "P11413",
+        "A0A384NL00"
+      ]
+    },
+    {
+      "id": "a62a3",
+      "geneNames": null,
+      "type": "compound",
+      "x": 395.8703703703703,
+      "y": 549.3703703703706,
+      "label": "Sedoheptulose-7-Phosphate",
+      "groupId": "f6ad3",
+      "referenceDatabase": "CAS",
+      "referenceId": "2646-35-7"
+    },
+    {
+      "id": "c4dd7",
+      "geneNames": null,
+      "type": "compound",
+      "x": 993.2037037037038,
+      "y": 531.7037037037038,
+      "label": "Fructose-6-Phosphate",
+      "groupId": "ecb3b",
+      "referenceDatabase": "CAS",
+      "referenceId": "643-13-0"
+    },
+    {
+      "id": "c46b6",
+      "geneNames": null,
+      "type": "compound",
+      "x": 628.2037037037037,
+      "y": 425.7037037037038,
+      "label": "Xylulose-5-Phosphate",
+      "groupId": "f4a05",
+      "referenceDatabase": "CAS",
+      "referenceId": "60802-29-1"
+    },
+    {
+      "id": "cfe61",
+      "geneNames": null,
+      "type": "compound",
+      "x": 993.2037037037038,
+      "y": 568.3703703703706,
+      "label": "Glyceraldehyde-3-phosphate",
+      "groupId": "ecb3b",
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0001112"
+    },
+    {
+      "id": "c5b8d",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 161.20370370370367,
+      "y": 425.03703703703707,
+      "label": "Nucleotide \nBiosynthesis",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP404"
+    },
+    {
+      "id": "fb79e",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 386.70370370370364,
+      "y": 43.03703703703708,
+      "label": "Hexose Monophosphosphate Shunt",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "a77bb",
+      "geneNames": null,
+      "type": "compound",
+      "x": 374.8703703703703,
+      "y": 425.7037037037038,
+      "label": "D-Ribose-5-Phosphate",
+      "groupId": "f4a05",
+      "referenceDatabase": "CAS",
+      "referenceId": "3615-55-2"
+    },
+    {
+      "id": "ada39",
+      "geneNames": null,
+      "type": "compound",
+      "x": 506.53703703703707,
+      "y": 266.03703703703707,
+      "label": "6-Phosphogluconate",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0001316"
+    },
+    {
+      "id": "db137",
+      "geneNames": [
+        "PGLS"
+      ],
+      "type": "gene_protein",
+      "x": 563.2037037037038,
+      "y": 220.70370370370367,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "25796",
+      "uniprotAccs": [
+        "O95336",
+        "A0A0K0K1K7"
+      ]
+    },
+    {
+      "id": "b1aba",
+      "geneNames": [
+        "RPE"
+      ],
+      "type": "gene_protein",
+      "x": 645.8703703703704,
+      "y": 361.3703703703704,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "6120",
+      "uniprotAccs": [
+        "Q96AT9",
+        "C9IZU8",
+        "C9J9T0"
+      ]
+    },
+    {
+      "id": "fe09e",
+      "geneNames": null,
+      "type": "compound",
+      "x": 417.70370370370364,
+      "y": 640.0370370370372,
+      "label": "Erythrose-4-Phosphate",
+      "groupId": "eebb9",
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0001321"
+    },
+    {
+      "id": "b0ec0",
+      "geneNames": null,
+      "type": "compound",
+      "x": 506.53703703703695,
+      "y": 347.03703703703707,
+      "label": "Ribulose-5-Phosphate",
+      "groupId": null,
+      "referenceDatabase": "CAS",
+      "referenceId": "4151-19-3"
+    },
+    {
+      "id": "daa9a",
+      "geneNames": null,
+      "type": "compound",
+      "x": 506.53703703703684,
+      "y": 90.37037037037037,
+      "label": "Glucose-6-Phosphate",
+      "groupId": null,
+      "referenceDatabase": "CAS",
+      "referenceId": "56-73-5"
+    },
+    {
+      "id": "ad840",
+      "geneNames": [
+        "TALDO1"
+      ],
+      "type": "gene_protein",
+      "x": 574.2037037037038,
+      "y": 588.7037037037038,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "6888",
+      "uniprotAccs": [
+        "P37837",
+        "A0A140VK56"
+      ]
+    },
+    {
+      "id": "a793b",
+      "geneNames": [
+        "RPIA"
+      ],
+      "type": "gene_protein",
+      "x": 366.20370370370364,
+      "y": 360.3703703703704,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "22934",
+      "uniprotAccs": [
+        "P49247"
+      ]
+    },
+    {
+      "id": "a59da",
+      "geneNames": [
+        "TKT"
+      ],
+      "type": "gene_protein",
+      "x": 508.1111447200377,
+      "y": 458.27781138670446,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "7086",
+      "uniprotAccs": [
+        "P29401",
+        "V9HWD9"
+      ]
+    },
+    {
+      "id": "eab0c",
+      "geneNames": null,
+      "type": "compound",
+      "x": 603.6203703703706,
+      "y": 549.3703703703706,
+      "label": "Glyceraldehyde-3-phosphate",
+      "groupId": "f6ad3",
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0001112"
+    },
+    {
+      "id": "b135d",
+      "geneNames": null,
+      "type": "compound",
+      "x": 506.53703703703707,
+      "y": 185.53703703703704,
+      "label": "6-Phosphonoglucono-delta-lactone",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0001127"
+    },
+    {
+      "id": "d7dcb",
+      "geneNames": [
+        "PGD"
+      ],
+      "type": "gene_protein",
+      "x": 567.2037037037038,
+      "y": 300.3703703703704,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "5226",
+      "uniprotAccs": [
+        "P52209",
+        "B4E2U0"
+      ]
+    },
+    {
+      "id": "e926f",
+      "geneNames": [
+        "TKT"
+      ],
+      "type": "gene_protein",
+      "x": 747.2037037037038,
+      "y": 543.3703703703706,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "7086",
+      "uniprotAccs": [
+        "P29401",
+        "V9HWD9"
+      ]
+    },
+    {
+      "id": "e6275",
+      "geneNames": null,
+      "type": "compound",
+      "x": 585.2037037037038,
+      "y": 642.0370370370372,
+      "label": "Fructose-6-Phosphate",
+      "groupId": "eebb9",
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000124"
+    },
+    {
+      "id": "a7562",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 993.2037037037038,
+      "y": 650.0370370370372,
+      "label": "Glycolysis/Gluconeogenesis",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP534"
+    },
+    {
+      "id": "d29cc",
+      "geneNames": null,
+      "type": "misc",
+      "x": 495.2037037037036,
+      "y": 549.3703703703706,
+      "label": "+",
+      "groupId": "f6ad3"
+    },
+    {
+      "id": "fe466",
+      "geneNames": null,
+      "type": "misc",
+      "x": 498.03703703703695,
+      "y": 640.0370370370372,
+      "label": "+",
+      "groupId": "eebb9"
+    },
+    {
+      "id": "b0c8f",
+      "geneNames": null,
+      "type": "misc",
+      "x": 496.20370370370364,
+      "y": 422.03703703703707,
+      "label": "+",
+      "groupId": "f4a05"
+    },
+    {
+      "id": "a305c",
+      "geneNames": null,
+      "type": "misc",
+      "x": 993.2037037037039,
+      "y": 551.7037037037038,
+      "label": "+",
+      "groupId": "ecb3b"
+    },
+    {
+      "id": "ecb3b",
+      "type": "group",
+      "components": [
+        "c4dd7",
+        "cfe61",
+        "a305c"
+      ]
+    },
+    {
+      "id": "eebb9",
+      "type": "group",
+      "components": [
+        "fe09e",
+        "e6275",
+        "fe466"
+      ]
+    },
+    {
+      "id": "f4a05",
+      "type": "group",
+      "components": [
+        "c46b6",
+        "a77bb",
+        "b0c8f"
+      ]
+    },
+    {
+      "id": "f6ad3",
+      "type": "group",
+      "components": [
+        "a62a3",
+        "eab0c",
+        "d29cc"
+      ]
+    }
+  ]
+}

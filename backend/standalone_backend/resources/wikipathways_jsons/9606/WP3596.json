@@ -1,0 +1,182 @@
+{
+  "pathway": {
+    "name": "WP3596",
+    "org": "Homo sapiens",
+    "title": "miR-517 relationship with ARCN1 and USP1"
+  },
+  "links": [
+    {
+      "id": "id916949df",
+      "sourceId": "a1ea8",
+      "targetId": "dc550",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id53b70276",
+      "sourceId": "a1ea8",
+      "targetId": "e5e24",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "idb11c7c85",
+      "sourceId": "e5e24",
+      "targetId": "b7d34",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id1248fdcd",
+      "sourceId": "dc550",
+      "targetId": "b1247",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id39f2e108",
+      "sourceId": "b1247",
+      "targetId": "a6245",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id1368493e",
+      "sourceId": "a6245",
+      "targetId": "b492b",
+      "types": [
+        "inhibition"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "dc550",
+      "geneNames": [
+        "USP1"
+      ],
+      "type": "gene_protein",
+      "x": 152.44228432563784,
+      "y": 191.9805589307411,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000162607",
+      "uniprotAccs": [
+        "O94782",
+        "C9JC88",
+        "C9JWX4"
+      ]
+    },
+    {
+      "id": "e5e24",
+      "geneNames": [
+        "ARCN1"
+      ],
+      "type": "gene_protein",
+      "x": 389.3803159173768,
+      "y": 172.5394896719319,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000095139",
+      "uniprotAccs": [
+        "P48444",
+        "B0YIW6",
+        "E9PK34"
+      ]
+    },
+    {
+      "id": "a6245",
+      "geneNames": [
+        "p21"
+      ],
+      "type": "gene_protein",
+      "x": 276.37910085054443,
+      "y": 318.3475091130014,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000124762",
+      "uniprotAccs": [
+        "P38936"
+      ]
+    },
+    {
+      "id": "d07b7",
+      "geneNames": [
+        "ID1"
+      ],
+      "type": "gene_protein",
+      "x": 151.22721749696365,
+      "y": 308.6269744835964,
+      "label": null,
+      "groupId": "b1247",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000125968",
+      "uniprotAccs": [
+        "P41134"
+      ]
+    },
+    {
+      "id": "f31b9",
+      "geneNames": [
+        "ID2"
+      ],
+      "type": "gene_protein",
+      "x": 151.22721749696365,
+      "y": 328.6269744835964,
+      "label": null,
+      "groupId": "b1247",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000115738",
+      "uniprotAccs": [
+        "Q02363"
+      ]
+    },
+    {
+      "id": "a1ea8",
+      "geneNames": [
+        "hsa-miR-517a-3p"
+      ],
+      "type": "gene_protein",
+      "x": 275.7715674362097,
+      "y": 76.54921020656145,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "miRBase mature sequence",
+      "referenceId": "MIMAT0002852"
+    },
+    {
+      "id": "b7d34",
+      "geneNames": null,
+      "type": "misc",
+      "x": 388.8213851761841,
+      "y": 244.22843256379073,
+      "label": "Cell viability",
+      "groupId": null
+    },
+    {
+      "id": "b492b",
+      "geneNames": null,
+      "type": "misc",
+      "x": 442.472660996354,
+      "y": 318.6269744835967,
+      "label": "Cell cycle progression",
+      "groupId": null
+    },
+    {
+      "id": "b1247",
+      "type": "group",
+      "components": [
+        "d07b7",
+        "f31b9"
+      ]
+    }
+  ]
+}

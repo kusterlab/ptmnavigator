@@ -1,0 +1,289 @@
+{
+  "pathway": {
+    "name": "WP2889",
+    "org": "Homo sapiens",
+    "title": "Oxytocin signaling"
+  },
+  "links": [
+    {
+      "id": "id2b611a0d",
+      "sourceId": "c290a",
+      "targetId": "c2500",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id4194fa9a",
+      "sourceId": "f5689",
+      "targetId": "d3ba0",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id6bbbc740",
+      "sourceId": "d3ba0",
+      "targetId": "d6368",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id717f2b83",
+      "sourceId": "d3ba0",
+      "targetId": "f0312",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id7f658d84",
+      "sourceId": "f0701",
+      "targetId": "b22db",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idae3b4b15",
+      "sourceId": "e7ecf",
+      "targetId": "af3f0",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idb8e45ea3",
+      "sourceId": "f2aeb",
+      "targetId": "a6d1b",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idcabb6d93",
+      "sourceId": "d6368",
+      "targetId": "c290a",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idd1d676ed",
+      "sourceId": "b22db",
+      "targetId": "e7ecf",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ide2c25885",
+      "sourceId": "e7ecf",
+      "targetId": "a5aa1",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idf0246ca2",
+      "sourceId": "af3f0",
+      "targetId": "f5689",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idf42827ad",
+      "sourceId": "af3f0",
+      "targetId": "f2aeb",
+      "types": [
+        "activation"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "a5aa1",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 273.0,
+      "y": 183.25,
+      "label": "MAPK signalling pathway",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "a6d1b",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 755.0,
+      "y": 183.25,
+      "label": "Contraction (myometrial cell, \nmammary gland myoepithelial cell)",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "af3f0",
+      "geneNames": [
+        "PLC"
+      ],
+      "type": "gene_protein",
+      "x": 377.0,
+      "y": 118.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P51178",
+      "uniprotAccs": [
+        "P51178"
+      ]
+    },
+    {
+      "id": "b22db",
+      "geneNames": [
+        "OXTR"
+      ],
+      "type": "gene_protein",
+      "x": 170.0,
+      "y": 119.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P30559",
+      "uniprotAccs": [
+        "P30559"
+      ]
+    },
+    {
+      "id": "c2500",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 309.5,
+      "y": 61.5,
+      "label": "Oxytocin release \n(OXT neurons)",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "c290a",
+      "geneNames": null,
+      "type": "compound",
+      "x": 451.0,
+      "y": 61.5,
+      "label": "Ca2+",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:29108"
+    },
+    {
+      "id": "d3ba0",
+      "geneNames": [
+        "PKC\nisozyme family"
+      ],
+      "type": "gene_protein",
+      "x": 602.0,
+      "y": 117.80952380952382,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "EC",
+      "referenceId": "2.7.11.13",
+      "uniprotAccs": [
+        "P17252",
+        "Q9BZL6",
+        "Q04759",
+        "Q05513",
+        "Q15139",
+        "O94806",
+        "P41743",
+        "Q02156",
+        "Q05655",
+        "Q16512",
+        "P05129",
+        "P05771",
+        "P24723",
+        "Q16513",
+        "Q6P5Z2"
+      ]
+    },
+    {
+      "id": "d6368",
+      "geneNames": [
+        "CD38"
+      ],
+      "type": "gene_protein",
+      "x": 602.0,
+      "y": 28.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P28907",
+      "uniprotAccs": [
+        "P28907"
+      ]
+    },
+    {
+      "id": "e7ecf",
+      "geneNames": [
+        "Gq"
+      ],
+      "type": "gene_protein",
+      "x": 273.0,
+      "y": 118.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P50148",
+      "uniprotAccs": [
+        "P50148"
+      ]
+    },
+    {
+      "id": "f0312",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 784.0,
+      "y": 118.0,
+      "label": "Protein synthesis",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "f0701",
+      "geneNames": null,
+      "type": "compound",
+      "x": 58.0,
+      "y": 118.0,
+      "label": "Oxytocin",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:7872"
+    },
+    {
+      "id": "f2aeb",
+      "geneNames": null,
+      "type": "compound",
+      "x": 485.75,
+      "y": 183.25,
+      "label": "IP3",
+      "groupId": null,
+      "referenceDatabase": "PubChem-compound",
+      "referenceId": "439456"
+    },
+    {
+      "id": "f5689",
+      "geneNames": null,
+      "type": "compound",
+      "x": 485.75,
+      "y": 118.0,
+      "label": "DAG",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:49172"
+    }
+  ]
+}

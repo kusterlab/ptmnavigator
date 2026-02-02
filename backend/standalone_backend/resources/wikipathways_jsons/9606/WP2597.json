@@ -1,0 +1,412 @@
+{
+  "pathway": {
+    "name": "WP2597",
+    "org": "Homo sapiens",
+    "title": "Secretion of hydrochloric acid in parietal cells"
+  },
+  "links": [
+    {
+      "id": "id27ea39e4",
+      "sourceId": "bb54c",
+      "targetId": "b2fb9",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id333256ed",
+      "sourceId": "ide419581c",
+      "targetId": "c559d",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id52111a9a",
+      "sourceId": "bf022",
+      "targetId": "ide419581c",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id68fffdfa",
+      "sourceId": "b67fa",
+      "targetId": "ef034",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "id8cdd2181",
+      "sourceId": "e1cc0",
+      "targetId": "fac7b",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id97d285d6",
+      "sourceId": "ide419581c",
+      "targetId": "a55a0",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "idcbdfe077",
+      "sourceId": "f8803",
+      "targetId": "idd39f19e8",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "idd39f19e8",
+      "sourceId": "a3371",
+      "targetId": "iddee12465",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "idde4befb5",
+      "sourceId": "a02d6",
+      "targetId": "f4d16",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "iddee12465",
+      "sourceId": "b2383",
+      "targetId": "d4cca",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "ide419581c",
+      "sourceId": "fc4df",
+      "targetId": "d5d39",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idf1f60b14",
+      "sourceId": "c6147",
+      "targetId": "d0f77",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "idff65d871",
+      "sourceId": "eca58",
+      "targetId": "ce186",
+      "types": [
+        "activation"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "a02d6",
+      "geneNames": [
+        "Gastrin"
+      ],
+      "type": "gene_protein",
+      "x": 821.0,
+      "y": 91.61829652996846,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P01350",
+      "uniprotAccs": [
+        "P01350"
+      ]
+    },
+    {
+      "id": "b2fb9",
+      "geneNames": null,
+      "type": "compound",
+      "x": 567.0,
+      "y": 281.61829652996846,
+      "label": "Chloride ion",
+      "groupId": "eca58",
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000492"
+    },
+    {
+      "id": "b67fa",
+      "geneNames": null,
+      "type": "compound",
+      "x": 821.0,
+      "y": 114.61829652996846,
+      "label": "Acetylcholine",
+      "groupId": null,
+      "referenceDatabase": "Chemspider",
+      "referenceId": "182"
+    },
+    {
+      "id": "bf022",
+      "geneNames": [
+        "ATP4A"
+      ],
+      "type": "gene_protein",
+      "x": 635.0,
+      "y": 153.61829652996846,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "495",
+      "uniprotAccs": [
+        "P20648",
+        "A0A384MR29",
+        "Q658V6"
+      ]
+    },
+    {
+      "id": "c559d",
+      "geneNames": null,
+      "type": "compound",
+      "x": 567.0,
+      "y": 257.61829652996846,
+      "label": "Potassium",
+      "groupId": "eca58",
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000586"
+    },
+    {
+      "id": "c6147",
+      "geneNames": null,
+      "type": "compound",
+      "x": 821.0,
+      "y": 66.61829652996846,
+      "label": "Histamine\t",
+      "groupId": null,
+      "referenceDatabase": "Chemspider",
+      "referenceId": "753"
+    },
+    {
+      "id": "ca53a",
+      "geneNames": null,
+      "type": "compound",
+      "x": 235.0,
+      "y": 214.61829652996846,
+      "label": "Carbon dioxide",
+      "groupId": "b2383",
+      "referenceDatabase": "Chemspider",
+      "referenceId": "274"
+    },
+    {
+      "id": "d0f77",
+      "geneNames": [
+        "HRH2"
+      ],
+      "type": "gene_protein",
+      "x": 611.0,
+      "y": 67.61829652996846,
+      "label": null,
+      "groupId": "f8803",
+      "referenceDatabase": "GeneID",
+      "referenceId": "3274",
+      "uniprotAccs": [
+        "P25021",
+        "A0A1B0GTK7"
+      ]
+    },
+    {
+      "id": "d80c0",
+      "geneNames": null,
+      "type": "compound",
+      "x": 235.0,
+      "y": 189.61829652996846,
+      "label": "Water",
+      "groupId": "b2383",
+      "referenceDatabase": "Chemspider",
+      "referenceId": "937"
+    },
+    {
+      "id": "e1cc0",
+      "geneNames": null,
+      "type": "compound",
+      "x": 476.0,
+      "y": 213.61829652996846,
+      "label": "Bicarbonate ion",
+      "groupId": "d4cca",
+      "referenceDatabase": "Chemspider",
+      "referenceId": "749"
+    },
+    {
+      "id": "ec62f",
+      "geneNames": null,
+      "type": "compound",
+      "x": 353.4367269267365,
+      "y": 108.61829652996846,
+      "label": "Zinc",
+      "groupId": "a3371",
+      "referenceDatabase": "Chemspider",
+      "referenceId": "22430"
+    },
+    {
+      "id": "ef034",
+      "geneNames": [
+        "CHRM1"
+      ],
+      "type": "gene_protein",
+      "x": 611.0,
+      "y": 114.61829652996846,
+      "label": null,
+      "groupId": "f8803",
+      "referenceDatabase": "GeneID",
+      "referenceId": "1128",
+      "uniprotAccs": [
+        "P11229",
+        "Q53XZ3"
+      ]
+    },
+    {
+      "id": "f4d16",
+      "geneNames": [
+        "CCKBR"
+      ],
+      "type": "gene_protein",
+      "x": 611.0,
+      "y": 92.61829652996846,
+      "label": null,
+      "groupId": "f8803",
+      "referenceDatabase": "GeneID",
+      "referenceId": "887",
+      "uniprotAccs": [
+        "P32239",
+        "E9PIC8"
+      ]
+    },
+    {
+      "id": "fc4df",
+      "geneNames": null,
+      "type": "compound",
+      "x": 476.0,
+      "y": 190.61829652996846,
+      "label": "Hydrogen",
+      "groupId": "d4cca",
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0059597"
+    },
+    {
+      "id": "fac7b",
+      "geneNames": null,
+      "type": "compound",
+      "x": 476.0,
+      "y": 422.61829652996846,
+      "label": "Bicarbonate ion",
+      "groupId": null,
+      "referenceDatabase": "Chemspider",
+      "referenceId": "749"
+    },
+    {
+      "id": "d5d39",
+      "geneNames": null,
+      "type": "compound",
+      "x": 714.0,
+      "y": 190.61829652996846,
+      "label": "Hydrogen",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0059597"
+    },
+    {
+      "id": "bb54c",
+      "geneNames": null,
+      "type": "compound",
+      "x": 567.0,
+      "y": 423.61829652996846,
+      "label": "Chloride ion",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000492"
+    },
+    {
+      "id": "a55a0",
+      "geneNames": null,
+      "type": "compound",
+      "x": 714.0,
+      "y": 257.61829652996846,
+      "label": "Potassium",
+      "groupId": "ce186",
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000586"
+    },
+    {
+      "id": "de43f",
+      "geneNames": null,
+      "type": "compound",
+      "x": 714.0,
+      "y": 281.61829652996846,
+      "label": "Chloride ion",
+      "groupId": "ce186",
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000492"
+    },
+    {
+      "id": "bed93",
+      "geneNames": null,
+      "type": "misc",
+      "x": 357.27878211227505,
+      "y": 83.97890547383165,
+      "label": "carbonate dehydratase activity",
+      "groupId": "a3371"
+    },
+    {
+      "id": "a3371",
+      "type": "group",
+      "components": [
+        "ec62f",
+        "bed93"
+      ]
+    },
+    {
+      "id": "b2383",
+      "type": "group",
+      "components": [
+        "ca53a",
+        "d80c0"
+      ]
+    },
+    {
+      "id": "ce186",
+      "type": "group",
+      "components": [
+        "a55a0",
+        "de43f"
+      ]
+    },
+    {
+      "id": "d4cca",
+      "type": "group",
+      "components": [
+        "e1cc0",
+        "fc4df"
+      ]
+    },
+    {
+      "id": "eca58",
+      "type": "group",
+      "components": [
+        "b2fb9",
+        "c559d"
+      ]
+    },
+    {
+      "id": "f8803",
+      "type": "group",
+      "components": [
+        "d0f77",
+        "ef034",
+        "f4d16"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,351 @@
+{
+  "pathway": {
+    "name": "WP3299",
+    "org": "Homo sapiens",
+    "title": "let-7 inhibition of ES cell reprogramming"
+  },
+  "links": [
+    {
+      "id": "idf51aa44f",
+      "sourceId": "c610c",
+      "targetId": "c03f6",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idd6e36655",
+      "sourceId": "ec30f",
+      "targetId": "f0199",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ida709002f",
+      "sourceId": "b9dcf",
+      "targetId": "c610c",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id38497fad",
+      "sourceId": "c610c",
+      "targetId": "ec30f",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id8f858a2c",
+      "sourceId": "fa367",
+      "targetId": "c610c",
+      "types": [
+        "activation"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "abe25",
+      "geneNames": [
+        "c-MYC"
+      ],
+      "type": "gene_protein",
+      "x": 69.5,
+      "y": 250.0,
+      "label": null,
+      "groupId": "fa367",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000136997",
+      "uniprotAccs": [
+        "P01106",
+        "A0A0B4J1R1",
+        "A0A494C1T8",
+        "H0YBG3",
+        "Q14899",
+        "Q16591"
+      ]
+    },
+    {
+      "id": "c610c",
+      "geneNames": [
+        "LIN-41"
+      ],
+      "type": "gene_protein",
+      "x": 280.0,
+      "y": 261.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000206557",
+      "uniprotAccs": [
+        "Q2Q1W2"
+      ]
+    },
+    {
+      "id": "ec30f",
+      "geneNames": [
+        "EGR1"
+      ],
+      "type": "gene_protein",
+      "x": 280.5,
+      "y": 353.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000120738",
+      "uniprotAccs": [
+        "P18146"
+      ]
+    },
+    {
+      "id": "e09d2",
+      "geneNames": [
+        "MIRLET7A1"
+      ],
+      "type": "gene_protein",
+      "x": 240.0,
+      "y": 90.0,
+      "label": null,
+      "groupId": "b9dcf",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000199165",
+      "uniprotAccs": null
+    },
+    {
+      "id": "b6609",
+      "geneNames": [
+        "SOX2"
+      ],
+      "type": "gene_protein",
+      "x": 69.5,
+      "y": 230.0,
+      "label": null,
+      "groupId": "fa367",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000181449",
+      "uniprotAccs": [
+        "P48431"
+      ]
+    },
+    {
+      "id": "b2c8e",
+      "geneNames": [
+        "KLF4"
+      ],
+      "type": "gene_protein",
+      "x": 69.5,
+      "y": 290.0,
+      "label": null,
+      "groupId": "fa367",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000136826",
+      "uniprotAccs": [
+        "O43474",
+        "A0A087X0S4",
+        "B7ZBT2"
+      ]
+    },
+    {
+      "id": "d5da0",
+      "geneNames": [
+        "OCT4"
+      ],
+      "type": "gene_protein",
+      "x": 69.5,
+      "y": 270.0,
+      "label": null,
+      "groupId": "fa367",
+      "referenceDatabase": "GeneID",
+      "referenceId": "5460",
+      "uniprotAccs": [
+        "Q01860",
+        "D2IYK3",
+        "F2Z381",
+        "M1S623"
+      ]
+    },
+    {
+      "id": "ef82d",
+      "geneNames": [
+        "MIRLET7A2"
+      ],
+      "type": "gene_protein",
+      "x": 240.0,
+      "y": 110.0,
+      "label": null,
+      "groupId": "b9dcf",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000198975",
+      "uniprotAccs": null
+    },
+    {
+      "id": "c5527",
+      "geneNames": [
+        "MIRLET7A3"
+      ],
+      "type": "gene_protein",
+      "x": 240.0,
+      "y": 130.0,
+      "label": null,
+      "groupId": "b9dcf",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000198986",
+      "uniprotAccs": null
+    },
+    {
+      "id": "dce25",
+      "geneNames": [
+        "MIRLET7C"
+      ],
+      "type": "gene_protein",
+      "x": 240.0,
+      "y": 150.0,
+      "label": null,
+      "groupId": "b9dcf",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000199030",
+      "uniprotAccs": null
+    },
+    {
+      "id": "b5037",
+      "geneNames": [
+        "MIRLET7D"
+      ],
+      "type": "gene_protein",
+      "x": 240.0,
+      "y": 170.0,
+      "label": null,
+      "groupId": "b9dcf",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000199133",
+      "uniprotAccs": null
+    },
+    {
+      "id": "bacae",
+      "geneNames": [
+        "MIRLET7E"
+      ],
+      "type": "gene_protein",
+      "x": 320.0,
+      "y": 90.0,
+      "label": null,
+      "groupId": "b9dcf",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000198972",
+      "uniprotAccs": null
+    },
+    {
+      "id": "f9266",
+      "geneNames": [
+        "MIRLET7F1"
+      ],
+      "type": "gene_protein",
+      "x": 320.0,
+      "y": 110.0,
+      "label": null,
+      "groupId": "b9dcf",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000199072",
+      "uniprotAccs": null
+    },
+    {
+      "id": "d78e1",
+      "geneNames": [
+        "MIRLET7F2"
+      ],
+      "type": "gene_protein",
+      "x": 320.0,
+      "y": 130.0,
+      "label": null,
+      "groupId": "b9dcf",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000208012",
+      "uniprotAccs": null
+    },
+    {
+      "id": "b3b74",
+      "geneNames": [
+        "MIRLET7G"
+      ],
+      "type": "gene_protein",
+      "x": 320.0,
+      "y": 150.0,
+      "label": null,
+      "groupId": "b9dcf",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000199150",
+      "uniprotAccs": null
+    },
+    {
+      "id": "c3961",
+      "geneNames": [
+        "MIRLET7I"
+      ],
+      "type": "gene_protein",
+      "x": 320.0,
+      "y": 170.0,
+      "label": null,
+      "groupId": "b9dcf",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000199179",
+      "uniprotAccs": null
+    },
+    {
+      "id": "f0199",
+      "geneNames": null,
+      "type": "misc",
+      "x": 521.0,
+      "y": 353.0,
+      "label": "Differentiation",
+      "groupId": null
+    },
+    {
+      "id": "b6284",
+      "geneNames": null,
+      "type": "misc",
+      "x": 284.0,
+      "y": 69.0,
+      "label": "let-7 miRNAs",
+      "groupId": "b9dcf"
+    },
+    {
+      "id": "c03f6",
+      "geneNames": null,
+      "type": "misc",
+      "x": 523.0,
+      "y": 261.0,
+      "label": "Pluripotency",
+      "groupId": null
+    },
+    {
+      "id": "fa367",
+      "type": "group",
+      "components": [
+        "abe25",
+        "b6609",
+        "b2c8e",
+        "d5da0"
+      ]
+    },
+    {
+      "id": "b9dcf",
+      "type": "group",
+      "components": [
+        "e09d2",
+        "ef82d",
+        "c5527",
+        "dce25",
+        "b5037",
+        "bacae",
+        "f9266",
+        "d78e1",
+        "b3b74",
+        "c3961",
+        "b6284"
+      ]
+    }
+  ]
+}

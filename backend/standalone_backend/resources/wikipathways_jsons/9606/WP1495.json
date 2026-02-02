@@ -1,0 +1,516 @@
+{
+  "pathway": {
+    "name": "WP1495",
+    "org": "Homo sapiens",
+    "title": "Glycine metabolism"
+  },
+  "links": [
+    {
+      "id": "b7d9c",
+      "sourceId": "c7951",
+      "targetId": "id565c2b9b",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "be36e",
+      "sourceId": "idc7b937b0",
+      "targetId": "ac04a",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "d3439",
+      "sourceId": "f87e9",
+      "targetId": "idd3120515",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "d4811",
+      "sourceId": "d5114",
+      "targetId": "idd3120515",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "e7ec7",
+      "sourceId": "a6f6e",
+      "targetId": "idc7b937b0",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "f9528",
+      "sourceId": "idd3120515",
+      "targetId": "d336d",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "fd4f5",
+      "sourceId": "e180b",
+      "targetId": "id77142bed",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id1feb1840",
+      "sourceId": "a2fe0",
+      "targetId": "ide0d609cf",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id23f9ba93",
+      "sourceId": "f9235",
+      "targetId": "e2325",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id3642edbf",
+      "sourceId": "d775a",
+      "targetId": "c1617",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id4351aa05",
+      "sourceId": "id565c2b9b",
+      "targetId": "f9235",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id4a9f9c7b",
+      "sourceId": "d775a",
+      "targetId": "fadfc",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id565c2b9b",
+      "sourceId": "d775a",
+      "targetId": "f416f",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id5c62036",
+      "sourceId": "d775a",
+      "targetId": "e4528",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id68fdd821",
+      "sourceId": "d775a",
+      "targetId": "eccb2",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id77142bed",
+      "sourceId": "d775a",
+      "targetId": "a9c4a",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id85efbcf3",
+      "sourceId": "d775a",
+      "targetId": "ebdd1",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id8d0c5f48",
+      "sourceId": "dd2ff",
+      "targetId": "c102a",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idc7b937b0",
+      "sourceId": "f416f",
+      "targetId": "f4b93",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idcd4b4dea",
+      "sourceId": "id77142bed",
+      "targetId": "bdbdf",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "idd3120515",
+      "sourceId": "f4b93",
+      "targetId": "d775a",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idd76463ad",
+      "sourceId": "e2325",
+      "targetId": "id565c2b9b",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ide0d609cf",
+      "sourceId": "a9c4a",
+      "targetId": "d775a",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idea68481b",
+      "sourceId": "a9c4a",
+      "targetId": "ed114",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idefdfe00e",
+      "sourceId": "f4b93",
+      "targetId": "fa412",
+      "types": [
+        "activation"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "a9c4a",
+      "geneNames": null,
+      "type": "compound",
+      "x": 103.0,
+      "y": 168.0,
+      "label": "Serine",
+      "groupId": null,
+      "referenceDatabase": "Chemspider",
+      "referenceId": "597"
+    },
+    {
+      "id": "ed114",
+      "geneNames": null,
+      "type": "compound",
+      "x": 103.0,
+      "y": 108.0,
+      "label": "Pyruvate",
+      "groupId": null,
+      "referenceDatabase": "Chemspider",
+      "referenceId": "96901"
+    },
+    {
+      "id": "f87e9",
+      "geneNames": null,
+      "type": "compound",
+      "x": 558.5,
+      "y": 314.0,
+      "label": "Glutamate",
+      "groupId": null,
+      "referenceDatabase": "Chemspider",
+      "referenceId": "4302384"
+    },
+    {
+      "id": "a5f21",
+      "geneNames": [
+        "SHMT1"
+      ],
+      "type": "gene_protein",
+      "x": 217.5,
+      "y": 124.0,
+      "label": null,
+      "groupId": "a2fe0",
+      "referenceDatabase": "GeneID",
+      "referenceId": "6470",
+      "uniprotAccs": [
+        "P34896"
+      ]
+    },
+    {
+      "id": "a7c31",
+      "geneNames": [
+        "SHMT2"
+      ],
+      "type": "gene_protein",
+      "x": 217.5,
+      "y": 144.0,
+      "label": null,
+      "groupId": "a2fe0",
+      "referenceDatabase": "GeneID",
+      "referenceId": "6472",
+      "uniprotAccs": [
+        "P34897",
+        "B4DJQ3",
+        "B4DLV4",
+        "Q5BJF5",
+        "Q5HYG8",
+        "V9HW06"
+      ]
+    },
+    {
+      "id": "bdbdf",
+      "geneNames": null,
+      "type": "compound",
+      "x": 282.5,
+      "y": 242.0,
+      "label": "MTHF",
+      "groupId": null,
+      "referenceDatabase": "Chemspider",
+      "referenceId": "97272"
+    },
+    {
+      "id": "c1617",
+      "geneNames": null,
+      "type": "compound",
+      "x": 532.0,
+      "y": 87.0,
+      "label": "Bile Salts",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:36277"
+    },
+    {
+      "id": "c7951",
+      "geneNames": [
+        "Glycine Oxidase"
+      ],
+      "type": "gene_protein",
+      "x": 293.0,
+      "y": 313.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "EC",
+      "referenceId": "1.4.3.19",
+      "uniprotAccs": []
+    },
+    {
+      "id": "d5114",
+      "geneNames": [
+        "Glycine Transaminase"
+      ],
+      "type": "gene_protein",
+      "x": 595.0,
+      "y": 280.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "EC",
+      "referenceId": "2.6.1.4",
+      "uniprotAccs": [
+        "Q8N5Z0"
+      ]
+    },
+    {
+      "id": "d775a",
+      "geneNames": null,
+      "type": "compound",
+      "x": 368.0,
+      "y": 213.0,
+      "label": "Glycine",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000123"
+    },
+    {
+      "id": "e180b",
+      "geneNames": [
+        "MTHFR"
+      ],
+      "type": "gene_protein",
+      "x": 149.0,
+      "y": 243.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000177000",
+      "uniprotAccs": [
+        "P42898",
+        "A0A1B0GXD9",
+        "A0A286YF17",
+        "A0A286YF47",
+        "A0A286YFD0",
+        "F8W9T8",
+        "L7P8G6",
+        "Q5SNW5",
+        "Q5SNW7"
+      ]
+    },
+    {
+      "id": "e4528",
+      "geneNames": null,
+      "type": "compound",
+      "x": 561.0,
+      "y": 128.0,
+      "label": "Creatine",
+      "groupId": null,
+      "referenceDatabase": "PubChem-compound",
+      "referenceId": "586"
+    },
+    {
+      "id": "ebdd1",
+      "geneNames": null,
+      "type": "compound",
+      "x": 340.0,
+      "y": 54.0,
+      "label": "Heme",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:30413"
+    },
+    {
+      "id": "eccb2",
+      "geneNames": null,
+      "type": "compound",
+      "x": 246.0,
+      "y": 73.0,
+      "label": "Purines",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:26401"
+    },
+    {
+      "id": "f416f",
+      "geneNames": null,
+      "type": "compound",
+      "x": 348.5,
+      "y": 347.0,
+      "label": "a-Iminoacetate",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:53664"
+    },
+    {
+      "id": "f4b93",
+      "geneNames": null,
+      "type": "compound",
+      "x": 514.0,
+      "y": 346.0,
+      "label": "Glyoxalate",
+      "groupId": null,
+      "referenceDatabase": "PubChem-compound",
+      "referenceId": "760"
+    },
+    {
+      "id": "fa412",
+      "geneNames": null,
+      "type": "compound",
+      "x": 494.0,
+      "y": 407.0,
+      "label": "Oxalate",
+      "groupId": null,
+      "referenceDatabase": "PubChem-compound",
+      "referenceId": "971"
+    },
+    {
+      "id": "fadfc",
+      "geneNames": null,
+      "type": "compound",
+      "x": 444.0,
+      "y": 55.0,
+      "label": "Glutathione",
+      "groupId": null,
+      "referenceDatabase": "PubChem-compound",
+      "referenceId": "124886"
+    },
+    {
+      "id": "a6f6e",
+      "geneNames": null,
+      "type": "misc",
+      "x": 398.0,
+      "y": 379.0,
+      "label": "H2O",
+      "groupId": null
+    },
+    {
+      "id": "ac04a",
+      "geneNames": null,
+      "type": "misc",
+      "x": 457.0,
+      "y": 379.0,
+      "label": "NH3",
+      "groupId": null
+    },
+    {
+      "id": "c102a",
+      "geneNames": null,
+      "type": "misc",
+      "x": 461.5,
+      "y": 256.0,
+      "label": "H2O2",
+      "groupId": null
+    },
+    {
+      "id": "d336d",
+      "geneNames": null,
+      "type": "misc",
+      "x": 559.0,
+      "y": 236.0,
+      "label": "a-Ketoglutarate",
+      "groupId": null
+    },
+    {
+      "id": "dd2ff",
+      "geneNames": null,
+      "type": "misc",
+      "x": 459.5,
+      "y": 311.0,
+      "label": "O2",
+      "groupId": null
+    },
+    {
+      "id": "e2325",
+      "geneNames": null,
+      "type": "misc",
+      "x": 381.5,
+      "y": 250.0,
+      "label": "FAD",
+      "groupId": null
+    },
+    {
+      "id": "f9235",
+      "geneNames": null,
+      "type": "misc",
+      "x": 387.5,
+      "y": 314.0,
+      "label": "FADH2",
+      "groupId": null
+    },
+    {
+      "id": "a2fe0",
+      "type": "group",
+      "components": [
+        "a5f21",
+        "a7c31"
+      ]
+    }
+  ]
+}

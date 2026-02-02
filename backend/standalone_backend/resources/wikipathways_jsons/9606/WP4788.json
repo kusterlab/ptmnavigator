@@ -1,0 +1,539 @@
+{
+  "pathway": {
+    "name": "WP4788",
+    "org": "Homo sapiens",
+    "title": "Autosomal recessive osteopetrosis pathways"
+  },
+  "links": [
+    {
+      "id": "id1525bbdb",
+      "sourceId": "cff5d",
+      "targetId": "a7478",
+      "types": [
+        "translocation"
+      ]
+    },
+    {
+      "id": "id1e2db4ed",
+      "sourceId": "cec9f",
+      "targetId": "id1525bbdb",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id220af52a",
+      "sourceId": "abe79",
+      "targetId": "aa089",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "id39f53c5c",
+      "sourceId": "aa480",
+      "targetId": "b9eab",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id534c15b6",
+      "sourceId": "fa363",
+      "targetId": "idd8e74b14",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id66b704a5",
+      "sourceId": "cda25",
+      "targetId": "e2f77",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "id7a00b39d",
+      "sourceId": "aa089",
+      "targetId": "idf85cf360",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id915d0542",
+      "sourceId": "e99da",
+      "targetId": "e923a",
+      "types": [
+        "translocation"
+      ]
+    },
+    {
+      "id": "idaad39b1f",
+      "sourceId": "f7d8b",
+      "targetId": "id915d0542",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "idd8e74b14",
+      "sourceId": "a6803",
+      "targetId": "db3de",
+      "types": [
+        "translocation"
+      ]
+    },
+    {
+      "id": "idf36c00e1",
+      "sourceId": "e034a",
+      "targetId": "abe79",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "idf85cf360",
+      "sourceId": "c59f3",
+      "targetId": "aa480",
+      "types": [
+        "inhibition"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "a6803",
+      "geneNames": null,
+      "type": "compound",
+      "x": 644.7787730537218,
+      "y": 408.41545693415566,
+      "label": "H+",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:15378"
+    },
+    {
+      "id": "aa089",
+      "geneNames": [
+        "TRAF6"
+      ],
+      "type": "gene_protein",
+      "x": 1230.7692307692312,
+      "y": 275.2248499220233,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000175104",
+      "uniprotAccs": [
+        "Q9Y4K3"
+      ]
+    },
+    {
+      "id": "aa480",
+      "geneNames": [
+        "NFKB1"
+      ],
+      "type": "gene_protein",
+      "x": 1409.0354090354087,
+      "y": 333.3333333333331,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000109320",
+      "uniprotAccs": [
+        "P19838",
+        "A0A494C157",
+        "A0A494C1E9",
+        "A0A8V8TLB2",
+        "D6RC45",
+        "D6RH30"
+      ]
+    },
+    {
+      "id": "abe79",
+      "geneNames": [
+        "TNFRSF11A"
+      ],
+      "type": "gene_protein",
+      "x": 1058.233377210497,
+      "y": 275.2248499220233,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000141655",
+      "uniprotAccs": [
+        "Q9Y6Q6"
+      ]
+    },
+    {
+      "id": "addfb",
+      "geneNames": null,
+      "type": "compound",
+      "x": 498.1527701013359,
+      "y": 221.83807497410456,
+      "label": "Cl-",
+      "groupId": "e923a",
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:17996"
+    },
+    {
+      "id": "c3cfe",
+      "geneNames": [
+        "SNX10"
+      ],
+      "type": "gene_protein",
+      "x": 357.09649000788085,
+      "y": 438.0110044667016,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000086300",
+      "uniprotAccs": [
+        "Q9Y5X0",
+        "A0A8V8TLE1",
+        "A0A8V8TLE4",
+        "A0A8V8TLG7",
+        "A0A8V8TMW7",
+        "A0A8V8TN62",
+        "G5E9H5"
+      ]
+    },
+    {
+      "id": "c59f3",
+      "geneNames": [
+        "IKBKB"
+      ],
+      "type": "gene_protein",
+      "x": 1409.035409035409,
+      "y": 225.8852258852261,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000104365",
+      "uniprotAccs": [
+        "O14920",
+        "A0A499FJS7",
+        "A0A7I2V4L0",
+        "A0A7P0NCV2",
+        "A0A7P0SVL5",
+        "E5RFG5",
+        "E5RFT3",
+        "E5RGA0",
+        "E5RGW5",
+        "E5RIW0",
+        "E5RJH2",
+        "G3V105",
+        "J3KNS5"
+      ]
+    },
+    {
+      "id": "cda25",
+      "geneNames": [
+        "PLEKHM1"
+      ],
+      "type": "gene_protein",
+      "x": 501.412429378531,
+      "y": 672.9973523580047,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000225190",
+      "uniprotAccs": [
+        "Q9Y4G2",
+        "A0A8V8TPC1",
+        "A0A8V8TPC5",
+        "A0A8V8TPW0",
+        "A0A8V8TPW4",
+        "A0A8V8TQN1",
+        "A0A8V8TQZ6",
+        "A0A8V8TQZ8",
+        "J3KRL8",
+        "J3KRU0",
+        "J3KS30",
+        "K7EII8",
+        "K7EMP2",
+        "K7EPF2",
+        "K7EQ68"
+      ]
+    },
+    {
+      "id": "cec9f",
+      "geneNames": [
+        "OSTM1"
+      ],
+      "type": "gene_protein",
+      "x": 359.5115320341342,
+      "y": 283.44600634211844,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000081087",
+      "uniprotAccs": [
+        "Q86WC4",
+        "A0A0A0MSP4",
+        "A0A8V8TNF1",
+        "A0A8V8TNF7",
+        "A0A8V8TNK5",
+        "A0A8V8TNX2",
+        "A0A8V8TNX7",
+        "A0A8V8TPT2",
+        "A0A8V8TPT7",
+        "A0A8V8TQ75",
+        "A0A8V8TQ80"
+      ]
+    },
+    {
+      "id": "e034a",
+      "geneNames": [
+        "TNFSF11"
+      ],
+      "type": "gene_protein",
+      "x": 880.4545960723618,
+      "y": 275.2248499220233,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000120659",
+      "uniprotAccs": [
+        "O14788"
+      ]
+    },
+    {
+      "id": "e2f77",
+      "geneNames": [
+        "RAB7A"
+      ],
+      "type": "gene_protein",
+      "x": 501.412429378531,
+      "y": 567.7966101694908,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000075785",
+      "uniprotAccs": [
+        "P51149",
+        "A0A6Q8PF79",
+        "A0A6Q8PG52",
+        "A0A6Q8PGE6",
+        "A0A6Q8PH84",
+        "C9IZZ0",
+        "C9J4S4",
+        "C9J4V0",
+        "C9J592",
+        "C9J7D1",
+        "C9J8S3"
+      ]
+    },
+    {
+      "id": "f7d8b",
+      "geneNames": [
+        "CLCN7"
+      ],
+      "type": "gene_protein",
+      "x": 359.5115320341342,
+      "y": 258.4460063421183,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000103249",
+      "uniprotAccs": [
+        "P51798",
+        "A0A8V8TPE0",
+        "A0A8V8TQF3",
+        "H0Y2M6",
+        "H3BNG8",
+        "I3L470"
+      ]
+    },
+    {
+      "id": "fa363",
+      "geneNames": [
+        "TCIRG1"
+      ],
+      "type": "gene_protein",
+      "x": 762.3414895735245,
+      "y": 408.41545693415566,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000110719",
+      "uniprotAccs": [
+        "Q13488",
+        "A0A8V8TM28",
+        "A0A8V8TN16",
+        "A0A8V8TNB5",
+        "E9PM12",
+        "E9PMC5",
+        "E9PNA6",
+        "H0YCE3",
+        "H0YEL3",
+        "Q8TCH1"
+      ]
+    },
+    {
+      "id": "db3de",
+      "geneNames": null,
+      "type": "compound",
+      "x": 910.3207239886665,
+      "y": 408.41545693415566,
+      "label": "H+",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:15378"
+    },
+    {
+      "id": "a7478",
+      "geneNames": null,
+      "type": "compound",
+      "x": 190.005,
+      "y": 312.67106327748166,
+      "label": "H+",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:15378"
+    },
+    {
+      "id": "c6f62",
+      "geneNames": null,
+      "type": "compound",
+      "x": 190.005,
+      "y": 221.28955176735374,
+      "label": "Cl-",
+      "groupId": "e99da",
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:17996"
+    },
+    {
+      "id": "a92f2",
+      "geneNames": null,
+      "type": "compound",
+      "x": 190.005,
+      "y": 246.28955176735363,
+      "label": "Cl-",
+      "groupId": "e99da",
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:17996"
+    },
+    {
+      "id": "f6c55",
+      "geneNames": null,
+      "type": "compound",
+      "x": 498.1527701013359,
+      "y": 246.83807497410444,
+      "label": "Cl-",
+      "groupId": "e923a",
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:17996"
+    },
+    {
+      "id": "cff5d",
+      "geneNames": null,
+      "type": "compound",
+      "x": 498.1527701013359,
+      "y": 312.67106327748166,
+      "label": "H+",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:15378"
+    },
+    {
+      "id": "b9eab",
+      "geneNames": null,
+      "type": "misc",
+      "x": 1346.242368742367,
+      "y": 512.6755189255192,
+      "label": "Regulates transcription\nof key osteoclast genes",
+      "groupId": null
+    },
+    {
+      "id": "ab25a",
+      "geneNames": null,
+      "type": "misc",
+      "x": 1122.55123072829,
+      "y": 136.15893096277847,
+      "label": "OMIM:174810\nFamilial Expansile Osteolysis",
+      "groupId": "c0455"
+    },
+    {
+      "id": "0",
+      "geneNames": null,
+      "type": "misc",
+      "x": 178.00543143796193,
+      "y": 121.18275752108835,
+      "label": "OMIM:259710\nOsteopetrosis, Autosomal Recessive 2",
+      "groupId": "a2fa9"
+    },
+    {
+      "id": "1",
+      "geneNames": null,
+      "type": "misc",
+      "x": 178.00543143796193,
+      "y": 82.18275752108838,
+      "label": "OMIM:611490\nOsteopetrosis,  Autosomal Recessive 4",
+      "groupId": "a2fa9"
+    },
+    {
+      "id": "2",
+      "geneNames": null,
+      "type": "misc",
+      "x": 1122.55123072829,
+      "y": 58.15893096277845,
+      "label": "OMIM:612301\nOsteopetrosis, Autosomal Recessive 7",
+      "groupId": "c0455"
+    },
+    {
+      "id": "3",
+      "geneNames": null,
+      "type": "misc",
+      "x": 1122.55123072829,
+      "y": 97.15893096277846,
+      "label": "OMIM:224300\nDysosteosclerosis",
+      "groupId": "c0455"
+    },
+    {
+      "id": "c4615",
+      "geneNames": null,
+      "type": "misc",
+      "x": 178.00543143796193,
+      "y": 160.18275752108838,
+      "label": "OMIM:166600\nOsteopetrosis, Autosomal Dominant 2",
+      "groupId": "a2fa9"
+    },
+    {
+      "id": "a2fa9",
+      "type": "group",
+      "components": [
+        "0",
+        "1",
+        "c4615"
+      ]
+    },
+    {
+      "id": "c0455",
+      "type": "group",
+      "components": [
+        "ab25a",
+        "2",
+        "3"
+      ]
+    },
+    {
+      "id": "e923a",
+      "type": "group",
+      "components": [
+        "addfb",
+        "f6c55"
+      ]
+    },
+    {
+      "id": "e99da",
+      "type": "group",
+      "components": [
+        "c6f62",
+        "a92f2"
+      ]
+    }
+  ]
+}

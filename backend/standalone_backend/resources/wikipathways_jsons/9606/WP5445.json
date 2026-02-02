@@ -1,0 +1,329 @@
+{
+  "pathway": {
+    "name": "WP5445",
+    "org": "Homo sapiens",
+    "title": "Hunger and satiety"
+  },
+  "links": [
+    {
+      "id": "id8298be52",
+      "sourceId": "ff217",
+      "targetId": "fd2bc",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "idf158151e",
+      "sourceId": "d43b2",
+      "targetId": "de84e",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "e3eca",
+      "sourceId": "f9e1b",
+      "targetId": "fd2bc",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "f9dbc",
+      "sourceId": "d0ca6",
+      "targetId": "fd2bc",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "a5111",
+      "sourceId": "d0ca6",
+      "targetId": "b17c2",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "bf6e5",
+      "sourceId": "f9e1b",
+      "targetId": "b17c2",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "a72be",
+      "sourceId": "ff217",
+      "targetId": "b17c2",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "e0e99",
+      "sourceId": "fd2bc",
+      "targetId": "d43b2",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "bdc4a",
+      "sourceId": "b17c2",
+      "targetId": "d43b2",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "idf2e02088",
+      "sourceId": "a75f0",
+      "targetId": "b17c2",
+      "types": [
+        "stimulation"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "ed400",
+      "geneNames": null,
+      "type": "misc",
+      "x": 176.5,
+      "y": 212.25,
+      "label": "",
+      "groupId": null,
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q164386"
+    },
+    {
+      "id": "ffdee",
+      "geneNames": null,
+      "type": "misc",
+      "x": 176.5,
+      "y": 161.25,
+      "label": "",
+      "groupId": null,
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q444192"
+    },
+    {
+      "id": "e57bc",
+      "geneNames": null,
+      "type": "misc",
+      "x": 176.5,
+      "y": 276.25,
+      "label": "",
+      "groupId": null,
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q253246"
+    },
+    {
+      "id": "ba7a1",
+      "geneNames": null,
+      "type": "misc",
+      "x": 291.0,
+      "y": 398.25,
+      "label": "Stomach",
+      "groupId": null,
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q1029907"
+    },
+    {
+      "id": "eeeed",
+      "geneNames": null,
+      "type": "misc",
+      "x": 170.25,
+      "y": 399.25,
+      "label": "Intestine",
+      "groupId": null,
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q9639"
+    },
+    {
+      "id": "d795c",
+      "geneNames": null,
+      "type": "misc",
+      "x": 60.0,
+      "y": 399.25,
+      "label": "Adipose",
+      "groupId": null,
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q193583"
+    },
+    {
+      "id": "d43b2",
+      "geneNames": [
+        "MC4R"
+      ],
+      "type": "gene_protein",
+      "x": 209.0,
+      "y": 160.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000166603",
+      "uniprotAccs": [
+        "P32245"
+      ]
+    },
+    {
+      "id": "de84e",
+      "geneNames": null,
+      "type": "misc",
+      "x": 209.5,
+      "y": 63.0,
+      "label": "Homeostatic regulation of feeding",
+      "groupId": null,
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q5377024"
+    },
+    {
+      "id": "fd2bc",
+      "geneNames": [
+        "POMC"
+      ],
+      "type": "gene_protein",
+      "x": 148.0,
+      "y": 274.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000115138",
+      "uniprotAccs": [
+        "P01189",
+        "E9PHK5"
+      ]
+    },
+    {
+      "id": "b4b2e",
+      "geneNames": [
+        "NPY"
+      ],
+      "type": "gene_protein",
+      "x": 227.0,
+      "y": 274.0,
+      "label": null,
+      "groupId": "b17c2",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000122585",
+      "uniprotAccs": [
+        "P01303"
+      ]
+    },
+    {
+      "id": "ede0c",
+      "geneNames": [
+        "AGRP"
+      ],
+      "type": "gene_protein",
+      "x": 287.0,
+      "y": 274.0,
+      "label": null,
+      "groupId": "b17c2",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000159723",
+      "uniprotAccs": [
+        "O00253"
+      ]
+    },
+    {
+      "id": "ff217",
+      "geneNames": [
+        "LEP"
+      ],
+      "type": "gene_protein",
+      "x": 60.0,
+      "y": 388.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000174697",
+      "uniprotAccs": [
+        "P41159"
+      ]
+    },
+    {
+      "id": "a75f0",
+      "geneNames": [
+        "GHRL"
+      ],
+      "type": "gene_protein",
+      "x": 291.0,
+      "y": 387.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000157017",
+      "uniprotAccs": [
+        "Q9UBU3",
+        "A8DN24",
+        "E7ESW0"
+      ]
+    },
+    {
+      "id": "f9e1b",
+      "geneNames": [
+        "GCG"
+      ],
+      "type": "gene_protein",
+      "x": 133.0,
+      "y": 387.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000115263",
+      "uniprotAccs": [
+        "P01275"
+      ]
+    },
+    {
+      "id": "d0ca6",
+      "geneNames": [
+        "PYY"
+      ],
+      "type": "gene_protein",
+      "x": 208.0,
+      "y": 387.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000131096",
+      "uniprotAccs": [
+        "P10082"
+      ]
+    },
+    {
+      "id": "a2622",
+      "geneNames": null,
+      "type": "misc",
+      "x": 107.0,
+      "y": 215.0,
+      "label": "Satiety",
+      "groupId": null,
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q1562684"
+    },
+    {
+      "id": "b81f4",
+      "geneNames": null,
+      "type": "misc",
+      "x": 297.5,
+      "y": 215.0,
+      "label": "Hunger",
+      "groupId": null,
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q165947"
+    },
+    {
+      "id": "b17c2",
+      "type": "group",
+      "components": [
+        "b4b2e",
+        "ede0c"
+      ]
+    }
+  ]
+}

@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import App from './App.vue'
+import emulatedRouter from "@/plugins/emulatedRouter";
 import vuetify from './plugins/vuetify';
 import vueCookie from 'vue-cookie'
 import 'vuetify/dist/vuetify.min.css';
@@ -10,6 +11,10 @@ import 'devextreme/dist/css/dx.material.blue.light.compact.css'
 
 
 Vue.use(vueCookie)
+// Only use emulated router in standalone mode
+if (process.env.VUE_APP_MODE !== 'library') {
+  Vue.use(emulatedRouter);
+}
 
 Vue.config.productionTip = false
 
@@ -26,7 +31,7 @@ if (typeof window !== 'undefined' && window.Vue) {
   window.Vue.use(PTMNavigatorPlugin);
 }
 
-if (process.env.NODE_ENV === 'development' && document.querySelector('#app')) {
+if ( (process.env.NODE_ENV === 'development' || process.env.NODE_ENV === 'production') && document.querySelector('#app')) {
   new Vue({
     vuetify,
     render: h => h(App),

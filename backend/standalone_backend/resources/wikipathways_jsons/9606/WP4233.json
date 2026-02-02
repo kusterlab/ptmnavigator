@@ -1,0 +1,271 @@
+{
+  "pathway": {
+    "name": "WP4233",
+    "org": "Homo sapiens",
+    "title": "Acrylamide biotransformation and exposure biomarkers"
+  },
+  "links": [
+    {
+      "id": "aa757",
+      "sourceId": "a5aa9",
+      "targetId": "e7720",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "b459f",
+      "sourceId": "e7720",
+      "targetId": "d6e01",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "a7bab",
+      "sourceId": "e7720",
+      "targetId": "f3a4a",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "b4f4d",
+      "sourceId": "e7720",
+      "targetId": "cd457",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "d5416",
+      "sourceId": "a5aa9",
+      "targetId": "eb0fb",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "e802c",
+      "sourceId": "a5aa9",
+      "targetId": "e1fb0",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "c3a27",
+      "sourceId": "e7720",
+      "targetId": "ad4d0",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "fe797",
+      "sourceId": "e1fb0",
+      "targetId": "c0e1c",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ac603",
+      "sourceId": "ad4d0",
+      "targetId": "b202f",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ca79c",
+      "sourceId": "e2b7d",
+      "targetId": "e802c",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "bab67",
+      "sourceId": "e2b7d",
+      "targetId": "c3a27",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ed582",
+      "sourceId": "fd7f2",
+      "targetId": "d5416",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "b8aa3",
+      "sourceId": "feeb1",
+      "targetId": "aa757",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "d6701",
+      "sourceId": "fd7f2",
+      "targetId": "b4f4d",
+      "types": [
+        "activation"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "a5aa9",
+      "geneNames": null,
+      "type": "compound",
+      "x": 126.05042016806742,
+      "y": 248.94957983193277,
+      "label": "Acrylamide (AA)",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:28619"
+    },
+    {
+      "id": "c0e1c",
+      "geneNames": null,
+      "type": "compound",
+      "x": 126.05042016806851,
+      "y": 484.2436974789915,
+      "label": "AAMA",
+      "groupId": null,
+      "referenceDatabase": "Chemspider",
+      "referenceId": "138886"
+    },
+    {
+      "id": "d6e01",
+      "geneNames": null,
+      "type": "compound",
+      "x": 540.2731092436994,
+      "y": 220.58823529411816,
+      "label": "N7-GA-Guanine",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "e1fb0",
+      "geneNames": null,
+      "type": "compound",
+      "x": 126.05042016806783,
+      "y": 372.89915966386616,
+      "label": "AA-GSH",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "e2b7d",
+      "geneNames": null,
+      "type": "compound",
+      "x": 226.89075630252162,
+      "y": 303.57142857142907,
+      "label": "Glutathione",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:16856"
+    },
+    {
+      "id": "eb0fb",
+      "geneNames": null,
+      "type": "compound",
+      "x": 126.05042016806794,
+      "y": 89.28571428571433,
+      "label": "AA-Val",
+      "groupId": null,
+      "referenceDatabase": "Chemspider",
+      "referenceId": "29332409"
+    },
+    {
+      "id": "fd7f2",
+      "geneNames": null,
+      "type": "compound",
+      "x": 224.78991596638733,
+      "y": 147.05882352941163,
+      "label": "Valine",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:16414"
+    },
+    {
+      "id": "feeb1",
+      "geneNames": [
+        "CYP2E1"
+      ],
+      "type": "gene_protein",
+      "x": 216.13655462184866,
+      "y": 206.68277310924364,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "1571",
+      "uniprotAccs": [
+        "P05181"
+      ]
+    },
+    {
+      "id": "e7720",
+      "geneNames": null,
+      "type": "compound",
+      "x": 324.07563025210123,
+      "y": 248.4453781512607,
+      "label": "Glycidamide (GA)",
+      "groupId": null,
+      "referenceDatabase": "PubChem-compound",
+      "referenceId": "91550"
+    },
+    {
+      "id": "b202f",
+      "geneNames": null,
+      "type": "compound",
+      "x": 324.0756302521025,
+      "y": 484.2436974789915,
+      "label": "GAMA",
+      "groupId": null,
+      "referenceDatabase": "Chemspider",
+      "referenceId": "57262168"
+    },
+    {
+      "id": "cd457",
+      "geneNames": null,
+      "type": "compound",
+      "x": 324.0756302521011,
+      "y": 89.28571428571433,
+      "label": "GA-Val",
+      "groupId": null,
+      "referenceDatabase": "Chemspider",
+      "referenceId": "28573496"
+    },
+    {
+      "id": "f3a4a",
+      "geneNames": null,
+      "type": "compound",
+      "x": 540.2731092436994,
+      "y": 285.21008403361384,
+      "label": "N3-GA-Adenosine",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "ad4d0",
+      "geneNames": null,
+      "type": "compound",
+      "x": 324.07563025210226,
+      "y": 372.89915966386616,
+      "label": "GA-GSH",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    }
+  ]
+}

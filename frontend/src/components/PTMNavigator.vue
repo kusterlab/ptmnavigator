@@ -568,7 +568,7 @@
                     v-if="ptmInputList.length > 0 || proteinInputList.length > 0"
                     ref="kinaseActivityThresholder"
                     :enrichment-response="enrichmentResponse"
-                    :all-kinase-activity-methods="enrichmentTypes.filter(et => et.enrichmentClass === 'KinaseActivity')"
+                    :all-kinase-activity-methods="enrichmentTypes.filter(et => et.enrichmentClass === 'KinaseActivity' && et.short !== 'kea3')"
                     :selected-dataset="selectedDatasetForEnrichment"
                     @kinase-activities-filtered="perturbedNodes = $event"
                 />
@@ -906,7 +906,7 @@
                     data-grid-ref-name="pathwayenrichmenttables"
                     :datasets="isUserDataMode ? selectedUserDatasets : selectedInternalDatasets"
                     :enrichment-response="enrichmentResponse"
-                    :enrichment-types="enrichmentTypes"
+                    :enrichment-types="enrichmentTypes.filter(t => t.short !== 'kea3')"
                     :enrichment-statuses="enrichmentStatuses"
                     @enrichment-selected-dataset-changed="updateSelectedDatasetForSorting"
                 />
@@ -1397,7 +1397,7 @@ export default {
       }
     },
     canonicalPathwayLink() {
-      return this.selectedCanonicalPathway.link.startsWith('wikipathways')
+      return this.selectedCanonicalPathway.pathwayId.startsWith('WP')
           ? `https://www.wikipathways.org/index.php/Pathway:${this.selectedCanonicalPathway.pathwayId}`
           : `https://www.kegg.jp/pathway/${this.selectedCanonicalPathway.pathwayId}`
     },
@@ -1443,8 +1443,7 @@ export default {
         if (newUUID && newUUID !== oldUUID && newUUID.length === 32) {
           const sessionIdResponse = await this.backendApi.refreshSessionId(newUUID)
             if (sessionIdResponse !== newUUID) {
-              this.uuid = sessionIdResponse
-              return
+              this.uuid = sessionIdResponse.session_id
             }
             const userDatasetListResponse = await this.backendApi.getUserDatasetList(newUUID)
 
@@ -1508,8 +1507,9 @@ export default {
       }
     },
     selectedCurveIDs: {
-      handler(newVal) {
-        this.getCurveData(newVal);
+      handler(selectedCurveIds) {
+        if (selectedCurveIds && selectedCurveIds.length > 0)
+          this.getCurveData(selectedCurveIds);
       }
     }
   },
@@ -1607,7 +1607,6 @@ export default {
           pathwayName: `${pw.title} (${pw.name})`,
           pathwayTitle: pw.title,
           pathwayId: pw.name,
-          link: pw.link
         }
       })
       this.canonicalPathwayListFiltered = this.canonicalPathwayList
@@ -1801,8 +1800,7 @@ export default {
       }
       this.selectedCurveIDs = []
 
-      const pathwaySkeletonResponse = await this.backendApi.getPathwaySkeleton(
-        this.selectedOrganism.taxcode, this.selectedCanonicalPathway.link)
+      const pathwaySkeletonResponse = await this.backendApi.getPathwaySkeleton(this.selectedCanonicalPathway.pathwayId)
       this.constructPathwaySkeleton(pathwaySkeletonResponse)
 
       // If we have data loaded already, collapse the pathway menu now
@@ -2189,10 +2187,11 @@ export default {
     redirectToCustomDataUpload () {
       const customDataUploadComponent = this.backendApi.getCustomDataUploadComponent();
       if(customDataUploadComponent) {
+        //TODO: Check if this prop is still required. Maybe setting the router in main.js/emulatedRouter has solved this and you can use $router now.
         if (this.ptmNavigatorRouter)
             //I am not mutating here, push is not doing what eslint thinks it is doing to this object
             // eslint-disable-next-line vue/no-mutating-props
-          this.ptmNavigatorRouter.push({name: customDataUploadComponent})
+          this.ptmNavigatorRouter.push({name: customDataUploadComponent, props:{backendApi: this.backendApi}})
       }else{
         console.log('No router defined, cannot redirect to custom data upload component')
       }
@@ -2315,7 +2314,7 @@ export default {
               this.selectedInternalProject.projectId, this.selectedDatasetForEnrichment.datasetId)
 
           this.enrichmentResponse = this.formatInternalDatabaseEnrichmentResponse(
-            experimentEnrichmentResponseRaw[this.selectedDatasetForEnrichment.datasetId])
+              experimentEnrichmentResponseRaw[this.selectedDatasetForEnrichment.datasetId])
           // Try to sort pathways, if gcr is among the retrieved enrichments
           this.getGCRSortedPathwayList()
         }

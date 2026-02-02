@@ -1,0 +1,869 @@
+{
+  "pathway": {
+    "name": "WP4585",
+    "org": "Homo sapiens",
+    "title": "Cancer immunotherapy by PD-1 blockade"
+  },
+  "links": [
+    {
+      "id": "id12ce76b1",
+      "sourceId": "fb739",
+      "targetId": "ef0fd",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id165d1846",
+      "sourceId": "ca322",
+      "targetId": "d0d3d",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id1e85e2e8",
+      "sourceId": "cf68e",
+      "targetId": "dee64",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "id233b9269",
+      "sourceId": "ae75d",
+      "targetId": "fb005",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "id3dfabd77",
+      "sourceId": "fb739",
+      "targetId": "e8b31",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id4edd403d",
+      "sourceId": "d0d3d",
+      "targetId": "d7a36",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id52d664a5",
+      "sourceId": "ef0fd",
+      "targetId": "deab0",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id546b3fb4",
+      "sourceId": "d76c9",
+      "targetId": "fb005",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id7ed4b1c1",
+      "sourceId": "ef0fd",
+      "targetId": "ca322",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id9baa23b1",
+      "sourceId": "fb739",
+      "targetId": "bbd24",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ida0613b62",
+      "sourceId": "cf802",
+      "targetId": "ae75d",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "idd2218871",
+      "sourceId": "a8e9d",
+      "targetId": "ac0b9",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "iddb7061af",
+      "sourceId": "d1337",
+      "targetId": "ae75d",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "iddd6753bb",
+      "sourceId": "bbd24",
+      "targetId": "d1337",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ide1f72d6e",
+      "sourceId": "c29ad",
+      "targetId": "fb005",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "idfba37d0",
+      "sourceId": "fb739",
+      "targetId": "deab0",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "idfbed420c",
+      "sourceId": "e8b31",
+      "targetId": "ad8ad",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "d1188",
+      "sourceId": "fb739",
+      "targetId": "ca322",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "dcb2a",
+      "sourceId": "deab0",
+      "targetId": "d0d3d",
+      "types": [
+        "activation"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "a8e9d",
+      "geneNames": [
+        "Tumor-associated\nantigen"
+      ],
+      "type": "gene_protein",
+      "x": 684.0000000000003,
+      "y": 214.08333333333334,
+      "label": null,
+      "groupId": "cf5ce",
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "ac967",
+      "geneNames": null,
+      "type": "compound",
+      "x": 519.196435134141,
+      "y": 252.17089305402345,
+      "label": "Pembrolizumab",
+      "groupId": "d76c9",
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q13896859"
+    },
+    {
+      "id": "ad5ee",
+      "geneNames": [
+        "CD8A"
+      ],
+      "type": "gene_protein",
+      "x": 589.1666666666664,
+      "y": 381.33333333333326,
+      "label": null,
+      "groupId": "dee64",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000153563",
+      "uniprotAccs": [
+        "P01732",
+        "B8ZZZ4"
+      ]
+    },
+    {
+      "id": "ae75d",
+      "geneNames": [
+        "CD274"
+      ],
+      "type": "gene_protein",
+      "x": 367.16666666666845,
+      "y": 182.66666666666669,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000120217",
+      "uniprotAccs": [
+        "Q9NZQ7"
+      ]
+    },
+    {
+      "id": "bbd24",
+      "geneNames": [
+        "IFNG"
+      ],
+      "type": "gene_protein",
+      "x": 104.53840499816265,
+      "y": 293.58654906284517,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000111537",
+      "uniprotAccs": [
+        "P01579"
+      ]
+    },
+    {
+      "id": "c29ad",
+      "geneNames": [
+        "PDCD1LG2"
+      ],
+      "type": "gene_protein",
+      "x": 448.16666666666714,
+      "y": 182.66666666666669,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000197646",
+      "uniprotAccs": [
+        "Q9BQ51"
+      ]
+    },
+    {
+      "id": "ca322",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 607.0,
+      "y": 552.0,
+      "label": "Ras signaling",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP4223"
+    },
+    {
+      "id": "cc867",
+      "geneNames": null,
+      "type": "compound",
+      "x": 519.1964351341403,
+      "y": 227.17089305402345,
+      "label": "Nivolumab",
+      "groupId": "d76c9",
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q7041828"
+    },
+    {
+      "id": "cf68e",
+      "geneNames": [
+        "MHC I"
+      ],
+      "type": "gene_protein",
+      "x": 684.0000000000003,
+      "y": 161.33333333333334,
+      "label": null,
+      "groupId": "cf5ce",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000206503",
+      "uniprotAccs": [
+        "P04439",
+        "A0A1W2PS24",
+        "A0A9L9PXF6",
+        "A0A9L9PXG1",
+        "A0A9L9PY26",
+        "A0A9L9PYF9",
+        "Q5SRN5",
+        "Q5SRN7"
+      ]
+    },
+    {
+      "id": "d1337",
+      "geneNames": [
+        "STAT3"
+      ],
+      "type": "gene_protein",
+      "x": 366.1666666666665,
+      "y": 103.77650023625763,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000168610",
+      "uniprotAccs": [
+        "P40763",
+        "A0A7I2V2G1",
+        "A0A7I2V2T1",
+        "A0A7I2V395",
+        "A0A7I2V3V0",
+        "A0A7I2V444",
+        "A0A7I2V4C8",
+        "A0A7I2V4F6",
+        "A0A7I2V4R2",
+        "A0A7I2V4R3",
+        "A0A7I2V552",
+        "A0A7I2V5N9",
+        "A0A7I2YQD2",
+        "A0A7I2YQI1",
+        "A0A7I2YQR5",
+        "G8JLH9"
+      ]
+    },
+    {
+      "id": "d9d18",
+      "geneNames": null,
+      "type": "compound",
+      "x": 519.1964351341403,
+      "y": 277.1708930540237,
+      "label": "Pidilizumab",
+      "groupId": "d76c9",
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q7191298"
+    },
+    {
+      "id": "dedef",
+      "geneNames": [
+        "TRA"
+      ],
+      "type": "gene_protein",
+      "x": 654.0000000000002,
+      "y": 381.3333333333333,
+      "label": null,
+      "groupId": "ac0b9",
+      "referenceDatabase": "GeneID",
+      "referenceId": "6955",
+      "uniprotAccs": null
+    },
+    {
+      "id": "e2c2e",
+      "geneNames": [
+        "JUN"
+      ],
+      "type": "gene_protein",
+      "x": 563.1666666666665,
+      "y": 684.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000177606",
+      "uniprotAccs": [
+        "P05412",
+        "A0AA34QVR9"
+      ]
+    },
+    {
+      "id": "e67ee",
+      "geneNames": null,
+      "type": "compound",
+      "x": 310.0211319367875,
+      "y": 318.3509739066514,
+      "label": "Durvalumab",
+      "groupId": "cf802",
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q19904005"
+    },
+    {
+      "id": "e8b31",
+      "geneNames": [
+        "BATF"
+      ],
+      "type": "gene_protein",
+      "x": 447.1666666666666,
+      "y": 539.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000156127",
+      "uniprotAccs": [
+        "Q16520",
+        "G3V266"
+      ]
+    },
+    {
+      "id": "e9da1",
+      "geneNames": null,
+      "type": "compound",
+      "x": 310.0211319367875,
+      "y": 293.3509739066514,
+      "label": "Avelumab",
+      "groupId": "cf802",
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q21083261"
+    },
+    {
+      "id": "e9dc5",
+      "geneNames": null,
+      "type": "compound",
+      "x": 310.0211319367875,
+      "y": 268.35097390665146,
+      "label": "Atezolizumab",
+      "groupId": "cf802",
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q20707748"
+    },
+    {
+      "id": "ee1ad",
+      "geneNames": [
+        "CD3D"
+      ],
+      "type": "gene_protein",
+      "x": 707.5000000000002,
+      "y": 372.3333333333333,
+      "label": null,
+      "groupId": "ac0b9",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000167286",
+      "uniprotAccs": [
+        "P04234",
+        "E9PMT5"
+      ]
+    },
+    {
+      "id": "ef0fd",
+      "geneNames": [
+        "ZAP70"
+      ],
+      "type": "gene_protein",
+      "x": 641.6666666666658,
+      "y": 457.75,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000115085",
+      "states": [
+        "P",
+        "P"
+      ],
+      "uniprotAccs": [
+        "P43403"
+      ]
+    },
+    {
+      "id": "f1abb",
+      "geneNames": [
+        "LCK"
+      ],
+      "type": "gene_protein",
+      "x": 603.1666666666654,
+      "y": 432.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000182866",
+      "uniprotAccs": [
+        "P06239",
+        "A0A8V8TKX3",
+        "A0A8V8TM09",
+        "E9PAP0",
+        "E9PI33",
+        "E9PJ92",
+        "E9PKQ8",
+        "E9PQ10",
+        "F8W6B9"
+      ]
+    },
+    {
+      "id": "f897c",
+      "geneNames": null,
+      "type": "compound",
+      "x": 310.0211319367875,
+      "y": 243.35097390665143,
+      "label": "MDX-1105",
+      "groupId": "cf802",
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "f9482",
+      "geneNames": [
+        "NFATC1"
+      ],
+      "type": "gene_protein",
+      "x": 635.5000000000001,
+      "y": 684.0,
+      "label": null,
+      "groupId": "d0d3d",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000131196",
+      "uniprotAccs": [
+        "O95644",
+        "F5H4S8",
+        "K7EQ04",
+        "K7ER53"
+      ]
+    },
+    {
+      "id": "fb005",
+      "geneNames": [
+        "PDCD1"
+      ],
+      "type": "gene_protein",
+      "x": 415.16666666666686,
+      "y": 391.7765002362576,
+      "label": null,
+      "groupId": "e03e1",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000188389",
+      "states": [
+        "P",
+        "P"
+      ],
+      "uniprotAccs": [
+        "Q15116",
+        "E7ER21",
+        "H0Y2W6"
+      ]
+    },
+    {
+      "id": "fb550",
+      "geneNames": null,
+      "type": "compound",
+      "x": 519.1964351341403,
+      "y": 302.1708930540236,
+      "label": "AMP-224",
+      "groupId": "d76c9",
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "fb739",
+      "geneNames": [
+        "PTPN11"
+      ],
+      "type": "gene_protein",
+      "x": 447.1666666666666,
+      "y": 416.3333333333333,
+      "label": null,
+      "groupId": "e03e1",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000179295",
+      "uniprotAccs": [
+        "Q06124",
+        "A0A0U1RRI0",
+        "A0A1W2PPU4",
+        "A0A8I5KRZ3",
+        "A0A8I5KVS6",
+        "A0A8I5KW48",
+        "A0A8I5QJ58",
+        "A0A8I5QL30",
+        "H0YF12"
+      ]
+    },
+    {
+      "id": "fdb08",
+      "geneNames": null,
+      "type": "compound",
+      "x": 519.196435134141,
+      "y": 327.1708930540236,
+      "label": "Tislelizumab",
+      "groupId": "d76c9",
+      "referenceDatabase": "KEGG Drug",
+      "referenceId": "D11487"
+    },
+    {
+      "id": "c44ef",
+      "geneNames": [
+        "TRB"
+      ],
+      "type": "gene_protein",
+      "x": 654.0000000000002,
+      "y": 406.3333333333333,
+      "label": null,
+      "groupId": "ac0b9",
+      "referenceDatabase": "GeneID",
+      "referenceId": "6957",
+      "uniprotAccs": null
+    },
+    {
+      "id": "eba63",
+      "geneNames": [
+        "MHC II"
+      ],
+      "type": "gene_protein",
+      "x": 684.0000000000003,
+      "y": 186.33333333333334,
+      "label": null,
+      "groupId": "cf5ce",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000196126",
+      "uniprotAccs": [
+        "P01911",
+        "A0A8Q3WLF4"
+      ]
+    },
+    {
+      "id": "ad8ad",
+      "geneNames": [
+        "BATF"
+      ],
+      "type": "gene_protein",
+      "x": 447.1666666666666,
+      "y": 684.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000156127",
+      "uniprotAccs": [
+        "Q16520",
+        "G3V266"
+      ]
+    },
+    {
+      "id": "de57b",
+      "geneNames": [
+        "CD3E"
+      ],
+      "type": "gene_protein",
+      "x": 707.5000000000002,
+      "y": 397.3333333333333,
+      "label": null,
+      "groupId": "ac0b9",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000198851",
+      "uniprotAccs": [
+        "P07766",
+        "E9PSH8"
+      ]
+    },
+    {
+      "id": "d8903",
+      "geneNames": [
+        "CD3G"
+      ],
+      "type": "gene_protein",
+      "x": 707.5000000000002,
+      "y": 422.3333333333333,
+      "label": null,
+      "groupId": "ac0b9",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000160654",
+      "uniprotAccs": [
+        "P09693",
+        "A0A3B3IUD8",
+        "A8MUH3",
+        "J3KNA5"
+      ]
+    },
+    {
+      "id": "ce83f",
+      "geneNames": [
+        "NFKB1"
+      ],
+      "type": "gene_protein",
+      "x": 756.5,
+      "y": 697.0,
+      "label": null,
+      "groupId": "d0d3d",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000109320",
+      "uniprotAccs": [
+        "P19838",
+        "A0A494C157",
+        "A0A494C1E9",
+        "A0A8V8TLB2",
+        "D6RC45",
+        "D6RH30"
+      ]
+    },
+    {
+      "id": "deab0",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 701.0,
+      "y": 516.0,
+      "label": "PI3K signaling",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP4172"
+    },
+    {
+      "id": "c5d3d",
+      "geneNames": [
+        "CD8B"
+      ],
+      "type": "gene_protein",
+      "x": 589.1666666666664,
+      "y": 406.33333333333326,
+      "label": null,
+      "groupId": "dee64",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000172116",
+      "uniprotAccs": [
+        "P10966",
+        "E9PD41"
+      ]
+    },
+    {
+      "id": "c5fef",
+      "geneNames": [
+        "NFATC2"
+      ],
+      "type": "gene_protein",
+      "x": 635.5000000000001,
+      "y": 709.0,
+      "label": null,
+      "groupId": "d0d3d",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000101096",
+      "uniprotAccs": [
+        "Q13469"
+      ]
+    },
+    {
+      "id": "d3001",
+      "geneNames": [
+        "NFATC3"
+      ],
+      "type": "gene_protein",
+      "x": 697.5000000000001,
+      "y": 675.0,
+      "label": null,
+      "groupId": "d0d3d",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000072736",
+      "uniprotAccs": [
+        "Q12968",
+        "F8VPH9",
+        "H3BR83",
+        "H3BRM3",
+        "H3BRS1",
+        "H3BU30",
+        "I3L3K7"
+      ]
+    },
+    {
+      "id": "dd28d",
+      "geneNames": [
+        "NFATC4"
+      ],
+      "type": "gene_protein",
+      "x": 697.5000000000001,
+      "y": 700.0,
+      "label": null,
+      "groupId": "d0d3d",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000100968",
+      "uniprotAccs": [
+        "Q14934",
+        "G3V4K1",
+        "G3V4U6",
+        "G3V5H0"
+      ]
+    },
+    {
+      "id": "b49a8",
+      "geneNames": [
+        "NFAT5"
+      ],
+      "type": "gene_protein",
+      "x": 697.5000000000001,
+      "y": 725.0,
+      "label": null,
+      "groupId": "d0d3d",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000102908",
+      "uniprotAccs": [
+        "O94916",
+        "A0A494C020",
+        "A0A499FIS8",
+        "A0A499FJX5",
+        "H3BP21",
+        "J3KRL6",
+        "J3QKS5"
+      ]
+    },
+    {
+      "id": "d7a36",
+      "geneNames": null,
+      "type": "misc",
+      "x": 694.6666666666667,
+      "y": 793.2500000000002,
+      "label": "T cell activation\nGrowth\nProliferation\nSurvival",
+      "groupId": null
+    },
+    {
+      "id": "ac0b9",
+      "type": "group",
+      "components": [
+        "dedef",
+        "ee1ad",
+        "c44ef",
+        "de57b",
+        "d8903"
+      ]
+    },
+    {
+      "id": "cf5ce",
+      "type": "group",
+      "components": [
+        "a8e9d",
+        "cf68e",
+        "eba63"
+      ]
+    },
+    {
+      "id": "cf802",
+      "type": "group",
+      "components": [
+        "e67ee",
+        "e9da1",
+        "e9dc5",
+        "f897c"
+      ]
+    },
+    {
+      "id": "d0d3d",
+      "type": "group",
+      "components": [
+        "f9482",
+        "ce83f",
+        "c5fef",
+        "d3001",
+        "dd28d",
+        "b49a8"
+      ]
+    },
+    {
+      "id": "d76c9",
+      "type": "group",
+      "components": [
+        "ac967",
+        "cc867",
+        "d9d18",
+        "fb550",
+        "fdb08"
+      ]
+    },
+    {
+      "id": "dee64",
+      "type": "group",
+      "components": [
+        "ad5ee",
+        "c5d3d"
+      ]
+    },
+    {
+      "id": "e03e1",
+      "type": "group",
+      "components": [
+        "fb005",
+        "fb739"
+      ]
+    }
+  ]
+}

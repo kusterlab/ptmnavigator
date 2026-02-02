@@ -1,0 +1,672 @@
+{
+  "pathway": {
+    "name": "WP5110",
+    "org": "Homo sapiens",
+    "title": "Familial hyperlipidemia type 3"
+  },
+  "links": [
+    {
+      "id": "idd6b32ab2",
+      "sourceId": "acaf7",
+      "targetId": "a6511",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "id5043522a",
+      "sourceId": "df009",
+      "targetId": "b05b0",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id3366baaa",
+      "sourceId": "a6511",
+      "targetId": "d39aa",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ideac42eb3",
+      "sourceId": "acaf7",
+      "targetId": "a3cc3",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "ide04fef6f",
+      "sourceId": "acaf7",
+      "targetId": "d7759",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "c82f3",
+      "sourceId": "aed48",
+      "targetId": "bd53f",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "fada6",
+      "sourceId": "a97d1",
+      "targetId": "bb41c",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "aa022",
+      "sourceId": "d8c7c",
+      "targetId": "b05b0",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "a57cf",
+      "sourceId": "c4aed",
+      "targetId": "ba0ef",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "c2498",
+      "sourceId": "a6511",
+      "targetId": "d7759",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "a78b8",
+      "sourceId": "d7759",
+      "targetId": "df009",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "bd53f",
+      "sourceId": "c68ae",
+      "targetId": "ba0ef",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "dd119",
+      "sourceId": "ce31d",
+      "targetId": "a57cf",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "c27d8",
+      "sourceId": "bf3f2",
+      "targetId": "c2498",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "bb41c",
+      "sourceId": "ba0ef",
+      "targetId": "d7759",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "d7ded",
+      "sourceId": "a3cc3",
+      "targetId": "b05b0",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ec09c",
+      "sourceId": "ba0ef",
+      "targetId": "d8c7c",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "cda05",
+      "sourceId": "ba0ef",
+      "targetId": "a6511",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "c9a18",
+      "sourceId": "d6717",
+      "targetId": "a3cc3",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "e5620",
+      "sourceId": "d7759",
+      "targetId": "d6717",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "d5860",
+      "sourceId": "ef11c",
+      "targetId": "e5620",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "f3030",
+      "sourceId": "d39aa",
+      "targetId": "b05b0",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "a2279",
+      "sourceId": "bc88b",
+      "targetId": "cda05",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "e3a0d",
+      "sourceId": "d7759",
+      "targetId": "ba0ef",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "bcfbc",
+      "sourceId": "a6511",
+      "targetId": "ba0ef",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "cc688",
+      "sourceId": "ad747",
+      "targetId": "bcfbc",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "c2799",
+      "sourceId": "ad747",
+      "targetId": "e3a0d",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "f7123",
+      "sourceId": "acaf7",
+      "targetId": "d6717",
+      "types": [
+        "binding/association"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "d39aa",
+      "geneNames": [
+        "VLDLR"
+      ],
+      "type": "gene_protein",
+      "x": 961.6227266296611,
+      "y": 193.74799247182114,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000147852",
+      "uniprotAccs": [
+        "P98155",
+        "A0A7P0T897",
+        "A0A7P0T8C1",
+        "A0A7P0T8F7",
+        "A0A7P0T8N6",
+        "A0A7P0T8N9",
+        "A0A7P0T9P7",
+        "A0A7P0TA42",
+        "A0A7P0TAL1",
+        "A0A7P0TB10",
+        "A0A7P0TBI2",
+        "A0A7P0Z477",
+        "A0A804CHQ2",
+        "Q5VVF8"
+      ]
+    },
+    {
+      "id": "a6511",
+      "geneNames": null,
+      "type": "compound",
+      "x": 996.112332951286,
+      "y": 418.70931148129137,
+      "label": "VLDL",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:39027"
+    },
+    {
+      "id": "cbe11",
+      "geneNames": [
+        "APOA2"
+      ],
+      "type": "gene_protein",
+      "x": 1073.8419532779872,
+      "y": 575.9020499967515,
+      "label": null,
+      "groupId": "ce31d",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000158874",
+      "uniprotAccs": [
+        "P02652",
+        "Q76EI7",
+        "V9GYC1",
+        "V9GYE3",
+        "V9GYG9",
+        "V9GYM3",
+        "V9GYS1",
+        "V9GYT0"
+      ]
+    },
+    {
+      "id": "c68ae",
+      "geneNames": null,
+      "type": "compound",
+      "x": 858.5151124371122,
+      "y": 650.2241711377117,
+      "label": "Cholesterol",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:16113"
+    },
+    {
+      "id": "ba0ef",
+      "geneNames": null,
+      "type": "compound",
+      "x": 910.6838813246985,
+      "y": 495.4640704913092,
+      "label": "HDL",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:47775"
+    },
+    {
+      "id": "d6717",
+      "geneNames": null,
+      "type": "compound",
+      "x": 617.0361424750917,
+      "y": 418.70931148129137,
+      "label": "LDL",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:47774"
+    },
+    {
+      "id": "fb919",
+      "geneNames": null,
+      "type": "misc",
+      "x": 455.6029103143571,
+      "y": 280.87429223587293,
+      "label": "Familial dysbetalipoproteinemia",
+      "groupId": null,
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q2069207"
+    },
+    {
+      "id": "c99af",
+      "geneNames": [
+        "APOA4"
+      ],
+      "type": "gene_protein",
+      "x": 1073.8419532779872,
+      "y": 600.9020499967517,
+      "label": null,
+      "groupId": "ce31d",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000110244",
+      "uniprotAccs": [
+        "P06727"
+      ]
+    },
+    {
+      "id": "d33d9",
+      "geneNames": null,
+      "type": "misc",
+      "x": 80.68314596891788,
+      "y": 280.87429223587293,
+      "label": "Familial hyperlipidemia",
+      "groupId": null,
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q18554145"
+    },
+    {
+      "id": "c4aed",
+      "geneNames": null,
+      "type": "compound",
+      "x": 967.9047188901376,
+      "y": 650.2241711377117,
+      "label": "Lipoprotein",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:6495"
+    },
+    {
+      "id": "d7759",
+      "geneNames": null,
+      "type": "compound",
+      "x": 828.3349716414269,
+      "y": 418.70931148129137,
+      "label": "IDL",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:132933"
+    },
+    {
+      "id": "acaf7",
+      "geneNames": [
+        "APOE"
+      ],
+      "type": "gene_protein",
+      "x": 722.8770162786778,
+      "y": 280.87429223587293,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000130203",
+      "uniprotAccs": [
+        "P02649",
+        "E7ERP7",
+        "E9PEV4",
+        "H0Y7L5"
+      ]
+    },
+    {
+      "id": "a97d1",
+      "geneNames": [
+        "CETP"
+      ],
+      "type": "gene_protein",
+      "x": 707.6357518842766,
+      "y": 484.2637264449895,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000087237",
+      "uniprotAccs": [
+        "P11597",
+        "H3BRJ9"
+      ]
+    },
+    {
+      "id": "ef11c",
+      "geneNames": [
+        "LIPC"
+      ],
+      "type": "gene_protein",
+      "x": 734.8157563622316,
+      "y": 340.83447052989135,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000166035",
+      "uniprotAccs": [
+        "P11150",
+        "E7EUJ1",
+        "E7EUK6"
+      ]
+    },
+    {
+      "id": "c565e",
+      "geneNames": [
+        "APOA1"
+      ],
+      "type": "gene_protein",
+      "x": 1073.8419532779872,
+      "y": 550.9020499967515,
+      "label": null,
+      "groupId": "ce31d",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000118137",
+      "uniprotAccs": [
+        "P02647",
+        "F8W696"
+      ]
+    },
+    {
+      "id": "d8c7c",
+      "geneNames": [
+        "SCARB1"
+      ],
+      "type": "gene_protein",
+      "x": 1088.6059849929345,
+      "y": 193.74799247182108,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000073060",
+      "uniprotAccs": [
+        "Q8WTV0",
+        "A0A0S2Z3I2",
+        "A0A7P0T913",
+        "A0A7P0T9B3",
+        "A0A7P0T9I2",
+        "A0A7P0Z4E3",
+        "A0A7P0Z4J8",
+        "B7ZKQ9",
+        "F5H4X0",
+        "F5H5E8"
+      ]
+    },
+    {
+      "id": "aed48",
+      "geneNames": [
+        "LCAT"
+      ],
+      "type": "gene_protein",
+      "x": 793.1511888341978,
+      "y": 589.2190481039219,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000213398",
+      "uniprotAccs": [
+        "P04180",
+        "I3L0J6",
+        "I3L1Q6",
+        "I3L215",
+        "I3L3R0",
+        "J3QKT0",
+        "J3QSE5"
+      ]
+    },
+    {
+      "id": "bf3f2",
+      "geneNames": [
+        "LPL"
+      ],
+      "type": "gene_protein",
+      "x": 920.0015595848876,
+      "y": 340.83447052989135,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000175445",
+      "uniprotAccs": [
+        "P06858",
+        "A0A3B3IT60",
+        "E5RHN7",
+        "E5RJI0",
+        "E5RJZ4",
+        "E7EW14"
+      ]
+    },
+    {
+      "id": "a3cc3",
+      "geneNames": [
+        "LDLR"
+      ],
+      "type": "gene_protein",
+      "x": 617.2198423768403,
+      "y": 193.74799247182108,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000130164",
+      "uniprotAccs": [
+        "P01130",
+        "H0YM92",
+        "H0YMD1",
+        "H0YMQ3",
+        "J3KMZ9"
+      ]
+    },
+    {
+      "id": "d8f64",
+      "geneNames": [
+        "PLTP"
+      ],
+      "type": "gene_protein",
+      "x": 1073.8419532779872,
+      "y": 625.9020499967517,
+      "label": null,
+      "groupId": "ce31d",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000100979",
+      "uniprotAccs": [
+        "P55058"
+      ]
+    },
+    {
+      "id": "bc88b",
+      "geneNames": [
+        "CETP"
+      ],
+      "type": "gene_protein",
+      "x": 1161.4452756938044,
+      "y": 483.2990695755909,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000087237",
+      "uniprotAccs": [
+        "P11597",
+        "H3BRJ9"
+      ]
+    },
+    {
+      "id": "df009",
+      "geneNames": [
+        "LRP1"
+      ],
+      "type": "gene_protein",
+      "x": 828.3349716414269,
+      "y": 193.74799247182105,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000123384",
+      "uniprotAccs": [
+        "Q07954",
+        "H0YJ88",
+        "H0YJI8",
+        "Q6PJ72",
+        "Q7Z7K9"
+      ]
+    },
+    {
+      "id": "ad747",
+      "geneNames": [
+        "CETP"
+      ],
+      "type": "gene_protein",
+      "x": 911.7961528867879,
+      "y": 456.4569643124326,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000087237",
+      "uniprotAccs": [
+        "P11597",
+        "H3BRJ9"
+      ]
+    },
+    {
+      "id": "cbf3c",
+      "geneNames": null,
+      "type": "compound",
+      "x": 828.334971641427,
+      "y": 102.82002251219961,
+      "label": "Cholesterol",
+      "groupId": "b05b0",
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:16113"
+    },
+    {
+      "id": "a94ee",
+      "geneNames": null,
+      "type": "compound",
+      "x": 828.334971641427,
+      "y": 77.82002251219998,
+      "label": "Triglyceride",
+      "groupId": "b05b0",
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:17855"
+    },
+    {
+      "id": "a89dd",
+      "geneNames": null,
+      "type": "compound",
+      "x": 828.334971641427,
+      "y": 52.82002251220041,
+      "label": "Phospholipid",
+      "groupId": "b05b0",
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:16247"
+    },
+    {
+      "id": "b05b0",
+      "type": "group",
+      "components": [
+        "cbf3c",
+        "a94ee",
+        "a89dd"
+      ]
+    },
+    {
+      "id": "ce31d",
+      "type": "group",
+      "components": [
+        "cbe11",
+        "c99af",
+        "c565e",
+        "d8f64"
+      ]
+    }
+  ]
+}

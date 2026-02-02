@@ -243,11 +243,11 @@ const mockApi = {
                 enrichmentTypeId: 3,
                 applicableOmics: ['Phosphorylation', 'Protein', 'Other'],
                 enrichmentClass: 'Pathway',
-                tooltipHtml: enrichmentTypeHTMLs.gcr.tooltip,
-                parametersHtml: enrichmentTypeHTMLs.gcr.parameters,
-                stringColumns: ['Signature ID', 'Gene'],
-                sortColumn: 'Score',
-                sortDesc: true,
+                "tooltipHtml": enrichmentTypeHTMLs.gcr.tooltip,
+                "parametersHtml": enrichmentTypeHTMLs.gcr.parameters,
+                "stringColumns": ["Signature ID", "Gene"],
+                "sortColumn": "Score",
+                "sortDesc": true,
             },
             {
                 name: 'KSEA',
@@ -256,169 +256,169 @@ const mockApi = {
                 applicableOmics: ['Phosphorylation'],
                 enrichmentClass: 'KinaseActivity',
                 tooltipHtml: enrichmentTypeHTMLs.ksea.tooltip,
-                parametersHtml: enrichmentTypeHTMLs.ksea.parameters,
-                stringColumns: ['Signature ID', 'Gene'],
-                sortColumn: 'Score',
-                sortDesc: true,
-                kaiDetails: {
-                    kinaseColname: 'Gene',
-                    scoreColnamePrefix: 'Score',
-                    significanceColnamePrefix: 'adj p-val',
-                    higherScoreIsStrongerEnrichment: true,
-                    hasDirection: true,
-                    directionFromSignificance: false,
-                    isAlreadyLogTransformed: false,
+                "parametersHtml": enrichmentTypeHTMLs.ksea.parameters,
+                "stringColumns": ["Signature ID", "Gene"],
+                "sortColumn": "Score",
+                "sortDesc": true,
+                "kaiDetails": {
+                    "kinaseColname": "Gene",
+                    "scoreColnamePrefix": "Score",
+                    "significanceColnamePrefix": "adj p-val",
+                    "higherScoreIsStrongerEnrichment": true,
+                    "hasDirection": true,
+                    "directionFromSignificance": false,
+                    "isAlreadyLogTransformed": false,
                 }
             },
             {
-                name: 'RoKAI+KSEA',
-                short: 'ksea_rokai',
+                name: "RoKAI+KSEA",
+                short: "ksea_rokai",
                 enrichmentTypeId: 5,
-                applicableOmics: ['Phosphorylation'],
-                enrichmentClass: 'KinaseActivity',
+                applicableOmics: ["Phosphorylation"],
+                enrichmentClass: "KinaseActivity",
                 tooltipHtml: enrichmentTypeHTMLs.ksea_rokai.tooltip,
-                parametersHtml: enrichmentTypeHTMLs.ksea_rokai.parameters,
-                stringColumns: ['Signature ID', 'Gene'],
-                sortColumn: 'Score',
-                sortDesc: true,
-                kaiDetails: {
-                    kinaseColname: 'Gene',
-                    scoreColnamePrefix: 'Score',
-                    significanceColnamePrefix: 'adj p-val',
-                    higherScoreIsStrongerEnrichment: true,
-                    hasDirection: true,
-                    directionFromSignificance: false,
-                    isAlreadyLogTransformed: false,
+                "parametersHtml": enrichmentTypeHTMLs.ksea_rokai.parameters,
+                "stringColumns": ["Signature ID", "Gene"],
+                "sortColumn": "Score",
+                "sortDesc": true,
+                "kaiDetails": {
+                    "kinaseColname": "Gene",
+                    "scoreColnamePrefix": "Score",
+                    "significanceColnamePrefix": "adj p-val",
+                    "higherScoreIsStrongerEnrichment": true,
+                    "hasDirection": true,
+                    "directionFromSignificance": false,
+                    "isAlreadyLogTransformed": false,
                 }
             },
             {
-                name: 'MOTIF',
-                short: 'motif',
-                enrichmentTypeId: 6,
-                applicableOmics: ['Phosphorylation'],
-                enrichmentClass: 'KinaseActivity',
-                tooltipHtml: enrichmentTypeHTMLs.motif.tooltip,
-                parametersHtml: enrichmentTypeHTMLs.motif.parameters,
-                stringColumns: ['Kinase'],
-                sortColumn: '-Log10 p_value adjusted',
-                sortDesc: true,
-                kaiDetails: {
-                    kinaseColname: 'Kinase',
-                    scoreColnamePrefix: 'Log2 Enrichment',
-                    significanceColnamePrefix: '-Log10 p_value adjusted',
-                    higherScoreIsStrongerEnrichment: true,
-                    hasDirection: true,
-                    directionFromSignificance: false,
-                    isAlreadyLogTransformed: true,
+                "name": "MOTIF",
+                "short": "motif",
+                "enrichmentTypeId": 6,
+                "applicableOmics": ["Phosphorylation"],
+                "enrichmentClass": "KinaseActivity",
+                "tooltipHtml": enrichmentTypeHTMLs.motif.tooltip,
+                "parametersHtml": enrichmentTypeHTMLs.motif.parameters,
+                "stringColumns": ["Kinase"],
+                "sortColumn": "-Log10 p_value adjusted",
+                "sortDesc": true,
+                "kaiDetails": {
+                    "kinaseColname": "Kinase",
+                    "scoreColnamePrefix": "Log2 Enrichment",
+                    "significanceColnamePrefix": "-Log10 p_value adjusted",
+                    "higherScoreIsStrongerEnrichment": true,
+                    "hasDirection": true,
+                    "directionFromSignificance": false,
+                    "isAlreadyLogTransformed": true,
                 }
             },
             {
-                name: 'KEA3',
-                short: 'kea3',
-                enrichmentTypeId: 7,
-                applicableOmics: ['Phosphorylation'],
-                enrichmentClass: undefined, //Only KEA3's two subtypes have an enrichment Class
+                "name": "KEA3",
+                "short": "kea3",
+                "enrichmentTypeId": 7,
+                "applicableOmics": ["Phosphorylation"],
+                "enrichmentClass": undefined, //Only KEA3"s two subtypes have an enrichment Class
             },
             {
-                name: 'KEA3 - Mean Rank',
-                short: 'kea3_mean',
-                applicableOmics: ['Phosphorylation'],
-                enrichmentClass: 'KinaseActivity',
-                tooltipHtml: enrichmentTypeHTMLs.kea3.tooltip,
-                parametersHtml: enrichmentTypeHTMLs.kea3.parameters,
-                stringColumns: ['TF', 'Library', 'Overlapping_Genes'],
-                sortColumn: 'Rank',
-                sortDesc: false,
-                kaiDetails: {
-                    kinaseColname: 'TF',
-                    scoreColnamePrefix: 'Score',
-                    significanceColnamePrefix: undefined,
-                    higherScoreIsStrongerEnrichment: false,
-                    hasDirection: false,
-                    directionFromSignificance: false,
-                    isAlreadyLogTransformed: true,
+                "name": "KEA3 - Mean Rank",
+                "short": "kea3_mean",
+                "applicableOmics": ["Phosphorylation"],
+                "enrichmentClass": "KinaseActivity",
+                "tooltipHtml": enrichmentTypeHTMLs.kea3.tooltip,
+                "parametersHtml": enrichmentTypeHTMLs.kea3.parameters,
+                "stringColumns": ["TF", "Library", "Overlapping_Genes"],
+                "sortColumn": "Rank",
+                "sortDesc": false,
+                "kaiDetails": {
+                    "kinaseColname": "TF",
+                    "scoreColnamePrefix": "Score",
+                    "significanceColnamePrefix": undefined,
+                    "higherScoreIsStrongerEnrichment": false,
+                    "hasDirection": false,
+                    "directionFromSignificance": false,
+                    "isAlreadyLogTransformed": true,
                 }
             },
             {
-                name: 'KEA3 - Top Rank',
-                short: 'kea3_top',
-                applicableOmics: ['Phosphorylation'],
-                enrichmentClass: 'KinaseActivity',
-                tooltipHtml: enrichmentTypeHTMLs.kea3.tooltip,
-                parametersHtml: enrichmentTypeHTMLs.kea3.parameters,
-                stringColumns: ['TF', 'Library', 'Overlapping_Genes'],
-                sortColumn: 'Rank',
-                sortDesc: false,
-                kaiDetails: {
-                    kinaseColname: 'TF',
-                    scoreColnamePrefix: 'Score',
-                    significanceColnamePrefix: undefined,
-                    higherScoreIsStrongerEnrichment: false,
-                    hasDirection: false,
-                    directionFromSignificance: false,
-                    isAlreadyLogTransformed: true,
+                "name": "KEA3 - Top Rank",
+                "short": "kea3_top",
+                "applicableOmics": ["Phosphorylation"],
+                "enrichmentClass": "KinaseActivity",
+                "tooltipHtml": enrichmentTypeHTMLs.kea3.tooltip,
+                "parametersHtml": enrichmentTypeHTMLs.kea3.parameters,
+                "stringColumns": ["TF", "Library", "Overlapping_Genes"],
+                "sortColumn": "Rank",
+                "sortDesc": false,
+                "kaiDetails": {
+                    "kinaseColname": "TF",
+                    "scoreColnamePrefix": "Score",
+                    "significanceColnamePrefix": undefined,
+                    "higherScoreIsStrongerEnrichment": false,
+                    "hasDirection": false,
+                    "directionFromSignificance": false,
+                    "isAlreadyLogTransformed": true,
                 }
             },
             {
-                name: 'KSTAR',
-                short: 'kstar',
-                enrichmentTypeId: 8,
-                applicableOmics: ['Phosphorylation'],
-                enrichmentClass: 'KinaseActivity',
-                tooltipHtml: enrichmentTypeHTMLs.kstar.tooltip,
-                parametersHtml: enrichmentTypeHTMLs.kstar.parameters,
-                stringColumns: ['Kinase'],
-                sortColumn: 'Kinase',
-                sortDesc: false,
-                kaiDetails: {
-                    kinaseColname: 'Kinase',
-                    scoreColnamePrefix: undefined,
-                    significanceColnamePrefix: '',
-                    higherScoreIsStrongerEnrichment: true,
-                    hasDirection: true,
-                    directionFromSignificance: true,
-                    isAlreadyLogTransformed: true,
+                "name": "KSTAR",
+                "short": "kstar",
+                "enrichmentTypeId": 8,
+                "applicableOmics": ["Phosphorylation"],
+                "enrichmentClass": "KinaseActivity",
+                "tooltipHtml": enrichmentTypeHTMLs.kstar.tooltip,
+                "parametersHtml": enrichmentTypeHTMLs.kstar.parameters,
+                "stringColumns": ["Kinase"],
+                "sortColumn": "Kinase",
+                "sortDesc": false,
+                "kaiDetails": {
+                    "kinaseColname": "Kinase",
+                    "scoreColnamePrefix": undefined,
+                    "significanceColnamePrefix": "",
+                    "higherScoreIsStrongerEnrichment": true,
+                    "hasDirection": true,
+                    "directionFromSignificance": true,
+                    "isAlreadyLogTransformed": true,
                 }
             },
             {
-                name: 'RoKAI',
-                short: 'rokai',
-                enrichmentTypeId: 9,
-                applicableOmics: ['Phosphorylation'],
-                enrichmentClass: 'KinaseActivity',
-                tooltipHtml: enrichmentTypeHTMLs.rokai.tooltip,
-                parametersHtml: enrichmentTypeHTMLs.rokai.parameters,
-                stringColumns: ['Gene'],
-                sortColumn: 'ZScore',
-                sortDesc: true,
-                kaiDetails: {
-                    kinaseColname: 'Gene',
-                    scoreColnamePrefix: 'ZScore',
-                    significanceColnamePrefix: 'FDR',
-                    higherScoreIsStrongerEnrichment: true,
-                    hasDirection: true,
-                    directionFromSignificance: false,
-                    isAlreadyLogTransformed: false,
+                "name": "RoKAI",
+                "short": "rokai",
+                "enrichmentTypeId": 9,
+                "applicableOmics": ["Phosphorylation"],
+                "enrichmentClass": "KinaseActivity",
+                "tooltipHtml": enrichmentTypeHTMLs.rokai.tooltip,
+                "parametersHtml": enrichmentTypeHTMLs.rokai.parameters,
+                "stringColumns": ["Gene"],
+                "sortColumn": "ZScore",
+                "sortDesc": true,
+                "kaiDetails": {
+                    "kinaseColname": "Gene",
+                    "scoreColnamePrefix": "ZScore",
+                    "significanceColnamePrefix": "FDR",
+                    "higherScoreIsStrongerEnrichment": true,
+                    "hasDirection": true,
+                    "directionFromSignificance": false,
+                    "isAlreadyLogTransformed": false,
                 }
             },
             {
-                name: 'GO',
-                short: 'go',
-                enrichmentTypeId: 10,
-                applicableOmics: ['Phosphorylation', 'Protein', 'Other'],
-                enrichmentClass: 'Pathway',
-                tooltipHtml: enrichmentTypeHTMLs.go.tooltip,
-                parametersHtml: enrichmentTypeHTMLs.go.parameters,
-                stringColumns: ['GO_ID', 'Name', 'Intersection'],
-                sortColumn: '',
-                sortDesc: true,
+                "name": "GO",
+                "short": "go",
+                "enrichmentTypeId": 10,
+                "applicableOmics": ["Phosphorylation", "Protein", "Other"],
+                "enrichmentClass": "Pathway",
+                "tooltipHtml": enrichmentTypeHTMLs.go.tooltip,
+                "parametersHtml": enrichmentTypeHTMLs.go.parameters,
+                "stringColumns": ["GO_ID", "Name", "Intersection"],
+                "sortColumn": "",
+                "sortDesc": true,
             },
         ]
     },
 
     async loadUserEnrichmentResults(sessionId, userDatasetIds, enrichmentTypeId) {
-        if (sessionId !== '0'.repeat(32)) {
-            console.log(`Mock Backend only has UUID ${'0'.repeat(32)}!`)
+        if (sessionId !== "0".repeat(32)) {
+            console.log(`Mock Backend only has UUID ${"0".repeat(32)}!`)
             return null
         }
         else if(userDatasetIds[0] === 1){
@@ -440,8 +440,8 @@ const mockApi = {
     //TODO: Currently the format of the mock dataset here is different then from user dataset enrichment results
     //We could align that, it creates confusion
     async loadInternalDatabaseEnrichmentResults(projectId, experimentDesignIds) {
-        if (experimentDesignIds !== '42') {
-            console.log('Mock backend only has experiment 42!')
+        if (experimentDesignIds !== "42") {
+            console.log("Mock backend only has experiment 42!")
         }
         return mockInternalDatasetEnrichmentResults
 
@@ -452,7 +452,7 @@ const mockApi = {
             return [];
         }
         if (!isUserDataMode) {
-            console.log('Mock backend currently only has curves for user data')
+            console.log("Mock backend currently only has curves for user data")
             return [];
         }
 
@@ -463,10 +463,36 @@ const mockApi = {
     },
 
     getCustomDataUploadComponent() {
-        console.log('No Custom Data Upload Component Implemented (yet)!')
-        return null;
+        //TODO: Revert this once the standaloneApi is fully functional
+        // console.log("No Custom Data Upload Component Implemented (yet)!")
+        // return null;
+        return 'DataUpload';
 
+    },
+
+    async uploadDataset(formData, params) {
+        console.log(`Should upload: 
+        Form Data: ${JSON.stringify(formData)}
+        Params: ${JSON.stringify(params)}`)
+        return {
+            data: {
+                datasetId: 1,
+                message: 'Successfully mocked a dataset upload!'
+            }
+        }
+    },
+
+    async performUserDatasetEnrichment(params) {
+        console.log('Should perform enrichment with the following input parameters:')
+        console.log(JSON.stringify(params))
+    },
+
+    async deleteDataset(uuid, datasetId) {
+        console.log(`Should delete dataset for user id: ${uuid} and datasetId: ${datasetId}`)
+        return {data: {message: 'Successfully mocked a dataset deletion'}}
     }
+
+
 }
 
 export default mockApi

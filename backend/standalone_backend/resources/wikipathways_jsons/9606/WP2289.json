@@ -1,0 +1,895 @@
+{
+  "pathway": {
+    "name": "WP2289",
+    "org": "Homo sapiens",
+    "title": "Drug induction of bile acid pathway"
+  },
+  "links": [
+    {
+      "id": "id144884f4",
+      "sourceId": "ededa",
+      "targetId": "c6582",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id28aa3bf2",
+      "sourceId": "b63ca",
+      "targetId": "id4f2fd72d",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id31f37421",
+      "sourceId": "f6935",
+      "targetId": "e5329",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id320f97bf",
+      "sourceId": "b158e",
+      "targetId": "c6582",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id44e2ccf1",
+      "sourceId": "bb751",
+      "targetId": "c6582",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id4d91f285",
+      "sourceId": "e5329",
+      "targetId": "e5283",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id4f2fd72d",
+      "sourceId": "c4b47",
+      "targetId": "b5f58",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id5f57de61",
+      "sourceId": "b5f58",
+      "targetId": "e5283",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id62d4d2bb",
+      "sourceId": "c7913",
+      "targetId": "b5f58",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id68ac90f2",
+      "sourceId": "b5f58",
+      "targetId": "b84be",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id6eedf87d",
+      "sourceId": "b158e",
+      "targetId": "c87ca",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id84dd5299",
+      "sourceId": "e49ac",
+      "targetId": "f927c",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id852a4e96",
+      "sourceId": "bb751",
+      "targetId": "e18c6",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id8771804e",
+      "sourceId": "e49ac",
+      "targetId": "e18c6",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idb2485051",
+      "sourceId": "bc67d",
+      "targetId": "ac7e0",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "idb4b77da6",
+      "sourceId": "e49ac",
+      "targetId": "e5329",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idbefd47cf",
+      "sourceId": "cdb4c",
+      "targetId": "id5f57de61",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "idc502cd9d",
+      "sourceId": "ededa",
+      "targetId": "e18c6",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idc73fa08e",
+      "sourceId": "c6582",
+      "targetId": "id62d4d2bb",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "idc7cfb82",
+      "sourceId": "b158e",
+      "targetId": "eeccd",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idef513f88",
+      "sourceId": "bc67d",
+      "targetId": "id4f2fd72d",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "idfaea1ecb",
+      "sourceId": "ededa",
+      "targetId": "f3b0e",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "idfc6cc04f",
+      "sourceId": "e49ac",
+      "targetId": "eeccd",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idb8105eba",
+      "sourceId": "bc67d",
+      "targetId": "e5329",
+      "types": [
+        "inhibition"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "a0fe0",
+      "geneNames": [
+        "SLCO1B1"
+      ],
+      "type": "gene_protein",
+      "x": 253.15126050420167,
+      "y": 265.7563025210085,
+      "label": null,
+      "groupId": "f3b0e",
+      "referenceDatabase": "GeneID",
+      "referenceId": "10599",
+      "uniprotAccs": [
+        "Q9Y6L6",
+        "Q05CV5"
+      ]
+    },
+    {
+      "id": "b024f",
+      "geneNames": [
+        "SULT2A1"
+      ],
+      "type": "gene_protein",
+      "x": 620.79831932773,
+      "y": 320.4201680672268,
+      "label": null,
+      "groupId": "e18c6",
+      "referenceDatabase": "GeneID",
+      "referenceId": "6822",
+      "uniprotAccs": [
+        "Q06520",
+        "A8K015"
+      ]
+    },
+    {
+      "id": "b051b",
+      "geneNames": null,
+      "type": "compound",
+      "x": 1052.8099681554202,
+      "y": 527.7345342923078,
+      "label": "Chlorpromazine",
+      "groupId": "f6935",
+      "referenceDatabase": "PubChem-compound",
+      "referenceId": "2726"
+    },
+    {
+      "id": "b5f58",
+      "geneNames": null,
+      "type": "compound",
+      "x": 481.0924369747899,
+      "y": 279.4117647058823,
+      "label": "Bile Acids",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:3098"
+    },
+    {
+      "id": "b765a",
+      "geneNames": null,
+      "type": "compound",
+      "x": 1052.8099681554202,
+      "y": 647.7345342923076,
+      "label": "Ezetimibe\n",
+      "groupId": "f6935",
+      "referenceDatabase": "PubChem-compound",
+      "referenceId": "150311"
+    },
+    {
+      "id": "bcb4e",
+      "geneNames": [
+        "CYP3A4"
+      ],
+      "type": "gene_protein",
+      "x": 620.79831932773,
+      "y": 340.4201680672268,
+      "label": null,
+      "groupId": "e18c6",
+      "referenceDatabase": "GeneID",
+      "referenceId": "1576",
+      "uniprotAccs": [
+        "P08684",
+        "Q6GRK0"
+      ]
+    },
+    {
+      "id": "c0ef3",
+      "geneNames": null,
+      "type": "compound",
+      "x": 932.5102880658433,
+      "y": 63.868312757201636,
+      "label": "Troglitazone",
+      "groupId": "bc67d",
+      "referenceDatabase": "PubChem-compound",
+      "referenceId": "5591"
+    },
+    {
+      "id": "c4be8",
+      "geneNames": [
+        "SLC10A1"
+      ],
+      "type": "gene_protein",
+      "x": 253.15126050420167,
+      "y": 295.1680672268907,
+      "label": null,
+      "groupId": "f3b0e",
+      "referenceDatabase": "GeneID",
+      "referenceId": "6554",
+      "uniprotAccs": [
+        "Q14973",
+        "B2RA41"
+      ]
+    },
+    {
+      "id": "c6582",
+      "geneNames": [
+        "CYP7A1"
+      ],
+      "type": "gene_protein",
+      "x": 396.00840336134564,
+      "y": 374.9999999999996,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "1581",
+      "uniprotAccs": [
+        "P22680"
+      ]
+    },
+    {
+      "id": "c7913",
+      "geneNames": null,
+      "type": "compound",
+      "x": 340.3361344537817,
+      "y": 349.78991596638684,
+      "label": "Cholesterol",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000067"
+    },
+    {
+      "id": "cf484",
+      "geneNames": null,
+      "type": "compound",
+      "x": 984.2436974789916,
+      "y": 269.9579831932776,
+      "label": "BA-R",
+      "groupId": "e5283",
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "d5c57",
+      "geneNames": null,
+      "type": "compound",
+      "x": 1052.8099681554204,
+      "y": 507.7345342923078,
+      "label": "Tetrahydrocortisone",
+      "groupId": "f6935",
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000903"
+    },
+    {
+      "id": "da736",
+      "geneNames": [
+        "BAAT"
+      ],
+      "type": "gene_protein",
+      "x": 620.7983193277302,
+      "y": 300.4201680672267,
+      "label": null,
+      "groupId": "e18c6",
+      "referenceDatabase": "GeneID",
+      "referenceId": "570",
+      "uniprotAccs": [
+        "Q14032"
+      ]
+    },
+    {
+      "id": "e5329",
+      "geneNames": [
+        "ABCB1"
+      ],
+      "type": "gene_protein",
+      "x": 872.7582390981087,
+      "y": 399.16536985164356,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "5243",
+      "uniprotAccs": [
+        "P08183",
+        "A4D1D2"
+      ]
+    },
+    {
+      "id": "e7cf4",
+      "geneNames": null,
+      "type": "compound",
+      "x": 932.5102880658433,
+      "y": 23.868312757201643,
+      "label": "Cyclosporin\n",
+      "groupId": "bc67d",
+      "referenceDatabase": "PubChem-compound",
+      "referenceId": "5284373"
+    },
+    {
+      "id": "e8017",
+      "geneNames": null,
+      "type": "compound",
+      "x": 95.0628562146727,
+      "y": 250.68343771763656,
+      "label": "Glycocholic acid",
+      "groupId": "c4b47",
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000138"
+    },
+    {
+      "id": "ededa",
+      "geneNames": [
+        "NR1H4"
+      ],
+      "type": "gene_protein",
+      "x": 446.42857142857093,
+      "y": 578.7815126050422,
+      "label": null,
+      "groupId": "b84be",
+      "referenceDatabase": "GeneID",
+      "referenceId": "9971",
+      "uniprotAccs": [
+        "Q96RI1",
+        "B6ZGS9",
+        "F1DAL1"
+      ]
+    },
+    {
+      "id": "f920b",
+      "geneNames": [
+        "OSTalpha"
+      ],
+      "type": "gene_protein",
+      "x": 872.7582390981087,
+      "y": 238.83615174464816,
+      "label": null,
+      "groupId": "ac7e0",
+      "referenceDatabase": "GeneID",
+      "referenceId": "200931",
+      "uniprotAccs": [
+        "Q86UW1"
+      ]
+    },
+    {
+      "id": "fa771",
+      "geneNames": null,
+      "type": "compound",
+      "x": 619.152228792751,
+      "y": 174.9458899420939,
+      "label": "Clozapine\n",
+      "groupId": "cdb4c",
+      "referenceDatabase": "PubChem-compound",
+      "referenceId": "135398737"
+    },
+    {
+      "id": "b03c9",
+      "geneNames": null,
+      "type": "compound",
+      "x": 95.0628562146727,
+      "y": 270.6834377176368,
+      "label": "Taurocholic acid",
+      "groupId": "c4b47",
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000036"
+    },
+    {
+      "id": "c414e",
+      "geneNames": null,
+      "type": "compound",
+      "x": 95.0628562146727,
+      "y": 290.6834377176368,
+      "label": "Bilirubin",
+      "groupId": "c4b47",
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000054"
+    },
+    {
+      "id": "fa2ae",
+      "geneNames": null,
+      "type": "compound",
+      "x": 95.0628562146727,
+      "y": 310.6834377176368,
+      "label": "Isoursodeoxycholic acid",
+      "groupId": "c4b47",
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000686"
+    },
+    {
+      "id": "b63ca",
+      "geneNames": null,
+      "type": "compound",
+      "x": 334.21008403361355,
+      "y": 136.99999999999977,
+      "label": "Deoxycholic acid",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000626"
+    },
+    {
+      "id": "bb751",
+      "geneNames": [
+        "VDR"
+      ],
+      "type": "gene_protein",
+      "x": 526.4285714285704,
+      "y": 578.7815126050422,
+      "label": null,
+      "groupId": "b84be",
+      "referenceDatabase": "GeneID",
+      "referenceId": "7421",
+      "uniprotAccs": [
+        "P11473",
+        "F1D8P8"
+      ]
+    },
+    {
+      "id": "e49ac",
+      "geneNames": [
+        "NR1I3"
+      ],
+      "type": "gene_protein",
+      "x": 686.4285714285721,
+      "y": 578.7815126050422,
+      "label": null,
+      "groupId": "b84be",
+      "referenceDatabase": "GeneID",
+      "referenceId": "9970",
+      "uniprotAccs": [
+        "Q14994",
+        "F1DAL4"
+      ]
+    },
+    {
+      "id": "b158e",
+      "geneNames": [
+        "NR1I2"
+      ],
+      "type": "gene_protein",
+      "x": 606.428571428572,
+      "y": 578.7815126050422,
+      "label": null,
+      "groupId": "b84be",
+      "referenceDatabase": "GeneID",
+      "referenceId": "8856",
+      "uniprotAccs": [
+        "O75469",
+        "F1D8P9"
+      ]
+    },
+    {
+      "id": "b6c0d",
+      "geneNames": null,
+      "type": "compound",
+      "x": 619.152228792751,
+      "y": 194.94588994209383,
+      "label": "Methylprednisolone",
+      "groupId": "cdb4c",
+      "referenceDatabase": "PubChem-compound",
+      "referenceId": "6741"
+    },
+    {
+      "id": "dc4bf",
+      "geneNames": null,
+      "type": "compound",
+      "x": 619.152228792751,
+      "y": 214.9458899420938,
+      "label": "Cimetidine",
+      "groupId": "cdb4c",
+      "referenceDatabase": "PubChem-compound",
+      "referenceId": "2756"
+    },
+    {
+      "id": "e5a69",
+      "geneNames": [
+        "OSTBETA"
+      ],
+      "type": "gene_protein",
+      "x": 872.7582390981087,
+      "y": 258.8361517446481,
+      "label": null,
+      "groupId": "ac7e0",
+      "referenceDatabase": "GeneID",
+      "referenceId": "123264",
+      "uniprotAccs": [
+        "Q86UW2"
+      ]
+    },
+    {
+      "id": "fd354",
+      "geneNames": [
+        "ABCC4"
+      ],
+      "type": "gene_protein",
+      "x": 872.7582390981086,
+      "y": 302.7044645018495,
+      "label": null,
+      "groupId": "cb6b7",
+      "referenceDatabase": "GeneID",
+      "referenceId": "10257",
+      "uniprotAccs": [
+        "O15439",
+        "A8K2Q2"
+      ]
+    },
+    {
+      "id": "c87ca",
+      "geneNames": [
+        "ABCB11"
+      ],
+      "type": "gene_protein",
+      "x": 872.7582390981086,
+      "y": 322.7044645018495,
+      "label": null,
+      "groupId": "cb6b7",
+      "referenceDatabase": "GeneID",
+      "referenceId": "8647",
+      "uniprotAccs": [
+        "O95342"
+      ]
+    },
+    {
+      "id": "f927c",
+      "geneNames": [
+        "ABCC3"
+      ],
+      "type": "gene_protein",
+      "x": 872.7582390981086,
+      "y": 362.7044645018495,
+      "label": null,
+      "groupId": "cb6b7",
+      "referenceDatabase": "GeneID",
+      "referenceId": "8714",
+      "uniprotAccs": [
+        "O15438",
+        "Q86VN9"
+      ]
+    },
+    {
+      "id": "eeccd",
+      "geneNames": [
+        "ABCC2"
+      ],
+      "type": "gene_protein",
+      "x": 872.7582390981087,
+      "y": 342.7044645018495,
+      "label": null,
+      "groupId": "cb6b7",
+      "referenceDatabase": "GeneID",
+      "referenceId": "1244",
+      "uniprotAccs": [
+        "Q92887"
+      ]
+    },
+    {
+      "id": "e9067",
+      "geneNames": null,
+      "type": "compound",
+      "x": 984.2436974789915,
+      "y": 289.9579831932776,
+      "label": "Phospholipids",
+      "groupId": "e5283",
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:16247"
+    },
+    {
+      "id": "b0602",
+      "geneNames": null,
+      "type": "compound",
+      "x": 932.5102880658433,
+      "y": 43.86831275720164,
+      "label": "Digoxin",
+      "groupId": "bc67d",
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0001917"
+    },
+    {
+      "id": "df29e",
+      "geneNames": null,
+      "type": "compound",
+      "x": 932.5102880658433,
+      "y": 83.86831275720165,
+      "label": "Clarithromyci",
+      "groupId": "bc67d",
+      "referenceDatabase": "PubChem-compound",
+      "referenceId": "84029"
+    },
+    {
+      "id": "a12ab",
+      "geneNames": null,
+      "type": "compound",
+      "x": 1012.3456790123456,
+      "y": 23.868312757201643,
+      "label": "Erythromycin",
+      "groupId": "bc67d",
+      "referenceDatabase": "PubChem-compound",
+      "referenceId": "12560"
+    },
+    {
+      "id": "a8e3a",
+      "geneNames": null,
+      "type": "compound",
+      "x": 1012.3456790123456,
+      "y": 43.86831275720164,
+      "label": "Silybin",
+      "groupId": "bc67d",
+      "referenceDatabase": "PubChem-compound",
+      "referenceId": "31553"
+    },
+    {
+      "id": "fd5be",
+      "geneNames": null,
+      "type": "compound",
+      "x": 1012.3456790123456,
+      "y": 63.868312757201636,
+      "label": "Glyburide",
+      "groupId": "bc67d",
+      "referenceDatabase": "PubChem-compound",
+      "referenceId": "3488"
+    },
+    {
+      "id": "b117a",
+      "geneNames": null,
+      "type": "compound",
+      "x": 1052.8099681554202,
+      "y": 547.7345342923078,
+      "label": "Tacrolimus",
+      "groupId": "f6935",
+      "referenceDatabase": "PubChem-compound",
+      "referenceId": "445643"
+    },
+    {
+      "id": "e9f7c",
+      "geneNames": null,
+      "type": "compound",
+      "x": 1052.8099681554202,
+      "y": 587.7345342923077,
+      "label": "Trabectedin\n",
+      "groupId": "f6935",
+      "referenceDatabase": "PubChem-compound",
+      "referenceId": "108150"
+    },
+    {
+      "id": "f9396",
+      "geneNames": null,
+      "type": "compound",
+      "x": 1052.8099681554202,
+      "y": 627.7345342923076,
+      "label": "Phomin\n",
+      "groupId": "f6935",
+      "referenceDatabase": "PubChem-compound",
+      "referenceId": "5311281"
+    },
+    {
+      "id": "eec06",
+      "geneNames": null,
+      "type": "compound",
+      "x": 1052.8099681554202,
+      "y": 667.7345342923074,
+      "label": "Colchicine\n",
+      "groupId": "f6935",
+      "referenceDatabase": "PubChem-compound",
+      "referenceId": "6167"
+    },
+    {
+      "id": "efd16",
+      "geneNames": null,
+      "type": "compound",
+      "x": 1052.8099681554202,
+      "y": 567.7345342923078,
+      "label": "Ranitidine",
+      "groupId": "f6935",
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0001930"
+    },
+    {
+      "id": "ed4c4",
+      "geneNames": null,
+      "type": "compound",
+      "x": 1052.8099681554202,
+      "y": 607.7345342923076,
+      "label": "Oxiglutatione",
+      "groupId": "f6935",
+      "referenceDatabase": "PubChem-compound",
+      "referenceId": "65359"
+    },
+    {
+      "id": "ac7e0",
+      "type": "group",
+      "components": [
+        "f920b",
+        "e5a69"
+      ]
+    },
+    {
+      "id": "b84be",
+      "type": "group",
+      "components": [
+        "ededa",
+        "bb751",
+        "e49ac",
+        "b158e"
+      ]
+    },
+    {
+      "id": "bc67d",
+      "type": "group",
+      "components": [
+        "c0ef3",
+        "e7cf4",
+        "b0602",
+        "df29e",
+        "a12ab",
+        "a8e3a",
+        "fd5be"
+      ]
+    },
+    {
+      "id": "c4b47",
+      "type": "group",
+      "components": [
+        "e8017",
+        "b03c9",
+        "c414e",
+        "fa2ae"
+      ]
+    },
+    {
+      "id": "cb6b7",
+      "type": "group",
+      "components": [
+        "fd354",
+        "c87ca",
+        "f927c",
+        "eeccd"
+      ]
+    },
+    {
+      "id": "cdb4c",
+      "type": "group",
+      "components": [
+        "fa771",
+        "b6c0d",
+        "dc4bf"
+      ]
+    },
+    {
+      "id": "e18c6",
+      "type": "group",
+      "components": [
+        "b024f",
+        "bcb4e",
+        "da736"
+      ]
+    },
+    {
+      "id": "e5283",
+      "type": "group",
+      "components": [
+        "cf484",
+        "e9067"
+      ]
+    },
+    {
+      "id": "f3b0e",
+      "type": "group",
+      "components": [
+        "a0fe0",
+        "c4be8"
+      ]
+    },
+    {
+      "id": "f6935",
+      "type": "group",
+      "components": [
+        "b051b",
+        "b765a",
+        "d5c57",
+        "b117a",
+        "e9f7c",
+        "f9396",
+        "eec06",
+        "efd16",
+        "ed4c4"
+      ]
+    }
+  ]
+}

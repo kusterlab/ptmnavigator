@@ -7,11 +7,11 @@ module.exports = {
         }
     },
     // Disable features we don't need for a library
-    filenameHashing: false,
-    productionSourceMap: false,
-    css: {
-        extract: false
-    },
+    // filenameHashing: false,
+    // productionSourceMap: false,
+    // css: {
+    //     extract: false
+    // },
 
     chainWebpack: config => {
         config.module

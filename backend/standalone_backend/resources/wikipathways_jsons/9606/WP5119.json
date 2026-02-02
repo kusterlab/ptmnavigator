@@ -1,0 +1,422 @@
+{
+  "pathway": {
+    "name": "WP5119",
+    "org": "Homo sapiens",
+    "title": "NIPBL role in DNA damage - Cornelia de Lange syndrome"
+  },
+  "links": [
+    {
+      "id": "a4c7b",
+      "sourceId": "a56e7",
+      "targetId": "b68d9",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "b3600",
+      "sourceId": "cea42",
+      "targetId": "cb8dc",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "a30d9",
+      "sourceId": "ba78d",
+      "targetId": "b7076",
+      "types": [
+        "modification"
+      ]
+    },
+    {
+      "id": "dcb3e",
+      "sourceId": "bac03",
+      "targetId": "a5e54",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "c400a",
+      "sourceId": "f2f81",
+      "targetId": "a5e54",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "c5187",
+      "sourceId": "e04f9",
+      "targetId": "f2f81",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "cbbbe",
+      "sourceId": "e1193",
+      "targetId": "c5277",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "f0d22",
+      "sourceId": "e04f9",
+      "targetId": "bac03",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "eb0de",
+      "sourceId": "b7a6c",
+      "targetId": "b68d9",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "a8e7e",
+      "sourceId": "d8808",
+      "targetId": "b7076",
+      "types": [
+        "modification"
+      ]
+    },
+    {
+      "id": "dfbb5",
+      "sourceId": "fb8c1",
+      "targetId": "db14b",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ef22b",
+      "sourceId": "ca9c4",
+      "targetId": "db14b",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "faed7",
+      "sourceId": "e04f9",
+      "targetId": "fa1d8",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "c69da",
+      "sourceId": "e04f9",
+      "targetId": "feb63",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ee377",
+      "sourceId": "fa1d8",
+      "targetId": "a5e54",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "d2d77",
+      "sourceId": "feb63",
+      "targetId": "a5e54",
+      "types": [
+        "activation"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "e1193",
+      "geneNames": [
+        "CBX3"
+      ],
+      "type": "gene_protein",
+      "x": 807.5209283071,
+      "y": 567.5410942142853,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000122565",
+      "uniprotAccs": [
+        "Q13185",
+        "B8ZZ43",
+        "C9JMM0",
+        "S4R2Y4"
+      ]
+    },
+    {
+      "id": "a5e54",
+      "geneNames": [
+        "NIPBL"
+      ],
+      "type": "gene_protein",
+      "x": 213.64472655217122,
+      "y": 559.8511380020835,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000164190",
+      "uniprotAccs": [
+        "Q6KC79",
+        "A0A590UJS4",
+        "H0Y8M3"
+      ]
+    },
+    {
+      "id": "bac03",
+      "geneNames": [
+        "ATM"
+      ],
+      "type": "gene_protein",
+      "x": 262.53563238189633,
+      "y": 394.9133159605137,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000149311",
+      "uniprotAccs": [
+        "Q13315",
+        "A0A087X0E9",
+        "A0A6Q8PH76",
+        "A0A804HL86",
+        "E9PIN0",
+        "E9PRG7",
+        "H0YDU7",
+        "H0YEC6",
+        "M0QXY8",
+        "Q6P7P1"
+      ]
+    },
+    {
+      "id": "fa1d8",
+      "geneNames": [
+        "ATR"
+      ],
+      "type": "gene_protein",
+      "x": 360.64586860236494,
+      "y": 394.9133159605137,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000175054",
+      "uniprotAccs": [
+        "Q13535",
+        "A0A590UJ01",
+        "D6RFJ6",
+        "D6RIG7",
+        "H0Y8R8"
+      ]
+    },
+    {
+      "id": "c5277",
+      "geneNames": [
+        "NIPBL"
+      ],
+      "type": "gene_protein",
+      "x": 807.5209283071,
+      "y": 642.7293878850597,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000164190",
+      "uniprotAccs": [
+        "Q6KC79",
+        "A0A590UJS4",
+        "H0Y8M3"
+      ]
+    },
+    {
+      "id": "b7a6c",
+      "geneNames": [
+        "Histone H2AX"
+      ],
+      "type": "gene_protein",
+      "x": 747.0088384339003,
+      "y": 220.50484366097658,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P16104",
+      "uniprotAccs": [
+        "P16104"
+      ]
+    },
+    {
+      "id": "d8808",
+      "geneNames": [
+        "RNF8"
+      ],
+      "type": "gene_protein",
+      "x": 502.73638348832486,
+      "y": 645.4289596131935,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000112130",
+      "uniprotAccs": [
+        "O76064",
+        "C9J858",
+        "F8WDH8",
+        "F8WEW6",
+        "H7C4L7"
+      ]
+    },
+    {
+      "id": "ba78d",
+      "geneNames": [
+        "RNF168"
+      ],
+      "type": "gene_protein",
+      "x": 502.73638348832486,
+      "y": 596.5889107731448,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000163961",
+      "uniprotAccs": [
+        "Q8IYW5",
+        "F8WD60"
+      ]
+    },
+    {
+      "id": "a56e7",
+      "geneNames": [
+        "MDC1"
+      ],
+      "type": "gene_protein",
+      "x": 541.7390827368404,
+      "y": 220.50484366097658,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000137337",
+      "uniprotAccs": [
+        "Q14676",
+        "A2AB05",
+        "A2AB06",
+        "A2AB07",
+        "H0Y6Z8"
+      ]
+    },
+    {
+      "id": "f2f81",
+      "geneNames": [
+        "RNF8"
+      ],
+      "type": "gene_protein",
+      "x": 160.6967083919162,
+      "y": 394.9133159605137,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000112130",
+      "uniprotAccs": [
+        "O76064",
+        "C9J858",
+        "F8WDH8",
+        "F8WEW6",
+        "H7C4L7"
+      ]
+    },
+    {
+      "id": "feb63",
+      "geneNames": [
+        "RNF168"
+      ],
+      "type": "gene_protein",
+      "x": 64.1612753210465,
+      "y": 394.9133159605137,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000163961",
+      "uniprotAccs": [
+        "Q8IYW5",
+        "F8WD60"
+      ]
+    },
+    {
+      "id": "cb8dc",
+      "geneNames": [
+        "Histone H2AX"
+      ],
+      "type": "gene_protein",
+      "x": 750.9058302297142,
+      "y": 352.8482911584839,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P16104",
+      "uniprotAccs": [
+        "P16104"
+      ]
+    },
+    {
+      "id": "cea42",
+      "geneNames": [
+        "MDC1"
+      ],
+      "type": "gene_protein",
+      "x": 537.7600490084951,
+      "y": 352.8482911584839,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000137337",
+      "uniprotAccs": [
+        "Q14676",
+        "A2AB05",
+        "A2AB06",
+        "A2AB07",
+        "H0Y6Z8"
+      ]
+    },
+    {
+      "id": "ca9c4",
+      "geneNames": [
+        "RNF168"
+      ],
+      "type": "gene_protein",
+      "x": 540.532971585731,
+      "y": 409.50986402226454,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000163961",
+      "uniprotAccs": [
+        "Q8IYW5",
+        "F8WD60"
+      ]
+    },
+    {
+      "id": "fb8c1",
+      "geneNames": [
+        "RNF8"
+      ],
+      "type": "gene_protein",
+      "x": 739.6122787871741,
+      "y": 409.1247533363347,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000112130",
+      "uniprotAccs": [
+        "O76064",
+        "C9J858",
+        "F8WDH8",
+        "F8WEW6",
+        "H7C4L7"
+      ]
+    }
+  ]
+}

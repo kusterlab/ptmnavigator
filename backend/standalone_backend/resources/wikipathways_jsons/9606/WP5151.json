@@ -1,0 +1,316 @@
+{
+  "pathway": {
+    "name": "WP5151",
+    "org": "Homo sapiens",
+    "title": "Sialylation "
+  },
+  "links": [
+    {
+      "id": "id107b816a",
+      "sourceId": "d0eee",
+      "targetId": "id6eeec57e",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id11f5bcbd",
+      "sourceId": "a342e",
+      "targetId": "cbe91",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id1b7d732d",
+      "sourceId": "fbfe2",
+      "targetId": "idb9b8c49f",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id1bac0f4c",
+      "sourceId": "efa54",
+      "targetId": "id11f5bcbd",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id2861a9d5",
+      "sourceId": "e1e40",
+      "targetId": "id647c2596",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id306120fe",
+      "sourceId": "d0eee",
+      "targetId": "id9668a7c0",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id47096713",
+      "sourceId": "c46ff",
+      "targetId": "id7828786",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id622e9ad0",
+      "sourceId": "ae4c5",
+      "targetId": "ae91a",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id647c2596",
+      "sourceId": "d16e6",
+      "targetId": "a342e",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id6524ad95",
+      "sourceId": "idb9b8c49f",
+      "targetId": "b07bc",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "id6e36dba5",
+      "sourceId": "e41f6",
+      "targetId": "f4af8",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id6eeec57e",
+      "sourceId": "bedf2",
+      "targetId": "e41f6",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id7177a6b7",
+      "sourceId": "b156d",
+      "targetId": "id6e36dba5",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id7828786",
+      "sourceId": "f4af8",
+      "targetId": "d16e6",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id9668a7c0",
+      "sourceId": "ae91a",
+      "targetId": "bedf2",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "idb9b8c49f",
+      "sourceId": "cbe91",
+      "targetId": "c936f",
+      "types": [
+        "conversion"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "a342e",
+      "geneNames": null,
+      "type": "compound",
+      "x": 260.25,
+      "y": 627.0,
+      "label": "CMP-N-acetyl-beta-neuraminic acid",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:16556"
+    },
+    {
+      "id": "ae91a",
+      "geneNames": null,
+      "type": "compound",
+      "x": 260.25,
+      "y": 192.0,
+      "label": "\tUDP-N-acetyl-alpha-D-glucosamine",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:16264"
+    },
+    {
+      "id": "d0eee",
+      "geneNames": [
+        "GNE"
+      ],
+      "type": "gene_protein",
+      "x": 140.3169299311462,
+      "y": 269.7849331713244,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "10020",
+      "uniprotAccs": [
+        "Q9Y223"
+      ]
+    },
+    {
+      "id": "e41f6",
+      "geneNames": null,
+      "type": "compound",
+      "x": 260.25,
+      "y": 348.75,
+      "label": "aldehydo-N-acetyl-D-mannosamine 6-phosphate",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:28273"
+    },
+    {
+      "id": "b156d",
+      "geneNames": [
+        "NANS"
+      ],
+      "type": "gene_protein",
+      "x": 165.83333333333334,
+      "y": 381.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "54187",
+      "uniprotAccs": [
+        "Q9NR45"
+      ]
+    },
+    {
+      "id": "c46ff",
+      "geneNames": [
+        "NANP"
+      ],
+      "type": "gene_protein",
+      "x": 165.83333333333334,
+      "y": 454.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "54187",
+      "uniprotAccs": [
+        "Q9NR45"
+      ]
+    },
+    {
+      "id": "e1e40",
+      "geneNames": [
+        "CMAS"
+      ],
+      "type": "gene_protein",
+      "x": 315.1258790436006,
+      "y": 575.1293952180031,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "55907",
+      "uniprotAccs": [
+        "Q8NFW8"
+      ]
+    },
+    {
+      "id": "efa54",
+      "geneNames": [
+        "SLC35A1"
+      ],
+      "type": "gene_protein",
+      "x": 344.16666666666583,
+      "y": 727.0000000000005,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "10559",
+      "uniprotAccs": [
+        "P78382"
+      ]
+    },
+    {
+      "id": "bedf2",
+      "geneNames": null,
+      "type": "compound",
+      "x": 260.25,
+      "y": 269.78493317132444,
+      "label": "N-acetyl-D-mannosamine",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:63153"
+    },
+    {
+      "id": "f4af8",
+      "geneNames": null,
+      "type": "compound",
+      "x": 260.25,
+      "y": 419.75,
+      "label": "N-acetylneuraminic acid 9-phosphate",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:27438"
+    },
+    {
+      "id": "d16e6",
+      "geneNames": null,
+      "type": "compound",
+      "x": 260.25,
+      "y": 490.0,
+      "label": "N-acetylneuraminic acid",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:17012"
+    },
+    {
+      "id": "cbe91",
+      "geneNames": null,
+      "type": "compound",
+      "x": 260.25,
+      "y": 806.6666666666663,
+      "label": "CMP-N-acetyl-beta-neuraminic acid",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:16556"
+    },
+    {
+      "id": "ae4c5",
+      "geneNames": null,
+      "type": "compound",
+      "x": 260.25,
+      "y": 120.0,
+      "label": "Glucose",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:17234"
+    },
+    {
+      "id": "b07bc",
+      "geneNames": null,
+      "type": "misc",
+      "x": 321.3518518518511,
+      "y": 833.2962962962954,
+      "label": "Glycoconjugate",
+      "groupId": null
+    }
+  ]
+}

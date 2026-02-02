@@ -1,0 +1,712 @@
+{
+  "pathway": {
+    "name": "WP4507",
+    "org": "Homo sapiens",
+    "title": "Molybdenum cofactor (Moco) biosynthesis"
+  },
+  "links": [
+    {
+      "id": "id282bd339",
+      "sourceId": "b4d98",
+      "targetId": "b58e8",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id29426b76",
+      "sourceId": "ef838",
+      "targetId": "id6823823e",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id2a6f9374",
+      "sourceId": "ceacf",
+      "targetId": "d031d",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "id6823823e",
+      "sourceId": "d5ba0",
+      "targetId": "b435a",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id957aed9c",
+      "sourceId": "a002c",
+      "targetId": "iddfdce270",
+      "types": [
+        "modification"
+      ]
+    },
+    {
+      "id": "id9f5b949d",
+      "sourceId": "f2e6c",
+      "targetId": "c73f2",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "ida10af676",
+      "sourceId": "a42cd",
+      "targetId": "eafef",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "ida6b11e87",
+      "sourceId": "ca66c",
+      "targetId": "b9be7",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "ida829bffd",
+      "sourceId": "e2602",
+      "targetId": "ddbb8",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "idbfd0a336",
+      "sourceId": "c5c47",
+      "targetId": "f8966",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "idd53e6019",
+      "sourceId": "c89fe",
+      "targetId": "d7e2e",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "iddfdce270",
+      "sourceId": "bbda9",
+      "targetId": "c562f",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "ide18e07b8",
+      "sourceId": "c562f",
+      "targetId": "ida829bffd",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "ide615776d",
+      "sourceId": "f26b8",
+      "targetId": "d68f7",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "c73f2",
+      "sourceId": "b435a",
+      "targetId": "d4e21",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "b58e8",
+      "sourceId": "d4e21",
+      "targetId": "cca8f",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "a0518",
+      "sourceId": "cca8f",
+      "targetId": "bbda9",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "eafef",
+      "sourceId": "cf606",
+      "targetId": "b0eac",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "d7e2e",
+      "sourceId": "f8f83",
+      "targetId": "a1a53",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "f8966",
+      "sourceId": "a578f",
+      "targetId": "c7dec",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "d68f7",
+      "sourceId": "bbda9",
+      "targetId": "a42cd",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "d031d",
+      "sourceId": "bbda9",
+      "targetId": "c89fe",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "b9be7",
+      "sourceId": "bbda9",
+      "targetId": "c5c47",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "f2843",
+      "sourceId": "ad7b1",
+      "targetId": "a0518",
+      "types": [
+        "catalysis"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "a002c",
+      "geneNames": [
+        "Sulfite oxidase"
+      ],
+      "type": "gene_protein",
+      "x": 415.5,
+      "y": 332.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P51687",
+      "uniprotAccs": [
+        "P51687"
+      ]
+    },
+    {
+      "id": "b435a",
+      "geneNames": null,
+      "type": "compound",
+      "x": 222.0,
+      "y": 163.0,
+      "label": "cPMP",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:52994"
+    },
+    {
+      "id": "b4d98",
+      "geneNames": [
+        "Gephyrin\n(G domain)"
+      ],
+      "type": "gene_protein",
+      "x": 149.0,
+      "y": 294.25,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "Q9NQX3",
+      "uniprotAccs": [
+        "Q9NQX3"
+      ]
+    },
+    {
+      "id": "bbda9",
+      "geneNames": null,
+      "type": "compound",
+      "x": 222.0,
+      "y": 465.0,
+      "label": "Moco",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:71306"
+    },
+    {
+      "id": "cf606",
+      "geneNames": null,
+      "type": "compound",
+      "x": 693.0,
+      "y": 425.0,
+      "label": "R=N-OH",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "d48d4",
+      "geneNames": [
+        "MOCS1A"
+      ],
+      "type": "gene_protein",
+      "x": 149.0,
+      "y": 96.0,
+      "label": null,
+      "groupId": "ef838",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000124615",
+      "uniprotAccs": [
+        "Q9NZB8",
+        "F8WCK1"
+      ]
+    },
+    {
+      "id": "d4e21",
+      "geneNames": null,
+      "type": "compound",
+      "x": 222.0,
+      "y": 250.0,
+      "label": "MPT",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:44074"
+    },
+    {
+      "id": "d5ba0",
+      "geneNames": null,
+      "type": "compound",
+      "x": 222.0,
+      "y": 54.0,
+      "label": "GTP",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:37565"
+    },
+    {
+      "id": "e2602",
+      "geneNames": null,
+      "type": "compound",
+      "x": 693.0,
+      "y": 317.0,
+      "label": "Sulfite",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:26823"
+    },
+    {
+      "id": "f8f83",
+      "geneNames": null,
+      "type": "compound",
+      "x": 693.0,
+      "y": 512.0,
+      "label": "Xanthine",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:17712"
+    },
+    {
+      "id": "cca8f",
+      "geneNames": null,
+      "type": "compound",
+      "x": 222.0,
+      "y": 356.0,
+      "label": "MPT-AMP",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:62728"
+    },
+    {
+      "id": "f26b8",
+      "geneNames": [
+        "Amidoxime reducing\ncomponent"
+      ],
+      "type": "gene_protein",
+      "x": 415.5,
+      "y": 419.75,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "Q969Z3",
+      "uniprotAccs": [
+        "Q969Z3"
+      ]
+    },
+    {
+      "id": "ceacf",
+      "geneNames": [
+        "Xanthine oxidase"
+      ],
+      "type": "gene_protein",
+      "x": 415.5,
+      "y": 555.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P47989",
+      "uniprotAccs": [
+        "P47989"
+      ]
+    },
+    {
+      "id": "ca66c",
+      "geneNames": [
+        "Aldehyde oxidase"
+      ],
+      "type": "gene_protein",
+      "x": 415.5,
+      "y": 642.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "Q06278",
+      "uniprotAccs": [
+        "Q06278"
+      ]
+    },
+    {
+      "id": "ddbb8",
+      "geneNames": null,
+      "type": "compound",
+      "x": 693.0,
+      "y": 378.0,
+      "label": "Sulfate",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0001448"
+    },
+    {
+      "id": "b0eac",
+      "geneNames": null,
+      "type": "compound",
+      "x": 693.0,
+      "y": 478.0,
+      "label": "R-NH",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "a1a53",
+      "geneNames": null,
+      "type": "compound",
+      "x": 693.0,
+      "y": 561.0,
+      "label": "urate",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:17775"
+    },
+    {
+      "id": "a578f",
+      "geneNames": null,
+      "type": "compound",
+      "x": 693.0,
+      "y": 601.0,
+      "label": "R-H",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "c7dec",
+      "geneNames": null,
+      "type": "compound",
+      "x": 693.0,
+      "y": 650.0,
+      "label": "R-OH",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:17478"
+    },
+    {
+      "id": "ba0b0",
+      "geneNames": [
+        "Sulfite oxidase"
+      ],
+      "type": "gene_protein",
+      "x": 569.5,
+      "y": 331.0,
+      "label": null,
+      "groupId": "c562f",
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P51687",
+      "uniprotAccs": [
+        "P51687"
+      ]
+    },
+    {
+      "id": "f6b02",
+      "geneNames": null,
+      "type": "compound",
+      "x": 569.5,
+      "y": 356.0,
+      "label": "Moco",
+      "groupId": "c562f",
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:21437"
+    },
+    {
+      "id": "abdb1",
+      "geneNames": [
+        "Amidoxime reducing\ncomponent"
+      ],
+      "type": "gene_protein",
+      "x": 569.5,
+      "y": 432.75,
+      "label": null,
+      "groupId": "a42cd",
+      "referenceDatabase": "Uniprot",
+      "referenceId": "Q969Z3",
+      "uniprotAccs": [
+        "Q969Z3"
+      ]
+    },
+    {
+      "id": "c37e6",
+      "geneNames": null,
+      "type": "compound",
+      "x": 569.5,
+      "y": 460.5,
+      "label": "Moco",
+      "groupId": "a42cd",
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:21437"
+    },
+    {
+      "id": "d3a33",
+      "geneNames": [
+        "Xanthine oxidase"
+      ],
+      "type": "gene_protein",
+      "x": 569.5,
+      "y": 521.0,
+      "label": null,
+      "groupId": "c89fe",
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P47989",
+      "uniprotAccs": [
+        "P47989"
+      ]
+    },
+    {
+      "id": "c3e8a",
+      "geneNames": null,
+      "type": "compound",
+      "x": 569.5,
+      "y": 546.0,
+      "label": "Moco",
+      "groupId": "c89fe",
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:21437"
+    },
+    {
+      "id": "e7568",
+      "geneNames": [
+        "Aldehyde oxidase"
+      ],
+      "type": "gene_protein",
+      "x": 569.5,
+      "y": 611.0,
+      "label": null,
+      "groupId": "c5c47",
+      "referenceDatabase": "Uniprot",
+      "referenceId": "Q06278",
+      "uniprotAccs": [
+        "Q06278"
+      ]
+    },
+    {
+      "id": "cb442",
+      "geneNames": null,
+      "type": "compound",
+      "x": 569.5,
+      "y": 636.0,
+      "label": "Moco",
+      "groupId": "c5c47",
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:21437"
+    },
+    {
+      "id": "b0197",
+      "geneNames": [
+        "MOCS1AB"
+      ],
+      "type": "gene_protein",
+      "x": 149.0,
+      "y": 121.0,
+      "label": null,
+      "groupId": "ef838",
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "c12c2",
+      "geneNames": [
+        "MOCS2A"
+      ],
+      "type": "gene_protein",
+      "x": 149.0,
+      "y": 191.0,
+      "label": null,
+      "groupId": "f2e6c",
+      "referenceDatabase": "Uniprot",
+      "referenceId": "O96007",
+      "uniprotAccs": [
+        "O96007"
+      ]
+    },
+    {
+      "id": "ef0fa",
+      "geneNames": [
+        "MOCS2B"
+      ],
+      "type": "gene_protein",
+      "x": 149.0,
+      "y": 216.0,
+      "label": null,
+      "groupId": "f2e6c",
+      "referenceDatabase": "Uniprot",
+      "referenceId": "O96033",
+      "uniprotAccs": [
+        "O96033"
+      ]
+    },
+    {
+      "id": "ad7b1",
+      "geneNames": [
+        "Gephyrin\n(E domain)"
+      ],
+      "type": "gene_protein",
+      "x": 149.0,
+      "y": 401.25,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "Q9NQX3",
+      "uniprotAccs": [
+        "Q9NQX3"
+      ]
+    },
+    {
+      "id": "cbdfc",
+      "geneNames": null,
+      "type": "misc",
+      "x": 831.3917910447756,
+      "y": 523.3041044776123,
+      "label": "Xanthinuria type I",
+      "groupId": "b1518"
+    },
+    {
+      "id": "b3678",
+      "geneNames": null,
+      "type": "misc",
+      "x": 831.3917910447756,
+      "y": 548.3041044776124,
+      "label": "Xanthinuria type II",
+      "groupId": "b1518"
+    },
+    {
+      "id": "c7687",
+      "geneNames": null,
+      "type": "misc",
+      "x": 225.14365671641724,
+      "y": 519.3171641791052,
+      "label": "Xanthinuria type I",
+      "groupId": "c03a8"
+    },
+    {
+      "id": "a6e6f",
+      "geneNames": null,
+      "type": "misc",
+      "x": 225.14365671641724,
+      "y": 544.3171641791057,
+      "label": "Xanthinuria type II",
+      "groupId": "c03a8"
+    },
+    {
+      "id": "a42cd",
+      "type": "group",
+      "components": [
+        "abdb1",
+        "c37e6"
+      ]
+    },
+    {
+      "id": "b1518",
+      "type": "group",
+      "components": [
+        "cbdfc",
+        "b3678"
+      ]
+    },
+    {
+      "id": "c03a8",
+      "type": "group",
+      "components": [
+        "c7687",
+        "a6e6f"
+      ]
+    },
+    {
+      "id": "c562f",
+      "type": "group",
+      "components": [
+        "ba0b0",
+        "f6b02"
+      ]
+    },
+    {
+      "id": "c5c47",
+      "type": "group",
+      "components": [
+        "e7568",
+        "cb442"
+      ]
+    },
+    {
+      "id": "c89fe",
+      "type": "group",
+      "components": [
+        "d3a33",
+        "c3e8a"
+      ]
+    },
+    {
+      "id": "ef838",
+      "type": "group",
+      "components": [
+        "d48d4",
+        "b0197"
+      ]
+    },
+    {
+      "id": "f2e6c",
+      "type": "group",
+      "components": [
+        "c12c2",
+        "ef0fa"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "pathway": {
+    "name": "WP4397",
+    "org": "Homo sapiens",
+    "title": "Model for regulation of MSMP expression in cancer cells and its proangiogenic role in ovarian tumors"
+  },
+  "links": [
+    {
+      "id": "id21e68210",
+      "sourceId": "d1da7",
+      "targetId": "f027b",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "id22e062bf",
+      "sourceId": "cc697",
+      "targetId": "fbde6",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id6cf42c20",
+      "sourceId": "f027b",
+      "targetId": "cc697",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id91172c9a",
+      "sourceId": "af3c3",
+      "targetId": "idec828738",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "idadc1aca0",
+      "sourceId": "f82fe",
+      "targetId": "d1da7",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idec828738",
+      "sourceId": "fdaf6",
+      "targetId": "c331b",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "idfd0d0cde",
+      "sourceId": "ba295",
+      "targetId": "f82fe",
+      "types": [
+        "transcription/translation"
+      ]
+    },
+    {
+      "id": "e528d",
+      "sourceId": "d1da7",
+      "targetId": "cfb00",
+      "types": [
+        "binding/association"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "cc697",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 677.0,
+      "y": 227.0,
+      "label": "MAPK signaling",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP382"
+    },
+    {
+      "id": "cfb00",
+      "geneNames": [
+        "CCR2"
+      ],
+      "type": "gene_protein",
+      "x": 244.0,
+      "y": 130.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000121807",
+      "uniprotAccs": [
+        "P41597",
+        "E9PH76"
+      ]
+    },
+    {
+      "id": "fbde6",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 677.0,
+      "y": 389.0,
+      "label": "Angiogenesis",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP1539"
+    },
+    {
+      "id": "d1da7",
+      "geneNames": [
+        "MSMP"
+      ],
+      "type": "gene_protein",
+      "x": 478.0,
+      "y": 97.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000215183",
+      "uniprotAccs": [
+        "Q1L6U9"
+      ]
+    },
+    {
+      "id": "fdaf6",
+      "geneNames": [
+        "CTCF"
+      ],
+      "type": "gene_protein",
+      "x": 147.0,
+      "y": 254.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000102974",
+      "uniprotAccs": [
+        "P49711",
+        "A0A2R8Y595",
+        "A0A2R8Y6C1",
+        "A0A2R8Y6Z6",
+        "A0A2R8YFL0"
+      ]
+    },
+    {
+      "id": "f027b",
+      "geneNames": [
+        "CCR2"
+      ],
+      "type": "gene_protein",
+      "x": 677.0,
+      "y": 146.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000121807",
+      "uniprotAccs": [
+        "P41597",
+        "E9PH76"
+      ]
+    },
+    {
+      "id": "f82fe",
+      "geneNames": [
+        "MSMP"
+      ],
+      "type": "gene_protein",
+      "x": 302.0,
+      "y": 321.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000215183",
+      "uniprotAccs": [
+        "Q1L6U9"
+      ]
+    },
+    {
+      "id": "af3c3",
+      "geneNames": null,
+      "type": "misc",
+      "x": 82.5,
+      "y": 283.0,
+      "label": "Hypoxia",
+      "groupId": null,
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q105688"
+    },
+    {
+      "id": "c331b",
+      "geneNames": null,
+      "type": "misc",
+      "x": 147.0,
+      "y": 321.0,
+      "label": "Enhancer",
+      "groupId": "ba295"
+    },
+    {
+      "id": "ba295",
+      "type": "group",
+      "components": [
+        "c331b"
+      ]
+    }
+  ]
+}

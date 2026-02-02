@@ -1,0 +1,349 @@
+{
+  "pathway": {
+    "name": "WP3666",
+    "org": "Homo sapiens",
+    "title": "Metabolism of dichloroethylene by CYP450"
+  },
+  "links": [
+    {
+      "id": "id16ec7325",
+      "sourceId": "ce1ae",
+      "targetId": "e7a9e",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id239c7503",
+      "sourceId": "d164d",
+      "targetId": "iddbffbebb",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id2422afab",
+      "sourceId": "ce1ae",
+      "targetId": "ebd0f",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id291f4365",
+      "sourceId": "ebd0f",
+      "targetId": "eac4c",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id5366870f",
+      "sourceId": "ebd0f",
+      "targetId": "c43e1",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id7bbbbad6",
+      "sourceId": "e7a9e",
+      "targetId": "a88ee",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id96a37cd",
+      "sourceId": "d11cb",
+      "targetId": "a01b2",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "idb0d7f468",
+      "sourceId": "d11cb",
+      "targetId": "be45a",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "idb5847de2",
+      "sourceId": "c7628",
+      "targetId": "id16ec7325",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "idc7073129",
+      "sourceId": "de93c",
+      "targetId": "id2422afab",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "idc9863f7e",
+      "sourceId": "d3844",
+      "targetId": "id7bbbbad6",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "iddbffbebb",
+      "sourceId": "ce1ae",
+      "targetId": "d11cb",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "idf2c67c06",
+      "sourceId": "d27f5",
+      "targetId": "id291f4365",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "idffb491be",
+      "sourceId": "e7a9e",
+      "targetId": "a72a4",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "d460e",
+      "sourceId": "a3af1",
+      "targetId": "id96a37cd",
+      "types": [
+        "catalysis"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "a01b2",
+      "geneNames": null,
+      "type": "compound",
+      "x": 999.199811733181,
+      "y": 259.75,
+      "label": "2-S-Glutathionyl acetate ",
+      "groupId": null,
+      "referenceDatabase": "PubChem-compound",
+      "referenceId": "11954071"
+    },
+    {
+      "id": "a72a4",
+      "geneNames": null,
+      "type": "compound",
+      "x": 559.75,
+      "y": 616.75,
+      "label": "Chloroacetic acid",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0031331"
+    },
+    {
+      "id": "a88ee",
+      "geneNames": null,
+      "type": "compound",
+      "x": 999.199811733181,
+      "y": 516.75,
+      "label": "S-(2-Chloroacetyl)glutathione",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0060505"
+    },
+    {
+      "id": "be45a",
+      "geneNames": null,
+      "type": "compound",
+      "x": 999.199811733181,
+      "y": 420.75,
+      "label": "2-(S-Glutathionyl)acetyl chloride",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0060342"
+    },
+    {
+      "id": "c43e1",
+      "geneNames": null,
+      "type": "compound",
+      "x": 563.0,
+      "y": 70.25,
+      "label": "2,2-dichloro-1,1-ethanediol",
+      "groupId": null,
+      "referenceDatabase": "PubChem-compound",
+      "referenceId": "85275"
+    },
+    {
+      "id": "ce1ae",
+      "geneNames": null,
+      "type": "compound",
+      "x": 131.25,
+      "y": 343.75,
+      "label": "1,1-Dichloroethylene",
+      "groupId": null,
+      "referenceDatabase": "PubChem-compound",
+      "referenceId": "6366"
+    },
+    {
+      "id": "d11cb",
+      "geneNames": null,
+      "type": "compound",
+      "x": 561.75,
+      "y": 343.75,
+      "label": "1,1-Dichloroethylene epoxide",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0060333"
+    },
+    {
+      "id": "d27f5",
+      "geneNames": [
+        "glutathione S-transferase"
+      ],
+      "type": "gene_protein",
+      "x": 752.0,
+      "y": 99.75,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "KEGG",
+      "referenceId": "hsa:119391",
+      "uniprotAccs": [
+        "Q9H4Y5"
+      ]
+    },
+    {
+      "id": "de93c",
+      "geneNames": [
+        "CYP2E1"
+      ],
+      "type": "gene_protein",
+      "x": 343.0,
+      "y": 186.25,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000130649",
+      "uniprotAccs": [
+        "P05181",
+        "F5H694",
+        "H0Y593",
+        "H0Y7H4",
+        "H0YGV5"
+      ]
+    },
+    {
+      "id": "e7a9e",
+      "geneNames": null,
+      "type": "compound",
+      "x": 559.75,
+      "y": 516.75,
+      "label": "Chloroacetyl chloride",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0060452"
+    },
+    {
+      "id": "eac4c",
+      "geneNames": null,
+      "type": "compound",
+      "x": 999.199811733181,
+      "y": 159.25,
+      "label": "S-(2,2-dichloro-1-hydroxy)-1-ethyl glutathione",
+      "groupId": null,
+      "referenceDatabase": "PubChem-compound",
+      "referenceId": "11954070"
+    },
+    {
+      "id": "ebd0f",
+      "geneNames": null,
+      "type": "compound",
+      "x": 563.0,
+      "y": 159.25,
+      "label": "2,2-Dichloroacetaldehyde",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0060357"
+    },
+    {
+      "id": "d164d",
+      "geneNames": [
+        "CYP2E1"
+      ],
+      "type": "gene_protein",
+      "x": 343.0,
+      "y": 299.25,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000130649",
+      "uniprotAccs": [
+        "P05181",
+        "F5H694",
+        "H0Y593",
+        "H0Y7H4",
+        "H0YGV5"
+      ]
+    },
+    {
+      "id": "d3844",
+      "geneNames": [
+        "glutathione S-transferase"
+      ],
+      "type": "gene_protein",
+      "x": 752.0,
+      "y": 578.75,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "KEGG",
+      "referenceId": "hsa:119391",
+      "uniprotAccs": [
+        "Q9H4Y5"
+      ]
+    },
+    {
+      "id": "c7628",
+      "geneNames": [
+        "CYP2E1"
+      ],
+      "type": "gene_protein",
+      "x": 342.99999999999994,
+      "y": 494.25,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000130649",
+      "uniprotAccs": [
+        "P05181",
+        "F5H694",
+        "H0Y593",
+        "H0Y7H4",
+        "H0YGV5"
+      ]
+    },
+    {
+      "id": "a3af1",
+      "geneNames": [
+        "glutathione S-transferase"
+      ],
+      "type": "gene_protein",
+      "x": 752.0,
+      "y": 242.75,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "KEGG",
+      "referenceId": "hsa:119391",
+      "uniprotAccs": [
+        "Q9H4Y5"
+      ]
+    }
+  ]
+}

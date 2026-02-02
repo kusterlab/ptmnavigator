@@ -1,0 +1,285 @@
+{
+  "pathway": {
+    "name": "WP5228",
+    "org": "Homo sapiens",
+    "title": "Arsenic liver toxicity pathway"
+  },
+  "links": [
+    {
+      "id": "id1c575b66",
+      "sourceId": "ddd32",
+      "targetId": "c9431",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "id34fc3c9b",
+      "sourceId": "a020e",
+      "targetId": "e88fb",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "id418ef43b",
+      "sourceId": "c96ce",
+      "targetId": "a69b3",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "id521a4454",
+      "sourceId": "e91cd",
+      "targetId": "b7cac",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "id53c69955",
+      "sourceId": "b7cac",
+      "targetId": "bd144",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id740cee21",
+      "sourceId": "dd28e",
+      "targetId": "fdf5b",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "id79fe3da0",
+      "sourceId": "bd144",
+      "targetId": "fdf5b",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id85dd04fb",
+      "sourceId": "a020e",
+      "targetId": "c96ce",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "id9e57c941",
+      "sourceId": "c9431",
+      "targetId": "e4ca0",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idb5b59e94",
+      "sourceId": "e88fb",
+      "targetId": "c9431",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idbf001471",
+      "sourceId": "bd144",
+      "targetId": "a58c4",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "idbf05e3c1",
+      "sourceId": "a69b3",
+      "targetId": "b7cac",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ide660b2ca",
+      "sourceId": "fdf5b",
+      "targetId": "e88fb",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ide9b7e31c",
+      "sourceId": "e88fb",
+      "targetId": "c96ce",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ideaaebfdd",
+      "sourceId": "dc9b3",
+      "targetId": "a69b3",
+      "types": [
+        "undefined"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "a020e",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 275.6597556530588,
+      "y": 486.5839619860561,
+      "label": "DNA damage response",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP707"
+    },
+    {
+      "id": "a58c4",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 275.6597556530588,
+      "y": 287.9768591846455,
+      "label": "NRF2 pathway",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP2884"
+    },
+    {
+      "id": "a69b3",
+      "geneNames": null,
+      "type": "misc",
+      "x": 275.6597556530588,
+      "y": 73.69444444444443,
+      "label": "KE1487:Binding, Thiol/seleno-proteins involved in protection against oxidative stress",
+      "groupId": null,
+      "referenceDatabase": "AOP-Wiki KE",
+      "referenceId": "1487"
+    },
+    {
+      "id": "b7cac",
+      "geneNames": null,
+      "type": "misc",
+      "x": 275.6597556530588,
+      "y": 164.12474123081097,
+      "label": "KE1940: Up-regulation of reactive oxygen species",
+      "groupId": null,
+      "referenceDatabase": "AOP-Wiki KE",
+      "referenceId": "1940"
+    },
+    {
+      "id": "bd144",
+      "geneNames": null,
+      "type": "misc",
+      "x": 275.6597556530588,
+      "y": 262.9768591846455,
+      "label": "KE1969: Increased oxidative stress",
+      "groupId": null,
+      "referenceDatabase": "AOP-Wiki KE",
+      "referenceId": "1969"
+    },
+    {
+      "id": "c9431",
+      "geneNames": null,
+      "type": "misc",
+      "x": 275.6597556530588,
+      "y": 568.0129246676444,
+      "label": "KE716: Increase, cell proliferation (hepatocytes)",
+      "groupId": null,
+      "referenceDatabase": "AOP-Wiki KE",
+      "referenceId": "716"
+    },
+    {
+      "id": "c96ce",
+      "geneNames": null,
+      "type": "misc",
+      "x": 419.56656988778946,
+      "y": 461.5839619860561,
+      "label": "KE155: Inadequate DNA repair",
+      "groupId": null,
+      "referenceDatabase": "AOP-Wiki KE",
+      "referenceId": "155"
+    },
+    {
+      "id": "dc9b3",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 275.6597556530588,
+      "y": 98.69444444444443,
+      "label": "Arsenic carcinogenesis - reactive oxygen species",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP5233"
+    },
+    {
+      "id": "dd28e",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 275.6597556530588,
+      "y": 388.18306530466555,
+      "label": "TNF-alpha signaling pathway",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP231"
+    },
+    {
+      "id": "ddd32",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 275.6597556530588,
+      "y": 593.0129246676444,
+      "label": "Cell cycle",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP179"
+    },
+    {
+      "id": "e4ca0",
+      "geneNames": null,
+      "type": "misc",
+      "x": 275.6597556530588,
+      "y": 659.4752584933616,
+      "label": "KE1395: Liver cancer",
+      "groupId": null,
+      "referenceDatabase": "AOP-Wiki KE",
+      "referenceId": "1395"
+    },
+    {
+      "id": "e88fb",
+      "geneNames": null,
+      "type": "misc",
+      "x": 152.84080061052953,
+      "y": 461.5839619860561,
+      "label": "KE1194: Increased DNA damage",
+      "groupId": null,
+      "referenceDatabase": "AOP-Wiki KE",
+      "referenceId": "1194"
+    },
+    {
+      "id": "e91cd",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 275.6597556530588,
+      "y": 189.12474123081097,
+      "label": "Oxidative damage response",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP3941"
+    },
+    {
+      "id": "fdf5b",
+      "geneNames": null,
+      "type": "misc",
+      "x": 275.6597556530588,
+      "y": 363.18306530466555,
+      "label": "KE1894: Chronic low grade systemic inflammation",
+      "groupId": null,
+      "referenceDatabase": "AOP-Wiki KE",
+      "referenceId": "1894"
+    }
+  ]
+}

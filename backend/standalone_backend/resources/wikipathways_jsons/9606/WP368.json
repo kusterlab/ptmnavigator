@@ -1,0 +1,662 @@
+{
+  "pathway": {
+    "name": "WP368",
+    "org": "Homo sapiens",
+    "title": "Mitochondrial long chain fatty acid beta-oxidation"
+  },
+  "links": [
+    {
+      "id": "a13c7",
+      "sourceId": "a4a4c",
+      "targetId": "ceed1",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "a2212",
+      "sourceId": "a8cba",
+      "targetId": "fad",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "aef24",
+      "sourceId": "ba9",
+      "targetId": "b8b2a",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "b8b2a",
+      "sourceId": "f6680",
+      "targetId": "eba97",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "bf7d4",
+      "sourceId": "bb1",
+      "targetId": "c9cc7",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "c04bc",
+      "sourceId": "a42",
+      "targetId": "f90b9",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "c62d7",
+      "sourceId": "b700b",
+      "targetId": "ffb7e",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "c9cc7",
+      "sourceId": "bbe3a",
+      "targetId": "f6680",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "cad4a",
+      "sourceId": "e2d29",
+      "targetId": "df0f1",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "d1157",
+      "sourceId": "a68f6",
+      "targetId": "ee8e7",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "d21c3",
+      "sourceId": "a2212",
+      "targetId": "e27",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "dbeeb",
+      "sourceId": "ceed1",
+      "targetId": "d19e3",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "dc6c7",
+      "sourceId": "e4f",
+      "targetId": "dbeeb",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "dd81f",
+      "sourceId": "c56",
+      "targetId": "a13c7",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "de5dc",
+      "sourceId": "fc8",
+      "targetId": "df27a",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "df0f1",
+      "sourceId": "f129e",
+      "targetId": "a4a4c",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "df27a",
+      "sourceId": "fd93b",
+      "targetId": "bbe3a",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "e9db6",
+      "sourceId": "c239f",
+      "targetId": "f6680",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ee8e7",
+      "sourceId": "c239f",
+      "targetId": "fd93b",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "f3039",
+      "sourceId": "fad",
+      "targetId": "c239f",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "f90b9",
+      "sourceId": "d19e3",
+      "targetId": "c239f",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "fe41f",
+      "sourceId": "a3e",
+      "targetId": "a2212",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "ff4c7",
+      "sourceId": "a68f6",
+      "targetId": "e9db6",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "ffb7e",
+      "sourceId": "eba97",
+      "targetId": "a8cba",
+      "types": [
+        "activation"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "a3a",
+      "geneNames": [
+        "ACSL4"
+      ],
+      "type": "gene_protein",
+      "x": 484.0,
+      "y": 130.0,
+      "label": null,
+      "groupId": "e2d29",
+      "referenceDatabase": "GeneID",
+      "referenceId": "2182",
+      "uniprotAccs": [
+        "O60488",
+        "Q8TAF6"
+      ]
+    },
+    {
+      "id": "a3e",
+      "geneNames": [
+        "SCP2"
+      ],
+      "type": "gene_protein",
+      "x": 412.6666666666667,
+      "y": 685.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "6342",
+      "uniprotAccs": [
+        "P22307",
+        "A0A384NY87",
+        "B2R761",
+        "E9PLD1",
+        "Q59HG9"
+      ]
+    },
+    {
+      "id": "a42",
+      "geneNames": [
+        "CPT2"
+      ],
+      "type": "gene_protein",
+      "x": 473.0,
+      "y": 338.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "1376",
+      "uniprotAccs": [
+        "P23786",
+        "A0A140VK13",
+        "A0A1B0GTB8"
+      ]
+    },
+    {
+      "id": "a4a4c",
+      "geneNames": null,
+      "type": "compound",
+      "x": 406.5,
+      "y": 167.0,
+      "label": "Long chain Acyl-CoA",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:83139"
+    },
+    {
+      "id": "a8cba",
+      "geneNames": null,
+      "type": "compound",
+      "x": 620.0,
+      "y": 690.0,
+      "label": "3-Ketoacyl-CoA",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:57347"
+    },
+    {
+      "id": "ba9",
+      "geneNames": [
+        "EHHADH"
+      ],
+      "type": "gene_protein",
+      "x": 680.3333333333334,
+      "y": 573.6666666666666,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "1962",
+      "uniprotAccs": [
+        "Q08426"
+      ]
+    },
+    {
+      "id": "bac",
+      "geneNames": [
+        "ACSL1"
+      ],
+      "type": "gene_protein",
+      "x": 485.7985611510791,
+      "y": 70.0,
+      "label": null,
+      "groupId": "e2d29",
+      "referenceDatabase": "GeneID",
+      "referenceId": "2180",
+      "uniprotAccs": [
+        "P33121",
+        "A8K9T3",
+        "B4E0R0",
+        "E7EPM6"
+      ]
+    },
+    {
+      "id": "bb1",
+      "geneNames": [
+        "DCI"
+      ],
+      "type": "gene_protein",
+      "x": 350.0,
+      "y": 516.6666666666666,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "1632",
+      "uniprotAccs": [
+        "P42126",
+        "A0A384NKJ3"
+      ]
+    },
+    {
+      "id": "bbe3a",
+      "geneNames": null,
+      "type": "compound",
+      "x": 322.5,
+      "y": 614.0,
+      "label": "cis-D3-Enoyl-CoA",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "bd1",
+      "geneNames": [
+        "ACADS"
+      ],
+      "type": "gene_protein",
+      "x": 461.0,
+      "y": 476.0,
+      "label": null,
+      "groupId": "a68f6",
+      "referenceDatabase": "GeneID",
+      "referenceId": "35",
+      "uniprotAccs": [
+        "P16219",
+        "B4DUH1",
+        "E5KSD5",
+        "E9PE82"
+      ]
+    },
+    {
+      "id": "bd8",
+      "geneNames": [
+        "HADHA"
+      ],
+      "type": "gene_protein",
+      "x": 682.3333333333334,
+      "y": 654.6666666666666,
+      "label": null,
+      "groupId": "b700b",
+      "referenceDatabase": "GeneID",
+      "referenceId": "3030",
+      "uniprotAccs": [
+        "P40939",
+        "E9KL44"
+      ]
+    },
+    {
+      "id": "c239f",
+      "geneNames": null,
+      "type": "compound",
+      "x": 406.5,
+      "y": 376.0,
+      "label": "Long chain Acyl-CoA",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "c56",
+      "geneNames": [
+        "CPT1A"
+      ],
+      "type": "gene_protein",
+      "x": 467.0,
+      "y": 195.66666666666666,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "1374",
+      "uniprotAccs": [
+        "P50416",
+        "B2RAQ8",
+        "Q8WZ48"
+      ]
+    },
+    {
+      "id": "c72",
+      "geneNames": [
+        "ACSL2"
+      ],
+      "type": "gene_protein",
+      "x": 484.0,
+      "y": 90.0,
+      "label": null,
+      "groupId": "e2d29",
+      "referenceDatabase": "GeneID",
+      "referenceId": "80221",
+      "uniprotAccs": [
+        "Q96CM8",
+        "B4DTB9",
+        "E9PF16"
+      ]
+    },
+    {
+      "id": "c85",
+      "geneNames": [
+        "ACSL3"
+      ],
+      "type": "gene_protein",
+      "x": 484.0,
+      "y": 110.0,
+      "label": null,
+      "groupId": "e2d29",
+      "referenceDatabase": "GeneID",
+      "referenceId": "2181",
+      "uniprotAccs": [
+        "O95573"
+      ]
+    },
+    {
+      "id": "ceed1",
+      "geneNames": null,
+      "type": "compound",
+      "x": 406.0,
+      "y": 234.0,
+      "label": "Long chain acyl-carnitine",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "d0f",
+      "geneNames": [
+        "ACADL"
+      ],
+      "type": "gene_protein",
+      "x": 461.0,
+      "y": 439.3333333333333,
+      "label": null,
+      "groupId": "a68f6",
+      "referenceDatabase": "GeneID",
+      "referenceId": "33",
+      "uniprotAccs": [
+        "P28330"
+      ]
+    },
+    {
+      "id": "d19e3",
+      "geneNames": null,
+      "type": "compound",
+      "x": 406.0,
+      "y": 310.0,
+      "label": "Long chain acyl-carnitine",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "d6a",
+      "geneNames": [
+        "ACADM"
+      ],
+      "type": "gene_protein",
+      "x": 461.0,
+      "y": 459.3333333333333,
+      "label": null,
+      "groupId": "a68f6",
+      "referenceDatabase": "GeneID",
+      "referenceId": "34",
+      "uniprotAccs": [
+        "P11310",
+        "A0A0S2Z366",
+        "B4DJE7",
+        "B7Z9I1",
+        "Q5HYG7",
+        "Q5T4U5"
+      ]
+    },
+    {
+      "id": "dd6",
+      "geneNames": [
+        "ACADVL"
+      ],
+      "type": "gene_protein",
+      "x": 461.0,
+      "y": 419.3333333333333,
+      "label": null,
+      "groupId": "a68f6",
+      "referenceDatabase": "GeneID",
+      "referenceId": "37",
+      "uniprotAccs": [
+        "P49748",
+        "B3KPA6"
+      ]
+    },
+    {
+      "id": "df2",
+      "geneNames": [
+        "HADHSC"
+      ],
+      "type": "gene_protein",
+      "x": 682.3333333333334,
+      "y": 634.6666666666666,
+      "label": null,
+      "groupId": "b700b",
+      "referenceDatabase": "GeneID",
+      "referenceId": "3033",
+      "uniprotAccs": [
+        "Q16836",
+        "A0A140VK76",
+        "B3KTT6"
+      ]
+    },
+    {
+      "id": "e27",
+      "geneNames": null,
+      "type": "compound",
+      "x": 196.66666666666666,
+      "y": 677.0,
+      "label": "Acetyl-CoA",
+      "groupId": null,
+      "referenceDatabase": "CAS",
+      "referenceId": "72-89-9"
+    },
+    {
+      "id": "e4f",
+      "geneNames": [
+        "SLC25A20"
+      ],
+      "type": "gene_protein",
+      "x": 483.0,
+      "y": 266.3333333333333,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "788",
+      "uniprotAccs": [
+        "O43772"
+      ]
+    },
+    {
+      "id": "eba97",
+      "geneNames": null,
+      "type": "compound",
+      "x": 620.0,
+      "y": 610.0,
+      "label": "3-L-Hydroxyacyl-CoA",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "f129e",
+      "geneNames": null,
+      "type": "compound",
+      "x": 406.5,
+      "y": 35.0,
+      "label": "Long Chain Fatty Acid",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:15904"
+    },
+    {
+      "id": "f6680",
+      "geneNames": null,
+      "type": "compound",
+      "x": 620.0,
+      "y": 546.0,
+      "label": "trans-D2-Enoyl-CoA",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:10723"
+    },
+    {
+      "id": "fad",
+      "geneNames": null,
+      "type": "compound",
+      "x": 131.33333333333331,
+      "y": 651.0,
+      "label": "Acyl-CoA (n-2)",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:17984"
+    },
+    {
+      "id": "fc8",
+      "geneNames": [
+        "PECR"
+      ],
+      "type": "gene_protein",
+      "x": 174.66666666666666,
+      "y": 593.6666666666666,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "55825",
+      "uniprotAccs": [
+        "Q9BY49"
+      ]
+    },
+    {
+      "id": "fd93b",
+      "geneNames": null,
+      "type": "compound",
+      "x": 230.0,
+      "y": 546.0,
+      "label": "2,4 Dienoyl-CoA",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "a68f6",
+      "type": "group",
+      "components": [
+        "bd1",
+        "d0f",
+        "d6a",
+        "dd6"
+      ]
+    },
+    {
+      "id": "b700b",
+      "type": "group",
+      "components": [
+        "bd8",
+        "df2"
+      ]
+    },
+    {
+      "id": "e2d29",
+      "type": "group",
+      "components": [
+        "a3a",
+        "bac",
+        "c72",
+        "c85"
+      ]
+    }
+  ]
+}

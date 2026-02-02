@@ -1,0 +1,282 @@
+{
+  "pathway": {
+    "name": "WP5256",
+    "org": "Homo sapiens",
+    "title": "COVID-19 and endothelial cell senescence"
+  },
+  "links": [
+    {
+      "id": "id402ab7a3",
+      "sourceId": "c7d93",
+      "targetId": "dc277",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id5ee290e4",
+      "sourceId": "b51e8",
+      "targetId": "c3547",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id72dcf03a",
+      "sourceId": "b7f91",
+      "targetId": "c7d93",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idb1b532",
+      "sourceId": "c4b9f",
+      "targetId": "b8d28",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idca541aa",
+      "sourceId": "bef69",
+      "targetId": "d35b0",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idd9091555",
+      "sourceId": "d0146",
+      "targetId": "dc277",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idfdb6485f",
+      "sourceId": "b7f91",
+      "targetId": "d0146",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "eac76",
+      "sourceId": "c4b9f",
+      "targetId": "b5baa",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "d59be",
+      "sourceId": "d35b0",
+      "targetId": "c0b48",
+      "types": [
+        "activation"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "b8d28",
+      "geneNames": [
+        "IL17RA"
+      ],
+      "type": "gene_protein",
+      "x": 75.16666666666674,
+      "y": 229.6666666666659,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000177663",
+      "uniprotAccs": [
+        "Q96F46",
+        "A0A8Q3WK71",
+        "A0A8Q3WKC6"
+      ]
+    },
+    {
+      "id": "c0b48",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 524.5,
+      "y": 361.7049701046338,
+      "label": "STING pathway in \nKawasaki-like disease and COVID-19",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP4961"
+    },
+    {
+      "id": "d0146",
+      "geneNames": [
+        "ANO6"
+      ],
+      "type": "gene_protein",
+      "x": 287.7083333333341,
+      "y": 240.0833333333331,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000177119",
+      "uniprotAccs": [
+        "Q4KMQ2",
+        "A0A7P0T8Y2",
+        "A0A7P0TAF4",
+        "A0A7P0TAW4",
+        "A0A7P0TBC5",
+        "A0A7P0TBD5",
+        "A0A7P0TBI1",
+        "F8VX71"
+      ]
+    },
+    {
+      "id": "e5059",
+      "geneNames": [
+        "IL17A"
+      ],
+      "type": "gene_protein",
+      "x": 70.50000000000023,
+      "y": 144.58333333333536,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000112115",
+      "uniprotAccs": [
+        "Q16552"
+      ]
+    },
+    {
+      "id": "c7d93",
+      "geneNames": [
+        "TLR4"
+      ],
+      "type": "gene_protein",
+      "x": 414.964285714295,
+      "y": 248.54081632653066,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "O00206",
+      "uniprotAccs": [
+        "O00206"
+      ]
+    },
+    {
+      "id": "b7f91",
+      "geneNames": [
+        "orf3a"
+      ],
+      "type": "gene_protein",
+      "x": 315.98618406379757,
+      "y": 182.24017306159618,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P0DTC3",
+      "uniprotAccs": [
+        "P0DTC3"
+      ]
+    },
+    {
+      "id": "c4b9f",
+      "geneNames": [
+        "orf8"
+      ],
+      "type": "gene_protein",
+      "x": 143.31951739713116,
+      "y": 144.24017306159584,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P0DTC8",
+      "uniprotAccs": [
+        "P0DTC8"
+      ]
+    },
+    {
+      "id": "b5baa",
+      "geneNames": [
+        "IL17RC"
+      ],
+      "type": "gene_protein",
+      "x": 161.1666666666663,
+      "y": 230.3333333333327,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000163702",
+      "uniprotAccs": [
+        "Q8NAC3",
+        "A0A8Q3SIU5",
+        "A0A8Q3SIV5",
+        "A0A8Q3SJ01",
+        "A0A8Q3SJ19",
+        "A0A8Q3SJ22",
+        "A0A8Q3SJ28",
+        "A0A8Q3SJ61",
+        "A0A8Q3SJJ9",
+        "A0A8Q3WLK3",
+        "A0A8Q3WLK4",
+        "A0A8Q3WLP4",
+        "A0A8Q3WM30",
+        "A8K3Q5",
+        "B4DI24",
+        "C9JSZ3",
+        "C9K0M1",
+        "F6X4Z5",
+        "F8WB43",
+        "F8WC09",
+        "F8WD65",
+        "F8WE27",
+        "F8WEG5",
+        "G3V177",
+        "Q8N2D7"
+      ]
+    },
+    {
+      "id": "b51e8",
+      "geneNames": [
+        "nsp4"
+      ],
+      "type": "gene_protein",
+      "x": 330.9861840637975,
+      "y": 111.74504282440631,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "PRO_0000449622",
+      "uniprotAccs": [
+        "PRO_0000449622"
+      ]
+    },
+    {
+      "id": "bef69",
+      "geneNames": null,
+      "type": "misc",
+      "x": 524.7637035611386,
+      "y": 142.75,
+      "label": "mitochondrial dysfunction",
+      "groupId": null
+    },
+    {
+      "id": "dc277",
+      "geneNames": null,
+      "type": "misc",
+      "x": 304.16666666666686,
+      "y": 382.99999999999994,
+      "label": "Endothelial cell senescence",
+      "groupId": null
+    },
+    {
+      "id": "d35b0",
+      "geneNames": null,
+      "type": "misc",
+      "x": 524.7637035611386,
+      "y": 275.49327354260083,
+      "label": "cytokines",
+      "groupId": null
+    }
+  ]
+}

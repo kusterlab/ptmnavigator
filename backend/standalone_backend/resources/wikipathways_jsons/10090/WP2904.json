@@ -1,0 +1,266 @@
+{
+  "pathway": {
+    "name": "WP2904",
+    "org": "Mus musculus",
+    "title": "miR302-367 promoting cardiomyocyte proliferation"
+  },
+  "links": [
+    {
+      "id": "id8d43a952",
+      "sourceId": "b407b",
+      "targetId": "d40ad",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id928c04bb",
+      "sourceId": "b407b",
+      "targetId": "bcd51",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "ida3e384f1",
+      "sourceId": "b407b",
+      "targetId": "a07fb",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "ida843ba0e",
+      "sourceId": "fdca1",
+      "targetId": "be7bc",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "id8b773749",
+      "sourceId": "fdca1",
+      "targetId": "e3852",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id1118fa77",
+      "sourceId": "b7cd2",
+      "targetId": "id8b773749",
+      "types": [
+        "stimulation"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "d40ad",
+      "geneNames": [
+        "Mst1"
+      ],
+      "type": "gene_protein",
+      "x": 315.02469135802494,
+      "y": 109.84259259259268,
+      "label": null,
+      "groupId": "b7cd2",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000032591",
+      "uniprotAccs": [
+        "P26928",
+        "A0A0A6YWW4",
+        "E0CXN0",
+        "F7C0X2"
+      ]
+    },
+    {
+      "id": "a4962",
+      "geneNames": [
+        "Mir302b"
+      ],
+      "type": "gene_protein",
+      "x": 547.0246913580235,
+      "y": 126.83249158249158,
+      "label": null,
+      "groupId": "b407b",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000076252",
+      "uniprotAccs": null
+    },
+    {
+      "id": "ae739",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 315.02469135802494,
+      "y": 156.59259259259284,
+      "label": "Hippo pathway",
+      "groupId": "b7cd2",
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "fdca1",
+      "geneNames": [
+        "Yap"
+      ],
+      "type": "gene_protein",
+      "x": 434.62973337483015,
+      "y": 358.84259259259284,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P46938",
+      "uniprotAccs": [
+        "P46938"
+      ]
+    },
+    {
+      "id": "be7bc",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 434.6297333748278,
+      "y": 450.5232648615011,
+      "label": "Cell proliferation and survival",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "bcd51",
+      "geneNames": [
+        "Lats2"
+      ],
+      "type": "gene_protein",
+      "x": 315.02469135802494,
+      "y": 165.84259259259247,
+      "label": null,
+      "groupId": "b7cd2",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000021959",
+      "uniprotAccs": [
+        "Q7TSJ6",
+        "G3UWQ0",
+        "G3UXX1",
+        "G3UY78",
+        "G3UYM3",
+        "G3UZ29",
+        "Q8VHE1",
+        "Q8VHE2"
+      ]
+    },
+    {
+      "id": "a07fb",
+      "geneNames": [
+        "Mob1b"
+      ],
+      "type": "gene_protein",
+      "x": 315.02469135802494,
+      "y": 220.84259259259247,
+      "label": null,
+      "groupId": "b7cd2",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000006262",
+      "uniprotAccs": [
+        "Q8BPB0",
+        "Q3UDM0"
+      ]
+    },
+    {
+      "id": "f82b6",
+      "geneNames": [
+        "Mir302c"
+      ],
+      "type": "gene_protein",
+      "x": 547.0246913580235,
+      "y": 146.83249158249146,
+      "label": null,
+      "groupId": "b407b",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000065482",
+      "uniprotAccs": null
+    },
+    {
+      "id": "e6474",
+      "geneNames": [
+        "Mir302a"
+      ],
+      "type": "gene_protein",
+      "x": 547.0246913580235,
+      "y": 166.83249158249146,
+      "label": null,
+      "groupId": "b407b",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000065552",
+      "uniprotAccs": null
+    },
+    {
+      "id": "f44b4",
+      "geneNames": [
+        "Mir302d"
+      ],
+      "type": "gene_protein",
+      "x": 547.0246913580235,
+      "y": 186.83249158249146,
+      "label": null,
+      "groupId": "b407b",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000065447",
+      "uniprotAccs": null
+    },
+    {
+      "id": "e0a6b",
+      "geneNames": [
+        "Mir367"
+      ],
+      "type": "gene_protein",
+      "x": 547.0246913580235,
+      "y": 206.83249158249146,
+      "label": null,
+      "groupId": "b407b",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000065413",
+      "uniprotAccs": null
+    },
+    {
+      "id": "e3852",
+      "geneNames": [
+        "Yap"
+      ],
+      "type": "gene_protein",
+      "x": 184.62973337483052,
+      "y": 358.84259259259284,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P46938",
+      "states": [
+        "P"
+      ],
+      "uniprotAccs": [
+        "P46938"
+      ]
+    },
+    {
+      "id": "b407b",
+      "type": "group",
+      "components": [
+        "a4962",
+        "f82b6",
+        "e6474",
+        "f44b4",
+        "e0a6b"
+      ]
+    },
+    {
+      "id": "b7cd2",
+      "type": "group",
+      "components": [
+        "d40ad",
+        "ae739",
+        "bcd51",
+        "a07fb"
+      ]
+    }
+  ]
+}

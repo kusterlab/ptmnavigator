@@ -1,0 +1,228 @@
+{
+  "pathway": {
+    "name": "WP3673",
+    "org": "Mus musculus",
+    "title": " Hfe effect on hepcidin production"
+  },
+  "links": [
+    {
+      "id": "id1256c2dc",
+      "sourceId": "a6a6b",
+      "targetId": "ddb43",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id8fa290ea",
+      "sourceId": "ec820",
+      "targetId": "ddb43",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id9c9df73",
+      "sourceId": "ddb43",
+      "targetId": "e377b",
+      "types": [
+        "transcription/translation"
+      ]
+    },
+    {
+      "id": "idd1c2659f",
+      "sourceId": "c3bc3",
+      "targetId": "ddb43",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "ide62e7672",
+      "sourceId": "c714c",
+      "targetId": "id9c9df73",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idf9ab670b",
+      "sourceId": "a4845",
+      "targetId": "c3bc3",
+      "types": [
+        "inhibition"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "a4845",
+      "geneNames": [
+        "Hfe"
+      ],
+      "type": "gene_protein",
+      "x": 63.78303091001911,
+      "y": 138.30555555555554,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000006611",
+      "uniprotAccs": [
+        "P70387",
+        "F7CW53",
+        "Q5SZ87",
+        "Q5SZ91"
+      ]
+    },
+    {
+      "id": "c3bc3",
+      "geneNames": [
+        "Tmprss6"
+      ],
+      "type": "gene_protein",
+      "x": 193.42592592592598,
+      "y": 138.30555555555554,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000016942",
+      "uniprotAccs": [
+        "Q9DBI0",
+        "A0A2R8VHU4",
+        "A0A2R8W6T9",
+        "A0A2R8W6U1"
+      ]
+    },
+    {
+      "id": "ddb43",
+      "geneNames": [
+        "Hfe2"
+      ],
+      "type": "gene_protein",
+      "x": 323.92592592592587,
+      "y": 138.30555555555554,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000038403",
+      "uniprotAccs": [
+        "Q7TQ32"
+      ]
+    },
+    {
+      "id": "e8a48",
+      "geneNames": [
+        "Hamp"
+      ],
+      "type": "gene_protein",
+      "x": 323.9259259259259,
+      "y": 255.78911865205592,
+      "label": null,
+      "groupId": "e377b",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000050440",
+      "uniprotAccs": [
+        "Q9EQ21"
+      ]
+    },
+    {
+      "id": "ec820",
+      "geneNames": [
+        "Bmp6"
+      ],
+      "type": "gene_protein",
+      "x": 323.92592592592587,
+      "y": 60.3055555555556,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000039004",
+      "uniprotAccs": [
+        "P20722",
+        "A0A286YCE8"
+      ]
+    },
+    {
+      "id": "effd0",
+      "geneNames": [
+        "Smad7"
+      ],
+      "type": "gene_protein",
+      "x": 323.9259259259259,
+      "y": 275.7891186520563,
+      "label": null,
+      "groupId": "e377b",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000025880",
+      "uniprotAccs": [
+        "O35253",
+        "G3UX42",
+        "G3UXH8"
+      ]
+    },
+    {
+      "id": "f6fe9",
+      "geneNames": [
+        "Id1"
+      ],
+      "type": "gene_protein",
+      "x": 323.9259259259259,
+      "y": 235.78911865205592,
+      "label": null,
+      "groupId": "e377b",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000042745",
+      "uniprotAccs": [
+        "P20067",
+        "A2AHY3"
+      ]
+    },
+    {
+      "id": "a6a6b",
+      "geneNames": [
+        "Hfe"
+      ],
+      "type": "gene_protein",
+      "x": 467.38748478064497,
+      "y": 138.30555555555554,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000006611",
+      "uniprotAccs": [
+        "P70387",
+        "F7CW53",
+        "Q5SZ87",
+        "Q5SZ91"
+      ]
+    },
+    {
+      "id": "c714c",
+      "geneNames": [
+        "Hfe"
+      ],
+      "type": "gene_protein",
+      "x": 469.38748478064497,
+      "y": 184.24511016849297,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSMUSG00000006611",
+      "uniprotAccs": [
+        "P70387",
+        "F7CW53",
+        "Q5SZ87",
+        "Q5SZ91"
+      ]
+    },
+    {
+      "id": "e377b",
+      "type": "group",
+      "components": [
+        "e8a48",
+        "effd0",
+        "f6fe9"
+      ]
+    }
+  ]
+}

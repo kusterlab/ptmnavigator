@@ -1,0 +1,389 @@
+{
+  "pathway": {
+    "name": "WP1941",
+    "org": "Homo sapiens",
+    "title": "Peroxisomal beta-oxidation of tetracosanoyl-CoA"
+  },
+  "links": [
+    {
+      "id": "id12643bd4",
+      "sourceId": "a3450",
+      "targetId": "ac82d",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id22e34d56",
+      "sourceId": "fe505",
+      "targetId": "id248a5d23",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id248a5d23",
+      "sourceId": "ba539",
+      "targetId": "fc276",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id28d6f8fd",
+      "sourceId": "fdf3b",
+      "targetId": "dce4f",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id2ab1d39b",
+      "sourceId": "id248a5d23",
+      "targetId": "fd764",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id563ea124",
+      "sourceId": "cbed1",
+      "targetId": "c079c",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id701f3d89",
+      "sourceId": "b4e5e",
+      "targetId": "ba539",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id75e3cac4",
+      "sourceId": "b0960",
+      "targetId": "fdf3b",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id8aea186f",
+      "sourceId": "e9292",
+      "targetId": "ac82d",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "ida6d397e9",
+      "sourceId": "ca5db",
+      "targetId": "e8cf2",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "idb69bc2a6",
+      "sourceId": "cf671",
+      "targetId": "fdf3b",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "idd285ec97",
+      "sourceId": "c079c",
+      "targetId": "d5712",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "idd8587197",
+      "sourceId": "ed23c",
+      "targetId": "fdf3b",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "idf3b08bb8",
+      "sourceId": "ab6b5",
+      "targetId": "c079c",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "idf807d3fa",
+      "sourceId": "ae9c7",
+      "targetId": "id248a5d23",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "ac82d",
+      "sourceId": "fc276",
+      "targetId": "efc98",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "c079c",
+      "sourceId": "efc98",
+      "targetId": "e59c0",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "fdf3b",
+      "sourceId": "e59c0",
+      "targetId": "ca5db",
+      "types": [
+        "activation"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "a3450",
+      "geneNames": [
+        "D-bifunctional protein"
+      ],
+      "type": "gene_protein",
+      "x": 485.5,
+      "y": 83.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P51659",
+      "uniprotAccs": [
+        "P51659"
+      ]
+    },
+    {
+      "id": "ab6b5",
+      "geneNames": null,
+      "type": "compound",
+      "x": 590.0,
+      "y": 160.0,
+      "label": "NAD+",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:15846"
+    },
+    {
+      "id": "ae9c7",
+      "geneNames": null,
+      "type": "compound",
+      "x": 145.5,
+      "y": 162.0,
+      "label": "O2",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:15379"
+    },
+    {
+      "id": "b0960",
+      "geneNames": [
+        "Peroxisomal 3-oxoacyl-CoA thiolase"
+      ],
+      "type": "gene_protein",
+      "x": 464.0,
+      "y": 407.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P09110",
+      "uniprotAccs": [
+        "P09110"
+      ]
+    },
+    {
+      "id": "b4e5e",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 113.0,
+      "y": 225.5,
+      "label": "Peroxisomal beta-oxidation\nof hexacosanoyl-CoA",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "ba539",
+      "geneNames": null,
+      "type": "compound",
+      "x": 102.5,
+      "y": 134.0,
+      "label": "tetracosanoyl-CoA",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:52974"
+    },
+    {
+      "id": "ca5db",
+      "geneNames": null,
+      "type": "compound",
+      "x": 297.0,
+      "y": 333.0,
+      "label": "docosanoyl-CoA",
+      "groupId": null,
+      "referenceDatabase": "PubChem-compound",
+      "referenceId": "24892788"
+    },
+    {
+      "id": "cf671",
+      "geneNames": [
+        "Sterol carrier protein X"
+      ],
+      "type": "gene_protein",
+      "x": 464.0,
+      "y": 288.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P22307",
+      "uniprotAccs": [
+        "P22307"
+      ]
+    },
+    {
+      "id": "dce4f",
+      "geneNames": null,
+      "type": "compound",
+      "x": 285.0,
+      "y": 363.0,
+      "label": "acetyl-CoA",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:15351"
+    },
+    {
+      "id": "e8cf2",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 117.5,
+      "y": 333.0,
+      "label": "Peroxisomal beta-oxidation\nof docosanoyl-CoA",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "e9292",
+      "geneNames": null,
+      "type": "compound",
+      "x": 379.0,
+      "y": 161.0,
+      "label": "H2O",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:15377"
+    },
+    {
+      "id": "ed23c",
+      "geneNames": null,
+      "type": "compound",
+      "x": 605.0,
+      "y": 366.0,
+      "label": "CoA-SH",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:15346"
+    },
+    {
+      "id": "efc98",
+      "geneNames": null,
+      "type": "compound",
+      "x": 651.5,
+      "y": 135.0,
+      "label": "3-hydroxytetracosanoyl-CoA",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:52326"
+    },
+    {
+      "id": "fc276",
+      "geneNames": null,
+      "type": "compound",
+      "x": 330.5,
+      "y": 134.0,
+      "label": "(2E)-tetracosenoyl-CoA",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0062231"
+    },
+    {
+      "id": "fd764",
+      "geneNames": null,
+      "type": "compound",
+      "x": 278.125,
+      "y": 162.25,
+      "label": "H2O2",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:16240"
+    },
+    {
+      "id": "fe505",
+      "geneNames": [
+        "Acyl-CoA Oxidase 1"
+      ],
+      "type": "gene_protein",
+      "x": 211.0,
+      "y": 85.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "Q15067",
+      "uniprotAccs": [
+        "Q15067"
+      ]
+    },
+    {
+      "id": "e59c0",
+      "geneNames": null,
+      "type": "compound",
+      "x": 651.0,
+      "y": 337.0,
+      "label": "3-ketotetracosanoyl-CoA",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:52329"
+    },
+    {
+      "id": "cbed1",
+      "geneNames": [
+        "D-bifunctional protein"
+      ],
+      "type": "gene_protein",
+      "x": 752.0,
+      "y": 236.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P51659",
+      "uniprotAccs": [
+        "P51659"
+      ]
+    },
+    {
+      "id": "d5712",
+      "geneNames": null,
+      "type": "compound",
+      "x": 598.0,
+      "y": 309.0,
+      "label": "NADH",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:16908"
+    }
+  ]
+}

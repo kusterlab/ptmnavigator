@@ -1,0 +1,598 @@
+{
+  "pathway": {
+    "name": "WP4883",
+    "org": "Homo sapiens",
+    "title": "SARS-CoV-2 and ACE2 receptor: molecular mechanisms"
+  },
+  "links": [
+    {
+      "id": "id2338925",
+      "sourceId": "aa15f",
+      "targetId": "d3c68",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id27ade87d",
+      "sourceId": "a45e2",
+      "targetId": "bde0d",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id2c3a414b",
+      "sourceId": "c93ee",
+      "targetId": "aa15f",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id2fc925af",
+      "sourceId": "bf1a9",
+      "targetId": "db780",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id3739bd1",
+      "sourceId": "e5d6d",
+      "targetId": "id45cf6f5e",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id4093d262",
+      "sourceId": "c91b1",
+      "targetId": "id695320d0",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id45cf6f5e",
+      "sourceId": "d391a",
+      "targetId": "d23b7",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id501a4bdc",
+      "sourceId": "a0555",
+      "targetId": "c93ee",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "id695320d0",
+      "sourceId": "f53bd",
+      "targetId": "d391a",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id7114ee4c",
+      "sourceId": "d23b7",
+      "targetId": "f6bb2",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "id770baa8e",
+      "sourceId": "d2e3a",
+      "targetId": "bde0d",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id7806bdcd",
+      "sourceId": "bc845",
+      "targetId": "bde0d",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id93eee6dc",
+      "sourceId": "f6bb2",
+      "targetId": "e54de",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id965b8019",
+      "sourceId": "cfdf4",
+      "targetId": "c93ee",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "idb0d71735",
+      "sourceId": "e54de",
+      "targetId": "cfb7f",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "idc649fb6a",
+      "sourceId": "bf1a9",
+      "targetId": "dac5e",
+      "types": [
+        "transcription/translation"
+      ]
+    },
+    {
+      "id": "iddb6a1659",
+      "sourceId": "a8495",
+      "targetId": "bf1a9",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "idf45aaf4a",
+      "sourceId": "e7ec2",
+      "targetId": "a8495",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "a0ca7",
+      "sourceId": "cf757",
+      "targetId": "bde0d",
+      "types": [
+        "inhibition"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "a0555",
+      "geneNames": null,
+      "type": "compound",
+      "x": 781.1344404795511,
+      "y": 732.3849264363072,
+      "label": "Angiotensin 1-9",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:80128"
+    },
+    {
+      "id": "c91b1",
+      "geneNames": [
+        "REN"
+      ],
+      "type": "gene_protein",
+      "x": 1096.5813096936868,
+      "y": 618.8829894880419,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "5972",
+      "uniprotAccs": [
+        "P00797"
+      ]
+    },
+    {
+      "id": "c93ee",
+      "geneNames": [
+        "MAS1"
+      ],
+      "type": "gene_protein",
+      "x": 825.5684688262485,
+      "y": 788.3353730271568,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "4142",
+      "uniprotAccs": [
+        "P04201",
+        "W8W3P4"
+      ]
+    },
+    {
+      "id": "d23b7",
+      "geneNames": null,
+      "type": "compound",
+      "x": 1027.8161851385248,
+      "y": 729.561815110818,
+      "label": "Angiotensin 2",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "2719"
+    },
+    {
+      "id": "d391a",
+      "geneNames": null,
+      "type": "compound",
+      "x": 1027.8161851385248,
+      "y": 658.0618151108182,
+      "label": "Angiotensin 1",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "2718"
+    },
+    {
+      "id": "e5d6d",
+      "geneNames": [
+        "ACE"
+      ],
+      "type": "gene_protein",
+      "x": 1097.9695886208076,
+      "y": 691.8756464060672,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "1636",
+      "uniprotAccs": [
+        "P12821",
+        "B4DKH4"
+      ]
+    },
+    {
+      "id": "f53bd",
+      "geneNames": [
+        "AGT"
+      ],
+      "type": "gene_protein",
+      "x": 1027.8161851385248,
+      "y": 584.7052717683073,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "183",
+      "uniprotAccs": [
+        "P01019",
+        "B0ZBE2",
+        "B2R5S1"
+      ]
+    },
+    {
+      "id": "f6bb2",
+      "geneNames": [
+        "AT1R"
+      ],
+      "type": "gene_protein",
+      "x": 1028.8161851385248,
+      "y": 784.1955194643336,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "185",
+      "uniprotAccs": [
+        "P30556",
+        "A0A0A0MSE3",
+        "D3DNG8",
+        "Q53YY0",
+        "Q6NUP5"
+      ]
+    },
+    {
+      "id": "cfdf4",
+      "geneNames": null,
+      "type": "compound",
+      "x": 892.2739558485019,
+      "y": 732.3849264363071,
+      "label": "Angiotensin 1-7",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:55438"
+    },
+    {
+      "id": "b141b",
+      "geneNames": [
+        "TMPRSS2"
+      ],
+      "type": "gene_protein",
+      "x": 404.4016046593006,
+      "y": 791.2832579459334,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000184012",
+      "uniprotAccs": [
+        "O15393",
+        "A0A7I2V3D1",
+        "A0A7I2V474",
+        "A0A7I2V509",
+        "A0A7I2V5F9",
+        "A0A7I2V5N2",
+        "A0A7I2V650",
+        "A0A7I2YQ98",
+        "C9J5Y1",
+        "C9JB05",
+        "C9JKZ3"
+      ]
+    },
+    {
+      "id": "d2e3a",
+      "geneNames": null,
+      "type": "compound",
+      "x": 770.5852088932478,
+      "y": 241.1602167654123,
+      "label": "ACE2 surface \nreceptor blocker",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:90710"
+    },
+    {
+      "id": "b2ec5",
+      "geneNames": [
+        "Soluble ACE2 "
+      ],
+      "type": "gene_protein",
+      "x": 617.9077462531193,
+      "y": 228.38126745307358,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "59272",
+      "uniprotAccs": [
+        "Q9BYF1"
+      ]
+    },
+    {
+      "id": "a45e2",
+      "geneNames": null,
+      "type": "compound",
+      "x": 398.4900391156157,
+      "y": 294.0853684179781,
+      "label": "TMPRSS2 inhibitor",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:35222"
+    },
+    {
+      "id": "bf1a9",
+      "geneNames": [
+        "ACE2"
+      ],
+      "type": "gene_protein",
+      "x": 652.3408867926238,
+      "y": 790.0851377523172,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "59272",
+      "uniprotAccs": [
+        "Q9BYF1"
+      ]
+    },
+    {
+      "id": "cf757",
+      "geneNames": null,
+      "type": "compound",
+      "x": 819.1122630014638,
+      "y": 297.79348329847824,
+      "label": "ARBs surface \nreceptor blocker",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:90710"
+    },
+    {
+      "id": "dac5e",
+      "geneNames": [
+        "Soluble ACE2"
+      ],
+      "type": "gene_protein",
+      "x": 653.2208742758611,
+      "y": 862.2242495446147,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "59272",
+      "uniprotAccs": [
+        "Q9BYF1"
+      ]
+    },
+    {
+      "id": "ac9d2",
+      "geneNames": null,
+      "type": "misc",
+      "x": 826.314737482965,
+      "y": 854.6197241721953,
+      "label": "Anti-atrophy",
+      "groupId": "aa15f"
+    },
+    {
+      "id": "bc845",
+      "geneNames": null,
+      "type": "misc",
+      "x": 478.34021871202845,
+      "y": 234.29283110571077,
+      "label": "Spike vaccine",
+      "groupId": null
+    },
+    {
+      "id": "d3c68",
+      "geneNames": null,
+      "type": "misc",
+      "x": 825.5684688262486,
+      "y": 1037.7857142857108,
+      "label": "Tissue production",
+      "groupId": null
+    },
+    {
+      "id": "a5938",
+      "geneNames": null,
+      "type": "misc",
+      "x": 826.314737482965,
+      "y": 879.6197241721952,
+      "label": "Anti-fibrosis",
+      "groupId": "aa15f"
+    },
+    {
+      "id": "ff0c1",
+      "geneNames": null,
+      "type": "misc",
+      "x": 826.314737482965,
+      "y": 904.6197241721952,
+      "label": "Anti-Inflammation",
+      "groupId": "aa15f"
+    },
+    {
+      "id": "dfd3c",
+      "geneNames": null,
+      "type": "misc",
+      "x": 826.314737482965,
+      "y": 929.6197241721952,
+      "label": "Anti-oxidant",
+      "groupId": "aa15f"
+    },
+    {
+      "id": "feb8f",
+      "geneNames": null,
+      "type": "misc",
+      "x": 826.314737482965,
+      "y": 954.6197241721952,
+      "label": "Vasodilation",
+      "groupId": "aa15f"
+    },
+    {
+      "id": "ed257",
+      "geneNames": null,
+      "type": "misc",
+      "x": 1028.8161851385248,
+      "y": 855.0539997158046,
+      "label": "Pro-atrophy",
+      "groupId": "e54de"
+    },
+    {
+      "id": "f4a55",
+      "geneNames": null,
+      "type": "misc",
+      "x": 1028.8161851385248,
+      "y": 880.0539997158046,
+      "label": "Pro-fibrosis",
+      "groupId": "e54de"
+    },
+    {
+      "id": "d3c8e",
+      "geneNames": null,
+      "type": "misc",
+      "x": 1028.8161851385248,
+      "y": 905.0539997158045,
+      "label": "Pro-Inflammation",
+      "groupId": "e54de"
+    },
+    {
+      "id": "f0338",
+      "geneNames": null,
+      "type": "misc",
+      "x": 1028.8161851385248,
+      "y": 930.0539997158044,
+      "label": "Pro-oxidant",
+      "groupId": "e54de"
+    },
+    {
+      "id": "e6fd2",
+      "geneNames": null,
+      "type": "misc",
+      "x": 1028.8161851385246,
+      "y": 955.0539997158044,
+      "label": "Vasoconstriction",
+      "groupId": "e54de"
+    },
+    {
+      "id": "fb5f0",
+      "geneNames": null,
+      "type": "misc",
+      "x": 616.0446756364017,
+      "y": 419.2109908386869,
+      "label": "SARS-CoV-2",
+      "groupId": "bde0d"
+    },
+    {
+      "id": "ffc77",
+      "geneNames": null,
+      "type": "misc",
+      "x": 410.760832841642,
+      "y": 689.5359063861861,
+      "label": "SARS-CoV-2",
+      "groupId": "e7ec2"
+    },
+    {
+      "id": "b0481",
+      "geneNames": null,
+      "type": "misc",
+      "x": 626.9938573451949,
+      "y": 649.7351157043444,
+      "label": "SARS-CoV-2",
+      "groupId": "a8495"
+    },
+    {
+      "id": "cfb7f",
+      "geneNames": null,
+      "type": "misc",
+      "x": 1028.816185138525,
+      "y": 1037.785714285711,
+      "label": "Tissue injury",
+      "groupId": null
+    },
+    {
+      "id": "db780",
+      "geneNames": null,
+      "type": "misc",
+      "x": 838.1173704014195,
+      "y": 683.4557368512392,
+      "label": "Accumulation of \nangiotensin",
+      "groupId": null
+    },
+    {
+      "id": "aa15f",
+      "type": "group",
+      "components": [
+        "ac9d2",
+        "a5938",
+        "ff0c1",
+        "dfd3c",
+        "feb8f"
+      ]
+    },
+    {
+      "id": "bde0d",
+      "type": "group",
+      "components": [
+        "fb5f0"
+      ]
+    },
+    {
+      "id": "e54de",
+      "type": "group",
+      "components": [
+        "ed257",
+        "f4a55",
+        "d3c8e",
+        "f0338",
+        "e6fd2"
+      ]
+    },
+    {
+      "id": "e7ec2",
+      "type": "group",
+      "components": [
+        "ffc77"
+      ]
+    },
+    {
+      "id": "a8495",
+      "type": "group",
+      "components": [
+        "b0481"
+      ]
+    }
+  ]
+}

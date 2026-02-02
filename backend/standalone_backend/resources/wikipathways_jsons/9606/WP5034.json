@@ -1,0 +1,446 @@
+{
+  "pathway": {
+    "name": "WP5034",
+    "org": "Homo sapiens",
+    "title": "Mitochondrial complex inhibition leading to liver injury"
+  },
+  "links": [
+    {
+      "id": "id47249d34",
+      "sourceId": "d22b5",
+      "targetId": "a38f7",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "id4bd5488c",
+      "sourceId": "b354b",
+      "targetId": "a584c",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id5beafd0c",
+      "sourceId": "ab446",
+      "targetId": "a584c",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "idc598fd43",
+      "sourceId": "f1bee",
+      "targetId": "ecf49",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ide243fbe0",
+      "sourceId": "a584c",
+      "targetId": "a8569",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "b4b77",
+      "sourceId": "d22fe",
+      "targetId": "b9520",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "ec6a6",
+      "sourceId": "d219a",
+      "targetId": "d1583",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "ebd0f",
+      "sourceId": "b3cd4",
+      "targetId": "b9520",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "bb13b",
+      "sourceId": "a4212",
+      "targetId": "ecf49",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "dc5c7",
+      "sourceId": "ec008",
+      "targetId": "d1583",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "aebc0",
+      "sourceId": "d1583",
+      "targetId": "f1bee",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "fbc4e",
+      "sourceId": "b9520",
+      "targetId": "b354b",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "a10b9",
+      "sourceId": "ecf49",
+      "targetId": "b9520",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "a79ad",
+      "sourceId": "fd1e8",
+      "targetId": "a38f7",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "bf237",
+      "sourceId": "d4887",
+      "targetId": "bbf69",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "a0782",
+      "sourceId": "e8d03",
+      "targetId": "fed90",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "c1123",
+      "sourceId": "de04e",
+      "targetId": "bbf69",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "ac323",
+      "sourceId": "bbf69",
+      "targetId": "f1bee",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "d5054",
+      "sourceId": "a38f7",
+      "targetId": "f1bee",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "a805c",
+      "sourceId": "fed90",
+      "targetId": "f1bee",
+      "types": [
+        "activation"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "f1bee",
+      "geneNames": null,
+      "type": "misc",
+      "x": 626.3726731726308,
+      "y": 325.38167938931315,
+      "label": "KE1545: Decrease in mitochondrial phosphorylation",
+      "groupId": null,
+      "referenceDatabase": "AOP-Wiki KE",
+      "referenceId": "1545"
+    },
+    {
+      "id": "ec008",
+      "geneNames": null,
+      "type": "misc",
+      "x": 163.68601637593437,
+      "y": 123.12982543685125,
+      "label": "KE888: Binding of inhibitor, \nNADH-ubiquinone oxidoreductase (complex I)",
+      "groupId": null,
+      "referenceDatabase": "AOP-Wiki KE",
+      "referenceId": "888"
+    },
+    {
+      "id": "d219a",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 162.7318179026518,
+      "y": 233.84219080565717,
+      "label": "Assembly of mitochondrial complex I",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP4324"
+    },
+    {
+      "id": "b3cd4",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 626.9320808627649,
+      "y": 490.4722222222212,
+      "label": "Impaired proteostasis",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP4918"
+    },
+    {
+      "id": "d22fe",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 626.9320808627647,
+      "y": 515.4722222222213,
+      "label": "Unfolded protein response",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP4925"
+    },
+    {
+      "id": "d1583",
+      "geneNames": null,
+      "type": "misc",
+      "x": 162.73181790265184,
+      "y": 203.59219080565717,
+      "label": "KE887: Inhibition, \nNADH-ubiquinone oxidoreductase (complex I)",
+      "groupId": null,
+      "referenceDatabase": "AOP-Wiki KE",
+      "referenceId": "887"
+    },
+    {
+      "id": "ecf49",
+      "geneNames": null,
+      "type": "misc",
+      "x": 626.9320808627647,
+      "y": 386.16969414588095,
+      "label": "KE177: N/A, Mitochondrial dysfunction 1",
+      "groupId": null,
+      "referenceDatabase": "AOP-Wiki KE",
+      "referenceId": "177"
+    },
+    {
+      "id": "b9520",
+      "geneNames": null,
+      "type": "misc",
+      "x": 626.9320808627617,
+      "y": 465.22222222222126,
+      "label": "KE889: Impaired proteostasis ",
+      "groupId": null,
+      "referenceDatabase": "AOP-Wiki KE",
+      "referenceId": "889"
+    },
+    {
+      "id": "f7b08",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 627.2474834516726,
+      "y": 640.865581255336,
+      "label": "Autophagy",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP4923"
+    },
+    {
+      "id": "a0c27",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 627.2474834516656,
+      "y": 615.865581255336,
+      "label": "Necrosis",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP5022"
+    },
+    {
+      "id": "b548d",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 627.2474834516726,
+      "y": 590.865581255336,
+      "label": "Apoptosis",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP1772"
+    },
+    {
+      "id": "f7da8",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 627.2474834516727,
+      "y": 665.865581255336,
+      "label": "Ferroptosis",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP4313"
+    },
+    {
+      "id": "b354b",
+      "geneNames": null,
+      "type": "misc",
+      "x": 627.2474834516654,
+      "y": 565.615581255336,
+      "label": "KE55: N/A, Cell injury/death\n",
+      "groupId": null,
+      "referenceDatabase": "AOP-Wiki KE",
+      "referenceId": "55"
+    },
+    {
+      "id": "a4212",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 626.9320808627638,
+      "y": 411.669694145881,
+      "label": "Electron transport chain (oxidative phosphorylation)",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP111"
+    },
+    {
+      "id": "a8569",
+      "geneNames": null,
+      "type": "misc",
+      "x": 624.0678521457294,
+      "y": 807.5394520111223,
+      "label": "KE1549: Liver injury",
+      "groupId": null,
+      "referenceDatabase": "AOP-Wiki KE",
+      "referenceId": "1549"
+    },
+    {
+      "id": "a584c",
+      "geneNames": null,
+      "type": "misc",
+      "x": 625.3816793893127,
+      "y": 718.6946741998897,
+      "label": "KE1548: Necrotic tissue",
+      "groupId": null,
+      "referenceDatabase": "AOP-Wiki KE",
+      "referenceId": "1548"
+    },
+    {
+      "id": "ab446",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 625.3816793893127,
+      "y": 743.6946741998897,
+      "label": "Necrosis",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP5022"
+    },
+    {
+      "id": "a38f7",
+      "geneNames": null,
+      "type": "misc",
+      "x": 762.804173475183,
+      "y": 203.59219080565717,
+      "label": "KE1543: Mitochondrial complex IV inhibition",
+      "groupId": null,
+      "referenceDatabase": "AOP-Wiki KE",
+      "referenceId": "1543"
+    },
+    {
+      "id": "fd1e8",
+      "geneNames": null,
+      "type": "misc",
+      "x": 763.3552851260812,
+      "y": 123.12982543685126,
+      "label": "KE1654: Binding of inhibitor to \nmitochondrial complex IV",
+      "groupId": null,
+      "referenceDatabase": "AOP-Wiki KE",
+      "referenceId": "1654"
+    },
+    {
+      "id": "bbf69",
+      "geneNames": null,
+      "type": "misc",
+      "x": 474.49711459192287,
+      "y": 203.59219080565717,
+      "label": "KE1542: Mitochondrial complex III antagonism",
+      "groupId": null,
+      "referenceDatabase": "AOP-Wiki KE",
+      "referenceId": "1542"
+    },
+    {
+      "id": "d4887",
+      "geneNames": null,
+      "type": "misc",
+      "x": 474.92164951190216,
+      "y": 123.12982543685126,
+      "label": "KE1653: Binding of inhibitor to \nmitochondrial complex III",
+      "groupId": null,
+      "referenceDatabase": "AOP-Wiki KE",
+      "referenceId": "1653"
+    },
+    {
+      "id": "fed90",
+      "geneNames": null,
+      "type": "misc",
+      "x": 1049.9105213729622,
+      "y": 203.59219080565717,
+      "label": "KE1544: Mitochondrial complex V inhibition",
+      "groupId": null,
+      "referenceDatabase": "AOP-Wiki KE",
+      "referenceId": "1544"
+    },
+    {
+      "id": "e8d03",
+      "geneNames": null,
+      "type": "misc",
+      "x": 1050.4616330238568,
+      "y": 123.12982543685123,
+      "label": "KE1655: Binding of inhibitor to \nmitochondrial complex V",
+      "groupId": null,
+      "referenceDatabase": "AOP-Wiki KE",
+      "referenceId": "1655"
+    },
+    {
+      "id": "de04e",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 474.37053786100114,
+      "y": 228.59219080565717,
+      "label": "Assembly of mitochondrial complex III",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP4921"
+    },
+    {
+      "id": "d22b5",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 762.8041734751779,
+      "y": 229.30942081390134,
+      "label": "Assembly of mitochondrial complex IV",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP4922"
+    }
+  ]
+}

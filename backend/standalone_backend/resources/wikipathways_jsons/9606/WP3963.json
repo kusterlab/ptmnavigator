@@ -1,0 +1,402 @@
+{
+  "pathway": {
+    "name": "WP3963",
+    "org": "Homo sapiens",
+    "title": "Mevalonate pathway"
+  },
+  "links": [
+    {
+      "id": "id130d18b4",
+      "sourceId": "f5cc1",
+      "targetId": "id6d23e4fa",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id45352e68",
+      "sourceId": "cd016",
+      "targetId": "id8b8a1591",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id49ca6ea1",
+      "sourceId": "d14aa",
+      "targetId": "ec8b4",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id6d23e4fa",
+      "sourceId": "de887",
+      "targetId": "e5514",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id71bdfd69",
+      "sourceId": "bbad0",
+      "targetId": "d2364",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id72479340",
+      "sourceId": "d14aa",
+      "targetId": "c1f96",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id8b8a1591",
+      "sourceId": "e5514",
+      "targetId": "d5f97",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id8ec5a415",
+      "sourceId": "b8dcc",
+      "targetId": "ida7a4d1e4",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id94fb3395",
+      "sourceId": "e4f19",
+      "targetId": "idbe76fe32",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "ida7a4d1e4",
+      "sourceId": "a2250",
+      "targetId": "a82dd",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idafb566b4",
+      "sourceId": "ae06f",
+      "targetId": "id71bdfd69",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "idb6b1715d",
+      "sourceId": "b1d73",
+      "targetId": "idda80a8db",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "idbe76fe32",
+      "sourceId": "a82dd",
+      "targetId": "d14aa",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idc21dbaa5",
+      "sourceId": "d2364",
+      "targetId": "de887",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idda80a8db",
+      "sourceId": "d5f97",
+      "targetId": "a2250",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idf1368ea6",
+      "sourceId": "d14aa",
+      "targetId": "c6fb8",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idfba0c2f",
+      "sourceId": "c2ff9",
+      "targetId": "idc21dbaa5",
+      "types": [
+        "catalysis"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "a2250",
+      "geneNames": null,
+      "type": "compound",
+      "x": 429.58813588771767,
+      "y": 301.5752149404757,
+      "label": "(R)-5-diphosphomevalonate",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:15899"
+    },
+    {
+      "id": "a82dd",
+      "geneNames": null,
+      "type": "compound",
+      "x": 429.5881358877178,
+      "y": 450.10479088179125,
+      "label": "Dimethylallyl diphosphate",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:16057"
+    },
+    {
+      "id": "ae06f",
+      "geneNames": [
+        "ACAT2"
+      ],
+      "type": "gene_protein",
+      "x": 204.85398403965957,
+      "y": 100.45431050117799,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000120437",
+      "uniprotAccs": [
+        "Q9BWD1"
+      ]
+    },
+    {
+      "id": "b1d73",
+      "geneNames": [
+        "PMVK"
+      ],
+      "type": "gene_protein",
+      "x": 655.9829967958398,
+      "y": 250.4830270237589,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000163344",
+      "uniprotAccs": [
+        "Q15126"
+      ]
+    },
+    {
+      "id": "b8dcc",
+      "geneNames": [
+        "MVD"
+      ],
+      "type": "gene_protein",
+      "x": 503.2639955262708,
+      "y": 368.73464421739953,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000167508",
+      "uniprotAccs": [
+        "P53602",
+        "H3BP35",
+        "H3BQ47",
+        "H3BRZ1",
+        "H3BVC4"
+      ]
+    },
+    {
+      "id": "bbad0",
+      "geneNames": null,
+      "type": "compound",
+      "x": 89.27002329599486,
+      "y": 159.45460153354193,
+      "label": "Acetyl-CoA",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:15351"
+    },
+    {
+      "id": "c1f96",
+      "geneNames": null,
+      "type": "compound",
+      "x": 429.61926000723975,
+      "y": 699.7044878524449,
+      "label": "Dolichol",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:88766"
+    },
+    {
+      "id": "c2ff9",
+      "geneNames": [
+        "HMGCS1"
+      ],
+      "type": "gene_protein",
+      "x": 478.3864185962152,
+      "y": 98.65574935009965,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000112972",
+      "uniprotAccs": [
+        "Q01581",
+        "D6RIW1"
+      ]
+    },
+    {
+      "id": "c6fb8",
+      "geneNames": null,
+      "type": "compound",
+      "x": 598.9278032129455,
+      "y": 699.7044878524449,
+      "label": "Ubiquinone",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:16389"
+    },
+    {
+      "id": "cd016",
+      "geneNames": [
+        "MVK"
+      ],
+      "type": "gene_protein",
+      "x": 910.7892358382193,
+      "y": 232.64855510549538,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000110921",
+      "uniprotAccs": [
+        "Q03426",
+        "A0A0B4J236",
+        "A0A1B0GWC2",
+        "A0A8V8TMD0",
+        "F5GXC0",
+        "F5H092",
+        "F5H163",
+        "F5H368",
+        "F5H8H2"
+      ]
+    },
+    {
+      "id": "d14aa",
+      "geneNames": null,
+      "type": "compound",
+      "x": 429.58813588771767,
+      "y": 596.338024963275,
+      "label": "Geranyl diphosphate",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:17211"
+    },
+    {
+      "id": "d2364",
+      "geneNames": null,
+      "type": "compound",
+      "x": 357.3026885873505,
+      "y": 159.45460153354193,
+      "label": "Acetoacetyl-CoA",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:15345"
+    },
+    {
+      "id": "d5f97",
+      "geneNames": null,
+      "type": "compound",
+      "x": 840.2639946012025,
+      "y": 301.5752149404757,
+      "label": "(R)-5-phosphomevalonate",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:17436"
+    },
+    {
+      "id": "de887",
+      "geneNames": null,
+      "type": "compound",
+      "x": 592.4439120972113,
+      "y": 158.90754791125076,
+      "label": "HMG-CoA",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:15467"
+    },
+    {
+      "id": "e4f19",
+      "geneNames": [
+        "FDPS"
+      ],
+      "type": "gene_protein",
+      "x": 499.8180128166367,
+      "y": 510.66983556012417,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000160752",
+      "uniprotAccs": [
+        "P14324",
+        "A0A087WTP2",
+        "A0A087WVN4",
+        "A0A087X090",
+        "A0A087X1D8"
+      ]
+    },
+    {
+      "id": "e5514",
+      "geneNames": null,
+      "type": "compound",
+      "x": 839.4922914182491,
+      "y": 159.45460153354196,
+      "label": "mevalonate",
+      "groupId": null,
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q27109878"
+    },
+    {
+      "id": "ec8b4",
+      "geneNames": null,
+      "type": "compound",
+      "x": 267.7938791481488,
+      "y": 699.704487852445,
+      "label": "Cholesterol",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000067"
+    },
+    {
+      "id": "f5cc1",
+      "geneNames": [
+        "HMGCR"
+      ],
+      "type": "gene_protein",
+      "x": 700.6749743062671,
+      "y": 102.40401124478583,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000113161",
+      "uniprotAccs": [
+        "P04035",
+        "A0A7P0TBP1",
+        "A0A7P0Z481",
+        "C9JKX7",
+        "H0Y8F6",
+        "H0Y8K6"
+      ]
+    }
+  ]
+}

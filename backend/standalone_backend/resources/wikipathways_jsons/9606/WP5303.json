@@ -1,0 +1,380 @@
+{
+  "pathway": {
+    "name": "WP5303",
+    "org": "Homo sapiens",
+    "title": "Lacto series sphingolipid metabolism"
+  },
+  "links": [
+    {
+      "id": "id11ce2f7e",
+      "sourceId": "c8ec3",
+      "targetId": "cdc76",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id1841af55",
+      "sourceId": "d06f9",
+      "targetId": "d951c",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id3240683a",
+      "sourceId": "ea1cf",
+      "targetId": "d06f9",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id6453a965",
+      "sourceId": "ea1cf",
+      "targetId": "c8ec3",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id66198412",
+      "sourceId": "d23fa",
+      "targetId": "id8ecf715d",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id7f10db7b",
+      "sourceId": "b836e",
+      "targetId": "id6453a965",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id8ecf715d",
+      "sourceId": "d6e24",
+      "targetId": "c48a8",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "ida9fd2683",
+      "sourceId": "c04c5",
+      "targetId": "idd38fdb0b",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "idc739f638",
+      "sourceId": "c48a8",
+      "targetId": "ea1cf",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "idcbda13c4",
+      "sourceId": "c8ec3",
+      "targetId": "e8fec",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "idcec16ffa",
+      "sourceId": "c8ec3",
+      "targetId": "b4c9a",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "idd38fdb0b",
+      "sourceId": "ea1cf",
+      "targetId": "a8362",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "idd68a64c9",
+      "sourceId": "fa257",
+      "targetId": "idc739f638",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "idda6f564c",
+      "sourceId": "cfebc",
+      "targetId": "id1841af55",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "idec9b4bb4",
+      "sourceId": "cdc76",
+      "targetId": "e9223",
+      "types": [
+        "conversion"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "a5ad2",
+      "geneNames": [
+        "B3GALT1"
+      ],
+      "type": "gene_protein",
+      "x": 420.3480589022757,
+      "y": 254.35073627844713,
+      "label": null,
+      "groupId": "fa257",
+      "referenceDatabase": "Uniprot",
+      "referenceId": "Q9Y5Z6",
+      "uniprotAccs": [
+        "Q9Y5Z6"
+      ]
+    },
+    {
+      "id": "a8362",
+      "geneNames": null,
+      "type": "compound",
+      "x": 522.0883534136545,
+      "y": 452.4765729585009,
+      "label": "Lewis A",
+      "groupId": null,
+      "referenceDatabase": "LIPID MAPS",
+      "referenceId": "LMSP0504AC00"
+    },
+    {
+      "id": "b4c9a",
+      "geneNames": null,
+      "type": "compound",
+      "x": 360.107095046854,
+      "y": 535.4752342704147,
+      "label": "Lewis B",
+      "groupId": null,
+      "referenceDatabase": "LIPID MAPS",
+      "referenceId": "LMSP0504AI00"
+    },
+    {
+      "id": "c48a8",
+      "geneNames": null,
+      "type": "compound",
+      "x": 316.32653061224477,
+      "y": 214.34889216730855,
+      "label": "Lc3Cer",
+      "groupId": null,
+      "referenceDatabase": "LIPID MAPS",
+      "referenceId": "LMSP0504AA00"
+    },
+    {
+      "id": "c8ec3",
+      "geneNames": null,
+      "type": "compound",
+      "x": 191.43239625167337,
+      "y": 451.13788487282494,
+      "label": "Type I H antigen",
+      "groupId": null,
+      "referenceDatabase": "LIPID MAPS",
+      "referenceId": "LMSP0504AD00"
+    },
+    {
+      "id": "cdc76",
+      "geneNames": null,
+      "type": "compound",
+      "x": 57.56358768406939,
+      "y": 535.4752342704146,
+      "label": "Type IA antigen",
+      "groupId": null,
+      "referenceDatabase": "LIPID MAPS",
+      "referenceId": "LMSP0504AF00"
+    },
+    {
+      "id": "cfebc",
+      "geneNames": [
+        "FUT3"
+      ],
+      "type": "gene_protein",
+      "x": 646.5863453815261,
+      "y": 263.7215528781795,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P21217",
+      "uniprotAccs": [
+        "P21217"
+      ]
+    },
+    {
+      "id": "d06f9",
+      "geneNames": null,
+      "type": "compound",
+      "x": 553.9285995522707,
+      "y": 314.87996805147765,
+      "label": "sialyl-lactotetraosylceramide",
+      "groupId": null,
+      "referenceDatabase": "LIPID MAPS",
+      "referenceId": "LMSP0601DK00"
+    },
+    {
+      "id": "d951c",
+      "geneNames": null,
+      "type": "compound",
+      "x": 760.3748326639893,
+      "y": 315.9303882195448,
+      "label": "Sialyl Lewis A",
+      "groupId": null,
+      "referenceDatabase": "LIPID MAPS",
+      "referenceId": "LMSP0601DL00"
+    },
+    {
+      "id": "e1001",
+      "geneNames": [
+        "B3GALT2"
+      ],
+      "type": "gene_protein",
+      "x": 420.3480589022757,
+      "y": 279.35073627844713,
+      "label": null,
+      "groupId": "fa257",
+      "referenceDatabase": "Uniprot",
+      "referenceId": "O43825",
+      "uniprotAccs": [
+        "O43825"
+      ]
+    },
+    {
+      "id": "e1824",
+      "geneNames": [
+        "FUT2"
+      ],
+      "type": "gene_protein",
+      "x": 157.55354752342544,
+      "y": 374.397590361446,
+      "label": null,
+      "groupId": "b836e",
+      "referenceDatabase": "Uniprot",
+      "referenceId": "Q10981",
+      "uniprotAccs": [
+        "Q10981"
+      ]
+    },
+    {
+      "id": "e8fec",
+      "geneNames": null,
+      "type": "compound",
+      "x": 187.41633199464525,
+      "y": 535.4752342704147,
+      "label": "Type IB antigen",
+      "groupId": null,
+      "referenceDatabase": "LIPID MAPS",
+      "referenceId": "LMSP0504AE00"
+    },
+    {
+      "id": "e9223",
+      "geneNames": null,
+      "type": "compound",
+      "x": 62.918340026773734,
+      "y": 650.6024096385543,
+      "label": "A Lewis B",
+      "groupId": null,
+      "referenceDatabase": "LIPID MAPS",
+      "referenceId": "LMSP0504AH00"
+    },
+    {
+      "id": "ea1cf",
+      "geneNames": null,
+      "type": "compound",
+      "x": 315.93038821954485,
+      "y": 315.93038821954485,
+      "label": "Lc4Cer/LM1",
+      "groupId": null,
+      "referenceDatabase": "LIPID MAPS",
+      "referenceId": "LMSP0504AB00"
+    },
+    {
+      "id": "f8664",
+      "geneNames": [
+        "FUT1"
+      ],
+      "type": "gene_protein",
+      "x": 157.55354752342544,
+      "y": 349.39759036144596,
+      "label": null,
+      "groupId": "b836e",
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P19526",
+      "uniprotAccs": [
+        "P19526"
+      ]
+    },
+    {
+      "id": "d6e24",
+      "geneNames": null,
+      "type": "compound",
+      "x": 316.3265306122447,
+      "y": 61.41834842287675,
+      "label": "LacCer",
+      "groupId": null,
+      "referenceDatabase": "LIPID MAPS",
+      "referenceId": "LMSP0501AB00"
+    },
+    {
+      "id": "d23fa",
+      "geneNames": [
+        "B3GNT5"
+      ],
+      "type": "gene_protein",
+      "x": 403.4664032384138,
+      "y": 124.69593208615295,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "Q9BYG0",
+      "uniprotAccs": [
+        "Q9BYG0"
+      ]
+    },
+    {
+      "id": "c04c5",
+      "geneNames": [
+        "FUT3"
+      ],
+      "type": "gene_protein",
+      "x": 502.65116019634183,
+      "y": 369.78636769299465,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P21217",
+      "uniprotAccs": [
+        "P21217"
+      ]
+    },
+    {
+      "id": "b836e",
+      "type": "group",
+      "components": [
+        "e1824",
+        "f8664"
+      ]
+    },
+    {
+      "id": "fa257",
+      "type": "group",
+      "components": [
+        "a5ad2",
+        "e1001"
+      ]
+    }
+  ]
+}

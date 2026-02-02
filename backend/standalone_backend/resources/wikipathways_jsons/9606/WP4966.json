@@ -1,0 +1,357 @@
+{
+  "pathway": {
+    "name": "WP4966",
+    "org": "Homo sapiens",
+    "title": "Fluoroacetic acid toxicity"
+  },
+  "links": [
+    {
+      "id": "id27115e07",
+      "sourceId": "e0672",
+      "targetId": "b14bb",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id4b7bb88d",
+      "sourceId": "fd937",
+      "targetId": "idf88e006d",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id5c0f2e2e",
+      "sourceId": "b14bb",
+      "targetId": "b79c2",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id67c7a54a",
+      "sourceId": "b518f",
+      "targetId": "ide9b9942d",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id94e0bf5e",
+      "sourceId": "f08eb",
+      "targetId": "id5c0f2e2e",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "idbf3af0c2",
+      "sourceId": "e0860",
+      "targetId": "id27115e07",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "idd88060cb",
+      "sourceId": "ab933",
+      "targetId": "b518f",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "ide378a41f",
+      "sourceId": "a6bef",
+      "targetId": "ab933",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "ide8b93ca4",
+      "sourceId": "c0e0f",
+      "targetId": "id5c0f2e2e",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "ide9b9942d",
+      "sourceId": "bb3e8",
+      "targetId": "a4e9e",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "idef798b17",
+      "sourceId": "b518f",
+      "targetId": "ide378a41f",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "idf88e006d",
+      "sourceId": "b79c2",
+      "targetId": "a6bef",
+      "types": [
+        "conversion"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "a4e9e",
+      "geneNames": null,
+      "type": "compound",
+      "x": 301.8934169278999,
+      "y": 565.0,
+      "label": "Isocitric acid",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:30887"
+    },
+    {
+      "id": "ab933",
+      "geneNames": null,
+      "type": "compound",
+      "x": 369.27225291589934,
+      "y": 505.7407914157771,
+      "label": "4-Hydroxy-trans-aconitate",
+      "groupId": null,
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q76106265"
+    },
+    {
+      "id": "b14bb",
+      "geneNames": null,
+      "type": "compound",
+      "x": 369.27225291589934,
+      "y": 198.0,
+      "label": "Fluoroacetic acid",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:30775"
+    },
+    {
+      "id": "b518f",
+      "geneNames": [
+        "Aconitase"
+      ],
+      "type": "gene_protein",
+      "x": 199.42476489028218,
+      "y": 445.70288520564765,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000100412",
+      "uniprotAccs": [
+        "Q99798",
+        "A0A7I2V2Y4",
+        "A0A7I2V3C8",
+        "A0A7I2V3F1",
+        "A0A7I2V3U0",
+        "A0A7I2V3U7",
+        "A0A7I2V499",
+        "A0A7I2V4I8",
+        "A0A7I2V538",
+        "A0A7I2V586",
+        "A0A7I2V5A1",
+        "A0A7I2V5T4",
+        "A0A7I2V5U4",
+        "A0A7I2V5W7",
+        "A0A7I2V614",
+        "A0A7I2V6A6",
+        "A2A274"
+      ]
+    },
+    {
+      "id": "b79c2",
+      "geneNames": null,
+      "type": "compound",
+      "x": 369.2722529158993,
+      "y": 302.92019643953375,
+      "label": "Fluoroacetyl-CoA",
+      "groupId": null,
+      "referenceDatabase": "PubChem-compound",
+      "referenceId": "49859653"
+    },
+    {
+      "id": "bb3e8",
+      "geneNames": null,
+      "type": "compound",
+      "x": 114.89341692789966,
+      "y": 565.0,
+      "label": "Citric acid",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:30769"
+    },
+    {
+      "id": "c0e0f",
+      "geneNames": null,
+      "type": "compound",
+      "x": 505.6138735420503,
+      "y": 211.6230816451813,
+      "label": "Acetate",
+      "groupId": null,
+      "referenceDatabase": "CAS",
+      "referenceId": "71-50-1"
+    },
+    {
+      "id": "d7c89",
+      "geneNames": [
+        "ALDH3A2"
+      ],
+      "type": "gene_protein",
+      "x": 199.42476489028218,
+      "y": 134.639498432602,
+      "label": null,
+      "groupId": "e0860",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000072210",
+      "uniprotAccs": [
+        "P51648",
+        "A0A0D9SGC3",
+        "A0A5F9ZGX4",
+        "A0A5F9ZHI5",
+        "A0A5F9ZHN9",
+        "A0A5F9ZHP6",
+        "A0A5F9ZHZ9",
+        "A0A5F9ZI12",
+        "A0A5K1VW72",
+        "I3L0X1",
+        "I3L1M4",
+        "I3L2W1",
+        "I3L4G6",
+        "J3KTD9",
+        "J3KTG1",
+        "J3QKK9",
+        "J3QQV9",
+        "J3QRD1",
+        "J3QS00",
+        "K7EN73"
+      ]
+    },
+    {
+      "id": "d953f",
+      "geneNames": [
+        "ALDH9A1"
+      ],
+      "type": "gene_protein",
+      "x": 199.42476489028218,
+      "y": 159.63949843260198,
+      "label": null,
+      "groupId": "e0860",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000143149",
+      "uniprotAccs": [
+        "P49189"
+      ]
+    },
+    {
+      "id": "e0672",
+      "geneNames": null,
+      "type": "compound",
+      "x": 369.27225291589934,
+      "y": 60.83261843044659,
+      "label": "Fluoroacetaldehyde",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:14272"
+    },
+    {
+      "id": "ecd72",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 199.28683385579973,
+      "y": 599.5297805642628,
+      "label": "Cytric acid cycle (Krebs cycle)",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP78"
+    },
+    {
+      "id": "f08eb",
+      "geneNames": [
+        "Acetyl-CoA synthetase"
+      ],
+      "type": "gene_protein",
+      "x": 199.42476489028218,
+      "y": 242.93063228974842,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000131069",
+      "uniprotAccs": [
+        "Q9NR19",
+        "B4DEH9",
+        "C9IYL0",
+        "C9J7L5",
+        "C9JXD9",
+        "C9JY31",
+        "F8WBQ7",
+        "F8WC73",
+        "F8WCJ4",
+        "F8WDJ9"
+      ]
+    },
+    {
+      "id": "f2cb5",
+      "geneNames": [
+        "ALDH2"
+      ],
+      "type": "gene_protein",
+      "x": 199.42476489028218,
+      "y": 109.63949843260191,
+      "label": null,
+      "groupId": "e0860",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000111275",
+      "uniprotAccs": [
+        "P05091",
+        "F8VSB0",
+        "S4R3S4"
+      ]
+    },
+    {
+      "id": "fd937",
+      "geneNames": [
+        "Citrate synthase"
+      ],
+      "type": "gene_protein",
+      "x": 199.42476489028246,
+      "y": 341.9895641497854,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "1431",
+      "uniprotAccs": [
+        "O75390"
+      ]
+    },
+    {
+      "id": "a6bef",
+      "geneNames": null,
+      "type": "compound",
+      "x": 369.27225291589934,
+      "y": 396.0,
+      "label": "Fluorocitric acid",
+      "groupId": null,
+      "referenceDatabase": "CAS",
+      "referenceId": "357-89-1"
+    },
+    {
+      "id": "e0860",
+      "type": "group",
+      "components": [
+        "d7c89",
+        "d953f",
+        "f2cb5"
+      ]
+    }
+  ]
+}

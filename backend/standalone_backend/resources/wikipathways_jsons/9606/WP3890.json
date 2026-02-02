@@ -1,0 +1,396 @@
+{
+  "pathway": {
+    "name": "WP3890",
+    "org": "Homo sapiens",
+    "title": "Nanomaterial-induced inflammasome activation"
+  },
+  "links": [
+    {
+      "id": "id31e19899",
+      "sourceId": "a5af2",
+      "targetId": "d9043",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id35e1a91c",
+      "sourceId": "f6aef",
+      "targetId": "e7d9a",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id4908e08e",
+      "sourceId": "e1177",
+      "targetId": "c947b",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id5fed56b9",
+      "sourceId": "c947b",
+      "targetId": "e6b97",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id7c59eff",
+      "sourceId": "fdfa9",
+      "targetId": "d9043",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id81aa4240",
+      "sourceId": "fcf99",
+      "targetId": "d9043",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id8f485b96",
+      "sourceId": "c038a",
+      "targetId": "a5af2",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id95dc76e4",
+      "sourceId": "ad754",
+      "targetId": "c27c4",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id98a10f43",
+      "sourceId": "c947b",
+      "targetId": "ad754",
+      "types": [
+        "transcription/translation"
+      ]
+    },
+    {
+      "id": "id9a1397d8",
+      "sourceId": "fec77",
+      "targetId": "fcf99",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "id9a5da6ad",
+      "sourceId": "c27c4",
+      "targetId": "c904c",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "idaa1229e0",
+      "sourceId": "c87a0",
+      "targetId": "e1177",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "idcf9ce2dc",
+      "sourceId": "fdfa9",
+      "targetId": "c038a",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "iddb8a1656",
+      "sourceId": "d9043",
+      "targetId": "e6b97",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idedb77a59",
+      "sourceId": "e7d9a",
+      "targetId": "e6b97",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idf30ce855",
+      "sourceId": "fec77",
+      "targetId": "fdfa9",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "idf731d80f",
+      "sourceId": "f1d2c",
+      "targetId": "id9a5da6ad",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "idf9e9011a",
+      "sourceId": "f75d5",
+      "targetId": "f1d2c",
+      "types": [
+        "activation"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "ad754",
+      "geneNames": [
+        "IL1B"
+      ],
+      "type": "gene_protein",
+      "x": 177.39066303168147,
+      "y": 478.96623830350353,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000125538",
+      "uniprotAccs": [
+        "P01584",
+        "C9JSC2",
+        "C9JVK0",
+        "C9JWV2"
+      ]
+    },
+    {
+      "id": "b120d",
+      "geneNames": [
+        "NLRP3"
+      ],
+      "type": "gene_protein",
+      "x": 422.7042809677049,
+      "y": 360.9030042116348,
+      "label": null,
+      "groupId": "e6b97",
+      "referenceDatabase": "Uniprot",
+      "referenceId": "A0A024R5Q0",
+      "uniprotAccs": [
+        "A0A024R5Q0"
+      ]
+    },
+    {
+      "id": "c038a",
+      "geneNames": [
+        "CTSB"
+      ],
+      "type": "gene_protein",
+      "x": 261.76133046383404,
+      "y": 198.79955891310127,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "E9PCB3",
+      "uniprotAccs": [
+        "E9PCB3"
+      ]
+    },
+    {
+      "id": "c27c4",
+      "geneNames": [
+        "pro-IL-1b"
+      ],
+      "type": "gene_protein",
+      "x": 466.99250091945754,
+      "y": 478.96623830350364,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P01584",
+      "uniprotAccs": [
+        "P01584"
+      ]
+    },
+    {
+      "id": "c904c",
+      "geneNames": [
+        "IL1B"
+      ],
+      "type": "gene_protein",
+      "x": 610.2446709777159,
+      "y": 478.96623830350353,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P01584",
+      "uniprotAccs": [
+        "P01584"
+      ]
+    },
+    {
+      "id": "c947b",
+      "geneNames": [
+        "NFKB1"
+      ],
+      "type": "gene_protein",
+      "x": 69.04187551560065,
+      "y": 331.96082402475975,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneCards",
+      "referenceId": "NFKB1",
+      "uniprotAccs": [
+        "P19838"
+      ]
+    },
+    {
+      "id": "d9043",
+      "geneNames": null,
+      "type": "compound",
+      "x": 423.2834231331607,
+      "y": 287.6590378550444,
+      "label": "ROS",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:26523"
+    },
+    {
+      "id": "e1177",
+      "geneNames": [
+        "TLR4"
+      ],
+      "type": "gene_protein",
+      "x": 69.04187551560065,
+      "y": 151.21906727002911,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000136869",
+      "uniprotAccs": [
+        "O00206",
+        "A0A2R8Y7P4"
+      ]
+    },
+    {
+      "id": "e7d9a",
+      "geneNames": null,
+      "type": "compound",
+      "x": 562.0013101314536,
+      "y": 189.01376621131058,
+      "label": "Potassium",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000586"
+    },
+    {
+      "id": "f1d2c",
+      "geneNames": [
+        "CASP1"
+      ],
+      "type": "gene_protein",
+      "x": 529.0704374827435,
+      "y": 411.15137050524004,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "H0YEC7",
+      "uniprotAccs": [
+        "H0YEC7"
+      ]
+    },
+    {
+      "id": "f75d5",
+      "geneNames": [
+        "pro-CASP1"
+      ],
+      "type": "gene_protein",
+      "x": 422.7042809677049,
+      "y": 410.903004211635,
+      "label": null,
+      "groupId": "e6b97",
+      "referenceDatabase": "Uniprot",
+      "referenceId": "B4DVD8",
+      "uniprotAccs": [
+        "B4DVD8"
+      ]
+    },
+    {
+      "id": "fbb21",
+      "geneNames": [
+        "ASC"
+      ],
+      "type": "gene_protein",
+      "x": 422.7042809677049,
+      "y": 385.90300421163505,
+      "label": null,
+      "groupId": "e6b97",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000103490",
+      "uniprotAccs": [
+        "Q9ULZ3",
+        "H3BP42"
+      ]
+    },
+    {
+      "id": "fcf99",
+      "geneNames": [
+        "NOX1"
+      ],
+      "type": "gene_protein",
+      "x": 466.0803343157099,
+      "y": 150.06165986262172,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "A6NGA6",
+      "uniprotAccs": [
+        "A6NGA6"
+      ]
+    },
+    {
+      "id": "f6aef",
+      "geneNames": null,
+      "type": "compound",
+      "x": 562.0013101314536,
+      "y": 113.62999341978046,
+      "label": "Potassium",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000586"
+    },
+    {
+      "id": "c87a0",
+      "geneNames": null,
+      "type": "misc",
+      "x": 69.04187551560071,
+      "y": 88.62433862433869,
+      "label": "PAMPs",
+      "groupId": null
+    },
+    {
+      "id": "fec77",
+      "geneNames": null,
+      "type": "misc",
+      "x": 330.5124189471361,
+      "y": 68.79699383403755,
+      "label": "Nanomaterial-Associated Molecular Patterns ",
+      "groupId": null
+    },
+    {
+      "id": "e6b97",
+      "type": "group",
+      "components": [
+        "b120d",
+        "f75d5",
+        "fbb21"
+      ]
+    }
+  ]
+}

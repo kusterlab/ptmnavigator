@@ -1,0 +1,301 @@
+{
+  "pathway": {
+    "name": "WP2816",
+    "org": "Homo sapiens",
+    "title": "Felbamate metabolism"
+  },
+  "links": [
+    {
+      "id": "id1a196c0b",
+      "sourceId": "e0305",
+      "targetId": "ida2793a37",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id3e56aed",
+      "sourceId": "af4ea",
+      "targetId": "idfed6409",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id3f269cae",
+      "sourceId": "fd836",
+      "targetId": "c6700",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id4ed85011",
+      "sourceId": "fff35",
+      "targetId": "idb9efe33e",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id6a66c32a",
+      "sourceId": "d506d",
+      "targetId": "idbc4392ed",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id7c8acb49",
+      "sourceId": "ed054",
+      "targetId": "a51f4",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "ida2793a37",
+      "sourceId": "fd836",
+      "targetId": "fcf5a",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "idb9efe33e",
+      "sourceId": "fd836",
+      "targetId": "f01c5",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "idbc4392ed",
+      "sourceId": "ed054",
+      "targetId": "ea7d2",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "idfed6409",
+      "sourceId": "c6700",
+      "targetId": "ed054",
+      "types": [
+        "conversion"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "a51f4",
+      "geneNames": null,
+      "type": "compound",
+      "x": 725.0,
+      "y": 144.0,
+      "label": "atropaldehyde",
+      "groupId": null,
+      "referenceDatabase": "PubChem-compound",
+      "referenceId": "10312"
+    },
+    {
+      "id": "af4ea",
+      "geneNames": [
+        "1.1.1.1"
+      ],
+      "type": "gene_protein",
+      "x": 612.0,
+      "y": 208.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "EC",
+      "referenceId": "1.1.1.1",
+      "uniprotAccs": [
+        "P11766",
+        "P07327",
+        "P00326",
+        "P28332",
+        "P40394"
+      ]
+    },
+    {
+      "id": "bd51b",
+      "geneNames": [
+        "CYP3A4"
+      ],
+      "type": "gene_protein",
+      "x": 124.0,
+      "y": 202.0,
+      "label": null,
+      "groupId": "e0305",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000160868",
+      "uniprotAccs": [
+        "P08684",
+        "A0A494C0W7",
+        "A0A499FJM4",
+        "C9JBD2",
+        "E7EVM8"
+      ]
+    },
+    {
+      "id": "c6700",
+      "geneNames": null,
+      "type": "compound",
+      "x": 481.5,
+      "y": 274.0,
+      "label": "3-Hydroxy-2-phenylpropyl\ncarbamate",
+      "groupId": null,
+      "referenceDatabase": "Chemspider",
+      "referenceId": "184751"
+    },
+    {
+      "id": "d506d",
+      "geneNames": [
+        "1.2.1.5"
+      ],
+      "type": "gene_protein",
+      "x": 852.0,
+      "y": 208.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "EC",
+      "referenceId": "1.2.1.5",
+      "uniprotAccs": [
+        "P43353",
+        "P30838"
+      ]
+    },
+    {
+      "id": "ea7d2",
+      "geneNames": null,
+      "type": "compound",
+      "x": 973.5,
+      "y": 274.0,
+      "label": "3-carbamoyl-2-phenyl\npropionic acid",
+      "groupId": null,
+      "referenceDatabase": "PubChem-compound",
+      "referenceId": "3025746"
+    },
+    {
+      "id": "ed054",
+      "geneNames": null,
+      "type": "compound",
+      "x": 725.0,
+      "y": 274.0,
+      "label": "3-carbamoyl-2-phenyl\npropionaldehyde",
+      "groupId": null,
+      "referenceDatabase": "PubChem-compound",
+      "referenceId": "21350391"
+    },
+    {
+      "id": "fcf5a",
+      "geneNames": null,
+      "type": "compound",
+      "x": 241.6999969482422,
+      "y": 150.0,
+      "label": "p-hydroxyfelbamate",
+      "groupId": null,
+      "referenceDatabase": "Chemspider",
+      "referenceId": "8096945"
+    },
+    {
+      "id": "fd836",
+      "geneNames": null,
+      "type": "compound",
+      "x": 241.6999969482422,
+      "y": 274.0,
+      "label": "Felbamate",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0015084"
+    },
+    {
+      "id": "f590e",
+      "geneNames": [
+        "CYP2E1"
+      ],
+      "type": "gene_protein",
+      "x": 124.0,
+      "y": 222.0,
+      "label": null,
+      "groupId": "e0305",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000130649",
+      "uniprotAccs": [
+        "P05181",
+        "F5H694",
+        "H0Y593",
+        "H0Y7H4",
+        "H0YGV5"
+      ]
+    },
+    {
+      "id": "fb29a",
+      "geneNames": [
+        "CYP3A4"
+      ],
+      "type": "gene_protein",
+      "x": 126.0,
+      "y": 321.0,
+      "label": null,
+      "groupId": "fff35",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000160868",
+      "uniprotAccs": [
+        "P08684",
+        "A0A494C0W7",
+        "A0A499FJM4",
+        "C9JBD2",
+        "E7EVM8"
+      ]
+    },
+    {
+      "id": "ceb78",
+      "geneNames": [
+        "CYP2E1"
+      ],
+      "type": "gene_protein",
+      "x": 126.0,
+      "y": 341.0,
+      "label": null,
+      "groupId": "fff35",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000130649",
+      "uniprotAccs": [
+        "P05181",
+        "F5H694",
+        "H0Y593",
+        "H0Y7H4",
+        "H0YGV5"
+      ]
+    },
+    {
+      "id": "f01c5",
+      "geneNames": null,
+      "type": "compound",
+      "x": 241.6999969482422,
+      "y": 410.0,
+      "label": "2-hydroxyfelbamate",
+      "groupId": null,
+      "referenceDatabase": "Chemspider",
+      "referenceId": "8575477"
+    },
+    {
+      "id": "e0305",
+      "type": "group",
+      "components": [
+        "bd51b",
+        "f590e"
+      ]
+    },
+    {
+      "id": "fff35",
+      "type": "group",
+      "components": [
+        "fb29a",
+        "ceb78"
+      ]
+    }
+  ]
+}

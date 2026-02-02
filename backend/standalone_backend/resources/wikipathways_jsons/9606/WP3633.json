@@ -1,0 +1,441 @@
+{
+  "pathway": {
+    "name": "WP3633",
+    "org": "Homo sapiens",
+    "title": "Caffeine and theobromine metabolism"
+  },
+  "links": [
+    {
+      "id": "id383afe98",
+      "sourceId": "ece0e",
+      "targetId": "b51be",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id3a458c69",
+      "sourceId": "cd8a3",
+      "targetId": "ida64907bf",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id3cc169",
+      "sourceId": "ece0e",
+      "targetId": "f6007",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id43b59a11",
+      "sourceId": "b51be",
+      "targetId": "e047a",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id57e0be1e",
+      "sourceId": "c4cc8",
+      "targetId": "dc81b",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id590dddb3",
+      "sourceId": "dbd7d",
+      "targetId": "id3cc169",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id69aaf63b",
+      "sourceId": "b947a",
+      "targetId": "c4cc8",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id6d9a034f",
+      "sourceId": "fdb28",
+      "targetId": "id43b59a11",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id74667b56",
+      "sourceId": "f6007",
+      "targetId": "c8b2a",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id7ff5adbb",
+      "sourceId": "f6007",
+      "targetId": "b947a",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id945d0035",
+      "sourceId": "f2665",
+      "targetId": "c4cc8",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id9b289506",
+      "sourceId": "d30ee",
+      "targetId": "a407a",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id9dcf2d96",
+      "sourceId": "b51be",
+      "targetId": "ece0e",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "ida64907bf",
+      "sourceId": "f6007",
+      "targetId": "d30ee",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "ida68ac1c3",
+      "sourceId": "f6007",
+      "targetId": "f2665",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "idb9aabd56",
+      "sourceId": "d6aa3",
+      "targetId": "id7ff5adbb",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "idc733f645",
+      "sourceId": "cd21d",
+      "targetId": "id9b289506",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "idd98c8de5",
+      "sourceId": "f8a74",
+      "targetId": "ida64907bf",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "ide0a7c78f",
+      "sourceId": "e5605",
+      "targetId": "id74667b56",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "ide56cfda3",
+      "sourceId": "da7c9",
+      "targetId": "idfb3b7951",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "idfb3b7951",
+      "sourceId": "b947a",
+      "targetId": "dc28c",
+      "types": [
+        "conversion"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "b51be",
+      "geneNames": null,
+      "type": "compound",
+      "x": 294.15514261019877,
+      "y": 278.18712186689726,
+      "label": "theobromine",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0002825"
+    },
+    {
+      "id": "c4cc8",
+      "geneNames": null,
+      "type": "compound",
+      "x": 637.8565254969749,
+      "y": 306.8280034572171,
+      "label": "Xanthine",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0000292"
+    },
+    {
+      "id": "c8b2a",
+      "geneNames": null,
+      "type": "compound",
+      "x": 465.85998271391526,
+      "y": 22.471910112359552,
+      "label": "AFMU",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:32643"
+    },
+    {
+      "id": "d6aa3",
+      "geneNames": [
+        "CYP1A2"
+      ],
+      "type": "gene_protein",
+      "x": 540.6551426101989,
+      "y": 101.6871218668972,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000140505",
+      "uniprotAccs": [
+        "P05177"
+      ]
+    },
+    {
+      "id": "da7c9",
+      "geneNames": [
+        "XDH"
+      ],
+      "type": "gene_protein",
+      "x": 729.1551426101987,
+      "y": 101.6871218668972,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000158125",
+      "uniprotAccs": [
+        "P47989"
+      ]
+    },
+    {
+      "id": "dbd7d",
+      "geneNames": [
+        "CYP1A2"
+      ],
+      "type": "gene_protein",
+      "x": 548.1551426101987,
+      "y": 222.68712186689706,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000140505",
+      "uniprotAccs": [
+        "P05177"
+      ]
+    },
+    {
+      "id": "dc28c",
+      "geneNames": null,
+      "type": "compound",
+      "x": 836.5548833189282,
+      "y": 162.68712186689703,
+      "label": "1-methyluric acid",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0003099"
+    },
+    {
+      "id": "dc81b",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 810.1642178046669,
+      "y": 306.828003457217,
+      "label": "Purine metabolism",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP4224"
+    },
+    {
+      "id": "e047a",
+      "geneNames": null,
+      "type": "compound",
+      "x": 294.1551426101989,
+      "y": 384.68712186689726,
+      "label": "3,7-dimethyluric acid",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0001982"
+    },
+    {
+      "id": "e5605",
+      "geneNames": [
+        "NAT2"
+      ],
+      "type": "gene_protein",
+      "x": 540.6551426101989,
+      "y": 63.094209161624896,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000156006",
+      "uniprotAccs": [
+        "P11245",
+        "E7EWF9"
+      ]
+    },
+    {
+      "id": "ece0e",
+      "geneNames": null,
+      "type": "compound",
+      "x": 465.65514261019877,
+      "y": 277.68712186689726,
+      "label": "caffeine",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0001847"
+    },
+    {
+      "id": "f6007",
+      "geneNames": null,
+      "type": "compound",
+      "x": 465.6551426101989,
+      "y": 162.68712186689703,
+      "label": "paraxanthine",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0001860"
+    },
+    {
+      "id": "fdb28",
+      "geneNames": [
+        "XDH"
+      ],
+      "type": "gene_protein",
+      "x": 377.1551426101988,
+      "y": 334.68712186689726,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000158125",
+      "uniprotAccs": [
+        "P47989"
+      ]
+    },
+    {
+      "id": "b947a",
+      "geneNames": null,
+      "type": "compound",
+      "x": 641.6551426101987,
+      "y": 162.68712186689703,
+      "label": "1-methylxanthine",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0010738"
+    },
+    {
+      "id": "d30ee",
+      "geneNames": null,
+      "type": "compound",
+      "x": 282.65514261019865,
+      "y": 162.68712186689703,
+      "label": "1,7-dimethyluric acid",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0011103"
+    },
+    {
+      "id": "cd8a3",
+      "geneNames": [
+        "CYP1A2"
+      ],
+      "type": "gene_protein",
+      "x": 362.1551426101988,
+      "y": 101.6871218668972,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000140505",
+      "uniprotAccs": [
+        "P05177"
+      ]
+    },
+    {
+      "id": "f2665",
+      "geneNames": null,
+      "type": "compound",
+      "x": 682.3690579083831,
+      "y": 220.00864304235077,
+      "label": "7-methylxanthine",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0001991"
+    },
+    {
+      "id": "f8a74",
+      "geneNames": [
+        "CYP2A6"
+      ],
+      "type": "gene_protein",
+      "x": 420.1551426101989,
+      "y": 101.6871218668972,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000255974",
+      "uniprotAccs": [
+        "P11509",
+        "M0R2Z4"
+      ]
+    },
+    {
+      "id": "a407a",
+      "geneNames": null,
+      "type": "compound",
+      "x": 96.75669835782193,
+      "y": 162.68712186689697,
+      "label": "7-methyluric acid",
+      "groupId": null,
+      "referenceDatabase": "HMDB",
+      "referenceId": "HMDB0011107"
+    },
+    {
+      "id": "cd21d",
+      "geneNames": [
+        "XDH"
+      ],
+      "type": "gene_protein",
+      "x": 192.05056179775346,
+      "y": 103.04407951598967,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000158125",
+      "uniprotAccs": [
+        "P47989"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,501 @@
+{
+  "pathway": {
+    "name": "WP3926",
+    "org": "Homo sapiens",
+    "title": "ApoE and miR-146 in inflammation and atherosclerosis"
+  },
+  "links": [
+    {
+      "id": "id23731ff3",
+      "sourceId": "a82a7",
+      "targetId": "ee6ee",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id29f19bad",
+      "sourceId": "fa33a",
+      "targetId": "a7ed5",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "id3169426f",
+      "sourceId": "a22de",
+      "targetId": "a84e6",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id39896e46",
+      "sourceId": "da74b",
+      "targetId": "a7ed5",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id3b137d88",
+      "sourceId": "d4c80",
+      "targetId": "deee3",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id5bd82ddb",
+      "sourceId": "bfc4d",
+      "targetId": "idca3b4aea",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id5fc40f62",
+      "sourceId": "ee6ee",
+      "targetId": "d4c80",
+      "types": [
+        "transcription/translation"
+      ]
+    },
+    {
+      "id": "id75364118",
+      "sourceId": "bfc4d",
+      "targetId": "f77bb",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id79dfb402",
+      "sourceId": "e6c3d",
+      "targetId": "fa33a",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "idb607b62c",
+      "sourceId": "ba110",
+      "targetId": "ffe69",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "idbe323268",
+      "sourceId": "a84e6",
+      "targetId": "eb278",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "idc1efcbcf",
+      "sourceId": "ee6ee",
+      "targetId": "a22de",
+      "types": [
+        "transcription/translation"
+      ]
+    },
+    {
+      "id": "idca3b4aea",
+      "sourceId": "e41d0",
+      "targetId": "d64c3",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idf64f1c51",
+      "sourceId": "ffe69",
+      "targetId": "a7ed5",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "idf6b9813b",
+      "sourceId": "a7ed5",
+      "targetId": "cc3aa",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "a295e",
+      "sourceId": "eb278",
+      "targetId": "da74b",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "f3315",
+      "sourceId": "f77bb",
+      "targetId": "a22de",
+      "types": [
+        "transcription/translation"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "e6c3d",
+      "geneNames": null,
+      "type": "compound",
+      "x": 275.5,
+      "y": 50.0,
+      "label": "Lipopolysaccharide",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:16412"
+    },
+    {
+      "id": "b2151",
+      "geneNames": [
+        "NFKB2"
+      ],
+      "type": "gene_protein",
+      "x": 318.6683673469391,
+      "y": 322.3775510204081,
+      "label": null,
+      "groupId": "a82a7",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000077150",
+      "uniprotAccs": [
+        "Q00653"
+      ]
+    },
+    {
+      "id": "bfc4d",
+      "geneNames": [
+        "APOE"
+      ],
+      "type": "gene_protein",
+      "x": 626.0714285714284,
+      "y": 285.85714285714283,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000130203",
+      "uniprotAccs": [
+        "P02649",
+        "E7ERP7",
+        "E9PEV4",
+        "H0Y7L5"
+      ]
+    },
+    {
+      "id": "cc3aa",
+      "geneNames": [
+        "RELA"
+      ],
+      "type": "gene_protein",
+      "x": 318.6683673469391,
+      "y": 302.3775510204081,
+      "label": null,
+      "groupId": "a82a7",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000173039",
+      "states": [
+        "P"
+      ],
+      "uniprotAccs": [
+        "Q04206",
+        "A0A087X0W8",
+        "E9PI38",
+        "E9PJR1",
+        "E9PJZ9",
+        "E9PKH5",
+        "E9PKV4",
+        "E9PM47",
+        "E9PMD5",
+        "E9PNK5",
+        "E9PNV4",
+        "E9PQS6",
+        "E9PRX2",
+        "E9PSE4",
+        "H0YCB4",
+        "Q2TAM5"
+      ]
+    },
+    {
+      "id": "da74b",
+      "geneNames": [
+        "MIR146A"
+      ],
+      "type": "gene_protein",
+      "x": 480.0,
+      "y": 222.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000283733",
+      "uniprotAccs": null
+    },
+    {
+      "id": "e41d0",
+      "geneNames": null,
+      "type": "compound",
+      "x": 693.833333333334,
+      "y": 207.99999999999997,
+      "label": "HDL",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:39025"
+    },
+    {
+      "id": "e6e69",
+      "geneNames": [
+        "SPI1"
+      ],
+      "type": "gene_protein",
+      "x": 626.5,
+      "y": 458.0,
+      "label": null,
+      "groupId": "f77bb",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000066336",
+      "uniprotAccs": [
+        "P17947",
+        "F5GZ94",
+        "F5H3K6"
+      ]
+    },
+    {
+      "id": "ed792",
+      "geneNames": [
+        "IRAK1"
+      ],
+      "type": "gene_protein",
+      "x": 318.668367346939,
+      "y": 212.9285714285714,
+      "label": null,
+      "groupId": "a7ed5",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000184216",
+      "uniprotAccs": [
+        "P51617",
+        "D3YTB5",
+        "F8WAB6",
+        "H7C1F0",
+        "H7C224",
+        "H7C2I6",
+        "H7C3C1",
+        "H7C3G8"
+      ]
+    },
+    {
+      "id": "fa33a",
+      "geneNames": [
+        "TLR4"
+      ],
+      "type": "gene_protein",
+      "x": 275.83418367346957,
+      "y": 123.82653061224488,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000136869",
+      "uniprotAccs": [
+        "O00206",
+        "A0A2R8Y7P4"
+      ]
+    },
+    {
+      "id": "fc1b1",
+      "geneNames": [
+        "TRAF6"
+      ],
+      "type": "gene_protein",
+      "x": 318.668367346939,
+      "y": 232.9285714285714,
+      "label": null,
+      "groupId": "a7ed5",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000175104",
+      "uniprotAccs": [
+        "Q9Y4K3"
+      ]
+    },
+    {
+      "id": "ffe69",
+      "geneNames": [
+        "TLR2"
+      ],
+      "type": "gene_protein",
+      "x": 375.5,
+      "y": 125.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000137462",
+      "uniprotAccs": [
+        "O60603",
+        "A0A0S2Z4L7",
+        "A0A2R8Y4N9",
+        "A0A2R8Y7R7",
+        "A0A2R8YHF6"
+      ]
+    },
+    {
+      "id": "ba110",
+      "geneNames": null,
+      "type": "compound",
+      "x": 375.5,
+      "y": 51.0,
+      "label": "ox-LDL",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:60151"
+    },
+    {
+      "id": "c87cb",
+      "geneNames": [
+        "RELA"
+      ],
+      "type": "gene_protein",
+      "x": 318.6683673469391,
+      "y": 448.3775510204081,
+      "label": null,
+      "groupId": "ee6ee",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000173039",
+      "states": [
+        "P"
+      ],
+      "uniprotAccs": [
+        "Q04206",
+        "A0A087X0W8",
+        "E9PI38",
+        "E9PJR1",
+        "E9PJZ9",
+        "E9PKH5",
+        "E9PKV4",
+        "E9PM47",
+        "E9PMD5",
+        "E9PNK5",
+        "E9PNV4",
+        "E9PQS6",
+        "E9PRX2",
+        "E9PSE4",
+        "H0YCB4",
+        "Q2TAM5"
+      ]
+    },
+    {
+      "id": "c2fa9",
+      "geneNames": [
+        "NFKB2"
+      ],
+      "type": "gene_protein",
+      "x": 318.6683673469391,
+      "y": 468.3775510204081,
+      "label": null,
+      "groupId": "ee6ee",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000077150",
+      "uniprotAccs": [
+        "Q00653"
+      ]
+    },
+    {
+      "id": "d64c3",
+      "geneNames": null,
+      "type": "compound",
+      "x": 693.833333333334,
+      "y": 72.66666666666643,
+      "label": "HDL",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:39025"
+    },
+    {
+      "id": "deee3",
+      "geneNames": null,
+      "type": "misc",
+      "x": 287.5,
+      "y": 528.5,
+      "label": "Monocyte and macrophage \nactivation",
+      "groupId": null
+    },
+    {
+      "id": "ac979",
+      "geneNames": null,
+      "type": "misc",
+      "x": 479.5,
+      "y": 458.0,
+      "label": "pri-miR-146a",
+      "groupId": "a22de"
+    },
+    {
+      "id": "a84e6",
+      "geneNames": null,
+      "type": "misc",
+      "x": 479.5,
+      "y": 388.0,
+      "label": "pre-miR-146a",
+      "groupId": null
+    },
+    {
+      "id": "eb278",
+      "geneNames": null,
+      "type": "misc",
+      "x": 479.5,
+      "y": 279.0,
+      "label": "pre-miR-146a",
+      "groupId": null
+    },
+    {
+      "id": "d4c80",
+      "geneNames": null,
+      "type": "misc",
+      "x": 141.0,
+      "y": 458.0,
+      "label": "cytokine genes",
+      "groupId": null
+    },
+    {
+      "id": "a22de",
+      "type": "group",
+      "components": [
+        "ac979"
+      ]
+    },
+    {
+      "id": "a7ed5",
+      "type": "group",
+      "components": [
+        "ed792",
+        "fc1b1"
+      ]
+    },
+    {
+      "id": "a82a7",
+      "type": "group",
+      "components": [
+        "b2151",
+        "cc3aa"
+      ]
+    },
+    {
+      "id": "ee6ee",
+      "type": "group",
+      "components": [
+        "c87cb",
+        "c2fa9"
+      ]
+    },
+    {
+      "id": "f77bb",
+      "type": "group",
+      "components": [
+        "e6e69"
+      ]
+    }
+  ]
+}

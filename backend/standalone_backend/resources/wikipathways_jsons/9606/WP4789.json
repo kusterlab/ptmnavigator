@@ -1,0 +1,776 @@
+{
+  "pathway": {
+    "name": "WP4789",
+    "org": "Homo sapiens",
+    "title": "Multiple epiphyseal dysplasia and pseudoachondroplasia genes"
+  },
+  "links": [
+    {
+      "id": "id13e46327",
+      "sourceId": "eead8",
+      "targetId": "a55a8",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "id16f246b7",
+      "sourceId": "e31c2",
+      "targetId": "eead8",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "id2f19906b",
+      "sourceId": "a4169",
+      "targetId": "b4142",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "id3e5b131",
+      "sourceId": "b4142",
+      "targetId": "f5268",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "id51ebb9f0",
+      "sourceId": "a55a8",
+      "targetId": "d90cc",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "id5d54b275",
+      "sourceId": "daea2",
+      "targetId": "ee465",
+      "types": [
+        "modification"
+      ]
+    },
+    {
+      "id": "id6a211f3c",
+      "sourceId": "e2b8b",
+      "targetId": "e31c2",
+      "types": [
+        "modification"
+      ]
+    },
+    {
+      "id": "id6c068d47",
+      "sourceId": "a87f6",
+      "targetId": "c4d83",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "id8bf0c24b",
+      "sourceId": "ee465",
+      "targetId": "e2b8b",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "ida02858c2",
+      "sourceId": "f5268",
+      "targetId": "c4d83",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "idbb16ba63",
+      "sourceId": "eead8",
+      "targetId": "a4169",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "ide423fd9f",
+      "sourceId": "d90cc",
+      "targetId": "a87f6",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "idf9dadd86",
+      "sourceId": "a839f",
+      "targetId": "daea2",
+      "types": [
+        "binding/association"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "dc6c4",
+      "geneNames": [
+        "MATN1"
+      ],
+      "type": "gene_protein",
+      "x": 375.81011255682733,
+      "y": 287.84496222927277,
+      "label": null,
+      "groupId": "e2b8b",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000162510",
+      "uniprotAccs": [
+        "P21941"
+      ]
+    },
+    {
+      "id": "ee465",
+      "geneNames": [
+        "COMP"
+      ],
+      "type": "gene_protein",
+      "x": 375.81011255682733,
+      "y": 215.62222161241442,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000105664",
+      "uniprotAccs": [
+        "P49747",
+        "G3XAP6"
+      ]
+    },
+    {
+      "id": "f962c",
+      "geneNames": [
+        "COL9A1"
+      ],
+      "type": "gene_protein",
+      "x": 285.8101125568271,
+      "y": 147.9422928159114,
+      "label": null,
+      "groupId": "daea2",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000112280",
+      "uniprotAccs": [
+        "P20849",
+        "A0A2R8YG47",
+        "A0A804HIB6",
+        "A0A804HKK1",
+        "A0A804HL06"
+      ]
+    },
+    {
+      "id": "cd8a7",
+      "geneNames": [
+        "COL9A2"
+      ],
+      "type": "gene_protein",
+      "x": 375.81011255682733,
+      "y": 147.94229281591134,
+      "label": null,
+      "groupId": "daea2",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000049089",
+      "uniprotAccs": [
+        "Q14055",
+        "A0A2R8YFT7",
+        "B1AKJ3",
+        "H0Y409"
+      ]
+    },
+    {
+      "id": "d9236",
+      "geneNames": [
+        "COL9A3"
+      ],
+      "type": "gene_protein",
+      "x": 465.8101125568271,
+      "y": 147.94229281591134,
+      "label": null,
+      "groupId": "daea2",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000092758",
+      "uniprotAccs": [
+        "Q14050",
+        "Q4VXW1"
+      ]
+    },
+    {
+      "id": "e9a3e",
+      "geneNames": [
+        "MATN3"
+      ],
+      "type": "gene_protein",
+      "x": 375.81011255682733,
+      "y": 312.8449622292727,
+      "label": null,
+      "groupId": "e2b8b",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000132031",
+      "uniprotAccs": [
+        "O15232"
+      ]
+    },
+    {
+      "id": "b52c9",
+      "geneNames": [
+        "COL9A1"
+      ],
+      "type": "gene_protein",
+      "x": 285.8101125568271,
+      "y": 396.0071224016506,
+      "label": null,
+      "groupId": "e31c2",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000112280",
+      "uniprotAccs": [
+        "P20849",
+        "A0A2R8YG47",
+        "A0A804HIB6",
+        "A0A804HKK1",
+        "A0A804HL06"
+      ]
+    },
+    {
+      "id": "b9542",
+      "geneNames": [
+        "COL9A2"
+      ],
+      "type": "gene_protein",
+      "x": 375.8101125568271,
+      "y": 396.0071224016506,
+      "label": null,
+      "groupId": "e31c2",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000049089",
+      "uniprotAccs": [
+        "Q14055",
+        "A0A2R8YFT7",
+        "B1AKJ3",
+        "H0Y409"
+      ]
+    },
+    {
+      "id": "cab04",
+      "geneNames": [
+        "COL9A3"
+      ],
+      "type": "gene_protein",
+      "x": 465.8101125568271,
+      "y": 396.0071224016506,
+      "label": null,
+      "groupId": "e31c2",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000092758",
+      "uniprotAccs": [
+        "Q14050",
+        "Q4VXW1"
+      ]
+    },
+    {
+      "id": "a3539",
+      "geneNames": [
+        "COL9A1"
+      ],
+      "type": "gene_protein",
+      "x": 286.3627547971869,
+      "y": 530.1423392838749,
+      "label": null,
+      "groupId": "a4169",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000112280",
+      "uniprotAccs": [
+        "P20849",
+        "A0A2R8YG47",
+        "A0A804HIB6",
+        "A0A804HKK1",
+        "A0A804HL06"
+      ]
+    },
+    {
+      "id": "d5962",
+      "geneNames": [
+        "COL9A2"
+      ],
+      "type": "gene_protein",
+      "x": 376.3627547971871,
+      "y": 530.142339283875,
+      "label": null,
+      "groupId": "a4169",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000049089",
+      "uniprotAccs": [
+        "Q14055",
+        "A0A2R8YFT7",
+        "B1AKJ3",
+        "H0Y409"
+      ]
+    },
+    {
+      "id": "dfdb0",
+      "geneNames": [
+        "COL9A3"
+      ],
+      "type": "gene_protein",
+      "x": 466.36275479718677,
+      "y": 530.142339283875,
+      "label": null,
+      "groupId": "a4169",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000092758",
+      "uniprotAccs": [
+        "Q14050",
+        "Q4VXW1"
+      ]
+    },
+    {
+      "id": "b4142",
+      "geneNames": [
+        "COMP"
+      ],
+      "type": "gene_protein",
+      "x": 376.3627547971871,
+      "y": 616.3915020203541,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000105664",
+      "uniprotAccs": [
+        "P49747",
+        "G3XAP6"
+      ]
+    },
+    {
+      "id": "eb7b9",
+      "geneNames": [
+        "COL9A1"
+      ],
+      "type": "gene_protein",
+      "x": 286.3627547971869,
+      "y": 703.3713635979412,
+      "label": null,
+      "groupId": "f5268",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000112280",
+      "uniprotAccs": [
+        "P20849",
+        "A0A2R8YG47",
+        "A0A804HIB6",
+        "A0A804HKK1",
+        "A0A804HL06"
+      ]
+    },
+    {
+      "id": "c218f",
+      "geneNames": [
+        "COL9A2"
+      ],
+      "type": "gene_protein",
+      "x": 376.3627547971871,
+      "y": 703.3713635979412,
+      "label": null,
+      "groupId": "f5268",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000049089",
+      "uniprotAccs": [
+        "Q14055",
+        "A0A2R8YFT7",
+        "B1AKJ3",
+        "H0Y409"
+      ]
+    },
+    {
+      "id": "e0596",
+      "geneNames": [
+        "COL9A3"
+      ],
+      "type": "gene_protein",
+      "x": 466.3627547971871,
+      "y": 703.3713635979412,
+      "label": null,
+      "groupId": "f5268",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000092758",
+      "uniprotAccs": [
+        "Q14050",
+        "Q4VXW1"
+      ]
+    },
+    {
+      "id": "c6a0e",
+      "geneNames": [
+        "COL9A1"
+      ],
+      "type": "gene_protein",
+      "x": 730.09712182694,
+      "y": 529.5483386898743,
+      "label": null,
+      "groupId": "a55a8",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000112280",
+      "uniprotAccs": [
+        "P20849",
+        "A0A2R8YG47",
+        "A0A804HIB6",
+        "A0A804HKK1",
+        "A0A804HL06"
+      ]
+    },
+    {
+      "id": "b8ab5",
+      "geneNames": [
+        "COL9A2"
+      ],
+      "type": "gene_protein",
+      "x": 820.0971218269405,
+      "y": 529.5483386898744,
+      "label": null,
+      "groupId": "a55a8",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000049089",
+      "uniprotAccs": [
+        "Q14055",
+        "A0A2R8YFT7",
+        "B1AKJ3",
+        "H0Y409"
+      ]
+    },
+    {
+      "id": "fde84",
+      "geneNames": [
+        "COL9A3"
+      ],
+      "type": "gene_protein",
+      "x": 910.0971218269399,
+      "y": 529.5483386898744,
+      "label": null,
+      "groupId": "a55a8",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000092758",
+      "uniprotAccs": [
+        "Q14050",
+        "Q4VXW1"
+      ]
+    },
+    {
+      "id": "c0e03",
+      "geneNames": [
+        "COL9A1"
+      ],
+      "type": "gene_protein",
+      "x": 730.09712182694,
+      "y": 705.8692164881702,
+      "label": null,
+      "groupId": "a87f6",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000112280",
+      "uniprotAccs": [
+        "P20849",
+        "A0A2R8YG47",
+        "A0A804HIB6",
+        "A0A804HKK1",
+        "A0A804HL06"
+      ]
+    },
+    {
+      "id": "f12f2",
+      "geneNames": [
+        "COL9A2"
+      ],
+      "type": "gene_protein",
+      "x": 820.0971218269405,
+      "y": 705.8692164881702,
+      "label": null,
+      "groupId": "a87f6",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000049089",
+      "uniprotAccs": [
+        "Q14055",
+        "A0A2R8YFT7",
+        "B1AKJ3",
+        "H0Y409"
+      ]
+    },
+    {
+      "id": "a4adf",
+      "geneNames": [
+        "COL9A3"
+      ],
+      "type": "gene_protein",
+      "x": 910.0971218269403,
+      "y": 705.8692164881702,
+      "label": null,
+      "groupId": "a87f6",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000092758",
+      "uniprotAccs": [
+        "Q14050",
+        "Q4VXW1"
+      ]
+    },
+    {
+      "id": "d6776",
+      "geneNames": [
+        "MATN1"
+      ],
+      "type": "gene_protein",
+      "x": 820.0971218269405,
+      "y": 605.5580369462773,
+      "label": null,
+      "groupId": "d90cc",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000162510",
+      "uniprotAccs": [
+        "P21941"
+      ]
+    },
+    {
+      "id": "a88bf",
+      "geneNames": [
+        "MATN3"
+      ],
+      "type": "gene_protein",
+      "x": 820.0971218269405,
+      "y": 630.5580369462768,
+      "label": null,
+      "groupId": "d90cc",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000132031",
+      "uniprotAccs": [
+        "O15232"
+      ]
+    },
+    {
+      "id": "a839f",
+      "geneNames": null,
+      "type": "misc",
+      "x": 535.6762959209059,
+      "y": 89.28127829630856,
+      "label": "Collagen II",
+      "groupId": null
+    },
+    {
+      "id": "eead8",
+      "geneNames": null,
+      "type": "misc",
+      "x": 562.4972016476415,
+      "y": 465.3591963605968,
+      "label": "Collagen II",
+      "groupId": null
+    },
+    {
+      "id": "c4d83",
+      "geneNames": null,
+      "type": "misc",
+      "x": 562.5958698021259,
+      "y": 780.5734948748038,
+      "label": "Collagen II",
+      "groupId": null
+    },
+    {
+      "id": "0",
+      "geneNames": null,
+      "type": "misc",
+      "x": 1005.0475362992036,
+      "y": 270.0651050971401,
+      "label": "OMIM:614284\nStickler syndrome, type V",
+      "groupId": "f45aa"
+    },
+    {
+      "id": "a4452",
+      "geneNames": null,
+      "type": "misc",
+      "x": 619.4216132580899,
+      "y": 219.4020252589782,
+      "label": "OMIM:177170\nPseudoachondroplasia",
+      "groupId": "a59c0"
+    },
+    {
+      "id": "1",
+      "geneNames": null,
+      "type": "misc",
+      "x": 113.97573100546367,
+      "y": 231.58589868593202,
+      "label": "OMIM:614134\nStickler syndrome, type IV",
+      "groupId": "a75e5"
+    },
+    {
+      "id": "b5381",
+      "geneNames": null,
+      "type": "misc",
+      "x": 999.9460261481886,
+      "y": 144.99259784641436,
+      "label": "OMIM:120270\nCollagen, type IX, alpha-3",
+      "groupId": "c26d9"
+    },
+    {
+      "id": "2",
+      "geneNames": null,
+      "type": "misc",
+      "x": 744.103525730479,
+      "y": 336.8269981574166,
+      "label": "OMIM:607078\nEpiphyseal dysplasia, multiple, 5",
+      "groupId": "c0c03"
+    },
+    {
+      "id": "3",
+      "geneNames": null,
+      "type": "misc",
+      "x": 113.97573100546367,
+      "y": 192.58589868593202,
+      "label": "OMIM:614135\nEpiphyseal dysplasia, multiple, 6",
+      "groupId": "a75e5"
+    },
+    {
+      "id": "4",
+      "geneNames": null,
+      "type": "misc",
+      "x": 744.1035257304791,
+      "y": 375.8269981574166,
+      "label": "OMIM:608728\nSpondyloepimetaphyseal dysplasia, matrilin-3 related",
+      "groupId": "c0c03"
+    },
+    {
+      "id": "e0a7f",
+      "geneNames": null,
+      "type": "misc",
+      "x": 619.4216132580899,
+      "y": 258.4020252589782,
+      "label": "OMIM:132400\nEpiphyseal dysplasia, multiple, 1",
+      "groupId": "a59c0"
+    },
+    {
+      "id": "dd730",
+      "geneNames": null,
+      "type": "misc",
+      "x": 1005.0475362992036,
+      "y": 231.0651050971395,
+      "label": "OMIM:600204\nEpiphyseal dysplasia, multiple, 2",
+      "groupId": "f45aa"
+    },
+    {
+      "id": "5",
+      "geneNames": null,
+      "type": "misc",
+      "x": 999.9460261481886,
+      "y": 105.99259784641401,
+      "label": "OMIM:600969\nEpiphyseal dysplasia, multiple, 3",
+      "groupId": "c26d9"
+    },
+    {
+      "id": "a4169",
+      "type": "group",
+      "components": [
+        "a3539",
+        "d5962",
+        "dfdb0"
+      ]
+    },
+    {
+      "id": "a55a8",
+      "type": "group",
+      "components": [
+        "c6a0e",
+        "b8ab5",
+        "fde84"
+      ]
+    },
+    {
+      "id": "a59c0",
+      "type": "group",
+      "components": [
+        "a4452",
+        "e0a7f"
+      ]
+    },
+    {
+      "id": "a75e5",
+      "type": "group",
+      "components": [
+        "1",
+        "3"
+      ]
+    },
+    {
+      "id": "a87f6",
+      "type": "group",
+      "components": [
+        "c0e03",
+        "f12f2",
+        "a4adf"
+      ]
+    },
+    {
+      "id": "c0c03",
+      "type": "group",
+      "components": [
+        "2",
+        "4"
+      ]
+    },
+    {
+      "id": "c26d9",
+      "type": "group",
+      "components": [
+        "b5381",
+        "5"
+      ]
+    },
+    {
+      "id": "d90cc",
+      "type": "group",
+      "components": [
+        "d6776",
+        "a88bf"
+      ]
+    },
+    {
+      "id": "daea2",
+      "type": "group",
+      "components": [
+        "f962c",
+        "cd8a7",
+        "d9236"
+      ]
+    },
+    {
+      "id": "e2b8b",
+      "type": "group",
+      "components": [
+        "dc6c4",
+        "e9a3e"
+      ]
+    },
+    {
+      "id": "e31c2",
+      "type": "group",
+      "components": [
+        "b52c9",
+        "b9542",
+        "cab04"
+      ]
+    },
+    {
+      "id": "f45aa",
+      "type": "group",
+      "components": [
+        "0",
+        "dd730"
+      ]
+    },
+    {
+      "id": "f5268",
+      "type": "group",
+      "components": [
+        "eb7b9",
+        "c218f",
+        "e0596"
+      ]
+    }
+  ]
+}

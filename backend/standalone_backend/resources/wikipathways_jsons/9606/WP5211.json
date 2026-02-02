@@ -1,0 +1,519 @@
+{
+  "pathway": {
+    "name": "WP5211",
+    "org": "Homo sapiens",
+    "title": "Glucose metabolism in triple-negative breast cancer cells"
+  },
+  "links": [
+    {
+      "id": "id1573a606",
+      "sourceId": "afecd",
+      "targetId": "idf61e1f06",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id2f9a6462",
+      "sourceId": "e47cb",
+      "targetId": "ec325",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "id48bfb53a",
+      "sourceId": "d8f88",
+      "targetId": "id2f9a6462",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id4be9b1b0",
+      "sourceId": "b6bfd",
+      "targetId": "id78cff406",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id56ee3bb2",
+      "sourceId": "dfa56",
+      "targetId": "id5f27008",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id577d5b",
+      "sourceId": "cc2d7",
+      "targetId": "bf2dc",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id5f27008",
+      "sourceId": "b3983",
+      "targetId": "e1c2a",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id6037556a",
+      "sourceId": "a6d66",
+      "targetId": "ef5bc",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id630e85f7",
+      "sourceId": "df9dd",
+      "targetId": "idb1f23df2",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id6a9beaa3",
+      "sourceId": "b783e",
+      "targetId": "cab23",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id78cff406",
+      "sourceId": "c6b5f",
+      "targetId": "cc2d7",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id80a6ef56",
+      "sourceId": "a8018",
+      "targetId": "f8625",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "idb193f2e1",
+      "sourceId": "bf2dc",
+      "targetId": "f03cc",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idb1f23df2",
+      "sourceId": "f03cc",
+      "targetId": "b3983",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idc71fb5c8",
+      "sourceId": "f03cc",
+      "targetId": "aec88",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idd467e1d5",
+      "sourceId": "ec6bc",
+      "targetId": "idb193f2e1",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "iddcfe7c4a",
+      "sourceId": "fa53d",
+      "targetId": "c6b5f",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ide8eede00",
+      "sourceId": "fa53d",
+      "targetId": "b783e",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ide95edf89",
+      "sourceId": "aec88",
+      "targetId": "a6d66",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idec149bcb",
+      "sourceId": "f8625",
+      "targetId": "ide95edf89",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "idf61e1f06",
+      "sourceId": "ec325",
+      "targetId": "fa53d",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idff777a9",
+      "sourceId": "fa53d",
+      "targetId": "aeed8",
+      "types": [
+        "activation"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "a6d66",
+      "geneNames": null,
+      "type": "compound",
+      "x": 878.0,
+      "y": 661.0,
+      "label": "Acetyl CoA",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:15351"
+    },
+    {
+      "id": "a8018",
+      "geneNames": [
+        "PDK1"
+      ],
+      "type": "gene_protein",
+      "x": 672.0833333333355,
+      "y": 512.4166666666667,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000152256",
+      "uniprotAccs": [
+        "Q15118",
+        "C9IYB4",
+        "C9JKT3",
+        "F8WC75",
+        "F8WEJ6"
+      ]
+    },
+    {
+      "id": "aeed8",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 833.5,
+      "y": 329.4166666666666,
+      "label": "Pentose phosphate pathway",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP134"
+    },
+    {
+      "id": "afecd",
+      "geneNames": [
+        "HK"
+      ],
+      "type": "gene_protein",
+      "x": 697.0833333333339,
+      "y": 287.75000000000006,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "3098",
+      "uniprotAccs": [
+        "P19367",
+        "A0A994J753",
+        "A8K7J7",
+        "B3KXY9",
+        "P78542",
+        "Q59FD4"
+      ]
+    },
+    {
+      "id": "b3983",
+      "geneNames": null,
+      "type": "compound",
+      "x": 326.75,
+      "y": 661.0,
+      "label": "Lactate",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:16651"
+    },
+    {
+      "id": "b6bfd",
+      "geneNames": [
+        "PFKP"
+      ],
+      "type": "gene_protein",
+      "x": 391.99999999999994,
+      "y": 445.66666666666663,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "5214",
+      "uniprotAccs": [
+        "Q01813",
+        "A0A7I2V3Z0",
+        "B1APP6"
+      ]
+    },
+    {
+      "id": "b783e",
+      "geneNames": null,
+      "type": "compound",
+      "x": 698.0833333333339,
+      "y": 390.0,
+      "label": "NADPH",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:16474"
+    },
+    {
+      "id": "bf2dc",
+      "geneNames": null,
+      "type": "compound",
+      "x": 525.9999999999989,
+      "y": 575.6666666666669,
+      "label": "phosphoenolpyruvate",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:18021"
+    },
+    {
+      "id": "c6b5f",
+      "geneNames": null,
+      "type": "compound",
+      "x": 525.9999999999989,
+      "y": 409.4166666666666,
+      "label": "Fructose-6-phosphate",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:15946"
+    },
+    {
+      "id": "cab23",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 880.5,
+      "y": 512.0,
+      "label": "Respiratory chain",
+      "groupId": null,
+      "referenceDatabase": "Reactome",
+      "referenceId": "R-HSA-163200"
+    },
+    {
+      "id": "cc2d7",
+      "geneNames": null,
+      "type": "compound",
+      "x": 525.9999999999989,
+      "y": 489.6666666666668,
+      "label": "fructose-1,6-bisphosphate",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:78682"
+    },
+    {
+      "id": "d8f88",
+      "geneNames": [
+        "GLUT1"
+      ],
+      "type": "gene_protein",
+      "x": 391.3333333333332,
+      "y": 187.66666666666637,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "6513",
+      "uniprotAccs": [
+        "P11166",
+        "Q59GX2"
+      ]
+    },
+    {
+      "id": "deaa7",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 376.0,
+      "y": 370.0,
+      "label": "Glycolysis",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP534"
+    },
+    {
+      "id": "df9dd",
+      "geneNames": [
+        "LDHA"
+      ],
+      "type": "gene_protein",
+      "x": 400.0,
+      "y": 736.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000134333",
+      "uniprotAccs": [
+        "P00338",
+        "F5GWW2",
+        "F5GXC7",
+        "F5GXH2",
+        "F5GXU1",
+        "F5GXY2",
+        "F5GYU2",
+        "F5GZQ4",
+        "F5H5J4",
+        "F5H6W8",
+        "F5H8H6"
+      ]
+    },
+    {
+      "id": "dfa56",
+      "geneNames": [
+        "MCT1"
+      ],
+      "type": "gene_protein",
+      "x": 220.24999999999955,
+      "y": 613.9999999999998,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "6566",
+      "uniprotAccs": [
+        "P53985",
+        "B4DKS0"
+      ]
+    },
+    {
+      "id": "e47cb",
+      "geneNames": null,
+      "type": "compound",
+      "x": 525.6666666666652,
+      "y": 104.66666666666669,
+      "label": "Glucose",
+      "groupId": null,
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q37525"
+    },
+    {
+      "id": "ef5bc",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 987.0000000000009,
+      "y": 706.666666666667,
+      "label": "TCA cycle",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP78"
+    },
+    {
+      "id": "f03cc",
+      "geneNames": null,
+      "type": "compound",
+      "x": 524.9999999999989,
+      "y": 661.0,
+      "label": "Pyruvate",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:15361"
+    },
+    {
+      "id": "f8625",
+      "geneNames": [
+        "PDH"
+      ],
+      "type": "gene_protein",
+      "x": 803.9999999999993,
+      "y": 580.6666666666662,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "54704",
+      "uniprotAccs": [
+        "Q9P0J1",
+        "Q6P1N1"
+      ]
+    },
+    {
+      "id": "fa53d",
+      "geneNames": null,
+      "type": "compound",
+      "x": 524.9999999999989,
+      "y": 329.4166666666666,
+      "label": "glucose-6-phosphate",
+      "groupId": null,
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q32778969"
+    },
+    {
+      "id": "ec325",
+      "geneNames": null,
+      "type": "compound",
+      "x": 525.9999999999989,
+      "y": 256.66666666666686,
+      "label": "Glucose",
+      "groupId": null,
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q37525"
+    },
+    {
+      "id": "e1c2a",
+      "geneNames": null,
+      "type": "compound",
+      "x": 85.08333333333323,
+      "y": 661.0,
+      "label": "Lactate",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:16651"
+    },
+    {
+      "id": "aec88",
+      "geneNames": null,
+      "type": "compound",
+      "x": 734.0,
+      "y": 661.0,
+      "label": "pyruvate",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:15361"
+    },
+    {
+      "id": "ec6bc",
+      "geneNames": [
+        "PKM2"
+      ],
+      "type": "gene_protein",
+      "x": 402.6666666666666,
+      "y": 613.9999999999998,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "5315",
+      "uniprotAccs": [
+        "P14618",
+        "A0A804F6T5",
+        "A0A804F729",
+        "B4DNK4",
+        "V9HWB8"
+      ]
+    }
+  ]
+}

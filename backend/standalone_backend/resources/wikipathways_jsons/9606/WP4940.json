@@ -1,0 +1,330 @@
+{
+  "pathway": {
+    "name": "WP4940",
+    "org": "Homo sapiens",
+    "title": "15q11.2 copy number variation syndrome"
+  },
+  "links": [
+    {
+      "id": "id21e40de5",
+      "sourceId": "bd67f",
+      "targetId": "de121",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "ida94b906",
+      "sourceId": "b5b94",
+      "targetId": "dfff0",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "idb4905ee8",
+      "sourceId": "e51fd",
+      "targetId": "de121",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "idcb28a0a0",
+      "sourceId": "e96b4",
+      "targetId": "fcd27",
+      "types": [
+        "binding/association"
+      ]
+    },
+    {
+      "id": "idd9ba9c1d",
+      "sourceId": "fcd27",
+      "targetId": "dcc3d",
+      "types": [
+        "activation"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "0",
+      "geneNames": [
+        "ELMO2P1"
+      ],
+      "type": "gene_protein",
+      "x": 447.0,
+      "y": 122.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000276172",
+      "uniprotAccs": null
+    },
+    {
+      "id": "b022f",
+      "geneNames": [
+        "gamma tubulin complex"
+      ],
+      "type": "gene_protein",
+      "x": 367.0,
+      "y": 291.0,
+      "label": null,
+      "groupId": "dfff0",
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "b5b94",
+      "geneNames": [
+        "TUBGCP5"
+      ],
+      "type": "gene_protein",
+      "x": 367.0,
+      "y": 122.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000275835",
+      "uniprotAccs": [
+        "Q96RT8",
+        "A0A087WVL9",
+        "A0A087WVZ8",
+        "A0A087X006",
+        "A0A087X1Z1"
+      ]
+    },
+    {
+      "id": "bd67f",
+      "geneNames": [
+        "NIPA2"
+      ],
+      "type": "gene_protein",
+      "x": 207.0,
+      "y": 122.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000140157",
+      "uniprotAccs": [
+        "Q8N8Q9",
+        "A0A6I8PUB5",
+        "H0YMQ7"
+      ]
+    },
+    {
+      "id": "be43d",
+      "geneNames": [
+        "TUBGCP6"
+      ],
+      "type": "gene_protein",
+      "x": 367.0,
+      "y": 417.0,
+      "label": null,
+      "groupId": "dfff0",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000128159",
+      "uniprotAccs": [
+        "Q96RT7",
+        "E7EQL8",
+        "H7C2H5",
+        "H7C358"
+      ]
+    },
+    {
+      "id": "c85b6",
+      "geneNames": [
+        "TUBGCP4"
+      ],
+      "type": "gene_protein",
+      "x": 367.0,
+      "y": 367.0,
+      "label": null,
+      "groupId": "dfff0",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000137822",
+      "uniprotAccs": [
+        "Q9UGJ1",
+        "H3BN56",
+        "H3BNL9",
+        "H3BPU4",
+        "H3BQ12",
+        "H3BQY4",
+        "H3BS59"
+      ]
+    },
+    {
+      "id": "dcc3d",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 288.0,
+      "y": 234.0,
+      "label": "Fragile X Syndrome",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP4549"
+    },
+    {
+      "id": "de121",
+      "geneNames": null,
+      "type": "compound",
+      "x": 168.0,
+      "y": 200.0,
+      "label": "Mg2+",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:18420"
+    },
+    {
+      "id": "dee52",
+      "geneNames": [
+        "TUBGCP2"
+      ],
+      "type": "gene_protein",
+      "x": 367.0,
+      "y": 317.0,
+      "label": null,
+      "groupId": "dfff0",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000130640",
+      "uniprotAccs": [
+        "Q9BSJ2",
+        "A0A804HI27",
+        "A0A804HJ08",
+        "A0A804HJH7",
+        "A0A804HJQ4",
+        "A0A804HJS9",
+        "A0A804HK74",
+        "A0A804HL05",
+        "A0A804HL95",
+        "A0A804HLH6",
+        "F2Z2B9",
+        "R4GMM4"
+      ]
+    },
+    {
+      "id": "e51fd",
+      "geneNames": [
+        "NIPA1"
+      ],
+      "type": "gene_protein",
+      "x": 127.0,
+      "y": 122.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000170113",
+      "uniprotAccs": [
+        "Q7RTP0",
+        "H0YLP7",
+        "H0YMY7"
+      ]
+    },
+    {
+      "id": "e96b4",
+      "geneNames": [
+        "CYFIP1"
+      ],
+      "type": "gene_protein",
+      "x": 287.0,
+      "y": 122.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000273749",
+      "uniprotAccs": [
+        "Q7L576",
+        "A0A087WU52",
+        "A0A087WVZ5",
+        "A0A087WWL1",
+        "A0A087WWY5",
+        "A0A087WZ89",
+        "H0YL50"
+      ]
+    },
+    {
+      "id": "f6cff",
+      "geneNames": [
+        "TUBGCP3"
+      ],
+      "type": "gene_protein",
+      "x": 367.0,
+      "y": 342.0,
+      "label": null,
+      "groupId": "dfff0",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000126216",
+      "uniprotAccs": [
+        "Q96CW5",
+        "A0A087WU06",
+        "A0A087WZV5",
+        "A0A3B3ITE3"
+      ]
+    },
+    {
+      "id": "fcd27",
+      "geneNames": [
+        "FMR1"
+      ],
+      "type": "gene_protein",
+      "x": 287.0,
+      "y": 177.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000102081",
+      "uniprotAccs": [
+        "Q06787",
+        "A0A087WVL8",
+        "A0A087WWR6",
+        "A0A087WWU4",
+        "A0A087WXI3",
+        "A0A087WY29",
+        "A0A087X1M7",
+        "A0A8I5KS01",
+        "A0A8I5KT56",
+        "A0A8I5KTT6",
+        "A0A8I5KTZ9",
+        "A0A8I5KUC2",
+        "A0A8I5KWH0",
+        "A0A8I5KYA7",
+        "A0A8I5KZ21",
+        "A8MQB8",
+        "G3V0J0",
+        "Q8IXW7"
+      ]
+    },
+    {
+      "id": "e89a8",
+      "geneNames": [
+        "TUBGCP5"
+      ],
+      "type": "gene_protein",
+      "x": 367.0,
+      "y": 392.0,
+      "label": null,
+      "groupId": "dfff0",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000275835",
+      "uniprotAccs": [
+        "Q96RT8",
+        "A0A087WVL9",
+        "A0A087WVZ8",
+        "A0A087X006",
+        "A0A087X1Z1"
+      ]
+    },
+    {
+      "id": "dfff0",
+      "type": "group",
+      "components": [
+        "b022f",
+        "be43d",
+        "c85b6",
+        "dee52",
+        "f6cff",
+        "e89a8"
+      ]
+    }
+  ]
+}

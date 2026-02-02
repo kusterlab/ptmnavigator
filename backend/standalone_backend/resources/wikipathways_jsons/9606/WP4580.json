@@ -1,0 +1,379 @@
+{
+  "pathway": {
+    "name": "WP4580",
+    "org": "Homo sapiens",
+    "title": "Blood clotting and drug effects"
+  },
+  "links": [
+    {
+      "id": "ae26e",
+      "sourceId": "a391b",
+      "targetId": "dd27b",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "d7e50",
+      "sourceId": "e6eab",
+      "targetId": "idcf0470ab",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id13750a96",
+      "sourceId": "aee9b",
+      "targetId": "d1c0d",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id18b4e8a4",
+      "sourceId": "ebbba",
+      "targetId": "eca77",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id2386e7dc",
+      "sourceId": "d1c0d",
+      "targetId": "dfe96",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id33793819",
+      "sourceId": "d879b",
+      "targetId": "b3dec",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id37c70a1f",
+      "sourceId": "f884e",
+      "targetId": "idcf0470ab",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id54f5a436",
+      "sourceId": "b3dec",
+      "targetId": "id8377d099",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id604ee21e",
+      "sourceId": "dd27b",
+      "targetId": "id54f5a436",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id6fd1374f",
+      "sourceId": "e4fda",
+      "targetId": "id33793819",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id8377d099",
+      "sourceId": "d8c6e",
+      "targetId": "ebbba",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id89bb56bc",
+      "sourceId": "af2d0",
+      "targetId": "id54f5a436",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id9bda1e4f",
+      "sourceId": "aee9b",
+      "targetId": "ab25e",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id9e74b264",
+      "sourceId": "ab25e",
+      "targetId": "d2b61",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idb305ca09",
+      "sourceId": "ab25e",
+      "targetId": "e4fda",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "idcf0470ab",
+      "sourceId": "c5385",
+      "targetId": "aee9b",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "idfac10fcc",
+      "sourceId": "b0a17",
+      "targetId": "idcf0470ab",
+      "types": [
+        "catalysis"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "eca77",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 567.5755064456719,
+      "y": 604.25,
+      "label": "Cross-linked fibrin",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP4927"
+    },
+    {
+      "id": "a391b",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 638.5,
+      "y": 413.25,
+      "label": "Vitamin K \npathway",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP5186"
+    },
+    {
+      "id": "ab25e",
+      "geneNames": null,
+      "type": "compound",
+      "x": 363.5,
+      "y": 305.5,
+      "label": "Thromboxane A2",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:15627"
+    },
+    {
+      "id": "aee9b",
+      "geneNames": null,
+      "type": "compound",
+      "x": 363.5,
+      "y": 215.5,
+      "label": "Prostaglandin H2",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:15554"
+    },
+    {
+      "id": "af2d0",
+      "geneNames": null,
+      "type": "compound",
+      "x": 393.0,
+      "y": 468.15709421641793,
+      "label": "Coumadin",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:10034"
+    },
+    {
+      "id": "b0a17",
+      "geneNames": [
+        "COX"
+      ],
+      "type": "gene_protein",
+      "x": 461.0,
+      "y": 153.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "InterPro",
+      "referenceId": "IPR038147"
+    },
+    {
+      "id": "b3dec",
+      "geneNames": null,
+      "type": "compound",
+      "x": 480.0,
+      "y": 410.75,
+      "label": "Thrombin",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:9574"
+    },
+    {
+      "id": "c5385",
+      "geneNames": null,
+      "type": "compound",
+      "x": 363.5,
+      "y": 106.75,
+      "label": "Arachidonic acid",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:15843"
+    },
+    {
+      "id": "d1c0d",
+      "geneNames": null,
+      "type": "compound",
+      "x": 580.5,
+      "y": 215.5,
+      "label": "Prostacyclin",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:15552"
+    },
+    {
+      "id": "d879b",
+      "geneNames": null,
+      "type": "compound",
+      "x": 273.0,
+      "y": 410.75,
+      "label": "Prothrombin",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:8583"
+    },
+    {
+      "id": "d8c6e",
+      "geneNames": [
+        "Fibrinogen"
+      ],
+      "type": "gene_protein",
+      "x": 393.0,
+      "y": 523.75,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q381899"
+    },
+    {
+      "id": "dd27b",
+      "geneNames": null,
+      "type": "compound",
+      "x": 567.5,
+      "y": 467.0,
+      "label": "Vitamin K",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:28384"
+    },
+    {
+      "id": "e4fda",
+      "geneNames": null,
+      "type": "compound",
+      "x": 363.5,
+      "y": 365.8141884328358,
+      "label": "Thromboxane A2",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:15627"
+    },
+    {
+      "id": "ebbba",
+      "geneNames": null,
+      "type": "compound",
+      "x": 567.5,
+      "y": 523.75,
+      "label": "Fibrin",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:5054"
+    },
+    {
+      "id": "f884e",
+      "geneNames": null,
+      "type": "compound",
+      "x": 263.90709421641793,
+      "y": 171.09290578358213,
+      "label": "NSAIDs",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:35475"
+    },
+    {
+      "id": "e6eab",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 208.5,
+      "y": 112.25,
+      "label": "Eicosanoid\nsynthesis",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP167"
+    },
+    {
+      "id": "b1324",
+      "geneNames": null,
+      "type": "misc",
+      "x": 805.5000000000001,
+      "y": 286.75,
+      "label": "Causes vasoconstriction",
+      "groupId": "a30b8"
+    },
+    {
+      "id": "b1c2b",
+      "geneNames": null,
+      "type": "misc",
+      "x": 805.5,
+      "y": 227.75,
+      "label": "Inhibits platelet aggregation",
+      "groupId": "ee22e"
+    },
+    {
+      "id": "b5d04",
+      "geneNames": null,
+      "type": "misc",
+      "x": 805.5000000000001,
+      "y": 321.0,
+      "label": "Stimulates platelet aggregation",
+      "groupId": "a30b8"
+    },
+    {
+      "id": "b9541",
+      "geneNames": null,
+      "type": "misc",
+      "x": 805.5,
+      "y": 200.25,
+      "label": "Causes vasodilation",
+      "groupId": "ee22e"
+    },
+    {
+      "id": "a30b8",
+      "type": "group",
+      "components": [
+        "b1324",
+        "b5d04"
+      ]
+    },
+    {
+      "id": "ee22e",
+      "type": "group",
+      "components": [
+        "b1c2b",
+        "b9541"
+      ]
+    }
+  ]
+}

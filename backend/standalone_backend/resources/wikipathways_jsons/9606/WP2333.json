@@ -1,0 +1,606 @@
+{
+  "pathway": {
+    "name": "WP2333",
+    "org": "Homo sapiens",
+    "title": "Trans-sulfuration pathway"
+  },
+  "links": [
+    {
+      "id": "id6bfe5f0",
+      "sourceId": "efcf9",
+      "targetId": "d9e9e",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id3b7bc2b1",
+      "sourceId": "d9e9e",
+      "targetId": "b9024",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id22c33353",
+      "sourceId": "b9024",
+      "targetId": "b06c7",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idfeb7b36",
+      "sourceId": "b06c7",
+      "targetId": "efcf9",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id9750a6b6",
+      "sourceId": "efcf9",
+      "targetId": "ceaa1",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ide8f5fb1c",
+      "sourceId": "fd897",
+      "targetId": "ceaa1",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idfeb46347",
+      "sourceId": "ceaa1",
+      "targetId": "a0339",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ida3bea815",
+      "sourceId": "dd0cc",
+      "targetId": "a0339",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idd6f360b2",
+      "sourceId": "ceaa1",
+      "targetId": "e476f",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idbabd3c01",
+      "sourceId": "a5d51",
+      "targetId": "id3b7bc2b1",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "idcca84c72",
+      "sourceId": "ecd50",
+      "targetId": "id22c33353",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id8a4883cb",
+      "sourceId": "acdb9",
+      "targetId": "idfeb7b36",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id7a2e4a09",
+      "sourceId": "f121d",
+      "targetId": "id9750a6b6",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "idefd6ae3e",
+      "sourceId": "a3b9d",
+      "targetId": "idfeb46347",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "idb4f24a3",
+      "sourceId": "dc14e",
+      "targetId": "idd6f360b2",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id24147e29",
+      "sourceId": "eead3",
+      "targetId": "ida3bea815",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "e9eff",
+      "sourceId": "d6fbc",
+      "targetId": "ide8f5fb1c",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "d3548",
+      "sourceId": "id6bfe5f0",
+      "targetId": "a1188",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "d9d59",
+      "sourceId": "id6bfe5f0",
+      "targetId": "d42df",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "b29a0",
+      "sourceId": "ab3eb",
+      "targetId": "id6bfe5f0",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "d524f",
+      "sourceId": "id22c33353",
+      "targetId": "ca217",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "eba28",
+      "sourceId": "id22c33353",
+      "targetId": "a15ad",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "f48ea",
+      "sourceId": "id3b7bc2b1",
+      "targetId": "f0ce1",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "ae642",
+      "sourceId": "id3b7bc2b1",
+      "targetId": "c4fd6",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "d70c8",
+      "sourceId": "id3b7bc2b1",
+      "targetId": "c76b0",
+      "types": [
+        "conversion"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "d42df",
+      "geneNames": null,
+      "type": "compound",
+      "x": 146.90754313173653,
+      "y": 124.05223905561404,
+      "label": "Tetrahydrofolate (THF)",
+      "groupId": null,
+      "referenceDatabase": "KEGG Compound",
+      "referenceId": "C00101"
+    },
+    {
+      "id": "d9e9e",
+      "geneNames": null,
+      "type": "compound",
+      "x": 369.68894409791983,
+      "y": 122.95405512288895,
+      "label": "L-Methionine",
+      "groupId": null,
+      "referenceDatabase": "KEGG Compound",
+      "referenceId": "C00073"
+    },
+    {
+      "id": "a1188",
+      "geneNames": null,
+      "type": "compound",
+      "x": 159.82725148743498,
+      "y": 243.3976049529126,
+      "label": "5-Methyl-THF",
+      "groupId": null,
+      "referenceDatabase": "KEGG Compound",
+      "referenceId": "C00440"
+    },
+    {
+      "id": "efcf9",
+      "geneNames": null,
+      "type": "compound",
+      "x": 358.7491279516036,
+      "y": 243.39760495291256,
+      "label": "L-Homocysteine",
+      "groupId": null,
+      "referenceDatabase": "KEGG Compound",
+      "referenceId": "C00155"
+    },
+    {
+      "id": "b9024",
+      "geneNames": null,
+      "type": "compound",
+      "x": 634.9790675547099,
+      "y": 122.476688867745,
+      "label": "S-Adenosylmethionine (SAMe)",
+      "groupId": null,
+      "referenceDatabase": "KEGG Compound",
+      "referenceId": "C00019"
+    },
+    {
+      "id": "b06c7",
+      "geneNames": null,
+      "type": "compound",
+      "x": 634.9790675547099,
+      "y": 243.39760495291256,
+      "label": "S-Adenosylhomocysteine (SAH)",
+      "groupId": null,
+      "referenceDatabase": "KEGG Compound",
+      "referenceId": "C00021"
+    },
+    {
+      "id": "ceaa1",
+      "geneNames": null,
+      "type": "compound",
+      "x": 358.74912795160355,
+      "y": 345.476688867745,
+      "label": "L-Cysteine",
+      "groupId": null,
+      "referenceDatabase": "KEGG Compound",
+      "referenceId": "C00097"
+    },
+    {
+      "id": "a0339",
+      "geneNames": null,
+      "type": "compound",
+      "x": 358.7491279516036,
+      "y": 468.5595188936293,
+      "label": "Glutathione",
+      "groupId": null,
+      "referenceDatabase": "KEGG Compound",
+      "referenceId": "C00051"
+    },
+    {
+      "id": "e476f",
+      "geneNames": null,
+      "type": "compound",
+      "x": 560.9825188057888,
+      "y": 345.476688867745,
+      "label": "Taurine",
+      "groupId": null,
+      "referenceDatabase": "KEGG Compound",
+      "referenceId": "C00245"
+    },
+    {
+      "id": "dd0cc",
+      "geneNames": null,
+      "type": "compound",
+      "x": 195.6650037065648,
+      "y": 468.5595188936293,
+      "label": "L-Glutamate",
+      "groupId": null,
+      "referenceDatabase": "KEGG Compound",
+      "referenceId": "C00025"
+    },
+    {
+      "id": "fd897",
+      "geneNames": null,
+      "type": "compound",
+      "x": 158.9790675547098,
+      "y": 345.4766888677451,
+      "label": "Pyruvate",
+      "groupId": null,
+      "referenceDatabase": "KEGG Compound",
+      "referenceId": "C00022"
+    },
+    {
+      "id": "ab3eb",
+      "geneNames": [
+        "MTR"
+      ],
+      "type": "gene_protein",
+      "x": 312.696458859057,
+      "y": 187.72306567933921,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "4548",
+      "uniprotAccs": [
+        "Q99707"
+      ]
+    },
+    {
+      "id": "f0ce1",
+      "geneNames": null,
+      "type": "compound",
+      "x": 427.47906755470973,
+      "y": 59.045794895130896,
+      "label": "ATP",
+      "groupId": null,
+      "referenceDatabase": "KEGG Compound",
+      "referenceId": "C00002"
+    },
+    {
+      "id": "a5d51",
+      "geneNames": [
+        "MAT2B"
+      ],
+      "type": "gene_protein",
+      "x": 480.0442849460142,
+      "y": 175.91871785325233,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "27430",
+      "uniprotAccs": [
+        "Q9NZL9",
+        "A0A140VJP2"
+      ]
+    },
+    {
+      "id": "ca217",
+      "geneNames": null,
+      "type": "misc",
+      "x": 753.7689226271737,
+      "y": 161.476688867745,
+      "label": "DNA, proteins, metabolites",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "a15ad",
+      "geneNames": null,
+      "type": "misc",
+      "x": 753.7689226271738,
+      "y": 205.4187178532522,
+      "label": "Methylated products",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "ecd50",
+      "geneNames": [
+        "DNMT1"
+      ],
+      "type": "gene_protein",
+      "x": 554.9283429170295,
+      "y": 180.5708917662957,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "1786",
+      "uniprotAccs": [
+        "P26358",
+        "I6L9H2",
+        "Q59FP7"
+      ]
+    },
+    {
+      "id": "acdb9",
+      "geneNames": [
+        "AHCY"
+      ],
+      "type": "gene_protein",
+      "x": 495.2534420154519,
+      "y": 280.5776379617914,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "191",
+      "uniprotAccs": [
+        "P23526",
+        "A0A384MTQ3"
+      ]
+    },
+    {
+      "id": "a6a65",
+      "geneNames": [
+        "CBS"
+      ],
+      "type": "gene_protein",
+      "x": 286.3596956430013,
+      "y": 276.34833746405326,
+      "label": null,
+      "groupId": "f121d",
+      "referenceDatabase": "GeneID",
+      "referenceId": "875",
+      "uniprotAccs": [
+        "P35520",
+        "B7Z2D6",
+        "Q9NTF0"
+      ]
+    },
+    {
+      "id": "a7295",
+      "geneNames": [
+        "CTH"
+      ],
+      "type": "gene_protein",
+      "x": 286.3596956430014,
+      "y": 296.34833746405326,
+      "label": null,
+      "groupId": "f121d",
+      "referenceDatabase": "GeneID",
+      "referenceId": "1491",
+      "uniprotAccs": [
+        "P32929"
+      ]
+    },
+    {
+      "id": "a4cca",
+      "geneNames": [
+        "CTH"
+      ],
+      "type": "gene_protein",
+      "x": 247.05822262211353,
+      "y": 431.291423838097,
+      "label": null,
+      "groupId": "d6fbc",
+      "referenceDatabase": "GeneID",
+      "referenceId": "1491",
+      "uniprotAccs": [
+        "P32929"
+      ]
+    },
+    {
+      "id": "cd90d",
+      "geneNames": [
+        "GOT1"
+      ],
+      "type": "gene_protein",
+      "x": 247.05822262211348,
+      "y": 391.291423838097,
+      "label": null,
+      "groupId": "d6fbc",
+      "referenceDatabase": "GeneID",
+      "referenceId": "2805",
+      "uniprotAccs": [
+        "P17174",
+        "A0A140VK69"
+      ]
+    },
+    {
+      "id": "da022",
+      "geneNames": [
+        "MPST"
+      ],
+      "type": "gene_protein",
+      "x": 247.05822262211353,
+      "y": 411.291423838097,
+      "label": null,
+      "groupId": "d6fbc",
+      "referenceDatabase": "GeneID",
+      "referenceId": "4357",
+      "uniprotAccs": [
+        "P25325",
+        "A0A140VJX3"
+      ]
+    },
+    {
+      "id": "a3b9d",
+      "geneNames": [
+        "GCLM"
+      ],
+      "type": "gene_protein",
+      "x": 424.836272041336,
+      "y": 397.065127176632,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "2730",
+      "uniprotAccs": [
+        "P48507"
+      ]
+    },
+    {
+      "id": "dc14e",
+      "geneNames": [
+        "CSAD"
+      ],
+      "type": "gene_protein",
+      "x": 447.7627252569353,
+      "y": 311.29725582850153,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "51380",
+      "uniprotAccs": [
+        "Q9Y600",
+        "Q86V02",
+        "Q96JQ3"
+      ]
+    },
+    {
+      "id": "c4fd6",
+      "geneNames": null,
+      "type": "compound",
+      "x": 563.600056536909,
+      "y": 59.045794895130896,
+      "label": "ADP",
+      "groupId": null,
+      "referenceDatabase": "KEGG Compound",
+      "referenceId": "C00008"
+    },
+    {
+      "id": "eead3",
+      "geneNames": [
+        "GCLM"
+      ],
+      "type": "gene_protein",
+      "x": 267.98812708879086,
+      "y": 512.4439019824989,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "2730",
+      "uniprotAccs": [
+        "P48507"
+      ]
+    },
+    {
+      "id": "c76b0",
+      "geneNames": null,
+      "type": "compound",
+      "x": 563.600056536909,
+      "y": 79.04579489513087,
+      "label": "Phosphate",
+      "groupId": null,
+      "referenceDatabase": "KEGG Compound",
+      "referenceId": "C00009"
+    },
+    {
+      "id": "f121d",
+      "type": "group",
+      "components": [
+        "a6a65",
+        "a7295"
+      ]
+    },
+    {
+      "id": "d6fbc",
+      "type": "group",
+      "components": [
+        "a4cca",
+        "cd90d",
+        "da022"
+      ]
+    }
+  ]
+}

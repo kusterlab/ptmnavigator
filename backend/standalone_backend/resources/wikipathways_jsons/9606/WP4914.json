@@ -1,0 +1,411 @@
+{
+  "pathway": {
+    "name": "WP4914",
+    "org": "Homo sapiens",
+    "title": "Adverse outcome pathway for mitochondrial complex 1 (C1) inhibition"
+  },
+  "links": [
+    {
+      "id": "id1ca6e284",
+      "sourceId": "d7e86",
+      "targetId": "a1018",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id1f2f99a3",
+      "sourceId": "e80c1",
+      "targetId": "ee94d",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id2efc1a5d",
+      "sourceId": "ff5c5",
+      "targetId": "e9c7d",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id373a4425",
+      "sourceId": "e9c7d",
+      "targetId": "e80c1",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id453b8772",
+      "sourceId": "f0306",
+      "targetId": "f9989",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id66c576b4",
+      "sourceId": "ee94d",
+      "targetId": "d7e86",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id79dcba0e",
+      "sourceId": "a1c36",
+      "targetId": "c2234",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id8876c81f",
+      "sourceId": "e80c1",
+      "targetId": "f0306",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id8b551509",
+      "sourceId": "f9989",
+      "targetId": "a3880",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id94f52a78",
+      "sourceId": "d7e86",
+      "targetId": "a1c36",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id9fcf67cf",
+      "sourceId": "d7e86",
+      "targetId": "c8280",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ida102482d",
+      "sourceId": "f0306",
+      "targetId": "d7e86",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idb3e63201",
+      "sourceId": "f9989",
+      "targetId": "a1c36",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idb9a7d5a",
+      "sourceId": "c2234",
+      "targetId": "c99b3",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idd73300f2",
+      "sourceId": "f9989",
+      "targetId": "d7e86",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idea74115b",
+      "sourceId": "c8280",
+      "targetId": "bfab4",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idf6c24cf3",
+      "sourceId": "c4845",
+      "targetId": "e9c7d",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idf7526463",
+      "sourceId": "c2234",
+      "targetId": "e21ed",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idfff039f3",
+      "sourceId": "a3880",
+      "targetId": "c8280",
+      "types": [
+        "activation"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "a32fb",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 503.50038146972656,
+      "y": 653.0,
+      "label": "Autophagy",
+      "groupId": "d7e86",
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP4923"
+    },
+    {
+      "id": "b849e",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 503.50038146972656,
+      "y": 628.0,
+      "label": "Necrosis",
+      "groupId": "d7e86",
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP5022"
+    },
+    {
+      "id": "c2234",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 447.0,
+      "y": 864.4957983193273,
+      "label": "Degeneration of DA neurons \nof nigrostratial pathway",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP2855"
+    },
+    {
+      "id": "c4845",
+      "geneNames": null,
+      "type": "compound",
+      "x": 575.0,
+      "y": 153.0,
+      "label": "Deguelin",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:4357"
+    },
+    {
+      "id": "c8280",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 137.16386554621818,
+      "y": 865.5462184873948,
+      "label": "Decreased proximal tubule vectorial transport",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP4917"
+    },
+    {
+      "id": "c850d",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 502.0,
+      "y": 327.0,
+      "label": "Decreased mitochondrial oxidative phosphorylation",
+      "groupId": "e80c1",
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP111"
+    },
+    {
+      "id": "c99b3",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 447.0,
+      "y": 944.0,
+      "label": "Parkinsonian motor deficits",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP2371"
+    },
+    {
+      "id": "d4c18",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 503.50038146972656,
+      "y": 603.0,
+      "label": "Apoptosis",
+      "groupId": "d7e86",
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP1772"
+    },
+    {
+      "id": "da35a",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 503.50038146972656,
+      "y": 678.0,
+      "label": "Ferroptosis",
+      "groupId": "d7e86",
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP4313"
+    },
+    {
+      "id": "e21ed",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 640.1470588235293,
+      "y": 864.4957983193274,
+      "label": "Neuroinflammation",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP4919"
+    },
+    {
+      "id": "e9c7d",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 502.0,
+      "y": 224.0,
+      "label": "Inhibition of mitochondrial Complex I",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP4324"
+    },
+    {
+      "id": "ee94d",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 654.0,
+      "y": 469.3251037597656,
+      "label": "Increased ROS",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP3941"
+    },
+    {
+      "id": "f0306",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 313.99159663865504,
+      "y": 467.43697478991487,
+      "label": "Impaired proteostasis",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP4918"
+    },
+    {
+      "id": "f9989",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 315.1260504201679,
+      "y": 515.7563025210084,
+      "label": "UPR",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP4925"
+    },
+    {
+      "id": "ff5c5",
+      "geneNames": null,
+      "type": "compound",
+      "x": 426.0,
+      "y": 153.0,
+      "label": "Rotenone",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:28201"
+    },
+    {
+      "id": "a1018",
+      "geneNames": null,
+      "type": "misc",
+      "x": 831.0,
+      "y": 815.0,
+      "label": "Liver injury",
+      "groupId": null
+    },
+    {
+      "id": "a1c36",
+      "geneNames": null,
+      "type": "misc",
+      "x": 447.0,
+      "y": 815.0,
+      "label": "Brain injury",
+      "groupId": null
+    },
+    {
+      "id": "a3880",
+      "geneNames": null,
+      "type": "misc",
+      "x": 137.0,
+      "y": 815.0,
+      "label": "Kidney injury",
+      "groupId": null
+    },
+    {
+      "id": "b9baa",
+      "geneNames": null,
+      "type": "misc",
+      "x": 503.50038146972656,
+      "y": 578.0,
+      "label": "Cell death",
+      "groupId": "d7e86"
+    },
+    {
+      "id": "bfab4",
+      "geneNames": null,
+      "type": "misc",
+      "x": 136.99999999999997,
+      "y": 939.0,
+      "label": "Chemical induced Fanconi syndrome",
+      "groupId": null
+    },
+    {
+      "id": "ea6db",
+      "geneNames": null,
+      "type": "misc",
+      "x": 502.0,
+      "y": 352.0,
+      "label": "Decreased Na/K ATPase activity",
+      "groupId": "e80c1"
+    },
+    {
+      "id": "febd4",
+      "geneNames": null,
+      "type": "misc",
+      "x": 502.0,
+      "y": 302.0,
+      "label": "Mitochondrial dysfunction",
+      "groupId": "e80c1"
+    },
+    {
+      "id": "d7e86",
+      "type": "group",
+      "components": [
+        "a32fb",
+        "b849e",
+        "d4c18",
+        "da35a",
+        "b9baa"
+      ]
+    },
+    {
+      "id": "e80c1",
+      "type": "group",
+      "components": [
+        "c850d",
+        "ea6db",
+        "febd4"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,411 @@
+{
+  "pathway": {
+    "name": "WP4876",
+    "org": "Homo sapiens",
+    "title": "Activation of NLRP3 inflammasome by SARS-CoV-2"
+  },
+  "links": [
+    {
+      "id": "id37038832",
+      "sourceId": "d8fdf",
+      "targetId": "d3559",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id38c72c84",
+      "sourceId": "b43c2",
+      "targetId": "ed3f9",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id3a35678b",
+      "sourceId": "b6589",
+      "targetId": "id7ef1c6cf",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "id56c2671f",
+      "sourceId": "ae8f7",
+      "targetId": "dc151",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id7ef1c6cf",
+      "sourceId": "a2318",
+      "targetId": "b43c2",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "ida869b531",
+      "sourceId": "b6589",
+      "targetId": "a2e2a",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idaa5a11ed",
+      "sourceId": "d3559",
+      "targetId": "a1e57",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idad3dc034",
+      "sourceId": "b6589",
+      "targetId": "id56c2671f",
+      "types": [
+        "stimulation"
+      ]
+    },
+    {
+      "id": "ide57d0b2",
+      "sourceId": "b6589",
+      "targetId": "b9f3a",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ide5852d1c",
+      "sourceId": "b860a",
+      "targetId": "dd226",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ide9837dad",
+      "sourceId": "d72a0",
+      "targetId": "d3559",
+      "types": [
+        "transcription/translation"
+      ]
+    },
+    {
+      "id": "ed3f9",
+      "sourceId": "a1e57",
+      "targetId": "b860a",
+      "types": [
+        "conversion"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "d8fdf",
+      "geneNames": null,
+      "type": "compound",
+      "x": 217.51814882032676,
+      "y": 172.41379310344834,
+      "label": "Chloroquine",
+      "groupId": null,
+      "referenceDatabase": "Wikidata",
+      "referenceId": "Q422438"
+    },
+    {
+      "id": "dd226",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 458.0,
+      "y": 321.0,
+      "label": "Cytokine storm",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP5257"
+    },
+    {
+      "id": "efb77",
+      "geneNames": [
+        "TRAF3"
+      ],
+      "type": "gene_protein",
+      "x": 256.0,
+      "y": 84.0,
+      "label": null,
+      "groupId": "b6589",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000131323",
+      "uniprotAccs": [
+        "Q13114",
+        "A6NHG8",
+        "H0YL25",
+        "H0YL26",
+        "H0YMI8"
+      ]
+    },
+    {
+      "id": "e1fdf",
+      "geneNames": [
+        "NLRP3"
+      ],
+      "type": "gene_protein",
+      "x": 402.0,
+      "y": 70.0,
+      "label": null,
+      "groupId": "f1f54",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000162711",
+      "uniprotAccs": [
+        "A0A2R8YEG7",
+        "A0A7I2PJH0",
+        "A0A7I2PMC6",
+        "A0A7I2PRX0",
+        "A0A7I2R3P8",
+        "A0A7I2UNQ2",
+        "A0A7I2YME5"
+      ]
+    },
+    {
+      "id": "fe12b",
+      "geneNames": [
+        "RELA"
+      ],
+      "type": "gene_protein",
+      "x": 127.0,
+      "y": 159.0,
+      "label": null,
+      "groupId": "d72a0",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000173039",
+      "uniprotAccs": [
+        "Q04206",
+        "A0A087X0W8",
+        "E9PI38",
+        "E9PJR1",
+        "E9PJZ9",
+        "E9PKH5",
+        "E9PKV4",
+        "E9PM47",
+        "E9PMD5",
+        "E9PNK5",
+        "E9PNV4",
+        "E9PQS6",
+        "E9PRX2",
+        "E9PSE4",
+        "H0YCB4",
+        "Q2TAM5"
+      ]
+    },
+    {
+      "id": "dc151",
+      "geneNames": [
+        "NFKB1"
+      ],
+      "type": "gene_protein",
+      "x": 72.0,
+      "y": 159.0,
+      "label": null,
+      "groupId": "d72a0",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000109320",
+      "uniprotAccs": [
+        "P19838",
+        "A0A494C157",
+        "A0A494C1E9",
+        "A0A8V8TLB2",
+        "D6RC45",
+        "D6RH30"
+      ]
+    },
+    {
+      "id": "ae8f7",
+      "geneNames": [
+        "NFKB1 p105"
+      ],
+      "type": "gene_protein",
+      "x": 94.5,
+      "y": 79.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000109320",
+      "states": [
+        "Ub"
+      ],
+      "uniprotAccs": [
+        "P19838",
+        "A0A494C157",
+        "A0A494C1E9",
+        "A0A8V8TLB2",
+        "D6RC45",
+        "D6RH30"
+      ]
+    },
+    {
+      "id": "dc9ef",
+      "geneNames": [
+        "orf3a"
+      ],
+      "type": "gene_protein",
+      "x": 256.0,
+      "y": 109.0,
+      "label": null,
+      "groupId": "b6589",
+      "referenceDatabase": "RefSeq_Protein",
+      "referenceId": "YP_009724391",
+      "uniprotAccs": null
+    },
+    {
+      "id": "b860a",
+      "geneNames": [
+        "IL1B"
+      ],
+      "type": "gene_protein",
+      "x": 458.0,
+      "y": 256.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000125538",
+      "uniprotAccs": [
+        "P01584",
+        "C9JSC2",
+        "C9JVK0",
+        "C9JWV2"
+      ]
+    },
+    {
+      "id": "a1e57",
+      "geneNames": [
+        "pro-IL1B"
+      ],
+      "type": "gene_protein",
+      "x": 335.75,
+      "y": 256.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000125538",
+      "uniprotAccs": [
+        "P01584",
+        "C9JSC2",
+        "C9JVK0",
+        "C9JWV2"
+      ]
+    },
+    {
+      "id": "d3559",
+      "geneNames": [
+        "pro-IL1B"
+      ],
+      "type": "gene_protein",
+      "x": 199.75,
+      "y": 256.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000125538",
+      "uniprotAccs": [
+        "P01584",
+        "C9JSC2",
+        "C9JVK0",
+        "C9JWV2"
+      ]
+    },
+    {
+      "id": "bbb80",
+      "geneNames": [
+        "ASC"
+      ],
+      "type": "gene_protein",
+      "x": 402.0,
+      "y": 95.0,
+      "label": null,
+      "groupId": "f1f54",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000103490",
+      "states": [
+        "Ub"
+      ],
+      "uniprotAccs": [
+        "Q9ULZ3",
+        "H3BP42"
+      ]
+    },
+    {
+      "id": "b43c2",
+      "geneNames": [
+        "CASP1"
+      ],
+      "type": "gene_protein",
+      "x": 402.0,
+      "y": 204.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000137752",
+      "uniprotAccs": [
+        "P29466",
+        "A0A8Q3SI00",
+        "A0A8Q3SI67",
+        "A0A8Q3SIY2",
+        "B4DKN4",
+        "B4DVD8",
+        "G3V169",
+        "H0YEC7",
+        "Q5FBZ0"
+      ]
+    },
+    {
+      "id": "a2318",
+      "geneNames": [
+        "pro-CASP1"
+      ],
+      "type": "gene_protein",
+      "x": 402.0,
+      "y": 120.0,
+      "label": null,
+      "groupId": "f1f54",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000137752",
+      "uniprotAccs": [
+        "P29466",
+        "A0A8Q3SI00",
+        "A0A8Q3SI67",
+        "A0A8Q3SIY2",
+        "B4DKN4",
+        "B4DVD8",
+        "G3V169",
+        "H0YEC7",
+        "Q5FBZ0"
+      ]
+    },
+    {
+      "id": "b6589",
+      "type": "group",
+      "components": [
+        "efb77",
+        "dc9ef"
+      ]
+    },
+    {
+      "id": "d72a0",
+      "type": "group",
+      "components": [
+        "fe12b",
+        "dc151"
+      ]
+    },
+    {
+      "id": "f1f54",
+      "type": "group",
+      "components": [
+        "e1fdf",
+        "bbb80",
+        "a2318"
+      ]
+    }
+  ]
+}

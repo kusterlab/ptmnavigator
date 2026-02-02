@@ -20,6 +20,10 @@
  * @property {(sessionId: String, userDatasetIds: String, enrichmentTypeId: String) => Object} loadUserEnrichmentResults
  * @property {(projectId: String, experimentDesignIds: String) => Object} loadInternalDatabaseEnrichmentResults
  * @property {(curveIds: Array, isUserDataMode: Boolean) => Array} loadCurveData
+ //TODO: Make Object types more precise
+ * @property {(formData: FormData, params: Object) => Object} uploadDataset
+ * @property {(params: Object) => null } performUserDatasetEnrichment
+ * @property {(uuid: string, datasetId: number ) => null } deleteDataset
  */
 
 
@@ -128,6 +132,9 @@ export function apiValidator(api) {
         'loadUserEnrichmentResults',
         'loadInternalDatabaseEnrichmentResults',
         'loadCurveData',
+        'uploadDataset',
+        'performUserDatasetEnrichment',
+        'deleteDataset'
     ];
     return requiredMethods.every((method) => {
         const functionExists = typeof api[method] === 'function'

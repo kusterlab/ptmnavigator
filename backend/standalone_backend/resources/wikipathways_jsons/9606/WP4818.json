@@ -1,0 +1,220 @@
+{
+  "pathway": {
+    "name": "WP4818",
+    "org": "Homo sapiens",
+    "title": "Conversion of angiotensinogen to angiotensin II "
+  },
+  "links": [
+    {
+      "id": "d8a09",
+      "sourceId": "f10d3",
+      "targetId": "fa188",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "d3d99",
+      "sourceId": "de835",
+      "targetId": "c316c",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "deb83",
+      "sourceId": "ba517",
+      "targetId": "fa188",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "c316c",
+      "sourceId": "feba2",
+      "targetId": "bb607",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "ed3a4",
+      "sourceId": "f65c7",
+      "targetId": "fa188",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "aa4d2",
+      "sourceId": "f1858",
+      "targetId": "dd617",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "d5c9b",
+      "sourceId": "bcc22",
+      "targetId": "dd617",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "fa188",
+      "sourceId": "f7067",
+      "targetId": "bb607",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "dd617",
+      "sourceId": "feba2",
+      "targetId": "f7067",
+      "types": [
+        "conversion"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "f10d3",
+      "geneNames": [
+        "CMA1"
+      ],
+      "type": "gene_protein",
+      "x": 306.72516912135643,
+      "y": 256.90118286486984,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P23946",
+      "uniprotAccs": [
+        "P23946"
+      ]
+    },
+    {
+      "id": "feba2",
+      "geneNames": null,
+      "type": "compound",
+      "x": 195.0750226533636,
+      "y": 97.02781523526956,
+      "label": "Angiotensinogen",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:2720"
+    },
+    {
+      "id": "ba517",
+      "geneNames": [
+        "CTSG"
+      ],
+      "type": "gene_protein",
+      "x": 306.72516912135643,
+      "y": 220.49437637496086,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P08311",
+      "uniprotAccs": [
+        "P08311"
+      ]
+    },
+    {
+      "id": "f65c7",
+      "geneNames": [
+        "ACE"
+      ],
+      "type": "gene_protein",
+      "x": 83.93134244941365,
+      "y": 220.49437637496086,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000159640",
+      "uniprotAccs": [
+        "P12821",
+        "A0A0A0MSN4",
+        "J3KRH5",
+        "J3KS28",
+        "J3KSQ5",
+        "J3KTB8",
+        "J3KTH9",
+        "J3QLR4",
+        "J3QSC7"
+      ]
+    },
+    {
+      "id": "bb607",
+      "geneNames": null,
+      "type": "compound",
+      "x": 195.07502265336382,
+      "y": 296.8695247722693,
+      "label": "human angiotensin II",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:2719"
+    },
+    {
+      "id": "de835",
+      "geneNames": [
+        "CTSG"
+      ],
+      "type": "gene_protein",
+      "x": 468.1293044597023,
+      "y": 188.58628377503996,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P08311",
+      "uniprotAccs": [
+        "P08311"
+      ]
+    },
+    {
+      "id": "f1858",
+      "geneNames": [
+        "CTSD\n"
+      ],
+      "type": "gene_protein",
+      "x": 306.72516912135643,
+      "y": 132.31004840451618,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "A0A1B0GV23",
+      "uniprotAccs": [
+        "A0A1B0GV23"
+      ]
+    },
+    {
+      "id": "f7067",
+      "geneNames": null,
+      "type": "compound",
+      "x": 195.0750226533636,
+      "y": 178.94312983756478,
+      "label": "Angiotensin I",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:2718"
+    },
+    {
+      "id": "bcc22",
+      "geneNames": [
+        "REN"
+      ],
+      "type": "gene_protein",
+      "x": 83.93134244941365,
+      "y": 132.49999523231708,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "A0A1B0GUZ2",
+      "uniprotAccs": [
+        "A0A1B0GUZ2"
+      ]
+    }
+  ]
+}

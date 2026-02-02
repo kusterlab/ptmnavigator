@@ -1,0 +1,169 @@
+{
+  "pathway": {
+    "name": "WP4799",
+    "org": "Homo sapiens",
+    "title": "Downregulation of ACE2 by SARS-CoV-2 spike protein"
+  },
+  "links": [
+    {
+      "id": "id2567d541",
+      "sourceId": "d08ac",
+      "targetId": "b733a",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id5f17221c",
+      "sourceId": "b733a",
+      "targetId": "ee6b1",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id6c434c1e",
+      "sourceId": "ee6b1",
+      "targetId": "dd819",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "idbca35504",
+      "sourceId": "b733a",
+      "targetId": "ab2a6",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idc652beda",
+      "sourceId": "cfddc",
+      "targetId": "d051e",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "idc7eb7b47",
+      "sourceId": "ab2a6",
+      "targetId": "dd819",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "ide171a636",
+      "sourceId": "d051e",
+      "targetId": "b733a",
+      "types": [
+        "inhibition"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "dd819",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 193.66666666666697,
+      "y": 290.0,
+      "label": "Lung injury",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP5035"
+    },
+    {
+      "id": "ab2a6",
+      "geneNames": [
+        "AT1R"
+      ],
+      "type": "gene_protein",
+      "x": 156.33333333333366,
+      "y": 235.333333333333,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P30556",
+      "uniprotAccs": [
+        "P30556"
+      ]
+    },
+    {
+      "id": "b733a",
+      "geneNames": null,
+      "type": "compound",
+      "x": 195.00000000000028,
+      "y": 166.66666666666637,
+      "label": "Angiotensin II",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:2719"
+    },
+    {
+      "id": "cfddc",
+      "geneNames": [
+        "SARS-CoV-2 spike"
+      ],
+      "type": "gene_protein",
+      "x": 230.0,
+      "y": 61.749999999999744,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P0DTC2",
+      "uniprotAccs": [
+        "P0DTC2"
+      ]
+    },
+    {
+      "id": "d051e",
+      "geneNames": [
+        "ACE2"
+      ],
+      "type": "gene_protein",
+      "x": 230.0,
+      "y": 114.33333333333323,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "Q9BYF1",
+      "uniprotAccs": [
+        "Q9BYF1"
+      ]
+    },
+    {
+      "id": "d08ac",
+      "geneNames": [
+        "ACE"
+      ],
+      "type": "gene_protein",
+      "x": 160.00000000000026,
+      "y": 114.33333333333329,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "A0A0A0MSN4",
+      "uniprotAccs": [
+        "A0A0A0MSN4"
+      ]
+    },
+    {
+      "id": "ee6b1",
+      "geneNames": [
+        "AT2R"
+      ],
+      "type": "gene_protein",
+      "x": 230.83333333333283,
+      "y": 235.333333333333,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P50052",
+      "uniprotAccs": [
+        "P50052"
+      ]
+    }
+  ]
+}

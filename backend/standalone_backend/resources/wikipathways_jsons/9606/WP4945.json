@@ -1,0 +1,315 @@
+{
+  "pathway": {
+    "name": "WP4945",
+    "org": "Homo sapiens",
+    "title": "Mitochondrial complex I inhibition leading to parkinsonian motor deficits"
+  },
+  "links": [
+    {
+      "id": "id11e42338",
+      "sourceId": "bb999",
+      "targetId": "d9cbe",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "id1f1f0261",
+      "sourceId": "d3200",
+      "targetId": "b565d",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "id380dd692",
+      "sourceId": "c947f",
+      "targetId": "ab391",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "id5fc425a8",
+      "sourceId": "e5d09",
+      "targetId": "bf7e6",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "id8dacb654",
+      "sourceId": "ab512",
+      "targetId": "c9086",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "id8e425473",
+      "sourceId": "d3200",
+      "targetId": "a53f2",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "ida9da92d6",
+      "sourceId": "f2b4f",
+      "targetId": "c9086",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "idafee0e42",
+      "sourceId": "ec773",
+      "targetId": "eb123",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "idb9f189eb",
+      "sourceId": "b565d",
+      "targetId": "a53f2",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "b14a3",
+      "sourceId": "b9412",
+      "targetId": "b565d",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "c7e70",
+      "sourceId": "a53f2",
+      "targetId": "eb123",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "e2181",
+      "sourceId": "e374f",
+      "targetId": "b565d",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ae3d0",
+      "sourceId": "c9086",
+      "targetId": "bf7e6",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "d612f",
+      "sourceId": "eb123",
+      "targetId": "c9086",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "a1a60",
+      "sourceId": "bf7e6",
+      "targetId": "d9cbe",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "cbe84",
+      "sourceId": "bf7e6",
+      "targetId": "ab391",
+      "types": [
+        "activation"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "b565d",
+      "geneNames": null,
+      "type": "misc",
+      "x": 380.27314814814827,
+      "y": 176.75,
+      "label": "KE888: Binding of inhibitor, \nNADH-ubiquinone oxidoreductase (complex I)",
+      "groupId": null,
+      "referenceDatabase": "AOP-Wiki KE",
+      "referenceId": "888"
+    },
+    {
+      "id": "e374f",
+      "geneNames": null,
+      "type": "misc",
+      "x": 330.0,
+      "y": 79.0,
+      "label": "MMP+",
+      "groupId": null,
+      "referenceDatabase": "AOP-Wiki Stressor",
+      "referenceId": "222"
+    },
+    {
+      "id": "ec773",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 380.2731481481483,
+      "y": 350.1429765886289,
+      "label": "Decreased mitochondrial oxidative phosphorylation",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP111"
+    },
+    {
+      "id": "d3200",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 680.022312027746,
+      "y": 205.7107023411374,
+      "label": "Assembly of mitochondrial complex I",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP4324"
+    },
+    {
+      "id": "f2b4f",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 380.2731481481483,
+      "y": 480.4722222222212,
+      "label": "Impaired proteostasis",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP4918"
+    },
+    {
+      "id": "ab512",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 380.27314814814827,
+      "y": 505.4722222222212,
+      "label": "Unfolded Protein Response",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP4925"
+    },
+    {
+      "id": "b9412",
+      "geneNames": null,
+      "type": "misc",
+      "x": 444.0,
+      "y": 79.0,
+      "label": "Rotenone",
+      "groupId": null,
+      "referenceDatabase": "AOP-Wiki Stressor",
+      "referenceId": "50"
+    },
+    {
+      "id": "a53f2",
+      "geneNames": null,
+      "type": "misc",
+      "x": 380.27314814814827,
+      "y": 232.42282711652788,
+      "label": "KE887: Inhibition, \nNADH-ubiquinone oxidoreductase (complex I)",
+      "groupId": null,
+      "referenceDatabase": "AOP-Wiki KE",
+      "referenceId": "887"
+    },
+    {
+      "id": "eb123",
+      "geneNames": null,
+      "type": "misc",
+      "x": 380.27314814814827,
+      "y": 324.64297658862887,
+      "label": "KE177: N/A, Mitochondrial dysfunction 1",
+      "groupId": null,
+      "referenceDatabase": "AOP-Wiki KE",
+      "referenceId": "177"
+    },
+    {
+      "id": "c9086",
+      "geneNames": null,
+      "type": "misc",
+      "x": 380.27314814814827,
+      "y": 455.22222222222126,
+      "label": "KE889: Impaired, Proteostasis\n",
+      "groupId": null,
+      "referenceDatabase": "AOP-Wiki KE",
+      "referenceId": "889"
+    },
+    {
+      "id": "e5d09",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 380.2731481481483,
+      "y": 645.5972222222213,
+      "label": "Degeneration of DA neurons \nof nigrostratial pathway",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP2855"
+    },
+    {
+      "id": "bb999",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 380.27314814814827,
+      "y": 776.4722222222211,
+      "label": "Parkinsonian motor deficits",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP2371"
+    },
+    {
+      "id": "c947f",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 816.8592725500621,
+      "y": 639.7736576289198,
+      "label": "Neuroinflammation",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP4919"
+    },
+    {
+      "id": "ab391",
+      "geneNames": null,
+      "type": "misc",
+      "x": 816.8592725500621,
+      "y": 614.5236576289198,
+      "label": "KE188: N/A, Neuroinflammation",
+      "groupId": null,
+      "referenceDatabase": "AOP-Wiki KE",
+      "referenceId": "188"
+    },
+    {
+      "id": "bf7e6",
+      "geneNames": null,
+      "type": "misc",
+      "x": 380.27314814814827,
+      "y": 615.2222222222213,
+      "label": "KE890: Degeneration of dopaminergic neurons of the nigrostriatal pathway",
+      "groupId": null,
+      "referenceDatabase": "AOP-Wiki KE",
+      "referenceId": "890"
+    },
+    {
+      "id": "d9cbe",
+      "geneNames": null,
+      "type": "misc",
+      "x": 380.27314814814827,
+      "y": 751.2222222222213,
+      "label": "KE896: Parkinsonian motor deficits",
+      "groupId": null,
+      "referenceDatabase": "AOP-Wiki KE",
+      "referenceId": "896"
+    }
+  ]
+}

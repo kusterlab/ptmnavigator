@@ -1,0 +1,464 @@
+{
+  "pathway": {
+    "name": "WP3672",
+    "org": "Homo sapiens",
+    "title": "lncRNA-mediated mechanisms of therapeutic resistance"
+  },
+  "links": [
+    {
+      "id": "id2f22336e",
+      "sourceId": "bfa32",
+      "targetId": "ab9dc",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id346077f1",
+      "sourceId": "efe36",
+      "targetId": "a338e",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id3ae3a93d",
+      "sourceId": "fdf3a",
+      "targetId": "a7a65",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id4aaf4e61",
+      "sourceId": "ce83a",
+      "targetId": "f4c40",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id5f486e36",
+      "sourceId": "a8700",
+      "targetId": "dd467",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id6e247d6b",
+      "sourceId": "bec8f",
+      "targetId": "f416e",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id6f87634d",
+      "sourceId": "c9d23",
+      "targetId": "d1648",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id721b74a1",
+      "sourceId": "dbe60",
+      "targetId": "c2c9e",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "id80f38b4e",
+      "sourceId": "f4c40",
+      "targetId": "fdd89",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id8ca6ace4",
+      "sourceId": "a8700",
+      "targetId": "f2599",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ida306c88",
+      "sourceId": "f39a1",
+      "targetId": "d13c3",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ida9750c88",
+      "sourceId": "c2c9e",
+      "targetId": "f39a1",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idaf70dc8a",
+      "sourceId": "df657",
+      "targetId": "b2ab3",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idb06821ae",
+      "sourceId": "d8242",
+      "targetId": "fdf3a",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "idb27af6da",
+      "sourceId": "bec8f",
+      "targetId": "f7d9a",
+      "types": [
+        "inhibition"
+      ]
+    },
+    {
+      "id": "idbdec057a",
+      "sourceId": "ba68d",
+      "targetId": "d1648",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idf53064bd",
+      "sourceId": "f39a1",
+      "targetId": "fe140",
+      "types": [
+        "activation"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "a338e",
+      "geneNames": [
+        "WNT6"
+      ],
+      "type": "gene_protein",
+      "x": 184.0,
+      "y": 231.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000115596",
+      "uniprotAccs": [
+        "Q9Y6F9"
+      ]
+    },
+    {
+      "id": "a7a65",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 310.5,
+      "y": 314.0,
+      "label": "G0/G1 cell cycle arrest",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "ba68d",
+      "geneNames": [
+        "HIF1A"
+      ],
+      "type": "gene_protein",
+      "x": 827.0,
+      "y": 384.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000100644",
+      "uniprotAccs": [
+        "Q16665",
+        "A8MYV6"
+      ]
+    },
+    {
+      "id": "bec8f",
+      "geneNames": [
+        "MEG3"
+      ],
+      "type": "gene_protein",
+      "x": 474.0,
+      "y": 159.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000214548",
+      "uniprotAccs": null
+    },
+    {
+      "id": "bfa32",
+      "geneNames": [
+        "linc-RoR"
+      ],
+      "type": "gene_protein",
+      "x": 888.0,
+      "y": 159.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000258609",
+      "uniprotAccs": null
+    },
+    {
+      "id": "c2c9e",
+      "geneNames": [
+        "MRUL"
+      ],
+      "type": "gene_protein",
+      "x": 69.75,
+      "y": 231.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "d8242",
+      "geneNames": [
+        "HOTAIR"
+      ],
+      "type": "gene_protein",
+      "x": 310.6666666666665,
+      "y": 159.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000228630",
+      "uniprotAccs": null
+    },
+    {
+      "id": "dbe60",
+      "geneNames": [
+        "AK126698"
+      ],
+      "type": "gene_protein",
+      "x": 69.75,
+      "y": 159.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000203601",
+      "uniprotAccs": null
+    },
+    {
+      "id": "dd467",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 423.0,
+      "y": 370.0,
+      "label": "Apoptosis",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP254"
+    },
+    {
+      "id": "df657",
+      "geneNames": [
+        "linc-VLDLR"
+      ],
+      "type": "gene_protein",
+      "x": 604.0,
+      "y": 159.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "401491",
+      "uniprotAccs": null
+    },
+    {
+      "id": "efe36",
+      "geneNames": [
+        "UCA1"
+      ],
+      "type": "gene_protein",
+      "x": 184.33333333333343,
+      "y": 159.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000214049",
+      "uniprotAccs": null
+    },
+    {
+      "id": "f2599",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 519.0,
+      "y": 369.0,
+      "label": "Cell proliferation",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "f39a1",
+      "geneNames": [
+        "P-gp"
+      ],
+      "type": "gene_protein",
+      "x": 69.75,
+      "y": 314.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000085563",
+      "uniprotAccs": [
+        "P08183",
+        "E7EWT8"
+      ]
+    },
+    {
+      "id": "f416e",
+      "geneNames": [
+        "Bcl-xl"
+      ],
+      "type": "gene_protein",
+      "x": 507.0,
+      "y": 231.0,
+      "label": null,
+      "groupId": "a8700",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000171552",
+      "uniprotAccs": [
+        "Q07817",
+        "A0A7I2V597",
+        "Q5QP56",
+        "Q5QP59",
+        "Q5TE64",
+        "Q9H1R6"
+      ]
+    },
+    {
+      "id": "f7d9a",
+      "geneNames": [
+        "TP53"
+      ],
+      "type": "gene_protein",
+      "x": 439.0,
+      "y": 231.0,
+      "label": null,
+      "groupId": "a8700",
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000141510",
+      "uniprotAccs": [
+        "P04637",
+        "A0A087WT22",
+        "A0A087WXZ1",
+        "A0A087X1Q1",
+        "A0A0U1RQC9",
+        "E7EMR6",
+        "E7EQX7",
+        "E7ESS1",
+        "E9PCY9",
+        "E9PFT5",
+        "I3L0W9",
+        "J3KP33",
+        "S4R334"
+      ]
+    },
+    {
+      "id": "fdf3a",
+      "geneNames": [
+        "p21"
+      ],
+      "type": "gene_protein",
+      "x": 311.0,
+      "y": 231.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000124762",
+      "uniprotAccs": [
+        "P38936"
+      ]
+    },
+    {
+      "id": "ab9dc",
+      "geneNames": [
+        "EV linc-RoR"
+      ],
+      "type": "gene_protein",
+      "x": 888.0,
+      "y": 231.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000258609",
+      "uniprotAccs": null
+    },
+    {
+      "id": "b2ab3",
+      "geneNames": [
+        "EV linc-VLDLR"
+      ],
+      "type": "gene_protein",
+      "x": 604.0,
+      "y": 231.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "GeneID",
+      "referenceId": "401491",
+      "uniprotAccs": null
+    },
+    {
+      "id": "c9d23",
+      "geneNames": null,
+      "type": "misc",
+      "x": 651.5,
+      "y": 378.5,
+      "label": "Transporter\nexpression",
+      "groupId": null
+    },
+    {
+      "id": "d13c3",
+      "geneNames": null,
+      "type": "misc",
+      "x": 176.0,
+      "y": 374.0,
+      "label": "Impaired \ndrug \nexpulsion",
+      "groupId": null
+    },
+    {
+      "id": "d1648",
+      "geneNames": null,
+      "type": "misc",
+      "x": 748.0,
+      "y": 474.0,
+      "label": "Cell survival",
+      "groupId": null
+    },
+    {
+      "id": "fe140",
+      "geneNames": null,
+      "type": "misc",
+      "x": 69.75,
+      "y": 454.0,
+      "label": "Drug-resistant\ncancer cells",
+      "groupId": null
+    },
+    {
+      "id": "a8700",
+      "type": "group",
+      "components": [
+        "f416e",
+        "f7d9a"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,481 @@
+{
+  "pathway": {
+    "name": "WP2456",
+    "org": "Homo sapiens",
+    "title": "HIF1A and PPARG regulation of glycolysis"
+  },
+  "links": [
+    {
+      "id": "id13d212d5",
+      "sourceId": "e0189",
+      "targetId": "b7415",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id201e4513",
+      "sourceId": "c8c49",
+      "targetId": "cbf1a",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id42628fb5",
+      "sourceId": "fd536",
+      "targetId": "idcf5d956b",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id4a19b4a5",
+      "sourceId": "c08ef",
+      "targetId": "id201e4513",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id50b63ef1",
+      "sourceId": "f61c9",
+      "targetId": "ca0b3",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id5314678f",
+      "sourceId": "b01aa",
+      "targetId": "c8c49",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id6eb09df",
+      "sourceId": "abc1e",
+      "targetId": "a9466",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id7463f18c",
+      "sourceId": "ca0b3",
+      "targetId": "cac91",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id7c24d473",
+      "sourceId": "cac91",
+      "targetId": "e0189",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id80e188c9",
+      "sourceId": "b7415",
+      "targetId": "ad53d",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "id899dc601",
+      "sourceId": "a407f",
+      "targetId": "id5314678f",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id9cd2dc4b",
+      "sourceId": "abc1e",
+      "targetId": "a245b",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idac456373",
+      "sourceId": "bcd64",
+      "targetId": "a407f",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idb66880c0",
+      "sourceId": "bcd64",
+      "targetId": "abc1e",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idb93f64f5",
+      "sourceId": "ad53d",
+      "targetId": "cfb33",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idcf5d956b",
+      "sourceId": "ca0b3",
+      "targetId": "b01aa",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "idcfe2f12b",
+      "sourceId": "c1f5c",
+      "targetId": "f61c9",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "iddd7fd06d",
+      "sourceId": "f61c9",
+      "targetId": "b01aa",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "aab2e",
+      "sourceId": "a9466",
+      "targetId": "id7463f18c",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "e01bc",
+      "sourceId": "a245b",
+      "targetId": "id7c24d473",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "c33e8",
+      "sourceId": "a7d5d",
+      "targetId": "idcfe2f12b",
+      "types": [
+        "catalysis"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "a407f",
+      "geneNames": [
+        "GAPDH"
+      ],
+      "type": "gene_protein",
+      "x": 278.5,
+      "y": 291.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000111640",
+      "uniprotAccs": [
+        "P04406",
+        "E7EUT5"
+      ]
+    },
+    {
+      "id": "b01aa",
+      "geneNames": null,
+      "type": "compound",
+      "x": 217.0,
+      "y": 233.0,
+      "label": "Glyceraldehyde-\n3-phosphate",
+      "groupId": null,
+      "referenceDatabase": "KEGG Compound",
+      "referenceId": "C00118"
+    },
+    {
+      "id": "c08ef",
+      "geneNames": [
+        "LDHA"
+      ],
+      "type": "gene_protein",
+      "x": 278.5,
+      "y": 494.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000134333",
+      "uniprotAccs": [
+        "P00338",
+        "F5GWW2",
+        "F5GXC7",
+        "F5GXH2",
+        "F5GXU1",
+        "F5GXY2",
+        "F5GYU2",
+        "F5GZQ4",
+        "F5H5J4",
+        "F5H6W8",
+        "F5H8H6"
+      ]
+    },
+    {
+      "id": "c8c49",
+      "geneNames": null,
+      "type": "compound",
+      "x": 217.0,
+      "y": 449.0,
+      "label": "Pyruvate",
+      "groupId": null,
+      "referenceDatabase": "KEGG Compound",
+      "referenceId": "C00022"
+    },
+    {
+      "id": "cfb33",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 559.0,
+      "y": 750.0,
+      "label": "Myocardial Steatosis",
+      "groupId": null,
+      "referenceDatabase": "",
+      "referenceId": null
+    },
+    {
+      "id": "f61c9",
+      "geneNames": null,
+      "type": "compound",
+      "x": 391.0,
+      "y": 137.0,
+      "label": "Fructose-1,6-\nbiphosphate",
+      "groupId": null,
+      "referenceDatabase": "KEGG Compound",
+      "referenceId": "C05378"
+    },
+    {
+      "id": "fd536",
+      "geneNames": [
+        "TPI1"
+      ],
+      "type": "gene_protein",
+      "x": 387.50655021834064,
+      "y": 271.75982532751095,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000111669",
+      "uniprotAccs": [
+        "P60174",
+        "U3KPS5",
+        "U3KPZ0",
+        "U3KQF3"
+      ]
+    },
+    {
+      "id": "ca0b3",
+      "geneNames": null,
+      "type": "compound",
+      "x": 559.0,
+      "y": 232.0,
+      "label": "Dihydroxyacetone\nphosphate",
+      "groupId": null,
+      "referenceDatabase": "KEGG Compound",
+      "referenceId": "C00111"
+    },
+    {
+      "id": "cbf1a",
+      "geneNames": null,
+      "type": "compound",
+      "x": 217.0,
+      "y": 556.0,
+      "label": "Lactate",
+      "groupId": null,
+      "referenceDatabase": "KEGG Compound",
+      "referenceId": "C00186"
+    },
+    {
+      "id": "cac91",
+      "geneNames": null,
+      "type": "compound",
+      "x": 559.0,
+      "y": 346.5,
+      "label": "Glycerol-3-\nphosphate",
+      "groupId": null,
+      "referenceDatabase": "KEGG Compound",
+      "referenceId": "C00093"
+    },
+    {
+      "id": "e0189",
+      "geneNames": null,
+      "type": "compound",
+      "x": 559.0,
+      "y": 449.0,
+      "label": "Lysophosphatidate",
+      "groupId": null,
+      "referenceDatabase": "KEGG Compound",
+      "referenceId": "C00681"
+    },
+    {
+      "id": "ad53d",
+      "geneNames": null,
+      "type": "compound",
+      "x": 559.0,
+      "y": 659.0,
+      "label": "Triacylglycerol",
+      "groupId": null,
+      "referenceDatabase": "KEGG Compound",
+      "referenceId": "C00422"
+    },
+    {
+      "id": "b7415",
+      "geneNames": null,
+      "type": "compound",
+      "x": 559.0,
+      "y": 556.0,
+      "label": "Diacylglycerol",
+      "groupId": null,
+      "referenceDatabase": "KEGG Compound",
+      "referenceId": "C00165"
+    },
+    {
+      "id": "a9466",
+      "geneNames": [
+        "GPD1"
+      ],
+      "type": "gene_protein",
+      "x": 492.2467248908297,
+      "y": 291.68995633187774,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000167588",
+      "uniprotAccs": [
+        "P21695",
+        "F8VSE8"
+      ]
+    },
+    {
+      "id": "a245b",
+      "geneNames": [
+        "GPAT3"
+      ],
+      "type": "gene_protein",
+      "x": 495.74017467248905,
+      "y": 397.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000138678",
+      "uniprotAccs": [
+        "Q53EU6"
+      ]
+    },
+    {
+      "id": "c1f5c",
+      "geneNames": null,
+      "type": "compound",
+      "x": 391.0,
+      "y": 25.0,
+      "label": "Glucose",
+      "groupId": null,
+      "referenceDatabase": "KEGG Compound",
+      "referenceId": "C00031"
+    },
+    {
+      "id": "a7d5d",
+      "geneNames": [
+        "SLC2A1"
+      ],
+      "type": "gene_protein",
+      "x": 483.5,
+      "y": 54.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000117394",
+      "uniprotAccs": [
+        "P11166",
+        "A0A0D9SFK9",
+        "A0A0D9SG74",
+        "A0A1W2PQ59",
+        "A0A6Q8PFI8",
+        "A6NL68"
+      ]
+    },
+    {
+      "id": "abc1e",
+      "geneNames": [
+        "PPARG"
+      ],
+      "type": "gene_protein",
+      "x": 430.4366812227074,
+      "y": 348.87336244541484,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000132170",
+      "uniprotAccs": [
+        "P37231",
+        "A0A3P3ZKM0",
+        "A0A494C012",
+        "A0A494C0D9",
+        "A0A494C0T3",
+        "A0A499FIV4",
+        "A0A804HIG1",
+        "A0A804HJN2",
+        "A0A804HL89",
+        "A0A804HLH1",
+        "E7EU07",
+        "E7EUD1",
+        "E9PFV2",
+        "E9PFV3",
+        "E9PFX5",
+        "Q6L9M1"
+      ]
+    },
+    {
+      "id": "aa5a6",
+      "geneNames": [
+        "HIF1A"
+      ],
+      "type": "gene_protein",
+      "x": 486.0,
+      "y": 97.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000100644",
+      "uniprotAccs": [
+        "Q16665",
+        "A8MYV6"
+      ]
+    },
+    {
+      "id": "bcd64",
+      "geneNames": [
+        "HIF1A"
+      ],
+      "type": "gene_protein",
+      "x": 340.49344978165936,
+      "y": 348.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000100644",
+      "uniprotAccs": [
+        "Q16665",
+        "A8MYV6"
+      ]
+    }
+  ]
+}

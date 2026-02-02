@@ -1,0 +1,232 @@
+{
+  "pathway": {
+    "name": "WP2645",
+    "org": "Homo sapiens",
+    "title": "Heroin metabolism"
+  },
+  "links": [
+    {
+      "id": "c693b",
+      "sourceId": "cdf04",
+      "targetId": "cfe59",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "e047a",
+      "sourceId": "b4932",
+      "targetId": "c693b",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "b2a47",
+      "sourceId": "a5b38",
+      "targetId": "id3ad34204",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "ba6b3",
+      "sourceId": "cdf04",
+      "targetId": "be981",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "ab19c",
+      "sourceId": "fe3b3",
+      "targetId": "id3ad34204",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id294e530e",
+      "sourceId": "c446d",
+      "targetId": "idee25ceb0",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id3ad34204",
+      "sourceId": "cfe59",
+      "targetId": "be981",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id827ed290",
+      "sourceId": "ec2c5",
+      "targetId": "id295fda1b",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id8f564c1a",
+      "sourceId": "be981",
+      "targetId": "a7fb5",
+      "types": [
+        "activation"
+      ]
+    },
+    {
+      "id": "ide473476",
+      "sourceId": "c446d",
+      "targetId": "id3ad34204",
+      "types": [
+        "catalysis"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "a7fb5",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 362.4334054745662,
+      "y": 316.32211287607515,
+      "label": "morphine metabolism",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP1604"
+    },
+    {
+      "id": "b4932",
+      "geneNames": [
+        "Pseudo-ChE"
+      ],
+      "type": "gene_protein",
+      "x": 248.62682111242663,
+      "y": 22.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000114200",
+      "uniprotAccs": [
+        "P06276",
+        "F8WEX7",
+        "F8WF14",
+        "H0Y885",
+        "H7C4Y0"
+      ]
+    },
+    {
+      "id": "be981",
+      "geneNames": null,
+      "type": "compound",
+      "x": 362.4334054745662,
+      "y": 247.21573858557804,
+      "label": "morphine",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:17303"
+    },
+    {
+      "id": "c446d",
+      "geneNames": [
+        "CES1"
+      ],
+      "type": "gene_protein",
+      "x": 248.62682111242663,
+      "y": 196.31038879133942,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000198848",
+      "uniprotAccs": [
+        "P23141",
+        "H3BQR4",
+        "H3BQV8",
+        "H3BSU0"
+      ]
+    },
+    {
+      "id": "cdf04",
+      "geneNames": null,
+      "type": "compound",
+      "x": 146.79554539226234,
+      "y": 133.21573858557792,
+      "label": "heroin",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:27808"
+    },
+    {
+      "id": "cfe59",
+      "geneNames": null,
+      "type": "compound",
+      "x": 362.4334054745662,
+      "y": 133.21573858557792,
+      "label": "6-acetylmorphine",
+      "groupId": null,
+      "referenceDatabase": "PubChem-compound",
+      "referenceId": "5462507"
+    },
+    {
+      "id": "ec2c5",
+      "geneNames": [
+        "CES2"
+      ],
+      "type": "gene_protein",
+      "x": 246.62682111242663,
+      "y": 110.75483323578388,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000172831",
+      "uniprotAccs": [
+        "O00748",
+        "H3BUN5",
+        "J3QLP1",
+        "J3QSC0"
+      ]
+    },
+    {
+      "id": "a5b38",
+      "geneNames": [
+        "Pseudo-ChE"
+      ],
+      "type": "gene_protein",
+      "x": 463.6268211124266,
+      "y": 223.0,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000114200",
+      "uniprotAccs": [
+        "P06276",
+        "F8WEX7",
+        "F8WF14",
+        "H0Y885",
+        "H7C4Y0"
+      ]
+    },
+    {
+      "id": "fe3b3",
+      "geneNames": [
+        "CES2"
+      ],
+      "type": "gene_protein",
+      "x": 463.6268211124266,
+      "y": 164.75483323578385,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Ensembl",
+      "referenceId": "ENSG00000172831",
+      "uniprotAccs": [
+        "O00748",
+        "H3BUN5",
+        "J3QLP1",
+        "J3QSC0"
+      ]
+    }
+  ]
+}

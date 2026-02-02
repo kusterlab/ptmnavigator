@@ -1,0 +1,376 @@
+{
+  "pathway": {
+    "name": "WP5030",
+    "org": "Homo sapiens",
+    "title": "Ethylmalonic encephalopathy"
+  },
+  "links": [
+    {
+      "id": "id1322ee89",
+      "sourceId": "ideef6eb5",
+      "targetId": "id46adc116",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id215a41e4",
+      "sourceId": "a7bdc",
+      "targetId": "ideef6eb5",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id24f6121d",
+      "sourceId": "ecc0e",
+      "targetId": "ce78e",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id2f7cc295",
+      "sourceId": "a12b5",
+      "targetId": "f35aa",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id3ce278b7",
+      "sourceId": "ce78e",
+      "targetId": "ca6ab",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id41fe9008",
+      "sourceId": "id2f7cc295",
+      "targetId": "ab8c3",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id44ab7649",
+      "sourceId": "ce78e",
+      "targetId": "d405b",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id46adc116",
+      "sourceId": "f7372",
+      "targetId": "ef239",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "id4babbd10",
+      "sourceId": "a0fcf",
+      "targetId": "id46adc116",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "id52b72f01",
+      "sourceId": "bc24b",
+      "targetId": "id24f6121d",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "ida5e830de",
+      "sourceId": "d48f0",
+      "targetId": "id3ce278b7",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "idae955707",
+      "sourceId": "bfe9a",
+      "targetId": "iddbf01ee3",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "idda4e9351",
+      "sourceId": "cd2ed",
+      "targetId": "ideef6eb5",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "ide50d74a5",
+      "sourceId": "aa4a6",
+      "targetId": "id44ab7649",
+      "types": [
+        "catalysis"
+      ]
+    },
+    {
+      "id": "ideef6eb5",
+      "sourceId": "ab8c3",
+      "targetId": "ecc0e",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "idf0403983",
+      "sourceId": "id24f6121d",
+      "targetId": "a7bdc",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "f126b",
+      "sourceId": "ideef6eb5",
+      "targetId": "a2aca",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "iddbf01ee3",
+      "sourceId": "a0fcf",
+      "targetId": "a2aca",
+      "types": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "id23c47ad5",
+      "sourceId": "ecc0e",
+      "targetId": "id44ab7649",
+      "types": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "f68e1",
+      "sourceId": "id2f7cc295",
+      "targetId": "ce78e",
+      "types": [
+        "conversion"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "a0fcf",
+      "geneNames": null,
+      "type": "pathway",
+      "x": 577.4020300966308,
+      "y": 442.5805307770964,
+      "label": "OXPHOS \npathway",
+      "groupId": null,
+      "referenceDatabase": "WikiPathways",
+      "referenceId": "WP78"
+    },
+    {
+      "id": "a12b5",
+      "geneNames": null,
+      "type": "compound",
+      "x": 342.94212509667744,
+      "y": 33.64955816287909,
+      "label": "Cysteine",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:15356"
+    },
+    {
+      "id": "a2aca",
+      "geneNames": null,
+      "type": "compound",
+      "x": 399.0,
+      "y": 378.76119402985023,
+      "label": "Electron",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:10545"
+    },
+    {
+      "id": "aa4a6",
+      "geneNames": [
+        "Rhodanese"
+      ],
+      "type": "gene_protein",
+      "x": 676.5347298787219,
+      "y": 202.86483239809786,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "Q16762",
+      "uniprotAccs": [
+        "Q16762"
+      ]
+    },
+    {
+      "id": "ab8c3",
+      "geneNames": null,
+      "type": "compound",
+      "x": 247.0,
+      "y": 291.2388059701495,
+      "label": "H2S",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:16136"
+    },
+    {
+      "id": "bc24b",
+      "geneNames": [
+        "ETHE1"
+      ],
+      "type": "gene_protein",
+      "x": 366.7695700110253,
+      "y": 222.96626569468026,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "O95571",
+      "uniprotAccs": [
+        "O95571"
+      ]
+    },
+    {
+      "id": "bfe9a",
+      "geneNames": null,
+      "type": "compound",
+      "x": 431.7949283351709,
+      "y": 437.70937484572687,
+      "label": "CoEnzyme Q",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:46245"
+    },
+    {
+      "id": "cd2ed",
+      "geneNames": [
+        "SQR"
+      ],
+      "type": "gene_protein",
+      "x": 315.0,
+      "y": 410.17133735950847,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "EC",
+      "referenceId": "1.8.5.4",
+      "uniprotAccs": []
+    },
+    {
+      "id": "ce78e",
+      "geneNames": null,
+      "type": "compound",
+      "x": 491.0,
+      "y": 188.55612236502202,
+      "label": "SO3 2-\n(sulfite)",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:17359"
+    },
+    {
+      "id": "d48f0",
+      "geneNames": [
+        "SOX"
+      ],
+      "type": "gene_protein",
+      "x": 531.4873208379272,
+      "y": 126.55612236502157,
+      "label": null,
+      "groupId": null,
+      "referenceDatabase": "Uniprot",
+      "referenceId": "P51687",
+      "uniprotAccs": [
+        "P51687"
+      ]
+    },
+    {
+      "id": "ecc0e",
+      "geneNames": null,
+      "type": "compound",
+      "x": 469.2089552238807,
+      "y": 291.2388059701495,
+      "label": "R-SSH, example:\nS-sulfanylglutathione",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:58905"
+    },
+    {
+      "id": "f35aa",
+      "geneNames": null,
+      "type": "compound",
+      "x": 198.8805970149246,
+      "y": 127.8955223880599,
+      "label": "Pyruvate",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:32816"
+    },
+    {
+      "id": "f7372",
+      "geneNames": null,
+      "type": "compound",
+      "x": 527.8731343283572,
+      "y": 380.9662656946793,
+      "label": "O2",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:15379"
+    },
+    {
+      "id": "a7bdc",
+      "geneNames": null,
+      "type": "compound",
+      "x": 173.70507166482912,
+      "y": 337.92133735950847,
+      "label": "R, example:\nglutathione",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:57925"
+    },
+    {
+      "id": "ca6ab",
+      "geneNames": null,
+      "type": "compound",
+      "x": 646.0,
+      "y": 162.76119402985074,
+      "label": "SO4 2-\n(sulfate)",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:16189"
+    },
+    {
+      "id": "d405b",
+      "geneNames": null,
+      "type": "compound",
+      "x": 753.0,
+      "y": 291.2388059701495,
+      "label": "S2O3 2-\n(thiosulfate)",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:16094"
+    },
+    {
+      "id": "ef239",
+      "geneNames": null,
+      "type": "compound",
+      "x": 643.0970149253733,
+      "y": 378.7611940298502,
+      "label": "2 H2O",
+      "groupId": null,
+      "referenceDatabase": "ChEBI",
+      "referenceId": "CHEBI:15377"
+    }
+  ]
+}

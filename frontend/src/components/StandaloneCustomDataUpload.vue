@@ -226,12 +226,9 @@
                             Don't know what the input should look like?
                           </v-col>
                           <v-col class="shrink">
-                            <v-btn>
-                              TODO: Provide Examples or delete
+                            <v-btn :href=linkToExampleDatasets>
+                              Download Examples
                             </v-btn>
-                            <!--                            <v-btn :href="$store.state.host + '/proteomicsdb/logic/customUserData/examples/examples.zip'">-->
-                            <!--                              Download Examples-->
-                            <!--                            </v-btn>-->
                           </v-col>
                         </v-row>
                       </v-alert>
@@ -629,6 +626,7 @@ export default {
       uploadedDatasetMessage: '',
       uploadErrorMessage: '',
       deletedDatasetMessage: '',
+      linkToExampleDatasets: 'https://www.proteomicsdb.org/proteomicsdb/logic/customUserData/examples/examples.zip'
 
     }
   },
